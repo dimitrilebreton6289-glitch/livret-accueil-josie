@@ -1,0 +1,127 @@
+{
+  "Common": {
+    "back": "Back",
+    "menu": "Menu",
+    "close": "Close",
+    "copy": "Copy",
+    "copyPassword": "Copy password",
+    "copied": "Copied!",
+    "itinerary": "Directions",
+    "call": "Call",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "Nav": {
+    "appTitle": "Welcome guide",
+    "home": "Home",
+    "map": "Map",
+    "search": "Search",
+    "menuTitle": "Sections",
+    "language": "Language",
+    "sections": {
+      "arrivee": "Arrival info",
+      "depart": "Departure info",
+      "pratique": "Useful info",
+      "wifi": "WiFi",
+      "autour": "Around here",
+      "numeros": "Useful numbers"
+    },
+    "descriptions": {
+      "arrivee": "Access, parking, times",
+      "depart": "Instructions and times",
+      "pratique": "Good to know, rules, amenities",
+      "wifi": "Network and password",
+      "autour": "Sights, beaches, restaurants",
+      "numeros": "Contact and emergencies"
+    }
+  },
+  "Home": {
+    "directions": "Get me to the property",
+    "welcomeTitle": "A warm welcome",
+    "amenitiesTitle": "Amenities"
+  },
+  "Arrivee": {
+    "title": "Arrival info",
+    "horaire": "Arrival time slot",
+    "checkin": "Express check-in",
+    "parking": "Parking",
+    "bagages": "Luggage",
+    "decouverte": "Discovering the property",
+    "rdc": "Ground floor",
+    "etage": "Upstairs",
+    "exterieur": "Outdoors",
+    "inventaire": "Inventory / amenities"
+  },
+  "Depart": {
+    "title": "Departure info",
+    "horaire": "Departure time slot",
+    "instructions": "Departure instructions",
+    "poubelles": "Bins",
+    "menage": "Cleaning during your stay"
+  },
+  "Pratique": {
+    "title": "Useful info",
+    "aSavoir": "Good to know",
+    "electromenager": "Appliances",
+    "reglement": "House rules",
+    "poubelles": "Bins / recycling",
+    "animaux": "Pets",
+    "capacite": "{n, plural, =1 {# guest maximum} other {# guests maximum}}",
+    "nonFumeur": "Non-smoking property",
+    "fumeurOk": "Smoking allowed",
+    "animauxNon": "No pets allowed",
+    "animauxOui": "Pets allowed",
+    "evenementsNon": "No parties or events",
+    "evenementsOui": "Events allowed",
+    "tournagesOui": "Photography / filming allowed",
+    "tournagesNon": "Filming not allowed"
+  },
+  "Wifi": {
+    "title": "WiFi",
+    "network": "Network",
+    "password": "Password"
+  },
+  "Autour": {
+    "title": "Around here",
+    "tabMap": "Map",
+    "tabList": "Places",
+    "coupDeCoeur": "Our favourite",
+    "aPied": "A short walk away",
+    "mapHint": "Tap a marker to see the place.",
+    "placeCount": "{n, plural, =1 {# place} other {# places}}",
+    "categories": {
+      "culture": "Culture & Heritage",
+      "plages": "Beaches",
+      "nature": "Nature & walks",
+      "restaurants": "Restaurants",
+      "bars": "Bars & cafés",
+      "cinema": "Cinema & shows",
+      "loisirs": "Outings & leisure",
+      "commerces": "Shops & markets",
+      "transports": "Transport",
+      "courses": "Supermarkets & groceries",
+      "bouche": "Bakery & butcher",
+      "sante": "Pharmacies",
+      "laverie": "Launderettes",
+      "stations": "Petrol stations",
+      "tabac": "Tobacconist & press",
+      "nocturne": "Nightlife"
+    }
+  },
+  "Numeros": {
+    "title": "Useful numbers",
+    "contact": "Your contact",
+    "urgences": "Emergencies",
+    "samu": "Ambulance",
+    "police": "Police",
+    "pompiers": "Fire brigade",
+    "europeen": "Emergencies (Europe)"
+  },
+  "Search": {
+    "title": "Search",
+    "placeholder": "Search the guide…",
+    "empty": "Type a word to search (WiFi, beach, parking…).",
+    "noResults": "No results for “{query}”."
+  }
+}

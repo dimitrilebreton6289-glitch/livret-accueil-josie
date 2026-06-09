@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Josie">
+  <circle cx="60" cy="60" r="60" fill="#D75C45"/>
+  <g fill="none" stroke="#FAF3EA" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- boucles d'oreilles en forme de clé -->
+    <circle cx="17.5" cy="70" r="3"/>
+    <path d="M17.5 73 v7 M15.5 79 h4 M15.5 82 h3"/>
+    <circle cx="102.5" cy="70" r="3"/>
+    <path d="M102.5 73 v7 M100.5 79 h4 M100.5 82 h3"/>
+  </g>
+  <!-- tête + chignon -->
+  <g fill="#FAF3EA">
+    <circle cx="60" cy="22" r="6.5"/>
+    <path d="M28 64 a32 31 0 0 1 64 0 v6 a32 30 0 0 1 -64 0 z"/>
+  </g>
+  <!-- traits du visage -->
+  <g fill="none" stroke="#D75C45" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- lunettes -->
+    <circle cx="46" cy="58" r="10.5"/>
+    <circle cx="74" cy="58" r="10.5"/>
+    <path d="M56.5 56 q3.5 -2 7 0"/>
+    <path d="M35.5 56 q-4 -1 -7.5 1"/>
+    <path d="M84.5 56 q4 -1 7.5 1"/>
+    <!-- yeux souriants -->
+    <path d="M41 58 q5 4 10 0"/>
+    <path d="M69 58 q5 4 10 0"/>
+    <!-- sourire -->
+    <path d="M50 76 q10 8 20 0"/>
+  </g>
+</svg>

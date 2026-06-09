@@ -1,0 +1,127 @@
+{
+  "Common": {
+    "back": "Retour",
+    "menu": "Menu",
+    "close": "Fermer",
+    "copy": "Copier",
+    "copyPassword": "Copier le mot de passe",
+    "copied": "Copié !",
+    "itinerary": "Itinéraire",
+    "call": "Appeler",
+    "open": "Ouvrir",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "Nav": {
+    "appTitle": "Livret d'accueil",
+    "home": "Accueil",
+    "map": "Carte",
+    "search": "Recherche",
+    "menuTitle": "Sections",
+    "language": "Langue",
+    "sections": {
+      "arrivee": "Infos arrivée",
+      "depart": "Infos départ",
+      "pratique": "Infos pratiques",
+      "wifi": "WiFi",
+      "autour": "Autour de moi",
+      "numeros": "Numéros utiles"
+    },
+    "descriptions": {
+      "arrivee": "Accès, parking, horaires",
+      "depart": "Instructions et horaires",
+      "pratique": "À savoir, règlement, équipements",
+      "wifi": "Réseau et mot de passe",
+      "autour": "Visites, plages, restaurants",
+      "numeros": "Contact et urgences"
+    }
+  },
+  "Home": {
+    "directions": "Me rendre au logement",
+    "welcomeTitle": "Mot d'accueil",
+    "amenitiesTitle": "Équipements"
+  },
+  "Arrivee": {
+    "title": "Infos arrivée",
+    "horaire": "Tranche horaire d'arrivée",
+    "checkin": "Checkin express",
+    "parking": "Parking",
+    "bagages": "Bagages",
+    "decouverte": "Découverte de l'hébergement",
+    "rdc": "Rez-de-chaussée",
+    "etage": "Étage",
+    "exterieur": "Extérieur",
+    "inventaire": "Inventaire / équipements"
+  },
+  "Depart": {
+    "title": "Infos départ",
+    "horaire": "Tranche horaire de départ",
+    "instructions": "Instructions de départ",
+    "poubelles": "Poubelles",
+    "menage": "Ménage en séjour"
+  },
+  "Pratique": {
+    "title": "Infos pratiques",
+    "aSavoir": "À savoir",
+    "electromenager": "Électroménager",
+    "reglement": "Règlement intérieur",
+    "poubelles": "Poubelles / tri",
+    "animaux": "Animaux",
+    "capacite": "{n, plural, =1 {# voyageur maximum} other {# voyageurs maximum}}",
+    "nonFumeur": "Logement non-fumeur",
+    "fumeurOk": "Fumeur autorisé",
+    "animauxNon": "Animaux non acceptés",
+    "animauxOui": "Animaux acceptés",
+    "evenementsNon": "Fêtes et événements interdits",
+    "evenementsOui": "Événements autorisés",
+    "tournagesOui": "Photographie / tournages autorisés",
+    "tournagesNon": "Tournages non autorisés"
+  },
+  "Wifi": {
+    "title": "WiFi",
+    "network": "Réseau",
+    "password": "Mot de passe"
+  },
+  "Autour": {
+    "title": "Autour de moi",
+    "tabMap": "Carte",
+    "tabList": "Adresses",
+    "coupDeCoeur": "Coup de cœur",
+    "aPied": "À deux pas (à pied)",
+    "mapHint": "Touchez un marqueur pour voir le lieu.",
+    "placeCount": "{n, plural, =1 {# lieu} other {# lieux}}",
+    "categories": {
+      "culture": "Culture & Patrimoine",
+      "plages": "Plages",
+      "nature": "Nature & balades",
+      "restaurants": "Restaurants",
+      "bars": "Bars & cafés",
+      "cinema": "Cinéma & spectacles",
+      "loisirs": "Sorties & loisirs",
+      "commerces": "Commerces & marchés",
+      "transports": "Transports",
+      "courses": "Supermarchés & courses",
+      "bouche": "Boulangerie & boucherie",
+      "sante": "Pharmacies",
+      "laverie": "Laveries",
+      "stations": "Stations-service",
+      "tabac": "Tabac & presse",
+      "nocturne": "Vie nocturne"
+    }
+  },
+  "Numeros": {
+    "title": "Numéros utiles",
+    "contact": "Votre contact",
+    "urgences": "Urgences",
+    "samu": "SAMU",
+    "police": "Police",
+    "pompiers": "Pompiers",
+    "europeen": "Urgences (Europe)"
+  },
+  "Search": {
+    "title": "Recherche",
+    "placeholder": "Rechercher dans le livret…",
+    "empty": "Tapez un mot pour rechercher (WiFi, plage, parking…).",
+    "noResults": "Aucun résultat pour « {query} »."
+  }
+}

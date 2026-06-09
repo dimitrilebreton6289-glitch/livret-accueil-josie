@@ -1,0 +1,127 @@
+{
+  "Common": {
+    "back": "Indietro",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "copy": "Copia",
+    "copyPassword": "Copia la password",
+    "copied": "Copiato!",
+    "itinerary": "Indicazioni",
+    "call": "Chiama",
+    "open": "Apri",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "Nav": {
+    "appTitle": "Guida di benvenuto",
+    "home": "Home",
+    "map": "Mappa",
+    "search": "Cerca",
+    "menuTitle": "Sezioni",
+    "language": "Lingua",
+    "sections": {
+      "arrivee": "Arrivo",
+      "depart": "Partenza",
+      "pratique": "Informazioni utili",
+      "wifi": "WiFi",
+      "autour": "Nei dintorni",
+      "numeros": "Numeri utili"
+    },
+    "descriptions": {
+      "arrivee": "Accesso, parcheggio, orari",
+      "depart": "Istruzioni e orari",
+      "pratique": "Da sapere, regole, dotazioni",
+      "wifi": "Rete e password",
+      "autour": "Visite, spiagge, ristoranti",
+      "numeros": "Contatto ed emergenze"
+    }
+  },
+  "Home": {
+    "directions": "Raggiungi l'alloggio",
+    "welcomeTitle": "Un caloroso benvenuto",
+    "amenitiesTitle": "Dotazioni"
+  },
+  "Arrivee": {
+    "title": "Arrivo",
+    "horaire": "Fascia oraria di arrivo",
+    "checkin": "Check-in express",
+    "parking": "Parcheggio",
+    "bagages": "Bagagli",
+    "decouverte": "Alla scoperta dell'alloggio",
+    "rdc": "Piano terra",
+    "etage": "Piano superiore",
+    "exterieur": "Esterno",
+    "inventaire": "Inventario / dotazioni"
+  },
+  "Depart": {
+    "title": "Partenza",
+    "horaire": "Fascia oraria di partenza",
+    "instructions": "Istruzioni per la partenza",
+    "poubelles": "Rifiuti",
+    "menage": "Pulizia durante il soggiorno"
+  },
+  "Pratique": {
+    "title": "Informazioni utili",
+    "aSavoir": "Da sapere",
+    "electromenager": "Elettrodomestici",
+    "reglement": "Regolamento interno",
+    "poubelles": "Rifiuti / raccolta differenziata",
+    "animaux": "Animali",
+    "capacite": "{n, plural, =1 {massimo # ospite} other {massimo # ospiti}}",
+    "nonFumeur": "Alloggio per non fumatori",
+    "fumeurOk": "È consentito fumare",
+    "animauxNon": "Animali non ammessi",
+    "animauxOui": "Animali ammessi",
+    "evenementsNon": "Feste ed eventi vietati",
+    "evenementsOui": "Eventi consentiti",
+    "tournagesOui": "Fotografia / riprese consentite",
+    "tournagesNon": "Riprese non consentite"
+  },
+  "Wifi": {
+    "title": "WiFi",
+    "network": "Rete",
+    "password": "Password"
+  },
+  "Autour": {
+    "title": "Nei dintorni",
+    "tabMap": "Mappa",
+    "tabList": "Luoghi",
+    "coupDeCoeur": "Il nostro preferito",
+    "aPied": "A pochi passi (a piedi)",
+    "mapHint": "Tocca un segnaposto per vedere il luogo.",
+    "placeCount": "{n, plural, =1 {# luogo} other {# luoghi}}",
+    "categories": {
+      "culture": "Cultura e patrimonio",
+      "plages": "Spiagge",
+      "nature": "Natura e passeggiate",
+      "restaurants": "Ristoranti",
+      "bars": "Bar e caffè",
+      "cinema": "Cinema e spettacoli",
+      "loisirs": "Uscite e tempo libero",
+      "commerces": "Negozi e mercati",
+      "transports": "Trasporti",
+      "courses": "Supermercati e spesa",
+      "bouche": "Panetteria e macelleria",
+      "sante": "Farmacie",
+      "laverie": "Lavanderie",
+      "stations": "Stazioni di servizio",
+      "tabac": "Tabaccheria e stampa",
+      "nocturne": "Vita notturna"
+    }
+  },
+  "Numeros": {
+    "title": "Numeri utili",
+    "contact": "Il tuo contatto",
+    "urgences": "Emergenze",
+    "samu": "Ambulanza",
+    "police": "Polizia",
+    "pompiers": "Vigili del fuoco",
+    "europeen": "Emergenze (Europa)"
+  },
+  "Search": {
+    "title": "Cerca",
+    "placeholder": "Cerca nella guida…",
+    "empty": "Digita una parola per cercare (WiFi, spiaggia, parcheggio…).",
+    "noResults": "Nessun risultato per «{query}»."
+  }
+}
