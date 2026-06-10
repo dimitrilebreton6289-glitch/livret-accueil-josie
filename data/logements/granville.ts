@@ -515,8 +515,14 @@ export const granville: Logement = {
         key: "tabac",
         lieux: [
           {
-            nom: "Bureaux de tabac & presse",
-            desc: "Plusieurs bureaux de tabac et de presse avenue Aristide Briand (près du logement) et rue Couraye.",
+            nom: "Le Calvaire — Bar Tabac Presse",
+            desc: "Avenue Aristide Briand, le bureau de tabac et presse le plus proche du logement : cigarettes, journaux, jeux et dépannage.",
+            coords: [48.837, -1.5828],
+          },
+          {
+            nom: "Tabac Presse — rue Couraye",
+            desc: "En allant vers le centre-ville, rue Couraye : tabac, presse et confiserie.",
+            coords: [48.8376, -1.5914],
           },
         ],
       },
