@@ -27,7 +27,7 @@ export const granville: Logement = {
   },
 
   arrivee: {
-    horaire: "À partir de 16h (départ flexible sur demande)",
+    horaire: "À partir de 16h",
     checkinExpress: [
       "Entrée indépendante, depuis une rue calme à sens unique",
       "Clés dans une boîte à clé sécurisée à code, près de l'entrée",
