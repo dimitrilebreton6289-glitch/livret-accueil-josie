@@ -1,10 +1,21 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, KeyRound, Car, Luggage, DoorOpen, ListChecks } from "lucide-react";
+import {
+  Clock,
+  KeyRound,
+  Car,
+  Luggage,
+  Sofa,
+  BedDouble,
+  Trees,
+} from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
-import Accordion from "@/components/Accordion";
+import HighlightCard from "@/components/HighlightCard";
+import InfoCard from "@/components/InfoCard";
+import SectionHeader from "@/components/SectionHeader";
+import CopyButton from "@/components/CopyButton";
 
 export default async function ArriveePage({
   params,
@@ -26,40 +37,54 @@ export default async function ArriveePage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
-        <Accordion icon={<Clock size={20} />} title={t("horaire")} defaultOpen>
-          {pick(arrivee.horaire, locale)}
-        </Accordion>
+        {/* Heure d'arrivée, en évidence */}
+        <HighlightCard
+          icon={Clock}
+          label={t("horaire")}
+          value={pick(arrivee.horaire, locale)}
+        />
 
-        <Accordion icon={<KeyRound size={20} />} title={t("checkin")}>
-          {pick(arrivee.checkinExpress, locale)}
-        </Accordion>
+        {/* Accès + code de la boîte à clé */}
+        <InfoCard icon={KeyRound} title={t("checkin")}>
+          <p>{pick(arrivee.checkinExpress, locale)}</p>
+          {arrivee.codeBoite && (
+            <div className="mt-3 flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
+              <div className="min-w-0">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted">
+                  {t("code")}
+                </p>
+                <p className="font-mono text-3xl font-extrabold tracking-[0.25em] text-terracotta-dark">
+                  {arrivee.codeBoite}
+                </p>
+              </div>
+              <CopyButton value={arrivee.codeBoite} />
+            </div>
+          )}
+        </InfoCard>
 
-        <Accordion icon={<Car size={20} />} title={t("parking")}>
+        {/* Parking & bagages */}
+        <InfoCard icon={Car} title={t("parking")}>
           {pick(arrivee.parking, locale)}
-        </Accordion>
-
-        <Accordion icon={<Luggage size={20} />} title={t("bagages")}>
+        </InfoCard>
+        <InfoCard icon={Luggage} title={t("bagages")}>
           {pick(arrivee.bagages, locale)}
-        </Accordion>
+        </InfoCard>
 
-        <Accordion icon={<DoorOpen size={20} />} title={t("decouverte")}>
-          <div className="space-y-3">
-            <div>
-              <p className="font-semibold text-terracotta-dark">{t("rdc")}</p>
-              <p>{pick(arrivee.decouverte.rdc, locale)}</p>
-            </div>
-            <div>
-              <p className="font-semibold text-terracotta-dark">{t("etage")}</p>
-              <p>{pick(arrivee.decouverte.etage, locale)}</p>
-            </div>
-            <div>
-              <p className="font-semibold text-terracotta-dark">{t("exterieur")}</p>
-              <p>{pick(arrivee.decouverte.exterieur, locale)}</p>
-            </div>
-          </div>
-        </Accordion>
+        {/* Découverte du logement, pièce par pièce */}
+        <SectionHeader>{t("decouverte")}</SectionHeader>
+        <InfoCard icon={Sofa} title={t("rdc")}>
+          {pick(arrivee.decouverte.rdc, locale)}
+        </InfoCard>
+        <InfoCard icon={BedDouble} title={t("etage")}>
+          {pick(arrivee.decouverte.etage, locale)}
+        </InfoCard>
+        <InfoCard icon={Trees} title={t("exterieur")}>
+          {pick(arrivee.decouverte.exterieur, locale)}
+        </InfoCard>
 
-        <Accordion icon={<ListChecks size={20} />} title={t("inventaire")}>
+        {/* Équipements */}
+        <SectionHeader>{t("inventaire")}</SectionHeader>
+        <InfoCard>
           <ul className="flex flex-wrap gap-2">
             {equipements.map((e) => (
               <li
@@ -70,7 +95,7 @@ export default async function ArriveePage({
               </li>
             ))}
           </ul>
-        </Accordion>
+        </InfoCard>
       </div>
     </>
   );

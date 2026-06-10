@@ -26,7 +26,8 @@ export const granville: Logement = {
   arrivee: {
     horaire: "À partir de 16h (départ flexible possible sur demande)",
     checkinExpress:
-      "L'accès se fait par une entrée indépendante, depuis une rue calme à sens unique. Les clés se trouvent dans une boîte à clé sécurisée à code. Code de la boîte : 4816.",
+      "L'accès se fait par une entrée indépendante, depuis une rue calme à sens unique. Les clés se trouvent dans une boîte à clé sécurisée à code, près de l'entrée.",
+    codeBoite: "4816",
     parking:
       "Stationnement gratuit et facile dans la rue, devant la maison ou à quelques mètres.",
     bagages:

@@ -82,6 +82,8 @@ export interface Logement {
   arrivee: {
     horaire: Tx;
     checkinExpress: Tx;
+    /** Code de la boîte à clé (affiché en évidence). Optionnel. */
+    codeBoite?: string;
     parking: Tx;
     bagages: Tx;
     decouverte: { rdc: Tx; etage: Tx; exterieur: Tx };

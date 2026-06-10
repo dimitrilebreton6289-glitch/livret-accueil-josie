@@ -45,6 +45,7 @@
     "title": "Infos arrivée",
     "horaire": "Tranche horaire d'arrivée",
     "checkin": "Checkin express",
+    "code": "Code de la boîte à clé",
     "parking": "Parking",
     "bagages": "Bagages",
     "decouverte": "Découverte de l'hébergement",

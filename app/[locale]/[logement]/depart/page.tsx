@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, ClipboardList, Trash2, Sparkles, Check } from "lucide-react";
+import { Clock, ClipboardList, Trash2, Sparkles } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
-import Accordion from "@/components/Accordion";
+import HighlightCard from "@/components/HighlightCard";
 import InfoCard from "@/components/InfoCard";
 
 export default async function DepartPage({
@@ -27,30 +27,34 @@ export default async function DepartPage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
+        {/* Heure de départ, en évidence */}
+        <HighlightCard
+          icon={Clock}
+          label={t("horaire")}
+          value={pick(depart.horaire, locale)}
+        />
+
+        {/* Checklist « avant de partir » */}
         <InfoCard icon={ClipboardList} title={t("instructions")}>
-          <ul className="space-y-2.5">
+          <ol className="space-y-3">
             {depart.instructions.map((step, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-terracotta-soft text-terracotta-dark">
-                  <Check size={15} />
+                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-terracotta text-sm font-bold text-white">
+                  {i + 1}
                 </span>
-                <span>{pick(step, locale)}</span>
+                <span className="pt-0.5">{pick(step, locale)}</span>
               </li>
             ))}
-          </ul>
+          </ol>
         </InfoCard>
 
-        <Accordion icon={<Clock size={20} />} title={t("horaire")} defaultOpen>
-          {pick(depart.horaire, locale)}
-        </Accordion>
-
-        <Accordion icon={<Trash2 size={20} />} title={t("poubelles")}>
+        {/* Poubelles & ménage */}
+        <InfoCard icon={Trash2} title={t("poubelles")}>
           {pick(pratique.poubelles, locale)}
-        </Accordion>
-
-        <Accordion icon={<Sparkles size={20} />} title={t("menage")}>
+        </InfoCard>
+        <InfoCard icon={Sparkles} title={t("menage")}>
           {pick(menageEnSejour, locale)}
-        </Accordion>
+        </InfoCard>
       </div>
     </>
   );

@@ -45,6 +45,7 @@
     "title": "Arrival info",
     "horaire": "Arrival time slot",
     "checkin": "Express check-in",
+    "code": "Key box code",
     "parking": "Parking",
     "bagages": "Luggage",
     "decouverte": "Discovering the property",
