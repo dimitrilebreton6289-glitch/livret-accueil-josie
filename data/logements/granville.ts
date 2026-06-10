@@ -43,8 +43,8 @@ export const granville: Logement = {
       ],
       etage: [
         "Palier avec vestiaire",
-        "Chambre 1 — lit 140×190",
-        "Chambre 2 — lit 140×190",
+        "Chambre 1 — lit 160×200",
+        "Chambre 2 — lit 160×200",
         "Salle de douche avec WC",
       ],
       exterieur: [

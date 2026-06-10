@@ -52,7 +52,8 @@
     "rdc": "Erdgeschoss",
     "etage": "Obergeschoss",
     "exterieur": "Außenbereich",
-    "inventaire": "Inventar / Ausstattung"
+    "inventaire": "Inventar / Ausstattung",
+    "video": "Video-Rundgang"
   },
   "Depart": {
     "title": "Abreise",

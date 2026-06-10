@@ -10,6 +10,7 @@ import SectionHeader from "@/components/SectionHeader";
 import CopyButton from "@/components/CopyButton";
 import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default async function ArriveePage({
   params,
@@ -74,6 +75,16 @@ export default async function ArriveePage({
         <InfoCard icon={Trees} title={t("exterieur")}>
           <Bullets items={arrivee.decouverte.exterieur} />
         </InfoCard>
+
+        {/* Visite en vidéo (si des vidéos sont fournies) */}
+        {logement.videos && logement.videos.length > 0 && (
+          <>
+            <SectionHeader>{t("video")}</SectionHeader>
+            {logement.videos.map((v, i) => (
+              <VideoEmbed key={i} url={v.url} title={pick(v.titre, locale)} />
+            ))}
+          </>
+        )}
 
         {/* Équipements */}
         <SectionHeader>{t("inventaire")}</SectionHeader>

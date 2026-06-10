@@ -80,6 +80,9 @@ export interface Logement {
 
   motAccueil: Tx;
 
+  /** Vidéos (visite, mode d'emploi…). URL YouTube, Vimeo ou fichier /public. */
+  videos?: { titre: Tx; url: string }[];
+
   arrivee: {
     horaire: Tx;
     /** Points d'accès, en liste à puces. */

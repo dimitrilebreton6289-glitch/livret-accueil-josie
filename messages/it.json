@@ -52,7 +52,8 @@
     "rdc": "Piano terra",
     "etage": "Piano superiore",
     "exterieur": "Esterno",
-    "inventaire": "Inventario / dotazioni"
+    "inventaire": "Inventario / dotazioni",
+    "video": "Visita in video"
   },
   "Depart": {
     "title": "Partenza",

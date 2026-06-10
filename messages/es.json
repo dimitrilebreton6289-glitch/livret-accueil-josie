@@ -52,7 +52,8 @@
     "rdc": "Planta baja",
     "etage": "Planta superior",
     "exterieur": "Exterior",
-    "inventaire": "Inventario / equipamiento"
+    "inventaire": "Inventario / equipamiento",
+    "video": "Visita en vídeo"
   },
   "Depart": {
     "title": "Salida",

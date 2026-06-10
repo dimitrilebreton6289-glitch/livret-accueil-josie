@@ -52,7 +52,8 @@
     "rdc": "Ground floor",
     "etage": "Upstairs",
     "exterieur": "Outdoors",
-    "inventaire": "Inventory / amenities"
+    "inventaire": "Inventory / amenities",
+    "video": "Video tour"
   },
   "Depart": {
     "title": "Departure info",

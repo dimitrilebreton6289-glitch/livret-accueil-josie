@@ -52,7 +52,8 @@
     "rdc": "Rez-de-chaussée",
     "etage": "Étage",
     "exterieur": "Extérieur",
-    "inventaire": "Inventaire / équipements"
+    "inventaire": "Inventaire / équipements",
+    "video": "Visite en vidéo"
   },
   "Depart": {
     "title": "Infos départ",
