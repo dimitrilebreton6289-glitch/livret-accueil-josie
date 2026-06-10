@@ -14,7 +14,7 @@ export const granville: Logement = {
   ville: "Granville",
   itineraire:
     "https://maps.google.com/?q=228+Rue+des+3+Cheminées+50400+Granville",
-  coords: [48.8367, -1.5959],
+  coords: [48.8369, -1.5798],
   cover: "/logements/granville/cover-granville.jpg",
   coverCredit: "Photo : Florian Pépellin / Wikimedia Commons — CC BY-SA 4.0",
 
@@ -138,11 +138,11 @@ export const granville: Logement = {
 
   quartier: {
     aPied: [
-      "Supérette (ouverte tous les jours)",
-      "Magasin bio",
+      "Lidl (~200 m)",
       "Boulangerie",
-      "Bar-tabac",
-      "Cave à vins",
+      "Pharmacie",
+      "Bureau de tabac",
+      "Supérette",
     ],
     note: "La plage et le centre-ville sont accessibles à pied en 15 à 20 minutes, ou en voiture.",
   },
@@ -154,43 +154,28 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "La Haute-Ville",
-            desc: "Cœur historique de la cité corsaire : ruelles pavées, remparts du XVe siècle et le plus beau point de vue sur la mer.",
+            desc: "Cœur historique de la cité corsaire : remparts, ruelles pavées, église Notre-Dame et panoramas sur la mer.",
             coords: [48.8358, -1.6005],
           },
           {
             nom: "Musée Christian Dior",
-            desc: "Villa Les Rhumbs, maison d'enfance du couturier, face à la mer. Expositions haute-couture et jardins suspendus. Fermé le mardi.",
+            desc: "Villa Les Rhumbs, maison d'enfance du couturier, face à la mer. Expositions haute-couture et jardins. Fermé le mardi.",
             coords: [48.8401, -1.5986],
           },
           {
             nom: "Musée d'Art moderne Richard Anacréon",
-            desc: "Au cœur de la Haute-Ville : peintures, livres et manuscrits du XXe siècle (Colette, Apollinaire…).",
+            desc: "Dans la Haute-Ville : peintures, livres et manuscrits du XXe siècle (Colette, Apollinaire…).",
             coords: [48.8362, -1.601],
           },
           {
             nom: "Musée d'Art et d'Histoire de Granville",
-            desc: "Installé dans l'ancien corps de garde de la Haute-Ville : histoire maritime et patrimoine de la cité corsaire.",
+            desc: "Dans l'ancien corps de garde de la Haute-Ville : histoire maritime et patrimoine de la cité corsaire.",
             coords: [48.836, -1.6018],
           },
-        ],
-      },
-      {
-        key: "plages",
-        lieux: [
           {
-            nom: "Plage du Plat Gousset",
-            desc: "La plage centrale, au pied de la vieille ville : promenade Belle Époque et piscine d'eau de mer à marée basse.",
-            coords: [48.8389, -1.5994],
-          },
-          {
-            nom: "Plage de Donville-les-Bains",
-            desc: "Grande plage de sable familiale, juste au nord de Granville. Baignade surveillée l'été.",
-            coords: [48.8455, -1.5969],
-          },
-          {
-            nom: "Plage de Saint-Pair-sur-Mer",
-            desc: "Charmante plage surveillée l'été (15 juin – 15 septembre), avec bassin de baignade à marée basse.",
-            coords: [48.8146, -1.578],
+            nom: "Office de Tourisme Granville Terre et Mer",
+            desc: "Près du port : idéal pour planifier excursions, sorties guidées et croisières.",
+            coords: [48.8371, -1.6007],
           },
         ],
       },
@@ -201,6 +186,11 @@ export const granville: Logement = {
             nom: "La Pointe du Roc",
             desc: "L'incontournable « Monaco du Nord » : phare, sémaphore, bunkers et vue sur les îles Chausey. Magnifique au coucher du soleil.",
             coords: [48.8336, -1.6105],
+          },
+          {
+            nom: "Parc du Val ès Fleurs",
+            desc: "Grand parc public verdoyant en plein cœur de Granville : balade nature, aires de jeux et petit parc animalier.",
+            coords: [48.8388, -1.592],
           },
           {
             nom: "Les îles Chausey",
@@ -220,32 +210,77 @@ export const granville: Logement = {
         ],
       },
       {
+        key: "plages",
+        lieux: [
+          {
+            nom: "Plage du Plat Gousset",
+            desc: "La plage centrale, au pied de la vieille ville : promenade Belle Époque et piscine d'eau de mer à marée basse.",
+            coords: [48.8389, -1.5994],
+          },
+          {
+            nom: "Plage de Hérel",
+            desc: "Juste à côté du port de plaisance, plus abritée. Pratique avant ou après une balade au port.",
+            coords: [48.8338, -1.602],
+          },
+          {
+            nom: "Plage de Donville-les-Bains",
+            desc: "Grande plage de sable familiale, juste au nord de Granville. Baignade surveillée l'été.",
+            coords: [48.8455, -1.5969],
+          },
+          {
+            nom: "Plage de Saint-Pair-sur-Mer",
+            desc: "Charmante plage surveillée l'été, avec bassin de baignade à marée basse.",
+            coords: [48.8146, -1.578],
+          },
+        ],
+      },
+      {
         key: "restaurants",
         lieux: [
           {
-            nom: "Edulis",
-            desc: "Table gastronomique — cuisine raffinée et créative du chef Jonathan Datin. Pour une grande occasion.",
-            coords: [48.8377, -1.5945],
+            nom: "Les Grands Vilains",
+            desc: "Rue des Juifs — adresse intimiste très bien notée, cuisine moderne et soignée.",
+            coords: [48.8382, -1.5997],
           },
           {
-            nom: "La Citadelle",
-            desc: "Ambiance bord de mer : plateaux de fruits de mer, huîtres de la Manche et homard de Chausey grillé.",
-            coords: [48.8347, -1.6],
+            nom: "L'Edulis",
+            desc: "Table bistronomique de référence, produits locaux et de la mer.",
+            coords: [48.8375, -1.5974],
           },
           {
-            nom: "Le P'tit Mareyeur",
-            desc: "Face au port de pêche : poissons, coquillages et crustacés ultra-frais, service en continu.",
-            coords: [48.834, -1.5998],
+            nom: "Le Jardin",
+            desc: "Rue Lecampion — belle adresse, plats frais dans un cadre agréable.",
+            coords: [48.8376, -1.5995],
           },
           {
-            nom: "Le 110",
-            desc: "Bistronomie fraîche et authentique, à deux pas du port et de la plage. Produits locaux de saison.",
-            coords: [48.8369, -1.5959],
+            nom: "Cabane sur mer",
+            desc: "Boulevard des Amiraux — huîtres et fruits de mer ultra-frais face au port.",
+            coords: [48.8357, -1.5975],
+          },
+        ],
+      },
+      {
+        key: "restorapide",
+        lieux: [
+          {
+            nom: "D'wich",
+            desc: "Rue des Juifs — sandwichs et encas haut de gamme faits maison, produits frais.",
+            coords: [48.8384, -1.5993],
           },
           {
-            nom: "Le Borsalino",
-            desc: "Près du port : décor soigné, jolie terrasse et accueil chaleureux.",
-            coords: [48.8345, -1.5995],
+            nom: "Good Burger",
+            desc: "Impasse Alsace-Lorraine — burgers gourmands, tout près du centre.",
+            coords: [48.8379, -1.5854],
+          },
+          {
+            nom: "Burgers N Brothers",
+            desc: "Rue du Conillot — réputé pour les meilleurs burgers artisanaux du coin.",
+            coords: [48.8401, -1.5632],
+          },
+          {
+            nom: "La Fabbrica",
+            desc: "Rue du Port — excellentes pizzas artisanales, à emporter ou sur le pouce.",
+            coords: [48.8359, -1.6052],
           },
         ],
       },
@@ -253,24 +288,34 @@ export const granville: Logement = {
         key: "bars",
         lieux: [
           {
+            nom: "7 Sens",
+            desc: "Rue Saint-Sauveur — bar à vins & tapas chaleureux, avec épicerie fine.",
+            coords: [48.8368, -1.5971],
+          },
+          {
+            nom: "Les Planches",
+            desc: "Café/bar sympa et bien placé pour se détendre en centre-ville.",
+            coords: [48.8385, -1.5977],
+          },
+          {
             nom: "La Rafale",
-            desc: "Bar convivial de la Haute-Ville : vins, bières, plus de trente rhums du monde et tapas.",
-            coords: [48.8352, -1.6008],
+            desc: "Place Cambernon (Haute-Ville) — bar d'ambiance culturel : planches, concerts réguliers.",
+            coords: [48.8376, -1.6038],
           },
           {
-            nom: "L'Octroi",
-            desc: "Au centre-ville : bières pression, cocktails, vins et bons cafés, dans une ambiance détendue.",
-            coords: [48.8372, -1.595],
+            nom: "Bar La Cale",
+            desc: "Face au port de plaisance — ambiance maritime décontractée, appréciée des locaux.",
+            coords: [48.8357, -1.5963],
           },
+        ],
+      },
+      {
+        key: "nocturne",
+        lieux: [
           {
-            nom: "Selene",
-            desc: "Bar à vins et cave dédiés aux vins naturels et biodynamiques (plus de 100 références).",
-            coords: [48.8368, -1.5952],
-          },
-          {
-            nom: "Chez Maguie",
-            desc: "Café, bar et restaurant chaleureux — une halte simple et sympathique pour tous les goûts.",
-            coords: [48.837, -1.5955],
+            nom: "Le Purple",
+            desc: "Place du Maréchal-Foch (complexe du Casino), face au Plat Gousset. Le club de la ville pour finir la nuit, généralement du jeudi au dimanche dès 22h30.",
+            coords: [48.8391, -1.5985],
           },
         ],
       },
@@ -279,12 +324,12 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "Cinéma Le Sélect",
-            desc: "Cinéma de centre-ville (3 salles, 3D), 7 boulevard d'Hauteserve. Films récents et art & essai.",
+            desc: "Cinéma de centre-ville (3 salles, 3D), boulevard d'Hauteserve. Films récents et art & essai.",
             coords: [48.8388, -1.5945],
           },
           {
             nom: "L'Archipel — Scène nationale",
-            desc: "Théâtre et salle de spectacles face à la mer : concerts, danse, théâtre et cirque toute la saison.",
+            desc: "La scène culturelle majeure de Granville : concerts, théâtre et danse toute l'année.",
             coords: [48.8378, -1.5965],
           },
         ],
@@ -293,9 +338,9 @@ export const granville: Logement = {
         key: "loisirs",
         lieux: [
           {
-            nom: "Stelsia Casino de Granville",
-            desc: "Casino du front de mer (place du Maréchal-Foch) : machines à sous, jeux et concerts. Bâtiment de 1911 classé.",
-            coords: [48.8385, -1.5975],
+            nom: "Casino de Granville",
+            desc: "Face à la mer au Plat Gousset (place du Maréchal-Foch) : jeux, animations et restaurant avec vue.",
+            coords: [48.8391, -1.5985],
           },
           {
             nom: "Roc des Curiosités — Musée & Aquarium",
@@ -315,16 +360,61 @@ export const granville: Logement = {
         ],
       },
       {
+        key: "bouche",
+        lieux: [
+          {
+            nom: "Boucherie Maison Marguery",
+            desc: "Rue Couraye — l'artisan boucher de référence à Granville, réputé pour ses viandes et préparations.",
+            coords: [48.8375, -1.5913],
+          },
+          {
+            nom: "Boucherie Terroir et Tradition (Vimond)",
+            desc: "Rue Couraye — très bonne boucherie-charcuterie artisanale.",
+            coords: [48.8373, -1.594],
+          },
+          {
+            nom: "Boulangerie Robert",
+            desc: "« La Flûte Gana » — boulangerie-pâtisserie traditionnelle, pain et viennoiseries.",
+            coords: [48.8372, -1.5951],
+          },
+          {
+            nom: "Boulangerie La Mascotte (Maison Savary)",
+            desc: "Pain, gâteaux et formules snacking le midi.",
+            coords: [48.8376, -1.5926],
+          },
+        ],
+      },
+      {
+        key: "courses",
+        lieux: [
+          {
+            nom: "Lidl",
+            desc: "Avenue Aristide Briand — le plus proche du logement, pratique et rapide.",
+            coords: [48.8362, -1.5823],
+          },
+          {
+            nom: "Carrefour City (rue Couraye)",
+            desc: "Courses d'appoint, ouvert tard et le dimanche matin.",
+            coords: [48.8377, -1.5911],
+          },
+          {
+            nom: "Carrefour City (Desmaisons)",
+            desc: "Autre supérette de proximité, près du port.",
+            coords: [48.8367, -1.5988],
+          },
+          {
+            nom: "E.Leclerc Granville",
+            desc: "Grand hypermarché de la zone commerciale (Yquelon), avec station-service. Pour les grosses courses.",
+            coords: [48.8399, -1.5503],
+          },
+        ],
+      },
+      {
         key: "commerces",
         lieux: [
           {
             nom: "Grand marché du samedi matin",
-            desc: "Le rendez-vous de la semaine, au Cours Jonville et sous les halles couvertes : produits de la mer, primeurs, fromages.",
-            coords: [48.8372, -1.5948],
-          },
-          {
-            nom: "Marché bio du mardi",
-            desc: "Marché de producteurs bio et locaux, le mardi après-midi (16h30–19h), Cours Jonville.",
+            desc: "Le rendez-vous de la semaine, au Cours Jonville et sous les halles : produits de la mer, primeurs, fromages, circuits courts.",
             coords: [48.8372, -1.5948],
           },
           {
@@ -339,7 +429,7 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "Gare SNCF de Granville",
-            desc: "Terminus de la ligne directe Paris-Montparnasse (~3h), Place Pierre Sémard.",
+            desc: "Ligne directe Paris-Montparnasse (~3h) et réseaux régionaux. Place Pierre Sémard.",
             coords: [48.8384, -1.5873],
           },
           {
@@ -349,72 +439,37 @@ export const granville: Logement = {
         ],
       },
       {
-        key: "courses",
-        lieux: [
-          {
-            nom: "Carrefour City",
-            desc: "Supérette de centre-ville, pratique pour les courses du quotidien.",
-            coords: [48.8367, -1.5988],
-          },
-          {
-            nom: "Utile",
-            desc: "Supérette de proximité, en centre-ville.",
-            coords: [48.8372, -1.5997],
-          },
-          {
-            nom: "Netto",
-            desc: "Supermarché à ~1 km (avec station-service) pour les courses plus importantes.",
-            coords: [48.8439, -1.5844],
-          },
-        ],
-      },
-      {
-        key: "bouche",
-        lieux: [
-          {
-            nom: "Boulangerie Robert",
-            desc: "Boulangerie-pâtisserie rue Couraye — la plus proche du logement.",
-            coords: [48.8372, -1.5951],
-          },
-          {
-            nom: "La Mie Câline",
-            desc: "Boulangerie & snacking, en centre-ville.",
-            coords: [48.8374, -1.5979],
-          },
-          {
-            nom: "La Mascotte",
-            desc: "Boulangerie-pâtisserie, rue Couraye.",
-            coords: [48.8376, -1.5926],
-          },
-          {
-            nom: "Boucherie Vimond",
-            desc: "Boucherie de quartier, à deux pas.",
-            coords: [48.8373, -1.594],
-          },
-          {
-            nom: "Boucherie Marguery",
-            desc: "Boucherie-charcuterie, rue Couraye.",
-            coords: [48.8375, -1.5913],
-          },
-        ],
-      },
-      {
         key: "sante",
         lieux: [
           {
-            nom: "Pharmacie 3000",
-            desc: "2-4 rue Couraye — la plus proche. Pharmacie de garde : composez le 3237.",
-            coords: [48.8371, -1.5972],
-          },
-          {
-            nom: "Pharmacie Centrale",
-            desc: "En plein centre-ville.",
-            coords: [48.8376, -1.5981],
+            nom: "Pharmacie Le Saint",
+            desc: "La plus proche du logement. Pharmacie de garde : composez le 3237.",
+            coords: [48.8379, -1.5853],
           },
           {
             nom: "Pharmacie de la Gare",
-            desc: "Avenue du Maréchal Leclerc, vers la gare.",
+            desc: "Avenue du Maréchal Leclerc, juste à côté de la gare.",
             coords: [48.8376, -1.5894],
+          },
+          {
+            nom: "Pharmacie Centrale",
+            desc: "Cours Jonville, en plein centre-ville.",
+            coords: [48.8376, -1.5981],
+          },
+        ],
+      },
+      {
+        key: "stations",
+        lieux: [
+          {
+            nom: "Station TotalEnergies",
+            desc: "Avenue de la Libération, à l'est de la ville.",
+            coords: [48.838, -1.5652],
+          },
+          {
+            nom: "Station E.Leclerc",
+            desc: "À l'hypermarché (Yquelon) : carburant souvent moins cher.",
+            coords: [48.8399, -1.5503],
           },
         ],
       },
@@ -423,23 +478,8 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "Le Salon Lavoir",
-            desc: "Laverie automatique en libre-service, en centre-ville.",
+            desc: "Laverie automatique en libre-service, en centre-ville. D'autres laveries se trouvent aussi avenue Aristide Briand, près du logement.",
             coords: [48.8369, -1.6002],
-          },
-        ],
-      },
-      {
-        key: "stations",
-        lieux: [
-          {
-            nom: "Station Netto",
-            desc: "Carburant au supermarché Netto, à ~1 km.",
-            coords: [48.8444, -1.5836],
-          },
-          {
-            nom: "Station Total",
-            desc: "Station-service Total, à l'est de la ville.",
-            coords: [48.838, -1.5652],
           },
         ],
       },
@@ -448,16 +488,7 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "Bureaux de tabac & presse",
-            desc: "Plusieurs bureaux de tabac et de presse en centre-ville (rue Couraye, rue Lecampion). Un bar-tabac se trouve aussi à deux pas du logement.",
-          },
-        ],
-      },
-      {
-        key: "nocturne",
-        lieux: [
-          {
-            nom: "Sortir le soir à Granville",
-            desc: "Granville reste paisible la nuit : l'ambiance se trouve surtout dans les bars de la Haute-Ville et du port (voir « Bars & cafés »). Pas de discothèque en ville.",
+            desc: "Plusieurs bureaux de tabac et de presse avenue Aristide Briand (près du logement) et rue Couraye.",
           },
         ],
       },

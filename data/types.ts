@@ -33,6 +33,7 @@ export type CategoryKey =
   | "plages"
   | "nature"
   | "restaurants"
+  | "restorapide"
   | "bars"
   | "cinema"
   | "loisirs"
