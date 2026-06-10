@@ -3,53 +3,57 @@
 import { useState } from "react";
 import { Menu, ArrowLeft } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 import SideMenu from "./SideMenu";
+import JosieAvatar from "./JosieAvatar";
 
 /**
  * En-tête fixe.
- * - variant "home" : avatar du logement + « Livret d'accueil » + menu.
+ * - variant "home" : logo Josie + « Livret d'accueil » + menu.
  * - variant "sub"  : flèche retour + titre de section centré + menu.
  */
 export default function Header({
   variant,
   base,
   title,
-  cover,
 }: {
   variant: "home" | "sub";
   base: string;
   title?: string;
-  cover?: string;
 }) {
   const t = useTranslations("Nav");
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Retour : revient à la page précédente (ex. l'écran « Autour de moi »
+  // après avoir ouvert une catégorie) ; sinon, retourne à l'accueil du livret.
+  const handleBack = () => {
+    if (typeof window !== "undefined" && window.history.length > 1) {
+      window.history.back();
+    } else {
+      router.push(base);
+    }
+  };
 
   return (
     <>
       <header className="sticky top-0 z-30 mx-auto flex h-16 max-w-[430px] items-center justify-between gap-3 border-b border-cream-deep/70 bg-cream/90 px-4 backdrop-blur">
         {variant === "home" ? (
           <div className="flex min-w-0 items-center gap-3">
-            {cover && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={cover}
-                alt=""
-                className="size-10 shrink-0 rounded-full object-cover ring-2 ring-white"
-              />
-            )}
+            <JosieAvatar size={40} className="shrink-0" />
             <span className="truncate font-display text-lg font-semibold text-terracotta-dark">
               {t("appTitle")}
             </span>
           </div>
         ) : (
-          <Link
-            href={base}
+          <button
+            type="button"
+            onClick={handleBack}
             aria-label={t("home")}
             className="flex size-10 shrink-0 items-center justify-center rounded-full bg-terracotta-soft text-terracotta-dark transition-soft active:scale-95"
           >
             <ArrowLeft size={20} />
-          </Link>
+          </button>
         )}
 
         {variant === "sub" && (

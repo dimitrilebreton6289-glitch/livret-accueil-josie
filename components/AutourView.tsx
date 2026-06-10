@@ -32,6 +32,8 @@ export interface PlaceVM {
   nom: string;
   desc: string;
   itineraire: string;
+  /** Distance à vol d'oiseau depuis le logement, ex. « ~1,2 km ». */
+  distance?: string;
 }
 
 export interface CategoryVM {
@@ -79,13 +81,13 @@ export default function AutourView({
 }) {
   const t = useTranslations("Autour");
   const tc = useTranslations("Common");
-  const [tab, setTab] = useState<"map" | "list">("map");
+  const [tab, setTab] = useState<"map" | "list">("list");
 
   return (
     <div className="px-4 py-4">
       {/* Bascule Carte / Adresses */}
       <div className="mb-4 flex rounded-full bg-cream-deep p-1">
-        {(["map", "list"] as const).map((key) => (
+        {(["list", "map"] as const).map((key) => (
           <button
             key={key}
             type="button"
@@ -156,7 +158,14 @@ export default function AutourView({
                     key={p.nom}
                     className="rounded-card bg-surface p-4 shadow-[0_2px_12px_rgba(58,46,41,0.06)]"
                   >
-                    <p className="font-bold text-ink">{p.nom}</p>
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="font-bold text-ink">{p.nom}</p>
+                      {p.distance && (
+                        <span className="mt-0.5 shrink-0 rounded-full bg-terracotta-soft px-2.5 py-0.5 text-xs font-bold text-terracotta-dark">
+                          {p.distance}
+                        </span>
+                      )}
+                    </div>
                     <p className="mt-1 text-[15px] leading-relaxed text-ink/80">
                       {p.desc}
                     </p>

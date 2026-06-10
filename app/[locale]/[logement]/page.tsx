@@ -25,7 +25,7 @@ export default async function HomePage({
 
   return (
     <>
-      <Header variant="home" base={base} cover={logement.cover} />
+      <Header variant="home" base={base} />
 
       <div className="animate-fade-rise px-4">
         {/* Photo de couverture */}

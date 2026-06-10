@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getLogement } from "@/data/logements";
-import { pick, mapsUrl } from "@/lib/content";
+import { pick, mapsUrl, haversineMeters, formatDistance } from "@/lib/content";
 import type { Lieu } from "@/data/types";
 import Header from "@/components/Header";
 import AutourView, {
@@ -35,6 +35,9 @@ export default async function AutourPage({
       nom: l.nom,
       desc: pick(l.desc, locale),
       itineraire: placeUrl(l),
+      distance: l.coords
+        ? `~${formatDistance(haversineMeters(logement.coords, l.coords))}`
+        : undefined,
     }));
 
   // Catégories dans l'ordre des données (on n'affiche que celles qui ont des lieux).
