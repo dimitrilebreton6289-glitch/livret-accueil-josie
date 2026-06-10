@@ -13,7 +13,7 @@ import {
   Moon,
 } from "lucide-react";
 import { getLogement } from "@/data/logements";
-import { pick } from "@/lib/content";
+import { pick, pickList } from "@/lib/content";
 import Header from "@/components/Header";
 import InfoCard from "@/components/InfoCard";
 import Bullets from "@/components/Bullets";
@@ -75,12 +75,12 @@ export default async function PratiquePage({
       <div className="animate-fade-rise space-y-3 px-4 py-4">
         {/* À savoir */}
         <InfoCard icon={Info} title={t("aSavoir")}>
-          <Bullets items={pratique.aSavoir} />
+          <Bullets items={pickList(pratique.aSavoir, locale)} />
         </InfoCard>
 
         {/* Électroménager */}
         <InfoCard icon={CookingPot} title={t("electromenager")}>
-          <Chips items={pratique.electromenager} />
+          <Chips items={pickList(pratique.electromenager, locale)} />
         </InfoCard>
 
         {/* Règlement intérieur */}

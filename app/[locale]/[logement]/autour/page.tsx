@@ -2,7 +2,13 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getLogement } from "@/data/logements";
-import { pick, mapsUrl, haversineMeters, formatDistance } from "@/lib/content";
+import {
+  pick,
+  pickList,
+  mapsUrl,
+  haversineMeters,
+  formatDistance,
+} from "@/lib/content";
 import type { Lieu } from "@/data/types";
 import Header from "@/components/Header";
 import AutourView, {
@@ -33,7 +39,7 @@ export default async function AutourPage({
 
   const toVM = (lieux: Lieu[]): PlaceVM[] =>
     lieux.map((l) => ({
-      nom: l.nom,
+      nom: pick(l.nom, locale),
       desc: pick(l.desc, locale),
       itineraire: placeUrl(l),
       distance: l.coords
@@ -52,7 +58,7 @@ export default async function AutourPage({
     .filter((l) => l.coords)
     .map((l) => ({
       coords: l.coords!,
-      nom: l.nom,
+      nom: pick(l.nom, locale),
       desc: pick(l.desc, locale),
       itineraire: placeUrl(l),
     }));
@@ -69,7 +75,7 @@ export default async function AutourPage({
             markers={markers}
             categories={categories}
             coupDeCoeur={pick(a.coupDeCoeur, locale)}
-            aPied={logement.quartier.aPied}
+            aPied={pickList(logement.quartier.aPied, locale)}
             aPiedNote={pick(logement.quartier.note, locale)}
           />
         </Suspense>

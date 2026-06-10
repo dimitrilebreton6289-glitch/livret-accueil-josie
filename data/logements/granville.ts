@@ -21,6 +21,9 @@ export const granville: Logement = {
   motAccueil: {
     fr: "Bienvenue dans cette maison à 800 m de la mer et du centre-ville ! Entièrement équipée, au calme et sans vis-à-vis, elle a tout pour un beau séjour. Bon séjour à Granville ! 🐚",
     en: "Welcome to this house, just 800 m from the sea and the town centre! Fully equipped, quiet and with no overlooking neighbours, it has everything for a lovely stay. Enjoy Granville! 🐚",
+    de: "Willkommen in diesem Haus, nur 800 m vom Meer und vom Stadtzentrum entfernt! Voll ausgestattet, ruhig und ohne Einsicht – es hat alles für einen schönen Aufenthalt. Schönen Aufenthalt in Granville! 🐚",
+    es: "¡Bienvenido a esta casa, a solo 800 m del mar y del centro! Totalmente equipada, tranquila y sin vistas de vecinos, lo tiene todo para una estancia estupenda. ¡Feliz estancia en Granville! 🐚",
+    it: "Benvenuti in questa casa, a soli 800 m dal mare e dal centro! Completamente attrezzata, tranquilla e senza dirimpettai, ha tutto per un bel soggiorno. Buon soggiorno a Granville! 🐚",
   },
 
   arrivee: {

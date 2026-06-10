@@ -1,14 +1,24 @@
 import type { Tx } from "@/data/types";
+import { CONTENT } from "@/data/i18n-content";
 
 /**
  * Choisit la bonne langue d'un texte traduisible.
- * - si c'est une chaîne → renvoyée telle quelle (français par défaut)
- * - si c'est un objet { fr, en, ... } → renvoie la langue demandée,
- *   sinon retombe sur le français.
+ * - chaîne FR → cherchée dans le dictionnaire de traductions du contenu
+ *   (data/i18n-content.ts) ; à défaut, renvoyée telle quelle.
+ * - objet { fr, en, ... } → renvoie la langue demandée, sinon le français.
  */
 export function pick(value: Tx, locale: string): string {
-  if (typeof value === "string") return value;
+  if (typeof value === "string") {
+    if (locale === "fr") return value;
+    const tr = CONTENT[value];
+    return tr?.[locale as "en" | "de" | "es" | "it"] ?? value;
+  }
   return value[locale as keyof typeof value] ?? value.fr;
+}
+
+/** Traduit chaque élément d'une liste de textes. */
+export function pickList(items: string[], locale: string): string[] {
+  return items.map((s) => pick(s, locale));
 }
 
 /** Lien d'itinéraire Google Maps vers une requête texte (nom de lieu, adresse). */

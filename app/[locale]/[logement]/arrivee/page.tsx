@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Clock, KeyRound, Car, Sofa, BedDouble, Trees } from "lucide-react";
 import { getLogement } from "@/data/logements";
-import { pick } from "@/lib/content";
+import { pick, pickList } from "@/lib/content";
 import Header from "@/components/Header";
 import HighlightCard from "@/components/HighlightCard";
 import InfoCard from "@/components/InfoCard";
@@ -41,7 +41,7 @@ export default async function ArriveePage({
 
         {/* Accès + code de la boîte à clé */}
         <InfoCard icon={KeyRound} title={t("checkin")}>
-          <Bullets items={arrivee.checkinExpress} />
+          <Bullets items={pickList(arrivee.checkinExpress, locale)} />
           {arrivee.codeBoite && (
             <div className="mt-4 flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
               <div className="min-w-0">
@@ -67,13 +67,13 @@ export default async function ArriveePage({
         {/* Découverte du logement, pièce par pièce */}
         <SectionHeader>{t("decouverte")}</SectionHeader>
         <InfoCard icon={Sofa} title={t("rdc")}>
-          <Bullets items={arrivee.decouverte.rdc} />
+          <Bullets items={pickList(arrivee.decouverte.rdc, locale)} />
         </InfoCard>
         <InfoCard icon={BedDouble} title={t("etage")}>
-          <Bullets items={arrivee.decouverte.etage} />
+          <Bullets items={pickList(arrivee.decouverte.etage, locale)} />
         </InfoCard>
         <InfoCard icon={Trees} title={t("exterieur")}>
-          <Bullets items={arrivee.decouverte.exterieur} />
+          <Bullets items={pickList(arrivee.decouverte.exterieur, locale)} />
         </InfoCard>
 
         {/* Visite en vidéo (si des vidéos sont fournies) */}
@@ -89,7 +89,7 @@ export default async function ArriveePage({
         {/* Équipements */}
         <SectionHeader>{t("inventaire")}</SectionHeader>
         <InfoCard>
-          <Chips items={equipements} />
+          <Chips items={pickList(equipements, locale)} />
         </InfoCard>
       </div>
     </>

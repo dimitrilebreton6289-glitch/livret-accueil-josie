@@ -39,12 +39,13 @@ export default async function RecherchePage({
   // Lieux « autour de moi ».
   for (const c of logement.autourDeMoi.categories) {
     for (const l of c.lieux) {
+      const nom = pick(l.nom, locale);
       const desc = pick(l.desc, locale);
       items.push({
-        title: l.nom,
+        title: nom,
         subtitle: tAutour(`categories.${c.key}`),
         href: `${base}/autour`,
-        haystack: `${l.nom} ${desc}`.toLowerCase(),
+        haystack: `${nom} ${desc}`.toLowerCase(),
       });
     }
   }
