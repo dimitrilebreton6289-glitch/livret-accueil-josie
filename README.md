@@ -138,6 +138,15 @@ imprimez-le pour l'afficher dans le logement.
 
 ---
 
+## Mises à jour (GitHub + Vercel)
+
+Le projet est hébergé sur **GitHub** (`dimitrilebreton6289-glitch/livret-accueil-josie`)
+et relié à **Vercel**. Chaque `git push` sur la branche `main` **déclenche
+automatiquement** la mise en ligne — aucun jeton nécessaire.
+
+Pour travailler depuis un autre ordinateur : `git clone` le dépôt, `npm install`,
+modifier, puis `git commit` + `git push`. Pensez à `git pull` avant de commencer.
+
 ## Évolutions prévues
 
 L'architecture est prête à brancher une base de données (Supabase) plus tard :
