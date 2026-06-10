@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getLogement } from "@/data/logements";
@@ -60,16 +61,18 @@ export default async function AutourPage({
     <>
       <Header variant="sub" base={base} title={t("title")} />
       <div className="animate-fade-rise">
-        <AutourView
-          center={logement.coords}
-          homeLabel={logement.nom}
-          itinerary={logement.itineraire}
-          markers={markers}
-          categories={categories}
-          coupDeCoeur={pick(a.coupDeCoeur, locale)}
-          aPied={logement.quartier.aPied}
-          aPiedNote={pick(logement.quartier.note, locale)}
-        />
+        <Suspense>
+          <AutourView
+            center={logement.coords}
+            homeLabel={logement.nom}
+            itinerary={logement.itineraire}
+            markers={markers}
+            categories={categories}
+            coupDeCoeur={pick(a.coupDeCoeur, locale)}
+            aPied={logement.quartier.aPied}
+            aPiedNote={pick(logement.quartier.note, locale)}
+          />
+        </Suspense>
       </div>
     </>
   );

@@ -14,13 +14,13 @@ export const granville: Logement = {
   ville: "Granville",
   itineraire:
     "https://maps.google.com/?q=228+Rue+des+3+Cheminées+50400+Granville",
-  coords: [48.8369, -1.5798],
+  coords: [48.8377, -1.5789],
   cover: "/logements/granville/cover-granville.jpg",
   coverCredit: "Photo : Florian Pépellin / Wikimedia Commons — CC BY-SA 4.0",
 
   motAccueil: {
-    fr: "Nous sommes ravis de vous accueillir dans cette maison à 800 m de la mer et du centre-ville. Entièrement équipée et joliment décorée, elle offre tout le confort pour profiter pleinement de la vie granvillaise — été comme hiver, dans un cadre calme et sans vis-à-vis. Bon séjour à Granville ! 🐚",
-    en: "We are delighted to welcome you to this house, just 800 m from the sea and the town centre. Fully equipped and beautifully decorated, it offers every comfort to fully enjoy life in Granville — summer and winter alike, in a quiet setting with no overlooking neighbours. Enjoy your stay! 🐚",
+    fr: "Bienvenue dans cette maison à 800 m de la mer et du centre-ville ! Entièrement équipée, au calme et sans vis-à-vis, elle a tout pour un beau séjour. Bon séjour à Granville ! 🐚",
+    en: "Welcome to this house, just 800 m from the sea and the town centre! Fully equipped, quiet and with no overlooking neighbours, it has everything for a lovely stay. Enjoy Granville! 🐚",
   },
 
   arrivee: {
@@ -288,6 +288,11 @@ export const granville: Logement = {
         key: "bars",
         lieux: [
           {
+            nom: "Brasserie du Stade",
+            desc: "Au coin de la rue, avenue des Matignon — café le matin, brasserie le midi, verre en fin de journée. Sans la voiture !",
+            coords: [48.8381, -1.5786],
+          },
+          {
             nom: "7 Sens",
             desc: "Rue Saint-Sauveur — bar à vins & tapas chaleureux, avec épicerie fine.",
             coords: [48.8368, -1.5971],
@@ -363,6 +368,11 @@ export const granville: Logement = {
         key: "bouche",
         lieux: [
           {
+            nom: "Boulangerie Pâtisserie Maison Gôtier",
+            desc: "Avenue des Matignon, à 3 min à pied — pain frais, viennoiseries du matin et formules sandwichs le midi.",
+            coords: [48.8379, -1.5777],
+          },
+          {
             nom: "Boucherie Maison Marguery",
             desc: "Rue Couraye — l'artisan boucher de référence à Granville, réputé pour ses viandes et préparations.",
             coords: [48.8375, -1.5913],
@@ -387,6 +397,11 @@ export const granville: Logement = {
       {
         key: "courses",
         lieux: [
+          {
+            nom: "CocciMarket",
+            desc: "Juste en face, rue du Vieux Moulin — supérette d'ultra-proximité pour les courses de dernière minute.",
+            coords: [48.8384, -1.5786],
+          },
           {
             nom: "Lidl",
             desc: "Avenue Aristide Briand — le plus proche du logement, pratique et rapide.",
@@ -413,6 +428,11 @@ export const granville: Logement = {
         key: "commerces",
         lieux: [
           {
+            nom: "La Cave Granvillaise",
+            desc: "Avenue des Matignon, à deux pas — bonne adresse de quartier pour de jolies bouteilles et des spécialités locales à offrir ou partager.",
+            coords: [48.8381, -1.5797],
+          },
+          {
             nom: "Grand marché du samedi matin",
             desc: "Le rendez-vous de la semaine, au Cours Jonville et sous les halles : produits de la mer, primeurs, fromages, circuits courts.",
             coords: [48.8372, -1.5948],
@@ -427,6 +447,11 @@ export const granville: Logement = {
       {
         key: "transports",
         lieux: [
+          {
+            nom: "Arrêts de bus « Stade Dior »",
+            desc: "À moins de 50 m, avenue des Matignon (deux arrêts) — pour rejoindre le centre-ville, le port ou la gare sans voiture.",
+            coords: [48.8378, -1.5785],
+          },
           {
             nom: "Gare SNCF de Granville",
             desc: "Ligne directe Paris-Montparnasse (~3h) et réseaux régionaux. Place Pierre Sémard.",
@@ -494,7 +519,7 @@ export const granville: Logement = {
       },
     ],
     coupDeCoeur:
-      "Fruits de mer & homard des îles Chausey : la grande spécialité de Granville, à déguster face au port.",
+      "Les fruits de mer et le homard des îles Chausey, LA spécialité de Granville : à déguster face au port, par exemple à la Cabane sur mer (voir Restaurants).",
   },
 
   numerosUtiles: {

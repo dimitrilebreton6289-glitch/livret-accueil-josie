@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import {
   Landmark,
   Waves,
@@ -83,7 +84,15 @@ export default function AutourView({
 }) {
   const t = useTranslations("Autour");
   const tc = useTranslations("Common");
-  const [tab, setTab] = useState<"map" | "list">("list");
+  const searchParams = useSearchParams();
+  // Par défaut « Adresses » ; l'onglet « Carte » de la barre du bas (?vue=carte)
+  // ouvre directement la carte.
+  const [tab, setTab] = useState<"map" | "list">(
+    searchParams.get("vue") === "carte" ? "map" : "list",
+  );
+  useEffect(() => {
+    setTab(searchParams.get("vue") === "carte" ? "map" : "list");
+  }, [searchParams]);
 
   return (
     <div className="px-4 py-4">

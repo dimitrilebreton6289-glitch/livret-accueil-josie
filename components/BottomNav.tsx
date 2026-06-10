@@ -13,7 +13,7 @@ export default function BottomNav({ base }: { base: string }) {
     [
       { href: base, icon: Home, label: t("home"), active: pathname === base },
       {
-        href: `${base}/autour`,
+        href: `${base}/autour?vue=carte`,
         icon: Map,
         label: t("map"),
         active: pathname.startsWith(`${base}/autour`),
