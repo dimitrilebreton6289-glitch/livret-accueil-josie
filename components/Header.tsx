@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Menu, ArrowLeft } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import SideMenu from "./SideMenu";
 import JosieAvatar from "./JosieAvatar";
 
@@ -39,12 +39,15 @@ export default function Header({
     <>
       <header className="sticky top-0 z-30 mx-auto flex h-16 max-w-[430px] items-center justify-between gap-3 border-b border-cream-deep/70 bg-cream/90 px-4 backdrop-blur">
         {variant === "home" ? (
-          <div className="flex min-w-0 items-center gap-3">
+          <Link
+            href={base}
+            className="flex min-w-0 items-center gap-3 transition-soft active:scale-95"
+          >
             <JosieAvatar size={40} className="shrink-0" />
             <span className="truncate font-display text-lg font-semibold text-terracotta-dark">
               {t("appTitle")}
             </span>
-          </div>
+          </Link>
         ) : (
           <button
             type="button"

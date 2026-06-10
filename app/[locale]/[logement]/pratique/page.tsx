@@ -15,7 +15,6 @@ import {
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
-import Accordion from "@/components/Accordion";
 import InfoCard from "@/components/InfoCard";
 
 export default async function PratiquePage({
@@ -72,13 +71,13 @@ export default async function PratiquePage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
-        <Accordion icon={<Info size={20} />} title={t("aSavoir")} defaultOpen>
+        <InfoCard icon={Info} title={t("aSavoir")}>
           {pick(pratique.aSavoir, locale)}
-        </Accordion>
+        </InfoCard>
 
-        <Accordion icon={<CookingPot size={20} />} title={t("electromenager")}>
+        <InfoCard icon={CookingPot} title={t("electromenager")}>
           {pick(pratique.electromenager, locale)}
-        </Accordion>
+        </InfoCard>
 
         <InfoCard icon={ScrollText} title={t("reglement")}>
           <ul className="space-y-2">
@@ -94,13 +93,13 @@ export default async function PratiquePage({
           </ul>
         </InfoCard>
 
-        <Accordion icon={<Trash2 size={20} />} title={t("poubelles")}>
+        <InfoCard icon={Trash2} title={t("poubelles")}>
           {pick(pratique.poubelles, locale)}
-        </Accordion>
+        </InfoCard>
 
-        <Accordion icon={<PawPrint size={20} />} title={t("animaux")}>
+        <InfoCard icon={PawPrint} title={t("animaux")}>
           {pick(pratique.animaux, locale)}
-        </Accordion>
+        </InfoCard>
       </div>
     </>
   );
