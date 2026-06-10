@@ -81,19 +81,23 @@ export interface Logement {
 
   arrivee: {
     horaire: Tx;
-    checkinExpress: Tx;
+    /** Points d'accès, en liste à puces. */
+    checkinExpress: string[];
     /** Code de la boîte à clé (affiché en évidence). Optionnel. */
     codeBoite?: string;
     parking: Tx;
     bagages: Tx;
-    decouverte: { rdc: Tx; etage: Tx; exterieur: Tx };
+    /** Contenu de chaque espace, en listes courtes. */
+    decouverte: { rdc: string[]; etage: string[]; exterieur: string[] };
   };
 
   wifi: { reseau: string; motDePasse: string };
 
   pratique: {
-    aSavoir: Tx;
-    electromenager: Tx;
+    /** Points « à savoir », en liste à puces. */
+    aSavoir: string[];
+    /** Électroménager, en étiquettes. */
+    electromenager: string[];
     reglementInterieur: ReglementInterieur;
     poubelles: Tx;
     animaux: Tx;

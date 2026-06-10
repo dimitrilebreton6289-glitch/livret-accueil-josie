@@ -24,20 +24,35 @@ export const granville: Logement = {
   },
 
   arrivee: {
-    horaire: "À partir de 16h (départ flexible possible sur demande)",
-    checkinExpress:
-      "L'accès se fait par une entrée indépendante, depuis une rue calme à sens unique. Les clés se trouvent dans une boîte à clé sécurisée à code, près de l'entrée.",
+    horaire: "À partir de 16h (départ flexible sur demande)",
+    checkinExpress: [
+      "Entrée indépendante, depuis une rue calme à sens unique",
+      "Clés dans une boîte à clé sécurisée à code, près de l'entrée",
+    ],
     codeBoite: "4816",
     parking:
       "Stationnement gratuit et facile dans la rue, devant la maison ou à quelques mètres.",
     bagages:
       "Dépôt de bagages possible avant l'arrivée ou après le départ, sur demande.",
     decouverte: {
-      rdc: 'Cuisine entièrement équipée, coin repas pour 4 personnes, salon avec TV 55" 4K The Frame, WC indépendant.',
-      etage:
-        "Palier avec vestiaire, chambre 1 (lit 140×190), chambre 2 (lit 140×190), salle de douche avec WC.",
-      exterieur:
-        "Espace privatif sans vis-à-vis avec table à manger, barbecue au charbon de bois et salon de jardin.",
+      rdc: [
+        "Cuisine entièrement équipée",
+        "Coin repas pour 4 personnes",
+        'Salon avec TV 55" 4K The Frame',
+        "WC indépendant",
+      ],
+      etage: [
+        "Palier avec vestiaire",
+        "Chambre 1 — lit 140×190",
+        "Chambre 2 — lit 140×190",
+        "Salle de douche avec WC",
+      ],
+      exterieur: [
+        "Espace privatif sans vis-à-vis",
+        "Table à manger",
+        "Barbecue au charbon de bois",
+        "Salon de jardin",
+      ],
     },
   },
 
@@ -47,10 +62,25 @@ export const granville: Logement = {
   },
 
   pratique: {
-    aSavoir:
-      "Draps fournis et lits faits, une serviette de toilette par personne, lit parapluie à disposition. Lave-linge, fer à repasser et étendoir dans le logement.",
-    electromenager:
-      "Four, micro-ondes, plaque vitrocéramique, réfrigérateur-congélateur, lave-vaisselle, lave-linge, bouilloire, grille-pain, machine à café Nespresso, appareil à raclette et crêpe party.",
+    aSavoir: [
+      "Draps fournis et lits faits",
+      "Une serviette de toilette par personne",
+      "Lit parapluie à disposition",
+      "Lave-linge, fer à repasser et étendoir",
+    ],
+    electromenager: [
+      "Four",
+      "Micro-ondes",
+      "Plaque vitrocéramique",
+      "Réfrigérateur-congélateur",
+      "Lave-vaisselle",
+      "Lave-linge",
+      "Bouilloire",
+      "Grille-pain",
+      "Machine Nespresso",
+      "Appareil à raclette",
+      "Crêpe party",
+    ],
     reglementInterieur: {
       capaciteMax: 4,
       nonFumeur: true,

@@ -16,6 +16,8 @@ import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
 import InfoCard from "@/components/InfoCard";
+import Bullets from "@/components/Bullets";
+import Chips from "@/components/Chips";
 
 export default async function PratiquePage({
   params,
@@ -71,14 +73,17 @@ export default async function PratiquePage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
+        {/* À savoir */}
         <InfoCard icon={Info} title={t("aSavoir")}>
-          {pick(pratique.aSavoir, locale)}
+          <Bullets items={pratique.aSavoir} />
         </InfoCard>
 
+        {/* Électroménager */}
         <InfoCard icon={CookingPot} title={t("electromenager")}>
-          {pick(pratique.electromenager, locale)}
+          <Chips items={pratique.electromenager} />
         </InfoCard>
 
+        {/* Règlement intérieur */}
         <InfoCard icon={ScrollText} title={t("reglement")}>
           <ul className="space-y-2">
             {rules.map((rule, i) => (
@@ -93,12 +98,9 @@ export default async function PratiquePage({
           </ul>
         </InfoCard>
 
+        {/* Poubelles / tri */}
         <InfoCard icon={Trash2} title={t("poubelles")}>
           {pick(pratique.poubelles, locale)}
-        </InfoCard>
-
-        <InfoCard icon={PawPrint} title={t("animaux")}>
-          {pick(pratique.animaux, locale)}
         </InfoCard>
       </div>
     </>

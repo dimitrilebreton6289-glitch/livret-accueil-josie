@@ -1,14 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import {
-  Clock,
-  KeyRound,
-  Car,
-  Luggage,
-  Sofa,
-  BedDouble,
-  Trees,
-} from "lucide-react";
+import { Clock, KeyRound, Car, Sofa, BedDouble, Trees } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
@@ -16,6 +8,8 @@ import HighlightCard from "@/components/HighlightCard";
 import InfoCard from "@/components/InfoCard";
 import SectionHeader from "@/components/SectionHeader";
 import CopyButton from "@/components/CopyButton";
+import Bullets from "@/components/Bullets";
+import Chips from "@/components/Chips";
 
 export default async function ArriveePage({
   params,
@@ -46,9 +40,9 @@ export default async function ArriveePage({
 
         {/* Accès + code de la boîte à clé */}
         <InfoCard icon={KeyRound} title={t("checkin")}>
-          <p>{pick(arrivee.checkinExpress, locale)}</p>
+          <Bullets items={arrivee.checkinExpress} />
           {arrivee.codeBoite && (
-            <div className="mt-3 flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
+            <div className="mt-4 flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
               <div className="min-w-0">
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted">
                   {t("code")}
@@ -62,39 +56,29 @@ export default async function ArriveePage({
           )}
         </InfoCard>
 
-        {/* Parking & bagages */}
-        <InfoCard icon={Car} title={t("parking")}>
-          {pick(arrivee.parking, locale)}
-        </InfoCard>
-        <InfoCard icon={Luggage} title={t("bagages")}>
-          {pick(arrivee.bagages, locale)}
+        {/* Stationnement & bagages */}
+        <InfoCard icon={Car} title={`${t("parking")} & ${t("bagages")}`}>
+          <Bullets
+            items={[pick(arrivee.parking, locale), pick(arrivee.bagages, locale)]}
+          />
         </InfoCard>
 
         {/* Découverte du logement, pièce par pièce */}
         <SectionHeader>{t("decouverte")}</SectionHeader>
         <InfoCard icon={Sofa} title={t("rdc")}>
-          {pick(arrivee.decouverte.rdc, locale)}
+          <Bullets items={arrivee.decouverte.rdc} />
         </InfoCard>
         <InfoCard icon={BedDouble} title={t("etage")}>
-          {pick(arrivee.decouverte.etage, locale)}
+          <Bullets items={arrivee.decouverte.etage} />
         </InfoCard>
         <InfoCard icon={Trees} title={t("exterieur")}>
-          {pick(arrivee.decouverte.exterieur, locale)}
+          <Bullets items={arrivee.decouverte.exterieur} />
         </InfoCard>
 
         {/* Équipements */}
         <SectionHeader>{t("inventaire")}</SectionHeader>
         <InfoCard>
-          <ul className="flex flex-wrap gap-2">
-            {equipements.map((e) => (
-              <li
-                key={e}
-                className="rounded-full bg-cream-deep px-3 py-1.5 text-sm font-medium text-ink"
-              >
-                {e}
-              </li>
-            ))}
-          </ul>
+          <Chips items={equipements} />
         </InfoCard>
       </div>
     </>
