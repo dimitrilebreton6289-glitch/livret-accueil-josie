@@ -309,7 +309,8 @@ export const granville: Logement = {
         lieux: [
           {
             nom: "Gare SNCF de Granville",
-            desc: "Terminus de la ligne directe Paris-Montparnasse (~3h), Place Pierre Sémard, à l'entrée de la ville.",
+            desc: "Terminus de la ligne directe Paris-Montparnasse (~3h), Place Pierre Sémard.",
+            coords: [48.8384, -1.5873],
           },
           {
             nom: "Cars Nomad (bus régional)",
@@ -321,20 +322,19 @@ export const granville: Logement = {
         key: "courses",
         lieux: [
           {
-            nom: "E.Leclerc Granville",
-            desc: "Grand hypermarché à la sortie de Granville, avec station-service. Pour les grosses courses.",
-          },
-          {
             nom: "Carrefour City",
             desc: "Supérette de centre-ville, pratique pour les courses du quotidien.",
+            coords: [48.8367, -1.5988],
           },
           {
-            nom: "Lidl Granville",
-            desc: "Supermarché discount à Granville.",
+            nom: "Utile",
+            desc: "Supérette de proximité, en centre-ville.",
+            coords: [48.8372, -1.5997],
           },
           {
-            nom: "Supérette de quartier",
-            desc: "Une supérette ouverte tous les jours se trouve à quelques minutes à pied du logement.",
+            nom: "Netto",
+            desc: "Supermarché à ~1 km (avec station-service) pour les courses plus importantes.",
+            coords: [48.8439, -1.5844],
           },
         ],
       },
@@ -342,12 +342,29 @@ export const granville: Logement = {
         key: "bouche",
         lieux: [
           {
-            nom: "Boulangeries",
-            desc: "Pains, viennoiseries et pâtisseries : les boulangeries ouvertes les plus proches.",
+            nom: "Boulangerie Robert",
+            desc: "Boulangerie-pâtisserie rue Couraye — la plus proche du logement.",
+            coords: [48.8372, -1.5951],
           },
           {
-            nom: "Boucheries-charcuteries",
-            desc: "Viandes et charcuteries de qualité à proximité du logement.",
+            nom: "La Mie Câline",
+            desc: "Boulangerie & snacking, en centre-ville.",
+            coords: [48.8374, -1.5979],
+          },
+          {
+            nom: "La Mascotte",
+            desc: "Boulangerie-pâtisserie, rue Couraye.",
+            coords: [48.8376, -1.5926],
+          },
+          {
+            nom: "Boucherie Vimond",
+            desc: "Boucherie de quartier, à deux pas.",
+            coords: [48.8373, -1.594],
+          },
+          {
+            nom: "Boucherie Marguery",
+            desc: "Boucherie-charcuterie, rue Couraye.",
+            coords: [48.8375, -1.5913],
           },
         ],
       },
@@ -355,8 +372,19 @@ export const granville: Logement = {
         key: "sante",
         lieux: [
           {
-            nom: "Pharmacies",
-            desc: "Pharmacies de Granville. En cas d'urgence, demandez la pharmacie de garde (affichée en vitrine).",
+            nom: "Pharmacie 3000",
+            desc: "2-4 rue Couraye — la plus proche. Pharmacie de garde : composez le 3237.",
+            coords: [48.8371, -1.5972],
+          },
+          {
+            nom: "Pharmacie Centrale",
+            desc: "En plein centre-ville.",
+            coords: [48.8376, -1.5981],
+          },
+          {
+            nom: "Pharmacie de la Gare",
+            desc: "Avenue du Maréchal Leclerc, vers la gare.",
+            coords: [48.8376, -1.5894],
           },
         ],
       },
@@ -364,8 +392,9 @@ export const granville: Logement = {
         key: "laverie",
         lieux: [
           {
-            nom: "Laveries automatiques",
-            desc: "Laveries en libre-service à Granville pour votre linge pendant le séjour.",
+            nom: "Le Salon Lavoir",
+            desc: "Laverie automatique en libre-service, en centre-ville.",
+            coords: [48.8369, -1.6002],
           },
         ],
       },
@@ -373,8 +402,14 @@ export const granville: Logement = {
         key: "stations",
         lieux: [
           {
-            nom: "Stations-service",
-            desc: "Carburant à proximité, notamment aux supermarchés E.Leclerc et Intermarché.",
+            nom: "Station Netto",
+            desc: "Carburant au supermarché Netto, à ~1 km.",
+            coords: [48.8444, -1.5836],
+          },
+          {
+            nom: "Station Total",
+            desc: "Station-service Total, à l'est de la ville.",
+            coords: [48.838, -1.5652],
           },
         ],
       },
@@ -382,8 +417,8 @@ export const granville: Logement = {
         key: "tabac",
         lieux: [
           {
-            nom: "Tabac & presse",
-            desc: "Bureaux de tabac, presse et jeux. Un bar-tabac se trouve aussi à deux pas du logement.",
+            nom: "Bureaux de tabac & presse",
+            desc: "Plusieurs bureaux de tabac et de presse en centre-ville (rue Couraye, rue Lecampion). Un bar-tabac se trouve aussi à deux pas du logement.",
           },
         ],
       },
@@ -391,8 +426,8 @@ export const granville: Logement = {
         key: "nocturne",
         lieux: [
           {
-            nom: "Bars de nuit & discothèques",
-            desc: "Pour sortir le soir : bars tardifs et clubs à Granville et dans les environs.",
+            nom: "Sortir le soir à Granville",
+            desc: "Granville reste paisible la nuit : l'ambiance se trouve surtout dans les bars de la Haute-Ville et du port (voir « Bars & cafés »). Pas de discothèque en ville.",
           },
         ],
       },
