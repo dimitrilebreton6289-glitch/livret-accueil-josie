@@ -310,12 +310,13 @@ export const CONTENT: Record<string, Tr> = {
   },
 
   // ------------------------------------------------------------- Départ
-  "Disponible en supplément, du lundi au jeudi de 8h à 15h. Contactez-nous.": {
-    en: "Available at extra cost, Monday to Thursday from 8 a.m. to 3 p.m. Contact us.",
-    de: "Gegen Aufpreis verfügbar, Montag bis Donnerstag von 8 bis 15 Uhr. Kontaktieren Sie uns.",
-    es: "Disponible con coste adicional, de lunes a jueves de 8 a 15 h. Contáctenos.",
-    it: "Disponibile a pagamento, dal lunedì al giovedì dalle 8 alle 15. Contattateci.",
-  },
+  "Besoin d'un ménage en cours de séjour ? Disponible en supplément, du lundi au jeudi de 8h à 15h. Contactez-nous.":
+    {
+      en: "Would you like cleaning during your stay? Available at extra cost, Monday to Thursday from 8 a.m. to 3 p.m. Contact us.",
+      de: "Möchten Sie während Ihres Aufenthalts eine Reinigung? Gegen Aufpreis verfügbar, Montag bis Donnerstag von 8 bis 15 Uhr. Kontaktieren Sie uns.",
+      es: "¿Desea una limpieza durante su estancia? Disponible con coste adicional, de lunes a jueves de 8 a 15 h. Contáctenos.",
+      it: "Desidera una pulizia durante il soggiorno? Disponibile a pagamento, dal lunedì al giovedì dalle 8 alle 15. Contattateci.",
+    },
   "Jusqu'à 10h": {
     en: "Until 10 a.m.",
     de: "Bis 10 Uhr",

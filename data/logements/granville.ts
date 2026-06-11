@@ -126,7 +126,7 @@ export const granville: Logement = {
   ],
 
   menageEnSejour:
-    "Disponible en supplément, du lundi au jeudi de 8h à 15h. Contactez-nous.",
+    "Besoin d'un ménage en cours de séjour ? Disponible en supplément, du lundi au jeudi de 8h à 15h. Contactez-nous.",
 
   depart: {
     horaire: "Jusqu'à 10h",

@@ -1,12 +1,11 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, ClipboardList, Trash2 } from "lucide-react";
+import { Clock, ClipboardList, Trash2, Sparkles } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
 import HighlightCard from "@/components/HighlightCard";
 import InfoCard from "@/components/InfoCard";
-import Bullets from "@/components/Bullets";
 
 export default async function DepartPage({
   params,
@@ -49,11 +48,14 @@ export default async function DepartPage({
           </ol>
         </InfoCard>
 
-        {/* Poubelles & ménage */}
-        <InfoCard icon={Trash2} title={`${t("poubelles")} & ${t("menage")}`}>
-          <Bullets
-            items={[pick(pratique.poubelles, locale), pick(menageEnSejour, locale)]}
-          />
+        {/* Poubelles */}
+        <InfoCard icon={Trash2} title={t("poubelles")}>
+          {pick(pratique.poubelles, locale)}
+        </InfoCard>
+
+        {/* Ménage pendant le séjour (service en cours de séjour, ≠ ménage de départ) */}
+        <InfoCard icon={Sparkles} title={t("menage")}>
+          {pick(menageEnSejour, locale)}
         </InfoCard>
       </div>
     </>
