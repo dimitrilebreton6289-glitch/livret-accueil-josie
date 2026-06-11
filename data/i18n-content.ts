@@ -11,11 +11,11 @@ type Tr = { en?: string; de?: string; es?: string; it?: string };
 
 export const CONTENT: Record<string, Tr> = {
   // ---------------------------------------------------------------- Arrivée
-  "À partir de 16h (départ flexible sur demande)": {
-    en: "From 4 p.m. (flexible departure on request)",
-    de: "Ab 16 Uhr (flexible Abreise auf Anfrage)",
-    es: "A partir de las 16 h (salida flexible bajo petición)",
-    it: "Dalle 16 (partenza flessibile su richiesta)",
+  "À partir de 16h": {
+    en: "From 4 p.m.",
+    de: "Ab 16 Uhr",
+    es: "A partir de las 16 h",
+    it: "Dalle 16",
   },
   "Entrée indépendante, depuis une rue calme à sens unique": {
     en: "Independent entrance, from a quiet one-way street",
