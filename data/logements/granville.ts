@@ -45,7 +45,6 @@ export const granville: Logement = {
       "Entrée indépendante, depuis une rue calme à sens unique",
       "Clés dans une boîte à clé sécurisée à code, près de l'entrée",
     ],
-    codeBoite: "4816",
     etapes: [
       {
         texte:
