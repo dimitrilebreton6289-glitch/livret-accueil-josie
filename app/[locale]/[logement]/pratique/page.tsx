@@ -85,6 +85,13 @@ export default async function PratiquePage({
           <Chips items={pickList(pratique.electromenager, locale)} />
         </InfoCard>
 
+        {/* Vidéos (mode d'emploi : télévision, etc.) — juste après l'électroménager */}
+        {logement.videos?.map((v, i) => (
+          <InfoCard key={i} icon={PlayCircle} title={pick(v.titre, locale)}>
+            <VideoEmbed url={v.url} title={pick(v.titre, locale)} />
+          </InfoCard>
+        ))}
+
         {/* Règlement intérieur */}
         <InfoCard icon={ScrollText} title={t("reglement")}>
           <ul className="space-y-2">
@@ -104,13 +111,6 @@ export default async function PratiquePage({
         <InfoCard icon={Trash2} title={t("poubelles")}>
           {pick(pratique.poubelles, locale)}
         </InfoCard>
-
-        {/* Vidéos (mode d'emploi : télévision, etc.) */}
-        {logement.videos?.map((v, i) => (
-          <InfoCard key={i} icon={PlayCircle} title={pick(v.titre, locale)}>
-            <VideoEmbed url={v.url} title={pick(v.titre, locale)} />
-          </InfoCard>
-        ))}
       </div>
     </>
   );
