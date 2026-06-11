@@ -26,6 +26,19 @@ export const granville: Logement = {
     it: "Benvenuti in questa casa, a soli 800 m dal mare e dal centro! Completamente attrezzata, tranquilla e senza dirimpettai, ha tutto per un bel soggiorno. Buon soggiorno a Granville! 🐚",
   },
 
+  videos: [
+    {
+      titre: {
+        fr: "Comment utiliser la télévision",
+        en: "How to use the TV",
+        de: "So benutzen Sie den Fernseher",
+        es: "Cómo usar el televisor",
+        it: "Come usare il televisore",
+      },
+      url: "https://youtube.com/shorts/UInzD8SyHAU",
+    },
+  ],
+
   arrivee: {
     horaire: "À partir de 16h",
     checkinExpress: [

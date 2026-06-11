@@ -11,6 +11,7 @@ import {
   PartyPopper,
   Camera,
   Moon,
+  PlayCircle,
 } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick, pickList } from "@/lib/content";
@@ -18,6 +19,7 @@ import Header from "@/components/Header";
 import InfoCard from "@/components/InfoCard";
 import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default async function PratiquePage({
   params,
@@ -102,6 +104,13 @@ export default async function PratiquePage({
         <InfoCard icon={Trash2} title={t("poubelles")}>
           {pick(pratique.poubelles, locale)}
         </InfoCard>
+
+        {/* Vidéos (mode d'emploi : télévision, etc.) */}
+        {logement.videos?.map((v, i) => (
+          <InfoCard key={i} icon={PlayCircle} title={pick(v.titre, locale)}>
+            <VideoEmbed url={v.url} title={pick(v.titre, locale)} />
+          </InfoCard>
+        ))}
       </div>
     </>
   );

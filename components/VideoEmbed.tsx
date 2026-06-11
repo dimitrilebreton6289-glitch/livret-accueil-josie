@@ -23,6 +23,8 @@ export default function VideoEmbed({
 }) {
   const yt = youtubeId(url);
   const vm = vimeoId(url);
+  // Vidéo verticale (YouTube Short) → cadre portrait centré.
+  const portrait = /\/shorts\//.test(url);
 
   let content: React.ReactNode;
   if (yt) {
@@ -58,7 +60,11 @@ export default function VideoEmbed({
   }
 
   return (
-    <div className="relative aspect-video overflow-hidden rounded-card bg-cream-deep shadow-[0_2px_12px_rgba(58,46,41,0.06)]">
+    <div
+      className={`relative overflow-hidden rounded-card bg-cream-deep shadow-[0_2px_12px_rgba(58,46,41,0.06)] ${
+        portrait ? "mx-auto aspect-[9/16] max-w-[280px]" : "aspect-video"
+      }`}
+    >
       {content}
     </div>
   );
