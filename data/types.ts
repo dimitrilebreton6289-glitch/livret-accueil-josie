@@ -89,6 +89,8 @@ export interface Logement {
     checkinExpress: string[];
     /** Code de la boîte à clé (affiché en évidence). Optionnel. */
     codeBoite?: string;
+    /** Guide d'arrivée illustré : étapes numérotées avec photo optionnelle. */
+    etapes?: { texte: string; photo?: string }[];
     parking: Tx;
     bagages: Tx;
     /** Contenu de chaque espace, en listes courtes. */

@@ -29,6 +29,26 @@ export const CONTENT: Record<string, Tr> = {
     es: "Llaves en una caja de seguridad con código, junto a la entrada",
     it: "Chiavi in una cassetta di sicurezza con codice, vicino all'ingresso",
   },
+  "Dirigez-vous vers le poteau rouge à gauche du portail : la boîte à clé s'y trouve. Composez le code, récupérez les clés, puis refermez la boîte et brouillez le code.":
+    {
+      en: "Head to the red post on the left of the gate: the key box is there. Enter the code, take the keys, then close the box and scramble the code.",
+      de: "Gehen Sie zum roten Pfosten links vom Tor: dort befindet sich der Schlüsselkasten. Geben Sie den Code ein, nehmen Sie die Schlüssel, schließen Sie dann den Kasten und verstellen Sie den Code.",
+      es: "Diríjase al poste rojo a la izquierda de la verja: allí está la caja de llaves. Introduzca el código, coja las llaves, luego cierre la caja y descomponga el código.",
+      it: "Recatevi al pilastro rosso a sinistra del cancello: lì si trova la cassetta delle chiavi. Componete il codice, prendete le chiavi, poi richiudete la cassetta e azzerate il codice.",
+    },
+  "Au portail, ouvrez le cadenas avec la clé correspondante (celle de la photo), puis ouvrez le portail.":
+    {
+      en: "At the gate, open the padlock with the matching key (the one in the photo), then open the gate.",
+      de: "Öffnen Sie am Tor das Vorhängeschloss mit dem passenden Schlüssel (dem auf dem Foto) und öffnen Sie dann das Tor.",
+      es: "En la verja, abra el candado con la llave correspondiente (la de la foto) y luego abra la verja.",
+      it: "Al cancello, aprite il lucchetto con la chiave corrispondente (quella della foto), poi aprite il cancello.",
+    },
+  "Ouvrez enfin la porte de la maison avec la grande clé.": {
+    en: "Finally, open the front door of the house with the large key.",
+    de: "Öffnen Sie schließlich die Haustür mit dem großen Schlüssel.",
+    es: "Por último, abra la puerta de la casa con la llave grande.",
+    it: "Infine, aprite la porta di casa con la chiave grande.",
+  },
   "Stationnement gratuit et facile dans la rue, devant la maison ou à quelques mètres.":
     {
       en: "Free and easy street parking, in front of the house or a few metres away.",

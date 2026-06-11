@@ -39,11 +39,10 @@ export default async function ArriveePage({
           value={pick(arrivee.horaire, locale)}
         />
 
-        {/* Accès + code de la boîte à clé */}
+        {/* Accès : code de la boîte à clé + guide illustré pas à pas */}
         <InfoCard icon={KeyRound} title={t("checkin")}>
-          <Bullets items={pickList(arrivee.checkinExpress, locale)} />
           {arrivee.codeBoite && (
-            <div className="mt-4 flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
+            <div className="flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
               <div className="min-w-0">
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted">
                   {t("code")}
@@ -54,6 +53,29 @@ export default async function ArriveePage({
               </div>
               <CopyButton value={arrivee.codeBoite} />
             </div>
+          )}
+
+          {arrivee.etapes && arrivee.etapes.length > 0 && (
+            <ol className="mt-4 space-y-4">
+              {arrivee.etapes.map((e, i) => (
+                <li key={i}>
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-terracotta text-sm font-bold text-white">
+                      {i + 1}
+                    </span>
+                    <p className="pt-0.5">{pick(e.texte, locale)}</p>
+                  </div>
+                  {e.photo && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={e.photo}
+                      alt=""
+                      className="mt-2 w-full rounded-tile object-cover shadow-[0_2px_12px_rgba(58,46,41,0.08)]"
+                    />
+                  )}
+                </li>
+              ))}
+            </ol>
           )}
         </InfoCard>
 

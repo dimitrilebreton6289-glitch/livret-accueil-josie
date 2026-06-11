@@ -33,6 +33,23 @@ export const granville: Logement = {
       "Clés dans une boîte à clé sécurisée à code, près de l'entrée",
     ],
     codeBoite: "4816",
+    etapes: [
+      {
+        texte:
+          "Dirigez-vous vers le poteau rouge à gauche du portail : la boîte à clé s'y trouve. Composez le code, récupérez les clés, puis refermez la boîte et brouillez le code.",
+        photo: "/logements/granville/arrivee-1.jpg",
+      },
+      {
+        texte:
+          "Au portail, ouvrez le cadenas avec la clé correspondante (celle de la photo), puis ouvrez le portail.",
+        photo: "/logements/granville/arrivee-2.jpg",
+      },
+      {
+        texte:
+          "Ouvrez enfin la porte de la maison avec la grande clé.",
+        photo: "/logements/granville/arrivee-3.jpg",
+      },
+    ],
     parking:
       "Stationnement gratuit et facile dans la rue, devant la maison ou à quelques mètres.",
     bagages:
