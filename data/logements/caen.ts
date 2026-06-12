@@ -14,7 +14,7 @@ export const caen: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=18+Rue+Graindorge+14000+Caen",
   coords: [49.186, -0.3585],
-  cover: "/logements/caen/cover.avif",
+  cover: "/logements/caen/cover-vaugueux2.jpg",
 
   motAccueil: {
     fr: "Bienvenue dans le quartier du Vaugueux, le cœur historique et gourmand de Caen ! Vous êtes à deux pas du château de Guillaume le Conquérant, du port de plaisance et des meilleures tables de la ville. Tout le centre se découvre à pied. Très bon séjour à Caen ! ⚓",
