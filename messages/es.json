@@ -50,6 +50,7 @@
     "bagages": "Equipaje",
     "decouverte": "Descubra el alojamiento",
     "rdc": "Planta baja",
+    "logement": "El apartamento",
     "etage": "Planta superior",
     "exterieur": "Exterior",
     "inventaire": "Inventario / equipamiento",
@@ -60,7 +61,9 @@
     "horaire": "Franja horaria de salida",
     "instructions": "Instrucciones de salida",
     "poubelles": "Basura",
-    "menage": "Limpieza durante la estancia"
+    "menage": "Limpieza durante la estancia",
+    "departTardif": "Salida tardía",
+    "departTardifOption": "Salida a las {heure}"
   },
   "Pratique": {
     "title": "Información útil",
@@ -109,7 +112,11 @@
       "laverie": "Lavanderías",
       "stations": "Gasolineras",
       "tabac": "Estanco y prensa",
-      "nocturne": "Vida nocturna"
+      "nocturne": "Vida nocturna",
+      "tram": "Tranvía y bus",
+      "hopital": "Hospital",
+      "medecin": "Médico de guardia",
+      "police": "Policía"
     }
   },
   "Numeros": {

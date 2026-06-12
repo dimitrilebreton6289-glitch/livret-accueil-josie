@@ -50,6 +50,7 @@
     "bagages": "Gepäck",
     "decouverte": "Die Unterkunft entdecken",
     "rdc": "Erdgeschoss",
+    "logement": "Die Wohnung",
     "etage": "Obergeschoss",
     "exterieur": "Außenbereich",
     "inventaire": "Inventar / Ausstattung",
@@ -60,7 +61,9 @@
     "horaire": "Abreisezeitfenster",
     "instructions": "Abreisehinweise",
     "poubelles": "Müll",
-    "menage": "Reinigung während des Aufenthalts"
+    "menage": "Reinigung während des Aufenthalts",
+    "departTardif": "Später Check-out",
+    "departTardifOption": "Abreise um {heure}"
   },
   "Pratique": {
     "title": "Nützliches",
@@ -109,7 +112,11 @@
       "laverie": "Waschsalons",
       "stations": "Tankstellen",
       "tabac": "Tabak & Presse",
-      "nocturne": "Nachtleben"
+      "nocturne": "Nachtleben",
+      "tram": "Tram & Bus",
+      "hopital": "Krankenhaus",
+      "medecin": "Ärztlicher Notdienst",
+      "police": "Polizei"
     }
   },
   "Numeros": {

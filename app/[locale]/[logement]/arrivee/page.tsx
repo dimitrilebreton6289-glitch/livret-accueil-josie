@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, KeyRound, Car, Sofa, BedDouble, Trees } from "lucide-react";
+import { Clock, KeyRound, Car, Luggage, Sofa, BedDouble, Trees } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick, pickList } from "@/lib/content";
 import Header from "@/components/Header";
@@ -10,6 +10,7 @@ import SectionHeader from "@/components/SectionHeader";
 import CopyButton from "@/components/CopyButton";
 import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default async function ArriveePage({
   params,
@@ -26,6 +27,12 @@ export default async function ArriveePage({
   const { arrivee, equipements } = logement;
   const base = `/${logement.id}`;
 
+  // Logement d'un seul niveau (studio, plain-pied…) : on n'étiquette pas la
+  // partie « Rez-de-chaussée » mais simplement « L'appartement ».
+  const espaceUnique =
+    arrivee.decouverte.etage.length === 0 &&
+    arrivee.decouverte.exterieur.length === 0;
+
   return (
     <>
       <Header variant="sub" base={base} title={t("title")} />
@@ -38,8 +45,22 @@ export default async function ArriveePage({
           value={pick(arrivee.horaire, locale)}
         />
 
-        {/* Accès : code de la boîte à clé + guide illustré pas à pas */}
+        {/* Accès : points clés (checkin express) + code + guide illustré pas à pas */}
         <InfoCard icon={KeyRound} title={t("checkin")}>
+          {arrivee.checkinExpress.length > 0 && (
+            <div
+              className={
+                arrivee.codeBoite ||
+                (arrivee.etapes && arrivee.etapes.length > 0) ||
+                arrivee.video
+                  ? "mb-4"
+                  : ""
+              }
+            >
+              <Bullets items={pickList(arrivee.checkinExpress, locale)} />
+            </div>
+          )}
+
           {arrivee.codeBoite && (
             <div className="flex items-center justify-between gap-3 rounded-tile bg-cream-deep p-4">
               <div className="min-w-0">
@@ -76,26 +97,53 @@ export default async function ArriveePage({
               ))}
             </ol>
           )}
+
+          {/* Vidéo d'accès au logement */}
+          {arrivee.video && (
+            <div className="mt-4">
+              <VideoEmbed url={arrivee.video} title={t("checkin")} />
+            </div>
+          )}
         </InfoCard>
 
-        {/* Stationnement & bagages */}
-        <InfoCard icon={Car} title={`${t("parking")} & ${t("bagages")}`}>
+        {/* Stationnement (en liste) */}
+        <InfoCard icon={Car} title={t("parking")}>
           <Bullets
-            items={[pick(arrivee.parking, locale), pick(arrivee.bagages, locale)]}
+            items={pick(arrivee.parking, locale)
+              .split("\n")
+              .map((s) => s.trim())
+              .filter(Boolean)}
           />
         </InfoCard>
 
-        {/* Découverte du logement, pièce par pièce */}
-        <SectionHeader>{t("decouverte")}</SectionHeader>
-        <InfoCard icon={Sofa} title={t("rdc")}>
-          <Bullets items={pickList(arrivee.decouverte.rdc, locale)} />
+        {/* Bagages */}
+        <InfoCard icon={Luggage} title={t("bagages")}>
+          {pick(arrivee.bagages, locale)}
         </InfoCard>
-        <InfoCard icon={BedDouble} title={t("etage")}>
-          <Bullets items={pickList(arrivee.decouverte.etage, locale)} />
-        </InfoCard>
-        <InfoCard icon={Trees} title={t("exterieur")}>
-          <Bullets items={pickList(arrivee.decouverte.exterieur, locale)} />
-        </InfoCard>
+
+        {/* Découverte du logement, pièce par pièce (on masque les espaces vides) */}
+        {(arrivee.decouverte.rdc.length > 0 ||
+          arrivee.decouverte.etage.length > 0 ||
+          arrivee.decouverte.exterieur.length > 0) && (
+          <>
+            <SectionHeader>{t("decouverte")}</SectionHeader>
+            {arrivee.decouverte.rdc.length > 0 && (
+              <InfoCard icon={Sofa} title={espaceUnique ? t("logement") : t("rdc")}>
+                <Bullets items={pickList(arrivee.decouverte.rdc, locale)} />
+              </InfoCard>
+            )}
+            {arrivee.decouverte.etage.length > 0 && (
+              <InfoCard icon={BedDouble} title={t("etage")}>
+                <Bullets items={pickList(arrivee.decouverte.etage, locale)} />
+              </InfoCard>
+            )}
+            {arrivee.decouverte.exterieur.length > 0 && (
+              <InfoCard icon={Trees} title={t("exterieur")}>
+                <Bullets items={pickList(arrivee.decouverte.exterieur, locale)} />
+              </InfoCard>
+            )}
+          </>
+        )}
 
         {/* Équipements */}
         <SectionHeader>{t("inventaire")}</SectionHeader>

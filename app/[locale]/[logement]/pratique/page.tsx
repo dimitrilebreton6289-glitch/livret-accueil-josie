@@ -20,6 +20,8 @@ import InfoCard from "@/components/InfoCard";
 import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
 import VideoEmbed from "@/components/VideoEmbed";
+import Accordion from "@/components/Accordion";
+import SectionHeader from "@/components/SectionHeader";
 
 export default async function PratiquePage({
   params,
@@ -56,11 +58,16 @@ export default async function PratiquePage({
         label: r.evenementsAutorises ? t("evenementsOui") : t("evenementsNon"),
         tone: r.evenementsAutorises ? "ok" : "no",
       },
-      {
-        icon: Camera,
-        label: r.tournagesAutorises ? t("tournagesOui") : t("tournagesNon"),
-        tone: r.tournagesAutorises ? "ok" : "no",
-      },
+      // Ligne « tournages » affichée uniquement si le champ est renseigné.
+      ...(r.tournagesAutorises !== undefined
+        ? [
+            {
+              icon: Camera,
+              label: r.tournagesAutorises ? t("tournagesOui") : t("tournagesNon"),
+              tone: (r.tournagesAutorises ? "ok" : "no") as "ok" | "no",
+            },
+          ]
+        : []),
       { icon: Moon, label: pick(r.horairesCalme, locale), tone: "neutral" },
     ];
 
@@ -75,10 +82,27 @@ export default async function PratiquePage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
-        {/* À savoir */}
-        <InfoCard icon={Info} title={t("aSavoir")}>
-          <Bullets items={pickList(pratique.aSavoir, locale)} />
-        </InfoCard>
+        {/* À savoir : sous-parties dépliables si renseignées, sinon liste à puces */}
+        {pratique.aSavoirSections && pratique.aSavoirSections.length > 0 ? (
+          <>
+            <SectionHeader>{t("aSavoir")}</SectionHeader>
+            <div className="space-y-3">
+              {pratique.aSavoirSections.map((sec, i) => (
+                <Accordion
+                  key={i}
+                  title={pick(sec.titre, locale)}
+                  defaultOpen={i === 0}
+                >
+                  <p className="whitespace-pre-line">{pick(sec.contenu, locale)}</p>
+                </Accordion>
+              ))}
+            </div>
+          </>
+        ) : (
+          <InfoCard icon={Info} title={t("aSavoir")}>
+            <Bullets items={pickList(pratique.aSavoir, locale)} />
+          </InfoCard>
+        )}
 
         {/* Électroménager */}
         <InfoCard icon={CookingPot} title={t("electromenager")}>
@@ -109,7 +133,7 @@ export default async function PratiquePage({
 
         {/* Poubelles / tri */}
         <InfoCard icon={Trash2} title={t("poubelles")}>
-          {pick(pratique.poubelles, locale)}
+          <p className="whitespace-pre-line">{pick(pratique.poubelles, locale)}</p>
         </InfoCard>
       </div>
     </>

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, ClipboardList, Trash2, Sparkles } from "lucide-react";
+import { Clock, ClipboardList, Trash2, Sparkles, Hourglass, ExternalLink } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
@@ -48,9 +48,30 @@ export default async function DepartPage({
           </ol>
         </InfoCard>
 
+        {/* Départ tardif : explication + options horaires avec lien de paiement */}
+        {depart.departTardif && (
+          <InfoCard icon={Hourglass} title={t("departTardif")}>
+            <p className="mb-3">{pick(depart.departTardif.texte, locale)}</p>
+            <div className="space-y-2">
+              {depart.departTardif.options.map((o) => (
+                <a
+                  key={o.heure}
+                  href={o.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-h-12 items-center justify-between gap-3 rounded-tile bg-terracotta px-4 font-bold text-white shadow-[0_4px_14px_rgba(215,92,69,0.3)] transition-soft active:scale-[0.98]"
+                >
+                  <span>{t("departTardifOption", { heure: o.heure })}</span>
+                  <ExternalLink size={18} className="shrink-0" />
+                </a>
+              ))}
+            </div>
+          </InfoCard>
+        )}
+
         {/* Poubelles */}
         <InfoCard icon={Trash2} title={t("poubelles")}>
-          {pick(pratique.poubelles, locale)}
+          <p className="whitespace-pre-line">{pick(pratique.poubelles, locale)}</p>
         </InfoCard>
 
         {/* Ménage pendant le séjour (service en cours de séjour, ≠ ménage de départ) */}

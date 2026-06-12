@@ -45,7 +45,11 @@ export type CategoryKey =
   | "laverie"
   | "stations"
   | "tabac"
-  | "nocturne";
+  | "nocturne"
+  | "tram"
+  | "hopital"
+  | "medecin"
+  | "police";
 
 /** Une catégorie et ses lieux. */
 export interface CategorySection {
@@ -58,7 +62,8 @@ export interface ReglementInterieur {
   nonFumeur: boolean;
   animauxAcceptes: boolean;
   evenementsAutorises: boolean;
-  tournagesAutorises: boolean;
+  /** Optionnel : si absent, la ligne « tournages » n'est pas affichée. */
+  tournagesAutorises?: boolean;
   horairesCalme: Tx;
   texte: Tx;
 }
@@ -91,6 +96,8 @@ export interface Logement {
     codeBoite?: string;
     /** Guide d'arrivée illustré : étapes numérotées avec photo optionnelle. */
     etapes?: { texte: string; photo?: string }[];
+    /** Vidéo d'accès au logement (URL YouTube/Vimeo/MP4), affichée dans le check-in. */
+    video?: string;
     parking: Tx;
     bagages: Tx;
     /** Contenu de chaque espace, en listes courtes. */
@@ -102,6 +109,12 @@ export interface Logement {
   pratique: {
     /** Points « à savoir », en liste à puces. */
     aSavoir: string[];
+    /**
+     * Variante « à savoir » en sous-parties dépliables (accordéon) : chaque
+     * entrée a un titre cliquable et son contenu. Si renseignée, elle remplace
+     * la liste à puces `aSavoir` sur la page Infos pratiques.
+     */
+    aSavoirSections?: { titre: Tx; contenu: Tx }[];
     /** Électroménager, en étiquettes. */
     electromenager: string[];
     reglementInterieur: ReglementInterieur;
@@ -115,6 +128,15 @@ export interface Logement {
   depart: {
     horaire: Tx;
     instructions: Tx[];
+    /**
+     * Départ tardif optionnel : un texte d'explication + des options horaires
+     * avec leur lien de paiement (ex. Stripe). Affiché en bloc cliquable sur la
+     * page Départ. Si absent, la section n'apparaît pas.
+     */
+    departTardif?: {
+      texte: Tx;
+      options: { heure: string; url: string }[];
+    };
   };
 
   quartier: {

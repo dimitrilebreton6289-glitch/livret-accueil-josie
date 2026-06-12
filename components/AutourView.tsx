@@ -20,6 +20,10 @@ import {
   Fuel,
   Cigarette,
   Music,
+  TramFront,
+  Hospital,
+  Stethoscope,
+  ShieldAlert,
   Heart,
   Footprints,
   Navigation,
@@ -61,6 +65,10 @@ const CATEGORY_ICON: Record<CategoryKey, LucideIcon> = {
   stations: Fuel,
   tabac: Cigarette,
   nocturne: Music,
+  tram: TramFront,
+  hopital: Hospital,
+  medecin: Stethoscope,
+  police: ShieldAlert,
 };
 
 export default function AutourView({

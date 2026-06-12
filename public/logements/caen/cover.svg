@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 260" role="img" aria-label="Caen">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6ECE0"/>
+      <stop offset="1" stop-color="#F3D9CF"/>
+    </linearGradient>
+  </defs>
+  <rect width="390" height="260" fill="url(#sky)"/>
+  <circle cx="312" cy="60" r="28" fill="#E9A48C" opacity="0.55"/>
+  <!-- l'Orne / le bassin Saint-Pierre -->
+  <path d="M0 196 h390 v64 H0 z" fill="#D75C45" opacity="0.16"/>
+  <path d="M0 204 q40 -7 80 0 t80 0 t80 0 t80 0 t80 0 v56 H0 z" fill="#D75C45" opacity="0.22"/>
+  <!-- enceinte du château de Caen -->
+  <g fill="#B8472F" opacity="0.9">
+    <rect x="60" y="120" width="270" height="76"/>
+  </g>
+  <!-- créneaux des remparts -->
+  <g fill="#B8472F" opacity="0.9">
+    <rect x="60" y="110" width="14" height="14"/><rect x="86" y="110" width="14" height="14"/>
+    <rect x="112" y="110" width="14" height="14"/><rect x="138" y="110" width="14" height="14"/>
+    <rect x="164" y="110" width="14" height="14"/><rect x="190" y="110" width="14" height="14"/>
+    <rect x="216" y="110" width="14" height="14"/><rect x="242" y="110" width="14" height="14"/>
+    <rect x="268" y="110" width="14" height="14"/><rect x="294" y="110" width="14" height="14"/>
+    <rect x="316" y="110" width="14" height="14"/>
+  </g>
+  <!-- tours -->
+  <g fill="#D75C45">
+    <rect x="74" y="86" width="34" height="110"/>
+    <rect x="282" y="86" width="34" height="110"/>
+  </g>
+  <g fill="#B8472F" opacity="0.95">
+    <rect x="70" y="78" width="9" height="12"/><rect x="84" y="78" width="9" height="12"/><rect x="98" y="78" width="10" height="12"/>
+    <rect x="278" y="78" width="9" height="12"/><rect x="292" y="78" width="9" height="12"/><rect x="306" y="78" width="10" height="12"/>
+  </g>
+  <!-- porte et fenêtres -->
+  <g fill="#FBF6EF" opacity="0.85">
+    <path d="M183 196 v-30 a12 12 0 0 1 24 0 v30 z"/>
+    <rect x="86" y="110" width="10" height="16"/>
+    <rect x="294" y="110" width="10" height="16"/>
+    <rect x="140" y="138" width="9" height="13"/><rect x="170" y="138" width="9" height="13"/>
+    <rect x="222" y="138" width="9" height="13"/><rect x="252" y="138" width="9" height="13"/>
+  </g>
+  <text x="195" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#B8472F" opacity="0.75">Caen</text>
+</svg>

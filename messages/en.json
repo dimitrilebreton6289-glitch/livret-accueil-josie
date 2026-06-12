@@ -50,6 +50,7 @@
     "bagages": "Luggage",
     "decouverte": "Discovering the property",
     "rdc": "Ground floor",
+    "logement": "The apartment",
     "etage": "Upstairs",
     "exterieur": "Outdoors",
     "inventaire": "Inventory / amenities",
@@ -60,7 +61,9 @@
     "horaire": "Departure time slot",
     "instructions": "Departure instructions",
     "poubelles": "Bins",
-    "menage": "Cleaning during your stay"
+    "menage": "Cleaning during your stay",
+    "departTardif": "Late check-out",
+    "departTardifOption": "Check-out at {heure}"
   },
   "Pratique": {
     "title": "Useful info",
@@ -109,7 +112,11 @@
       "laverie": "Launderettes",
       "stations": "Petrol stations",
       "tabac": "Tobacconist & press",
-      "nocturne": "Nightlife"
+      "nocturne": "Nightlife",
+      "tram": "Tram & bus",
+      "hopital": "Hospital",
+      "medecin": "On-call doctor",
+      "police": "Police"
     }
   },
   "Numeros": {

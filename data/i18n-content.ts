@@ -861,4 +861,566 @@ export const CONTENT: Record<string, Tr> = {
     es: "Disponible en el chat de Airbnb o por teléfono si lo necesita.",
     it: "Disponibile nella chat di Airbnb o per telefono in caso di necessità.",
   },
+
+  // =================================================================
+  // Caen / Vaugueux 2 — Autour de moi
+  // =================================================================
+  "Forteresse fondée par Guillaume le Conquérant vers 1060, l'une des plus vastes enceintes médiévales d'Europe. Remparts, jardins et belle vue sur la ville. Accès libre à l'enceinte, à ~5 min à pied. Tél. 02 31 30 47 60.":
+    {
+      en: "Fortress founded by William the Conqueror around 1060, one of the largest medieval enclosures in Europe. Ramparts, gardens and lovely views over the town. Free access to the grounds, a ~5 min walk. Tel. 02 31 30 47 60.",
+      de: "Festung, um 1060 von Wilhelm dem Eroberer gegründet – eine der größten mittelalterlichen Anlagen Europas. Mauern, Gärten und schöner Blick über die Stadt. Freier Zugang zum Gelände, ~5 Min. zu Fuß. Tel. 02 31 30 47 60.",
+      es: "Fortaleza fundada por Guillermo el Conquistador hacia 1060, uno de los recintos medievales más grandes de Europa. Murallas, jardines y bonitas vistas de la ciudad. Acceso libre al recinto, a ~5 min a pie. Tel. 02 31 30 47 60.",
+      it: "Fortezza fondata da Guglielmo il Conquistatore verso il 1060, una delle più vaste cinte medievali d'Europa. Mura, giardini e bella vista sulla città. Accesso libero al recinto, a ~5 min a piedi. Tel. 02 31 30 47 60.",
+    },
+  "Joyau du gothique flamboyant au cœur de la ville, face au château. Clocher remarquable et chevet richement sculpté.":
+    {
+      en: "A flamboyant Gothic gem in the heart of the city, facing the castle. Remarkable bell tower and richly carved chevet.",
+      de: "Ein Juwel der Flamboyantgotik im Herzen der Stadt, gegenüber der Burg. Bemerkenswerter Glockenturm und reich verzierter Chor.",
+      es: "Joya del gótico flamígero en el corazón de la ciudad, frente al castillo. Campanario notable y cabecera ricamente esculpida.",
+      it: "Gioiello del gotico fiammeggiante nel cuore della città, di fronte al castello. Campanile notevole e abside riccamente scolpita.",
+    },
+  "Esplanade Jean-Marie Louvel. Fondée par Guillaume le Conquérant, qui y repose. Magnifique abbatiale ; le bâtiment abrite aujourd'hui l'hôtel de ville.":
+    {
+      en: "Esplanade Jean-Marie Louvel. Founded by William the Conqueror, who is buried here. A magnificent abbey church; the building now houses the town hall.",
+      de: "Esplanade Jean-Marie Louvel. Gegründet von Wilhelm dem Eroberer, der hier ruht. Prächtige Abteikirche; das Gebäude beherbergt heute das Rathaus.",
+      es: "Esplanade Jean-Marie Louvel. Fundada por Guillermo el Conquistador, que reposa aquí. Magnífica iglesia abacial; el edificio alberga hoy el ayuntamiento.",
+      it: "Esplanade Jean-Marie Louvel. Fondata da Guglielmo il Conquistatore, che vi riposa. Magnifica abbaziale; l'edificio ospita oggi il municipio.",
+    },
+  "Place Reine Mathilde. Fondée par la reine Mathilde, qui y est inhumée. Belle église romane et jardins, siège du Conseil régional. Tél. 02 31 06 98 98.":
+    {
+      en: "Place Reine Mathilde. Founded by Queen Matilda, who is buried here. Beautiful Romanesque church and gardens, seat of the Regional Council. Tel. 02 31 06 98 98.",
+      de: "Place Reine Mathilde. Gegründet von Königin Mathilde, die hier bestattet ist. Schöne romanische Kirche und Gärten, Sitz des Regionalrats. Tel. 02 31 06 98 98.",
+      es: "Place Reine Mathilde. Fundada por la reina Matilde, que está enterrada aquí. Bella iglesia románica y jardines, sede del Consejo Regional. Tel. 02 31 06 98 98.",
+      it: "Place Reine Mathilde. Fondata dalla regina Matilde, che vi è sepolta. Bella chiesa romanica e giardini, sede del Consiglio regionale. Tel. 02 31 06 98 98.",
+    },
+  "Dans l'enceinte du château : histoire et patrimoine de la Normandie, des origines à nos jours.":
+    {
+      en: "Within the castle grounds: the history and heritage of Normandy, from its origins to the present day.",
+      de: "Innerhalb der Burganlage: Geschichte und Kulturerbe der Normandie von den Anfängen bis heute.",
+      es: "En el recinto del castillo: historia y patrimonio de Normandía, desde los orígenes hasta hoy.",
+      it: "All'interno del castello: storia e patrimonio della Normandia, dalle origini ai giorni nostri.",
+    },
+  "L'une des plus anciennes maisons à pans de bois de Caen (XVe s.), rue de Geôle, à deux pas du château.":
+    {
+      en: "One of the oldest half-timbered houses in Caen (15th c.), on rue de Geôle, just steps from the castle.",
+      de: "Eines der ältesten Fachwerkhäuser von Caen (15. Jh.), in der Rue de Geôle, nur wenige Schritte von der Burg.",
+      es: "Una de las casas con entramado de madera más antiguas de Caen (s. XV), en la rue de Geôle, a dos pasos del castillo.",
+      it: "Una delle più antiche case a graticcio di Caen (XV sec.), in rue de Geôle, a due passi dal castello.",
+    },
+  "Esplanade Général Eisenhower. Le grand musée pour la Paix : Seconde Guerre mondiale, Débarquement et Bataille de Normandie. Incontournable, à ~10 min en voiture. Tél. 02 31 06 06 45.":
+    {
+      en: "Esplanade Général Eisenhower. The great museum for Peace: WWII, the D-Day Landings and the Battle of Normandy. A must-see, ~10 min by car. Tel. 02 31 06 06 45.",
+      de: "Esplanade Général Eisenhower. Das große Friedensmuseum: Zweiter Weltkrieg, Landung und Schlacht um die Normandie. Ein Muss, ~10 Min. mit dem Auto. Tel. 02 31 06 06 45.",
+      es: "Esplanade Général Eisenhower. El gran museo por la Paz: Segunda Guerra Mundial, Desembarco y Batalla de Normandía. Imprescindible, a ~10 min en coche. Tel. 02 31 06 06 45.",
+      it: "Esplanade Général Eisenhower. Il grande museo per la Pace: Seconda guerra mondiale, Sbarco e Battaglia di Normandia. Imperdibile, a ~10 min in auto. Tel. 02 31 06 06 45.",
+    },
+  "Dans le château : riche collection de peintures (XVe–XXe s.) et beau parc de sculptures. Entrée des collections permanentes gratuite. Tél. 02 31 30 47 60.":
+    {
+      en: "In the castle: a rich collection of paintings (15th–20th c.) and a fine sculpture park. Free entry to the permanent collections. Tel. 02 31 30 47 60.",
+      de: "In der Burg: reiche Gemäldesammlung (15.–20. Jh.) und schöner Skulpturenpark. Freier Eintritt in die Dauerausstellungen. Tel. 02 31 30 47 60.",
+      es: "En el castillo: rica colección de pinturas (s. XV–XX) y bonito parque de esculturas. Entrada gratuita a las colecciones permanentes. Tel. 02 31 30 47 60.",
+      it: "Nel castello: ricca collezione di dipinti (XV–XX sec.) e bel parco di sculture. Ingresso gratuito alle collezioni permanenti. Tel. 02 31 30 47 60.",
+    },
+  "Arromanches et ses musées : la Côte de Nacre et le D-Day à 30–45 min de route.":
+    {
+      en: "Arromanches and its museums: the Côte de Nacre and D-Day, 30–45 min away by road.",
+      de: "Arromanches und seine Museen: die Côte de Nacre und der D-Day, 30–45 Min. mit dem Auto.",
+      es: "Arromanches y sus museos: la Côte de Nacre y el Día D, a 30–45 min en coche.",
+      it: "Arromanches e i suoi musei: la Côte de Nacre e il D-Day, a 30–45 min di strada.",
+    },
+  "Au-dessus d'Omaha Beach : le cimetière américain de Normandie, lieu de mémoire saisissant. À ~1h de route. Tél. 02 31 51 62 00.":
+    {
+      en: "Above Omaha Beach: the Normandy American Cemetery, a deeply moving memorial site. About 1h away by road. Tel. 02 31 51 62 00.",
+      de: "Oberhalb von Omaha Beach: der amerikanische Friedhof der Normandie, ein ergreifender Gedenkort. Etwa 1 Std. mit dem Auto. Tel. 02 31 51 62 00.",
+      es: "Sobre Omaha Beach: el cementerio americano de Normandía, un lugar de memoria conmovedor. A ~1 h en coche. Tel. 02 31 51 62 00.",
+      it: "Sopra Omaha Beach: il cimitero americano della Normandia, luogo della memoria toccante. A ~1 ora di strada. Tel. 02 31 51 62 00.",
+    },
+  "La célèbre merveille de l'Occident, son abbaye et sa baie. Une excursion à la journée, à ~1h15 de route.":
+    {
+      en: "The famous Wonder of the West, its abbey and its bay. A full-day trip, ~1h15 away by road.",
+      de: "Das berühmte Wunder des Abendlandes, seine Abtei und seine Bucht. Ein Tagesausflug, ~1 Std. 15 Min. mit dem Auto.",
+      es: "La célebre maravilla de Occidente, su abadía y su bahía. Una excursión de un día, a ~1 h 15 en coche.",
+      it: "La celebre meraviglia dell'Occidente, la sua abbazia e la sua baia. Una gita di un giorno, a ~1h15 di strada.",
+    },
+  "Charmant port pittoresque : galeries d'art, le Vieux Bassin, les bateaux et les boutiques. À ~1h de Caen.":
+    {
+      en: "A charming, picturesque port: art galleries, the Vieux Bassin, boats and shops. About 1h from Caen.",
+      de: "Ein charmanter, malerischer Hafen: Kunstgalerien, das Vieux Bassin, Boote und Geschäfte. Etwa 1 Std. von Caen.",
+      es: "Encantador puerto pintoresco: galerías de arte, el Vieux Bassin, los barcos y las tiendas. A ~1 h de Caen.",
+      it: "Incantevole porto pittoresco: gallerie d'arte, il Vieux Bassin, le barche e le botteghe. A ~1 ora da Caen.",
+    },
+  "Le port de plaisance en plein centre, à deux pas du logement : terrasses, balades le long des quais et marché du dimanche matin.":
+    {
+      en: "The marina right in the centre, just steps from the flat: terraces, strolls along the quays and the Sunday morning market.",
+      de: "Der Yachthafen mitten im Zentrum, nur wenige Schritte von der Wohnung: Terrassen, Spaziergänge entlang der Kais und Sonntagvormittagsmarkt.",
+      es: "El puerto deportivo en pleno centro, a dos pasos del alojamiento: terrazas, paseos por los muelles y mercado del domingo por la mañana.",
+      it: "Il porto turistico in pieno centro, a due passi dall'alloggio: terrazze, passeggiate lungo le banchine e mercato della domenica mattina.",
+    },
+  "Place Blot. Jardin botanique gratuit, serres et collections : un havre de verdure à deux pas du centre. Tél. 02 31 30 48 38.":
+    {
+      en: "Place Blot. Free botanical garden, greenhouses and collections: a green haven just steps from the centre. Tel. 02 31 30 48 38.",
+      de: "Place Blot. Kostenloser botanischer Garten, Gewächshäuser und Sammlungen: eine grüne Oase nahe dem Zentrum. Tel. 02 31 30 48 38.",
+      es: "Place Blot. Jardín botánico gratuito, invernaderos y colecciones: un remanso verde a dos pasos del centro. Tel. 02 31 30 48 38.",
+      it: "Place Blot. Giardino botanico gratuito, serre e collezioni: un'oasi di verde a due passi dal centro. Tel. 02 31 30 48 38.",
+    },
+  "Avenue de l'Amiral Mountbatten. Grand parc paysager de 17 ha près du Mémorial : roseraie, labyrinthe et animaux. Idéal en famille. Tél. 02 31 30 41 00.":
+    {
+      en: "Avenue de l'Amiral Mountbatten. A large 17-ha landscaped park near the Mémorial: rose garden, maze and animals. Great for families. Tel. 02 31 30 41 00.",
+      de: "Avenue de l'Amiral Mountbatten. Großer 17-ha-Landschaftspark beim Mémorial: Rosengarten, Labyrinth und Tiere. Ideal für Familien. Tel. 02 31 30 41 00.",
+      es: "Avenue de l'Amiral Mountbatten. Gran parque paisajístico de 17 ha cerca del Mémorial: rosaleda, laberinto y animales. Ideal en familia. Tel. 02 31 30 41 00.",
+      it: "Avenue de l'Amiral Mountbatten. Grande parco paesaggistico di 17 ha vicino al Mémorial: roseto, labirinto e animali. Ideale in famiglia. Tel. 02 31 30 41 00.",
+    },
+  "Vaste prairie naturelle en plein cœur de ville, le long de l'Orne, avec l'hippodrome. Parfaite pour les balades et le jogging.":
+    {
+      en: "A vast natural meadow in the heart of the city, along the Orne, with the racecourse. Perfect for walks and jogging.",
+      de: "Weite natürliche Wiese mitten in der Stadt, entlang der Orne, mit der Pferderennbahn. Perfekt für Spaziergänge und Jogging.",
+      es: "Amplia pradera natural en pleno corazón de la ciudad, a lo largo del Orne, con el hipódromo. Perfecta para paseos y footing.",
+      it: "Vasta prateria naturale nel cuore della città, lungo l'Orne, con l'ippodromo. Perfetta per passeggiate e jogging.",
+    },
+  "La plage la plus proche (~20 min) : grande plage de sable, casino et front de mer animé. Embarcadère des ferries vers l'Angleterre.":
+    {
+      en: "The closest beach (~20 min): a large sandy beach, casino and lively seafront. Ferry terminal to England.",
+      de: "Der nächste Strand (~20 Min.): großer Sandstrand, Casino und lebhafte Strandpromenade. Fährhafen nach England.",
+      es: "La playa más cercana (~20 min): gran playa de arena, casino y paseo marítimo animado. Embarcadero de ferris a Inglaterra.",
+      it: "La spiaggia più vicina (~20 min): grande spiaggia di sabbia, casinò e lungomare animato. Imbarco dei traghetti per l'Inghilterra.",
+    },
+  "Promenade des Planches. La plage chic et ses parasols, à ~40 min : planches, villas et glamour. Tél. 02 31 14 40 00.":
+    {
+      en: "Promenade des Planches. The chic beach and its parasols, ~40 min away: boardwalk, villas and glamour. Tel. 02 31 14 40 00.",
+      de: "Promenade des Planches. Der schicke Strand und seine Sonnenschirme, ~40 Min.: Holzpromenade, Villen und Glamour. Tel. 02 31 14 40 00.",
+      es: "Promenade des Planches. La playa chic y sus sombrillas, a ~40 min: paseo de tablas, villas y glamur. Tel. 02 31 14 40 00.",
+      it: "Promenade des Planches. La spiaggia chic e i suoi ombrelloni, a ~40 min: passerella, ville e glamour. Tel. 02 31 14 40 00.",
+    },
+  "Station balnéaire familiale de la Côte de Nacre, jolies villas Belle Époque.":
+    {
+      en: "A family seaside resort on the Côte de Nacre, with pretty Belle Époque villas.",
+      de: "Familienfreundlicher Badeort an der Côte de Nacre mit hübschen Belle-Époque-Villen.",
+      es: "Estación balnearia familiar de la Côte de Nacre, con bonitas villas Belle Époque.",
+      it: "Località balneare per famiglie della Côte de Nacre, con graziose ville Belle Époque.",
+    },
+  "Plage agréable avec parc en bord de mer et centre de thalasso, à ~25 min.":
+    {
+      en: "A pleasant beach with a seafront park and a thalassotherapy centre, ~25 min away.",
+      de: "Angenehmer Strand mit Park am Meer und Thalasso-Zentrum, ~25 Min. entfernt.",
+      es: "Playa agradable con parque junto al mar y centro de talasoterapia, a ~25 min.",
+      it: "Piacevole spiaggia con parco sul mare e centro talasso, a ~25 min.",
+    },
+  "Plage du Débarquement réputée pour ses huîtres et le Centre Juno Beach, à ~30 min.":
+    {
+      en: "A D-Day beach famous for its oysters and the Juno Beach Centre, ~30 min away.",
+      de: "Landungsstrand, bekannt für seine Austern und das Juno Beach Centre, ~30 Min. entfernt.",
+      es: "Playa del Desembarco famosa por sus ostras y el Centro Juno Beach, a ~30 min.",
+      it: "Spiaggia dello Sbarco rinomata per le ostriche e il Juno Beach Centre, a ~30 min.",
+    },
+  "Bistrot de référence du quartier, au 12 rue Graindorge (juste à côté !). Cuisine du marché soignée, référencé au Guide Michelin. Réservation conseillée. Tél. 02 31 44 26 26.":
+    {
+      en: "The neighbourhood's standout bistro, at 12 rue Graindorge (right next door!). Refined market cuisine, listed in the Michelin Guide. Booking recommended. Tel. 02 31 44 26 26.",
+      de: "Das Vorzeige-Bistro des Viertels, in der Rue Graindorge 12 (gleich nebenan!). Feine Marktküche, im Guide Michelin gelistet. Reservierung empfohlen. Tel. 02 31 44 26 26.",
+      es: "El bistró de referencia del barrio, en 12 rue Graindorge (¡justo al lado!). Cuidada cocina de mercado, recomendado en la Guía Michelin. Se aconseja reservar. Tel. 02 31 44 26 26.",
+      it: "Il bistrot di riferimento del quartiere, al 12 di rue Graindorge (proprio accanto!). Cucina di mercato curata, segnalato dalla Guida Michelin. Prenotazione consigliata. Tel. 02 31 44 26 26.",
+    },
+  "Table gastronomique étoilée, 37 quai François Mitterrand, face au port. L'adresse d'exception de Caen. Tél. 02 31 97 44 48.":
+    {
+      en: "A Michelin-starred gourmet restaurant, 37 quai François Mitterrand, facing the harbour. Caen's exceptional address. Tel. 02 31 97 44 48.",
+      de: "Sterneprämiertes Gourmetrestaurant, 37 quai François Mitterrand, am Hafen. Die Ausnahmeadresse von Caen. Tel. 02 31 97 44 48.",
+      es: "Restaurante gastronómico con estrella, 37 quai François Mitterrand, frente al puerto. La dirección de excepción de Caen. Tel. 02 31 97 44 48.",
+      it: "Ristorante gastronomico stellato, 37 quai François Mitterrand, di fronte al porto. L'indirizzo d'eccezione di Caen. Tel. 02 31 97 44 48.",
+    },
+  "Cuisine italienne conviviale, 15 rue du Vaugueux, à deux pas du logement. Tél. 02 31 47 97 01.":
+    {
+      en: "Friendly Italian cuisine, 15 rue du Vaugueux, just steps from the flat. Tel. 02 31 47 97 01.",
+      de: "Gemütliche italienische Küche, 15 rue du Vaugueux, nur wenige Schritte von der Wohnung. Tel. 02 31 47 97 01.",
+      es: "Cocina italiana acogedora, 15 rue du Vaugueux, a dos pasos del alojamiento. Tel. 02 31 47 97 01.",
+      it: "Cucina italiana conviviale, 15 rue du Vaugueux, a due passi dall'alloggio. Tel. 02 31 47 97 01.",
+    },
+  "Saveurs du Pays basque, 26 quai Vendeuvre, face au port de plaisance. Tél. 02 31 38 21 26.":
+    {
+      en: "Basque Country flavours, 26 quai Vendeuvre, facing the marina. Tel. 02 31 38 21 26.",
+      de: "Aromen des Baskenlands, 26 quai Vendeuvre, gegenüber dem Yachthafen. Tel. 02 31 38 21 26.",
+      es: "Sabores del País Vasco, 26 quai Vendeuvre, frente al puerto deportivo. Tel. 02 31 38 21 26.",
+      it: "Sapori dei Paesi Baschi, 26 quai Vendeuvre, di fronte al porto turistico. Tel. 02 31 38 21 26.",
+    },
+  "Restaurant gastronomique réputé, 14 rue de Courtonne, près du port.": {
+    en: "A renowned gourmet restaurant, 14 rue de Courtonne, near the harbour.",
+    de: "Renommiertes Gourmetrestaurant, 14 rue de Courtonne, in Hafennähe.",
+    es: "Reconocido restaurante gastronómico, 14 rue de Courtonne, cerca del puerto.",
+    it: "Rinomato ristorante gastronomico, 14 rue de Courtonne, vicino al porto.",
+  },
+  "Cuisine maison dans une ambiance chaleureuse, 90 rue de Geôle. Tél. 02 31 15 28 79.":
+    {
+      en: "Homemade cooking in a warm setting, 90 rue de Geôle. Tel. 02 31 15 28 79.",
+      de: "Hausgemachte Küche in gemütlicher Atmosphäre, 90 rue de Geôle. Tel. 02 31 15 28 79.",
+      es: "Cocina casera en un ambiente acogedor, 90 rue de Geôle. Tel. 02 31 15 28 79.",
+      it: "Cucina casalinga in un'atmosfera accogliente, 90 rue de Geôle. Tel. 02 31 15 28 79.",
+    },
+  "Bonne table de centre-ville, 3-5 rue Saint-Sauveur. Tél. 02 31 38 53 40.": {
+    en: "A good city-centre restaurant, 3-5 rue Saint-Sauveur. Tel. 02 31 38 53 40.",
+    de: "Gute Adresse im Stadtzentrum, 3-5 rue Saint-Sauveur. Tel. 02 31 38 53 40.",
+    es: "Buena mesa en el centro, 3-5 rue Saint-Sauveur. Tel. 02 31 38 53 40.",
+    it: "Buona tavola in centro, 3-5 rue Saint-Sauveur. Tel. 02 31 38 53 40.",
+  },
+  "Cuisine soignée, 11 place Saint-Sauveur, sur une jolie place du centre. Tél. 02 61 53 60 50.":
+    {
+      en: "Refined cuisine, 11 place Saint-Sauveur, on a pretty square in the centre. Tel. 02 61 53 60 50.",
+      de: "Gepflegte Küche, 11 place Saint-Sauveur, an einem hübschen Platz im Zentrum. Tel. 02 61 53 60 50.",
+      es: "Cocina cuidada, 11 place Saint-Sauveur, en una bonita plaza del centro. Tel. 02 61 53 60 50.",
+      it: "Cucina curata, 11 place Saint-Sauveur, in una graziosa piazza del centro. Tel. 02 61 53 60 50.",
+    },
+  "Adresse gourmande, 15 rue Pemagnie, dans le centre historique. Tél. 02 31 93 39 43.":
+    {
+      en: "A gourmet address, 15 rue Pemagnie, in the historic centre. Tel. 02 31 93 39 43.",
+      de: "Feinschmeckeradresse, 15 rue Pemagnie, in der historischen Altstadt. Tel. 02 31 93 39 43.",
+      es: "Dirección gourmet, 15 rue Pemagnie, en el centro histórico. Tel. 02 31 93 39 43.",
+      it: "Indirizzo goloso, 15 rue Pemagnie, nel centro storico. Tel. 02 31 93 39 43.",
+    },
+  "Cuisine italienne, 47 rue Saint-Sauveur. Tél. 02 31 50 35 35.": {
+    en: "Italian cuisine, 47 rue Saint-Sauveur. Tel. 02 31 50 35 35.",
+    de: "Italienische Küche, 47 rue Saint-Sauveur. Tel. 02 31 50 35 35.",
+    es: "Cocina italiana, 47 rue Saint-Sauveur. Tel. 02 31 50 35 35.",
+    it: "Cucina italiana, 47 rue Saint-Sauveur. Tel. 02 31 50 35 35.",
+  },
+  "Trattoria italienne conviviale, 45 rue Saint-Sauveur.": {
+    en: "A friendly Italian trattoria, 45 rue Saint-Sauveur.",
+    de: "Gemütliche italienische Trattoria, 45 rue Saint-Sauveur.",
+    es: "Acogedora trattoria italiana, 45 rue Saint-Sauveur.",
+    it: "Trattoria italiana conviviale, 45 rue Saint-Sauveur.",
+  },
+  "Sushis et cuisine japonaise, 36 rue des Jacobins. Tél. 02 31 74 26 64.": {
+    en: "Sushi and Japanese cuisine, 36 rue des Jacobins. Tel. 02 31 74 26 64.",
+    de: "Sushi und japanische Küche, 36 rue des Jacobins. Tel. 02 31 74 26 64.",
+    es: "Sushi y cocina japonesa, 36 rue des Jacobins. Tel. 02 31 74 26 64.",
+    it: "Sushi e cucina giapponese, 36 rue des Jacobins. Tel. 02 31 74 26 64.",
+  },
+  "Restaurant asiatique thaï, 12 rue du 11 Novembre. Tél. 06 86 20 96 40.": {
+    en: "Thai Asian restaurant, 12 rue du 11 Novembre. Tel. 06 86 20 96 40.",
+    de: "Asiatisch-thailändisches Restaurant, 12 rue du 11 Novembre. Tel. 06 86 20 96 40.",
+    es: "Restaurante asiático tailandés, 12 rue du 11 Novembre. Tel. 06 86 20 96 40.",
+    it: "Ristorante asiatico thailandese, 12 rue du 11 Novembre. Tel. 06 86 20 96 40.",
+  },
+  "Pizzas à l'italienne, 5 rue Écuyère, en plein centre. Tél. 02 31 79 90 83.": {
+    en: "Italian-style pizzas, 5 rue Écuyère, right in the centre. Tel. 02 31 79 90 83.",
+    de: "Pizzen auf italienische Art, 5 rue Écuyère, mitten im Zentrum. Tel. 02 31 79 90 83.",
+    es: "Pizzas a la italiana, 5 rue Écuyère, en pleno centro. Tel. 02 31 79 90 83.",
+    it: "Pizze all'italiana, 5 rue Écuyère, in pieno centro. Tel. 02 31 79 90 83.",
+  },
+  "Belle table à Mathieu, 4 rue Augustin Fresnel, à ~10 min en voiture au nord de Caen. Tél. 02 31 44 10 17.":
+    {
+      en: "A lovely restaurant in Mathieu, 4 rue Augustin Fresnel, ~10 min by car north of Caen. Tel. 02 31 44 10 17.",
+      de: "Schönes Restaurant in Mathieu, 4 rue Augustin Fresnel, ~10 Min. mit dem Auto nördlich von Caen. Tel. 02 31 44 10 17.",
+      es: "Bonita mesa en Mathieu, 4 rue Augustin Fresnel, a ~10 min en coche al norte de Caen. Tel. 02 31 44 10 17.",
+      it: "Bella tavola a Mathieu, 4 rue Augustin Fresnel, a ~10 min in auto a nord di Caen. Tel. 02 31 44 10 17.",
+    },
+  "Restaurant vietnamien juste à côté du logement (c'est près de ses bacs que sont déposées les poubelles) : bo bun, nems et plats à emporter.":
+    {
+      en: "A Vietnamese restaurant right next to the flat (the bins are left by its containers): bo bun, spring rolls and takeaway dishes.",
+      de: "Vietnamesisches Restaurant direkt neben der Wohnung (bei seinen Tonnen wird der Müll abgestellt): Bo Bun, Frühlingsrollen und Gerichte zum Mitnehmen.",
+      es: "Restaurante vietnamita justo al lado del alojamiento (la basura se deja junto a sus contenedores): bo bun, rollitos y platos para llevar.",
+      it: "Ristorante vietnamita proprio accanto all'alloggio (i rifiuti si lasciano vicino ai suoi bidoni): bo bun, involtini e piatti da asporto.",
+    },
+  "Burgers maison, 6 rue Buquet, tout près du logement. Tél. 02 31 39 55 03.": {
+    en: "Homemade burgers, 6 rue Buquet, very close to the flat. Tel. 02 31 39 55 03.",
+    de: "Hausgemachte Burger, 6 rue Buquet, ganz nah an der Wohnung. Tel. 02 31 39 55 03.",
+    es: "Hamburguesas caseras, 6 rue Buquet, muy cerca del alojamiento. Tel. 02 31 39 55 03.",
+    it: "Hamburger fatti in casa, 6 rue Buquet, vicinissimo all'alloggio. Tel. 02 31 39 55 03.",
+  },
+  "Burgers maison, 27 rue Écuyère, en centre-ville. Tél. 02 31 50 13 44.": {
+    en: "Homemade burgers, 27 rue Écuyère, in the city centre. Tel. 02 31 50 13 44.",
+    de: "Hausgemachte Burger, 27 rue Écuyère, im Stadtzentrum. Tel. 02 31 50 13 44.",
+    es: "Hamburguesas caseras, 27 rue Écuyère, en el centro. Tel. 02 31 50 13 44.",
+    it: "Hamburger fatti in casa, 27 rue Écuyère, in centro. Tel. 02 31 50 13 44.",
+  },
+  "Poké bowls frais et colorés, 9 rue Écuyère. Tél. 02 31 26 98 73.": {
+    en: "Fresh, colourful poke bowls, 9 rue Écuyère. Tel. 02 31 26 98 73.",
+    de: "Frische, bunte Poke Bowls, 9 rue Écuyère. Tel. 02 31 26 98 73.",
+    es: "Poke bowls frescos y coloridos, 9 rue Écuyère. Tel. 02 31 26 98 73.",
+    it: "Poke bowl freschi e colorati, 9 rue Écuyère. Tel. 02 31 26 98 73.",
+  },
+  "Tartines, salades et douceurs faites maison, 20 rue Froide. Tél. 02 31 50 24 32.":
+    {
+      en: "Homemade open sandwiches, salads and treats, 20 rue Froide. Tel. 02 31 50 24 32.",
+      de: "Hausgemachte Stullen, Salate und Süßes, 20 rue Froide. Tel. 02 31 50 24 32.",
+      es: "Tostas, ensaladas y dulces caseros, 20 rue Froide. Tel. 02 31 50 24 32.",
+      it: "Tartine, insalate e dolci fatti in casa, 20 rue Froide. Tel. 02 31 50 24 32.",
+    },
+  "Le long du port, plusieurs brasseries et terrasses pour un repas rapide face au bassin Saint-Pierre.":
+    {
+      en: "Along the harbour, several brasseries and terraces for a quick meal facing the Bassin Saint-Pierre.",
+      de: "Entlang des Hafens mehrere Brasserien und Terrassen für eine schnelle Mahlzeit am Bassin Saint-Pierre.",
+      es: "A lo largo del puerto, varias brasseries y terrazas para una comida rápida frente al Bassin Saint-Pierre.",
+      it: "Lungo il porto, diverse brasserie e terrazze per un pasto veloce di fronte al Bassin Saint-Pierre.",
+    },
+  "Café-restaurant dans l'enceinte du château, jolie terrasse avec vue. Idéal en journée.":
+    {
+      en: "A café-restaurant within the castle grounds, with a pretty terrace and a view. Ideal during the day.",
+      de: "Café-Restaurant innerhalb der Burganlage, hübsche Terrasse mit Aussicht. Tagsüber ideal.",
+      es: "Café-restaurante en el recinto del castillo, bonita terraza con vistas. Ideal de día.",
+      it: "Caffè-ristorante all'interno del castello, graziosa terrazza con vista. Ideale di giorno.",
+    },
+  "L'épicentre de la vie nocturne caennaise : bars et pubs à la suite, à ~8 min à pied.":
+    {
+      en: "The epicentre of Caen's nightlife: bars and pubs one after another, ~8 min walk.",
+      de: "Das Epizentrum des Nachtlebens von Caen: Bars und Pubs in Folge, ~8 Min. zu Fuß.",
+      es: "El epicentro de la vida nocturna de Caen: bares y pubs uno tras otro, a ~8 min a pie.",
+      it: "L'epicentro della vita notturna di Caen: bar e pub uno dopo l'altro, a ~8 min a piedi.",
+    },
+  "Bar à bières incontournable de Caen, rue Écuyère : très large choix de bières.":
+    {
+      en: "A must-visit beer bar in Caen, on rue Écuyère: a very wide choice of beers.",
+      de: "Unverzichtbare Bierbar in Caen, rue Écuyère: sehr große Bierauswahl.",
+      es: "Bar de cervezas imprescindible de Caen, rue Écuyère: amplísima selección de cervezas.",
+      it: "Imperdibile birreria di Caen, rue Écuyère: vastissima scelta di birre.",
+    },
+  "Bars et terrasses face au bassin Saint-Pierre, très agréables aux beaux jours.":
+    {
+      en: "Bars and terraces facing the Bassin Saint-Pierre, lovely in fine weather.",
+      de: "Bars und Terrassen am Bassin Saint-Pierre, sehr angenehm bei schönem Wetter.",
+      es: "Bares y terrazas frente al Bassin Saint-Pierre, muy agradables con buen tiempo.",
+      it: "Bar e terrazze di fronte al Bassin Saint-Pierre, piacevolissimi nelle belle giornate.",
+    },
+  "Cinéma art & essai emblématique de Caen, 6 avenue Sainte-Thérèse (tram Lux-Lépine), à l'est de la ville (~1,5 km).":
+    {
+      en: "Caen's iconic arthouse cinema, 6 avenue Sainte-Thérèse (Lux-Lépine tram stop), east of the city (~1.5 km).",
+      de: "Das ikonische Programmkino von Caen, 6 avenue Sainte-Thérèse (Tramhaltestelle Lux-Lépine), östlich der Stadt (~1,5 km).",
+      es: "Emblemático cine de autor de Caen, 6 avenue Sainte-Thérèse (tranvía Lux-Lépine), al este de la ciudad (~1,5 km).",
+      it: "Storico cinema d'essai di Caen, 6 avenue Sainte-Thérèse (tram Lux-Lépine), a est della città (~1,5 km).",
+    },
+  "Multiplexe au centre commercial Les Rives de l'Orne, près du port et de la gare, films récents.":
+    {
+      en: "A multiplex at the Les Rives de l'Orne mall, near the harbour and station, showing recent films.",
+      de: "Multiplexkino im Einkaufszentrum Les Rives de l'Orne, nahe Hafen und Bahnhof, aktuelle Filme.",
+      es: "Multicine en el centro comercial Les Rives de l'Orne, cerca del puerto y la estación, películas recientes.",
+      it: "Multisala nel centro commerciale Les Rives de l'Orne, vicino al porto e alla stazione, film recenti.",
+    },
+  "Belle programmation lyrique, danse et théâtre, boulevard du Maréchal Leclerc.":
+    {
+      en: "A fine programme of opera, dance and theatre, on boulevard du Maréchal Leclerc.",
+      de: "Schönes Programm aus Oper, Tanz und Theater, am boulevard du Maréchal Leclerc.",
+      es: "Bonita programación de ópera, danza y teatro, en el boulevard du Maréchal Leclerc.",
+      it: "Bella programmazione di lirica, danza e teatro, sul boulevard du Maréchal Leclerc.",
+    },
+  "Scène de musiques actuelles : concerts toute l'année, 9 cours Caffarelli, sur la presqu'île.":
+    {
+      en: "A contemporary-music venue: concerts all year round, 9 cours Caffarelli, on the peninsula.",
+      de: "Bühne für aktuelle Musik: Konzerte das ganze Jahr über, 9 cours Caffarelli, auf der Halbinsel.",
+      es: "Sala de músicas actuales: conciertos todo el año, 9 cours Caffarelli, en la península.",
+      it: "Spazio per la musica contemporanea: concerti tutto l'anno, 9 cours Caffarelli, sulla penisola.",
+    },
+  "Le grand marché dominical le long du bassin Saint-Pierre (Quai Vendeuvre) : produits frais, primeurs, poissons. C'est pour lui qu'il ne faut pas se garer sur le port le samedi soir !":
+    {
+      en: "The big Sunday market along the Bassin Saint-Pierre (Quai Vendeuvre): fresh produce, fruit and veg, fish. It's the reason not to park at the harbour on Saturday evening!",
+      de: "Der große Sonntagsmarkt entlang des Bassin Saint-Pierre (Quai Vendeuvre): frische Produkte, Obst und Gemüse, Fisch. Seinetwegen sollte man am Samstagabend nicht am Hafen parken!",
+      es: "El gran mercado dominical a lo largo del Bassin Saint-Pierre (Quai Vendeuvre): productos frescos, frutas y verduras, pescado. ¡Es la razón para no aparcar en el puerto el sábado por la noche!",
+      it: "Il grande mercato domenicale lungo il Bassin Saint-Pierre (Quai Vendeuvre): prodotti freschi, frutta e verdura, pesce. È per questo che non bisogna parcheggiare al porto il sabato sera!",
+    },
+  "Cave à vins et spiritueux, 2 rue des Chanoines, tout près du logement : de jolies bouteilles à offrir ou partager. Tél. 06 18 39 31 97.":
+    {
+      en: "A wine and spirits shop, 2 rue des Chanoines, very close to the flat: lovely bottles to give or share. Tel. 06 18 39 31 97.",
+      de: "Wein- und Spirituosenhandlung, 2 rue des Chanoines, ganz nah an der Wohnung: schöne Flaschen zum Verschenken oder Teilen. Tel. 06 18 39 31 97.",
+      es: "Tienda de vinos y licores, 2 rue des Chanoines, muy cerca del alojamiento: bonitas botellas para regalar o compartir. Tel. 06 18 39 31 97.",
+      it: "Enoteca e distillati, 2 rue des Chanoines, vicinissima all'alloggio: belle bottiglie da regalare o condividere. Tel. 06 18 39 31 97.",
+    },
+  "L'artère commerçante de Caen : boutiques, enseignes et grands magasins, à ~7 min à pied.":
+    {
+      en: "Caen's main shopping street: boutiques, brands and department stores, ~7 min walk.",
+      de: "Die Einkaufsstraße von Caen: Boutiquen, Marken und Kaufhäuser, ~7 Min. zu Fuß.",
+      es: "La arteria comercial de Caen: tiendas, marcas y grandes almacenes, a ~7 min a pie.",
+      it: "L'arteria commerciale di Caen: negozi, marchi e grandi magazzini, a ~7 min a piedi.",
+    },
+  "Galerie marchande moderne entre le port et la gare : boutiques, restaurants et cinéma.":
+    {
+      en: "A modern shopping mall between the harbour and the station: shops, restaurants and a cinema.",
+      de: "Modernes Einkaufszentrum zwischen Hafen und Bahnhof: Geschäfte, Restaurants und Kino.",
+      es: "Galería comercial moderna entre el puerto y la estación: tiendas, restaurantes y cine.",
+      it: "Galleria commerciale moderna tra il porto e la stazione: negozi, ristoranti e cinema.",
+    },
+  "La supérette la plus proche, 1 rue Basse, juste à côté du logement : dépannage et courses de dernière minute. Tél. 06 59 27 12 90.":
+    {
+      en: "The nearest convenience store, 1 rue Basse, right next to the flat: handy for last-minute shopping. Tel. 06 59 27 12 90.",
+      de: "Der nächste Mini-Supermarkt, 1 rue Basse, direkt neben der Wohnung: praktisch für Einkäufe in letzter Minute. Tel. 06 59 27 12 90.",
+      es: "La tienda de proximidad más cercana, 1 rue Basse, justo al lado del alojamiento: ideal para compras de última hora. Tel. 06 59 27 12 90.",
+      it: "Il minimarket più vicino, 1 rue Basse, proprio accanto all'alloggio: comodo per la spesa dell'ultimo minuto. Tel. 06 59 27 12 90.",
+    },
+  "45 boulevard du Maréchal Leclerc — le plus pratique du centre : courses et produits du quotidien, ouvert tard. Parking souterrain.":
+    {
+      en: "45 boulevard du Maréchal Leclerc — the most convenient in the centre: groceries and everyday products, open late. Underground car park.",
+      de: "45 boulevard du Maréchal Leclerc — am praktischsten im Zentrum: Lebensmittel und Alltagsprodukte, lange geöffnet. Tiefgarage.",
+      es: "45 boulevard du Maréchal Leclerc — el más práctico del centro: compra y productos de diario, abierto hasta tarde. Aparcamiento subterráneo.",
+      it: "45 boulevard du Maréchal Leclerc — il più comodo del centro: spesa e prodotti quotidiani, aperto fino a tardi. Parcheggio sotterraneo.",
+    },
+  "Primeur de quartier (fruits, légumes, produits frais), 124 rue Saint-Jean. Tél. 02 31 86 00 19.":
+    {
+      en: "A local greengrocer (fruit, vegetables, fresh produce), 124 rue Saint-Jean. Tel. 02 31 86 00 19.",
+      de: "Gemüsehändler im Viertel (Obst, Gemüse, frische Produkte), 124 rue Saint-Jean. Tel. 02 31 86 00 19.",
+      es: "Frutería de barrio (frutas, verduras, productos frescos), 124 rue Saint-Jean. Tel. 02 31 86 00 19.",
+      it: "Fruttivendolo di quartiere (frutta, verdura, prodotti freschi), 124 rue Saint-Jean. Tel. 02 31 86 00 19.",
+    },
+  "Supermarché de centre-ville, rue de Bernières, pour les courses complètes.": {
+    en: "A city-centre supermarket, rue de Bernières, for a full shop.",
+    de: "Supermarkt im Stadtzentrum, rue de Bernières, für den großen Einkauf.",
+    es: "Supermercado de centro, rue de Bernières, para la compra completa.",
+    it: "Supermercato in centro, rue de Bernières, per la spesa completa.",
+  },
+  "52 rue du Vaugueux, tout près — boulangerie-pâtisserie pour le pain frais et les viennoiseries du matin.":
+    {
+      en: "52 rue du Vaugueux, very close — a bakery-pâtisserie for fresh bread and morning pastries.",
+      de: "52 rue du Vaugueux, ganz nah — Bäckerei-Konditorei für frisches Brot und Frühstücksgebäck.",
+      es: "52 rue du Vaugueux, muy cerca — panadería-pastelería para pan fresco y bollería de la mañana.",
+      it: "52 rue du Vaugueux, vicinissima — panetteria-pasticceria per pane fresco e dolci del mattino.",
+    },
+  "Boucherie-charcuterie artisanale, 19 rue de l'Engannerie. Tél. 02 31 86 16 25.":
+    {
+      en: "Artisan butcher and deli, 19 rue de l'Engannerie. Tel. 02 31 86 16 25.",
+      de: "Handwerkliche Metzgerei-Feinkost, 19 rue de l'Engannerie. Tel. 02 31 86 16 25.",
+      es: "Carnicería-charcutería artesanal, 19 rue de l'Engannerie. Tel. 02 31 86 16 25.",
+      it: "Macelleria-salumeria artigianale, 19 rue de l'Engannerie. Tel. 02 31 86 16 25.",
+    },
+  "Plusieurs boulangeries-pâtisseries le long de la rue Saint-Pierre, en allant vers le centre.":
+    {
+      en: "Several bakeries-pâtisseries along rue Saint-Pierre, heading towards the centre.",
+      de: "Mehrere Bäckereien-Konditoreien entlang der rue Saint-Pierre, Richtung Zentrum.",
+      es: "Varias panaderías-pastelerías a lo largo de la rue Saint-Pierre, hacia el centro.",
+      it: "Diverse panetterie-pasticcerie lungo la rue Saint-Pierre, andando verso il centro.",
+    },
+  "L'arrêt de tram le plus proche du logement, rue de Geôle (~5 min à pied) : rejoignez le centre, la gare et les campus universitaires.":
+    {
+      en: "The nearest tram stop to the flat, on rue de Geôle (~5 min walk): reach the centre, the station and the university campuses.",
+      de: "Die nächste Tramhaltestelle zur Wohnung, rue de Geôle (~5 Min. zu Fuß): erreichen Sie Zentrum, Bahnhof und Universitätscampus.",
+      es: "La parada de tranvía más cercana al alojamiento, rue de Geôle (~5 min a pie): llegue al centro, la estación y los campus universitarios.",
+      it: "La fermata del tram più vicina all'alloggio, rue de Geôle (~5 min a piedi): raggiungete il centro, la stazione e i campus universitari.",
+    },
+  "Autre arrêt de tram tout proche, en direction du centre-ville et de la gare.": {
+    en: "Another tram stop very close by, towards the city centre and the station.",
+    de: "Weitere Tramhaltestelle ganz in der Nähe, Richtung Stadtzentrum und Bahnhof.",
+    es: "Otra parada de tranvía muy cerca, en dirección al centro y la estación.",
+    it: "Altra fermata del tram molto vicina, in direzione del centro e della stazione.",
+  },
+  "Le réseau de l'agglomération : 3 lignes de tram (T1, T2, T3) et de nombreux bus. Horaires, plan et tickets sur l'appli Twisto ou aux distributeurs des arrêts.":
+    {
+      en: "The metropolitan network: 3 tram lines (T1, T2, T3) and many buses. Timetables, maps and tickets on the Twisto app or at the stop machines.",
+      de: "Das Nahverkehrsnetz: 3 Tramlinien (T1, T2, T3) und zahlreiche Busse. Fahrpläne, Plan und Tickets in der Twisto-App oder an den Automaten der Haltestellen.",
+      es: "La red de la aglomeración: 3 líneas de tranvía (T1, T2, T3) y numerosos autobuses. Horarios, plano y billetes en la app Twisto o en las máquinas de las paradas.",
+      it: "La rete dell'agglomerato: 3 linee di tram (T1, T2, T3) e numerosi bus. Orari, mappa e biglietti sull'app Twisto o ai distributori delle fermate.",
+    },
+  "Liaisons directes vers Paris Saint-Lazare (~2h). À ~15 min à pied ou en tram.": {
+    en: "Direct trains to Paris Saint-Lazare (~2h). About 15 min on foot or by tram.",
+    de: "Direktverbindungen nach Paris Saint-Lazare (~2 Std.). Etwa 15 Min. zu Fuß oder mit der Tram.",
+    es: "Conexiones directas con París Saint-Lazare (~2h). A ~15 min a pie o en tranvía.",
+    it: "Collegamenti diretti con Parigi Saint-Lazare (~2h). A ~15 min a piedi o in tram.",
+  },
+  "Ferries vers Portsmouth (Angleterre), à ~20 min en voiture.": {
+    en: "Ferries to Portsmouth (England), ~20 min by car.",
+    de: "Fähren nach Portsmouth (England), ~20 Min. mit dem Auto.",
+    es: "Ferris a Portsmouth (Inglaterra), a ~20 min en coche.",
+    it: "Traghetti per Portsmouth (Inghilterra), a ~20 min in auto.",
+  },
+  "À l'ouest de la ville : vols intérieurs et saisonniers.": {
+    en: "West of the city: domestic and seasonal flights.",
+    de: "Westlich der Stadt: Inlands- und Saisonflüge.",
+    es: "Al oeste de la ciudad: vuelos nacionales y de temporada.",
+    it: "A ovest della città: voli nazionali e stagionali.",
+  },
+  "Réservation de taxi à Caen et alentours. Tél. 02 31 52 17 89.": {
+    en: "Taxi booking in Caen and the surrounding area. Tel. 02 31 52 17 89.",
+    de: "Taxibestellung in Caen und Umgebung. Tel. 02 31 52 17 89.",
+    es: "Reserva de taxi en Caen y alrededores. Tel. 02 31 52 17 89.",
+    it: "Prenotazione taxi a Caen e dintorni. Tel. 02 31 52 17 89.",
+  },
+  "Rue Montoir-Poissonnerie, la plus proche du logement. Pharmacie de garde : composez le 3237.":
+    {
+      en: "Rue Montoir-Poissonnerie, the closest to the flat. For the on-duty pharmacy, dial 3237.",
+      de: "Rue Montoir-Poissonnerie, die nächste zur Wohnung. Notdienst-Apotheke: Wählen Sie 3237.",
+      es: "Rue Montoir-Poissonnerie, la más cercana al alojamiento. Farmacia de guardia: marque el 3237.",
+      it: "Rue Montoir-Poissonnerie, la più vicina all'alloggio. Farmacia di turno: componete il 3237.",
+    },
+  "Pharmacie proche du port et de la presqu'île. Tél. 02 31 95 57 30.": {
+    en: "A pharmacy near the harbour and the peninsula. Tel. 02 31 95 57 30.",
+    de: "Apotheke nahe Hafen und Halbinsel. Tel. 02 31 95 57 30.",
+    es: "Farmacia cerca del puerto y la península. Tel. 02 31 95 57 30.",
+    it: "Farmacia vicino al porto e alla penisola. Tel. 02 31 95 57 30.",
+  },
+  "Centre hospitalier universitaire (urgences), au nord de la ville, secteur Côte de Nacre. Tél. 02 31 06 31 06.":
+    {
+      en: "University hospital (A&E), north of the city, Côte de Nacre area. Tel. 02 31 06 31 06.",
+      de: "Universitätsklinikum (Notaufnahme), nördlich der Stadt, Bereich Côte de Nacre. Tel. 02 31 06 31 06.",
+      es: "Hospital universitario (urgencias), al norte de la ciudad, zona Côte de Nacre. Tel. 02 31 06 31 06.",
+      it: "Ospedale universitario (pronto soccorso), a nord della città, zona Côte de Nacre. Tel. 02 31 06 31 06.",
+    },
+  "Consultations et visites à domicile, jour et nuit. Tél. 02 33 01 58 51.": {
+    en: "Consultations and home visits, day and night. Tel. 02 33 01 58 51.",
+    de: "Sprechstunden und Hausbesuche, Tag und Nacht. Tel. 02 33 01 58 51.",
+    es: "Consultas y visitas a domicilio, día y noche. Tel. 02 33 01 58 51.",
+    it: "Consulti e visite a domicilio, giorno e notte. Tel. 02 33 01 58 51.",
+  },
+  "Police (appel non urgent) : 02 31 29 22 22. En cas d'urgence, composez le 17.": {
+    en: "Police (non-urgent calls): 02 31 29 22 22. In an emergency, dial 17.",
+    de: "Polizei (nicht dringende Anrufe): 02 31 29 22 22. Im Notfall wählen Sie 17.",
+    es: "Policía (llamada no urgente): 02 31 29 22 22. En caso de urgencia, marque el 17.",
+    it: "Polizia (chiamata non urgente): 02 31 29 22 22. In caso di emergenza, componete il 17.",
+  },
+  "77 rue du Vaugueux, à deux pas : tabac, presse et dépannage.": {
+    en: "77 rue du Vaugueux, just steps away: tobacco, press and essentials.",
+    de: "77 rue du Vaugueux, nur wenige Schritte entfernt: Tabak, Presse und Notbedarf.",
+    es: "77 rue du Vaugueux, a dos pasos: tabaco, prensa y artículos de emergencia.",
+    it: "77 rue du Vaugueux, a due passi: tabacchi, giornali e necessità.",
+  },
+  "Flânez le soir dans les ruelles pavées du Vaugueux, le quartier le plus pittoresque de Caen, juste en bas de chez vous : c'est là que se concentrent les meilleures tables. Notre adresse coup de cœur : Le Bouchon du Vaugueux, 12 rue Graindorge (à deux pas) — et pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !":
+    {
+      en: "In the evening, wander the cobbled lanes of the Vaugueux, Caen's most picturesque district, right below your door: this is where the best tables are. Our favourite spot: Le Bouchon du Vaugueux, 12 rue Graindorge (just steps away) — and for food lovers, try the tripes à la mode de Caen, the local speciality!",
+      de: "Schlendern Sie abends durch die kopfsteingepflasterten Gassen des Vaugueux, des malerischsten Viertels von Caen, direkt vor Ihrer Tür: Hier finden sich die besten Restaurants. Unser Lieblingstipp: Le Bouchon du Vaugueux, 12 rue Graindorge (nur wenige Schritte entfernt) — und für Genießer: Probieren Sie die Tripes à la mode de Caen, die lokale Spezialität!",
+      es: "Pasee al anochecer por las callejuelas empedradas del Vaugueux, el barrio más pintoresco de Caen, justo debajo de su casa: aquí se concentran las mejores mesas. Nuestra dirección favorita: Le Bouchon du Vaugueux, 12 rue Graindorge (a dos pasos) — y para los golosos, pruebe los tripes à la mode de Caen, la especialidad local.",
+      it: "La sera, passeggiate tra i vicoli acciottolati del Vaugueux, il quartiere più pittoresco di Caen, proprio sotto casa: è qui che si concentrano le tavole migliori. Il nostro indirizzo del cuore: Le Bouchon du Vaugueux, 12 rue Graindorge (a due passi) — e per i golosi, assaggiate le tripes à la mode de Caen, la specialità locale!",
+    },
+  "Discothèque sur le port (32 quai Vendeuvre, anciennement Le Carré) : la boîte de nuit du centre, généralement ouverte du jeudi au samedi.":
+    {
+      en: "A nightclub on the harbour (32 quai Vendeuvre, formerly Le Carré): the city-centre club, usually open Thursday to Saturday.",
+      de: "Diskothek am Hafen (32 quai Vendeuvre, früher Le Carré): der Club im Zentrum, meist von Donnerstag bis Samstag geöffnet.",
+      es: "Discoteca en el puerto (32 quai Vendeuvre, antes Le Carré): la discoteca del centro, abierta normalmente de jueves a sábado.",
+      it: "Discoteca sul porto (32 quai Vendeuvre, ex Le Carré): il locale notturno del centro, di solito aperto dal giovedì al sabato.",
+    },
+  "Discothèque conviviale, 46 rue des Chanoines, à deux pas du logement.": {
+    en: "A friendly nightclub, 46 rue des Chanoines, just steps from the flat.",
+    de: "Gemütliche Diskothek, 46 rue des Chanoines, nur wenige Schritte von der Wohnung.",
+    es: "Discoteca acogedora, 46 rue des Chanoines, a dos pasos del alojamiento.",
+    it: "Discoteca accogliente, 46 rue des Chanoines, a due passi dall'alloggio.",
+  },
+  "Bar-club mythique de la nuit caennaise, 6 rue du Tour de Terre, près du château : ambiance rhum et danse, du jeudi au samedi.":
+    {
+      en: "A legendary bar-club of Caen nightlife, 6 rue du Tour de Terre, near the castle: rum and dancing, Thursday to Saturday.",
+      de: "Legendäre Bar-Club des Nachtlebens von Caen, 6 rue du Tour de Terre, beim Schloss: Rum-Atmosphäre und Tanz, Donnerstag bis Samstag.",
+      es: "Bar-club mítico de la noche de Caen, 6 rue du Tour de Terre, cerca del castillo: ambiente de ron y baile, de jueves a sábado.",
+      it: "Bar-club leggendario della notte di Caen, 6 rue du Tour de Terre, vicino al castello: atmosfera rum e ballo, dal giovedì al sabato.",
+    },
+  "Bar dansant et billard, 24 rue du 11 Novembre : une institution de la nuit caennaise depuis les années 80.":
+    {
+      en: "A dancing bar with billiards, 24 rue du 11 Novembre: a Caen nightlife institution since the 1980s.",
+      de: "Tanzbar mit Billard, 24 rue du 11 Novembre: eine Institution des Nachtlebens von Caen seit den 1980er-Jahren.",
+      es: "Bar bailable con billar, 24 rue du 11 Novembre: una institución de la noche de Caen desde los años 80.",
+      it: "Bar danzante con biliardo, 24 rue du 11 Novembre: un'istituzione della notte di Caen dagli anni '80.",
+    },
+  "Pub irlandais sur le port, 20 quai Vendeuvre : bières, concerts et retransmissions sportives. Tél. 02 31 85 51 50.":
+    {
+      en: "An Irish pub on the harbour, 20 quai Vendeuvre: beers, live music and sports screenings. Tel. 02 31 85 51 50.",
+      de: "Irish Pub am Hafen, 20 quai Vendeuvre: Biere, Konzerte und Sportübertragungen. Tel. 02 31 85 51 50.",
+      es: "Pub irlandés en el puerto, 20 quai Vendeuvre: cervezas, conciertos y retransmisiones deportivas. Tel. 02 31 85 51 50.",
+      it: "Pub irlandese sul porto, 20 quai Vendeuvre: birre, concerti e dirette sportive. Tel. 02 31 85 51 50.",
+    },
+  "Bar animé et abordable, 30 quai Vendeuvre : tapas, cocktails et terrasse face au port.":
+    {
+      en: "A lively, affordable bar, 30 quai Vendeuvre: tapas, cocktails and a terrace facing the harbour.",
+      de: "Lebhafte, günstige Bar, 30 quai Vendeuvre: Tapas, Cocktails und Terrasse am Hafen.",
+      es: "Bar animado y asequible, 30 quai Vendeuvre: tapas, cócteles y terraza frente al puerto.",
+      it: "Bar vivace ed economico, 30 quai Vendeuvre: tapas, cocktail e terrazza di fronte al porto.",
+    },
+  "Bar festif sur le port, 32 quai Vendeuvre.": {
+    en: "A lively bar on the harbour, 32 quai Vendeuvre.",
+    de: "Lebhafte Bar am Hafen, 32 quai Vendeuvre.",
+    es: "Bar animado en el puerto, 32 quai Vendeuvre.",
+    it: "Bar vivace sul porto, 32 quai Vendeuvre.",
+  },
+  "Bar dansant, 33 rue Basse, à deux pas du logement.": {
+    en: "A dancing bar, 33 rue Basse, just steps from the flat.",
+    de: "Tanzbar, 33 rue Basse, nur wenige Schritte von der Wohnung.",
+    es: "Bar bailable, 33 rue Basse, a dos pasos del alojamiento.",
+    it: "Bar danzante, 33 rue Basse, a due passi dall'alloggio.",
+  },
 };

@@ -50,6 +50,7 @@
     "bagages": "Bagages",
     "decouverte": "Découverte de l'hébergement",
     "rdc": "Rez-de-chaussée",
+    "logement": "L'appartement",
     "etage": "Étage",
     "exterieur": "Extérieur",
     "inventaire": "Inventaire / équipements",
@@ -60,7 +61,9 @@
     "horaire": "Tranche horaire de départ",
     "instructions": "Instructions de départ",
     "poubelles": "Poubelles",
-    "menage": "Ménage pendant le séjour"
+    "menage": "Ménage pendant le séjour",
+    "departTardif": "Départ tardif",
+    "departTardifOption": "Départ à {heure}"
   },
   "Pratique": {
     "title": "Infos pratiques",
@@ -109,7 +112,11 @@
       "laverie": "Laveries",
       "stations": "Stations-service",
       "tabac": "Tabac & presse",
-      "nocturne": "Vie nocturne"
+      "nocturne": "Vie nocturne",
+      "tram": "Tram & bus",
+      "hopital": "Hôpital",
+      "medecin": "Médecin de garde",
+      "police": "Police"
     }
   },
   "Numeros": {
