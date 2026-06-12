@@ -15,8 +15,7 @@ export const granville: Logement = {
   itineraire:
     "https://maps.google.com/?q=228+Rue+des+3+Cheminées+50400+Granville",
   coords: [48.8377, -1.5789],
-  cover: "/logements/granville/cover-granville.jpg",
-  coverCredit: "Photo : Florian Pépellin / Wikimedia Commons — CC BY-SA 4.0",
+  cover: "/logements/granville/arrivee-1.jpg",
 
   motAccueil: {
     fr: "Bienvenue dans cette maison à 800 m de la mer et du centre-ville ! Entièrement équipée, au calme et sans vis-à-vis, elle a tout pour un beau séjour. Bon séjour à Granville ! 🐚",

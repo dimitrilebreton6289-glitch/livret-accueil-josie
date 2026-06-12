@@ -6,9 +6,10 @@ import { fleur } from "./fleur";
  * (même rue, même immeuble/quartier). Dupliqué de Fleur ; « Autour de moi »
  * réutilise les adresses de Fleur (distances recalculées depuis ce logement).
  *
- * ⚠️ À CONFIRMER, car propre à CE logement (pour l'instant repris de Fleur ou en
- * attente) : WiFi (placeholder ci-dessous), vidéo d'accès (à ajouter, propre au
- * 8 bis), place de parking réservée, couchage, liens Stripe de départ tardif.
+ * Spécificités confirmées (annonce du 8 bis) : WiFi identique à Fleur, vidéo
+ * d'accès propre, stationnement de RUE uniquement (pas de place réservée),
+ * CHAMBRE séparée (≠ coin nuit), canapé-lit du salon NON utilisable, velux dans
+ * la chambre, liens Stripe identiques à Fleur.
  */
 export const mer: Logement = {
   id: "mer",
@@ -22,11 +23,11 @@ export const mer: Logement = {
     "Abbaye aux Hommes, Caen — Photo : Mattana / Wikimedia Commons (CC BY 2.0)",
 
   motAccueil: {
-    fr: "Bienvenue dans l'appartement Mer, en plein cœur de Caen ! Vous êtes à deux pas de la place Saint-Sauveur, des restaurants, des commerces et des grands monuments — l'Abbaye aux Hommes et le château sont à quelques minutes à pied. Tout se découvre à pied. Très bon séjour à Caen ! 🌊",
-    en: "Welcome to the Mer apartment, right in the heart of Caen! You're just steps from Place Saint-Sauveur, the restaurants, the shops and the main landmarks — the Abbaye aux Hommes and the castle are a few minutes' walk away. Everything is within walking distance. Enjoy your stay in Caen! 🌊",
-    de: "Willkommen in der Wohnung Mer, mitten im Herzen von Caen! Sie wohnen nur wenige Schritte vom Place Saint-Sauveur, von Restaurants, Geschäften und den wichtigsten Sehenswürdigkeiten entfernt – die Abbaye aux Hommes und die Burg sind in wenigen Gehminuten erreichbar. Alles ist zu Fuß erreichbar. Einen schönen Aufenthalt in Caen! 🌊",
-    es: "¡Bienvenido al apartamento Mer, en pleno corazón de Caen! Está a dos pasos de la plaza Saint-Sauveur, de los restaurantes, las tiendas y los principales monumentos: la Abbaye aux Hommes y el castillo están a pocos minutos a pie. Todo se recorre a pie. ¡Feliz estancia en Caen! 🌊",
-    it: "Benvenuti nell'appartamento Mer, nel pieno cuore di Caen! Siete a due passi da place Saint-Sauveur, dai ristoranti, dai negozi e dai principali monumenti: l'Abbaye aux Hommes e il castello sono a pochi minuti a piedi. Tutto è raggiungibile a piedi. Buon soggiorno a Caen! 🌊",
+    fr: "Bienvenue dans l'appartement Mer, en plein cœur de Caen ! Idéal pour un séjour à deux, vous êtes à deux pas de la place Saint-Sauveur, des restaurants, des commerces et des grands monuments — l'Abbaye aux Hommes et le château sont à quelques minutes à pied. Tout se découvre à pied. Très bon séjour à Caen ! 🌊",
+    en: "Welcome to the Mer apartment, right in the heart of Caen! Perfect for a romantic getaway, you're just steps from Place Saint-Sauveur, the restaurants, the shops and the main landmarks — the Abbaye aux Hommes and the castle are a few minutes' walk away. Everything is within walking distance. Enjoy your stay in Caen! 🌊",
+    de: "Willkommen in der Wohnung Mer, mitten im Herzen von Caen! Ideal für einen Aufenthalt zu zweit: Sie wohnen nur wenige Schritte vom Place Saint-Sauveur, von Restaurants, Geschäften und den wichtigsten Sehenswürdigkeiten entfernt – die Abbaye aux Hommes und die Burg sind in wenigen Gehminuten erreichbar. Alles ist zu Fuß erreichbar. Einen schönen Aufenthalt in Caen! 🌊",
+    es: "¡Bienvenido al apartamento Mer, en pleno corazón de Caen! Ideal para una escapada en pareja, está a dos pasos de la plaza Saint-Sauveur, de los restaurantes, las tiendas y los principales monumentos: la Abbaye aux Hommes y el castillo están a pocos minutos a pie. Todo se recorre a pie. ¡Feliz estancia en Caen! 🌊",
+    it: "Benvenuti nell'appartamento Mer, nel pieno cuore di Caen! Ideale per un soggiorno romantico, siete a due passi da place Saint-Sauveur, dai ristoranti, dai negozi e dai principali monumenti: l'Abbaye aux Hommes e il castello sono a pochi minuti a piedi. Tutto è raggiungibile a piedi. Buon soggiorno a Caen! 🌊",
   },
 
   arrivee: {
@@ -36,16 +37,16 @@ export const mer: Logement = {
       "Vous recevrez toutes les informations d'accès à l'appartement par message, avec un lien vidéo, dans la conversation de la plateforme avec laquelle vous avez réservé.",
       "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.",
     ],
-    // video : à ajouter — vidéo d'accès propre au 8 bis (celle de Fleur montre le 14 ter).
+    video: "https://youtube.com/shorts/YH3oae7qxTY",
     parking:
-      "Stationnement gratuit dans les rues voisines : rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nStationnement payant (9h–12h30 et 14h–19h) : Place de la Mare, Les Fossés Saint-Julien.\nParking souterrain de la Mairie (payant), tout proche.",
+      "Stationnement gratuit dans la rue de l'appartement (rue Desmoueux) et les rues voisines : avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Selon l'heure d'arrivée, il n'est pas toujours évident de trouver une place.\nStationnement payant (9h–12h30 et 14h–19h, gratuit les dimanches et jours fériés) : rue des Fossés Saint-Julien, Place de la Mare.\nParking souterrain de la Mairie (payant), tout proche.",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
       rdc: [
-        "Salon avec canapé, pour se détendre",
-        "Coin nuit avec lit double (140 × 200 cm)",
-        "Cuisine entièrement équipée",
+        "Séjour-salon lumineux avec canapé et fenêtre (le canapé-lit n'est pas utilisable)",
+        "Chambre séparée (velux avec store électrique pour occulter)",
+        "Cuisine équipée et coin repas",
         "Salle de douche privative avec WC",
       ],
       etage: [],
@@ -53,10 +54,9 @@ export const mer: Logement = {
     },
   },
 
-  // ⚠️ WiFi PROPRE À CE LOGEMENT — à remplacer (réseau + mot de passe du 8 bis).
   wifi: {
-    reseau: "À compléter",
-    motDePasse: "À compléter",
+    reseau: "Livebox-2E40",
+    motDePasse: "Qn7FuSoiy7c9ENdkgL",
   },
 
   pratique: {
@@ -70,7 +70,7 @@ export const mer: Logement = {
       {
         titre: "🛏️ Linge de maison",
         contenu:
-          "Les draps sont fournis et le lit (140 × 200 cm) est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.",
+          "Les draps sont fournis et le lit est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.",
       },
       {
         titre: "📺 Télévision",
@@ -92,9 +92,9 @@ export const mer: Logement = {
         contenu: "La machine à café est une Nespresso (à capsules).",
       },
       {
-        titre: "🪟 Fenêtres de toit (velux)",
+        titre: "🪟 Fenêtre de toit (velux) de la chambre",
         contenu:
-          "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande accrochée au mur permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.",
+          "Le velux de la chambre ne s'ouvre pas. Son store est électrique : une télécommande permet de le fermer pour occulter la chambre et profiter de nuits dans le noir. Le séjour-salon dispose, lui, d'une fenêtre classique.",
       },
       {
         titre: "🧹 Aspirateur & ménage",
@@ -134,7 +134,8 @@ export const mer: Logement = {
 
   equipements: [
     "WiFi",
-    "Lit double (140 × 200)",
+    "Chambre séparée",
+    "Coin repas",
     "TV (décodeur Orange)",
     "Machine Nespresso",
     "Plaques de cuisson tactiles",
