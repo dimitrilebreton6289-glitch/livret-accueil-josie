@@ -131,6 +131,20 @@ export const caen: Logement = {
       "Éteindre les lumières et bien fermer les fenêtres",
       "Verrouiller la porte et remettre les clés dans la boîte à clé",
     ],
+    departTardif: {
+      texte: {
+        fr: "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.",
+        en: "Check-out is by 10 a.m. at the latest. If you'd like to extend your stay with a late check-out, please ask in advance. This option incurs an extra charge, to be paid directly via the relevant link below. Please let me know your departure time once the payment is made.",
+        de: "Die Abreise ist spätestens um 10 Uhr vorgesehen. Wenn Sie Ihren Aufenthalt mit einem späten Check-out verlängern möchten, fragen Sie dies bitte im Voraus an. Diese Option ist kostenpflichtig und direkt über den entsprechenden Link unten zu bezahlen. Bitte teilen Sie mir Ihre Abreisezeit mit, sobald die Zahlung erfolgt ist.",
+        es: "La salida está prevista a las 10 h como muy tarde. Si desea prolongar su estancia con una salida tardía, le rogamos que lo solicite con antelación. Esta opción conlleva un suplemento, que se abona directamente a través del enlace correspondiente más abajo. Por favor, comuníqueme su hora de salida una vez realizado el pago.",
+        it: "La partenza è prevista entro le 10. Se desiderate prolungare il soggiorno con una partenza posticipata, vi preghiamo di farne richiesta in anticipo. Questa opzione prevede un supplemento, da pagare direttamente tramite il link corrispondente qui sotto. Vi prego di comunicarmi l'orario di partenza una volta effettuato il pagamento.",
+      },
+      options: [
+        { heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" },
+        { heure: "13h", url: "https://buy.stripe.com/28E9AU4Ew57rfpxgcZ7ss0b" },
+        { heure: "14h", url: "https://buy.stripe.com/dRmeVe8UMgQ95OX4uh7ss0c" },
+      ],
+    },
   },
 
   quartier: {

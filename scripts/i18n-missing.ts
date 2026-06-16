@@ -4,11 +4,13 @@ import { CONTENT } from "../data/i18n-content";
 // Champs dont la valeur n'est PAS traduite via le dictionnaire CONTENT.
 const SKIP_KEYS = new Set([
   "id", "ville", "cover", "coverCredit", "itineraire", "adresse",
-  "reseau", "motDePasse", "tel", "nom", "key", "heure", "url",
+  "reseau", "motDePasse", "tel", "key", "heure", "url",
   "samu", "police", "pompiers", "europeen", "photo", "video",
 ]);
 
-const targets = logements.filter((l) => l.id === "fleur" || l.id === "mer");
+const targets = logements.filter(
+  (l) => l.id === "fleur" || l.id === "mer" || l.id === "boheme",
+);
 const found = new Set<string>();
 
 function walk(v: unknown, key?: string): void {
@@ -46,4 +48,5 @@ for (const s of found) {
 console.log("=== DÉJÀ PRÉSENTES MAIS INCOMPLÈTES (" + partial.length + ") — à éditer ===");
 for (const m of partial) console.log("• " + JSON.stringify(m));
 console.log("\n=== TOTALEMENT ABSENTES (" + absent.length + ") — à ajouter ===");
-console.log("(total traduisible : " + found.size + ")");
+for (const m of absent) console.log("• " + JSON.stringify(m));
+console.log("\n(total traduisible : " + found.size + ")");

@@ -2,30 +2,29 @@ import type { Logement } from "../types";
 import { fleur } from "./fleur";
 
 /**
- * Logement « Mer » — Caen, 8 bis rue Desmoueux, juste à côté de « Fleur »
- * (même rue, même immeuble/quartier). Dupliqué de Fleur ; « Autour de moi »
- * réutilise les adresses de Fleur (distances recalculées depuis ce logement).
+ * Logement « Bohème » — Caen, 8 bis rue Desmoueux (même immeuble que « Mer »).
+ * Dupliqué de Mer ; « Autour de moi » réutilise les adresses de Fleur (distances
+ * recalculées depuis ce logement).
  *
- * Spécificités confirmées (annonce du 8 bis) : WiFi identique à Fleur, vidéo
- * d'accès propre, stationnement de RUE uniquement (pas de place réservée),
- * CHAMBRE séparée (≠ coin nuit), canapé-lit du salon NON utilisable, velux dans
- * la chambre, liens Stripe identiques à Fleur.
+ * Spécificité : espace nuit en MEZZANINE (hauteur sous plafond réduite,
+ * recommandée aux enfants dès 8 ans). Pas de TV mentionnée dans l'annonce.
+ * WiFi et liens Stripe identiques à Fleur/Mer. Capacité estimée à 3 (à confirmer).
  */
-export const mer: Logement = {
-  id: "mer",
-  nom: "Mer",
+export const boheme: Logement = {
+  id: "boheme",
+  nom: "Bohème",
   adresse: "8 bis Rue Desmoueux, 14000 Caen",
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=8+bis+Rue+Desmoueux+14000+Caen",
   coords: [49.1885, -0.3705],
-  cover: "/logements/mer/cover2.jpg",
+  cover: "/logements/boheme/cover2.jpg",
 
   motAccueil: {
-    fr: "Bienvenue dans l'appartement Mer, en plein cœur de Caen ! Idéal pour un séjour à deux, vous êtes à deux pas de la place Saint-Sauveur, des restaurants, des commerces et des grands monuments — l'Abbaye aux Hommes et le château sont à quelques minutes à pied. Tout se découvre à pied. Très bon séjour à Caen ! 🌊",
-    en: "Welcome to the Mer apartment, right in the heart of Caen! Perfect for a romantic getaway, you're just steps from Place Saint-Sauveur, the restaurants, the shops and the main landmarks — the Abbaye aux Hommes and the castle are a few minutes' walk away. Everything is within walking distance. Enjoy your stay in Caen! 🌊",
-    de: "Willkommen in der Wohnung Mer, mitten im Herzen von Caen! Ideal für einen Aufenthalt zu zweit: Sie wohnen nur wenige Schritte vom Place Saint-Sauveur, von Restaurants, Geschäften und den wichtigsten Sehenswürdigkeiten entfernt – die Abbaye aux Hommes und die Burg sind in wenigen Gehminuten erreichbar. Alles ist zu Fuß erreichbar. Einen schönen Aufenthalt in Caen! 🌊",
-    es: "¡Bienvenido al apartamento Mer, en pleno corazón de Caen! Ideal para una escapada en pareja, está a dos pasos de la plaza Saint-Sauveur, de los restaurantes, las tiendas y los principales monumentos: la Abbaye aux Hommes y el castillo están a pocos minutos a pie. Todo se recorre a pie. ¡Feliz estancia en Caen! 🌊",
-    it: "Benvenuti nell'appartamento Mer, nel pieno cuore di Caen! Ideale per un soggiorno romantico, siete a due passi da place Saint-Sauveur, dai ristoranti, dai negozi e dai principali monumenti: l'Abbaye aux Hommes e il castello sono a pochi minuti a piedi. Tutto è raggiungibile a piedi. Buon soggiorno a Caen! 🌊",
+    fr: "Bienvenue dans l'appartement Bohème, à deux pas du centre de Caen et de la place Saint-Sauveur ! Ce logement atypique, avec sa mezzanine, vous charmera — entouré de restaurants, de bars et de commerces, tout se découvre à pied. Très bon séjour à Caen ! 🎨",
+    en: "Welcome to the Bohème apartment, just steps from the centre of Caen and Place Saint-Sauveur! This characterful flat, with its mezzanine, will charm you — surrounded by restaurants, bars and shops, everything is within walking distance. Enjoy your stay in Caen! 🎨",
+    de: "Willkommen in der Wohnung Bohème, nur wenige Schritte vom Zentrum von Caen und dem Place Saint-Sauveur entfernt! Diese außergewöhnliche Wohnung mit ihrer Galerie (Mezzanin) wird Sie bezaubern — umgeben von Restaurants, Bars und Geschäften ist alles zu Fuß erreichbar. Einen schönen Aufenthalt in Caen! 🎨",
+    es: "¡Bienvenido al apartamento Bohème, a dos pasos del centro de Caen y de la plaza Saint-Sauveur! Este alojamiento con encanto, con su altillo (mezzanine), le enamorará — rodeado de restaurantes, bares y comercios, todo se recorre a pie. ¡Feliz estancia en Caen! 🎨",
+    it: "Benvenuti nell'appartamento Bohème, a due passi dal centro di Caen e da place Saint-Sauveur! Questo alloggio caratteristico, con il suo soppalco (mezzanine), vi conquisterà — circondato da ristoranti, bar e negozi, tutto è raggiungibile a piedi. Buon soggiorno a Caen! 🎨",
   },
 
   arrivee: {
@@ -35,15 +34,15 @@ export const mer: Logement = {
       "Vous recevrez toutes les informations d'accès à l'appartement par message, avec un lien vidéo, dans la conversation de la plateforme avec laquelle vous avez réservé.",
       "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.",
     ],
-    video: "https://youtube.com/shorts/YH3oae7qxTY",
+    video: "https://youtube.com/shorts/s5HVlo7Qq3M",
     parking:
       "Stationnement gratuit dans la rue de l'appartement (rue Desmoueux) et les rues voisines : avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Selon l'heure d'arrivée, il n'est pas toujours évident de trouver une place.\nStationnement payant (9h–12h30 et 14h–19h, gratuit les dimanches et jours fériés) : rue des Fossés Saint-Julien, Place de la Mare.\nParking souterrain de la Mairie (payant), tout proche.",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
       rdc: [
-        "Séjour-salon lumineux avec canapé et fenêtre (le canapé-lit n'est pas utilisable)",
-        "Chambre séparée (velux avec store électrique pour occulter)",
+        "Séjour lumineux avec coin salon et espace nuit",
+        "Mezzanine aménagée pour un couchage supplémentaire (hauteur réduite : 68–90 cm, recommandée aux enfants dès 8 ans)",
         "Cuisine équipée et coin repas",
         "Salle de douche privative avec WC",
       ],
@@ -61,6 +60,11 @@ export const mer: Logement = {
     aSavoir: [],
     aSavoirSections: [
       {
+        titre: "🪜 Mezzanine (couchage d'appoint)",
+        contenu:
+          "L'espace nuit en mezzanine offre un couchage supplémentaire. ⚠️ La hauteur sous plafond y est réduite (68 cm au plus bas, 90 cm au plus haut) : cet espace est recommandé pour des enfants à partir de 8 ans. Accédez-y avec prudence.",
+      },
+      {
         titre: "🎁 Produits d'accueil",
         contenu:
           "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.",
@@ -73,7 +77,7 @@ export const mer: Logement = {
       {
         titre: "📺 Télévision",
         contenu:
-          "Étape 1 — Appuyez sur le bouton Power (rouge, tout en haut de la télécommande blanche) pour allumer l'écran.\nÉtape 2 — Patientez quelques secondes que le menu d'accueil apparaisse ; au besoin, allumez aussi la télécommande du décodeur.\nÉtape 3 — Avec les flèches de navigation, sélectionnez l'application « Molotov TV » et validez avec OK, ou passez par la TV d'Orange via le décodeur.\nÉtape 4 — Naviguez et choisissez vos chaînes avec cette télécommande (ou servez-vous de la télécommande du décodeur pour changer de chaîne).\n\nPour les TV avec décodeur, mettez la source sur le bon emplacement HDMI (1 ou 2). Si cela ne fonctionne pas, débranchez puis rebranchez le décodeur.",
+          "Allumez la télévision avec l'unique télécommande (bouton Power). Il n'y a pas de décodeur : le téléviseur est directement connecté à l'application TV d'Orange. Utilisez les flèches et le bouton OK pour naviguer et choisir vos chaînes.",
       },
       {
         titre: "🔥 Chauffage",
@@ -90,9 +94,9 @@ export const mer: Logement = {
         contenu: "La machine à café est une Nespresso (à capsules).",
       },
       {
-        titre: "🪟 Fenêtre de toit (velux) de la chambre",
+        titre: "🪟 Fenêtres de toit (velux)",
         contenu:
-          "Le velux de la chambre ne s'ouvre pas. Son store est électrique : une télécommande, accrochée au mur à l'entrée de la chambre sur la droite, permet de le fermer pour occulter la chambre et profiter de nuits dans le noir. Le séjour-salon dispose, lui, d'une fenêtre classique.",
+          "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande, accrochée au mur à côté du placard sur la droite, permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.",
       },
       {
         titre: "🍽️ Vaisselle",
@@ -112,29 +116,29 @@ export const mer: Logement = {
       "Micro-ondes",
       "Grille-pain",
       "Poêles & casseroles",
-      "TV (décodeur Orange)",
+      "TV (Orange)",
     ],
     reglementInterieur: {
-      capaciteMax: 2,
+      capaciteMax: 4,
       nonFumeur: true,
       animauxAcceptes: true,
       evenementsAutorises: false,
       horairesCalme:
         "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes (couloirs, escaliers).",
       texte:
-        "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. Les animaux de compagnie sont acceptés (1 animal maximum), le supplément correspondant étant à régler directement sur la plateforme de réservation. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores.",
+        "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du supplément correspondant. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores.",
     },
     poubelles:
       "Les déchets doivent être déposés dans les bacs situés à l'extérieur, dans la cour.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur situé au 8 Place de la Mare",
     animaux:
-      "Les animaux de compagnie sont acceptés (1 animal maximum). Le supplément correspondant est à régler directement sur la plateforme de réservation.",
+      "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.",
   },
 
   equipements: [
     "WiFi",
-    "Chambre séparée",
+    "Mezzanine (couchage d'appoint)",
     "Coin repas",
-    "TV (décodeur Orange)",
+    "TV (Orange)",
     "Machine Nespresso",
     "Plaques de cuisson tactiles",
     "Réfrigérateur",
@@ -160,7 +164,6 @@ export const mer: Logement = {
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
       "Fermer l'appartement à clé et remettre les clés dans la boîte à code",
     ],
-    // ⚠️ Liens Stripe repris de Fleur — à confirmer (mêmes liens ou propres au 8 bis ?).
     departTardif: {
       texte:
         "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.",
@@ -185,8 +188,7 @@ export const mer: Logement = {
   },
 
   autourDeMoi: {
-    // Mêmes adresses que « Fleur » (logement voisin) ; distances recalculées
-    // automatiquement depuis les coordonnées de ce logement.
+    // Mêmes adresses que « Fleur »/« Mer » (même rue) ; distances recalculées.
     categories: fleur.autourDeMoi.categories,
     coupDeCoeur:
       "À deux pas de chez vous : le Jardin des Plantes (gratuit, ~2 min) pour une pause au vert, et la place Saint-Sauveur avec ses terrasses. L'Abbaye aux Hommes et le château se rejoignent à pied. Le soir, le quartier du Vaugueux concentre les meilleures tables — et pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !",

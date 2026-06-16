@@ -80,9 +80,7 @@ export const fleur: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=14+ter+Rue+Desmoueux+14000+Caen",
   coords: [49.1883, -0.3703],
-  cover: "/logements/fleur/cover.jpg",
-  coverCredit:
-    "Abbaye aux Hommes, Caen — Photo : Mattana / Wikimedia Commons (CC BY 2.0)",
+  cover: "/logements/fleur/cover2.jpg",
 
   motAccueil: {
     fr: "Bienvenue dans l'appartement Fleur, en plein cœur de Caen ! Vous êtes à deux pas de la place Saint-Sauveur, des restaurants, des commerces et des grands monuments — l'Abbaye aux Hommes et le château sont à quelques minutes à pied. Et bonne nouvelle : une place de parking gratuite vous est réservée juste devant l'immeuble. Tout se découvre à pied. Très bon séjour à Caen ! 🌸",
@@ -157,17 +155,17 @@ export const fleur: Logement = {
       {
         titre: "🪟 Fenêtres de toit (velux)",
         contenu:
-          "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande accrochée au mur permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.",
+          "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande, accrochée au mur entre le lit et la table de nuit, permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.",
       },
       {
-        titre: "🧹 Aspirateur & ménage",
-        contenu:
-          "L'aspirateur se trouve dans le placard près de la salle de douche. Merci de rendre l'appartement propre et rangé à votre départ.",
-      },
-      {
-        titre: "🍽️ Casse de vaisselle",
+        titre: "🍽️ Vaisselle",
         contenu:
           "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
+      },
+      {
+        titre: "🐾 Animaux",
+        contenu:
+          "Les animaux de compagnie sont acceptés (1 animal maximum). Le supplément correspondant est à régler directement sur la plateforme de réservation.",
       },
     ],
     electromenager: [
@@ -220,7 +218,7 @@ export const fleur: Logement = {
     horaire: "Jusqu'à 10h",
     instructions: [
       "Faire la vaisselle, la ranger et vider les poubelles dans les bacs de la cour",
-      "Rendre l'appartement propre et rangé (aspirateur dans le placard près de la salle de douche)",
+      "Rendre l'appartement propre et rangé",
       "Fermer les fenêtres et velux s'ils ont été ouverts, éteindre les lumières et baisser la température des radiateurs",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
       "Fermer l'appartement à clé et remettre les clés dans la boîte à code",

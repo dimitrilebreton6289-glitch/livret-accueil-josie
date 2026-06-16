@@ -19,6 +19,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://livret-accueil-josie.vercel.app"),
   title: "Livret d'accueil — Josie Conciergerie",
   description: "Toutes les informations pour profiter de votre séjour.",
 };

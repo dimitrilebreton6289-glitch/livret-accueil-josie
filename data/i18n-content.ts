@@ -1423,4 +1423,910 @@ export const CONTENT: Record<string, Tr> = {
     es: "Bar bailable, 33 rue Basse, a dos pasos del alojamiento.",
     it: "Bar danzante, 33 rue Basse, a due passi dall'alloggio.",
   },
+
+  // ============================================================ Fleur & Mer
+  "À partir de 17h": {
+    en: "From 5 p.m.",
+    de: "Ab 17 Uhr",
+    es: "A partir de las 17 h",
+    it: "Dalle 17",
+  },
+  "Le code de la boîte à clés vous sera communiqué le jour de votre arrivée.": {
+    en: "The lockbox code will be sent to you on the day of your arrival.",
+    de: "Der Code des Schlüsselkastens wird Ihnen am Tag Ihrer Anreise mitgeteilt.",
+    es: "El código de la caja de llaves se le facilitará el día de su llegada.",
+    it: "Il codice della cassetta delle chiavi vi sarà comunicato il giorno del vostro arrivo.",
+  },
+  "Vous recevrez toutes les informations d'accès à l'appartement par message, avec un lien vidéo, dans la conversation de la plateforme avec laquelle vous avez réservé.":
+    {
+      en: "You will receive all the access information for the flat by message, with a video link, in the conversation on the platform you booked with.",
+      de: "Sie erhalten alle Zugangsinformationen zur Wohnung per Nachricht, mit einem Video-Link, im Chat der Plattform, über die Sie gebucht haben.",
+      es: "Recibirá toda la información de acceso al apartamento por mensaje, con un enlace de vídeo, en la conversación de la plataforma con la que reservó.",
+      it: "Riceverete tutte le informazioni di accesso all'appartamento via messaggio, con un link video, nella conversazione della piattaforma con cui avete prenotato.",
+    },
+  "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.":
+    {
+      en: "An early arrival is possible, subject to availability and on prior request.",
+      de: "Eine frühere Anreise ist möglich, nach Verfügbarkeit und auf vorherige Anfrage.",
+      es: "Es posible una llegada anticipada, según disponibilidad y bajo petición previa.",
+      it: "È possibile un arrivo anticipato, secondo disponibilità e su richiesta preventiva.",
+    },
+  "Une place de parking gratuite vous est réservée, juste devant l'entrée de l'immeuble — place non sécurisée (ni barrière, ni portail, ni code).\nPour un second véhicule, stationnement gratuit dans les rues voisines : rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nStationnement payant (9h–12h30 et 14h–19h) : Place de la Mare, Les Fossés Saint-Julien.\nParking souterrain de la Mairie (payant), tout proche.":
+    {
+      en: "A free parking space is reserved for you, right in front of the building entrance — unsecured space (no barrier, gate or code).\nFor a second vehicle, free parking in the neighbouring streets: rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nPaid parking (9 a.m.–12.30 p.m. and 2–7 p.m.): Place de la Mare, Les Fossés Saint-Julien.\nUnderground car park at the Town Hall (paid), very close by.",
+      de: "Ein kostenloser Parkplatz ist direkt vor dem Eingang des Gebäudes für Sie reserviert — ungesicherter Platz (keine Schranke, kein Tor, kein Code).\nFür ein zweites Fahrzeug: kostenloses Parken in den Nachbarstraßen: rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nGebührenpflichtiges Parken (9–12:30 und 14–19 Uhr): Place de la Mare, Les Fossés Saint-Julien.\nTiefgarage am Rathaus (kostenpflichtig), ganz in der Nähe.",
+      es: "Tiene reservada una plaza de aparcamiento gratuita, justo delante de la entrada del edificio — plaza no vigilada (sin barrera, verja ni código).\nPara un segundo vehículo, aparcamiento gratuito en las calles vecinas: rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nAparcamiento de pago (9:00–12:30 y 14:00–19:00): Place de la Mare, Les Fossés Saint-Julien.\nAparcamiento subterráneo del Ayuntamiento (de pago), muy cerca.",
+      it: "Un posto auto gratuito è riservato per voi, proprio davanti all'ingresso dell'edificio — posto non custodito (senza barriera, cancello o codice).\nPer un secondo veicolo, parcheggio gratuito nelle vie vicine: rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nParcheggio a pagamento (9–12:30 e 14–19): Place de la Mare, Les Fossés Saint-Julien.\nParcheggio sotterraneo del Municipio (a pagamento), molto vicino.",
+    },
+  "Stationnement gratuit dans la rue de l'appartement (rue Desmoueux) et les rues voisines : avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Selon l'heure d'arrivée, il n'est pas toujours évident de trouver une place.\nStationnement payant (9h–12h30 et 14h–19h, gratuit les dimanches et jours fériés) : rue des Fossés Saint-Julien, Place de la Mare.\nParking souterrain de la Mairie (payant), tout proche.":
+    {
+      en: "Free parking on the apartment's street (rue Desmoueux) and neighbouring streets: avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Depending on your arrival time, finding a space isn't always easy.\nPaid parking (9 a.m.–12.30 p.m. and 2–7 p.m., free on Sundays and public holidays): rue des Fossés Saint-Julien, Place de la Mare.\nUnderground car park at the Town Hall (paid), very close by.",
+      de: "Kostenloses Parken in der Straße der Wohnung (rue Desmoueux) und den Nachbarstraßen: avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Je nach Ankunftszeit ist ein Platz nicht immer leicht zu finden.\nGebührenpflichtiges Parken (9–12:30 und 14–19 Uhr, sonn- und feiertags kostenlos): rue des Fossés Saint-Julien, Place de la Mare.\nTiefgarage am Rathaus (kostenpflichtig), ganz in der Nähe.",
+      es: "Aparcamiento gratuito en la calle del apartamento (rue Desmoueux) y calles vecinas: avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Según la hora de llegada, no siempre es fácil encontrar sitio.\nAparcamiento de pago (9:00–12:30 y 14:00–19:00, gratis domingos y festivos): rue des Fossés Saint-Julien, Place de la Mare.\nAparcamiento subterráneo del Ayuntamiento (de pago), muy cerca.",
+      it: "Parcheggio gratuito nella via dell'appartamento (rue Desmoueux) e nelle vie vicine: avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. A seconda dell'orario di arrivo, non è sempre facile trovare posto.\nParcheggio a pagamento (9–12:30 e 14–19, gratuito la domenica e nei giorni festivi): rue des Fossés Saint-Julien, Place de la Mare.\nParcheggio sotterraneo del Municipio (a pagamento), molto vicino.",
+    },
+  "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.":
+    {
+      en: "Luggage drop-off is possible, subject to the flat's availability. Please request it in advance so we can confirm whether it's feasible.",
+      de: "Eine Gepäckaufbewahrung ist möglich, je nach Verfügbarkeit der Wohnung. Bitte fragen Sie im Voraus an, damit wir die Machbarkeit bestätigen können.",
+      es: "Es posible dejar el equipaje, según la disponibilidad del alojamiento. Solicítelo con antelación para que podamos confirmar la viabilidad.",
+      it: "È possibile il deposito bagagli, secondo la disponibilità dell'alloggio. Vi preghiamo di farne richiesta in anticipo affinché possiamo confermarne la fattibilità.",
+    },
+  "Salon avec canapé, pour se détendre": {
+    en: "Living room with sofa, to relax",
+    de: "Wohnzimmer mit Sofa zum Entspannen",
+    es: "Salón con sofá, para relajarse",
+    it: "Soggiorno con divano, per rilassarsi",
+  },
+  "Coin nuit avec lit double (140 × 200 cm)": {
+    en: "Sleeping area with double bed (140 × 200 cm)",
+    de: "Schlafbereich mit Doppelbett (140 × 200 cm)",
+    es: "Zona de noche con cama de matrimonio (140 × 200 cm)",
+    it: "Zona notte con letto matrimoniale (140 × 200 cm)",
+  },
+  "Salle de douche privative avec WC": {
+    en: "Private shower room with WC",
+    de: "Eigenes Duschbad mit WC",
+    es: "Baño privado con ducha y WC",
+    it: "Bagno privato con doccia e WC",
+  },
+  "Séjour-salon lumineux avec canapé et fenêtre (le canapé-lit n'est pas utilisable)":
+    {
+      en: "Bright living room with sofa and window (the sofa bed is not usable)",
+      de: "Helles Wohnzimmer mit Sofa und Fenster (das Schlafsofa ist nicht nutzbar)",
+      es: "Salón luminoso con sofá y ventana (el sofá cama no se puede usar)",
+      it: "Luminoso soggiorno con divano e finestra (il divano letto non è utilizzabile)",
+    },
+  "Chambre séparée (velux avec store électrique pour occulter)": {
+    en: "Separate bedroom (skylight with electric blind to black out)",
+    de: "Separates Schlafzimmer (Dachfenster mit elektrischem Rollo zum Abdunkeln)",
+    es: "Dormitorio separado (tragaluz con estor eléctrico para oscurecer)",
+    it: "Camera separata (lucernario con tenda elettrica oscurante)",
+  },
+  "Cuisine équipée et coin repas": {
+    en: "Equipped kitchen and dining area",
+    de: "Ausgestattete Küche und Essbereich",
+    es: "Cocina equipada y zona de comedor",
+    it: "Cucina attrezzata e angolo pranzo",
+  },
+  "🎁 Produits d'accueil": {
+    en: "🎁 Welcome amenities",
+    de: "🎁 Willkommensartikel",
+    es: "🎁 Productos de acogida",
+    it: "🎁 Prodotti di benvenuto",
+  },
+  "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.":
+    {
+      en: "On arrival, you'll find provided: toilet paper, a mini shower gel/shampoo per person, salt and pepper, a few coffee capsules as well as tea, washing-up liquid and a sponge.",
+      de: "Bei Ihrer Ankunft finden Sie bereitgestellt: Toilettenpapier, ein Mini-Duschgel/Shampoo pro Person, Salz und Pfeffer, einige Kaffeekapseln sowie Tee, Spülmittel und einen Schwamm.",
+      es: "A su llegada, encontrará a su disposición: papel higiénico, una miniatura de gel de ducha/champú por persona, sal y pimienta, algunas cápsulas de café y té, lavavajillas y una esponja.",
+      it: "Al vostro arrivo troverete a disposizione: carta igienica, un mini gel doccia/shampoo a persona, sale e pepe, alcune capsule di caffè e tè, detersivo per piatti e una spugna.",
+    },
+  "🛏️ Linge de maison": {
+    en: "🛏️ Bed & bath linen",
+    de: "🛏️ Bett- und Haushaltswäsche",
+    es: "🛏️ Ropa de cama y baño",
+    it: "🛏️ Biancheria",
+  },
+  "Les draps sont fournis et le lit (140 × 200 cm) est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.":
+    {
+      en: "Bed linen is provided and the bed (140 × 200 cm) is made. Each guest has a bath towel; a bath mat and a kitchen towel are also provided.",
+      de: "Bettwäsche wird gestellt und das Bett (140 × 200 cm) ist gemacht. Jedem Gast steht ein Handtuch zur Verfügung; eine Badematte und ein Geschirrtuch sind ebenfalls vorhanden.",
+      es: "La ropa de cama está incluida y la cama (140 × 200 cm) está hecha. Cada huésped dispone de una toalla; también hay una alfombrilla de baño y un paño de cocina.",
+      it: "Le lenzuola sono fornite e il letto (140 × 200 cm) è rifatto. Ogni ospite dispone di un asciugamano; sono inoltre forniti un tappetino da bagno e uno strofinaccio.",
+    },
+  "Les draps sont fournis et le lit est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.":
+    {
+      en: "Bed linen is provided and the bed is made. Each guest has a bath towel; a bath mat and a kitchen towel are also provided.",
+      de: "Bettwäsche wird gestellt und das Bett ist gemacht. Jedem Gast steht ein Handtuch zur Verfügung; eine Badematte und ein Geschirrtuch sind ebenfalls vorhanden.",
+      es: "La ropa de cama está incluida y la cama está hecha. Cada huésped dispone de una toalla; también hay una alfombrilla de baño y un paño de cocina.",
+      it: "Le lenzuola sono fornite e il letto è rifatto. Ogni ospite dispone di un asciugamano; sono inoltre forniti un tappetino da bagno e uno strofinaccio.",
+    },
+  "📺 Télévision": {
+    en: "📺 Television",
+    de: "📺 Fernseher",
+    es: "📺 Televisión",
+    it: "📺 Televisione",
+  },
+  "Étape 1 — Appuyez sur le bouton Power (rouge, tout en haut de la télécommande blanche) pour allumer l'écran.\nÉtape 2 — Patientez quelques secondes que le menu d'accueil apparaisse ; au besoin, allumez aussi la télécommande du décodeur.\nÉtape 3 — Avec les flèches de navigation, sélectionnez l'application « Molotov TV » et validez avec OK, ou passez par la TV d'Orange via le décodeur.\nÉtape 4 — Naviguez et choisissez vos chaînes avec cette télécommande (ou servez-vous de la télécommande du décodeur pour changer de chaîne).\n\nPour les TV avec décodeur, mettez la source sur le bon emplacement HDMI (1 ou 2). Si cela ne fonctionne pas, débranchez puis rebranchez le décodeur.":
+    {
+      en: "Step 1 — Press the Power button (red, at the top of the white remote) to switch on the screen.\nStep 2 — Wait a few seconds for the home menu to appear; if needed, also switch on the set-top box remote.\nStep 3 — Using the navigation arrows, select the “Molotov TV” app and confirm with OK, or use Orange TV via the set-top box.\nStep 4 — Browse and choose your channels with this remote (or use the set-top box remote to change channels).\n\nFor TVs with a set-top box, set the source to the correct HDMI input (1 or 2). If it doesn't work, unplug and plug the box back in.",
+      de: "Schritt 1 — Drücken Sie die Power-Taste (rot, ganz oben auf der weißen Fernbedienung), um den Bildschirm einzuschalten.\nSchritt 2 — Warten Sie einige Sekunden, bis das Startmenü erscheint; schalten Sie bei Bedarf auch die Fernbedienung des Decoders ein.\nSchritt 3 — Wählen Sie mit den Navigationspfeilen die App „Molotov TV“ und bestätigen Sie mit OK, oder nutzen Sie Orange TV über den Decoder.\nSchritt 4 — Navigieren und wählen Sie Ihre Sender mit dieser Fernbedienung (oder verwenden Sie die Fernbedienung des Decoders, um die Sender zu wechseln).\n\nStellen Sie bei Fernsehern mit Decoder die Quelle auf den richtigen HDMI-Eingang (1 oder 2). Falls es nicht funktioniert, ziehen Sie den Decoder aus der Steckdose und stecken Sie ihn wieder ein.",
+      es: "Paso 1 — Pulse el botón Power (rojo, en la parte superior del mando blanco) para encender la pantalla.\nPaso 2 — Espere unos segundos a que aparezca el menú de inicio; si es necesario, encienda también el mando del decodificador.\nPaso 3 — Con las flechas de navegación, seleccione la aplicación «Molotov TV» y confirme con OK, o use la TV de Orange mediante el decodificador.\nPaso 4 — Navegue y elija sus canales con este mando (o use el mando del decodificador para cambiar de canal).\n\nPara los televisores con decodificador, ponga la fuente en la entrada HDMI correcta (1 o 2). Si no funciona, desenchufe y vuelva a enchufar el decodificador.",
+      it: "Passo 1 — Premete il tasto Power (rosso, in alto sul telecomando bianco) per accendere lo schermo.\nPasso 2 — Attendete qualche secondo che appaia il menu iniziale; se necessario, accendete anche il telecomando del decoder.\nPasso 3 — Con le frecce di navigazione, selezionate l'app «Molotov TV» e confermate con OK, oppure usate la TV di Orange tramite il decoder.\nPasso 4 — Navigate e scegliete i canali con questo telecomando (o usate il telecomando del decoder per cambiare canale).\n\nPer i TV con decoder, impostate la sorgente sull'ingresso HDMI corretto (1 o 2). Se non funziona, scollegate e ricollegate il decoder.",
+    },
+  "🔥 Chauffage": {
+    en: "🔥 Heating",
+    de: "🔥 Heizung",
+    es: "🔥 Calefacción",
+    it: "🔥 Riscaldamento",
+  },
+  "Pour allumer les radiateurs, appuyez sur le bouton on/off et réglez la température avec les flèches. Merci de limiter votre consommation.":
+    {
+      en: "To turn on the radiators, press the on/off button and adjust the temperature with the arrows. Please keep your consumption reasonable.",
+      de: "Um die Heizkörper einzuschalten, drücken Sie die On/Off-Taste und stellen Sie die Temperatur mit den Pfeilen ein. Bitte achten Sie auf einen sparsamen Verbrauch.",
+      es: "Para encender los radiadores, pulse el botón on/off y ajuste la temperatura con las flechas. Le rogamos que limite el consumo.",
+      it: "Per accendere i radiatori, premete il tasto on/off e regolate la temperatura con le frecce. Vi preghiamo di limitare i consumi.",
+    },
+  "🍳 Plaque de cuisson": {
+    en: "🍳 Hob",
+    de: "🍳 Kochfeld",
+    es: "🍳 Placa de cocción",
+    it: "🍳 Piano cottura",
+  },
+  "Les boutons sont tactiles. Si la plaque se verrouille, restez appuyé longuement sur le cadenas afin de la déverrouiller.":
+    {
+      en: "The controls are touch-sensitive. If the hob locks, press and hold the padlock symbol to unlock it.",
+      de: "Die Bedienelemente sind berührungsempfindlich. Wenn das Kochfeld sperrt, halten Sie das Schloss-Symbol gedrückt, um es zu entsperren.",
+      es: "Los mandos son táctiles. Si la placa se bloquea, mantenga pulsado el candado para desbloquearla.",
+      it: "I comandi sono touch. Se il piano cottura si blocca, tenete premuto a lungo il lucchetto per sbloccarlo.",
+    },
+  "☕ Machine à café": {
+    en: "☕ Coffee machine",
+    de: "☕ Kaffeemaschine",
+    es: "☕ Cafetera",
+    it: "☕ Macchina del caffè",
+  },
+  "La machine à café est une Nespresso (à capsules).": {
+    en: "The coffee machine is a Nespresso (capsules).",
+    de: "Die Kaffeemaschine ist eine Nespresso (Kapseln).",
+    es: "La cafetera es una Nespresso (cápsulas).",
+    it: "La macchina del caffè è una Nespresso (capsule).",
+  },
+  "🪟 Fenêtres de toit (velux)": {
+    en: "🪟 Roof windows (skylights)",
+    de: "🪟 Dachfenster (Velux)",
+    es: "🪟 Ventanas de techo (tragaluces)",
+    it: "🪟 Finestre da tetto (lucernari)",
+  },
+  "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande accrochée au mur permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.":
+    {
+      en: "The roof windows (skylights) do not open. The blind is electric: a remote control on the wall lets you close it to black out the room and enjoy nights in the dark.",
+      de: "Die Dachfenster (Velux) lassen sich nicht öffnen. Das Rollo ist elektrisch: Mit einer Fernbedienung an der Wand können Sie es schließen, um den Raum abzudunkeln und im Dunkeln zu schlafen.",
+      es: "Las ventanas de techo (tragaluces) no se abren. El estor es eléctrico: un mando en la pared permite cerrarlo para oscurecer la habitación y disfrutar de noches a oscuras.",
+      it: "Le finestre da tetto (lucernari) non si aprono. La tenda è elettrica: un telecomando a parete permette di chiuderla per oscurare la stanza e dormire al buio.",
+    },
+  "🪟 Fenêtre de toit (velux) de la chambre": {
+    en: "🪟 Bedroom roof window (skylight)",
+    de: "🪟 Dachfenster (Velux) im Schlafzimmer",
+    es: "🪟 Ventana de techo (tragaluz) del dormitorio",
+    it: "🪟 Finestra da tetto (lucernario) della camera",
+  },
+  "Le velux de la chambre ne s'ouvre pas. Son store est électrique : une télécommande permet de le fermer pour occulter la chambre et profiter de nuits dans le noir. Le séjour-salon dispose, lui, d'une fenêtre classique.":
+    {
+      en: "The bedroom roof window (skylight) does not open. Its blind is electric: a remote lets you close it to black out the bedroom and enjoy nights in the dark. The living room has a regular window.",
+      de: "Das Dachfenster (Velux) im Schlafzimmer lässt sich nicht öffnen. Sein Rollo ist elektrisch: Mit einer Fernbedienung können Sie es schließen, um das Schlafzimmer abzudunkeln und im Dunkeln zu schlafen. Das Wohnzimmer verfügt über ein normales Fenster.",
+      es: "La ventana de techo (tragaluz) del dormitorio no se abre. Su estor es eléctrico: un mando permite cerrarlo para oscurecer el dormitorio y dormir a oscuras. El salón dispone de una ventana normal.",
+      it: "Il lucernario della camera non si apre. La sua tenda è elettrica: un telecomando permette di chiuderla per oscurare la camera e dormire al buio. Il soggiorno dispone di una finestra normale.",
+    },
+  "🧹 Aspirateur & ménage": {
+    en: "🧹 Vacuum cleaner & cleaning",
+    de: "🧹 Staubsauger & Reinigung",
+    es: "🧹 Aspiradora y limpieza",
+    it: "🧹 Aspirapolvere e pulizie",
+  },
+  "L'aspirateur se trouve dans le placard près de la salle de douche. Merci de rendre l'appartement propre et rangé à votre départ.":
+    {
+      en: "The vacuum cleaner is in the cupboard near the shower room. Please leave the flat clean and tidy on departure.",
+      de: "Der Staubsauger befindet sich im Schrank neben dem Duschbad. Bitte hinterlassen Sie die Wohnung bei der Abreise sauber und ordentlich.",
+      es: "La aspiradora está en el armario junto al baño con ducha. Por favor, deje el apartamento limpio y ordenado a su salida.",
+      it: "L'aspirapolvere si trova nell'armadio vicino al bagno con doccia. Vi preghiamo di lasciare l'appartamento pulito e in ordine alla partenza.",
+    },
+  "🍽️ Casse de vaisselle": {
+    en: "🍽️ Broken dishes",
+    de: "🍽️ Zerbrochenes Geschirr",
+    es: "🍽️ Vajilla rota",
+    it: "🍽️ Stoviglie rotte",
+  },
+  "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.":
+    {
+      en: "If any dishes break during your stay, please let us know so we can replace the missing items. Depending on the damaged items, a refund may be requested.",
+      de: "Sollte während Ihres Aufenthalts Geschirr zu Bruch gehen, informieren Sie uns bitte, damit wir die fehlenden Teile ersetzen können. Je nach beschädigten Artikeln kann eine Erstattung verlangt werden.",
+      es: "Si se rompe alguna vajilla durante su estancia, infórmenos para que podamos reponer los elementos que falten. Según los artículos dañados, podrá solicitarse un reembolso.",
+      it: "In caso di rottura di stoviglie durante il soggiorno, vi preghiamo di informarci affinché possiamo sostituire gli elementi mancanti. A seconda degli articoli danneggiati, potrà essere richiesto un rimborso.",
+    },
+  "Machine à café Nespresso": {
+    en: "Nespresso coffee machine",
+    de: "Nespresso-Kaffeemaschine",
+    es: "Cafetera Nespresso",
+    it: "Macchina del caffè Nespresso",
+  },
+  "Plaques de cuisson tactiles": {
+    en: "Touch-control hob",
+    de: "Touch-Kochfeld",
+    es: "Placa de cocción táctil",
+    it: "Piano cottura touch",
+  },
+  Réfrigérateur: {
+    en: "Fridge",
+    de: "Kühlschrank",
+    es: "Frigorífico",
+    it: "Frigorifero",
+  },
+  "Poêles & casseroles": {
+    en: "Pans & pots",
+    de: "Pfannen & Töpfe",
+    es: "Sartenes y ollas",
+    it: "Pentole e padelle",
+  },
+  "TV (décodeur Orange)": {
+    en: "TV (Orange box)",
+    de: "TV (Orange-Box)",
+    es: "TV (decodificador Orange)",
+    it: "TV (decoder Orange)",
+  },
+  "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes (couloirs, escaliers).":
+    {
+      en: "Please be especially mindful between 10 p.m. and 8 a.m. to respect everyone's sleep, both in the flat and in the common areas (hallways, stairs).",
+      de: "Bitte nehmen Sie besonders zwischen 22:00 und 8:00 Uhr Rücksicht auf die Nachtruhe – sowohl in der Wohnung als auch in den Gemeinschaftsbereichen (Flure, Treppen).",
+      es: "Le rogamos especial cuidado entre las 22:00 y las 8:00 para respetar el descanso de todos, tanto en el apartamento como en las zonas comunes (pasillos, escaleras).",
+      it: "Vi preghiamo di prestare particolare attenzione tra le 22:00 e le 8:00 per rispettare il riposo di tutti, sia nell'appartamento sia nelle parti comuni (corridoi, scale).",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du supplément correspondant. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores.":
+    {
+      en: "Non-smoking flat: please go down to the street to smoke or vape. Parties and gatherings are strictly forbidden in the flat. Pets are allowed (1 animal maximum), subject to the applicable surcharge. Please respect the quiet of the neighbourhood by limiting noise.",
+      de: "Nichtraucherwohnung: Bitte gehen Sie zum Rauchen oder Dampfen auf die Straße. Partys und Feiern sind in der Wohnung streng verboten. Haustiere sind erlaubt (max. 1 Tier), gegen den entsprechenden Aufpreis. Bitte nehmen Sie Rücksicht auf die Nachbarschaft und vermeiden Sie Lärm.",
+      es: "Alojamiento de no fumadores: salga a la calle para fumar o vapear. Las fiestas y celebraciones están estrictamente prohibidas en el apartamento. Se admiten mascotas (1 animal máximo), con el suplemento correspondiente. Respete la tranquilidad del vecindario limitando el ruido.",
+      it: "Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Feste e serate sono severamente vietate nell'appartamento. Gli animali domestici sono ammessi (massimo 1), con il relativo supplemento. Vi preghiamo di rispettare la quiete del vicinato limitando i rumori.",
+    },
+  "Les déchets doivent être déposés dans les bacs situés à l'extérieur, dans la cour.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur situé au 8 Place de la Mare":
+    {
+      en: "Waste must be put in the bins located outside, in the courtyard.\n🟡 Yellow bin: packaging and recyclables\n⚫ Grey bin: household waste\n🍷 Glass: container at 8 Place de la Mare",
+      de: "Der Müll muss in die Tonnen draußen im Hof gestellt werden.\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: Container bei 8 Place de la Mare",
+      es: "Los residuos deben depositarse en los contenedores situados fuera, en el patio.\n🟡 Contenedor amarillo: envases y reciclables\n⚫ Contenedor gris: basura doméstica\n🍷 Vidrio: contenedor en el 8 de Place de la Mare",
+      it: "I rifiuti devono essere depositati nei bidoni situati all'esterno, nel cortile.\n🟡 Bidone giallo: imballaggi e riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: contenitore all'8 di Place de la Mare",
+    },
+  "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.":
+    {
+      en: "Pets are allowed (1 animal maximum), subject to the house rules and the applicable surcharge.",
+      de: "Haustiere sind erlaubt (max. 1 Tier), vorbehaltlich der Hausordnung und des entsprechenden Aufpreises.",
+      es: "Se admiten mascotas (1 animal máximo), según las normas y el suplemento correspondiente.",
+      it: "Gli animali domestici sono ammessi (massimo 1), nel rispetto del regolamento e del relativo supplemento.",
+    },
+  "Parking privé gratuit": {
+    en: "Free private parking",
+    de: "Kostenloser Privatparkplatz",
+    es: "Aparcamiento privado gratuito",
+    it: "Parcheggio privato gratuito",
+  },
+  "Lit double (140 × 200)": {
+    en: "Double bed (140 × 200)",
+    de: "Doppelbett (140 × 200)",
+    es: "Cama de matrimonio (140 × 200)",
+    it: "Letto matrimoniale (140 × 200)",
+  },
+  Aspirateur: {
+    en: "Vacuum cleaner",
+    de: "Staubsauger",
+    es: "Aspiradora",
+    it: "Aspirapolvere",
+  },
+  "Salle de douche privative": {
+    en: "Private shower room",
+    de: "Eigenes Duschbad",
+    es: "Baño privado con ducha",
+    it: "Bagno privato con doccia",
+  },
+  "Animaux acceptés (supplément)": {
+    en: "Pets allowed (surcharge)",
+    de: "Haustiere erlaubt (Aufpreis)",
+    es: "Se admiten mascotas (suplemento)",
+    it: "Animali ammessi (supplemento)",
+  },
+  "Chambre séparée": {
+    en: "Separate bedroom",
+    de: "Separates Schlafzimmer",
+    es: "Dormitorio separado",
+    it: "Camera separata",
+  },
+  "Coin repas": {
+    en: "Dining area",
+    de: "Essbereich",
+    es: "Zona de comedor",
+    it: "Angolo pranzo",
+  },
+  "Besoin d'un ménage en cours de séjour ? Disponible en supplément, sur demande. Contactez-nous.":
+    {
+      en: "Need a mid-stay clean? Available at extra cost, on request. Contact us.",
+      de: "Brauchen Sie eine Zwischenreinigung? Gegen Aufpreis auf Anfrage verfügbar. Kontaktieren Sie uns.",
+      es: "¿Necesita una limpieza durante la estancia? Disponible con suplemento, bajo petición. Contáctenos.",
+      it: "Avete bisogno di una pulizia durante il soggiorno? Disponibile con supplemento, su richiesta. Contattateci.",
+    },
+  "Faire la vaisselle, la ranger et vider les poubelles dans les bacs de la cour": {
+    en: "Wash and put away the dishes, and empty the bins into the courtyard containers",
+    de: "Geschirr spülen und wegräumen sowie den Müll in die Tonnen im Hof leeren",
+    es: "Lavar y guardar la vajilla, y vaciar la basura en los contenedores del patio",
+    it: "Lavare e riporre le stoviglie e svuotare i rifiuti nei bidoni del cortile",
+  },
+  "Rendre l'appartement propre et rangé (aspirateur dans le placard près de la salle de douche)":
+    {
+      en: "Leave the flat clean and tidy (vacuum cleaner in the cupboard near the shower room)",
+      de: "Die Wohnung sauber und ordentlich hinterlassen (Staubsauger im Schrank neben dem Duschbad)",
+      es: "Dejar el apartamento limpio y ordenado (aspiradora en el armario junto al baño con ducha)",
+      it: "Lasciare l'appartamento pulito e in ordine (aspirapolvere nell'armadio vicino al bagno con doccia)",
+    },
+  "Fermer les fenêtres et velux s'ils ont été ouverts, éteindre les lumières et baisser la température des radiateurs":
+    {
+      en: "Close the windows and skylights if they were opened, turn off the lights and lower the radiator temperature",
+      de: "Fenster und Dachfenster schließen, falls geöffnet, das Licht ausschalten und die Heizkörper herunterregeln",
+      es: "Cerrar las ventanas y los tragaluces si se abrieron, apagar las luces y bajar la temperatura de los radiadores",
+      it: "Chiudere le finestre e i lucernari se sono stati aperti, spegnere le luci e abbassare la temperatura dei radiatori",
+    },
+  "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)":
+    {
+      en: "Remember to log out of any platforms you used with your accounts (Netflix, Amazon Prime, etc.)",
+      de: "Denken Sie daran, sich von allen mit Ihren Konten genutzten Plattformen abzumelden (Netflix, Amazon Prime usw.)",
+      es: "Acuérdese de cerrar sesión en las plataformas que haya usado con sus cuentas (Netflix, Amazon Prime, etc.)",
+      it: "Ricordatevi di disconnettervi dalle piattaforme usate con i vostri account (Netflix, Amazon Prime, ecc.)",
+    },
+  "Fermer l'appartement à clé et remettre les clés dans la boîte à code": {
+    en: "Lock the flat and put the keys back in the code lockbox",
+    de: "Die Wohnung abschließen und die Schlüssel zurück in den Code-Schlüsselkasten legen",
+    es: "Cerrar el apartamento con llave y devolver las llaves a la caja con código",
+    it: "Chiudere a chiave l'appartamento e rimettere le chiavi nella cassetta con codice",
+  },
+  "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.":
+    {
+      en: "Departure is by 10 a.m. at the latest. If you'd like to extend your stay with a late check-out, please request it in advance. This option incurs a surcharge, payable directly via the corresponding link below. Please let me know your departure time once payment is made.",
+      de: "Die Abreise ist spätestens um 10 Uhr. Wenn Sie Ihren Aufenthalt mit einem späten Check-out verlängern möchten, fragen Sie bitte im Voraus an. Diese Option ist mit einem Aufpreis verbunden, der direkt über den entsprechenden Link unten zu zahlen ist. Bitte teilen Sie mir Ihre Abreisezeit mit, sobald die Zahlung erfolgt ist.",
+      es: "La salida es a las 10 h como muy tarde. Si desea prolongar su estancia con una salida tardía, solicítelo con antelación. Esta opción conlleva un suplemento, que se abona directamente mediante el enlace correspondiente más abajo. Comuníqueme su hora de salida una vez realizado el pago.",
+      it: "La partenza è entro le 10. Se desiderate prolungare il soggiorno con una partenza posticipata, fatene richiesta in anticipo. Questa opzione comporta un supplemento, da pagare direttamente tramite il link corrispondente qui sotto. Vi prego di comunicarmi l'orario di partenza una volta effettuato il pagamento.",
+    },
+  "Place Saint-Sauveur — bars & restaurants (3 min)": {
+    en: "Place Saint-Sauveur — bars & restaurants (3 min)",
+    de: "Place Saint-Sauveur — Bars & Restaurants (3 Min.)",
+    es: "Plaza Saint-Sauveur — bares y restaurantes (3 min)",
+    it: "Place Saint-Sauveur — bar e ristoranti (3 min)",
+  },
+  "Hyper-centre — shopping, bars, restaurants (3–4 min)": {
+    en: "City centre — shopping, bars, restaurants (3–4 min)",
+    de: "Stadtzentrum — Shopping, Bars, Restaurants (3–4 Min.)",
+    es: "Centro — compras, bares, restaurantes (3–4 min)",
+    it: "Centro città — shopping, bar, ristoranti (3–4 min)",
+  },
+  "Mairie & Abbaye aux Hommes (3–4 min)": {
+    en: "Town hall & Abbaye aux Hommes (3–4 min)",
+    de: "Rathaus & Abbaye aux Hommes (3–4 Min.)",
+    es: "Ayuntamiento y Abbaye aux Hommes (3–4 min)",
+    it: "Municipio e Abbaye aux Hommes (3–4 min)",
+  },
+  "Château de Caen (5 min)": {
+    en: "Caen Castle (5 min)",
+    de: "Schloss von Caen (5 Min.)",
+    es: "Castillo de Caen (5 min)",
+    it: "Castello di Caen (5 min)",
+  },
+  "Quartier du Vaugueux — restaurants (10 min)": {
+    en: "Vaugueux district — restaurants (10 min)",
+    de: "Viertel Vaugueux — Restaurants (10 Min.)",
+    es: "Barrio del Vaugueux — restaurantes (10 min)",
+    it: "Quartiere del Vaugueux — ristoranti (10 min)",
+  },
+  "Port de Caen — bars & restaurants (10–12 min)": {
+    en: "Caen marina — bars & restaurants (10–12 min)",
+    de: "Hafen von Caen — Bars & Restaurants (10–12 Min.)",
+    es: "Puerto de Caen — bares y restaurantes (10–12 min)",
+    it: "Porto di Caen — bar e ristoranti (10–12 min)",
+  },
+  "Vous êtes en plein centre-ville de Caen, à deux pas des restaurants, des commerces et des principaux monuments. Le Mémorial de Caen est à moins de 10 minutes en voiture.":
+    {
+      en: "You're right in the centre of Caen, steps from the restaurants, shops and main monuments. The Caen Memorial is less than 10 minutes away by car.",
+      de: "Sie wohnen mitten im Zentrum von Caen, wenige Schritte von Restaurants, Geschäften und den wichtigsten Sehenswürdigkeiten. Das Mémorial de Caen ist weniger als 10 Autominuten entfernt.",
+      es: "Está en pleno centro de Caen, a dos pasos de los restaurantes, las tiendas y los principales monumentos. El Memorial de Caen está a menos de 10 minutos en coche.",
+      it: "Siete in pieno centro a Caen, a due passi da ristoranti, negozi e principali monumenti. Il Mémorial de Caen è a meno di 10 minuti in auto.",
+    },
+  "Cuisine du marché conviviale, à ~300 m (côté université).": {
+    en: "Friendly market-fresh cuisine, ~300 m away (university side).",
+    de: "Gemütliche Marktküche, ~300 m entfernt (Uni-Seite).",
+    es: "Cocina de mercado agradable, a ~300 m (lado universidad).",
+    it: "Cucina di mercato conviviale, a ~300 m (lato università).",
+  },
+  "Cuisine maison dans une ambiance chaleureuse, crêpes et plats du jour.": {
+    en: "Home cooking in a warm setting, crêpes and daily specials.",
+    de: "Hausmannskost in gemütlicher Atmosphäre, Crêpes und Tagesgerichte.",
+    es: "Cocina casera en un ambiente acogedor, crepes y platos del día.",
+    it: "Cucina casalinga in un ambiente accogliente, crêpes e piatti del giorno.",
+  },
+  "Spécialités libanaises : mezze et grillades.": {
+    en: "Lebanese specialities: mezze and grills.",
+    de: "Libanesische Spezialitäten: Mezze und Gegrilltes.",
+    es: "Especialidades libanesas: mezze y parrilladas.",
+    it: "Specialità libanesi: mezze e grigliate.",
+  },
+  "Table conviviale à deux pas du centre.": {
+    en: "Friendly spot just steps from the centre.",
+    de: "Geselliges Lokal wenige Schritte vom Zentrum.",
+    es: "Mesa agradable a dos pasos del centro.",
+    it: "Locale conviviale a due passi dal centro.",
+  },
+  "Bouillon à la parisienne : cuisine française généreuse à petit prix.": {
+    en: "Parisian-style bouillon: hearty French food at low prices.",
+    de: "Bouillon im Pariser Stil: großzügige französische Küche zu kleinen Preisen.",
+    es: "Bouillon a la parisina: cocina francesa generosa a precios económicos.",
+    it: "Bouillon alla parigina: generosa cucina francese a piccoli prezzi.",
+  },
+  "Crêperie-galetterie au cœur du centre.": {
+    en: "Crêperie-galetterie in the heart of the centre.",
+    de: "Crêperie-Galetterie im Herzen des Zentrums.",
+    es: "Crepería-galetería en pleno centro.",
+    it: "Crêperie-galetterie nel cuore del centro.",
+  },
+  "Cuisine vietnamienne familiale.": {
+    en: "Family-run Vietnamese cuisine.",
+    de: "Familiäre vietnamesische Küche.",
+    es: "Cocina vietnamita familiar.",
+    it: "Cucina vietnamita familiare.",
+  },
+  "Kebab et plats à emporter, le plus proche (~280 m).": {
+    en: "Kebab and takeaway, the closest (~280 m).",
+    de: "Kebab und Speisen zum Mitnehmen, am nächsten (~280 m).",
+    es: "Kebab y comida para llevar, el más cercano (~280 m).",
+    it: "Kebab e piatti da asporto, il più vicino (~280 m).",
+  },
+  "Kebab et grillades à emporter.": {
+    en: "Kebab and grills to take away.",
+    de: "Kebab und Gegrilltes zum Mitnehmen.",
+    es: "Kebab y parrilladas para llevar.",
+    it: "Kebab e grigliate da asporto.",
+  },
+  "Café-sandwicherie : formules, donuts et boissons.": {
+    en: "Café-sandwich shop: meal deals, donuts and drinks.",
+    de: "Café-Sandwicherie: Menüs, Donuts und Getränke.",
+    es: "Café-bocatería: menús, donuts y bebidas.",
+    it: "Caffè-paninoteca: menù, donut e bevande.",
+  },
+  "Sandwichs, salades et cafés à emporter.": {
+    en: "Sandwiches, salads and coffee to go.",
+    de: "Sandwiches, Salate und Kaffee zum Mitnehmen.",
+    es: "Bocadillos, ensaladas y cafés para llevar.",
+    it: "Panini, insalate e caffè da asporto.",
+  },
+  "Sandwichs et salades faits maison.": {
+    en: "Homemade sandwiches and salads.",
+    de: "Hausgemachte Sandwiches und Salate.",
+    es: "Bocadillos y ensaladas caseros.",
+    it: "Panini e insalate fatti in casa.",
+  },
+  "Burgers maison.": {
+    en: "Homemade burgers.",
+    de: "Hausgemachte Burger.",
+    es: "Hamburguesas caseras.",
+    it: "Hamburger fatti in casa.",
+  },
+  "Café-bar le plus proche, à ~170 m.": {
+    en: "Closest café-bar, ~170 m away.",
+    de: "Nächstes Café-Bar, ~170 m entfernt.",
+    es: "Café-bar más cercano, a ~170 m.",
+    it: "Caffè-bar più vicino, a ~170 m.",
+  },
+  "Bar étudiant animé, côté université.": {
+    en: "Lively student bar, university side.",
+    de: "Lebhafte Studentenbar, Uni-Seite.",
+    es: "Bar estudiantil animado, lado universidad.",
+    it: "Bar studentesco vivace, lato università.",
+  },
+  "Bar convivial face à la faculté.": {
+    en: "Friendly bar opposite the university.",
+    de: "Geselliges Lokal gegenüber der Uni.",
+    es: "Bar agradable frente a la facultad.",
+    it: "Bar conviviale di fronte all'università.",
+  },
+  "Bar de quartier sympathique.": {
+    en: "Nice neighbourhood bar.",
+    de: "Sympathische Kneipe im Viertel.",
+    es: "Bar de barrio simpático.",
+    it: "Simpatico bar di quartiere.",
+  },
+  "Bar à l'ambiance décontractée.": {
+    en: "Bar with a laid-back vibe.",
+    de: "Bar mit entspannter Atmosphäre.",
+    es: "Bar de ambiente relajado.",
+    it: "Bar dall'atmosfera rilassata.",
+  },
+  "Bar à bières et tapas.": {
+    en: "Beer and tapas bar.",
+    de: "Bier- und Tapas-Bar.",
+    es: "Bar de cervezas y tapas.",
+    it: "Bar di birre e tapas.",
+  },
+  "Bar à cocktails du centre.": {
+    en: "Cocktail bar in the centre.",
+    de: "Cocktailbar im Zentrum.",
+    es: "Coctelería del centro.",
+    it: "Cocktail bar del centro.",
+  },
+  "La supérette la plus proche, pour le dépannage du quotidien.": {
+    en: "The nearest mini-market, for everyday essentials.",
+    de: "Der nächste Mini-Markt für den täglichen Bedarf.",
+    es: "El supermercado más cercano, para lo del día a día.",
+    it: "Il minimarket più vicino, per le necessità quotidiane.",
+  },
+  "Épicerie (produits du monde) à deux pas.": {
+    en: "Grocery (world foods) just steps away.",
+    de: "Lebensmittelladen (Produkte aus aller Welt) wenige Schritte entfernt.",
+    es: "Tienda de comestibles (productos del mundo) a dos pasos.",
+    it: "Alimentari (prodotti dal mondo) a due passi.",
+  },
+  "Épicerie bio et vrac.": {
+    en: "Organic and bulk grocery.",
+    de: "Bio- und Unverpackt-Laden.",
+    es: "Tienda ecológica y a granel.",
+    it: "Negozio bio e sfuso.",
+  },
+  "Dépannage en soirée, près du château.": {
+    en: "Late-evening convenience store, near the castle.",
+    de: "Spätkauf am Abend, nahe der Burg.",
+    es: "Tienda de conveniencia por la noche, cerca del castillo.",
+    it: "Negozio di prossimità serale, vicino al castello.",
+  },
+  "Supermarché du centre (45 bd Maréchal Leclerc), ouvert tard.": {
+    en: "City-centre supermarket (45 bd Maréchal Leclerc), open late.",
+    de: "Supermarkt im Zentrum (45 bd Maréchal Leclerc), lange geöffnet.",
+    es: "Supermercado del centro (45 bd Maréchal Leclerc), abierto hasta tarde.",
+    it: "Supermercato del centro (45 bd Maréchal Leclerc), aperto fino a tardi.",
+  },
+  "Boulangerie-pâtisserie la plus proche : pain frais et viennoiseries.": {
+    en: "Nearest bakery-pâtisserie: fresh bread and pastries.",
+    de: "Nächste Bäckerei-Konditorei: frisches Brot und Gebäck.",
+    es: "Panadería-pastelería más cercana: pan fresco y bollería.",
+    it: "Panetteria-pasticceria più vicina: pane fresco e dolci.",
+  },
+  "Boulangerie réputée : pains et pâtisseries.": {
+    en: "Well-known bakery: breads and pastries.",
+    de: "Bekannte Bäckerei: Brote und Gebäck.",
+    es: "Panadería de renombre: panes y pastelería.",
+    it: "Panetteria rinomata: pani e dolci.",
+  },
+  "Tartines, salades et douceurs maison.": {
+    en: "Open sandwiches, salads and homemade treats.",
+    de: "Stullen, Salate und hausgemachte Leckereien.",
+    es: "Tostas, ensaladas y dulces caseros.",
+    it: "Tartine, insalate e dolci fatti in casa.",
+  },
+  "Boucherie-charcuterie artisanale, près de la place Saint-Sauveur.": {
+    en: "Artisan butcher-deli, near Place Saint-Sauveur.",
+    de: "Handwerkliche Metzgerei, nahe Place Saint-Sauveur.",
+    es: "Carnicería-charcutería artesanal, cerca de la plaza Saint-Sauveur.",
+    it: "Macelleria-salumeria artigianale, vicino a place Saint-Sauveur.",
+  },
+  "L'arrêt de tram le plus proche (~330 m) — réseau Twisto, vers le centre, la gare et les campus.":
+    {
+      en: "The nearest tram stop (~330 m) — Twisto network, towards the centre, the station and the campuses.",
+      de: "Die nächste Straßenbahnhaltestelle (~330 m) — Twisto-Netz, Richtung Zentrum, Bahnhof und Campus.",
+      es: "La parada de tranvía más cercana (~330 m) — red Twisto, hacia el centro, la estación y los campus.",
+      it: "La fermata del tram più vicina (~330 m) — rete Twisto, verso il centro, la stazione e i campus.",
+    },
+  "L'arrêt de bus au pied du logement (~90 m).": {
+    en: "The bus stop right by the flat (~90 m).",
+    de: "Die Bushaltestelle direkt an der Wohnung (~90 m).",
+    es: "La parada de autobús al pie del alojamiento (~90 m).",
+    it: "La fermata dell'autobus ai piedi dell'alloggio (~90 m).",
+  },
+  "Arrêt de tram desservant le campus 1 et le centre.": {
+    en: "Tram stop serving Campus 1 and the centre.",
+    de: "Straßenbahnhaltestelle für Campus 1 und das Zentrum.",
+    es: "Parada de tranvía que da servicio al campus 1 y al centro.",
+    it: "Fermata del tram che serve il campus 1 e il centro.",
+  },
+  "Arrêt de tram près du château.": {
+    en: "Tram stop near the castle.",
+    de: "Straßenbahnhaltestelle nahe der Burg.",
+    es: "Parada de tranvía cerca del castillo.",
+    it: "Fermata del tram vicino al castello.",
+  },
+  "3 lignes de tram et de nombreux bus. Horaires, plan et tickets sur l'appli Twisto ou aux distributeurs.":
+    {
+      en: "3 tram lines and many buses. Timetables, map and tickets on the Twisto app or at the machines.",
+      de: "3 Straßenbahnlinien und zahlreiche Busse. Fahrpläne, Plan und Tickets in der Twisto-App oder an den Automaten.",
+      es: "3 líneas de tranvía y numerosos autobuses. Horarios, plano y billetes en la app Twisto o en las máquinas.",
+      it: "3 linee di tram e numerosi bus. Orari, mappa e biglietti sull'app Twisto o ai distributori.",
+    },
+  "Pharmacie à ~750 m. Pharmacie de garde : composez le 3237.": {
+    en: "Pharmacy ~750 m away. On-call pharmacy: dial 3237.",
+    de: "Apotheke ~750 m entfernt. Notdienstapotheke: wählen Sie 3237.",
+    es: "Farmacia a ~750 m. Farmacia de guardia: marque el 3237.",
+    it: "Farmacia a ~750 m. Farmacia di turno: componete il 3237.",
+  },
+  "Pharmacie proche du centre.": {
+    en: "Pharmacy near the centre.",
+    de: "Apotheke nahe dem Zentrum.",
+    es: "Farmacia cerca del centro.",
+    it: "Farmacia vicino al centro.",
+  },
+  "Grande pharmacie du centre-ville.": {
+    en: "Large city-centre pharmacy.",
+    de: "Große Apotheke im Stadtzentrum.",
+    es: "Gran farmacia del centro.",
+    it: "Grande farmacia del centro.",
+  },
+  "À deux pas de chez vous : le Jardin des Plantes (gratuit, ~2 min) pour une pause au vert, et la place Saint-Sauveur avec ses terrasses. L'Abbaye aux Hommes et le château se rejoignent à pied. Le soir, le quartier du Vaugueux concentre les meilleures tables — et pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !":
+    {
+      en: "Right on your doorstep: the Botanical Garden (free, ~2 min) for a green break, and Place Saint-Sauveur with its terraces. The Abbaye aux Hommes and the castle are within walking distance. In the evening, the Vaugueux district has the best tables — and for foodies, try the tripes à la mode de Caen, the local speciality!",
+      de: "Direkt vor Ihrer Tür: der Botanische Garten (kostenlos, ~2 Min.) für eine Pause im Grünen und der Place Saint-Sauveur mit seinen Terrassen. Die Abbaye aux Hommes und die Burg sind zu Fuß erreichbar. Am Abend bietet das Viertel Vaugueux die besten Lokale — und für Feinschmecker: probieren Sie die Tripes à la mode de Caen, die lokale Spezialität!",
+      es: "A dos pasos: el Jardín Botánico (gratis, ~2 min) para una pausa verde, y la plaza Saint-Sauveur con sus terrazas. La Abbaye aux Hommes y el castillo se llegan a pie. Por la noche, el barrio del Vaugueux reúne las mejores mesas — y para los golosos, ¡pruebe las tripes à la mode de Caen, la especialidad local!",
+      it: "A due passi: il Giardino Botanico (gratuito, ~2 min) per una pausa nel verde e place Saint-Sauveur con i suoi dehors. L'Abbaye aux Hommes e il castello sono raggiungibili a piedi. La sera, il quartiere del Vaugueux riunisce le tavole migliori — e per i golosi, assaggiate le tripes à la mode de Caen, la specialità locale!",
+    },
+  "Disponible sur la conversation de la plateforme de réservation ou par téléphone en cas de besoin.":
+    {
+      en: "Available via the booking platform's chat or by phone if needed.",
+      de: "Erreichbar über den Chat der Buchungsplattform oder telefonisch bei Bedarf.",
+      es: "Disponible en el chat de la plataforma de reserva o por teléfono si lo necesita.",
+      it: "Disponibile nella chat della piattaforma di prenotazione o per telefono in caso di necessità.",
+    },
+
+  // ==================================================================== Bohème
+  "Séjour lumineux avec coin salon et espace nuit": {
+    en: "Bright living room with a lounge area and a sleeping area",
+    de: "Heller Wohnraum mit Sitzecke und Schlafbereich",
+    es: "Salón luminoso con zona de estar y zona de noche",
+    it: "Soggiorno luminoso con angolo salotto e zona notte",
+  },
+  "Mezzanine aménagée pour un couchage supplémentaire (hauteur réduite : 68–90 cm, recommandée aux enfants dès 8 ans)":
+    {
+      en: "Mezzanine fitted out for extra sleeping (low headroom: 68–90 cm, recommended for children aged 8+)",
+      de: "Galerie (Mezzanin) als zusätzliche Schlafmöglichkeit (geringe Höhe: 68–90 cm, empfohlen für Kinder ab 8 Jahren)",
+      es: "Altillo (mezzanine) acondicionado como cama adicional (altura reducida: 68–90 cm, recomendado para niños a partir de 8 años)",
+      it: "Soppalco attrezzato per un posto letto aggiuntivo (altezza ridotta: 68–90 cm, consigliato per bambini dagli 8 anni)",
+    },
+  "🪜 Mezzanine (couchage d'appoint)": {
+    en: "🪜 Mezzanine (extra bed)",
+    de: "🪜 Galerie/Mezzanin (Zusatzbett)",
+    es: "🪜 Altillo (cama adicional)",
+    it: "🪜 Soppalco (letto aggiuntivo)",
+  },
+  "L'espace nuit en mezzanine offre un couchage supplémentaire. ⚠️ La hauteur sous plafond y est réduite (68 cm au plus bas, 90 cm au plus haut) : cet espace est recommandé pour des enfants à partir de 8 ans. Accédez-y avec prudence.":
+    {
+      en: "The mezzanine sleeping area provides an extra bed. ⚠️ Headroom there is low (68 cm at the lowest, 90 cm at the highest): this space is recommended for children aged 8 and over. Please access it with care.",
+      de: "Der Schlafbereich auf der Galerie bietet eine zusätzliche Schlafmöglichkeit. ⚠️ Die Höhe ist dort gering (68 cm an der niedrigsten, 90 cm an der höchsten Stelle): Dieser Bereich wird für Kinder ab 8 Jahren empfohlen. Bitte vorsichtig hinaufsteigen.",
+      es: "La zona de noche del altillo ofrece una cama adicional. ⚠️ La altura es reducida (68 cm en el punto más bajo, 90 cm en el más alto): este espacio se recomienda para niños a partir de 8 años. Acceda con precaución.",
+      it: "La zona notte sul soppalco offre un posto letto aggiuntivo. ⚠️ L'altezza è ridotta (68 cm nel punto più basso, 90 cm in quello più alto): questo spazio è consigliato per bambini dagli 8 anni. Accedetevi con prudenza.",
+    },
+  "Mezzanine (couchage d'appoint)": {
+    en: "Mezzanine (extra bed)",
+    de: "Galerie/Mezzanin (Zusatzbett)",
+    es: "Altillo (cama adicional)",
+    it: "Soppalco (letto aggiuntivo)",
+  },
+
+  // ============================ Retouches Mer (aspirateur retiré, vaisselle, animaux)
+  "🍽️ Vaisselle": { en: "🍽️ Dishes", de: "🍽️ Geschirr", es: "🍽️ Vajilla", it: "🍽️ Stoviglie" },
+  "🐾 Animaux": { en: "🐾 Pets", de: "🐾 Haustiere", es: "🐾 Mascotas", it: "🐾 Animali" },
+  "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande, accrochée au mur entre le lit et la table de nuit, permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.":
+    {
+      en: "The roof windows (skylights) do not open. The blind is electric: a remote control — on the wall between the bed and the bedside table — lets you close it to black out the room and enjoy nights in the dark.",
+      de: "Die Dachfenster (Velux) lassen sich nicht öffnen. Das Rollo ist elektrisch: Mit einer Fernbedienung – an der Wand zwischen Bett und Nachttisch – können Sie es schließen, um den Raum abzudunkeln und im Dunkeln zu schlafen.",
+      es: "Las ventanas de techo (tragaluces) no se abren. El estor es eléctrico: un mando, en la pared entre la cama y la mesita de noche, permite cerrarlo para oscurecer la habitación y disfrutar de noches a oscuras.",
+      it: "Le finestre da tetto (lucernari) non si aprono. La tenda è elettrica: un telecomando, a parete tra il letto e il comodino, permette di chiuderla per oscurare la stanza e dormire al buio.",
+    },
+  "Le velux de la chambre ne s'ouvre pas. Son store est électrique : une télécommande, accrochée au mur à l'entrée de la chambre sur la droite, permet de le fermer pour occulter la chambre et profiter de nuits dans le noir. Le séjour-salon dispose, lui, d'une fenêtre classique.":
+    {
+      en: "The bedroom roof window (skylight) does not open. Its blind is electric: a remote control — mounted on the wall to the right as you enter the bedroom — lets you close it to black out the bedroom and enjoy nights in the dark. The living room has a regular window.",
+      de: "Das Dachfenster (Velux) im Schlafzimmer lässt sich nicht öffnen. Sein Rollo ist elektrisch: Mit einer Fernbedienung – an der Wand rechts am Eingang des Schlafzimmers – können Sie es schließen, um das Schlafzimmer abzudunkeln und im Dunkeln zu schlafen. Das Wohnzimmer verfügt über ein normales Fenster.",
+      es: "La ventana de techo (tragaluz) del dormitorio no se abre. Su estor es eléctrico: un mando, en la pared a la derecha al entrar en el dormitorio, permite cerrarlo para oscurecer el dormitorio y dormir a oscuras. El salón dispone de una ventana normal.",
+      it: "Il lucernario della camera non si apre. La sua tenda è elettrica: un telecomando, a parete a destra all'ingresso della camera, permette di chiuderla per oscurare la camera e dormire al buio. Il soggiorno dispone di una finestra normale.",
+    },
+  "Les fenêtres de toit (velux) ne s'ouvrent pas. Le store est électrique : une télécommande, accrochée au mur à côté du placard sur la droite, permet de le fermer pour occulter la pièce et profiter de nuits dans le noir.":
+    {
+      en: "The roof windows (skylights) do not open. The blind is electric: a remote control — on the wall next to the wardrobe on the right — lets you close it to black out the room and enjoy nights in the dark.",
+      de: "Die Dachfenster (Velux) lassen sich nicht öffnen. Das Rollo ist elektrisch: Mit einer Fernbedienung – an der Wand neben dem Schrank rechts – können Sie es schließen, um den Raum abzudunkeln und im Dunkeln zu schlafen.",
+      es: "Las ventanas de techo (tragaluces) no se abren. El estor es eléctrico: un mando, en la pared junto al armario a la derecha, permite cerrarlo para oscurecer la habitación y disfrutar de noches a oscuras.",
+      it: "Le finestre da tetto (lucernari) non si aprono. La tenda è elettrica: un telecomando, a parete accanto all'armadio sulla destra, permette di chiuderla per oscurare la stanza e dormire al buio.",
+    },
+  "Allumez la télévision avec l'unique télécommande (bouton Power). Il n'y a pas de décodeur : le téléviseur est directement connecté à l'application TV d'Orange. Utilisez les flèches et le bouton OK pour naviguer et choisir vos chaînes.":
+    {
+      en: "Turn on the TV with the single remote (Power button). There is no set-top box: the television is connected directly to the Orange TV app. Use the arrows and the OK button to browse and choose your channels.",
+      de: "Schalten Sie den Fernseher mit der einzigen Fernbedienung ein (Power-Taste). Es gibt keinen Decoder: Das Fernsehgerät ist direkt mit der Orange-TV-App verbunden. Navigieren und wählen Sie Ihre Sender mit den Pfeiltasten und der OK-Taste.",
+      es: "Encienda el televisor con el único mando (botón Power). No hay decodificador: el televisor está conectado directamente a la aplicación TV de Orange. Use las flechas y el botón OK para navegar y elegir sus canales.",
+      it: "Accendete il televisore con l'unico telecomando (tasto Power). Non c'è alcun decoder: il televisore è collegato direttamente all'app TV di Orange. Usate le frecce e il tasto OK per navigare e scegliere i canali.",
+    },
+  "Rendre l'appartement propre et rangé": {
+    en: "Leave the flat clean and tidy",
+    de: "Die Wohnung sauber und ordentlich hinterlassen",
+    es: "Dejar el apartamento limpio y ordenado",
+    it: "Lasciare l'appartamento pulito e in ordine",
+  },
+  "Les animaux de compagnie sont acceptés (1 animal maximum). Le supplément correspondant est à régler directement sur la plateforme de réservation.":
+    {
+      en: "Pets are allowed (1 animal maximum). The corresponding surcharge is payable directly on the booking platform.",
+      de: "Haustiere sind erlaubt (max. 1 Tier). Der entsprechende Aufpreis ist direkt über die Buchungsplattform zu zahlen.",
+      es: "Se admiten mascotas (1 animal máximo). El suplemento correspondiente se abona directamente en la plataforma de reserva.",
+      it: "Gli animali domestici sono ammessi (massimo 1). Il relativo supplemento va pagato direttamente sulla piattaforma di prenotazione.",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. Les animaux de compagnie sont acceptés (1 animal maximum), le supplément correspondant étant à régler directement sur la plateforme de réservation. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores.":
+    {
+      en: "Non-smoking flat: please go down to the street to smoke or vape. Parties and gatherings are strictly forbidden in the flat. Pets are allowed (1 animal maximum); the corresponding surcharge is payable directly on the booking platform. Please respect the quiet of the neighbourhood by limiting noise.",
+      de: "Nichtraucherwohnung: Bitte gehen Sie zum Rauchen oder Dampfen auf die Straße. Partys und Feiern sind in der Wohnung streng verboten. Haustiere sind erlaubt (max. 1 Tier); der entsprechende Aufpreis ist direkt über die Buchungsplattform zu zahlen. Bitte nehmen Sie Rücksicht auf die Nachbarschaft und vermeiden Sie Lärm.",
+      es: "Alojamiento de no fumadores: salga a la calle para fumar o vapear. Las fiestas y celebraciones están estrictamente prohibidas en el apartamento. Se admiten mascotas (1 animal máximo); el suplemento correspondiente se abona directamente en la plataforma de reserva. Respete la tranquilidad del vecindario limitando el ruido.",
+      it: "Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Feste e serate sono severamente vietate nell'appartamento. Gli animali domestici sono ammessi (massimo 1); il relativo supplemento va pagato direttamente sulla piattaforma di prenotazione. Vi preghiamo di rispettare la quiete del vicinato limitando i rumori.",
+    },
+
+  // ==================== Noms de lieux « Autour de moi » (descripteurs traduits)
+  "Château de Caen": { en: "Caen Castle", de: "Schloss von Caen", es: "Castillo de Caen", it: "Castello di Caen" },
+  "Église Saint-Pierre": { en: "Saint-Pierre Church", de: "Kirche Saint-Pierre", es: "Iglesia Saint-Pierre", it: "Chiesa Saint-Pierre" },
+  "Abbaye aux Hommes (Saint-Étienne)": {
+    en: "Abbaye aux Hommes (Saint-Étienne abbey)",
+    de: "Abbaye aux Hommes (Abtei Saint-Étienne)",
+    es: "Abbaye aux Hommes (abadía Saint-Étienne)",
+    it: "Abbaye aux Hommes (abbazia Saint-Étienne)",
+  },
+  "Abbaye aux Dames (la Trinité)": {
+    en: "Abbaye aux Dames (la Trinité abbey)",
+    de: "Abbaye aux Dames (Abtei la Trinité)",
+    es: "Abbaye aux Dames (abadía la Trinité)",
+    it: "Abbaye aux Dames (abbazia la Trinité)",
+  },
+  "Musée de Normandie": { en: "Normandy Museum", de: "Museum der Normandie", es: "Museo de Normandía", it: "Museo della Normandia" },
+  "Le Mémorial de Caen": { en: "The Caen Memorial", de: "Das Mémorial de Caen", es: "El Memorial de Caen", it: "Il Mémorial de Caen" },
+  "Musée des Beaux-Arts de Caen": {
+    en: "Caen Fine Arts Museum",
+    de: "Museum der Schönen Künste Caen",
+    es: "Museo de Bellas Artes de Caen",
+    it: "Museo delle Belle Arti di Caen",
+  },
+  "Plages du Débarquement": {
+    en: "D-Day Landing Beaches",
+    de: "Landungsstrände (D-Day)",
+    es: "Playas del Desembarco",
+    it: "Spiagge dello Sbarco",
+  },
+  "Cimetière américain de Colleville-sur-Mer": {
+    en: "Colleville-sur-Mer American Cemetery",
+    de: "Amerikanischer Friedhof Colleville-sur-Mer",
+    es: "Cementerio americano de Colleville-sur-Mer",
+    it: "Cimitero americano di Colleville-sur-Mer",
+  },
+  "Le Bassin Saint-Pierre (port de plaisance)": {
+    en: "The Bassin Saint-Pierre (marina)",
+    de: "Das Bassin Saint-Pierre (Yachthafen)",
+    es: "El Bassin Saint-Pierre (puerto deportivo)",
+    it: "Il Bassin Saint-Pierre (porto turistico)",
+  },
+  "Le Jardin des Plantes": {
+    en: "The Botanical Garden (Jardin des Plantes)",
+    de: "Der Botanische Garten (Jardin des Plantes)",
+    es: "El Jardín Botánico (Jardin des Plantes)",
+    it: "Il Giardino Botanico (Jardin des Plantes)",
+  },
+  "Parc de la Colline aux Oiseaux": {
+    en: "Colline aux Oiseaux Park",
+    de: "Park Colline aux Oiseaux",
+    es: "Parque de la Colline aux Oiseaux",
+    it: "Parco della Colline aux Oiseaux",
+  },
+  "Plage de Deauville": { en: "Deauville Beach", de: "Strand von Deauville", es: "Playa de Deauville", it: "Spiaggia di Deauville" },
+  "Théâtre de Caen": { en: "Caen Theatre", de: "Theater von Caen", es: "Teatro de Caen", it: "Teatro di Caen" },
+  "Marché du dimanche matin sur le port": {
+    en: "Sunday morning market at the harbour",
+    de: "Sonntagvormittagsmarkt am Hafen",
+    es: "Mercado del domingo por la mañana en el puerto",
+    it: "Mercato della domenica mattina al porto",
+  },
+  "Centre commercial Les Rives de l'Orne": {
+    en: "Les Rives de l'Orne shopping centre",
+    de: "Einkaufszentrum Les Rives de l'Orne",
+    es: "Centro comercial Les Rives de l'Orne",
+    it: "Centro commerciale Les Rives de l'Orne",
+  },
+  "Épicerie de nuit les Quatrans": {
+    en: "Les Quatrans night grocery",
+    de: "Nachtladen Les Quatrans",
+    es: "Tienda nocturna Les Quatrans",
+    it: "Alimentari notturno Les Quatrans",
+  },
+  "Boucherie Saint-Sauveur": {
+    en: "Saint-Sauveur butcher's",
+    de: "Metzgerei Saint-Sauveur",
+    es: "Carnicería Saint-Sauveur",
+    it: "Macelleria Saint-Sauveur",
+  },
+  "Arrêt de tram « Place de la Mare »": {
+    en: "Tram stop “Place de la Mare”",
+    de: "Straßenbahnhaltestelle „Place de la Mare“",
+    es: "Parada de tranvía «Place de la Mare»",
+    it: "Fermata del tram «Place de la Mare»",
+  },
+  "Arrêt de bus « Jardin des Plantes »": {
+    en: "Bus stop “Jardin des Plantes”",
+    de: "Bushaltestelle „Jardin des Plantes“",
+    es: "Parada de autobús «Jardin des Plantes»",
+    it: "Fermata dell'autobus «Jardin des Plantes»",
+  },
+  "Arrêt de tram « Université »": {
+    en: "Tram stop “Université”",
+    de: "Straßenbahnhaltestelle „Université“",
+    es: "Parada de tranvía «Université»",
+    it: "Fermata del tram «Université»",
+  },
+  "Arrêt de tram « Château Quatrans »": {
+    en: "Tram stop “Château Quatrans”",
+    de: "Straßenbahnhaltestelle „Château Quatrans“",
+    es: "Parada de tranvía «Château Quatrans»",
+    it: "Fermata del tram «Château Quatrans»",
+  },
+  "Réseau Twisto (tram & bus)": {
+    en: "Twisto network (tram & bus)",
+    de: "Twisto-Netz (Tram & Bus)",
+    es: "Red Twisto (tranvía y autobús)",
+    it: "Rete Twisto (tram e bus)",
+  },
+  "Gare SNCF de Caen": {
+    en: "Caen railway station",
+    de: "Bahnhof Caen",
+    es: "Estación de tren de Caen",
+    it: "Stazione di Caen",
+  },
+  "Gare maritime de Ouistreham (Brittany Ferries)": {
+    en: "Ouistreham ferry terminal (Brittany Ferries)",
+    de: "Fährterminal Ouistreham (Brittany Ferries)",
+    es: "Terminal de ferris de Ouistreham (Brittany Ferries)",
+    it: "Terminal dei traghetti di Ouistreham (Brittany Ferries)",
+  },
+  "Aéroport de Caen-Carpiquet": {
+    en: "Caen-Carpiquet Airport",
+    de: "Flughafen Caen-Carpiquet",
+    es: "Aeropuerto de Caen-Carpiquet",
+    it: "Aeroporto di Caen-Carpiquet",
+  },
+  "Pharmacie Schiebold-Derouet": {
+    en: "Schiebold-Derouet pharmacy",
+    de: "Apotheke Schiebold-Derouet",
+    es: "Farmacia Schiebold-Derouet",
+    it: "Farmacia Schiebold-Derouet",
+  },
+  "Pharmacie Danjou-Rousselot": {
+    en: "Danjou-Rousselot pharmacy",
+    de: "Apotheke Danjou-Rousselot",
+    es: "Farmacia Danjou-Rousselot",
+    it: "Farmacia Danjou-Rousselot",
+  },
+  "Grande Pharmacie de Caen": {
+    en: "Grande Pharmacie de Caen (large pharmacy)",
+    de: "Grande Pharmacie de Caen (große Apotheke)",
+    es: "Grande Pharmacie de Caen (gran farmacia)",
+    it: "Grande Pharmacie de Caen (grande farmacia)",
+  },
+  "CHU Caen Normandie": {
+    en: "Caen Normandie University Hospital",
+    de: "Universitätsklinikum Caen Normandie",
+    es: "Hospital Universitario Caen Normandie",
+    it: "Ospedale universitario Caen Normandie",
+  },
+  "SOS Médecins Caen": {
+    en: "SOS Médecins Caen (on-call doctors)",
+    de: "SOS Médecins Caen (ärztlicher Notdienst)",
+    es: "SOS Médecins Caen (médicos de urgencia)",
+    it: "SOS Médecins Caen (medici a domicilio)",
+  },
+  "Commissariat de police de Caen": {
+    en: "Caen police station",
+    de: "Polizeiwache Caen",
+    es: "Comisaría de policía de Caen",
+    it: "Commissariato di polizia di Caen",
+  },
+  "Le Flore — Bar Tabac Presse": {
+    en: "Le Flore — tobacconist & newsagent",
+    de: "Le Flore — Tabak- und Zeitungsladen",
+    es: "Le Flore — estanco y prensa",
+    it: "Le Flore — tabaccheria e giornali",
+  },
 };
