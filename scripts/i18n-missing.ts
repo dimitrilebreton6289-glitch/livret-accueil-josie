@@ -9,7 +9,11 @@ const SKIP_KEYS = new Set([
 ]);
 
 const targets = logements.filter(
-  (l) => l.id === "fleur" || l.id === "mer" || l.id === "boheme",
+  (l) =>
+    l.id === "fleur" ||
+    l.id === "mer" ||
+    l.id === "boheme" ||
+    l.id === "saintjean",
 );
 const found = new Set<string>();
 
