@@ -86,7 +86,7 @@ export const saintjean: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=144+Rue+Saint-Jean+14000+Caen",
   coords: [49.1792, -0.3575],
-  cover: "/logements/saintjean/cover2.jpg",
+  cover: "/logements/saintjean/salon.jpg",
 
   motAccueil:
     "Bienvenue dans l'appartement Saint-Jean, en plein cœur de Caen ! Vous êtes rue Saint-Jean, à deux pas des restaurants, des commerces et du port — tout se fait à pied. Son petit plus : un balcon avec vue sur les toits de Caen, parfait pour un café le matin ou un verre le soir. Très bon séjour ! ☕",
