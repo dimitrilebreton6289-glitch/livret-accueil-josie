@@ -1,0 +1,224 @@
+import type { Logement } from "../types";
+import { saintjean } from "./saintjean";
+
+/**
+ * Logement « Sur les quais » — appartement entièrement rénové (35 m²) en plein
+ * cœur de Caen, proche de la rue Saint-Jean et avec vue sur les quais (Bassin
+ * Saint-Pierre). Une chambre (lit 140 × 190 + grand dressing), un salon avec
+ * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
+ * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
+ * Accès en autonomie via KeyNest (clés à récupérer dans un commerce partenaire).
+ *
+ * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
+ * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
+ * depuis les coordonnées de ce logement.
+ *
+ * ⚠️ À CONFIRMER PAR LA GÉRANTE (valeurs provisoires marquées « TODO ») :
+ *   - adresse exacte (n° + rue / quai) → adresse, itineraire, coords précises
+ *   - WiFi (réseau + mot de passe) — la fibre existe, identifiants à renseigner
+ *   - KeyNest : commerce / point de retrait des clés + lien ou code KeyNest
+ *   - photo de couverture (provisoire : SVG pour le moment)
+ *   - emplacement exact du conteneur à verre
+ *   - animaux : l'annonce ne le précise pas → mis à NON pour l'instant
+ *
+ * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
+ */
+export const quais: Logement = {
+  id: "quais",
+  nom: "Sur les quais",
+  adresse: "Rue Saint-Jean (côté quais), 14000 Caen", // TODO: adresse exacte à confirmer
+  ville: "Caen",
+  itineraire: "https://maps.google.com/?q=Quai+Vendeuvre+14000+Caen", // TODO: itinéraire vers l'adresse exacte
+  coords: [49.1797, -0.355], // TODO: coordonnées approximatives (secteur quais / sud rue Saint-Jean)
+  cover: "/logements/quais/cover.svg",
+
+  motAccueil:
+    "Bienvenue dans l'appartement « Sur les quais », en plein cœur de Caen ! Vous êtes à deux pas de la rue Saint-Jean et de ses commerces, avec une belle vue sur les quais. Entièrement rénové, cet appartement vous offre un cocon paisible et sans vis-à-vis. Son petit plus : le calme et la lumière du dernier étage, et tout le centre-ville à explorer à pied. Très bon séjour ! ⛵",
+
+  arrivee: {
+    horaire: "Arrivée entre 17h et 21h",
+    checkinExpress: [
+      "L'accès au logement se fait en autonomie via le service KeyNest : les clés sont à récupérer dans un commerce partenaire, à environ 5 minutes à pied de l'appartement.",
+      "Le point de retrait des clés et la marche à suivre KeyNest vous sont communiqués par message avant votre arrivée.",
+      "L'appartement se situe au 5ᵉ étage, sans ascenseur — l'escalier en vaut la peine pour le calme et la vue !",
+      "À votre départ, merci de rapporter les clés au point KeyNest en suivant les instructions reçues.",
+    ],
+    parking:
+      "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.",
+    bagages:
+      "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
+    decouverte: {
+      rdc: [
+        "Chambre avec lit double (140 × 190 cm), grand dressing, store et rideau occultant",
+        "Salon cosy avec canapé-lit d'appoint et TV connectée",
+        "Cuisine entièrement équipée (lave-vaisselle, four, micro-ondes, Nespresso)",
+        "Salle de bain moderne avec douche et lave-linge",
+      ],
+      etage: [],
+      exterieur: [],
+    },
+  },
+
+  wifi: {
+    // TODO: la fibre existe — renseigner le vrai nom de réseau + mot de passe.
+    reseau: "WiFi fibre (identifiants communiqués sur place)",
+    motDePasse: "—",
+  },
+
+  pratique: {
+    aSavoir: [],
+    aSavoirSections: [
+      {
+        titre: "🎁 Produits d'accueil",
+        contenu:
+          "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.",
+      },
+      {
+        titre: "🛏️ Linge de maison",
+        contenu:
+          "Les draps sont fournis et le lit (140 × 190 cm) est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.",
+      },
+      {
+        titre: "🛗 5ᵉ étage sans ascenseur",
+        contenu:
+          "L'appartement se situe au 5ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages — mais l'effort est récompensé par le calme, l'absence de vis-à-vis et la vue sur les quais.",
+      },
+      {
+        titre: "🪟 Stores & occultation",
+        contenu:
+          "La chambre est équipée d'un store et d'un rideau occultant pour un sommeil au calme, à l'abri de la lumière du jour. À noter : si vous utilisez le canapé-lit du salon, les fenêtres du séjour ne disposent ni de rideaux ni de volets.",
+      },
+      {
+        titre: "📺 Télévision",
+        contenu:
+          "Le salon dispose d'une TV connectée. Allumez l'écran avec le bouton Power de la télécommande, puis lancez l'application souhaitée (Netflix et les autres plateformes sont accessibles avec VOS identifiants personnels). Pensez à vous déconnecter de vos comptes avant votre départ.",
+      },
+      {
+        titre: "🛁 Salle de bain",
+        contenu:
+          "La salle de bain, moderne, dispose d'une douche. Merci de bien refermer le rideau / la paroi pour éviter les éclaboussures.",
+      },
+      {
+        titre: "🧺 Lave-linge",
+        contenu:
+          "Un lave-linge est à votre disposition. Utilisez une petite dose de lessive et lancez un programme court. Merci d'étendre le linge plutôt que de le laisser dans le tambour.",
+      },
+      {
+        titre: "🔥 Chauffage",
+        contenu:
+          "Pour allumer les radiateurs, appuyez sur le bouton on/off et réglez la température avec les flèches. Merci de limiter votre consommation.",
+      },
+      {
+        titre: "🍳 Cuisine",
+        contenu:
+          "La cuisine est entièrement équipée : four, micro-ondes, plaques de cuisson avec hotte, lave-vaisselle, réfrigérateur, machine à café Nespresso (à capsules), bouilloire et grille-pain, ainsi que tout le nécessaire de cuisine.",
+      },
+      {
+        titre: "🍽️ Vaisselle",
+        contenu:
+          "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
+      },
+    ],
+    electromenager: [
+      "Four",
+      "Micro-ondes",
+      "Plaques de cuisson",
+      "Hotte",
+      "Lave-vaisselle",
+      "Réfrigérateur",
+      "Machine à café Nespresso",
+      "Bouilloire",
+      "Grille-pain",
+      "Lave-linge",
+      "TV",
+    ],
+    reglementInterieur: {
+      capaciteMax: 3,
+      nonFumeur: true,
+      animauxAcceptes: false,
+      evenementsAutorises: false,
+      horairesCalme:
+        "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes (couloirs, escaliers).",
+      texte:
+        "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. L'appartement se trouve au 5ᵉ étage sans ascenseur. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).",
+    },
+    poubelles:
+      "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche dans le quartier", // TODO: préciser l'emplacement exact du conteneur à verre
+    animaux:
+      "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
+  },
+
+  equipements: [
+    "WiFi",
+    "Vue sur les quais",
+    "Chambre séparée (lit double 140 × 190)",
+    "Canapé-lit d'appoint",
+    "TV connectée",
+    "Cuisine équipée",
+    "Four",
+    "Micro-ondes",
+    "Plaques de cuisson",
+    "Hotte",
+    "Lave-vaisselle",
+    "Machine Nespresso",
+    "Bouilloire",
+    "Grille-pain",
+    "Réfrigérateur",
+    "Lave-linge",
+    "Salle de bain avec douche",
+    "Sèche-cheveux",
+    "Chauffage",
+    "Eau chaude",
+    "Linge de lit & serviettes",
+  ],
+
+  menageEnSejour:
+    "Besoin d'un ménage en cours de séjour ? Disponible en supplément, sur demande. Contactez-nous.",
+
+  depart: {
+    horaire: "Jusqu'à 10h",
+    instructions: [
+      "Faire la vaisselle, la ranger et vider les poubelles",
+      "Rendre l'appartement propre et rangé",
+      "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser la température des radiateurs",
+      "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
+      "Fermer l'appartement à clé et remettre les clés dans la boîte à code",
+    ],
+    departTardif: {
+      texte:
+        "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.",
+      options: [
+        { heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" },
+        { heure: "13h", url: "https://buy.stripe.com/28E9AU4Ew57rfpxgcZ7ss0b" },
+        { heure: "14h", url: "https://buy.stripe.com/dRmeVe8UMgQ95OX4uh7ss0c" },
+      ],
+    },
+  },
+
+  quartier: {
+    aPied: [
+      "Rue Saint-Jean — restaurants, cafés & commerces (sur place)",
+      "Port de plaisance — bars & restaurants (3 min)",
+      "Église Saint-Jean (5 min)",
+      "Théâtre de Caen (6–7 min)",
+      "Hyper-centre — shopping, bars, restaurants (7–8 min)",
+      "Quartier du Vaugueux — restaurants (8–10 min)",
+      "Château de Caen (10–12 min)",
+    ],
+    note: "Vous êtes en plein centre-ville de Caen, sur l'une des rues les plus commerçantes, à deux pas du port de plaisance. Tout se fait à pied : restaurants, commerces, monuments. Le Mémorial de Caen est à moins de 10 minutes en voiture.",
+  },
+
+  autourDeMoi: {
+    // Mêmes adresses que Saint-Jean (quartier sud rue Saint-Jean / quais) ;
+    // distances recalculées automatiquement depuis les coordonnées du logement.
+    categories: saintjean.autourDeMoi.categories,
+    coupDeCoeur:
+      "Vous êtes idéalement placé pour découvrir Caen à pied : flânez sur la rue Saint-Jean et ses commerces, rejoignez le château et l'Abbaye aux Hommes, puis offrez-vous une soirée dans le quartier du Vaugueux, qui concentre les meilleures tables. Pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !",
+  },
+
+  numerosUtiles: {
+    contact: { nom: "Agathe — Josie Conciergerie", tel: "+33677551548" },
+    note: "Disponible sur la conversation de la plateforme de réservation ou par téléphone en cas de besoin.",
+    urgences: { samu: "15", police: "17", pompiers: "18", europeen: "112" },
+  },
+};

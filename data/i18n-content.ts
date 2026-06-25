@@ -2786,4 +2786,181 @@ export const CONTENT: Record<string, Tr> = {
     es: "Farmacia en la zona sur, cerca de la rue de Bayeux.",
     it: "Farmacia lato sud, vicino a rue de Bayeux.",
   },
+
+  // ---------------------------------------------------------------- Sur les quais
+  "Bienvenue dans l'appartement « Sur les quais », en plein cœur de Caen ! Vous êtes à deux pas de la rue Saint-Jean et de ses commerces, avec une belle vue sur les quais. Entièrement rénové, cet appartement vous offre un cocon paisible et sans vis-à-vis. Son petit plus : le calme et la lumière du dernier étage, et tout le centre-ville à explorer à pied. Très bon séjour ! ⛵":
+    {
+      en: "Welcome to the 'Sur les quais' apartment, right in the heart of Caen! You are a stone's throw from Rue Saint-Jean and its shops, with a lovely view over the quays. Fully renovated, this apartment offers a peaceful haven with no neighbours opposite. Its little extra: the calm and light of the top floor, and the whole town centre to explore on foot. Have a wonderful stay! ⛵",
+      de: "Willkommen in der Wohnung „Sur les quais“, mitten im Herzen von Caen! Sie wohnen nur wenige Schritte von der Rue Saint-Jean und ihren Geschäften entfernt, mit einem schönen Blick auf die Kais. Diese vollständig renovierte Wohnung bietet Ihnen einen ruhigen Rückzugsort ohne Gegenüber. Das kleine Extra: die Ruhe und das Licht der obersten Etage und die gesamte Innenstadt zu Fuß erreichbar. Einen schönen Aufenthalt! ⛵",
+      es: "¡Bienvenido al apartamento «Sur les quais», en pleno corazón de Caen! Está a dos pasos de la rue Saint-Jean y sus comercios, con una bonita vista a los muelles. Totalmente renovado, este apartamento le ofrece un refugio tranquilo y sin vistas de enfrente. Su pequeño plus: la calma y la luz de la última planta, y todo el centro por descubrir a pie. ¡Que tenga una estancia estupenda! ⛵",
+      it: "Benvenuti nell'appartamento «Sur les quais», nel cuore di Caen! Siete a due passi da rue Saint-Jean e dai suoi negozi, con una bella vista sui moli. Interamente ristrutturato, questo appartamento vi offre un rifugio tranquillo e senza dirimpettai. Il suo piccolo plus: la calma e la luce dell'ultimo piano, e tutto il centro da esplorare a piedi. Buon soggiorno! ⛵",
+    },
+  "Arrivée entre 17h et 21h": {
+    en: "Check-in between 5 p.m. and 9 p.m.",
+    de: "Anreise zwischen 17 und 21 Uhr",
+    es: "Llegada entre las 17 h y las 21 h",
+    it: "Arrivo tra le 17 e le 21",
+  },
+  "L'accès au logement se fait en autonomie via le service KeyNest : les clés sont à récupérer dans un commerce partenaire, à environ 5 minutes à pied de l'appartement.":
+    {
+      en: "Access to the property is self check-in via the KeyNest service: the keys are to be collected from a partner shop, about a 5-minute walk from the apartment.",
+      de: "Der Zugang zur Wohnung erfolgt selbstständig über den Dienst KeyNest: Die Schlüssel werden in einem Partnergeschäft abgeholt, etwa 5 Gehminuten von der Wohnung entfernt.",
+      es: "El acceso a la vivienda se realiza de forma autónoma mediante el servicio KeyNest: las llaves se recogen en un comercio asociado, a unos 5 minutos a pie del apartamento.",
+      it: "L'accesso all'alloggio avviene in autonomia tramite il servizio KeyNest: le chiavi vanno ritirate in un negozio partner, a circa 5 minuti a piedi dall'appartamento.",
+    },
+  "Le point de retrait des clés et la marche à suivre KeyNest vous sont communiqués par message avant votre arrivée.":
+    {
+      en: "The key collection point and the KeyNest instructions are sent to you by message before your arrival.",
+      de: "Der Abholort der Schlüssel und die KeyNest-Anleitung werden Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
+      es: "El punto de recogida de las llaves y las instrucciones de KeyNest se le comunican por mensaje antes de su llegada.",
+      it: "Il punto di ritiro delle chiavi e le istruzioni KeyNest vi vengono comunicati via messaggio prima del vostro arrivo.",
+    },
+  "L'appartement se situe au 5ᵉ étage, sans ascenseur — l'escalier en vaut la peine pour le calme et la vue !":
+    {
+      en: "The apartment is on the 5th floor, with no lift — the stairs are well worth it for the quiet and the view!",
+      de: "Die Wohnung befindet sich im 5. Stock ohne Aufzug — die Treppe lohnt sich für die Ruhe und die Aussicht!",
+      es: "El apartamento está en la 5ª planta, sin ascensor: ¡las escaleras merecen la pena por la tranquilidad y las vistas!",
+      it: "L'appartamento si trova al 5º piano, senza ascensore — le scale valgono la pena per la tranquillità e la vista!",
+    },
+  "À votre départ, merci de rapporter les clés au point KeyNest en suivant les instructions reçues.":
+    {
+      en: "On departure, please return the keys to the KeyNest point following the instructions you received.",
+      de: "Bringen Sie die Schlüssel bei Ihrer Abreise bitte gemäß den erhaltenen Anweisungen zur KeyNest-Stelle zurück.",
+      es: "A su salida, devuelva las llaves al punto KeyNest siguiendo las instrucciones recibidas.",
+      it: "Alla partenza, riportate le chiavi al punto KeyNest seguendo le istruzioni ricevute.",
+    },
+  "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.":
+    {
+      en: "There is no dedicated parking space. Street parking is possible (paid during the day, from 9 a.m. to 12:30 p.m. and from 2 p.m. to 7 p.m.). Consider the city's parking app to pay remotely.",
+      de: "Es gibt keinen reservierten Parkplatz. Parken auf der Straße ist möglich (tagsüber kostenpflichtig, von 9 bis 12:30 Uhr und von 14 bis 19 Uhr). Nutzen Sie die Park-App der Stadt, um aus der Ferne zu bezahlen.",
+      es: "No hay plaza de aparcamiento reservada. Es posible aparcar en la calle (de pago durante el día, de 9 h a 12:30 h y de 14 h a 19 h). Utilice la app de aparcamiento de la ciudad para pagar a distancia.",
+      it: "Non c'è un posto auto riservato. È possibile parcheggiare in strada (a pagamento di giorno, dalle 9 alle 12:30 e dalle 14 alle 19). Usate l'app di parcheggio della città per pagare a distanza.",
+    },
+  "Chambre avec lit double (140 × 190 cm), grand dressing, store et rideau occultant": {
+    en: "Bedroom with a double bed (140 × 190 cm), large dressing room, blind and blackout curtain",
+    de: "Schlafzimmer mit Doppelbett (140 × 190 cm), großem Ankleidezimmer, Rollo und Verdunklungsvorhang",
+    es: "Dormitorio con cama doble (140 × 190 cm), gran vestidor, estor y cortina opaca",
+    it: "Camera con letto matrimoniale (140 × 190 cm), ampia cabina armadio, tenda a rullo e tenda oscurante",
+  },
+  "Salon cosy avec canapé-lit d'appoint et TV connectée": {
+    en: "Cosy living room with an extra sofa bed and a smart TV",
+    de: "Gemütliches Wohnzimmer mit zusätzlichem Schlafsofa und Smart-TV",
+    es: "Salón acogedor con sofá cama de apoyo y televisión inteligente",
+    it: "Soggiorno accogliente con divano letto aggiuntivo e smart TV",
+  },
+  "Cuisine entièrement équipée (lave-vaisselle, four, micro-ondes, Nespresso)": {
+    en: "Fully equipped kitchen (dishwasher, oven, microwave, Nespresso)",
+    de: "Voll ausgestattete Küche (Geschirrspüler, Backofen, Mikrowelle, Nespresso)",
+    es: "Cocina totalmente equipada (lavavajillas, horno, microondas, Nespresso)",
+    it: "Cucina completamente attrezzata (lavastoviglie, forno, microonde, Nespresso)",
+  },
+  "Salle de bain moderne avec douche et lave-linge": {
+    en: "Modern bathroom with a shower and a washing machine",
+    de: "Modernes Badezimmer mit Dusche und Waschmaschine",
+    es: "Baño moderno con ducha y lavadora",
+    it: "Bagno moderno con doccia e lavatrice",
+  },
+  "Les draps sont fournis et le lit (140 × 190 cm) est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.":
+    {
+      en: "Bed linen is provided and the bed (140 × 190 cm) is made up. Each guest has a bath towel; a bath mat and a kitchen towel are also provided.",
+      de: "Bettwäsche wird gestellt und das Bett (140 × 190 cm) ist bezogen. Jeder Gast erhält ein Handtuch; eine Badematte und ein Geschirrtuch stehen ebenfalls zur Verfügung.",
+      es: "Las sábanas están incluidas y la cama (140 × 190 cm) está hecha. Cada viajero dispone de una toalla; también se ponen a su disposición una alfombrilla de baño y un paño de cocina.",
+      it: "Le lenzuola sono fornite e il letto (140 × 190 cm) è rifatto. Ogni ospite dispone di un asciugamano; sono inoltre a disposizione un tappetino da bagno e uno strofinaccio da cucina.",
+    },
+  "🛗 5ᵉ étage sans ascenseur": {
+    en: "🛗 5th floor, no lift",
+    de: "🛗 5. Stock ohne Aufzug",
+    es: "🛗 5ª planta sin ascensor",
+    it: "🛗 5º piano senza ascensore",
+  },
+  "L'appartement se situe au 5ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages — mais l'effort est récompensé par le calme, l'absence de vis-à-vis et la vue sur les quais.":
+    {
+      en: "The apartment is on the 5th floor and the building has no lift. Bear it in mind for your luggage — but the effort is rewarded with quiet, no neighbours opposite and a view over the quays.",
+      de: "Die Wohnung befindet sich im 5. Stock und das Gebäude hat keinen Aufzug. Denken Sie an Ihr Gepäck — die Mühe wird jedoch mit Ruhe, freiem Blick ohne Gegenüber und Aussicht auf die Kais belohnt.",
+      es: "El apartamento está en la 5ª planta y el edificio no tiene ascensor. Téngalo en cuenta para su equipaje, pero el esfuerzo se ve recompensado con tranquilidad, sin vistas de enfrente y vistas a los muelles.",
+      it: "L'appartamento si trova al 5º piano e l'edificio non ha ascensore. Tenetelo presente per i bagagli — ma lo sforzo è ricompensato dalla tranquillità, dall'assenza di dirimpettai e dalla vista sui moli.",
+    },
+  "🪟 Stores & occultation": {
+    en: "🪟 Blinds & blackout",
+    de: "🪟 Rollos & Verdunklung",
+    es: "🪟 Estores y oscurecimiento",
+    it: "🪟 Tende e oscuramento",
+  },
+  "La chambre est équipée d'un store et d'un rideau occultant pour un sommeil au calme, à l'abri de la lumière du jour. À noter : si vous utilisez le canapé-lit du salon, les fenêtres du séjour ne disposent ni de rideaux ni de volets.":
+    {
+      en: "The bedroom has a blind and a blackout curtain for a quiet sleep, shielded from daylight. Please note: if you use the sofa bed in the living room, the living-room windows have neither curtains nor shutters.",
+      de: "Das Schlafzimmer ist mit einem Rollo und einem Verdunklungsvorhang für einen ruhigen Schlaf, geschützt vor Tageslicht, ausgestattet. Hinweis: Wenn Sie das Schlafsofa im Wohnzimmer nutzen, haben die Wohnzimmerfenster weder Vorhänge noch Fensterläden.",
+      es: "El dormitorio dispone de un estor y una cortina opaca para dormir tranquilo, resguardado de la luz del día. Nota: si utiliza el sofá cama del salón, las ventanas del salón no tienen ni cortinas ni persianas.",
+      it: "La camera è dotata di una tenda a rullo e di una tenda oscurante per un sonno tranquillo, al riparo dalla luce del giorno. Nota: se utilizzate il divano letto del soggiorno, le finestre del soggiorno non hanno né tende né persiane.",
+    },
+  "Le salon dispose d'une TV connectée. Allumez l'écran avec le bouton Power de la télécommande, puis lancez l'application souhaitée (Netflix et les autres plateformes sont accessibles avec VOS identifiants personnels). Pensez à vous déconnecter de vos comptes avant votre départ.":
+    {
+      en: "The living room has a smart TV. Turn on the screen with the Power button on the remote, then launch the app you want (Netflix and other platforms are accessible with YOUR own login details). Remember to log out of your accounts before you leave.",
+      de: "Das Wohnzimmer verfügt über einen Smart-TV. Schalten Sie den Bildschirm mit der Power-Taste der Fernbedienung ein und starten Sie dann die gewünschte App (Netflix und andere Plattformen sind mit IHREN eigenen Zugangsdaten zugänglich). Denken Sie daran, sich vor Ihrer Abreise von Ihren Konten abzumelden.",
+      es: "El salón dispone de una televisión inteligente. Encienda la pantalla con el botón Power del mando y abra la aplicación que desee (Netflix y otras plataformas son accesibles con SUS propios datos de acceso). Recuerde cerrar sesión en sus cuentas antes de marcharse.",
+      it: "Il soggiorno dispone di una smart TV. Accendete lo schermo con il tasto Power del telecomando, poi avviate l'app desiderata (Netflix e le altre piattaforme sono accessibili con i VOSTRI dati personali). Ricordatevi di disconnettervi dai vostri account prima della partenza.",
+    },
+  "La salle de bain, moderne, dispose d'une douche. Merci de bien refermer le rideau / la paroi pour éviter les éclaboussures.":
+    {
+      en: "The bathroom is modern and has a shower. Please close the curtain / screen properly to avoid splashing.",
+      de: "Das Badezimmer ist modern und verfügt über eine Dusche. Bitte schließen Sie den Vorhang / die Trennwand richtig, um Spritzer zu vermeiden.",
+      es: "El baño es moderno y dispone de ducha. Cierre bien la cortina / mampara para evitar salpicaduras.",
+      it: "Il bagno è moderno e dispone di doccia. Chiudete bene la tenda / il box per evitare schizzi.",
+    },
+  "La cuisine est entièrement équipée : four, micro-ondes, plaques de cuisson avec hotte, lave-vaisselle, réfrigérateur, machine à café Nespresso (à capsules), bouilloire et grille-pain, ainsi que tout le nécessaire de cuisine.":
+    {
+      en: "The kitchen is fully equipped: oven, microwave, hob with extractor hood, dishwasher, fridge, Nespresso coffee machine (capsules), kettle and toaster, as well as all the cookware you need.",
+      de: "Die Küche ist voll ausgestattet: Backofen, Mikrowelle, Kochfeld mit Dunstabzugshaube, Geschirrspüler, Kühlschrank, Nespresso-Kaffeemaschine (Kapseln), Wasserkocher und Toaster sowie alles nötige Küchenzubehör.",
+      es: "La cocina está totalmente equipada: horno, microondas, placa con campana extractora, lavavajillas, frigorífico, cafetera Nespresso (de cápsulas), hervidor y tostadora, así como todo el menaje necesario.",
+      it: "La cucina è completamente attrezzata: forno, microonde, piano cottura con cappa, lavastoviglie, frigorifero, macchina del caffè Nespresso (a capsule), bollitore e tostapane, oltre a tutto il necessario per cucinare.",
+    },
+  "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche dans le quartier":
+    {
+      en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: the nearest glass bank in the neighbourhood",
+      de: "Der Abfall muss getrennt und in die dafür vorgesehenen Behälter gegeben werden.\n🟡 Gelbe Tonne: Verpackungen und recycelbarer Abfall\n⚫ Graue Tonne: Hausmüll\n🍷 Glas: nächstgelegener Glascontainer im Viertel",
+      es: "Los residuos deben separarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: el contenedor de vidrio más cercano del barrio",
+      it: "I rifiuti devono essere differenziati e depositati negli appositi contenitori.\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: il contenitore del vetro più vicino nel quartiere",
+    },
+  "Vue sur les quais": {
+    en: "Quayside view",
+    de: "Blick auf die Kais",
+    es: "Vista a los muelles",
+    it: "Vista sui moli",
+  },
+  "Chambre séparée (lit double 140 × 190)": {
+    en: "Separate bedroom (double bed 140 × 190)",
+    de: "Separates Schlafzimmer (Doppelbett 140 × 190)",
+    es: "Dormitorio independiente (cama doble 140 × 190)",
+    it: "Camera separata (letto matrimoniale 140 × 190)",
+  },
+  "Canapé-lit d'appoint": {
+    en: "Extra sofa bed",
+    de: "Zusätzliches Schlafsofa",
+    es: "Sofá cama de apoyo",
+    it: "Divano letto aggiuntivo",
+  },
+  "TV connectée": {
+    en: "Smart TV",
+    de: "Smart-TV",
+    es: "Televisión inteligente",
+    it: "Smart TV",
+  },
+  "Cuisine équipée": {
+    en: "Equipped kitchen",
+    de: "Ausgestattete Küche",
+    es: "Cocina equipada",
+    it: "Cucina attrezzata",
+  },
+  "Salle de bain avec douche": {
+    en: "Bathroom with shower",
+    de: "Badezimmer mit Dusche",
+    es: "Baño con ducha",
+    it: "Bagno con doccia",
+  },
+  "Hotte": {
+    en: "Extractor hood",
+    de: "Dunstabzugshaube",
+    es: "Campana extractora",
+    it: "Cappa aspirante",
+  },
 };

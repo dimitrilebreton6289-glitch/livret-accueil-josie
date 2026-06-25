@@ -13,7 +13,8 @@ const targets = logements.filter(
     l.id === "fleur" ||
     l.id === "mer" ||
     l.id === "boheme" ||
-    l.id === "saintjean",
+    l.id === "saintjean" ||
+    l.id === "quais",
 );
 const found = new Set<string>();
 
