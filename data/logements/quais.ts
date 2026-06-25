@@ -7,17 +7,17 @@ import { saintjean } from "./saintjean";
  * Saint-Pierre). Une chambre (lit 140 × 190 + grand dressing), un salon avec
  * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
  * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
- * Accès en autonomie via KeyNest (clés à récupérer dans un commerce partenaire).
+ * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen. Accès en
+ * autonomie par boîte à clés sécurisée à l'entrée de l'immeuble (code communiqué
+ * par message avant l'arrivée).
  *
  * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
  * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
  * depuis les coordonnées de ce logement.
  *
- * ⚠️ À CONFIRMER PAR LA GÉRANTE (valeurs provisoires marquées « TODO ») :
- *   - adresse exacte (n° + rue / quai) → adresse, itineraire, coords précises
- *   - WiFi (réseau + mot de passe) — la fibre existe, identifiants à renseigner
- *   - KeyNest : commerce / point de retrait des clés + lien ou code KeyNest
- *   - photo de couverture (provisoire : SVG pour le moment)
+ * ⚠️ RESTE À RENSEIGNER (par la gérante) :
+ *   - WiFi (réseau + mot de passe) — pas encore installé (la fibre est prévue)
+ *   - code de la boîte à clés — boîte pas encore posée à l'adresse
  *   - emplacement exact du conteneur à verre
  *   - animaux : l'annonce ne le précise pas → mis à NON pour l'instant
  *
@@ -26,11 +26,11 @@ import { saintjean } from "./saintjean";
 export const quais: Logement = {
   id: "quais",
   nom: "Sur les quais",
-  adresse: "Rue Saint-Jean (côté quais), 14000 Caen", // TODO: adresse exacte à confirmer
+  adresse: "9 Place du 36ème Régiment d'Infanterie, 14000 Caen",
   ville: "Caen",
-  itineraire: "https://maps.google.com/?q=Quai+Vendeuvre+14000+Caen", // TODO: itinéraire vers l'adresse exacte
-  coords: [49.1797, -0.355], // TODO: coordonnées approximatives (secteur quais / sud rue Saint-Jean)
-  cover: "/logements/quais/cover.svg",
+  itineraire: "https://maps.google.com/?q=9+Place+du+36e+Regiment+d%27Infanterie+14000+Caen",
+  coords: [49.17785, -0.35612],
+  cover: "/logements/quais/cover.png",
 
   motAccueil:
     "Bienvenue dans l'appartement « Sur les quais », en plein cœur de Caen ! Vous êtes à deux pas de la rue Saint-Jean et de ses commerces, avec une belle vue sur les quais. Entièrement rénové, cet appartement vous offre un cocon paisible et sans vis-à-vis. Son petit plus : le calme et la lumière du dernier étage, et tout le centre-ville à explorer à pied. Très bon séjour ! ⛵",
@@ -38,10 +38,10 @@ export const quais: Logement = {
   arrivee: {
     horaire: "Arrivée entre 17h et 21h",
     checkinExpress: [
-      "L'accès au logement se fait en autonomie via le service KeyNest : les clés sont à récupérer dans un commerce partenaire, à environ 5 minutes à pied de l'appartement.",
-      "Le point de retrait des clés et la marche à suivre KeyNest vous sont communiqués par message avant votre arrivée.",
+      "L'accès au logement se fait en autonomie. Les clés se trouvent dans une boîte à clés sécurisée, à l'entrée de l'immeuble.",
+      "Le code de la boîte à clés et les instructions précises vous sont communiqués par message avant votre arrivée.",
       "L'appartement se situe au 5ᵉ étage, sans ascenseur — l'escalier en vaut la peine pour le calme et la vue !",
-      "À votre départ, merci de rapporter les clés au point KeyNest en suivant les instructions reçues.",
+      "À votre départ, merci de remettre les clés dans la boîte à clés et de bien la refermer.",
     ],
     parking:
       "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.",
@@ -60,8 +60,8 @@ export const quais: Logement = {
   },
 
   wifi: {
-    // TODO: la fibre existe — renseigner le vrai nom de réseau + mot de passe.
-    reseau: "WiFi fibre (identifiants communiqués sur place)",
+    // TODO: pas encore installé — renseigner le réseau + mot de passe dès la box.
+    reseau: "WiFi non disponible pour le moment",
     motDePasse: "—",
   },
 

@@ -2801,19 +2801,19 @@ export const CONTENT: Record<string, Tr> = {
     es: "Llegada entre las 17 h y las 21 h",
     it: "Arrivo tra le 17 e le 21",
   },
-  "L'accès au logement se fait en autonomie via le service KeyNest : les clés sont à récupérer dans un commerce partenaire, à environ 5 minutes à pied de l'appartement.":
+  "L'accès au logement se fait en autonomie. Les clés se trouvent dans une boîte à clés sécurisée, à l'entrée de l'immeuble.":
     {
-      en: "Access to the property is self check-in via the KeyNest service: the keys are to be collected from a partner shop, about a 5-minute walk from the apartment.",
-      de: "Der Zugang zur Wohnung erfolgt selbstständig über den Dienst KeyNest: Die Schlüssel werden in einem Partnergeschäft abgeholt, etwa 5 Gehminuten von der Wohnung entfernt.",
-      es: "El acceso a la vivienda se realiza de forma autónoma mediante el servicio KeyNest: las llaves se recogen en un comercio asociado, a unos 5 minutos a pie del apartamento.",
-      it: "L'accesso all'alloggio avviene in autonomia tramite il servizio KeyNest: le chiavi vanno ritirate in un negozio partner, a circa 5 minuti a piedi dall'appartamento.",
+      en: "Access to the property is self check-in. The keys are in a secure key box at the entrance to the building.",
+      de: "Der Zugang zur Wohnung erfolgt selbstständig. Die Schlüssel befinden sich in einem gesicherten Schlüsselkasten am Eingang des Gebäudes.",
+      es: "El acceso a la vivienda se realiza de forma autónoma. Las llaves se encuentran en una caja de seguridad con llave, en la entrada del edificio.",
+      it: "L'accesso all'alloggio avviene in autonomia. Le chiavi si trovano in una cassetta di sicurezza all'ingresso dell'edificio.",
     },
-  "Le point de retrait des clés et la marche à suivre KeyNest vous sont communiqués par message avant votre arrivée.":
+  "Le code de la boîte à clés et les instructions précises vous sont communiqués par message avant votre arrivée.":
     {
-      en: "The key collection point and the KeyNest instructions are sent to you by message before your arrival.",
-      de: "Der Abholort der Schlüssel und die KeyNest-Anleitung werden Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
-      es: "El punto de recogida de las llaves y las instrucciones de KeyNest se le comunican por mensaje antes de su llegada.",
-      it: "Il punto di ritiro delle chiavi e le istruzioni KeyNest vi vengono comunicati via messaggio prima del vostro arrivo.",
+      en: "The key box code and the detailed instructions are sent to you by message before your arrival.",
+      de: "Der Code des Schlüsselkastens und die genauen Anweisungen werden Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
+      es: "El código de la caja de llaves y las instrucciones detalladas se le comunican por mensaje antes de su llegada.",
+      it: "Il codice della cassetta delle chiavi e le istruzioni dettagliate vi vengono comunicati via messaggio prima del vostro arrivo.",
     },
   "L'appartement se situe au 5ᵉ étage, sans ascenseur — l'escalier en vaut la peine pour le calme et la vue !":
     {
@@ -2822,12 +2822,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "El apartamento está en la 5ª planta, sin ascensor: ¡las escaleras merecen la pena por la tranquilidad y las vistas!",
       it: "L'appartamento si trova al 5º piano, senza ascensore — le scale valgono la pena per la tranquillità e la vista!",
     },
-  "À votre départ, merci de rapporter les clés au point KeyNest en suivant les instructions reçues.":
+  "À votre départ, merci de remettre les clés dans la boîte à clés et de bien la refermer.":
     {
-      en: "On departure, please return the keys to the KeyNest point following the instructions you received.",
-      de: "Bringen Sie die Schlüssel bei Ihrer Abreise bitte gemäß den erhaltenen Anweisungen zur KeyNest-Stelle zurück.",
-      es: "A su salida, devuelva las llaves al punto KeyNest siguiendo las instrucciones recibidas.",
-      it: "Alla partenza, riportate le chiavi al punto KeyNest seguendo le istruzioni ricevute.",
+      en: "On departure, please put the keys back in the key box and close it securely.",
+      de: "Legen Sie die Schlüssel bei Ihrer Abreise bitte zurück in den Schlüsselkasten und schließen Sie ihn gut.",
+      es: "A su salida, vuelva a colocar las llaves en la caja y ciérrela bien.",
+      it: "Alla partenza, riponete le chiavi nella cassetta e richiudetela bene.",
     },
   "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.":
     {
