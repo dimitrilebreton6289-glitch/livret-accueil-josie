@@ -2788,12 +2788,12 @@ export const CONTENT: Record<string, Tr> = {
   },
 
   // ---------------------------------------------------------------- Sur les quais
-  "Bienvenue dans l'appartement « Sur les quais », en plein cœur de Caen ! Vous êtes à deux pas de la rue Saint-Jean et de ses commerces, avec une belle vue sur les quais. Entièrement rénové, cet appartement vous offre un cocon paisible et sans vis-à-vis. Son petit plus : le calme et la lumière du dernier étage, et tout le centre-ville à explorer à pied. Très bon séjour ! ⛵":
+  "Bienvenue à Caen ! Vous êtes en plein centre, à deux pas de la rue Saint-Jean et de ses commerces, avec une jolie vue sur les quais. Ici, tout se fait à pied. Très bon séjour ! ⛵":
     {
-      en: "Welcome to the 'Sur les quais' apartment, right in the heart of Caen! You are a stone's throw from Rue Saint-Jean and its shops, with a lovely view over the quays. Fully renovated, this apartment offers a peaceful haven with no neighbours opposite. Its little extra: the calm and light of the top floor, and the whole town centre to explore on foot. Have a wonderful stay! ⛵",
-      de: "Willkommen in der Wohnung „Sur les quais“, mitten im Herzen von Caen! Sie wohnen nur wenige Schritte von der Rue Saint-Jean und ihren Geschäften entfernt, mit einem schönen Blick auf die Kais. Diese vollständig renovierte Wohnung bietet Ihnen einen ruhigen Rückzugsort ohne Gegenüber. Das kleine Extra: die Ruhe und das Licht der obersten Etage und die gesamte Innenstadt zu Fuß erreichbar. Einen schönen Aufenthalt! ⛵",
-      es: "¡Bienvenido al apartamento «Sur les quais», en pleno corazón de Caen! Está a dos pasos de la rue Saint-Jean y sus comercios, con una bonita vista a los muelles. Totalmente renovado, este apartamento le ofrece un refugio tranquilo y sin vistas de enfrente. Su pequeño plus: la calma y la luz de la última planta, y todo el centro por descubrir a pie. ¡Que tenga una estancia estupenda! ⛵",
-      it: "Benvenuti nell'appartamento «Sur les quais», nel cuore di Caen! Siete a due passi da rue Saint-Jean e dai suoi negozi, con una bella vista sui moli. Interamente ristrutturato, questo appartamento vi offre un rifugio tranquillo e senza dirimpettai. Il suo piccolo plus: la calma e la luce dell'ultimo piano, e tutto il centro da esplorare a piedi. Buon soggiorno! ⛵",
+      en: "Welcome to Caen! You are right in the centre, a stone's throw from Rue Saint-Jean and its shops, with a lovely view over the quays. Here, everything is within walking distance. Have a wonderful stay! ⛵",
+      de: "Willkommen in Caen! Sie wohnen mitten im Zentrum, nur wenige Schritte von der Rue Saint-Jean und ihren Geschäften entfernt, mit einem schönen Blick auf die Kais. Hier ist alles zu Fuß erreichbar. Einen schönen Aufenthalt! ⛵",
+      es: "¡Bienvenido a Caen! Está en pleno centro, a dos pasos de la rue Saint-Jean y sus comercios, con una bonita vista a los muelles. Aquí todo se hace a pie. ¡Que tenga una estancia estupenda! ⛵",
+      it: "Benvenuti a Caen! Siete in pieno centro, a due passi da rue Saint-Jean e dai suoi negozi, con una bella vista sui moli. Qui tutto si fa a piedi. Buon soggiorno! ⛵",
     },
   "Arrivée entre 17h et 21h": {
     en: "Check-in between 5 p.m. and 9 p.m.",
@@ -2914,12 +2914,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "La cocina está totalmente equipada: horno, microondas, placa con campana extractora, lavavajillas, frigorífico, cafetera Nespresso (de cápsulas), hervidor y tostadora, así como todo el menaje necesario.",
       it: "La cucina è completamente attrezzata: forno, microonde, piano cottura con cappa, lavastoviglie, frigorifero, macchina del caffè Nespresso (a capsule), bollitore e tostapane, oltre a tutto il necessario per cucinare.",
     },
-  "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche dans le quartier":
+  "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)":
     {
-      en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: the nearest glass bank in the neighbourhood",
-      de: "Der Abfall muss getrennt und in die dafür vorgesehenen Behälter gegeben werden.\n🟡 Gelbe Tonne: Verpackungen und recycelbarer Abfall\n⚫ Graue Tonne: Hausmüll\n🍷 Glas: nächstgelegener Glascontainer im Viertel",
-      es: "Los residuos deben separarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: el contenedor de vidrio más cercano del barrio",
-      it: "I rifiuti devono essere differenziati e depositati negli appositi contenitori.\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: il contenitore del vetro più vicino nel quartiere",
+      en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: glass bank at 2 Promenade de Sévigné (~2 min walk)",
+      de: "Der Abfall muss getrennt und in die dafür vorgesehenen Behälter gegeben werden.\n🟡 Gelbe Tonne: Verpackungen und recycelbarer Abfall\n⚫ Graue Tonne: Hausmüll\n🍷 Glas: Glascontainer in der Promenade de Sévigné 2 (~2 Gehminuten)",
+      es: "Los residuos deben separarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: contenedor de vidrio en 2 Promenade de Sévigné (~2 min a pie)",
+      it: "I rifiuti devono essere differenziati e depositati negli appositi contenitori.\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: contenitore del vetro al 2 Promenade de Sévigné (~2 min a piedi)",
     },
   "Vue sur les quais": {
     en: "Quayside view",
@@ -2962,5 +2962,35 @@ export const CONTENT: Record<string, Tr> = {
     de: "Dunstabzugshaube",
     es: "Campana extractora",
     it: "Cappa aspirante",
+  },
+  "Cuisine vietnamienne, à deux pas.": {
+    en: "Vietnamese cuisine, just steps away.",
+    de: "Vietnamesische Küche, nur wenige Schritte entfernt.",
+    es: "Cocina vietnamita, a dos pasos.",
+    it: "Cucina vietnamita, a due passi.",
+  },
+  "Café-bar de quartier.": {
+    en: "Local café-bar.",
+    de: "Café-Bar im Viertel.",
+    es: "Café-bar de barrio.",
+    it: "Caffè-bar di quartiere.",
+  },
+  "La pharmacie la plus proche. Pharmacie de garde : composez le 3237.": {
+    en: "The nearest pharmacy. For the on-duty pharmacy, dial 3237.",
+    de: "Die nächstgelegene Apotheke. Notdienst-Apotheke: wählen Sie die 3237.",
+    es: "La farmacia más cercana. Farmacia de guardia: marque el 3237.",
+    it: "La farmacia più vicina. Farmacia di turno: componete il 3237.",
+  },
+  "Boulangerie-pâtisserie : pain frais et viennoiseries.": {
+    en: "Bakery-patisserie: fresh bread and pastries.",
+    de: "Bäckerei-Konditorei: frisches Brot und Gebäck.",
+    es: "Panadería-pastelería: pan fresco y bollería.",
+    it: "Panetteria-pasticceria: pane fresco e dolci.",
+  },
+  "Supérette pour le dépannage du quotidien.": {
+    en: "Convenience store for everyday essentials.",
+    de: "Mini-Markt für den täglichen Bedarf.",
+    es: "Tienda de conveniencia para el día a día.",
+    it: "Minimarket per le necessità quotidiane.",
   },
 };

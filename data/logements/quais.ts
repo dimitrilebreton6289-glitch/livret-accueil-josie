@@ -2,6 +2,20 @@ import type { Logement } from "../types";
 import { saintjean } from "./saintjean";
 
 /**
+ * Descriptions « Autour de moi » à neutraliser pour ce logement : Saint-Jean
+ * indiquait « le plus proche / ~X m » (juste au 144 rue Saint-Jean), or place du
+ * 36ème R.I. est ~180 m plus au nord — d'autres adresses y sont plus proches.
+ * La distance réelle reste affichée par la carte ; clé = nom du lieu.
+ */
+const DESC_OVERRIDE: Record<string, string> = {
+  "Sasésu": "Cuisine vietnamienne, à deux pas.",
+  "Le Valéa": "Café-bar de quartier.",
+  "Pharmacie Saint-Jean": "La pharmacie la plus proche. Pharmacie de garde : composez le 3237.",
+  "Aux Délices Normands": "Boulangerie-pâtisserie : pain frais et viennoiseries.",
+  "Baïkal Market": "Supérette pour le dépannage du quotidien.",
+};
+
+/**
  * Logement « Sur les quais » — appartement entièrement rénové (35 m²) en plein
  * cœur de Caen, proche de la rue Saint-Jean et avec vue sur les quais (Bassin
  * Saint-Pierre). Une chambre (lit 140 × 190 + grand dressing), un salon avec
@@ -33,7 +47,7 @@ export const quais: Logement = {
   cover: "/logements/quais/cover.png",
 
   motAccueil:
-    "Bienvenue dans l'appartement « Sur les quais », en plein cœur de Caen ! Vous êtes à deux pas de la rue Saint-Jean et de ses commerces, avec une belle vue sur les quais. Entièrement rénové, cet appartement vous offre un cocon paisible et sans vis-à-vis. Son petit plus : le calme et la lumière du dernier étage, et tout le centre-ville à explorer à pied. Très bon séjour ! ⛵",
+    "Bienvenue à Caen ! Vous êtes en plein centre, à deux pas de la rue Saint-Jean et de ses commerces, avec une jolie vue sur les quais. Ici, tout se fait à pied. Très bon séjour ! ⛵",
 
   arrivee: {
     horaire: "Arrivée entre 17h et 21h",
@@ -143,7 +157,7 @@ export const quais: Logement = {
         "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. L'appartement se trouve au 5ᵉ étage sans ascenseur. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).",
     },
     poubelles:
-      "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche dans le quartier", // TODO: préciser l'emplacement exact du conteneur à verre
+      "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
@@ -211,7 +225,15 @@ export const quais: Logement = {
   autourDeMoi: {
     // Mêmes adresses que Saint-Jean (quartier sud rue Saint-Jean / quais) ;
     // distances recalculées automatiquement depuis les coordonnées du logement.
-    categories: saintjean.autourDeMoi.categories,
+    // Quelques descriptions de Saint-Jean indiquaient « le plus proche / ~X m »
+    // valable au 144 rue Saint-Jean : on les neutralise ici (ce logement est
+    // ~180 m plus au nord), la distance exacte restant affichée par la carte.
+    categories: saintjean.autourDeMoi.categories.map((c) => ({
+      key: c.key,
+      lieux: c.lieux.map((l) =>
+        DESC_OVERRIDE[l.nom] ? { ...l, desc: DESC_OVERRIDE[l.nom] } : l,
+      ),
+    })),
     coupDeCoeur:
       "Vous êtes idéalement placé pour découvrir Caen à pied : flânez sur la rue Saint-Jean et ses commerces, rejoignez le château et l'Abbaye aux Hommes, puis offrez-vous une soirée dans le quartier du Vaugueux, qui concentre les meilleures tables. Pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !",
   },
