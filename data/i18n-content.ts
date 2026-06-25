@@ -2993,4 +2993,79 @@ export const CONTENT: Record<string, Tr> = {
     es: "Tienda de conveniencia para el día a día.",
     it: "Minimarket per le necessità quotidiane.",
   },
+
+  // ----------------------------------------------- Sur les quais — guide d'arrivée
+  "L'accès se fait en autonomie : suivez le guide pas à pas ci-dessous, de la récupération des clés jusqu'à la porte de l'appartement.":
+    {
+      en: "Access is self check-in: follow the step-by-step guide below, from picking up the keys to the apartment door.",
+      de: "Der Zugang erfolgt selbstständig: Folgen Sie der Schritt-für-Schritt-Anleitung unten, von der Schlüsselabholung bis zur Wohnungstür.",
+      es: "El acceso es autónomo: siga la guía paso a paso de abajo, desde la recogida de las llaves hasta la puerta del apartamento.",
+      it: "L'accesso è in autonomia: seguite la guida passo passo qui sotto, dal ritiro delle chiavi fino alla porta dell'appartamento.",
+    },
+  "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.":
+    {
+      en: "⚠️ The apartment is on the 5th and top floor, with no lift — bear it in mind for your luggage.",
+      de: "⚠️ Die Wohnung liegt im 5. und obersten Stock ohne Aufzug — denken Sie an Ihr Gepäck.",
+      es: "⚠️ El apartamento está en la 5ª y última planta, sin ascensor: téngalo en cuenta para su equipaje.",
+      it: "⚠️ L'appartamento è al 5º e ultimo piano, senza ascensore — tenetelo presente per i bagagli.",
+    },
+  "Les clés sont à récupérer à proximité, dans la supérette (Coccimarket). Un lien avec un code à usage unique vous est communiqué par message afin de récupérer la clé et le badge auprès du commerçant.":
+    {
+      en: "The keys are to be collected nearby, at the convenience store (Coccimarket). A link with a single-use code is sent to you by message so you can collect the key and the badge from the shopkeeper.",
+      de: "Die Schlüssel werden in der Nähe im Mini-Markt (Coccimarket) abgeholt. Ein Link mit einem Einmal-Code wird Ihnen per Nachricht zugesandt, damit Sie Schlüssel und Badge beim Händler abholen können.",
+      es: "Las llaves se recogen cerca, en la tienda de conveniencia (Coccimarket). Se le envía por mensaje un enlace con un código de un solo uso para recoger la llave y el mando del comerciante.",
+      it: "Le chiavi vanno ritirate nelle vicinanze, al minimarket (Coccimarket). Un link con un codice monouso vi viene inviato via messaggio per ritirare la chiave e il badge presso il negoziante.",
+    },
+  "Une fois les clés en main, rendez-vous devant l'immeuble, à côté de l'armurerie, au 9 place du 36ème Régiment d'Infanterie. Si le portail n'est pas ouvert, passez le badge sur le bouton noir de l'interphone à droite, puis empruntez la porte piétonne qui s'ouvre automatiquement.":
+    {
+      en: "Once you have the keys, go to the building, next to the gun shop, at 9 place du 36ème Régiment d'Infanterie. If the gate is not open, hold the badge against the black button of the intercom on the right, then go through the pedestrian door that opens automatically.",
+      de: "Sobald Sie die Schlüssel haben, gehen Sie zum Gebäude neben dem Waffengeschäft, in der Place du 36ème Régiment d'Infanterie 9. Wenn das Tor nicht offen ist, halten Sie das Badge an den schwarzen Knopf der Gegensprechanlage rechts und gehen Sie durch die Fußgängertür, die sich automatisch öffnet.",
+      es: "Una vez con las llaves, diríjase al edificio, junto a la armería, en 9 place du 36ème Régiment d'Infanterie. Si la verja no está abierta, pase el mando por el botón negro del portero automático a la derecha y entre por la puerta peatonal que se abre automáticamente.",
+      it: "Una volta prese le chiavi, recatevi davanti all'edificio, accanto all'armeria, al 9 place du 36ème Régiment d'Infanterie. Se il cancello non è aperto, passate il badge sul pulsante nero del citofono a destra, poi entrate dalla porta pedonale che si apre automaticamente.",
+    },
+  "Entrez par ici et dirigez-vous vers la droite, après les boîtes aux lettres.": {
+    en: "Come in here and head to the right, past the letterboxes.",
+    de: "Treten Sie hier ein und gehen Sie nach rechts, hinter den Briefkästen.",
+    es: "Entre por aquí y diríjase a la derecha, pasados los buzones.",
+    it: "Entrate da qui e dirigetevi a destra, dopo le cassette delle lettere.",
+  },
+  "Dirigez-vous ensuite vers la porte noire.": {
+    en: "Then head towards the black door.",
+    de: "Gehen Sie dann zur schwarzen Tür.",
+    es: "Después diríjase hacia la puerta negra.",
+    it: "Poi dirigetevi verso la porta nera.",
+  },
+  "Passez le badge devant le bouton noir de l'interphone : une fois le voyant vert, poussez la porte pour l'ouvrir.":
+    {
+      en: "Hold the badge in front of the black button of the intercom: once the light turns green, push the door to open it.",
+      de: "Halten Sie das Badge vor den schwarzen Knopf der Gegensprechanlage: sobald das Licht grün wird, drücken Sie die Tür auf.",
+      es: "Pase el mando por delante del botón negro del portero automático: cuando la luz se ponga verde, empuje la puerta para abrirla.",
+      it: "Passate il badge davanti al pulsante nero del citofono: quando la spia diventa verde, spingete la porta per aprirla.",
+    },
+  "Une fois dans les parties communes, montez les 5 étages : c'est tout en haut !": {
+    en: "Once in the common areas, climb the 5 floors: it's right at the top!",
+    de: "In den Gemeinschaftsbereichen angekommen, steigen Sie die 5 Etagen hinauf: ganz oben!",
+    es: "Una vez en las zonas comunes, suba las 5 plantas: ¡está arriba del todo!",
+    it: "Una volta nelle parti comuni, salite i 5 piani: è proprio in cima!",
+  },
+  "Arrivé en haut, dirigez-vous vers la porte de droite et ouvrez-la avec la clé. Bienvenue !": {
+    en: "At the top, head to the door on the right and open it with the key. Welcome!",
+    de: "Oben angekommen, gehen Sie zur rechten Tür und öffnen Sie sie mit dem Schlüssel. Willkommen!",
+    es: "Al llegar arriba, diríjase a la puerta de la derecha y ábrala con la llave. ¡Bienvenido!",
+    it: "Arrivati in cima, dirigetevi verso la porta a destra e apritela con la chiave. Benvenuti!",
+  },
+  "À votre départ, merci de redéposer les clés et le badge au Coccimarket (supérette), avec le lien envoyé par message.":
+    {
+      en: "On departure, please drop the keys and the badge back at the Coccimarket (convenience store), using the link sent by message.",
+      de: "Bei Ihrer Abreise geben Sie die Schlüssel und das Badge bitte wieder im Coccimarket (Mini-Markt) ab, über den per Nachricht gesendeten Link.",
+      es: "A su salida, vuelva a dejar las llaves y el mando en el Coccimarket (tienda de conveniencia), con el enlace enviado por mensaje.",
+      it: "Alla partenza, riconsegnate le chiavi e il badge al Coccimarket (minimarket), tramite il link inviato via messaggio.",
+    },
+  "Fermer l'appartement à clé, puis redéposer les clés et le badge au Coccimarket (supérette) via le lien envoyé par message":
+    {
+      en: "Lock the apartment, then drop the keys and the badge back at the Coccimarket (convenience store) via the link sent by message",
+      de: "Die Wohnung abschließen und dann die Schlüssel und das Badge über den per Nachricht gesendeten Link im Coccimarket (Mini-Markt) abgeben",
+      es: "Cierre el apartamento con llave y luego deje las llaves y el mando en el Coccimarket (tienda de conveniencia) mediante el enlace enviado por mensaje",
+      it: "Chiudete a chiave l'appartamento, poi riconsegnate le chiavi e il badge al Coccimarket (minimarket) tramite il link inviato via messaggio",
+    },
 };

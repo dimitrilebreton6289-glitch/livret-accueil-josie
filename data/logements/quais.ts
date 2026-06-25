@@ -21,9 +21,10 @@ const DESC_OVERRIDE: Record<string, string> = {
  * Saint-Pierre). Une chambre (lit 140 × 190 + grand dressing), un salon avec
  * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
  * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
- * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen. Accès en
- * autonomie par boîte à clés sécurisée à l'entrée de l'immeuble (code communiqué
- * par message avant l'arrivée).
+ * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen (à côté de
+ * l'armurerie). Accès en autonomie : clés + badge récupérés à la supérette
+ * voisine (Coccimarket) via un lien à code unique, puis badge à l'interphone et
+ * 5 étages à pied. Guide d'arrivée illustré (8 étapes) dans `arrivee.etapes`.
  *
  * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
  * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
@@ -31,8 +32,6 @@ const DESC_OVERRIDE: Record<string, string> = {
  *
  * ⚠️ RESTE À RENSEIGNER (par la gérante) :
  *   - WiFi (réseau + mot de passe) — pas encore installé (la fibre est prévue)
- *   - code de la boîte à clés — boîte pas encore posée à l'adresse
- *   - emplacement exact du conteneur à verre
  *   - animaux : l'annonce ne le précise pas → mis à NON pour l'instant
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
@@ -52,10 +51,48 @@ export const quais: Logement = {
   arrivee: {
     horaire: "Arrivée entre 17h et 21h",
     checkinExpress: [
-      "L'accès au logement se fait en autonomie. Les clés se trouvent dans une boîte à clés sécurisée, à l'entrée de l'immeuble.",
-      "Le code de la boîte à clés et les instructions précises vous sont communiqués par message avant votre arrivée.",
-      "L'appartement se situe au 5ᵉ étage, sans ascenseur — l'escalier en vaut la peine pour le calme et la vue !",
-      "À votre départ, merci de remettre les clés dans la boîte à clés et de bien la refermer.",
+      "L'accès se fait en autonomie : suivez le guide pas à pas ci-dessous, de la récupération des clés jusqu'à la porte de l'appartement.",
+      "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.",
+    ],
+    etapes: [
+      {
+        texte:
+          "Les clés sont à récupérer à proximité, dans la supérette (Coccimarket). Un lien avec un code à usage unique vous est communiqué par message afin de récupérer la clé et le badge auprès du commerçant.",
+        photo: "/logements/quais/arrivee-1.jpg",
+      },
+      {
+        texte:
+          "Une fois les clés en main, rendez-vous devant l'immeuble, à côté de l'armurerie, au 9 place du 36ème Régiment d'Infanterie. Si le portail n'est pas ouvert, passez le badge sur le bouton noir de l'interphone à droite, puis empruntez la porte piétonne qui s'ouvre automatiquement.",
+        photo: "/logements/quais/arrivee-2.jpg",
+      },
+      {
+        texte:
+          "Entrez par ici et dirigez-vous vers la droite, après les boîtes aux lettres.",
+        photo: "/logements/quais/arrivee-3.jpg",
+      },
+      {
+        texte: "Dirigez-vous ensuite vers la porte noire.",
+        photo: "/logements/quais/arrivee-4.jpg",
+      },
+      {
+        texte:
+          "Passez le badge devant le bouton noir de l'interphone : une fois le voyant vert, poussez la porte pour l'ouvrir.",
+        photo: "/logements/quais/arrivee-5.jpg",
+      },
+      {
+        texte:
+          "Une fois dans les parties communes, montez les 5 étages : c'est tout en haut !",
+        photo: "/logements/quais/arrivee-6.jpg",
+      },
+      {
+        texte:
+          "Arrivé en haut, dirigez-vous vers la porte de droite et ouvrez-la avec la clé. Bienvenue !",
+        photo: "/logements/quais/arrivee-7.jpg",
+      },
+      {
+        texte:
+          "À votre départ, merci de redéposer les clés et le badge au Coccimarket (supérette), avec le lien envoyé par message.",
+      },
     ],
     parking:
       "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.",
@@ -196,7 +233,7 @@ export const quais: Logement = {
       "Rendre l'appartement propre et rangé",
       "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser la température des radiateurs",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
-      "Fermer l'appartement à clé et remettre les clés dans la boîte à code",
+      "Fermer l'appartement à clé, puis redéposer les clés et le badge au Coccimarket (supérette) via le lien envoyé par message",
     ],
     departTardif: {
       texte:
