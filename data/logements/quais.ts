@@ -157,7 +157,7 @@ export const quais: Logement = {
         "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. L'appartement se trouve au 5ᵉ étage sans ascenseur. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).",
     },
     poubelles:
-      "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)",
+      "Le local à poubelles se situe en sortant de l'immeuble, sur la droite, au fond de la cour (les bacs sont à l'intérieur). Merci de trier vos déchets.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },

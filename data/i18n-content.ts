@@ -2914,12 +2914,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "La cocina está totalmente equipada: horno, microondas, placa con campana extractora, lavavajillas, frigorífico, cafetera Nespresso (de cápsulas), hervidor y tostadora, así como todo el menaje necesario.",
       it: "La cucina è completamente attrezzata: forno, microonde, piano cottura con cappa, lavastoviglie, frigorifero, macchina del caffè Nespresso (a capsule), bollitore e tostapane, oltre a tutto il necessario per cucinare.",
     },
-  "Les déchets doivent être triés et déposés dans les conteneurs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)":
+  "Le local à poubelles se situe en sortant de l'immeuble, sur la droite, au fond de la cour (les bacs sont à l'intérieur). Merci de trier vos déchets.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre au 2 Promenade de Sévigné (~2 min à pied)":
     {
-      en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: glass bank at 2 Promenade de Sévigné (~2 min walk)",
-      de: "Der Abfall muss getrennt und in die dafür vorgesehenen Behälter gegeben werden.\n🟡 Gelbe Tonne: Verpackungen und recycelbarer Abfall\n⚫ Graue Tonne: Hausmüll\n🍷 Glas: Glascontainer in der Promenade de Sévigné 2 (~2 Gehminuten)",
-      es: "Los residuos deben separarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: contenedor de vidrio en 2 Promenade de Sévigné (~2 min a pie)",
-      it: "I rifiuti devono essere differenziati e depositati negli appositi contenitori.\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: contenitore del vetro al 2 Promenade de Sévigné (~2 min a piedi)",
+      en: "The bin room is to the right as you leave the building, at the back of the courtyard (the bins are inside). Please sort your waste.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: glass bank at 2 Promenade de Sévigné (~2 min walk)",
+      de: "Der Müllraum befindet sich rechts, wenn Sie das Gebäude verlassen, am Ende des Innenhofs (die Tonnen stehen darin). Bitte trennen Sie Ihren Abfall.\n🟡 Gelbe Tonne: Verpackungen und recycelbarer Abfall\n⚫ Graue Tonne: Hausmüll\n🍷 Glas: Glascontainer in der Promenade de Sévigné 2 (~2 Gehminuten)",
+      es: "El cuarto de basuras se encuentra a la derecha al salir del edificio, al fondo del patio (los contenedores están dentro). Separe sus residuos, por favor.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: contenedor de vidrio en 2 Promenade de Sévigné (~2 min a pie)",
+      it: "Il locale rifiuti si trova sulla destra uscendo dall'edificio, in fondo al cortile (i bidoni sono all'interno). Si prega di differenziare i rifiuti.\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: contenitore del vetro al 2 Promenade de Sévigné (~2 min a piedi)",
     },
   "Vue sur les quais": {
     en: "Quayside view",
