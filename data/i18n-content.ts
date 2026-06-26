@@ -2795,11 +2795,11 @@ export const CONTENT: Record<string, Tr> = {
       es: "¡Bienvenido a Caen! Está en pleno centro, a dos pasos de la rue Saint-Jean y sus comercios, con una bonita vista a los muelles. Aquí todo se hace a pie. ¡Que tenga una estancia estupenda! ⛵",
       it: "Benvenuti a Caen! Siete in pieno centro, a due passi da rue Saint-Jean e dai suoi negozi, con una bella vista sui moli. Qui tutto si fa a piedi. Buon soggiorno! ⛵",
     },
-  "Arrivée autonome": {
-    en: "Self check-in",
-    de: "Selbstständige Anreise",
-    es: "Llegada autónoma",
-    it: "Arrivo in autonomia",
+  "Arrivée autonome à partir de 17h": {
+    en: "Self check-in from 5 p.m.",
+    de: "Selbstständige Anreise ab 17 Uhr",
+    es: "Llegada autónoma a partir de las 17 h",
+    it: "Arrivo in autonomia dalle 17",
   },
   "Arrivée entre 17h et 21h": {
     en: "Check-in between 5 p.m. and 9 p.m.",
