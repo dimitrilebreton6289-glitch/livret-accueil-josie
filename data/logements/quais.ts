@@ -16,7 +16,8 @@ const DESC_OVERRIDE: Record<string, string> = {
 };
 
 /**
- * Logement « Sur les quais » — appartement entièrement rénové (35 m²) en plein
+ * Logement « Basic » (nom interne, à côté du Basic Fit ; id/URL = quais) —
+ * appartement entièrement rénové (35 m²) en plein
  * cœur de Caen, proche de la rue Saint-Jean et avec vue sur les quais (Bassin
  * Saint-Pierre). Une chambre (lit 140 × 190 + grand dressing), un salon avec
  * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
@@ -39,7 +40,7 @@ const DESC_OVERRIDE: Record<string, string> = {
  */
 export const quais: Logement = {
   id: "quais",
-  nom: "Sur les quais",
+  nom: "Basic",
   adresse: "9 Place du 36ème Régiment d'Infanterie, 14000 Caen",
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=9+Place+du+36e+Regiment+d%27Infanterie+14000+Caen",
