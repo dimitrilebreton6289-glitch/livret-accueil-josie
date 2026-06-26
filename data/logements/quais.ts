@@ -51,7 +51,7 @@ export const quais: Logement = {
     "Bienvenue à Caen ! Vous êtes en plein centre, à deux pas de la rue Saint-Jean et de ses commerces, avec une jolie vue sur les quais. Ici, tout se fait à pied. Très bon séjour ! ⛵",
 
   arrivee: {
-    horaire: "Arrivée autonome jusqu'à 22h",
+    horaire: "Arrivée autonome",
     checkinExpress: [
       "L'accès se fait en autonomie : suivez le guide pas à pas ci-dessous, de la récupération des clés jusqu'à la porte de l'appartement.",
       "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.",
