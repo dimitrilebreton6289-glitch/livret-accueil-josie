@@ -3009,12 +3009,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "⚠️ El apartamento está en la 5ª y última planta, sin ascensor: téngalo en cuenta para su equipaje.",
       it: "⚠️ L'appartamento è al 5º e ultimo piano, senza ascensore — tenetelo presente per i bagagli.",
     },
-  "Les clés sont à récupérer à proximité, dans la supérette (Coccimarket). Un lien avec un code à usage unique vous est communiqué par message afin de récupérer la clé et le badge auprès du commerçant.":
+  "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Son emplacement et son code vous sont communiqués par message avant votre arrivée.":
     {
-      en: "The keys are to be collected nearby, at the convenience store (Coccimarket). A link with a single-use code is sent to you by message so you can collect the key and the badge from the shopkeeper.",
-      de: "Die Schlüssel werden in der Nähe im Mini-Markt (Coccimarket) abgeholt. Ein Link mit einem Einmal-Code wird Ihnen per Nachricht zugesandt, damit Sie Schlüssel und Badge beim Händler abholen können.",
-      es: "Las llaves se recogen cerca, en la tienda de conveniencia (Coccimarket). Se le envía por mensaje un enlace con un código de un solo uso para recoger la llave y el mando del comerciante.",
-      it: "Le chiavi vanno ritirate nelle vicinanze, al minimarket (Coccimarket). Un link con un codice monouso vi viene inviato via messaggio per ritirare la chiave e il badge presso il negoziante.",
+      en: "Access is self check-in: the key and the access badge are in a secure key box. Its location and code are sent to you by message before your arrival.",
+      de: "Der Zugang erfolgt selbstständig: Der Schlüssel und das Zugangs-Badge befinden sich in einem gesicherten Schlüsselkasten. Sein Standort und Code werden Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
+      es: "El acceso es autónomo: la llave y el mando de acceso se encuentran en una caja de seguridad. Su ubicación y su código se le comunican por mensaje antes de su llegada.",
+      it: "L'accesso è in autonomia: la chiave e il badge di accesso si trovano in una cassetta di sicurezza. La sua posizione e il codice vi vengono comunicati via messaggio prima del vostro arrivo.",
     },
   "Une fois les clés en main, rendez-vous devant l'immeuble, à côté de l'armurerie, au 9 place du 36ème Régiment d'Infanterie. Si le portail n'est pas ouvert, passez le badge sur le bouton noir de l'interphone à droite, puis empruntez la porte piétonne qui s'ouvre automatiquement.":
     {
@@ -3054,18 +3054,18 @@ export const CONTENT: Record<string, Tr> = {
     es: "Al llegar arriba, diríjase a la puerta de la derecha y ábrala con la llave. ¡Bienvenido!",
     it: "Arrivati in cima, dirigetevi verso la porta a destra e apritela con la chiave. Benvenuti!",
   },
-  "À votre départ, merci de redéposer les clés et le badge au Coccimarket (supérette), avec le lien envoyé par message.":
+  "À votre départ, merci de remettre la clé et le badge dans la boîte à clés et de bien la refermer.":
     {
-      en: "On departure, please drop the keys and the badge back at the Coccimarket (convenience store), using the link sent by message.",
-      de: "Bei Ihrer Abreise geben Sie die Schlüssel und das Badge bitte wieder im Coccimarket (Mini-Markt) ab, über den per Nachricht gesendeten Link.",
-      es: "A su salida, vuelva a dejar las llaves y el mando en el Coccimarket (tienda de conveniencia), con el enlace enviado por mensaje.",
-      it: "Alla partenza, riconsegnate le chiavi e il badge al Coccimarket (minimarket), tramite il link inviato via messaggio.",
+      en: "On departure, please put the key and the badge back in the key box and close it securely.",
+      de: "Legen Sie den Schlüssel und das Badge bei Ihrer Abreise bitte zurück in den Schlüsselkasten und schließen Sie ihn gut.",
+      es: "A su salida, vuelva a colocar la llave y el mando en la caja y ciérrela bien.",
+      it: "Alla partenza, riponete la chiave e il badge nella cassetta e richiudetela bene.",
     },
-  "Fermer l'appartement à clé, puis redéposer les clés et le badge au Coccimarket (supérette) via le lien envoyé par message":
+  "Fermer l'appartement à clé, puis remettre la clé et le badge dans la boîte à clés":
     {
-      en: "Lock the apartment, then drop the keys and the badge back at the Coccimarket (convenience store) via the link sent by message",
-      de: "Die Wohnung abschließen und dann die Schlüssel und das Badge über den per Nachricht gesendeten Link im Coccimarket (Mini-Markt) abgeben",
-      es: "Cierre el apartamento con llave y luego deje las llaves y el mando en el Coccimarket (tienda de conveniencia) mediante el enlace enviado por mensaje",
-      it: "Chiudete a chiave l'appartamento, poi riconsegnate le chiavi e il badge al Coccimarket (minimarket) tramite il link inviato via messaggio",
+      en: "Lock the apartment, then put the key and the badge back in the key box",
+      de: "Die Wohnung abschließen und dann den Schlüssel und das Badge zurück in den Schlüsselkasten legen",
+      es: "Cierre el apartamento con llave y luego vuelva a colocar la llave y el mando en la caja",
+      it: "Chiudete a chiave l'appartamento, poi riponete la chiave e il badge nella cassetta",
     },
 };

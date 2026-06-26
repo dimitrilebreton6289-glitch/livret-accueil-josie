@@ -22,9 +22,10 @@ const DESC_OVERRIDE: Record<string, string> = {
  * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
  * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
  * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen (à côté de
- * l'armurerie). Accès en autonomie : clés + badge récupérés à la supérette
- * voisine (Coccimarket) via un lien à code unique, puis badge à l'interphone et
- * 5 étages à pied. Guide d'arrivée illustré (8 étapes) dans `arrivee.etapes`.
+ * l'armurerie). Accès en autonomie par boîte à clés sécurisée (clé + badge) ;
+ * emplacement et code communiqués par message (boîte pas encore installée → pas
+ * de code pour le moment). Puis badge à l'interphone et 5 étages à pied. Guide
+ * d'arrivée illustré (8 étapes) dans `arrivee.etapes`.
  *
  * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
  * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
@@ -57,8 +58,7 @@ export const quais: Logement = {
     etapes: [
       {
         texte:
-          "Les clés sont à récupérer à proximité, dans la supérette (Coccimarket). Un lien avec un code à usage unique vous est communiqué par message afin de récupérer la clé et le badge auprès du commerçant.",
-        photo: "/logements/quais/arrivee-1.jpg",
+          "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Son emplacement et son code vous sont communiqués par message avant votre arrivée.",
       },
       {
         texte:
@@ -91,7 +91,7 @@ export const quais: Logement = {
       },
       {
         texte:
-          "À votre départ, merci de redéposer les clés et le badge au Coccimarket (supérette), avec le lien envoyé par message.",
+          "À votre départ, merci de remettre la clé et le badge dans la boîte à clés et de bien la refermer.",
       },
     ],
     parking:
@@ -233,7 +233,7 @@ export const quais: Logement = {
       "Rendre l'appartement propre et rangé",
       "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser la température des radiateurs",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
-      "Fermer l'appartement à clé, puis redéposer les clés et le badge au Coccimarket (supérette) via le lien envoyé par message",
+      "Fermer l'appartement à clé, puis remettre la clé et le badge dans la boîte à clés",
     ],
     departTardif: {
       texte:
