@@ -3015,12 +3015,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "⚠️ El apartamento está en la 5ª y última planta, sin ascensor: téngalo en cuenta para su equipaje.",
       it: "⚠️ L'appartamento è al 5º e ultimo piano, senza ascensore — tenetelo presente per i bagagli.",
     },
-  "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Son emplacement et son code vous sont communiqués par message avant votre arrivée.":
+  "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Composez le code indiqué ci-dessus pour l'ouvrir ; son emplacement exact vous est communiqué par message avant votre arrivée.":
     {
-      en: "Access is self check-in: the key and the access badge are in a secure key box. Its location and code are sent to you by message before your arrival.",
-      de: "Der Zugang erfolgt selbstständig: Der Schlüssel und das Zugangs-Badge befinden sich in einem gesicherten Schlüsselkasten. Sein Standort und Code werden Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
-      es: "El acceso es autónomo: la llave y el mando de acceso se encuentran en una caja de seguridad. Su ubicación y su código se le comunican por mensaje antes de su llegada.",
-      it: "L'accesso è in autonomia: la chiave e il badge di accesso si trovano in una cassetta di sicurezza. La sua posizione e il codice vi vengono comunicati via messaggio prima del vostro arrivo.",
+      en: "Access is self check-in: the key and the access badge are in a secure key box. Enter the code shown above to open it; its exact location is sent to you by message before your arrival.",
+      de: "Der Zugang erfolgt selbstständig: Der Schlüssel und das Zugangs-Badge befinden sich in einem gesicherten Schlüsselkasten. Geben Sie den oben angezeigten Code ein, um ihn zu öffnen; sein genauer Standort wird Ihnen vor Ihrer Ankunft per Nachricht mitgeteilt.",
+      es: "El acceso es autónomo: la llave y el mando de acceso se encuentran en una caja de seguridad. Introduzca el código indicado arriba para abrirla; su ubicación exacta se le comunica por mensaje antes de su llegada.",
+      it: "L'accesso è in autonomia: la chiave e il badge di accesso si trovano in una cassetta di sicurezza. Componete il codice indicato sopra per aprirla; la sua posizione esatta vi viene comunicata via messaggio prima del vostro arrivo.",
     },
   "Une fois les clés en main, rendez-vous devant l'immeuble, à côté de l'armurerie, au 9 place du 36ème Régiment d'Infanterie. Si le portail n'est pas ouvert, passez le badge sur le bouton noir de l'interphone à droite, puis empruntez la porte piétonne qui s'ouvre automatiquement.":
     {

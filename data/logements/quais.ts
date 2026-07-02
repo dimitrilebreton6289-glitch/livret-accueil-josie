@@ -24,17 +24,15 @@ const DESC_OVERRIDE: Record<string, string> = {
  * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
  * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen (à côté de
  * l'armurerie). Accès en autonomie par boîte à clés sécurisée (clé + badge) ;
- * emplacement et code communiqués par message (boîte pas encore installée → pas
- * de code pour le moment). Puis badge à l'interphone et 5 étages à pied. Guide
- * d'arrivée illustré (8 étapes) dans `arrivee.etapes`.
+ * code `4791` (champ `codeBoite`), emplacement exact communiqué par message.
+ * Puis badge à l'interphone et 5 étages à pied. Guide d'arrivée illustré
+ * (8 étapes) dans `arrivee.etapes`.
  *
  * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
  * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
  * depuis les coordonnées de ce logement.
  *
- * ⚠️ RESTE À RENSEIGNER (par la gérante) :
- *   - WiFi (réseau + mot de passe) — pas encore installé (la fibre est prévue)
- *   - animaux : l'annonce ne le précise pas → mis à NON pour l'instant
+ * Note : animaux mis à NON (l'annonce ne les précise pas).
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
  */
@@ -56,10 +54,11 @@ export const quais: Logement = {
       "L'accès se fait en autonomie : suivez le guide pas à pas ci-dessous, de la récupération des clés jusqu'à la porte de l'appartement.",
       "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.",
     ],
+    codeBoite: "4791",
     etapes: [
       {
         texte:
-          "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Son emplacement et son code vous sont communiqués par message avant votre arrivée.",
+          "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Composez le code indiqué ci-dessus pour l'ouvrir ; son emplacement exact vous est communiqué par message avant votre arrivée.",
       },
       {
         texte:
@@ -112,9 +111,8 @@ export const quais: Logement = {
   },
 
   wifi: {
-    // TODO: pas encore installé — renseigner le réseau + mot de passe dès la box.
-    reseau: "WiFi non disponible pour le moment",
-    motDePasse: "—",
+    reseau: "SFR_5498",
+    motDePasse: "82fvwt9auf48qsrz2sss",
   },
 
   pratique: {
