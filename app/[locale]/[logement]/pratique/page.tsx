@@ -94,6 +94,15 @@ export default async function PratiquePage({
                   defaultOpen={i === 0}
                 >
                   <p className="whitespace-pre-line">{pick(sec.contenu, locale)}</p>
+                  {sec.video && (
+                    <div className="mt-3">
+                      <VideoEmbed
+                        url={sec.video}
+                        title={pick(sec.titre, locale)}
+                        portrait={sec.videoPortrait}
+                      />
+                    </div>
+                  )}
                 </Accordion>
               ))}
             </div>

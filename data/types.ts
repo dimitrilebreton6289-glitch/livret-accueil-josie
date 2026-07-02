@@ -115,8 +115,15 @@ export interface Logement {
      * Variante « à savoir » en sous-parties dépliables (accordéon) : chaque
      * entrée a un titre cliquable et son contenu. Si renseignée, elle remplace
      * la liste à puces `aSavoir` sur la page Infos pratiques.
+     * `video` (optionnel) affiche un lecteur sous le texte (mode d'emploi) ;
+     * `videoPortrait` force le cadre vertical pour un MP4 filmé au téléphone.
      */
-    aSavoirSections?: { titre: Tx; contenu: Tx }[];
+    aSavoirSections?: {
+      titre: Tx;
+      contenu: Tx;
+      video?: string;
+      videoPortrait?: boolean;
+    }[];
     /** Électroménager, en étiquettes. */
     electromenager: string[];
     reglementInterieur: ReglementInterieur;

@@ -50,14 +50,6 @@ export const quais: Logement = {
   motAccueil:
     "Bienvenue à Caen ! Vous êtes en plein centre, à deux pas de la rue Saint-Jean et de ses commerces, avec une jolie vue sur les quais. Ici, tout se fait à pied. Très bon séjour ! ⛵",
 
-  // Vidéos mode d'emploi (verticales, filmées au téléphone) — affichées sur la
-  // page Infos pratiques, juste après l'électroménager.
-  videos: [
-    { titre: "📺 Utiliser la télévision", url: "/logements/quais/video-tv.mp4", portrait: true },
-    { titre: "🔥 Utiliser le four", url: "/logements/quais/video-four.mp4", portrait: true },
-    { titre: "🍽️ Utiliser le lave-vaisselle", url: "/logements/quais/video-lave-vaisselle.mp4", portrait: true },
-  ],
-
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
@@ -139,12 +131,12 @@ export const quais: Logement = {
           "Les draps sont fournis et le lit (140 × 190 cm) est fait. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.",
       },
       {
-        titre: "🛗 5ᵉ étage sans ascenseur",
+        titre: "🚶 5ᵉ étage sans ascenseur",
         contenu:
           "L'appartement se situe au 5ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages — mais l'effort est récompensé par le calme, l'absence de vis-à-vis et la vue sur les quais.",
       },
       {
-        titre: "🪟 Stores & occultation",
+        titre: "🌙 Stores & occultation",
         contenu:
           "La chambre est équipée d'un store et d'un rideau occultant pour un sommeil au calme, à l'abri de la lumière du jour. À noter : si vous utilisez le canapé-lit du salon, les fenêtres du séjour ne disposent ni de rideaux ni de volets.",
       },
@@ -152,6 +144,8 @@ export const quais: Logement = {
         titre: "📺 Télévision",
         contenu:
           "Le salon dispose d'une TV connectée. Allumez l'écran avec le bouton Power de la télécommande, puis lancez l'application souhaitée (Netflix et les autres plateformes sont accessibles avec VOS identifiants personnels). Pensez à vous déconnecter de vos comptes avant votre départ.",
+        video: "/logements/quais/video-tv.mp4",
+        videoPortrait: true,
       },
       {
         titre: "🛁 Salle de bain",
@@ -172,6 +166,20 @@ export const quais: Logement = {
         titre: "🍳 Cuisine",
         contenu:
           "La cuisine est entièrement équipée : four, micro-ondes, plaques de cuisson avec hotte, lave-vaisselle, réfrigérateur, machine à café Nespresso (à capsules), bouilloire et grille-pain, ainsi que tout le nécessaire de cuisine.",
+      },
+      {
+        titre: "🍞 Four",
+        contenu:
+          "Suivez la courte vidéo ci-dessous pour allumer le four et régler la température.",
+        video: "/logements/quais/video-four.mp4",
+        videoPortrait: true,
+      },
+      {
+        titre: "🧼 Lave-vaisselle",
+        contenu:
+          "Suivez la courte vidéo ci-dessous pour charger et mettre en route le lave-vaisselle.",
+        video: "/logements/quais/video-lave-vaisselle.mp4",
+        videoPortrait: true,
       },
       {
         titre: "🍽️ Vaisselle",

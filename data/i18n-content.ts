@@ -2873,11 +2873,11 @@ export const CONTENT: Record<string, Tr> = {
       es: "Las sábanas están incluidas y la cama (140 × 190 cm) está hecha. Cada viajero dispone de una toalla; también se ponen a su disposición una alfombrilla de baño y un paño de cocina.",
       it: "Le lenzuola sono fornite e il letto (140 × 190 cm) è rifatto. Ogni ospite dispone di un asciugamano; sono inoltre a disposizione un tappetino da bagno e uno strofinaccio da cucina.",
     },
-  "🛗 5ᵉ étage sans ascenseur": {
-    en: "🛗 5th floor, no lift",
-    de: "🛗 5. Stock ohne Aufzug",
-    es: "🛗 5ª planta sin ascensor",
-    it: "🛗 5º piano senza ascensore",
+  "🚶 5ᵉ étage sans ascenseur": {
+    en: "🚶 5th floor, no lift",
+    de: "🚶 5. Stock ohne Aufzug",
+    es: "🚶 5ª planta sin ascensor",
+    it: "🚶 5º piano senza ascensore",
   },
   "L'appartement se situe au 5ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages — mais l'effort est récompensé par le calme, l'absence de vis-à-vis et la vue sur les quais.":
     {
@@ -2886,11 +2886,11 @@ export const CONTENT: Record<string, Tr> = {
       es: "El apartamento está en la 5ª planta y el edificio no tiene ascensor. Téngalo en cuenta para su equipaje, pero el esfuerzo se ve recompensado con tranquilidad, sin vistas de enfrente y vistas a los muelles.",
       it: "L'appartamento si trova al 5º piano e l'edificio non ha ascensore. Tenetelo presente per i bagagli — ma lo sforzo è ricompensato dalla tranquillità, dall'assenza di dirimpettai e dalla vista sui moli.",
     },
-  "🪟 Stores & occultation": {
-    en: "🪟 Blinds & blackout",
-    de: "🪟 Rollos & Verdunklung",
-    es: "🪟 Estores y oscurecimiento",
-    it: "🪟 Tende e oscuramento",
+  "🌙 Stores & occultation": {
+    en: "🌙 Blinds & blackout",
+    de: "🌙 Rollos & Verdunklung",
+    es: "🌙 Estores y oscurecimiento",
+    it: "🌙 Tende e oscuramento",
   },
   "La chambre est équipée d'un store et d'un rideau occultant pour un sommeil au calme, à l'abri de la lumière du jour. À noter : si vous utilisez le canapé-lit du salon, les fenêtres du séjour ne disposent ni de rideaux ni de volets.":
     {
@@ -3074,22 +3074,28 @@ export const CONTENT: Record<string, Tr> = {
       es: "Cierre el apartamento con llave y luego vuelva a colocar la llave y el mando en la caja",
       it: "Chiudete a chiave l'appartamento, poi riponete la chiave e il badge nella cassetta",
     },
-  "📺 Utiliser la télévision": {
-    en: "📺 Using the television",
-    de: "📺 Den Fernseher bedienen",
-    es: "📺 Usar la televisión",
-    it: "📺 Usare la televisione",
+  "🍞 Four": {
+    en: "🍞 Oven",
+    de: "🍞 Backofen",
+    es: "🍞 Horno",
+    it: "🍞 Forno",
   },
-  "🔥 Utiliser le four": {
-    en: "🔥 Using the oven",
-    de: "🔥 Den Backofen bedienen",
-    es: "🔥 Usar el horno",
-    it: "🔥 Usare il forno",
+  "🧼 Lave-vaisselle": {
+    en: "🧼 Dishwasher",
+    de: "🧼 Geschirrspüler",
+    es: "🧼 Lavavajillas",
+    it: "🧼 Lavastoviglie",
   },
-  "🍽️ Utiliser le lave-vaisselle": {
-    en: "🍽️ Using the dishwasher",
-    de: "🍽️ Den Geschirrspüler bedienen",
-    es: "🍽️ Usar el lavavajillas",
-    it: "🍽️ Usare la lavastoviglie",
+  "Suivez la courte vidéo ci-dessous pour allumer le four et régler la température.": {
+    en: "Watch the short video below to turn on the oven and set the temperature.",
+    de: "Sehen Sie sich das kurze Video unten an, um den Backofen einzuschalten und die Temperatur einzustellen.",
+    es: "Vea el breve vídeo de abajo para encender el horno y ajustar la temperatura.",
+    it: "Guardate il breve video qui sotto per accendere il forno e regolare la temperatura.",
+  },
+  "Suivez la courte vidéo ci-dessous pour charger et mettre en route le lave-vaisselle.": {
+    en: "Watch the short video below to load and start the dishwasher.",
+    de: "Sehen Sie sich das kurze Video unten an, um den Geschirrspüler zu beladen und zu starten.",
+    es: "Vea el breve vídeo de abajo para cargar y poner en marcha el lavavajillas.",
+    it: "Guardate il breve video qui sotto per caricare e avviare la lavastoviglie.",
   },
 };
