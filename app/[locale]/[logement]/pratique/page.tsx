@@ -112,7 +112,7 @@ export default async function PratiquePage({
         {/* Vidéos (mode d'emploi : télévision, etc.) — juste après l'électroménager */}
         {logement.videos?.map((v, i) => (
           <InfoCard key={i} icon={PlayCircle} title={pick(v.titre, locale)}>
-            <VideoEmbed url={v.url} title={pick(v.titre, locale)} />
+            <VideoEmbed url={v.url} title={pick(v.titre, locale)} portrait={v.portrait} />
           </InfoCard>
         ))}
 

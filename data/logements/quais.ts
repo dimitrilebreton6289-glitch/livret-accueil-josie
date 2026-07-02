@@ -50,6 +50,14 @@ export const quais: Logement = {
   motAccueil:
     "Bienvenue à Caen ! Vous êtes en plein centre, à deux pas de la rue Saint-Jean et de ses commerces, avec une jolie vue sur les quais. Ici, tout se fait à pied. Très bon séjour ! ⛵",
 
+  // Vidéos mode d'emploi (verticales, filmées au téléphone) — affichées sur la
+  // page Infos pratiques, juste après l'électroménager.
+  videos: [
+    { titre: "📺 Utiliser la télévision", url: "/logements/quais/video-tv.mp4", portrait: true },
+    { titre: "🔥 Utiliser le four", url: "/logements/quais/video-four.mp4", portrait: true },
+    { titre: "🍽️ Utiliser le lave-vaisselle", url: "/logements/quais/video-lave-vaisselle.mp4", portrait: true },
+  ],
+
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [

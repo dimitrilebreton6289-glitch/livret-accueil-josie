@@ -3074,4 +3074,22 @@ export const CONTENT: Record<string, Tr> = {
       es: "Cierre el apartamento con llave y luego vuelva a colocar la llave y el mando en la caja",
       it: "Chiudete a chiave l'appartamento, poi riponete la chiave e il badge nella cassetta",
     },
+  "📺 Utiliser la télévision": {
+    en: "📺 Using the television",
+    de: "📺 Den Fernseher bedienen",
+    es: "📺 Usar la televisión",
+    it: "📺 Usare la televisione",
+  },
+  "🔥 Utiliser le four": {
+    en: "🔥 Using the oven",
+    de: "🔥 Den Backofen bedienen",
+    es: "🔥 Usar el horno",
+    it: "🔥 Usare il forno",
+  },
+  "🍽️ Utiliser le lave-vaisselle": {
+    en: "🍽️ Using the dishwasher",
+    de: "🍽️ Den Geschirrspüler bedienen",
+    es: "🍽️ Usar el lavavajillas",
+    it: "🍽️ Usare la lavastoviglie",
+  },
 };

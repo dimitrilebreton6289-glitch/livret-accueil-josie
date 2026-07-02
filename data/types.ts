@@ -85,8 +85,10 @@ export interface Logement {
 
   motAccueil: Tx;
 
-  /** Vidéos (visite, mode d'emploi…). URL YouTube, Vimeo ou fichier /public. */
-  videos?: { titre: Tx; url: string }[];
+  /** Vidéos (visite, mode d'emploi…). URL YouTube, Vimeo ou fichier /public.
+   *  `portrait: true` force un cadre vertical (utile pour un MP4 filmé au
+   *  téléphone ; les YouTube Shorts sont déjà détectés automatiquement). */
+  videos?: { titre: Tx; url: string; portrait?: boolean }[];
 
   arrivee: {
     horaire: Tx;

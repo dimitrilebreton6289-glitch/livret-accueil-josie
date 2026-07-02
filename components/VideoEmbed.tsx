@@ -17,14 +17,16 @@ function vimeoId(url: string): string | null {
 export default function VideoEmbed({
   url,
   title,
+  portrait: portraitProp,
 }: {
   url: string;
   title?: string;
+  portrait?: boolean;
 }) {
   const yt = youtubeId(url);
   const vm = vimeoId(url);
-  // Vidéo verticale (YouTube Short) → cadre portrait centré.
-  const portrait = /\/shorts\//.test(url);
+  // Vidéo verticale (YouTube Short, ou fichier marqué portrait) → cadre portrait centré.
+  const portrait = portraitProp ?? /\/shorts\//.test(url);
 
   let content: React.ReactNode;
   if (yt) {
