@@ -100,6 +100,8 @@ export interface Logement {
     etapes?: { texte: string; photo?: string }[];
     /** Vidéo d'accès au logement (URL YouTube/Vimeo/MP4), affichée dans le check-in. */
     video?: string;
+    /** Force le cadre vertical pour `video` (MP4 filmé au téléphone). */
+    videoPortrait?: boolean;
     parking: Tx;
     bagages: Tx;
     /** Contenu de chaque espace, en listes courtes. */

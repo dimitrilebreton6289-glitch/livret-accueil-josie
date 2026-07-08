@@ -3098,4 +3098,48 @@ export const CONTENT: Record<string, Tr> = {
     es: "Vea el breve vídeo de abajo para cargar y poner en marcha el lavavajillas.",
     it: "Guardate il breve video qui sotto per caricare e avviare la lavastoviglie.",
   },
+  "L'immeuble se trouve au 9 place du 36ème Régiment d'Infanterie, juste à côté de l'armurerie.":
+    {
+      en: "The building is at 9 place du 36ème Régiment d'Infanterie, right next to the gun shop.",
+      de: "Das Gebäude befindet sich in der Place du 36ème Régiment d'Infanterie 9, direkt neben dem Waffengeschäft.",
+      es: "El edificio está en 9 place du 36ème Régiment d'Infanterie, justo al lado de la armería.",
+      it: "L'edificio si trova al 9 place du 36ème Régiment d'Infanterie, proprio accanto all'armeria.",
+    },
+  "La boîte à clés est tout en bas de la colonne d'interphones : ouvrez-la avec le code indiqué ci-dessus, puis prenez la clé et le badge.":
+    {
+      en: "The key box is at the very bottom of the intercom panel: open it with the code shown above, then take the key and the badge.",
+      de: "Der Schlüsselkasten befindet sich ganz unten an der Klingelleiste: Öffnen Sie ihn mit dem oben angezeigten Code und nehmen Sie dann den Schlüssel und das Badge.",
+      es: "La caja de llaves está en la parte más baja de la columna de porteros: ábrala con el código indicado arriba y coja la llave y el mando.",
+      it: "La cassetta delle chiavi è in fondo alla colonna dei citofoni: apritela con il codice indicato sopra, poi prendete la chiave e il badge.",
+    },
+  "Badgez sur l'interphone : la première porte (le portail) s'ouvre.": {
+    en: "Tap the badge on the intercom: the first door (the gate) opens.",
+    de: "Halten Sie das Badge an die Gegensprechanlage: Die erste Tür (das Tor) öffnet sich.",
+    es: "Pase el mando por el portero automático: se abre la primera puerta (la verja).",
+    it: "Passate il badge sul citofono: la prima porta (il cancello) si apre.",
+  },
+  "Traversez la cour jusqu'à la porte grise, puis badgez à nouveau pour l'ouvrir.": {
+    en: "Cross the courtyard to the grey door, then tap the badge again to open it.",
+    de: "Überqueren Sie den Innenhof bis zur grauen Tür und halten Sie das Badge erneut daran, um sie zu öffnen.",
+    es: "Cruce el patio hasta la puerta gris y vuelva a pasar el mando para abrirla.",
+    it: "Attraversate il cortile fino alla porta grigia, poi passate di nuovo il badge per aprirla.",
+  },
+  "Montez jusqu'au 5ᵉ et dernier étage (sans ascenseur).": {
+    en: "Go up to the 5th and top floor (no lift).",
+    de: "Gehen Sie hinauf in den 5. und obersten Stock (ohne Aufzug).",
+    es: "Suba hasta la 5ª y última planta (sin ascensor).",
+    it: "Salite fino al 5º e ultimo piano (senza ascensore).",
+  },
+  "Au 5ᵉ étage, c'est la porte à droite (celle avec le paillasson).": {
+    en: "On the 5th floor, it's the door on the right (the one with the doormat).",
+    de: "Im 5. Stock ist es die Tür rechts (die mit der Fußmatte).",
+    es: "En la 5ª planta, es la puerta de la derecha (la del felpudo).",
+    it: "Al 5º piano è la porta a destra (quella con lo zerbino).",
+  },
+  "Ouvrez avec la clé. Bienvenue !": {
+    en: "Open it with the key. Welcome!",
+    de: "Öffnen Sie sie mit dem Schlüssel. Willkommen!",
+    es: "Ábrala con la llave. ¡Bienvenido!",
+    it: "Apritela con la chiave. Benvenuti!",
+  },
 };

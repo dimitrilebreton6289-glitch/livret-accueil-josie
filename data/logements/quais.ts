@@ -55,45 +55,37 @@ export const quais: Logement = {
       "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.",
     ],
     codeBoite: "4791",
+    // Étapes en texte, reprises de la vidéo guide d'arrivée (ci-dessous).
     etapes: [
       {
         texte:
-          "L'accès se fait en autonomie : la clé et le badge d'accès se trouvent dans une boîte à clés sécurisée. Composez le code indiqué ci-dessus pour l'ouvrir ; son emplacement exact vous est communiqué par message avant votre arrivée.",
+          "L'immeuble se trouve au 9 place du 36ème Régiment d'Infanterie, juste à côté de l'armurerie.",
       },
       {
         texte:
-          "Une fois les clés en main, rendez-vous devant l'immeuble, à côté de l'armurerie, au 9 place du 36ème Régiment d'Infanterie. Si le portail n'est pas ouvert, passez le badge sur le bouton noir de l'interphone à droite, puis empruntez la porte piétonne qui s'ouvre automatiquement.",
-        photo: "/logements/quais/arrivee-2.jpg",
+          "La boîte à clés est tout en bas de la colonne d'interphones : ouvrez-la avec le code indiqué ci-dessus, puis prenez la clé et le badge.",
       },
       {
         texte:
-          "Entrez par ici et dirigez-vous vers la droite, après les boîtes aux lettres.",
-        photo: "/logements/quais/arrivee-3.jpg",
-      },
-      {
-        texte: "Dirigez-vous ensuite vers la porte noire.",
-        photo: "/logements/quais/arrivee-4.jpg",
+          "Badgez sur l'interphone : la première porte (le portail) s'ouvre.",
       },
       {
         texte:
-          "Passez le badge devant le bouton noir de l'interphone : une fois le voyant vert, poussez la porte pour l'ouvrir.",
-        photo: "/logements/quais/arrivee-5.jpg",
+          "Traversez la cour jusqu'à la porte grise, puis badgez à nouveau pour l'ouvrir.",
+      },
+      {
+        texte: "Montez jusqu'au 5ᵉ et dernier étage (sans ascenseur).",
       },
       {
         texte:
-          "Une fois dans les parties communes, montez les 5 étages : c'est tout en haut !",
-        photo: "/logements/quais/arrivee-6.jpg",
+          "Au 5ᵉ étage, c'est la porte à droite (celle avec le paillasson).",
       },
       {
-        texte:
-          "Arrivé en haut, dirigez-vous vers la porte de droite et ouvrez-la avec la clé. Bienvenue !",
-        photo: "/logements/quais/arrivee-7.jpg",
-      },
-      {
-        texte:
-          "À votre départ, merci de remettre la clé et le badge dans la boîte à clés et de bien la refermer.",
+        texte: "Ouvrez avec la clé. Bienvenue !",
       },
     ],
+    video: "/logements/quais/arrivee-guide.mp4",
+    videoPortrait: true,
     parking:
       "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans la rue (payant en journée, de 9h à 12h30 et de 14h à 19h). Pensez à l'appli de stationnement de la ville pour payer à distance.",
     bagages:

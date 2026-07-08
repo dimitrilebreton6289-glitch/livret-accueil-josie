@@ -101,7 +101,11 @@ export default async function ArriveePage({
           {/* Vidéo d'accès au logement */}
           {arrivee.video && (
             <div className="mt-4">
-              <VideoEmbed url={arrivee.video} title={t("checkin")} />
+              <VideoEmbed
+                url={arrivee.video}
+                title={t("checkin")}
+                portrait={arrivee.videoPortrait}
+              />
             </div>
           )}
         </InfoCard>
