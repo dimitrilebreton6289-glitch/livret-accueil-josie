@@ -3105,12 +3105,12 @@ export const CONTENT: Record<string, Tr> = {
       es: "El edificio está en 9 place du 36ème Régiment d'Infanterie, justo al lado de la armería.",
       it: "L'edificio si trova al 9 place du 36ème Régiment d'Infanterie, proprio accanto all'armeria.",
     },
-  "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message (il peut changer), puis prenez la clé et le badge.":
+  "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message, puis prenez la clé et le badge.":
     {
-      en: "The key box is just below the intercom, at the very bottom of the other key boxes. Open it with the code we send you by message (it can change), then take the key and the badge.",
-      de: "Der Schlüsselkasten befindet sich direkt unter der Gegensprechanlage, ganz unten bei den anderen Schlüsselkästen. Öffnen Sie ihn mit dem Code, den wir Ihnen per Nachricht senden (er kann sich ändern), und nehmen Sie dann den Schlüssel und das Badge.",
-      es: "La caja de llaves está justo debajo del portero automático, en la parte más baja de las demás cajas de llaves. Ábrala con el código que le enviamos por mensaje (puede cambiar) y coja la llave y el mando.",
-      it: "La cassetta delle chiavi si trova proprio sotto il citofono, in fondo alle altre cassette. Apritela con il codice che vi inviamo via messaggio (può cambiare), poi prendete la chiave e il badge.",
+      en: "The key box is just below the intercom, at the very bottom of the other key boxes. Open it with the code we send you by message, then take the key and the badge.",
+      de: "Der Schlüsselkasten befindet sich direkt unter der Gegensprechanlage, ganz unten bei den anderen Schlüsselkästen. Öffnen Sie ihn mit dem Code, den wir Ihnen per Nachricht senden, und nehmen Sie dann den Schlüssel und das Badge.",
+      es: "La caja de llaves está justo debajo del portero automático, en la parte más baja de las demás cajas de llaves. Ábrala con el código que le enviamos por mensaje y coja la llave y el mando.",
+      it: "La cassetta delle chiavi si trova proprio sotto il citofono, in fondo alle altre cassette. Apritela con il codice che vi inviamo via messaggio, poi prendete la chiave e il badge.",
     },
   "Badgez sur l'interphone : la porte piétonne s'ouvre (et non le portail).": {
     en: "Tap the badge on the intercom: the pedestrian door opens (not the gate).",

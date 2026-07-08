@@ -60,7 +60,7 @@ export const quais: Logement = {
       },
       {
         texte:
-          "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message (il peut changer), puis prenez la clé et le badge.",
+          "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message, puis prenez la clé et le badge.",
       },
       {
         texte:
