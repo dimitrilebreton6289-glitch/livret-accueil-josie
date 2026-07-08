@@ -50,10 +50,7 @@ export const quais: Logement = {
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
-    checkinExpress: [
-      "L'accès se fait en autonomie : suivez le guide pas à pas ci-dessous, de la récupération des clés jusqu'à la porte de l'appartement.",
-      "⚠️ L'appartement est au 5ᵉ et dernier étage, sans ascenseur — pensez-y pour vos bagages.",
-    ],
+    checkinExpress: [],
     codeBoite: "4791",
     // Étapes en texte, reprises de la vidéo guide d'arrivée (ci-dessous).
     etapes: [
