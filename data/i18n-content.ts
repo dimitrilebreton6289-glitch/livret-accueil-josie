@@ -3105,18 +3105,18 @@ export const CONTENT: Record<string, Tr> = {
       es: "El edificio está en 9 place du 36ème Régiment d'Infanterie, justo al lado de la armería.",
       it: "L'edificio si trova al 9 place du 36ème Régiment d'Infanterie, proprio accanto all'armeria.",
     },
-  "La boîte à clés est tout en bas de la colonne d'interphones : ouvrez-la avec le code indiqué ci-dessus, puis prenez la clé et le badge.":
+  "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message (il peut changer), puis prenez la clé et le badge.":
     {
-      en: "The key box is at the very bottom of the intercom panel: open it with the code shown above, then take the key and the badge.",
-      de: "Der Schlüsselkasten befindet sich ganz unten an der Klingelleiste: Öffnen Sie ihn mit dem oben angezeigten Code und nehmen Sie dann den Schlüssel und das Badge.",
-      es: "La caja de llaves está en la parte más baja de la columna de porteros: ábrala con el código indicado arriba y coja la llave y el mando.",
-      it: "La cassetta delle chiavi è in fondo alla colonna dei citofoni: apritela con il codice indicato sopra, poi prendete la chiave e il badge.",
+      en: "The key box is just below the intercom, at the very bottom of the other key boxes. Open it with the code we send you by message (it can change), then take the key and the badge.",
+      de: "Der Schlüsselkasten befindet sich direkt unter der Gegensprechanlage, ganz unten bei den anderen Schlüsselkästen. Öffnen Sie ihn mit dem Code, den wir Ihnen per Nachricht senden (er kann sich ändern), und nehmen Sie dann den Schlüssel und das Badge.",
+      es: "La caja de llaves está justo debajo del portero automático, en la parte más baja de las demás cajas de llaves. Ábrala con el código que le enviamos por mensaje (puede cambiar) y coja la llave y el mando.",
+      it: "La cassetta delle chiavi si trova proprio sotto il citofono, in fondo alle altre cassette. Apritela con il codice che vi inviamo via messaggio (può cambiare), poi prendete la chiave e il badge.",
     },
-  "Badgez sur l'interphone : la première porte (le portail) s'ouvre.": {
-    en: "Tap the badge on the intercom: the first door (the gate) opens.",
-    de: "Halten Sie das Badge an die Gegensprechanlage: Die erste Tür (das Tor) öffnet sich.",
-    es: "Pase el mando por el portero automático: se abre la primera puerta (la verja).",
-    it: "Passate il badge sul citofono: la prima porta (il cancello) si apre.",
+  "Badgez sur l'interphone : la porte piétonne s'ouvre (et non le portail).": {
+    en: "Tap the badge on the intercom: the pedestrian door opens (not the gate).",
+    de: "Halten Sie das Badge an die Gegensprechanlage: Die Fußgängertür öffnet sich (nicht das Tor).",
+    es: "Pase el mando por el portero automático: se abre la puerta peatonal (no la verja).",
+    it: "Passate il badge sul citofono: si apre la porta pedonale (non il cancello).",
   },
   "Traversez la cour jusqu'à la porte grise, puis badgez à nouveau pour l'ouvrir.": {
     en: "Cross the courtyard to the grey door, then tap the badge again to open it.",

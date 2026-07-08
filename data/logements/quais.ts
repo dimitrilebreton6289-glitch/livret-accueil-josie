@@ -23,10 +23,11 @@ const DESC_OVERRIDE: Record<string, string> = {
  * TV connectée et canapé-lit d'appoint, une cuisine équipée et une salle de bain
  * moderne avec lave-linge. Capacité 3 personnes. 5ᵉ étage SANS ascenseur.
  * Adresse : 9 place du 36ème Régiment d'Infanterie, 14000 Caen (à côté de
- * l'armurerie). Accès en autonomie par boîte à clés sécurisée (clé + badge) ;
- * code `4791` (champ `codeBoite`), emplacement exact communiqué par message.
- * Puis badge à l'interphone et 5 étages à pied. Guide d'arrivée illustré
- * (8 étapes) dans `arrivee.etapes`.
+ * l'armurerie). Accès en autonomie par boîte à clés (clé + badge) située sous
+ * l'interphone, en bas des autres boîtes ; le code est communiqué par message
+ * (il peut changer → PAS affiché dans le livret, pas de `codeBoite`). Puis badge
+ * à l'interphone (ouvre la porte piétonne) et 5 étages à pied. Guide d'arrivée =
+ * 7 étapes texte (`arrivee.etapes`) + vidéo (`arrivee.video`).
  *
  * « Autour de moi » réutilise les adresses de Saint-Jean (même quartier, sud de
  * la rue Saint-Jean / port) : les distances sont recalculées automatiquement
@@ -51,7 +52,6 @@ export const quais: Logement = {
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [],
-    codeBoite: "4791",
     // Étapes en texte, reprises de la vidéo guide d'arrivée (ci-dessous).
     etapes: [
       {
@@ -60,11 +60,11 @@ export const quais: Logement = {
       },
       {
         texte:
-          "La boîte à clés est tout en bas de la colonne d'interphones : ouvrez-la avec le code indiqué ci-dessus, puis prenez la clé et le badge.",
+          "La boîte à clés se trouve juste sous l'interphone, tout en bas des autres boîtes à clés. Ouvrez-la avec le code que nous vous communiquons par message (il peut changer), puis prenez la clé et le badge.",
       },
       {
         texte:
-          "Badgez sur l'interphone : la première porte (le portail) s'ouvre.",
+          "Badgez sur l'interphone : la porte piétonne s'ouvre (et non le portail).",
       },
       {
         texte:
