@@ -95,11 +95,49 @@ export const saintjean: Logement = {
     horaire: "Arrivée autonome jusqu'à 22h",
     codeBoite: "1991",
     checkinExpress: [
-      "L'accès à l'appartement se fait en autonomie ; vous pouvez arriver jusqu'à 22h.",
-      "Les clés se trouvent dans la boîte à clés. Composez le code indiqué ci-dessus pour l'ouvrir.",
-      "L'appartement est au 3ᵉ étage à droite — porte de droite.",
-      "Pensez à bien remettre les clés dans la boîte à clés à votre départ et à refermer celle-ci.",
       "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.",
+    ],
+    // Guide d'arrivée illustré, pas à pas (photos arrivee-1 à arrivee-7).
+    etapes: [
+      {
+        texte:
+          "Présentez-vous au 144 rue Saint-Jean, devant cette porte.",
+        photo: "/logements/saintjean/arrivee-1.jpg",
+      },
+      {
+        texte:
+          "Le badge d'accès à l'immeuble se trouve dans la petite trappe métallique, à droite de la porte (sous la fenêtre). Ouvrez cette trappe.",
+        photo: "/logements/saintjean/arrivee-2.jpg",
+      },
+      {
+        texte:
+          "Le badge est caché à l'intérieur, derrière le boîtier du compteur — c'est le premier. Récupérez-le.",
+        photo: "/logements/saintjean/arrivee-3.jpg",
+      },
+      {
+        texte:
+          "Badgez sur l'interphone pour ouvrir la porte de l'immeuble.",
+        photo: "/logements/saintjean/arrivee-4.jpg",
+      },
+      {
+        texte:
+          "Empruntez les escaliers et montez jusqu'au 3ᵉ étage.",
+        photo: "/logements/saintjean/arrivee-5.jpg",
+      },
+      {
+        texte:
+          "Au 3ᵉ étage, allez à droite : c'est la porte rouge, numéro 6.",
+        photo: "/logements/saintjean/arrivee-6.jpg",
+      },
+      {
+        texte:
+          "Récupérez la clé de l'appartement dans la boîte à code (code indiqué ci-dessus).",
+        photo: "/logements/saintjean/arrivee-7.jpg",
+      },
+      {
+        texte:
+          "Ouvrez la porte avec la clé : faites un à deux tours, puis un quart de tour pour déverrouiller. ⚠️ Ne laissez jamais les clés à l'intérieur : la porte se verrouille automatiquement dès qu'elle se referme (elle claque).",
+      },
     ],
     parking:
       "Le logement se situe en plein centre-ville : il n'y a pas de place de parking privée.\nStationnement payant en voirie dans le secteur (horodateurs) et plusieurs parkings publics à proximité (Parking de la République, Parking du Théâtre, Parking de la gare). Pensez à l'appli de stationnement de la ville pour payer à distance.", // TODO: confirmer parkings recommandés
