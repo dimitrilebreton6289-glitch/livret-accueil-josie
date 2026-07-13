@@ -121,9 +121,8 @@ export const saintjean: Logement = {
   },
 
   wifi: {
-    // TODO: pas de WiFi pour le moment — à renseigner dès l'installation de la box.
-    reseau: "WiFi non disponible pour le moment",
-    motDePasse: "—",
+    reseau: "Livebox-6D10",
+    motDePasse: "ysoSis6aur7bzqHSrg",
   },
 
   pratique: {
