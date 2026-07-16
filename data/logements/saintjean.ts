@@ -111,7 +111,7 @@ export const saintjean: Logement = {
       },
       {
         texte:
-          "Le badge est caché à l'intérieur, derrière le boîtier du compteur — c'est le premier. Récupérez-le.",
+          "Le badge est caché à l'intérieur, derrière le boîtier du compteur. Récupérez-le.",
         photo: "/logements/saintjean/arrivee-3.jpg",
       },
       {
