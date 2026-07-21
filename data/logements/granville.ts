@@ -47,7 +47,7 @@ export const granville: Logement = {
     etapes: [
       {
         texte:
-          "Dirigez-vous vers le poteau rouge à gauche du portail : la boîte à clé s'y trouve. Composez le code, récupérez les clés, puis refermez la boîte et brouillez le code.",
+          "Dirigez-vous vers le poteau rouge à gauche du portail : la boîte à clé s'y trouve. Composez le code, appuyez simultanément sur les boutons latéraux afin d'ouvrir la boîte, récupérez les clés, puis refermez la boîte et brouillez le code.",
         photo: "/logements/granville/arrivee-1.jpg",
       },
       {
