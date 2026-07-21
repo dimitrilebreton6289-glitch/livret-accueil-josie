@@ -99,6 +99,20 @@ export const granville: Logement = {
       "Lit parapluie à disposition",
       "Lave-linge, fer à repasser et étendoir",
     ],
+    aSavoirSections: [
+      {
+        titre: "🛏️ Le nécessaire",
+        contenu:
+          "• Draps fournis et lits faits\n• Une serviette de toilette par personne\n• Lit parapluie à disposition\n• Lave-linge, fer à repasser et étendoir",
+      },
+      {
+        titre: "☂️ Utilisation du parasol",
+        contenu:
+          "Le parasol déporté du jardin s'ouvre et se ferme en quelques gestes. Voici la marche à suivre en vidéo :",
+        video: "/logements/granville/parasol.mp4",
+        videoPortrait: true,
+      },
+    ],
     electromenager: [
       "Four",
       "Micro-ondes",
