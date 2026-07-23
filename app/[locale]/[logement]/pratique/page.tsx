@@ -103,6 +103,19 @@ export default async function PratiquePage({
                       />
                     </div>
                   )}
+                  {sec.photos && sec.photos.length > 0 && (
+                    <div className="mt-3 space-y-3">
+                      {sec.photos.map((p, j) => (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          key={j}
+                          src={p}
+                          alt=""
+                          className="w-full rounded-tile object-cover shadow-[0_2px_12px_rgba(58,46,41,0.08)]"
+                        />
+                      ))}
+                    </div>
+                  )}
                 </Accordion>
               ))}
             </div>

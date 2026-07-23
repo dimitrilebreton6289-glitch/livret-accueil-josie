@@ -119,12 +119,15 @@ export interface Logement {
      * la liste à puces `aSavoir` sur la page Infos pratiques.
      * `video` (optionnel) affiche un lecteur sous le texte (mode d'emploi) ;
      * `videoPortrait` force le cadre vertical pour un MP4 filmé au téléphone.
+     * `photos` (optionnel) affiche une série d'images sous le texte (ex. mode
+     * d'emploi illustré pas à pas), chemins dans /public.
      */
     aSavoirSections?: {
       titre: Tx;
       contenu: Tx;
       video?: string;
       videoPortrait?: boolean;
+      photos?: string[];
     }[];
     /** Électroménager, en étiquettes. */
     electromenager: string[];
