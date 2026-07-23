@@ -179,7 +179,7 @@ export const saintjean: Logement = {
       {
         titre: "📺 Télévision",
         contenu:
-          "Allumez l'écran avec le bouton Power de la télécommande, puis patientez quelques secondes que le menu d'accueil apparaisse. Sélectionnez ensuite l'application TV ou la chaîne souhaitée à l'aide des flèches de navigation, et validez avec OK.",
+          "Deux télécommandes sont nécessaires : la télécommande Sony (marquée « TV », avec pavé de chiffres) pour l'écran, et la télécommande Orange (noire et fine) pour le décodeur.\n\n1. Allumez la télévision avec la télécommande Sony — bouton de mise en marche en haut à droite.\n2. Allumez le décodeur Orange avec sa télécommande — bouton de mise en marche en haut.\n3. Avec la télécommande Sony, appuyez sur le bouton Source/Entrée (en haut à gauche) et sélectionnez « HDMI3 ».\n4. Les chaînes s'affichent : utilisez ensuite la télécommande Orange pour changer de chaîne, régler le volume et naviguer.\n\nSi l'écran reste noir, vérifiez que le décodeur est allumé (petit voyant rouge sous la TV) et que la source est bien sur HDMI3.",
       },
       {
         titre: "🛁 Salle de bain",
