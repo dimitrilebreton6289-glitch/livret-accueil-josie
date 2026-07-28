@@ -44,7 +44,7 @@ export const monnaie: Logement = {
       url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
-      "Rue piétonne : pas de stationnement devant la maison.\nStationnement possible Place Pierre Bouchard, Rue de Gémare et Rue des Teinturiers, à quelques minutes à pied.\nPlusieurs parkings publics dans le centre (Château, Les Rives de l'Orne).",
+      "Rue piétonne : pas de stationnement devant la maison.\nStationnement possible Place Pierre Bouchard, Rue de Gémare et Rue des Teinturiers, à quelques minutes à pied.\nPlusieurs parkings souterrains dans le centre (Château, Les Rives de l'Orne, Paul Doumer et République).",
     bagages:
       "Dépôt de bagages possible avant l'arrivée ou après le départ, sur demande.",
     decouverte: {
@@ -60,9 +60,9 @@ export const monnaie: Logement = {
         "Salle de douche avec lavabo",
       ],
       etage2: [
-        "Accès par une échelle de meunier",
-        "Chambre avec lit double, douche et lavabo",
+        "Chambre avec lit double et lavabo",
         "Chambre avec lit simple",
+        "Douche sous les toits, accès par une échelle de meunier",
         "WC",
       ],
       exterieur: [
@@ -81,7 +81,7 @@ export const monnaie: Logement = {
     aSavoir: [
       "Draps fournis et lits faits",
       "Une serviette de toilette par personne",
-      "L'accès à la chambre double (2e étage) se fait par une échelle de meunier",
+      "La douche du 2e étage, sous les toits, est accessible par une échelle de meunier",
       "Chauffage : merci de le baisser ou de l'éteindre à votre départ",
     ],
     electromenager: [
@@ -107,7 +107,7 @@ export const monnaie: Logement = {
         "Capacité maximale : 4 voyageurs. Logement non-fumeur : merci de sortir sur la terrasse pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel et cette rue piétonne.",
     },
     poubelles:
-      "Les poubelles sont à déposer dans la rue, tous les soirs. Merci de sortir le sac au départ.",
+      "Les poubelles sont à déposer dans la rue, tous les soirs.",
     animaux:
       "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.",
   },
