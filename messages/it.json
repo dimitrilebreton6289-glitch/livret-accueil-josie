@@ -52,7 +52,11 @@
     "rdc": "Piano terra",
     "logement": "L'appartamento",
     "etage": "Piano superiore",
+    "etage1": "Primo piano",
+    "etage2": "Secondo piano",
     "exterieur": "Esterno",
+    "arriveeAnticipee": "Check-in anticipato",
+    "arriveeAnticipeeCta": "Prenotare un check-in anticipato",
     "inventaire": "Inventario / dotazioni",
     "video": "Visita in video"
   },

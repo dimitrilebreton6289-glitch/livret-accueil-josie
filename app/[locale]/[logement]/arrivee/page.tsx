@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Clock, KeyRound, Car, Luggage, Sofa, BedDouble, Trees } from "lucide-react";
+import { Clock, KeyRound, Car, Luggage, Sofa, BedDouble, Trees, Hourglass, ExternalLink } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick, pickList } from "@/lib/content";
 import Header from "@/components/Header";
@@ -110,6 +110,22 @@ export default async function ArriveePage({
           )}
         </InfoCard>
 
+        {/* Arrivée anticipée : explication + lien de paiement */}
+        {arrivee.arriveeAnticipee && (
+          <InfoCard icon={Hourglass} title={t("arriveeAnticipee")}>
+            <p className="mb-3">{pick(arrivee.arriveeAnticipee.texte, locale)}</p>
+            <a
+              href={arrivee.arriveeAnticipee.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex min-h-12 items-center justify-between gap-3 rounded-tile bg-terracotta px-4 font-bold text-white shadow-[0_4px_14px_rgba(215,92,69,0.3)] transition-soft active:scale-[0.98]"
+            >
+              <span>{t("arriveeAnticipeeCta")}</span>
+              <ExternalLink size={18} className="shrink-0" />
+            </a>
+          </InfoCard>
+        )}
+
         {/* Stationnement (en liste) */}
         <InfoCard icon={Car} title={t("parking")}>
           <Bullets
@@ -137,8 +153,20 @@ export default async function ArriveePage({
               </InfoCard>
             )}
             {arrivee.decouverte.etage.length > 0 && (
-              <InfoCard icon={BedDouble} title={t("etage")}>
+              <InfoCard
+                icon={BedDouble}
+                title={
+                  arrivee.decouverte.etage2 && arrivee.decouverte.etage2.length > 0
+                    ? t("etage1")
+                    : t("etage")
+                }
+              >
                 <Bullets items={pickList(arrivee.decouverte.etage, locale)} />
+              </InfoCard>
+            )}
+            {arrivee.decouverte.etage2 && arrivee.decouverte.etage2.length > 0 && (
+              <InfoCard icon={BedDouble} title={t("etage2")}>
+                <Bullets items={pickList(arrivee.decouverte.etage2, locale)} />
               </InfoCard>
             )}
             {arrivee.decouverte.exterieur.length > 0 && (

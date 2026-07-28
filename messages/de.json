@@ -52,7 +52,11 @@
     "rdc": "Erdgeschoss",
     "logement": "Die Wohnung",
     "etage": "Obergeschoss",
+    "etage1": "1. Obergeschoss",
+    "etage2": "2. Obergeschoss",
     "exterieur": "Außenbereich",
+    "arriveeAnticipee": "Früher Check-in",
+    "arriveeAnticipeeCta": "Frühen Check-in buchen",
     "inventaire": "Inventar / Ausstattung",
     "video": "Video-Rundgang"
   },

@@ -52,7 +52,11 @@
     "rdc": "Rez-de-chaussée",
     "logement": "L'appartement",
     "etage": "Étage",
+    "etage1": "1er étage",
+    "etage2": "2e étage",
     "exterieur": "Extérieur",
+    "arriveeAnticipee": "Arrivée anticipée",
+    "arriveeAnticipeeCta": "Réserver une arrivée anticipée",
     "inventaire": "Inventaire / équipements",
     "video": "Visite en vidéo"
   },

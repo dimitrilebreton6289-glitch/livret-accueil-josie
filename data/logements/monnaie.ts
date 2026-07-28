@@ -37,8 +37,12 @@ export const monnaie: Logement = {
       "Maison indépendante dans une rue piétonne, en plein centre historique",
       "Arrivée autonome : clés dans une boîte à clé sécurisée à code, près de l'entrée",
       "Le code de la boîte à clé vous est envoyé par message une fois le logement prêt",
-      "Arrivée anticipée possible sur demande (supplément), selon disponibilité",
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Rue piétonne : pas de stationnement devant la maison.\nStationnement possible Place Pierre Bouchard, Rue de Gémare et Rue des Teinturiers, à quelques minutes à pied.\nPlusieurs parkings publics dans le centre (Château, Les Rives de l'Orne).",
     bagages:
@@ -51,12 +55,15 @@ export const monnaie: Logement = {
         "WC indépendant",
       ],
       etage: [
-        "1er étage — Salon avec TV et accès à la terrasse",
-        "1er étage — Chambre avec lit simple",
-        "1er étage — Salle de douche avec lavabo",
-        "2e étage (accès par une échelle de meunier) — Chambre avec lit double, douche et lavabo",
-        "2e étage — Chambre avec lit simple",
-        "2e étage — WC",
+        "Salon avec TV et accès à la terrasse",
+        "Chambre avec lit simple",
+        "Salle de douche avec lavabo",
+      ],
+      etage2: [
+        "Accès par une échelle de meunier",
+        "Chambre avec lit double, douche et lavabo",
+        "Chambre avec lit simple",
+        "WC",
       ],
       exterieur: [
         "Terrasse privative",
@@ -100,7 +107,7 @@ export const monnaie: Logement = {
         "Capacité maximale : 4 voyageurs. Logement non-fumeur : merci de sortir sur la terrasse pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel et cette rue piétonne.",
     },
     poubelles:
-      "Les poubelles sont à déposer dans la rue chaque soir (collecte en soirée). Merci de sortir le sac au départ.",
+      "Les poubelles sont à déposer dans la rue, tous les soirs. Merci de sortir le sac au départ.",
     animaux:
       "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.",
   },
@@ -134,7 +141,7 @@ export const monnaie: Logement = {
     horaire: "Jusqu'à 10h",
     instructions: [
       "Rassembler les serviettes de toilette utilisées",
-      "Sortir les poubelles dans la rue (collecte en soirée)",
+      "Sortir les poubelles dans la rue",
       "Baisser ou éteindre le chauffage",
       "Éteindre les lumières et bien fermer les fenêtres et la porte de la terrasse",
       "Verrouiller la porte d'entrée et remettre les clés dans la boîte à clé",
@@ -631,7 +638,7 @@ export const monnaie: Logement = {
 
   numerosUtiles: {
     contact: { nom: "Agathe — Josie Conciergerie", tel: "" },
-    note: "Disponible sur la conversation Airbnb en cas de besoin.",
+    note: "Disponible sur la conversation Airbnb ou Booking en cas de besoin.",
     urgences: { samu: "15", police: "17", pompiers: "18", europeen: "112" },
   },
 };

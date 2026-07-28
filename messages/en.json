@@ -52,7 +52,11 @@
     "rdc": "Ground floor",
     "logement": "The apartment",
     "etage": "Upstairs",
+    "etage1": "First floor",
+    "etage2": "Second floor",
     "exterieur": "Outdoors",
+    "arriveeAnticipee": "Early check-in",
+    "arriveeAnticipeeCta": "Book an early check-in",
     "inventaire": "Inventory / amenities",
     "video": "Video tour"
   },

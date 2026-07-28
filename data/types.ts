@@ -102,10 +102,23 @@ export interface Logement {
     video?: string;
     /** Force le cadre vertical pour `video` (MP4 filmé au téléphone). */
     videoPortrait?: boolean;
+    /**
+     * Arrivée anticipée optionnelle : un texte d'explication + un lien de
+     * paiement (ex. Stripe). Affiché en bloc cliquable sur la page Arrivée.
+     * Si absent, la section n'apparaît pas.
+     */
+    arriveeAnticipee?: {
+      texte: Tx;
+      url: string;
+    };
     parking: Tx;
     bagages: Tx;
-    /** Contenu de chaque espace, en listes courtes. */
-    decouverte: { rdc: string[]; etage: string[]; exterieur: string[] };
+    /**
+     * Contenu de chaque espace, en listes courtes.
+     * `etage2` (optionnel) : quand il est renseigné, l'étage est scindé en deux
+     * blocs distincts « 1er étage » (`etage`) et « 2e étage » (`etage2`).
+     */
+    decouverte: { rdc: string[]; etage: string[]; etage2?: string[]; exterieur: string[] };
   };
 
   wifi: { reseau: string; motDePasse: string };

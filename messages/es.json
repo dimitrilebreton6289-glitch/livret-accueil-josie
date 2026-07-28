@@ -52,7 +52,11 @@
     "rdc": "Planta baja",
     "logement": "El apartamento",
     "etage": "Planta superior",
+    "etage1": "Primera planta",
+    "etage2": "Segunda planta",
     "exterieur": "Exterior",
+    "arriveeAnticipee": "Llegada anticipada",
+    "arriveeAnticipeeCta": "Reservar una llegada anticipada",
     "inventaire": "Inventario / equipamiento",
     "video": "Visita en vídeo"
   },
