@@ -38,13 +38,15 @@ export default async function NumerosPage({
         <InfoCard icon={PhoneCall} title={t("contact")}>
           <p className="font-semibold text-ink">{contact.nom}</p>
           <p className="mt-1 text-muted">{pick(numerosUtiles.note, locale)}</p>
-          <a
-            href={`tel:${contact.tel}`}
-            className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-full bg-terracotta px-6 font-bold text-white transition-soft active:scale-95"
-          >
-            <PhoneCall size={18} />
-            {tc("call")} · {contact.tel}
-          </a>
+          {contact.tel && (
+            <a
+              href={`tel:${contact.tel}`}
+              className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-full bg-terracotta px-6 font-bold text-white transition-soft active:scale-95"
+            >
+              <PhoneCall size={18} />
+              {tc("call")} · {contact.tel}
+            </a>
+          )}
         </InfoCard>
 
         <section>
