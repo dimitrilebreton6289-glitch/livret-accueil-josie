@@ -79,6 +79,7 @@ export const monnaie: Logement = {
 
   pratique: {
     aSavoir: [
+      "⚠️ La porte se verrouille en se refermant : elle ne peut plus s'ouvrir de l'extérieur sans les clés. Pensez à toujours les prendre avec vous en sortant du logement.",
       "Draps fournis et lits faits",
       "Une serviette de toilette par personne",
       "La douche du 2e étage, sous les toits, est accessible par une échelle de meunier",
