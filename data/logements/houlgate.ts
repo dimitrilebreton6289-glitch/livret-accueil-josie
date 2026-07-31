@@ -385,6 +385,11 @@ function arrivee(etage: string, nom: string) {
       "Boîte à clés fixée sur la porte de l'appartement",
       "Code de la boîte communiqué par message",
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     etapes: etapesArrivee(etage, nom),
     parking:
       "Devant le logement, rue des Bains, vous trouverez des places en zone bleue (stationnement gratuit à durée limitée — pensez au disque).\nPour un stationnement gratuit et sans limite de durée, privilégiez les rues voisines : rue Henri Dobert, rue Émilie Deschanel ou rue du 11 Novembre 1918.",
