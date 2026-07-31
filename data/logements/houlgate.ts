@@ -26,8 +26,8 @@ import type { Logement, CategorySection, ReglementInterieur } from "../types";
  *   - Présence/absence d'ascenseur (2ᵉ / 3ᵉ étage)
  *   - Plaques de cuisson / hotte (non précisées ; retirées par prudence)
  *   - Détail du local & tri des poubelles (texte générique en place)
- *   - « Autour de moi » : enrichir avec commerces locaux (boulangerie, supérette,
- *     pharmacie, restaurants) une fois les noms/adresses confirmés
+ *   - « Autour de moi » : OK — établissements réels de la rue des Bains vérifiés
+ *     (annuaire ville-houlgate.fr, Michelin, PagesJaunes) et géolocalisés.
  * ─────────────────────────────────────────────────────────────────────────────
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
@@ -57,7 +57,7 @@ function reglement(capaciteMax: number, etage: string): ReglementInterieur {
   return {
     capaciteMax,
     nonFumeur: true,
-    animauxAcceptes: false,
+    animauxAcceptes: true,
     evenementsAutorises: false,
     horairesCalme:
       "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes (couloirs, escaliers).",
@@ -157,9 +157,10 @@ const QUARTIER = {
 };
 
 // ── Autour de moi — lieux réels de Houlgate ──────────────────────────────────
-// Commerces/restaurants géolocalisés via OpenStreetMap (à deux pas du 23 rue des
-// Bains) ; excursions et bord de mer en repères. Distances recalculées par la
-// carte depuis les coordonnées du logement.
+// Établissements vérifiés (annuaire officiel ville-houlgate.fr, guide Michelin,
+// PagesJaunes) et géolocalisés à l'adresse exacte via OpenStreetMap / Nominatim.
+// Presque tout est sur la rue des Bains, la rue commerçante qui descend à la mer,
+// devant le logement. Distances recalculées par la carte depuis le 23 rue des Bains.
 const AUTOUR_CATEGORIES: CategorySection[] = [
   {
     key: "plages",
@@ -186,45 +187,41 @@ const AUTOUR_CATEGORIES: CategorySection[] = [
       },
       {
         nom: "Casino de Houlgate",
-        desc: "Casino et restauration face à la mer.",
+        desc: "Casino face à la mer, avec restaurant (Entre Terre et Mer).",
         coords: [49.30489, -0.07567],
-      },
-      {
-        nom: "Marché couvert de Houlgate",
-        desc: "Le marché couvert au cœur du bourg, à deux pas.",
-        coords: [49.30333, -0.07705],
       },
     ],
   },
   {
     key: "restaurants",
     lieux: [
-      { nom: "Le Royalty", desc: "Cuisine française, en centre-ville.", coords: [49.30430, -0.07477] },
-      { nom: "La Maison du Coquillage", desc: "Fruits de mer et cuisine régionale.", coords: [49.30367, -0.07615] },
-      { nom: "Le Jardin du Plaza", desc: "Cuisine française.", coords: [49.30387, -0.07547] },
-      { nom: "Le Bistrot à Crêpes", desc: "Crêperie-galetterie.", coords: [49.30397, -0.07519] },
-      { nom: "I Fratelli", desc: "Pizzeria italienne.", coords: [49.30237, -0.07819] },
-      { nom: "L'Arbre à Pin", desc: "Cuisine française.", coords: [49.30277, -0.07928] },
+      { nom: "Le Royalty", desc: "Brasserie-glacier en haut de la rue des Bains (n° 2).", coords: [49.30426, -0.07480] },
+      { nom: "L'Authentic", desc: "Cuisine traditionnelle, 3 rue des Bains.", coords: [49.30412, -0.07491] },
+      { nom: "Le Patio", desc: "Restaurant italien & pizzeria, 7 rue des Bains.", coords: [49.30408, -0.07502] },
+      { nom: "Le Jardin du Plaza", desc: "Cuisine française, 23 rue des Bains (au pied de l'immeuble).", coords: [49.30385, -0.07545] },
+      { nom: "La Maison du Coquillage", desc: "Fruits de mer et cuisine régionale, 37 rue des Bains.", coords: [49.30368, -0.07616] },
+      { nom: "Les Passantes", desc: "Cuisine de saison et produits frais (cité au guide Michelin), 41 rue des Bains.", coords: [49.30360, -0.07630] },
+      { nom: "Aux Bains Fleuris", desc: "Cuisine saine & bar à jus frais, 49 rue des Bains.", coords: [49.30356, -0.07655] },
     ],
   },
   {
     key: "bouche",
     lieux: [
-      { nom: "Maison Florent", desc: "Boulangerie-pâtisserie, tout près (rue des Bains).", coords: [49.30346, -0.07674] },
-      { nom: "L'Épi d'Or", desc: "Boulangerie artisanale.", coords: [49.30185, -0.07728] },
+      { nom: "La Maison Florent", desc: "Boulangerie-pâtisserie artisanale (spécialité : la falue), 55 rue des Bains.", coords: [49.30343, -0.07705] },
+      { nom: "La Gourmandine", desc: "Glacier, crêpes, gaufres et beignets, 25 rue des Bains.", coords: [49.30384, -0.07553] },
     ],
   },
   {
     key: "courses",
     lieux: [
-      { nom: "Carrefour City (rue des Bains)", desc: "La supérette la plus proche, pour le dépannage du quotidien.", coords: [49.30337, -0.07699] },
-      { nom: "Carrefour City (rue du Général Leclerc)", desc: "Supérette de dépannage.", coords: [49.30156, -0.07659] },
+      { nom: "Carrefour City", desc: "La supérette la plus proche, 57 rue des Bains, pour le dépannage du quotidien.", coords: [49.30342, -0.07696] },
+      { nom: "Marché couvert (La Halle)", desc: "Commerçants de bouche et producteurs locaux, au cœur du bourg. Les matins du jeudi au dimanche (tous les jours pendant les vacances scolaires).", coords: [49.30333, -0.07705] },
     ],
   },
   {
     key: "sante",
     lieux: [
-      { nom: "Pharmacie des Bains", desc: "La pharmacie la plus proche. Pharmacie de garde : composez le 3237.", coords: [49.30347, -0.07726] },
+      { nom: "Pharmacie des Bains", desc: "La pharmacie la plus proche, 42 rue des Bains (tél. 02 31 28 70 52). Pharmacie de garde : composez le 3237.", coords: [49.30344, -0.07722] },
     ],
   },
   {
@@ -408,7 +405,7 @@ function pratique(capacite: number, etage: string) {
     electromenager: ELECTROMENAGER,
     reglementInterieur: reglement(capacite, etage),
     poubelles: POUBELLES,
-    animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
+    animaux: "Les animaux de compagnie sont les bienvenus ! Merci simplement de veiller à leur propreté, d'éviter qu'ils ne montent sur les lits et canapés, et de ne pas les laisser seuls dans le logement.",
   };
 }
 
