@@ -3142,4 +3142,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Ábrala con la llave. ¡Bienvenido!",
     it: "Apritela con la chiave. Benvenuti!",
   },
+  "En partant, remettre le badge d'accès à l'immeuble dans la petite trappe métallique à l'extérieur (à droite de la porte, comme à votre arrivée)":
+    {
+      en: "When you leave, put the building access badge back in the small metal hatch outside (to the right of the door, as when you arrived)",
+      de: "Legen Sie beim Verlassen den Gebäude-Zugangsbadge wieder in die kleine Metallklappe draußen (rechts neben der Tür, wie bei Ihrer Ankunft)",
+      es: "Al marcharse, vuelva a dejar el mando de acceso al edificio en la pequeña trampilla metálica del exterior (a la derecha de la puerta, como a su llegada)",
+      it: "Alla partenza, rimettete il badge di accesso al palazzo nel piccolo sportello metallico all'esterno (a destra della porta, come al vostro arrivo)",
+    },
 };

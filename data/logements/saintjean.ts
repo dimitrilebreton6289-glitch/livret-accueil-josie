@@ -276,6 +276,7 @@ export const saintjean: Logement = {
       "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser la température des radiateurs",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
       "Fermer l'appartement à clé et remettre les clés dans la boîte à code",
+      "En partant, remettre le badge d'accès à l'immeuble dans la petite trappe métallique à l'extérieur (à droite de la porte, comme à votre arrivée)",
     ],
     departTardif: {
       texte:
