@@ -36,8 +36,8 @@ import type { Logement, CategorySection, ReglementInterieur } from "../types";
 const VILLE = "Houlgate";
 const ADRESSE = "23 Rue des Bains, 14510 Houlgate";
 const ITINERAIRE = "https://maps.google.com/?q=23+Rue+des+Bains+14510+Houlgate";
-// Coordonnées approximatives du 23 rue des Bains (à affiner si besoin).
-const COORDS: [number, number] = [49.2984, -0.0757];
+// Coordonnées du 23 rue des Bains (géocodage OpenStreetMap / Nominatim).
+const COORDS: [number, number] = [49.30391, -0.07543];
 
 // ── Électroménager commun (uniquement ce qui a été confirmé) ─────────────────
 const ELECTROMENAGER = [
@@ -156,20 +156,22 @@ const QUARTIER = {
   note: "Vous êtes à Houlgate, station balnéaire Belle Époque de la Côte Fleurie, à quelques pas de la plage. La rue des Bains descend droit vers la mer et concentre les commerces. Tout se fait à pied. Cabourg, Dives-sur-Mer et Deauville sont à quelques minutes en voiture.",
 };
 
-// ── Autour de moi — repères stables de Houlgate et alentours ─────────────────
-// NB : coordonnées approximatives (niveau « point de repère »), à affiner.
+// ── Autour de moi — lieux réels de Houlgate ──────────────────────────────────
+// Commerces/restaurants géolocalisés via OpenStreetMap (à deux pas du 23 rue des
+// Bains) ; excursions et bord de mer en repères. Distances recalculées par la
+// carte depuis les coordonnées du logement.
 const AUTOUR_CATEGORIES: CategorySection[] = [
   {
     key: "plages",
     lieux: [
       {
         nom: "Plage de Houlgate",
-        desc: "Grande plage de sable au pied de la digue-promenade, face à la mer.",
-        coords: [49.2999, -0.077],
+        desc: "Grande plage de sable au pied de la digue-promenade, à quelques minutes à pied.",
+        coords: [49.30549, -0.07726],
       },
       {
-        nom: "Falaise des Vaches Noires",
-        desc: "Falaises célèbres pour leurs fossiles, entre Houlgate et Villers-sur-Mer (accessible à marée basse).",
+        nom: "Falaises des Vaches Noires",
+        desc: "Falaises célèbres pour leurs fossiles, entre Houlgate et Villers-sur-Mer (accessibles à marée basse).",
         coords: [49.309, -0.058],
       },
     ],
@@ -178,15 +180,51 @@ const AUTOUR_CATEGORIES: CategorySection[] = [
     key: "loisirs",
     lieux: [
       {
-        nom: "Casino de Houlgate",
-        desc: "Casino et restauration en bord de mer.",
-        coords: [49.2996, -0.0748],
+        nom: "Digue-promenade",
+        desc: "La promenade en bord de mer, idéale au coucher du soleil.",
+        coords: [49.30521, -0.07648],
       },
       {
-        nom: "Digue-promenade (Les Planches)",
-        desc: "Promenade en bord de mer, idéale au coucher du soleil.",
-        coords: [49.2999, -0.0762],
+        nom: "Casino de Houlgate",
+        desc: "Casino et restauration face à la mer.",
+        coords: [49.30489, -0.07567],
       },
+      {
+        nom: "Marché couvert de Houlgate",
+        desc: "Le marché couvert au cœur du bourg, à deux pas.",
+        coords: [49.30333, -0.07705],
+      },
+    ],
+  },
+  {
+    key: "restaurants",
+    lieux: [
+      { nom: "Le Royalty", desc: "Cuisine française, en centre-ville.", coords: [49.30430, -0.07477] },
+      { nom: "La Maison du Coquillage", desc: "Fruits de mer et cuisine régionale.", coords: [49.30367, -0.07615] },
+      { nom: "Le Jardin du Plaza", desc: "Cuisine française.", coords: [49.30387, -0.07547] },
+      { nom: "Le Bistrot à Crêpes", desc: "Crêperie-galetterie.", coords: [49.30397, -0.07519] },
+      { nom: "I Fratelli", desc: "Pizzeria italienne.", coords: [49.30237, -0.07819] },
+      { nom: "L'Arbre à Pin", desc: "Cuisine française.", coords: [49.30277, -0.07928] },
+    ],
+  },
+  {
+    key: "bouche",
+    lieux: [
+      { nom: "Maison Florent", desc: "Boulangerie-pâtisserie, tout près (rue des Bains).", coords: [49.30346, -0.07674] },
+      { nom: "L'Épi d'Or", desc: "Boulangerie artisanale.", coords: [49.30185, -0.07728] },
+    ],
+  },
+  {
+    key: "courses",
+    lieux: [
+      { nom: "Carrefour City (rue des Bains)", desc: "La supérette la plus proche, pour le dépannage du quotidien.", coords: [49.30337, -0.07699] },
+      { nom: "Carrefour City (rue du Général Leclerc)", desc: "Supérette de dépannage.", coords: [49.30156, -0.07659] },
+    ],
+  },
+  {
+    key: "sante",
+    lieux: [
+      { nom: "Pharmacie des Bains", desc: "La pharmacie la plus proche. Pharmacie de garde : composez le 3237.", coords: [49.30347, -0.07726] },
     ],
   },
   {
@@ -212,7 +250,7 @@ const AUTOUR_CATEGORIES: CategorySection[] = [
 ];
 
 const COUP_DE_COEUR =
-  "Descendez la rue des Bains jusqu'à la plage et flânez sur la digue-promenade au coucher du soleil. À marée basse, partez à la découverte des Falaises des Vaches Noires et de leurs fossiles. Et prenez le temps d'une escapade jusqu'à Cabourg et sa digue Marcel-Proust, à quelques minutes.";
+  "Descendez la rue des Bains jusqu'à la plage et flânez sur la digue-promenade au coucher du soleil. Faites un tour au marché couvert, offrez-vous des fruits de mer à La Maison du Coquillage, puis, à marée basse, partez à la découverte des Falaises des Vaches Noires et de leurs fossiles. Et prenez le temps d'une escapade jusqu'à Cabourg et sa digue Marcel-Proust, à quelques minutes.";
 
 const CONTACT = { nom: "Agathe — Josie Conciergerie", tel: "+33677551548" } as const;
 const URGENCES = { samu: "15", police: "17", pompiers: "18", europeen: "112" } as const;
@@ -254,6 +292,7 @@ function base(opts: {
   nom: string;
   etage: string; // ex. "2ᵉ étage"
   cover: string;
+  coverCredit?: string;
   capacite: number;
 }): Omit<Logement, "motAccueil" | "arrivee" | "pratique" | "equipements"> & {
   motAccueil: string;
@@ -266,6 +305,7 @@ function base(opts: {
     itineraire: ITINERAIRE,
     coords: COORDS,
     cover: opts.cover,
+    coverCredit: opts.coverCredit,
     motAccueil: `Bienvenue à Houlgate ! Vous êtes à deux pas de la plage, dans une charmante station balnéaire de la Côte Fleurie. La rue des Bains vous mène droit à la mer. Très bon séjour ! 🌊`,
     wifi: WIFI,
     menageEnSejour: MENAGE_EN_SEJOUR,
@@ -373,8 +413,8 @@ function pratique(capacite: number, etage: string) {
 
 /** 2ᵉ étage — studio (2 pers.). */
 export const ecume: Logement = {
-  // cover provisoire (SVG) → remplacer par /logements/ecume/cover.jpg à réception de la photo
-  ...base({ id: "ecume", nom: "Écume", etage: "2ᵉ étage", cover: "/logements/ecume/cover.svg", capacite: 2 }),
+  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
+  ...base({ id: "ecume", nom: "Écume", etage: "2ᵉ étage", cover: "/logements/ecume/cover.jpg", coverCredit: "Photo : Houlgate, plage à marée basse — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
   arrivee: arrivee("2ᵉ étage", "Écume"),
   pratique: pratique(2, "2ᵉ étage"),
   equipements: equipements("studio"),
@@ -382,8 +422,8 @@ export const ecume: Logement = {
 
 /** 2ᵉ étage — T2 (4 pers.). */
 export const beauRivage: Logement = {
-  // cover provisoire (SVG) → remplacer par /logements/beau-rivage/cover.jpg à réception de la photo
-  ...base({ id: "beau-rivage", nom: "Beau Rivage", etage: "2ᵉ étage", cover: "/logements/beau-rivage/cover.svg", capacite: 4 }),
+  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
+  ...base({ id: "beau-rivage", nom: "Beau Rivage", etage: "2ᵉ étage", cover: "/logements/beau-rivage/cover.jpg", coverCredit: "Photo : la digue de Houlgate — Gregory Deryckère, CC BY 2.5 (Wikimedia Commons). Provisoire.", capacite: 4 }),
   arrivee: arrivee("2ᵉ étage", "Beau Rivage"),
   pratique: pratique(4, "2ᵉ étage"),
   equipements: equipements("t2"),
@@ -391,8 +431,8 @@ export const beauRivage: Logement = {
 
 /** 3ᵉ étage — studio (2 pers.). */
 export const embruns: Logement = {
-  // cover provisoire (SVG) → remplacer par /logements/embruns/cover.jpg à réception de la photo
-  ...base({ id: "embruns", nom: "Embruns", etage: "3ᵉ étage", cover: "/logements/embruns/cover.svg", capacite: 2 }),
+  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
+  ...base({ id: "embruns", nom: "Embruns", etage: "3ᵉ étage", cover: "/logements/embruns/cover.jpg", coverCredit: "Photo : Houlgate, plage au couchant — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
   arrivee: arrivee("3ᵉ étage", "Embruns"),
   pratique: pratique(2, "3ᵉ étage"),
   equipements: equipements("studio"),
@@ -400,8 +440,8 @@ export const embruns: Logement = {
 
 /** 3ᵉ étage — T2 (4 pers.). */
 export const belleEpoque: Logement = {
-  // cover provisoire (SVG) → remplacer par /logements/belle-epoque/cover.jpg à réception de la photo
-  ...base({ id: "belle-epoque", nom: "Belle Époque", etage: "3ᵉ étage", cover: "/logements/belle-epoque/cover.svg", capacite: 4 }),
+  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
+  ...base({ id: "belle-epoque", nom: "Belle Époque", etage: "3ᵉ étage", cover: "/logements/belle-epoque/cover.jpg", coverCredit: "Photo : villa Belle Époque, 1 boulevard des Belges, Houlgate — DimiTalen, CC0 (Wikimedia Commons). Provisoire.", capacite: 4 }),
   arrivee: arrivee("3ᵉ étage", "Belle Époque"),
   pratique: pratique(4, "3ᵉ étage"),
   equipements: equipements("t2"),
