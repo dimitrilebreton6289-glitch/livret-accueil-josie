@@ -387,7 +387,7 @@ function arrivee(etage: string, nom: string) {
     ],
     etapes: etapesArrivee(etage, nom),
     parking:
-      "Il n'y a pas de place de parking attitrée. Le stationnement est possible dans les rues alentour (se référer à la signalétique sur place).",
+      "Devant le logement, rue des Bains, vous trouverez des places en zone bleue (stationnement gratuit à durée limitée — pensez au disque).\nPour un stationnement gratuit et sans limite de durée, privilégiez les rues voisines : rue Henri Dobert, rue Émilie Deschanel ou rue du 11 Novembre 1918.",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte:
