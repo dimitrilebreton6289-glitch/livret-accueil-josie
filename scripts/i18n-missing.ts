@@ -8,14 +8,7 @@ const SKIP_KEYS = new Set([
   "samu", "police", "pompiers", "europeen", "photo", "video",
 ]);
 
-const targets = logements.filter(
-  (l) =>
-    l.id === "fleur" ||
-    l.id === "mer" ||
-    l.id === "boheme" ||
-    l.id === "saintjean" ||
-    l.id === "quais",
-);
+const targets = logements.filter((l) => l.id !== "caen");
 const found = new Set<string>();
 
 function walk(v: unknown, key?: string): void {

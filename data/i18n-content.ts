@@ -3149,4 +3149,1341 @@ export const CONTENT: Record<string, Tr> = {
       es: "Al marcharse, vuelva a dejar el mando de acceso al edificio en la pequeña trampilla metálica del exterior (a la derecha de la puerta, como a su llegada)",
       it: "Alla partenza, rimettete il badge di accesso al palazzo nel piccolo sportello metallico all'esterno (a destra della porta, come al vostro arrivo)",
     },
+  "Dirigez-vous vers le poteau rouge à gauche du portail : la boîte à clé s'y trouve. Composez le code, appuyez simultanément sur les boutons latéraux afin d'ouvrir la boîte, récupérez les clés, puis refermez la boîte et brouillez le code.":
+    {
+      en: "Head to the red post to the left of the gate: the key box is there. Enter the code, press the two side buttons at the same time to open the box, take the keys, then close the box and scramble the code.",
+      de: "Gehen Sie zum roten Pfosten links vom Tor: dort befindet sich der Schlüsselkasten. Geben Sie den Code ein, drücken Sie gleichzeitig die seitlichen Tasten, um den Kasten zu öffnen, nehmen Sie die Schlüssel, schließen Sie dann den Kasten und verstellen Sie den Code.",
+      es: "Diríjase al poste rojo a la izquierda de la verja: allí está la caja de llaves. Introduzca el código, pulse a la vez los botones laterales para abrir la caja, coja las llaves, luego cierre la caja y descomponga el código.",
+      it: "Dirigetevi verso il pilastro rosso a sinistra del cancello: lì si trova la cassetta delle chiavi. Componete il codice, premete contemporaneamente i pulsanti laterali per aprire la cassetta, prendete le chiavi, poi richiudete la cassetta e azzerate il codice.",
+    },
+  "• Draps fournis et lits faits\n• Une serviette de toilette par personne\n• Lit parapluie à disposition\n• Lave-linge, fer à repasser et étendoir":
+    {
+      en: "• Sheets provided and beds made\n• One towel per guest\n• Travel cot available\n• Washing machine, iron and drying rack",
+      de: "• Bettwäsche gestellt und Betten gemacht\n• Ein Handtuch pro Gast\n• Reisebett vorhanden\n• Waschmaschine, Bügeleisen und Wäscheständer",
+      es: "• Sábanas incluidas y camas hechas\n• Una toalla por huésped\n• Cuna de viaje disponible\n• Lavadora, plancha y tendedero",
+      it: "• Lenzuola fornite e letti pronti\n• Un asciugamano per ospite\n• Lettino da viaggio disponibile\n• Lavatrice, ferro da stiro e stendino",
+    },
+  "Le parasol déporté du jardin s'ouvre et se ferme en quelques gestes. Voici la marche à suivre en vidéo :":
+    {
+      en: "The garden's cantilever parasol opens and closes in a few steps. Here's how, in video:",
+      de: "Der Ampelschirm im Garten lässt sich mit wenigen Handgriffen öffnen und schließen. So geht's, im Video:",
+      es: "La sombrilla excéntrica del jardín se abre y se cierra en unos pocos gestos. Aquí tiene el procedimiento en vídeo:",
+      it: "L'ombrellone decentrato del giardino si apre e si chiude in pochi gesti. Ecco come fare, in video:",
+    },
+  "Capacité maximale : 4 voyageurs. Logement non-fumeur (ni vapotage). Animaux non acceptés. Aucune fête ni événement autorisé. Photographie commerciale et tournages autorisés. Merci de respecter le calme entre 23h00 et 08h00, dans cette rue paisible.":
+    {
+      en: "Maximum capacity: 4 guests. Non-smoking property (no vaping). No pets. No parties or events allowed. Commercial photography and filming allowed. Please keep quiet between 11 p.m. and 8 a.m., on this peaceful street.",
+      de: "Maximale Belegung: 4 Gäste. Nichtraucher-Unterkunft (auch kein Dampfen). Keine Haustiere. Keine Partys oder Veranstaltungen erlaubt. Werbefotografie und Dreharbeiten erlaubt. Bitte halten Sie zwischen 23:00 und 08:00 Uhr Ruhe, in dieser friedlichen Straße.",
+      es: "Capacidad máxima: 4 huéspedes. Alojamiento para no fumadores (tampoco vapear). No se admiten animales. No se permiten fiestas ni eventos. Se permite la fotografía comercial y los rodajes. Por favor, respete el silencio entre las 23:00 y las 08:00, en esta calle tranquila.",
+      it: "Capacità massima: 4 ospiti. Alloggio per non fumatori (né svapo). Animali non ammessi. Nessuna festa o evento consentito. Fotografia commerciale e riprese consentite. Vi preghiamo di rispettare il silenzio tra le 23:00 e le 08:00, in questa via tranquilla.",
+    },
+  "Les animaux ne sont pas acceptés dans ce logement.":
+    {
+      en: "Pets are not allowed in this property.",
+      de: "Haustiere sind in dieser Unterkunft nicht erlaubt.",
+      es: "No se admiten animales en este alojamiento.",
+      it: "Gli animali non sono ammessi in questo alloggio.",
+    },
+  "Avenue Aristide Briand, le bureau de tabac et presse le plus proche du logement : cigarettes, journaux, jeux et dépannage.":
+    {
+      en: "On Avenue Aristide Briand, the nearest tobacconist and newsagent to the property: cigarettes, newspapers, lottery and essentials.",
+      de: "In der Avenue Aristide Briand, der nächste Tabak- und Zeitungsladen zur Unterkunft: Zigaretten, Zeitungen, Lotto und Notwendiges.",
+      es: "En la Avenue Aristide Briand, el estanco y quiosco de prensa más cercano al alojamiento: tabaco, periódicos, lotería y artículos de primera necesidad.",
+      it: "In Avenue Aristide Briand, la tabaccheria ed edicola più vicina all'alloggio: sigarette, giornali, lotterie e prima necessità.",
+    },
+  "En allant vers le centre-ville, rue Couraye : tabac, presse et confiserie.":
+    {
+      en: "Towards the town centre, on Rue Couraye: tobacco, newspapers and sweets.",
+      de: "Richtung Stadtzentrum, in der Rue Couraye: Tabak, Zeitungen und Süßwaren.",
+      es: "Hacia el centro, en la rue Couraye: tabaco, prensa y golosinas.",
+      it: "Verso il centro, in rue Couraye: tabacchi, giornali e dolciumi.",
+    },
+  "Appartement en rez-de-chaussée surélevé : quelques marches extérieures à monter":
+    {
+      en: "Apartment on a raised ground floor: a few outdoor steps to climb",
+      de: "Wohnung im Hochparterre: einige Stufen im Freien hinaufzusteigen",
+      es: "Apartamento en planta baja elevada: unos escalones exteriores que subir",
+      it: "Appartamento al piano rialzato: qualche gradino esterno da salire",
+    },
+  "Le code de la boîte à clé vous est envoyé par message une fois le logement prêt":
+    {
+      en: "The key box code is sent to you by message once the property is ready",
+      de: "Der Code des Schlüsselkastens wird Ihnen per Nachricht geschickt, sobald die Unterkunft bereit ist",
+      es: "El código de la caja de llaves se le envía por mensaje una vez que el alojamiento está listo",
+      it: "Il codice della cassetta delle chiavi vi viene inviato tramite messaggio una volta che l'alloggio è pronto",
+    },
+  "Suivez la vidéo d'accès ci-dessous pour trouver le logement":
+    {
+      en: "Follow the access video below to find the property",
+      de: "Folgen Sie dem Zugangsvideo unten, um die Unterkunft zu finden",
+      es: "Siga el vídeo de acceso a continuación para encontrar el alojamiento",
+      it: "Seguite il video di accesso qui sotto per trovare l'alloggio",
+    },
+  "Le code de la boîte à clé vous est envoyé par message une fois le logement prêt. La vidéo ci-dessous vous montre le chemin jusqu'au logement.":
+    {
+      en: "The key box code is sent to you by message once the property is ready. The video below shows you the way to the property.",
+      de: "Der Code des Schlüsselkastens wird Ihnen per Nachricht geschickt, sobald die Unterkunft bereit ist. Das Video unten zeigt Ihnen den Weg zur Unterkunft.",
+      es: "El código de la caja de llaves se le envía por mensaje una vez que el alojamiento está listo. El vídeo a continuación le muestra el camino hasta el alojamiento.",
+      it: "Il codice della cassetta delle chiavi vi viene inviato tramite messaggio una volta che l'alloggio è pronto. Il video qui sotto vi mostra il percorso fino all'alloggio.",
+    },
+  "Repérez la boîte à clé sécurisée près de l'entrée, composez le code et récupérez les clés. Pensez à refermer la boîte et à brouiller le code.":
+    {
+      en: "Find the secure key box near the entrance, enter the code and take the keys. Remember to close the box and scramble the code.",
+      de: "Suchen Sie den gesicherten Schlüsselkasten am Eingang, geben Sie den Code ein und nehmen Sie die Schlüssel. Denken Sie daran, den Kasten zu schließen und den Code zu verstellen.",
+      es: "Localice la caja de llaves segura junto a la entrada, introduzca el código y coja las llaves. Recuerde cerrar la caja y descomponer el código.",
+      it: "Individuate la cassetta di sicurezza vicino all'ingresso, componete il codice e prendete le chiavi. Ricordatevi di richiudere la cassetta e di azzerare il codice.",
+    },
+  "Montez les quelques marches extérieures : l'appartement se situe en rez-de-chaussée surélevé. Bienvenue chez vous !":
+    {
+      en: "Climb the few outdoor steps: the apartment is on a raised ground floor. Welcome home!",
+      de: "Steigen Sie die wenigen Stufen im Freien hinauf: die Wohnung liegt im Hochparterre. Willkommen zu Hause!",
+      es: "Suba los pocos escalones exteriores: el apartamento está en una planta baja elevada. ¡Bienvenido a casa!",
+      it: "Salite i pochi gradini esterni: l'appartamento si trova al piano rialzato. Benvenuti a casa!",
+    },
+  "Aspirateur dans le placard sous pente, à côté de la commode":
+    {
+      en: "Vacuum cleaner in the sloped-ceiling cupboard, next to the chest of drawers",
+      de: "Staubsauger im Schrank unter der Dachschräge, neben der Kommode",
+      es: "Aspiradora en el armario bajo el techo inclinado, junto a la cómoda",
+      it: "Aspirapolvere nell'armadio sottotetto, accanto al cassettone",
+    },
+  "Draps du canapé-lit dans le coffre en osier à l'entrée (une vidéo explique comment le déplier)":
+    {
+      en: "Sofa-bed sheets in the wicker chest by the entrance (a video shows how to unfold it)",
+      de: "Bettwäsche für das Schlafsofa in der Korbtruhe am Eingang (ein Video zeigt, wie man es ausklappt)",
+      es: "Sábanas del sofá cama en el baúl de mimbre de la entrada (un vídeo explica cómo desplegarlo)",
+      it: "Lenzuola del divano letto nella cesta di vimini all'ingresso (un video spiega come aprirlo)",
+    },
+  "Aspirateur dans le placard sous pente, à l'étage dans la chambre":
+    {
+      en: "Vacuum cleaner in the sloped-ceiling cupboard, upstairs in the bedroom",
+      de: "Staubsauger im Schrank unter der Dachschräge, oben im Schlafzimmer",
+      es: "Aspiradora en el armario bajo el techo inclinado, arriba en el dormitorio",
+      it: "Aspirapolvere nell'armadio sottotetto, al piano di sopra in camera",
+    },
+  "Chauffage : merci de le baisser ou de l'éteindre à votre départ":
+    {
+      en: "Heating: please turn it down or off when you leave",
+      de: "Heizung: Bitte drehen Sie sie bei Ihrer Abreise herunter oder aus",
+      es: "Calefacción: por favor, bájela o apáguela al marcharse",
+      it: "Riscaldamento: vi preghiamo di abbassarlo o spegnerlo alla partenza",
+    },
+  "Merci de respecter le calme, en particulier entre 22h00 et 08h00, par égard pour le voisinage.":
+    {
+      en: "Please keep noise down, especially between 10 p.m. and 8 a.m., out of consideration for the neighbours.",
+      de: "Bitte halten Sie Ruhe, besonders zwischen 22:00 und 08:00 Uhr, aus Rücksicht auf die Nachbarn.",
+      es: "Por favor, respete el silencio, especialmente entre las 22:00 y las 08:00, por consideración al vecindario.",
+      it: "Vi preghiamo di rispettare il silenzio, in particolare tra le 22:00 e le 08:00, per riguardo verso il vicinato.",
+    },
+  "Logement non-fumeur : merci de sortir à l'extérieur pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel.":
+    {
+      en: "Non-smoking property: please go outside to smoke or vape. Pets are allowed (1 pet maximum), subject to the corresponding surcharge. No parties or events allowed. Please respect the quiet and the neighbours, in this residential area.",
+      de: "Nichtraucher-Unterkunft: Bitte gehen Sie zum Rauchen oder Dampfen nach draußen. Haustiere sind erlaubt (maximal 1 Tier), vorbehaltlich des entsprechenden Aufpreises. Keine Partys oder Veranstaltungen erlaubt. Bitte achten Sie auf Ruhe und die Nachbarn in diesem Wohnviertel.",
+      es: "Alojamiento para no fumadores: por favor, salga al exterior para fumar o vapear. Se admiten animales (máximo 1), sujeto al suplemento correspondiente. No se permiten fiestas ni eventos. Por favor, respete la tranquilidad y al vecindario, en esta zona residencial.",
+      it: "Alloggio per non fumatori: vi preghiamo di uscire all'esterno per fumare o svapare. Gli animali domestici sono ammessi (massimo 1), previo supplemento corrispondente. Nessuna festa o evento consentito. Vi preghiamo di rispettare la tranquillità e il vicinato, in questo quartiere residenziale.",
+    },
+  "Les poubelles sont à déposer dans la rue, dans les bacs situés à côté du restaurant « Bobun ».":
+    {
+      en: "Bins should be taken out to the street, in the containers next to the “Bobun” restaurant.",
+      de: "Der Müll ist auf die Straße zu bringen, in die Behälter neben dem Restaurant „Bobun“.",
+      es: "La basura debe dejarse en la calle, en los contenedores situados junto al restaurante «Bobun».",
+      it: "I rifiuti vanno depositati in strada, nei bidoni situati accanto al ristorante «Bobun».",
+    },
+  "Déposer les poubelles dans les bacs de la rue (à côté du « Bobun »)":
+    {
+      en: "Take the bins out to the street containers (next to “Bobun”)",
+      de: "Den Müll in die Behälter auf der Straße bringen (neben „Bobun“)",
+      es: "Dejar la basura en los contenedores de la calle (junto a «Bobun»)",
+      it: "Depositare i rifiuti nei bidoni della strada (accanto al «Bobun»)",
+    },
+  "Éteindre les lumières et bien fermer les fenêtres":
+    {
+      en: "Turn off the lights and close the windows properly",
+      de: "Das Licht ausschalten und die Fenster gut schließen",
+      es: "Apagar las luces y cerrar bien las ventanas",
+      it: "Spegnere le luci e chiudere bene le finestre",
+    },
+  "Verrouiller la porte et remettre les clés dans la boîte à clé":
+    {
+      en: "Lock the door and put the keys back in the key box",
+      de: "Die Tür abschließen und die Schlüssel wieder in den Schlüsselkasten legen",
+      es: "Cerrar la puerta con llave y devolver las llaves a la caja",
+      it: "Chiudere a chiave la porta e rimettere le chiavi nella cassetta",
+    },
+  "Vous êtes au cœur du Vaugueux, le quartier historique et gourmand de Caen, entre le château et le port de plaisance. Tout le centre-ville se fait à pied.":
+    {
+      en: "You're in the heart of Le Vaugueux, Caen's historic foodie district, between the castle and the marina. The whole town centre is walkable.",
+      de: "Sie wohnen im Herzen von Le Vaugueux, dem historischen Feinschmeckerviertel von Caen, zwischen der Burg und dem Yachthafen. Die gesamte Innenstadt ist zu Fuß erreichbar.",
+      es: "Está en el corazón del Vaugueux, el barrio histórico y gastronómico de Caen, entre el castillo y el puerto deportivo. Todo el centro se recorre a pie.",
+      it: "Vi trovate nel cuore del Vaugueux, il quartiere storico e goloso di Caen, tra il castello e il porto turistico. Tutto il centro è raggiungibile a piedi.",
+    },
+  "Présentez-vous au 144 rue Saint-Jean, devant cette porte.":
+    {
+      en: "Go to 144 Rue Saint-Jean, in front of this door.",
+      de: "Gehen Sie zur Rue Saint-Jean 144, vor diese Tür.",
+      es: "Diríjase al 144 de la rue Saint-Jean, frente a esta puerta.",
+      it: "Recatevi al 144 di rue Saint-Jean, davanti a questa porta.",
+    },
+  "Le badge d'accès à l'immeuble se trouve dans la petite trappe métallique, à droite de la porte (sous la fenêtre). Ouvrez cette trappe.":
+    {
+      en: "The building access badge is in the small metal hatch, to the right of the door (under the window). Open this hatch.",
+      de: "Der Gebäude-Zugangsbadge befindet sich in der kleinen Metallklappe rechts neben der Tür (unter dem Fenster). Öffnen Sie diese Klappe.",
+      es: "El mando de acceso al edificio está en la pequeña trampilla metálica, a la derecha de la puerta (bajo la ventana). Abra esta trampilla.",
+      it: "Il badge di accesso al palazzo si trova nel piccolo sportello metallico, a destra della porta (sotto la finestra). Aprite questo sportello.",
+    },
+  "Le badge est caché à l'intérieur, derrière le boîtier du compteur. Récupérez-le.":
+    {
+      en: "The badge is hidden inside, behind the meter box. Take it out.",
+      de: "Der Badge ist innen versteckt, hinter dem Zählerkasten. Nehmen Sie ihn heraus.",
+      es: "El mando está escondido dentro, detrás de la caja del contador. Cójalo.",
+      it: "Il badge è nascosto all'interno, dietro la scatola del contatore. Prendetelo.",
+    },
+  "Badgez sur l'interphone pour ouvrir la porte de l'immeuble.":
+    {
+      en: "Tap the badge on the intercom to open the building door.",
+      de: "Halten Sie den Badge an die Gegensprechanlage, um die Gebäudetür zu öffnen.",
+      es: "Pase el mando por el portero automático para abrir la puerta del edificio.",
+      it: "Avvicinate il badge al citofono per aprire la porta del palazzo.",
+    },
+  "Empruntez les escaliers et montez jusqu'au 3ᵉ étage.":
+    {
+      en: "Take the stairs and go up to the 3rd floor.",
+      de: "Nehmen Sie die Treppe und gehen Sie hinauf in den 3. Stock.",
+      es: "Suba por las escaleras hasta la 3.ª planta.",
+      it: "Prendete le scale e salite fino al 3º piano.",
+    },
+  "Au 3ᵉ étage, allez à droite : c'est la porte rouge, numéro 6.":
+    {
+      en: "On the 3rd floor, go right: it's the red door, number 6.",
+      de: "Im 3. Stock gehen Sie nach rechts: es ist die rote Tür, Nummer 6.",
+      es: "En la 3.ª planta, gire a la derecha: es la puerta roja, número 6.",
+      it: "Al 3º piano, andate a destra: è la porta rossa, numero 6.",
+    },
+  "Récupérez la clé de l'appartement dans la boîte à code (code indiqué ci-dessus).":
+    {
+      en: "Take the apartment key from the code box (code shown above).",
+      de: "Nehmen Sie den Wohnungsschlüssel aus dem Codekasten (Code oben angegeben).",
+      es: "Coja la llave del apartamento de la caja con código (código indicado arriba).",
+      it: "Prendete la chiave dell'appartamento dalla cassetta a codice (codice indicato sopra).",
+    },
+  "Ouvrez la porte avec la clé : faites un à deux tours, puis un quart de tour pour déverrouiller. ⚠️ Ne laissez jamais les clés à l'intérieur : la porte se verrouille automatiquement dès qu'elle se referme (elle claque).":
+    {
+      en: "Open the door with the key: turn once or twice, then a quarter-turn to unlock. ⚠️ Never leave the keys inside: the door locks automatically as soon as it closes (it slams shut).",
+      de: "Öffnen Sie die Tür mit dem Schlüssel: ein bis zwei Umdrehungen, dann eine Vierteldrehung zum Entriegeln. ⚠️ Lassen Sie die Schlüssel niemals drinnen: die Tür verriegelt automatisch, sobald sie zufällt (sie schnappt zu).",
+      es: "Abra la puerta con la llave: dé una o dos vueltas, luego un cuarto de vuelta para desbloquear. ⚠️ No deje nunca las llaves dentro: la puerta se cierra con llave automáticamente al cerrarse (se cierra de golpe).",
+      it: "Aprite la porta con la chiave: fate uno o due giri, poi un quarto di giro per sbloccare. ⚠️ Non lasciate mai le chiavi all'interno: la porta si blocca automaticamente non appena si chiude (sbatte).",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites au sein de l'appartement. L'appartement se trouve au 5ᵉ étage sans ascenseur. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).":
+    {
+      en: "Non-smoking property: please go down to the street to smoke or vape. Parties and gatherings are strictly forbidden inside the apartment. The apartment is on the 5th floor with no lift. Please respect the neighbours' peace and quiet by keeping noise down, both inside the apartment and in the common areas (hallways, stairs).",
+      de: "Nichtraucher-Unterkunft: Bitte gehen Sie zum Rauchen oder Dampfen auf die Straße. Partys und Feiern sind in der Wohnung strengstens untersagt. Die Wohnung liegt im 5. Stock ohne Aufzug. Bitte achten Sie auf die Ruhe der Nachbarn und vermeiden Sie Lärm, sowohl in der Wohnung als auch in den Gemeinschaftsbereichen (Flure, Treppen).",
+      es: "Alojamiento para no fumadores: por favor, baje a la calle para fumar o vapear. Las fiestas y reuniones están estrictamente prohibidas en el apartamento. El apartamento está en la 5.ª planta sin ascensor. Por favor, respete la tranquilidad del vecindario limitando el ruido, tanto en el apartamento como en las zonas comunes (pasillos, escaleras).",
+      it: "Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Le feste e i ricevimenti sono severamente vietati nell'appartamento. L'appartamento si trova al 5º piano senza ascensore. Vi preghiamo di rispettare la tranquillità del vicinato limitando i rumori, sia nell'appartamento sia nelle parti comuni (corridoi, scale).",
+    },
+  "Les animaux de compagnie ne sont pas acceptés dans ce logement.":
+    {
+      en: "Pets are not allowed in this property.",
+      de: "Haustiere sind in dieser Unterkunft nicht erlaubt.",
+      es: "No se admiten mascotas en este alojamiento.",
+      it: "Gli animali domestici non sono ammessi in questo alloggio.",
+    },
+  "Maison indépendante dans une rue piétonne, en plein centre historique":
+    {
+      en: "Detached house on a pedestrian street, right in the historic centre",
+      de: "Freistehendes Haus in einer Fußgängerzone, mitten im historischen Zentrum",
+      es: "Casa independiente en una calle peatonal, en pleno centro histórico",
+      it: "Casa indipendente in una via pedonale, in pieno centro storico",
+    },
+  "Arrivée autonome : clés dans une boîte à clé sécurisée à code, près de l'entrée":
+    {
+      en: "Self check-in: keys in a secure code lockbox, near the entrance",
+      de: "Selbstständige Anreise: Schlüssel in einem gesicherten Code-Schlüsselkasten am Eingang",
+      es: "Llegada autónoma: llaves en una caja de seguridad con código, junto a la entrada",
+      it: "Arrivo autonomo: chiavi in una cassetta di sicurezza con codice, vicino all'ingresso",
+    },
+  "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.":
+    {
+      en: "Would you like to arrive before 5 p.m.? An early check-in is possible on request (surcharge), subject to availability. Book it below, then let me know your arrival time once payment is made.",
+      de: "Möchten Sie vor 17 Uhr anreisen? Eine frühe Anreise ist auf Anfrage möglich (Aufpreis), je nach Verfügbarkeit. Buchen Sie sie unten und teilen Sie mir nach der Zahlung Ihre Ankunftszeit mit.",
+      es: "¿Desea llegar antes de las 17 h? Es posible una entrada anticipada bajo petición (suplemento), según disponibilidad. Resérvela a continuación e indíqueme su hora de llegada una vez realizado el pago.",
+      it: "Desiderate arrivare prima delle 17? Un arrivo anticipato è possibile su richiesta (supplemento), secondo disponibilità. Prenotatelo qui sotto, poi comunicatemi l'orario di arrivo una volta effettuato il pagamento.",
+    },
+  "Rue piétonne : pas de stationnement devant la maison.\nStationnement possible Place Pierre Bouchard, Rue de Gémare et Rue des Teinturiers, à quelques minutes à pied.\nPlusieurs parkings souterrains dans le centre (Château, Les Rives de l'Orne, Paul Doumer et République).":
+    {
+      en: "Pedestrian street: no parking in front of the house.\nParking is possible on Place Pierre Bouchard, Rue de Gémare and Rue des Teinturiers, a few minutes' walk away.\nSeveral underground car parks in the centre (Château, Les Rives de l'Orne, Paul Doumer and République).",
+      de: "Fußgängerzone: kein Parken vor dem Haus.\nParken möglich am Place Pierre Bouchard, in der Rue de Gémare und der Rue des Teinturiers, wenige Gehminuten entfernt.\nMehrere Tiefgaragen im Zentrum (Château, Les Rives de l'Orne, Paul Doumer und République).",
+      es: "Calle peatonal: no hay aparcamiento delante de la casa.\nSe puede aparcar en Place Pierre Bouchard, Rue de Gémare y Rue des Teinturiers, a unos minutos a pie.\nVarios aparcamientos subterráneos en el centro (Château, Les Rives de l'Orne, Paul Doumer y République).",
+      it: "Via pedonale: nessun parcheggio davanti alla casa.\nParcheggio possibile in Place Pierre Bouchard, Rue de Gémare e Rue des Teinturiers, a pochi minuti a piedi.\nDiversi parcheggi sotterranei in centro (Château, Les Rives de l'Orne, Paul Doumer e République).",
+    },
+  "Salon avec TV et accès à la terrasse":
+    {
+      en: "Living room with TV and access to the terrace",
+      de: "Wohnzimmer mit Fernseher und Zugang zur Terrasse",
+      es: "Salón con TV y acceso a la terraza",
+      it: "Soggiorno con TV e accesso alla terrazza",
+    },
+  "Douche sous les toits, accès par une échelle de meunier":
+    {
+      en: "Shower under the eaves, reached by a steep ladder-stair",
+      de: "Dusche unter dem Dach, erreichbar über eine steile Leitertreppe",
+      es: "Ducha bajo el tejado, con acceso por una escalera de molinero",
+      it: "Doccia sottotetto, accessibile tramite una scala a pioli ripida",
+    },
+  "⚠️ La porte se verrouille en se refermant : elle ne peut plus s'ouvrir de l'extérieur sans les clés. Pensez à toujours les prendre avec vous en sortant du logement.":
+    {
+      en: "⚠️ The door locks when it closes: it can no longer be opened from outside without the keys. Always remember to take them with you when leaving.",
+      de: "⚠️ Die Tür verriegelt sich beim Zufallen: Sie lässt sich von außen ohne Schlüssel nicht mehr öffnen. Denken Sie daran, sie beim Verlassen immer mitzunehmen.",
+      es: "⚠️ La puerta se bloquea al cerrarse: ya no puede abrirse desde fuera sin las llaves. Recuerde llevarlas siempre consigo al salir.",
+      it: "⚠️ La porta si blocca chiudendosi: non può più essere aperta dall'esterno senza le chiavi. Ricordatevi di portarle sempre con voi quando uscite.",
+    },
+  "La douche du 2e étage, sous les toits, est accessible par une échelle de meunier":
+    {
+      en: "The second-floor shower, under the eaves, is reached by a steep ladder-stair",
+      de: "Die Dusche im zweiten Stock, unter dem Dach, ist über eine steile Leitertreppe erreichbar",
+      es: "La ducha de la 2.ª planta, bajo el tejado, tiene acceso por una escalera de molinero",
+      it: "La doccia al secondo piano, sottotetto, è accessibile tramite una scala a pioli ripida",
+    },
+  "Capacité maximale : 4 voyageurs. Logement non-fumeur : merci de sortir sur la terrasse pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel et cette rue piétonne.":
+    {
+      en: "Maximum capacity: 4 guests. Non-smoking property: please step out onto the terrace to smoke or vape. Pets are allowed (1 pet maximum), subject to the corresponding surcharge. No parties or events allowed. Please respect the quiet and the neighbours, in this residential area and pedestrian street.",
+      de: "Maximale Belegung: 4 Gäste. Nichtraucher-Unterkunft: Bitte gehen Sie zum Rauchen oder Dampfen auf die Terrasse. Haustiere sind erlaubt (maximal 1 Tier), vorbehaltlich des entsprechenden Aufpreises. Keine Partys oder Veranstaltungen erlaubt. Bitte achten Sie auf Ruhe und die Nachbarn, in diesem Wohnviertel und dieser Fußgängerzone.",
+      es: "Capacidad máxima: 4 huéspedes. Alojamiento para no fumadores: por favor, salga a la terraza para fumar o vapear. Se admiten animales (máximo 1), sujeto al suplemento correspondiente. No se permiten fiestas ni eventos. Por favor, respete la tranquilidad y al vecindario, en esta zona residencial y calle peatonal.",
+      it: "Capacità massima: 4 ospiti. Alloggio per non fumatori: vi preghiamo di uscire in terrazza per fumare o svapare. Gli animali domestici sono ammessi (massimo 1), previo supplemento corrispondente. Nessuna festa o evento consentito. Vi preghiamo di rispettare la tranquillità e il vicinato, in questo quartiere residenziale e in questa via pedonale.",
+    },
+  "Les poubelles sont à déposer dans la rue, tous les soirs.":
+    {
+      en: "Bins should be taken out to the street every evening.",
+      de: "Der Müll ist jeden Abend auf die Straße zu bringen.",
+      es: "La basura debe sacarse a la calle todas las noches.",
+      it: "I rifiuti vanno depositati in strada ogni sera.",
+    },
+  "Éteindre les lumières et bien fermer les fenêtres et la porte de la terrasse":
+    {
+      en: "Turn off the lights and close the windows and terrace door properly",
+      de: "Das Licht ausschalten und die Fenster sowie die Terrassentür gut schließen",
+      es: "Apagar las luces y cerrar bien las ventanas y la puerta de la terraza",
+      it: "Spegnere le luci e chiudere bene le finestre e la porta della terrazza",
+    },
+  "Verrouiller la porte d'entrée et remettre les clés dans la boîte à clé":
+    {
+      en: "Lock the front door and put the keys back in the key box",
+      de: "Die Eingangstür abschließen und die Schlüssel wieder in den Schlüsselkasten legen",
+      es: "Cerrar con llave la puerta de entrada y devolver las llaves a la caja",
+      it: "Chiudere a chiave la porta d'ingresso e rimettere le chiavi nella cassetta",
+    },
+  "Vous êtes en plein cœur historique de Caen, dans une rue piétonne à deux pas de la rue Froide et de l'église Saint-Pierre. Tout le centre-ville, le château et le port se font à pied.":
+    {
+      en: "You're right in the historic heart of Caen, on a pedestrian street steps from Rue Froide and Saint-Pierre church. The whole town centre, the castle and the harbour are all walkable.",
+      de: "Sie wohnen mitten im historischen Herzen von Caen, in einer Fußgängerzone nur wenige Schritte von der Rue Froide und der Kirche Saint-Pierre entfernt. Die gesamte Innenstadt, die Burg und der Hafen sind zu Fuß erreichbar.",
+      es: "Está en pleno corazón histórico de Caen, en una calle peatonal a dos pasos de la rue Froide y de la iglesia de Saint-Pierre. Todo el centro, el castillo y el puerto se recorren a pie.",
+      it: "Vi trovate nel cuore storico di Caen, in una via pedonale a due passi da rue Froide e dalla chiesa di Saint-Pierre. Tutto il centro, il castello e il porto sono raggiungibili a piedi.",
+    },
+  "Joyau du gothique flamboyant au cœur de la ville, à quelques pas du logement. Clocher remarquable et chevet richement sculpté.":
+    {
+      en: "A gem of flamboyant Gothic in the heart of the city, a few steps from the property. Remarkable bell tower and richly carved chevet.",
+      de: "Ein Juwel der Spätgotik im Herzen der Stadt, wenige Schritte von der Unterkunft entfernt. Bemerkenswerter Glockenturm und reich verzierter Chor.",
+      es: "Joya del gótico flamígero en el corazón de la ciudad, a pocos pasos del alojamiento. Campanario notable y cabecera ricamente esculpida.",
+      it: "Gioiello del gotico fiammeggiante nel cuore della città, a pochi passi dall'alloggio. Campanile notevole e abside riccamente scolpita.",
+    },
+  "Le port de plaisance en plein centre, à quelques minutes à pied : terrasses, balades le long des quais et marché du dimanche matin.":
+    {
+      en: "The marina right in the centre, a few minutes' walk away: terraces, strolls along the quays and the Sunday-morning market.",
+      de: "Der Yachthafen mitten im Zentrum, wenige Gehminuten entfernt: Terrassen, Spaziergänge entlang der Kais und der Sonntagvormittagsmarkt.",
+      es: "El puerto deportivo en pleno centro, a unos minutos a pie: terrazas, paseos por los muelles y mercado del domingo por la mañana.",
+      it: "Il porto turistico in pieno centro, a pochi minuti a piedi: terrazze, passeggiate lungo le banchine e mercato della domenica mattina.",
+    },
+  "Cuisine soignée, 11 place Saint-Sauveur, sur une jolie place à deux pas du logement. Tél. 02 61 53 60 50.":
+    {
+      en: "Refined cuisine, 11 Place Saint-Sauveur, on a pretty square steps from the property. Tel. 02 61 53 60 50.",
+      de: "Gepflegte Küche, 11 Place Saint-Sauveur, an einem hübschen Platz wenige Schritte von der Unterkunft. Tel. 02 61 53 60 50.",
+      es: "Cocina cuidada, 11 place Saint-Sauveur, en una bonita plaza a dos pasos del alojamiento. Tel. 02 61 53 60 50.",
+      it: "Cucina curata, 11 place Saint-Sauveur, in una graziosa piazza a due passi dall'alloggio. Tel. 02 61 53 60 50.",
+    },
+  "Adresse gourmande, 15 rue Pemagnie, dans le centre historique tout proche. Tél. 02 31 93 39 43.":
+    {
+      en: "A foodie address, 15 Rue Pemagnie, in the nearby historic centre. Tel. 02 31 93 39 43.",
+      de: "Feinschmeckeradresse, 15 Rue Pemagnie, im nahen historischen Zentrum. Tel. 02 31 93 39 43.",
+      es: "Dirección gastronómica, 15 rue Pemagnie, en el cercano centro histórico. Tel. 02 31 93 39 43.",
+      it: "Indirizzo goloso, 15 rue Pemagnie, nel vicino centro storico. Tel. 02 31 93 39 43.",
+    },
+  "Bistrot de référence, 12 rue Graindorge, dans le Vaugueux (~5 min à pied). Cuisine du marché soignée, référencé au Guide Michelin. Réservation conseillée. Tél. 02 31 44 26 26.":
+    {
+      en: "A benchmark bistro, 12 Rue Graindorge, in Le Vaugueux (~5 min walk). Refined market cuisine, listed in the Michelin Guide. Booking recommended. Tel. 02 31 44 26 26.",
+      de: "Referenz-Bistro, 12 Rue Graindorge, im Vaugueux (~5 Gehminuten). Gepflegte Marktküche, im Guide Michelin geführt. Reservierung empfohlen. Tel. 02 31 44 26 26.",
+      es: "Bistró de referencia, 12 rue Graindorge, en el Vaugueux (~5 min a pie). Cocina de mercado cuidada, en la Guía Michelin. Se recomienda reservar. Tel. 02 31 44 26 26.",
+      it: "Bistrot di riferimento, 12 rue Graindorge, nel Vaugueux (~5 min a piedi). Cucina di mercato curata, segnalato dalla Guida Michelin. Prenotazione consigliata. Tel. 02 31 44 26 26.",
+    },
+  "Cuisine italienne conviviale, 15 rue du Vaugueux, dans le quartier historique. Tél. 02 31 47 97 01.":
+    {
+      en: "Convivial Italian cuisine, 15 Rue du Vaugueux, in the historic district. Tel. 02 31 47 97 01.",
+      de: "Gesellige italienische Küche, 15 Rue du Vaugueux, im historischen Viertel. Tel. 02 31 47 97 01.",
+      es: "Cocina italiana acogedora, 15 rue du Vaugueux, en el barrio histórico. Tel. 02 31 47 97 01.",
+      it: "Cucina italiana conviviale, 15 rue du Vaugueux, nel quartiere storico. Tel. 02 31 47 97 01.",
+    },
+  "Cuisine italienne, 47 rue Saint-Sauveur, tout près. Tél. 02 31 50 35 35.":
+    {
+      en: "Italian cuisine, 47 Rue Saint-Sauveur, very close by. Tel. 02 31 50 35 35.",
+      de: "Italienische Küche, 47 Rue Saint-Sauveur, ganz in der Nähe. Tel. 02 31 50 35 35.",
+      es: "Cocina italiana, 47 rue Saint-Sauveur, muy cerca. Tel. 02 31 50 35 35.",
+      it: "Cucina italiana, 47 rue Saint-Sauveur, molto vicino. Tel. 02 31 50 35 35.",
+    },
+  "Tartines, salades et douceurs faites maison, 20 rue Froide, tout près du logement. Tél. 02 31 50 24 32.":
+    {
+      en: "Homemade open sandwiches, salads and treats, 20 Rue Froide, very close to the property. Tel. 02 31 50 24 32.",
+      de: "Hausgemachte Tartines, Salate und Süßes, 20 Rue Froide, ganz in der Nähe der Unterkunft. Tel. 02 31 50 24 32.",
+      es: "Tostas, ensaladas y dulces caseros, 20 rue Froide, muy cerca del alojamiento. Tel. 02 31 50 24 32.",
+      it: "Tartine, insalate e dolci fatti in casa, 20 rue Froide, vicinissimo all'alloggio. Tel. 02 31 50 24 32.",
+    },
+  "Poké bowls frais et colorés, 9 rue Écuyère, à deux pas. Tél. 02 31 26 98 73.":
+    {
+      en: "Fresh, colourful poke bowls, 9 Rue Écuyère, just around the corner. Tel. 02 31 26 98 73.",
+      de: "Frische, bunte Poke Bowls, 9 Rue Écuyère, ganz in der Nähe. Tel. 02 31 26 98 73.",
+      es: "Poke bowls frescos y coloridos, 9 rue Écuyère, a dos pasos. Tel. 02 31 26 98 73.",
+      it: "Poke bowl freschi e colorati, 9 rue Écuyère, a due passi. Tel. 02 31 26 98 73.",
+    },
+  "Restaurant vietnamien du Vaugueux : bo bun, nems et plats à emporter.":
+    {
+      en: "Vietnamese restaurant in Le Vaugueux: bo bun, spring rolls and takeaway dishes.",
+      de: "Vietnamesisches Restaurant im Vaugueux: Bo Bun, Frühlingsrollen und Gerichte zum Mitnehmen.",
+      es: "Restaurante vietnamita del Vaugueux: bo bun, rollitos y platos para llevar.",
+      it: "Ristorante vietnamita del Vaugueux: bo bun, involtini e piatti da asporto.",
+    },
+  "L'épicentre de la vie nocturne caennaise : bars et pubs à la suite, à ~5 min à pied.":
+    {
+      en: "The epicentre of Caen nightlife: bars and pubs one after another, ~5 min walk away.",
+      de: "Das Epizentrum des Caener Nachtlebens: Bars und Pubs in Folge, ~5 Gehminuten entfernt.",
+      es: "El epicentro de la vida nocturna de Caen: bares y pubs uno tras otro, a ~5 min a pie.",
+      it: "L'epicentro della vita notturna di Caen: bar e pub in fila, a ~5 min a piedi.",
+    },
+  "Charmante rue pavée juste à côté du logement : libraires, artisans et boutiques indépendantes dans un cadre médiéval.":
+    {
+      en: "Charming cobbled street right next to the property: bookshops, craftspeople and independent boutiques in a medieval setting.",
+      de: "Charmante Kopfsteinpflasterstraße direkt neben der Unterkunft: Buchhandlungen, Handwerker und unabhängige Boutiquen in mittelalterlichem Rahmen.",
+      es: "Encantadora calle adoquinada junto al alojamiento: librerías, artesanos y tiendas independientes en un entorno medieval.",
+      it: "Incantevole via acciottolata proprio accanto all'alloggio: librerie, artigiani e botteghe indipendenti in un contesto medievale.",
+    },
+  "L'artère commerçante de Caen : boutiques, enseignes et grands magasins, à ~5 min à pied.":
+    {
+      en: "Caen's main shopping street: boutiques, brands and department stores, ~5 min walk away.",
+      de: "Die Einkaufsstraße von Caen: Boutiquen, Marken und Kaufhäuser, ~5 Gehminuten entfernt.",
+      es: "La calle comercial de Caen: tiendas, marcas y grandes almacenes, a ~5 min a pie.",
+      it: "La via commerciale di Caen: negozi, marchi e grandi magazzini, a ~5 min a piedi.",
+    },
+  "Le grand marché dominical le long du bassin Saint-Pierre (Quai Vendeuvre) : produits frais, primeurs, poissons.":
+    {
+      en: "The big Sunday market along the Saint-Pierre basin (Quai Vendeuvre): fresh produce, fruit and veg, fish.",
+      de: "Der große Sonntagsmarkt entlang des Saint-Pierre-Beckens (Quai Vendeuvre): frische Produkte, Obst und Gemüse, Fisch.",
+      es: "El gran mercado dominical junto a la dársena Saint-Pierre (Quai Vendeuvre): productos frescos, frutas y verduras, pescado.",
+      it: "Il grande mercato domenicale lungo il bacino Saint-Pierre (Quai Vendeuvre): prodotti freschi, frutta e verdura, pesce.",
+    },
+  "45 boulevard du Maréchal Leclerc — le plus pratique du centre, à ~5 min : courses et produits du quotidien, ouvert tard. Parking souterrain.":
+    {
+      en: "45 Boulevard du Maréchal Leclerc — the handiest in the centre, ~5 min away: groceries and everyday essentials, open late. Underground car park.",
+      de: "45 Boulevard du Maréchal Leclerc — der praktischste im Zentrum, ~5 Min. entfernt: Einkäufe und Produkte des täglichen Bedarfs, lange geöffnet. Tiefgarage.",
+      es: "45 boulevard du Maréchal Leclerc — el más práctico del centro, a ~5 min: compras y productos del día a día, abierto hasta tarde. Aparcamiento subterráneo.",
+      it: "45 boulevard du Maréchal Leclerc — il più comodo del centro, a ~5 min: spesa e prodotti quotidiani, aperto fino a tardi. Parcheggio sotterraneo.",
+    },
+  "Supérette de dépannage vers le Vaugueux, 1 rue Basse : courses de dernière minute. Tél. 06 59 27 12 90.":
+    {
+      en: "Handy convenience store towards Le Vaugueux, 1 Rue Basse: last-minute shopping. Tel. 06 59 27 12 90.",
+      de: "Nahversorger Richtung Vaugueux, 1 Rue Basse: Einkäufe in letzter Minute. Tel. 06 59 27 12 90.",
+      es: "Tienda de conveniencia hacia el Vaugueux, 1 rue Basse: compras de última hora. Tel. 06 59 27 12 90.",
+      it: "Minimarket verso il Vaugueux, 1 rue Basse: spesa dell'ultimo minuto. Tel. 06 59 27 12 90.",
+    },
+  "52 rue du Vaugueux — boulangerie-pâtisserie pour le pain frais et les viennoiseries du matin.":
+    {
+      en: "52 Rue du Vaugueux — bakery and pastry shop for fresh bread and morning pastries.",
+      de: "52 Rue du Vaugueux — Bäckerei und Konditorei für frisches Brot und Frühstücksgebäck.",
+      es: "52 rue du Vaugueux — panadería y pastelería para pan fresco y bollería de la mañana.",
+      it: "52 rue du Vaugueux — panetteria e pasticceria per pane fresco e brioche del mattino.",
+    },
+  "Plusieurs boulangeries-pâtisseries le long de la rue Saint-Pierre, tout près.":
+    {
+      en: "Several bakeries and pastry shops along Rue Saint-Pierre, very close by.",
+      de: "Mehrere Bäckereien und Konditoreien entlang der Rue Saint-Pierre, ganz in der Nähe.",
+      es: "Varias panaderías-pastelerías a lo largo de la rue Saint-Pierre, muy cerca.",
+      it: "Diverse panetterie-pasticcerie lungo la rue Saint-Pierre, molto vicino.",
+    },
+  "Arrêt de tram proche du logement, vers l'église Saint-Pierre : rejoignez le centre, la gare et les campus universitaires.":
+    {
+      en: "Tram stop near the property, towards Saint-Pierre church: reach the centre, the station and the university campuses.",
+      de: "Straßenbahnhaltestelle nahe der Unterkunft, Richtung Kirche Saint-Pierre: erreichen Sie das Zentrum, den Bahnhof und die Universitätscampus.",
+      es: "Parada de tranvía cerca del alojamiento, hacia la iglesia de Saint-Pierre: llegue al centro, la estación y los campus universitarios.",
+      it: "Fermata del tram vicino all'alloggio, verso la chiesa di Saint-Pierre: raggiungete il centro, la stazione e i campus universitari.",
+    },
+  "Autre arrêt de tram tout proche, rue de Geôle, en direction du centre et de la gare.":
+    {
+      en: "Another tram stop very close by, on Rue de Geôle, towards the centre and the station.",
+      de: "Weitere Straßenbahnhaltestelle ganz in der Nähe, in der Rue de Geôle, Richtung Zentrum und Bahnhof.",
+      es: "Otra parada de tranvía muy cerca, en la rue de Geôle, en dirección al centro y la estación.",
+      it: "Altra fermata del tram molto vicina, in rue de Geôle, in direzione del centro e della stazione.",
+    },
+  "Pharmacie de centre-ville, proche de l'église Saint-Pierre. Pharmacie de garde : composez le 3237.":
+    {
+      en: "Town-centre pharmacy, near Saint-Pierre church. For the on-duty pharmacy, dial 3237.",
+      de: "Apotheke im Stadtzentrum, nahe der Kirche Saint-Pierre. Notdienst-Apotheke: Wählen Sie 3237.",
+      es: "Farmacia del centro, cerca de la iglesia de Saint-Pierre. Farmacia de guardia: marque el 3237.",
+      it: "Farmacia in centro, vicino alla chiesa di Saint-Pierre. Farmacia di turno: componete il 3237.",
+    },
+  "Rue Montoir-Poissonnerie, vers le Vaugueux. Pharmacie de garde : composez le 3237.":
+    {
+      en: "On Rue Montoir-Poissonnerie, towards Le Vaugueux. For the on-duty pharmacy, dial 3237.",
+      de: "In der Rue Montoir-Poissonnerie, Richtung Vaugueux. Notdienst-Apotheke: Wählen Sie 3237.",
+      es: "En la rue Montoir-Poissonnerie, hacia el Vaugueux. Farmacia de guardia: marque el 3237.",
+      it: "In rue Montoir-Poissonnerie, verso il Vaugueux. Farmacia di turno: componete il 3237.",
+    },
+  "77 rue du Vaugueux : tabac, presse et dépannage.":
+    {
+      en: "77 Rue du Vaugueux: tobacco, newspapers and essentials.",
+      de: "77 Rue du Vaugueux: Tabak, Zeitungen und Notwendiges.",
+      es: "77 rue du Vaugueux: tabaco, prensa y artículos de primera necesidad.",
+      it: "77 rue du Vaugueux: tabacchi, giornali e prima necessità.",
+    },
+  "Flânez dans la rue Froide et les ruelles pavées du vieux Caen, juste au pied de la maison, puis rejoignez le Vaugueux pour dîner. Et pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !":
+    {
+      en: "Stroll along Rue Froide and the cobbled lanes of old Caen, right at the foot of the house, then head to Le Vaugueux for dinner. And for food lovers, try the tripes à la mode de Caen, the local speciality!",
+      de: "Schlendern Sie durch die Rue Froide und die kopfsteingepflasterten Gassen der Altstadt von Caen, direkt vor dem Haus, und gehen Sie dann zum Abendessen ins Vaugueux. Und für Feinschmecker: Probieren Sie die Tripes à la mode de Caen, die lokale Spezialität!",
+      es: "Pasee por la rue Froide y las callejuelas empedradas del viejo Caen, justo al pie de la casa, y luego vaya al Vaugueux a cenar. Y para los golosos, ¡pruebe los tripes à la mode de Caen, la especialidad local!",
+      it: "Passeggiate per rue Froide e i vicoli acciottolati della vecchia Caen, proprio ai piedi della casa, poi raggiungete il Vaugueux per cena. E per i golosi, assaggiate le tripes à la mode de Caen, la specialità locale!",
+    },
+  "Disponible sur la conversation Airbnb ou Booking en cas de besoin.":
+    {
+      en: "Available via the Airbnb or Booking chat if you need anything.",
+      de: "Bei Bedarf über den Airbnb- oder Booking-Chat erreichbar.",
+      es: "Disponible en el chat de Airbnb o Booking si lo necesita.",
+      it: "Disponibile sulla chat di Airbnb o Booking in caso di necessità.",
+    },
+  "Bienvenue à Houlgate ! Vous êtes à deux pas de la plage, dans une charmante station balnéaire de la Côte Fleurie. La rue des Bains vous mène droit à la mer. Très bon séjour ! 🌊":
+    {
+      en: "Welcome to Houlgate! You're steps from the beach, in a charming seaside resort on the Côte Fleurie. Rue des Bains leads you straight to the sea. Enjoy your stay! 🌊",
+      de: "Willkommen in Houlgate! Sie wohnen nur wenige Schritte vom Strand entfernt, in einem charmanten Seebad an der Côte Fleurie. Die Rue des Bains führt Sie direkt ans Meer. Einen schönen Aufenthalt! 🌊",
+      es: "¡Bienvenido a Houlgate! Está a dos pasos de la playa, en un encantador balneario de la Côte Fleurie. La rue des Bains le lleva directo al mar. ¡Feliz estancia! 🌊",
+      it: "Benvenuti a Houlgate! Siete a due passi dalla spiaggia, in un'incantevole località balneare della Côte Fleurie. La rue des Bains vi porta dritti al mare. Buon soggiorno! 🌊",
+    },
+  "Fermer les fenêtres, éteindre les lumières et baisser le chauffage":
+    {
+      en: "Close the windows, turn off the lights and turn down the heating",
+      de: "Die Fenster schließen, das Licht ausschalten und die Heizung herunterdrehen",
+      es: "Cerrar las ventanas, apagar las luces y bajar la calefacción",
+      it: "Chiudere le finestre, spegnere le luci e abbassare il riscaldamento",
+    },
+  "Fermer l'appartement à clé, puis remettre la clé dans la boîte à clés fixée sur la porte":
+    {
+      en: "Lock the apartment, then put the key back in the key box fixed to the door",
+      de: "Die Wohnung abschließen und den Schlüssel wieder in den an der Tür befestigten Schlüsselkasten legen",
+      es: "Cerrar el apartamento con llave y devolver la llave a la caja fijada en la puerta",
+      it: "Chiudere a chiave l'appartamento, poi rimettere la chiave nella cassetta fissata alla porta",
+    },
+  "Plage de Houlgate & la digue-promenade (front de mer, ~2–3 min)":
+    {
+      en: "Houlgate beach & the seafront promenade (~2–3 min)",
+      de: "Strand von Houlgate & die Strandpromenade (~2–3 Min.)",
+      es: "Playa de Houlgate y el paseo marítimo (~2–3 min)",
+      it: "Spiaggia di Houlgate e la passeggiata sul lungomare (~2–3 min)",
+    },
+  "Rue des Bains — commerces, cafés & restaurants (sur place)":
+    {
+      en: "Rue des Bains — shops, cafés & restaurants (right outside)",
+      de: "Rue des Bains — Geschäfte, Cafés & Restaurants (direkt vor Ort)",
+      es: "Rue des Bains — comercios, cafeterías y restaurantes (en la misma calle)",
+      it: "Rue des Bains — negozi, caffè e ristoranti (sul posto)",
+    },
+  "Vous êtes à Houlgate, station balnéaire Belle Époque de la Côte Fleurie, à quelques pas de la plage. La rue des Bains descend droit vers la mer et concentre les commerces. Tout se fait à pied. Cabourg, Dives-sur-Mer et Deauville sont à quelques minutes en voiture.":
+    {
+      en: "You're in Houlgate, a Belle Époque seaside resort on the Côte Fleurie, steps from the beach. Rue des Bains runs straight down to the sea and gathers the shops. Everything is walkable. Cabourg, Dives-sur-Mer and Deauville are a few minutes away by car.",
+      de: "Sie wohnen in Houlgate, einem Belle-Époque-Seebad an der Côte Fleurie, nur wenige Schritte vom Strand entfernt. Die Rue des Bains führt direkt hinunter zum Meer und bündelt die Geschäfte. Alles ist zu Fuß erreichbar. Cabourg, Dives-sur-Mer und Deauville sind wenige Autominuten entfernt.",
+      es: "Está en Houlgate, un balneario de la Belle Époque en la Côte Fleurie, a pocos pasos de la playa. La rue des Bains baja recta hacia el mar y reúne los comercios. Todo se hace a pie. Cabourg, Dives-sur-Mer y Deauville están a unos minutos en coche.",
+      it: "Vi trovate a Houlgate, località balneare Belle Époque della Côte Fleurie, a pochi passi dalla spiaggia. La rue des Bains scende dritta verso il mare e concentra i negozi. Tutto è raggiungibile a piedi. Cabourg, Dives-sur-Mer e Deauville sono a pochi minuti in auto.",
+    },
+  "Grande plage de sable au pied de la digue-promenade, à quelques minutes à pied.":
+    {
+      en: "Large sandy beach at the foot of the seafront promenade, a few minutes' walk away.",
+      de: "Großer Sandstrand am Fuß der Strandpromenade, wenige Gehminuten entfernt.",
+      es: "Gran playa de arena al pie del paseo marítimo, a unos minutos a pie.",
+      it: "Grande spiaggia di sabbia ai piedi della passeggiata sul lungomare, a pochi minuti a piedi.",
+    },
+  "Falaises célèbres pour leurs fossiles, entre Houlgate et Villers-sur-Mer (accessibles à marée basse).":
+    {
+      en: "Cliffs famous for their fossils, between Houlgate and Villers-sur-Mer (accessible at low tide).",
+      de: "Für ihre Fossilien berühmte Klippen, zwischen Houlgate und Villers-sur-Mer (bei Ebbe zugänglich).",
+      es: "Acantilados famosos por sus fósiles, entre Houlgate y Villers-sur-Mer (accesibles con marea baja).",
+      it: "Scogliere famose per i loro fossili, tra Houlgate e Villers-sur-Mer (accessibili con la bassa marea).",
+    },
+  "La promenade en bord de mer, idéale au coucher du soleil.":
+    {
+      en: "The seafront promenade, perfect at sunset.",
+      de: "Die Strandpromenade, ideal bei Sonnenuntergang.",
+      es: "El paseo junto al mar, ideal al atardecer.",
+      it: "La passeggiata sul lungomare, ideale al tramonto.",
+    },
+  "Casino face à la mer, avec restaurant (Entre Terre et Mer).":
+    {
+      en: "Casino facing the sea, with a restaurant (Entre Terre et Mer).",
+      de: "Casino mit Meerblick, mit Restaurant (Entre Terre et Mer).",
+      es: "Casino frente al mar, con restaurante (Entre Terre et Mer).",
+      it: "Casinò fronte mare, con ristorante (Entre Terre et Mer).",
+    },
+  "Brasserie-glacier en haut de la rue des Bains (n° 2).":
+    {
+      en: "Brasserie and ice-cream parlour at the top of Rue des Bains (no. 2).",
+      de: "Brasserie und Eisdiele am oberen Ende der Rue des Bains (Nr. 2).",
+      es: "Brasería-heladería en lo alto de la rue des Bains (n.º 2).",
+      it: "Brasserie-gelateria in cima alla rue des Bains (n. 2).",
+    },
+  "Cuisine traditionnelle, 3 rue des Bains.":
+    {
+      en: "Traditional cuisine, 3 Rue des Bains.",
+      de: "Traditionelle Küche, 3 Rue des Bains.",
+      es: "Cocina tradicional, 3 rue des Bains.",
+      it: "Cucina tradizionale, 3 rue des Bains.",
+    },
+  "Restaurant italien & pizzeria, 7 rue des Bains.":
+    {
+      en: "Italian restaurant & pizzeria, 7 Rue des Bains.",
+      de: "Italienisches Restaurant & Pizzeria, 7 Rue des Bains.",
+      es: "Restaurante italiano y pizzería, 7 rue des Bains.",
+      it: "Ristorante italiano e pizzeria, 7 rue des Bains.",
+    },
+  "Cuisine française, 23 rue des Bains (au pied de l'immeuble).":
+    {
+      en: "French cuisine, 23 Rue des Bains (at the foot of the building).",
+      de: "Französische Küche, 23 Rue des Bains (am Fuß des Gebäudes).",
+      es: "Cocina francesa, 23 rue des Bains (al pie del edificio).",
+      it: "Cucina francese, 23 rue des Bains (ai piedi dell'edificio).",
+    },
+  "Fruits de mer et cuisine régionale, 37 rue des Bains.":
+    {
+      en: "Seafood and regional cuisine, 37 Rue des Bains.",
+      de: "Meeresfrüchte und regionale Küche, 37 Rue des Bains.",
+      es: "Marisco y cocina regional, 37 rue des Bains.",
+      it: "Frutti di mare e cucina regionale, 37 rue des Bains.",
+    },
+  "Cuisine de saison et produits frais (cité au guide Michelin), 41 rue des Bains.":
+    {
+      en: "Seasonal cuisine and fresh produce (listed in the Michelin Guide), 41 Rue des Bains.",
+      de: "Saisonale Küche und frische Produkte (im Guide Michelin geführt), 41 Rue des Bains.",
+      es: "Cocina de temporada y productos frescos (citado en la Guía Michelin), 41 rue des Bains.",
+      it: "Cucina di stagione e prodotti freschi (citato nella Guida Michelin), 41 rue des Bains.",
+    },
+  "Cuisine saine & bar à jus frais, 49 rue des Bains.":
+    {
+      en: "Healthy food & fresh juice bar, 49 Rue des Bains.",
+      de: "Gesunde Küche & frische Saftbar, 49 Rue des Bains.",
+      es: "Cocina saludable y bar de zumos frescos, 49 rue des Bains.",
+      it: "Cucina sana & bar di succhi freschi, 49 rue des Bains.",
+    },
+  "Boulangerie-pâtisserie artisanale (spécialité : la falue), 55 rue des Bains.":
+    {
+      en: "Artisan bakery and pastry shop (speciality: the falue), 55 Rue des Bains.",
+      de: "Handwerkliche Bäckerei und Konditorei (Spezialität: die Falue), 55 Rue des Bains.",
+      es: "Panadería-pastelería artesanal (especialidad: la falue), 55 rue des Bains.",
+      it: "Panetteria-pasticceria artigianale (specialità: la falue), 55 rue des Bains.",
+    },
+  "Glacier, crêpes, gaufres et beignets, 25 rue des Bains.":
+    {
+      en: "Ice cream, crêpes, waffles and doughnuts, 25 Rue des Bains.",
+      de: "Eisdiele, Crêpes, Waffeln und Krapfen, 25 Rue des Bains.",
+      es: "Heladería, crepes, gofres y buñuelos, 25 rue des Bains.",
+      it: "Gelateria, crêpe, waffle e frittelle, 25 rue des Bains.",
+    },
+  "La supérette la plus proche, 57 rue des Bains, pour le dépannage du quotidien.":
+    {
+      en: "The nearest convenience store, 57 Rue des Bains, for everyday essentials.",
+      de: "Der nächste Nahversorger, 57 Rue des Bains, für den täglichen Bedarf.",
+      es: "La tienda de conveniencia más cercana, 57 rue des Bains, para imprevistos del día a día.",
+      it: "Il minimarket più vicino, 57 rue des Bains, per le necessità quotidiane.",
+    },
+  "Commerçants de bouche et producteurs locaux, au cœur du bourg. Les matins du jeudi au dimanche (tous les jours pendant les vacances scolaires).":
+    {
+      en: "Food traders and local producers, in the heart of the town. Mornings from Thursday to Sunday (daily during school holidays).",
+      de: "Lebensmittelhändler und lokale Erzeuger, im Herzen des Ortes. Vormittags von Donnerstag bis Sonntag (täglich in den Schulferien).",
+      es: "Comerciantes de alimentación y productores locales, en el corazón del pueblo. Por las mañanas de jueves a domingo (todos los días durante las vacaciones escolares).",
+      it: "Commercianti alimentari e produttori locali, nel cuore del paese. Le mattine dal giovedì alla domenica (tutti i giorni durante le vacanze scolastiche).",
+    },
+  "La pharmacie la plus proche, 42 rue des Bains (tél. 02 31 28 70 52). Pharmacie de garde : composez le 3237.":
+    {
+      en: "The nearest pharmacy, 42 Rue des Bains (tel. 02 31 28 70 52). For the on-duty pharmacy, dial 3237.",
+      de: "Die nächste Apotheke, 42 Rue des Bains (Tel. 02 31 28 70 52). Notdienst-Apotheke: Wählen Sie 3237.",
+      es: "La farmacia más cercana, 42 rue des Bains (tel. 02 31 28 70 52). Farmacia de guardia: marque el 3237.",
+      it: "La farmacia più vicina, 42 rue des Bains (tel. 02 31 28 70 52). Farmacia di turno: componete il 3237.",
+    },
+  "Station Belle Époque voisine, sa digue Marcel-Proust et le Grand Hôtel (~10 min en voiture).":
+    {
+      en: "Neighbouring Belle Époque resort, with its Marcel-Proust promenade and the Grand Hôtel (~10 min by car).",
+      de: "Benachbartes Belle-Époque-Seebad mit seiner Marcel-Proust-Promenade und dem Grand Hôtel (~10 Min. mit dem Auto).",
+      es: "Balneario Belle Époque vecino, con su paseo Marcel-Proust y el Grand Hôtel (~10 min en coche).",
+      it: "Vicina località Belle Époque, con la sua passeggiata Marcel-Proust e il Grand Hôtel (~10 min in auto).",
+    },
+  "Village d'artisans et halles médiévales (~8 min en voiture).":
+    {
+      en: "Craftspeople's village and medieval covered market (~8 min by car).",
+      de: "Handwerkerdorf und mittelalterliche Markthalle (~8 Min. mit dem Auto).",
+      es: "Pueblo de artesanos y mercado cubierto medieval (~8 min en coche).",
+      it: "Villaggio di artigiani e mercato coperto medievale (~8 min in auto).",
+    },
+  "Planches, villas et boutiques (~20 min en voiture).":
+    {
+      en: "Boardwalk, villas and boutiques (~20 min by car).",
+      de: "Strandpromenade, Villen und Boutiquen (~20 Min. mit dem Auto).",
+      es: "Paseo entablado, villas y tiendas (~20 min en coche).",
+      it: "Passerella, ville e negozi (~20 min in auto).",
+    },
+  "Descendez la rue des Bains jusqu'à la plage et flânez sur la digue-promenade au coucher du soleil. Faites un tour au marché couvert, offrez-vous des fruits de mer à La Maison du Coquillage, puis, à marée basse, partez à la découverte des Falaises des Vaches Noires et de leurs fossiles. Et prenez le temps d'une escapade jusqu'à Cabourg et sa digue Marcel-Proust, à quelques minutes.":
+    {
+      en: "Head down Rue des Bains to the beach and stroll along the promenade at sunset. Wander through the covered market, treat yourself to seafood at La Maison du Coquillage, then, at low tide, set off to explore the Vaches Noires cliffs and their fossils. And take time for a getaway to Cabourg and its Marcel-Proust promenade, just minutes away.",
+      de: "Gehen Sie die Rue des Bains hinunter zum Strand und schlendern Sie bei Sonnenuntergang über die Promenade. Bummeln Sie durch die Markthalle, gönnen Sie sich Meeresfrüchte bei La Maison du Coquillage, und machen Sie sich dann bei Ebbe auf, um die Klippen der Vaches Noires und ihre Fossilien zu entdecken. Und nehmen Sie sich Zeit für einen Ausflug nach Cabourg und seine Marcel-Proust-Promenade, nur wenige Minuten entfernt.",
+      es: "Baje la rue des Bains hasta la playa y pasee por el paseo marítimo al atardecer. Dé una vuelta por el mercado cubierto, disfrute de marisco en La Maison du Coquillage y, con marea baja, salga a descubrir los acantilados de las Vaches Noires y sus fósiles. Y tómese tiempo para una escapada a Cabourg y su paseo Marcel-Proust, a unos minutos.",
+      it: "Scendete lungo la rue des Bains fino alla spiaggia e passeggiate sul lungomare al tramonto. Fate un giro al mercato coperto, concedetevi dei frutti di mare a La Maison du Coquillage, poi, con la bassa marea, partite alla scoperta delle scogliere delle Vaches Noires e dei loro fossili. E prendetevi il tempo per una gita a Cabourg e alla sua passeggiata Marcel-Proust, a pochi minuti.",
+    },
+  "Boîte à clés fixée sur la porte de l'appartement":
+    {
+      en: "Key box fixed to the apartment door",
+      de: "An der Wohnungstür befestigter Schlüsselkasten",
+      es: "Caja de llaves fijada en la puerta del apartamento",
+      it: "Cassetta delle chiavi fissata alla porta dell'appartamento",
+    },
+  "L'immeuble se trouve au 23 rue des Bains, à Houlgate. L'entrée de l'immeuble est libre : poussez la porte et entrez.":
+    {
+      en: "The building is at 23 Rue des Bains, in Houlgate. The building entrance is open: push the door and go in.",
+      de: "Das Gebäude befindet sich in der Rue des Bains 23 in Houlgate. Der Eingang ist frei zugänglich: Drücken Sie die Tür auf und treten Sie ein.",
+      es: "El edificio está en el 23 de la rue des Bains, en Houlgate. La entrada del edificio es libre: empuje la puerta y entre.",
+      it: "L'edificio si trova al 23 di rue des Bains, a Houlgate. L'ingresso del palazzo è libero: spingete la porta ed entrate.",
+    },
+  "Montez jusqu'au 2ᵉ étage, à la porte du logement « Écume ».":
+    {
+      en: "Go up to the 2nd floor, to the door of the “Écume” apartment.",
+      de: "Gehen Sie hinauf in den 2. Stock, zur Tür der Wohnung „Écume“.",
+      es: "Suba a la 2.ª planta, hasta la puerta del alojamiento «Écume».",
+      it: "Salite al 2º piano, alla porta dell'alloggio «Écume».",
+    },
+  "Une boîte à clés est fixée sur la porte de l'appartement. Ouvrez-la avec le code que nous vous communiquons par message, puis prenez la clé.":
+    {
+      en: "A key box is fixed to the apartment door. Open it with the code we send you by message, then take the key.",
+      de: "An der Wohnungstür ist ein Schlüsselkasten befestigt. Öffnen Sie ihn mit dem Code, den wir Ihnen per Nachricht mitteilen, und nehmen Sie den Schlüssel.",
+      es: "Hay una caja de llaves fijada en la puerta del apartamento. Ábrala con el código que le comunicamos por mensaje y coja la llave.",
+      it: "Una cassetta delle chiavi è fissata alla porta dell'appartamento. Apritela con il codice che vi comunichiamo tramite messaggio, poi prendete la chiave.",
+    },
+  "Ouvrez la porte avec la clé. Bienvenue !":
+    {
+      en: "Open the door with the key. Welcome!",
+      de: "Öffnen Sie die Tür mit dem Schlüssel. Willkommen!",
+      es: "Abra la puerta con la llave. ¡Bienvenido!",
+      it: "Aprite la porta con la chiave. Benvenuti!",
+    },
+  "Devant le logement, rue des Bains, vous trouverez des places en zone bleue (stationnement gratuit à durée limitée — pensez au disque).\nPour un stationnement gratuit et sans limite de durée, privilégiez les rues voisines : rue Henri Dobert, rue Émilie Deschanel ou rue du 11 Novembre 1918.":
+    {
+      en: "In front of the property, on Rue des Bains, you'll find blue-zone spaces (free, time-limited parking — remember your parking disc).\nFor free parking with no time limit, use the nearby streets: Rue Henri Dobert, Rue Émilie Deschanel or Rue du 11 Novembre 1918.",
+      de: "Vor der Unterkunft, in der Rue des Bains, finden Sie Plätze in der blauen Zone (kostenloses, zeitlich begrenztes Parken — denken Sie an die Parkscheibe).\nFür kostenloses Parken ohne Zeitbegrenzung nutzen Sie die benachbarten Straßen: Rue Henri Dobert, Rue Émilie Deschanel oder Rue du 11 Novembre 1918.",
+      es: "Delante del alojamiento, en la rue des Bains, encontrará plazas en zona azul (aparcamiento gratuito de duración limitada — no olvide el disco).\nPara aparcar gratis y sin límite de tiempo, use las calles cercanas: rue Henri Dobert, rue Émilie Deschanel o rue du 11 Novembre 1918.",
+      it: "Davanti all'alloggio, in rue des Bains, troverete posti in zona blu (parcheggio gratuito a tempo limitato — ricordate il disco orario).\nPer un parcheggio gratuito e senza limiti di tempo, preferite le vie vicine: rue Henri Dobert, rue Émilie Deschanel o rue du 11 Novembre 1918.",
+    },
+  "Pièce à vivre avec canapé-lit (140 × 190)":
+    {
+      en: "Living area with sofa bed (140 × 190)",
+      de: "Wohnbereich mit Schlafsofa (140 × 190)",
+      es: "Sala de estar con sofá cama (140 × 190)",
+      it: "Zona giorno con divano letto (140 × 190)",
+    },
+  "Coin cuisine équipé (plaques de cuisson, four, micro-ondes, réfrigérateur/congélateur, Nespresso, bouilloire, grille-pain)":
+    {
+      en: "Fitted kitchenette (hob, oven, microwave, fridge/freezer, Nespresso, kettle, toaster)",
+      de: "Ausgestattete Küchenzeile (Kochfeld, Backofen, Mikrowelle, Kühl-/Gefrierschrank, Nespresso, Wasserkocher, Toaster)",
+      es: "Cocina americana equipada (placa, horno, microondas, frigorífico/congelador, Nespresso, hervidor, tostadora)",
+      it: "Angolo cottura attrezzato (piano cottura, forno, microonde, frigo/congelatore, Nespresso, bollitore, tostapane)",
+    },
+  "Salle d'eau : douche, lavabo et WC dans la même pièce":
+    {
+      en: "Shower room: shower, washbasin and toilet in the same room",
+      de: "Duschbad: Dusche, Waschbecken und WC im selben Raum",
+      es: "Aseo con ducha: ducha, lavabo y WC en la misma habitación",
+      it: "Bagno con doccia: doccia, lavabo e WC nella stessa stanza",
+    },
+  "Les draps sont fournis et les lits sont faits à votre arrivée. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition.":
+    {
+      en: "Sheets are provided and the beds are made on arrival. Each guest has a towel; a bath mat and a kitchen towel are also provided.",
+      de: "Die Bettwäsche wird gestellt und die Betten sind bei Ihrer Ankunft gemacht. Jeder Gast erhält ein Handtuch; ein Badvorleger und ein Geschirrtuch stehen ebenfalls zur Verfügung.",
+      es: "Las sábanas están incluidas y las camas hechas a su llegada. Cada huésped dispone de una toalla; también se ponen a su disposición una alfombrilla de baño y un paño de cocina.",
+      it: "Le lenzuola sono fornite e i letti sono pronti al vostro arrivo. Ogni ospite dispone di un asciugamano; sono inoltre a disposizione un tappetino da bagno e uno strofinaccio da cucina.",
+    },
+  "Le logement n'est pas encore équipé du WiFi. Prévoyez votre connexion mobile (4G/5G) pour vos usages internet. Merci de votre compréhension — l'installation est prévue.":
+    {
+      en: "The property isn't equipped with WiFi yet. Please plan to use your mobile data (4G/5G) for internet. Thank you for your understanding — installation is planned.",
+      de: "Die Unterkunft ist noch nicht mit WLAN ausgestattet. Planen Sie Ihre mobile Verbindung (4G/5G) für die Internetnutzung ein. Vielen Dank für Ihr Verständnis — die Installation ist geplant.",
+      es: "El alojamiento aún no dispone de WiFi. Prevea usar su conexión móvil (4G/5G) para internet. Gracias por su comprensión — la instalación está prevista.",
+      it: "L'alloggio non è ancora dotato di WiFi. Prevedete la vostra connessione mobile (4G/5G) per l'uso di internet. Grazie per la comprensione — l'installazione è prevista.",
+    },
+  "L'appartement se situe au 2ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages.":
+    {
+      en: "The apartment is on the 2nd floor and the building has no lift. Bear this in mind for your luggage.",
+      de: "Die Wohnung liegt im 2. Stock und das Gebäude hat keinen Aufzug. Bedenken Sie dies für Ihr Gepäck.",
+      es: "El apartamento está en la 2.ª planta y el edificio no tiene ascensor. Téngalo en cuenta para su equipaje.",
+      it: "L'appartamento si trova al 2º piano e l'edificio non ha ascensore. Tenetene conto per i bagagli.",
+    },
+  "La salle d'eau réunit douche, lavabo et WC. Merci de bien refermer le rideau / la paroi de douche pour éviter les éclaboussures.":
+    {
+      en: "The shower room combines shower, washbasin and toilet. Please close the shower curtain / screen properly to avoid splashes.",
+      de: "Das Duschbad vereint Dusche, Waschbecken und WC. Bitte schließen Sie den Duschvorhang / die Duschwand richtig, um Spritzer zu vermeiden.",
+      es: "El aseo reúne ducha, lavabo y WC. Por favor, cierre bien la cortina / mampara de ducha para evitar salpicaduras.",
+      it: "Il bagno riunisce doccia, lavabo e WC. Vi preghiamo di chiudere bene la tenda / il pannello della doccia per evitare schizzi.",
+    },
+  "Le coin cuisine est équipé : plaques de cuisson, four, micro-ondes, réfrigérateur avec congélateur, machine à café Nespresso (à capsules), bouilloire et grille-pain, ainsi que le nécessaire de cuisine (vaisselle, casseroles, couverts).":
+    {
+      en: "The kitchenette is equipped: hob, oven, microwave, fridge with freezer, Nespresso coffee machine (capsules), kettle and toaster, plus the kitchen essentials (crockery, pots, cutlery).",
+      de: "Die Küchenzeile ist ausgestattet: Kochfeld, Backofen, Mikrowelle, Kühlschrank mit Gefrierfach, Nespresso-Kaffeemaschine (Kapseln), Wasserkocher und Toaster sowie die Küchenausstattung (Geschirr, Töpfe, Besteck).",
+      es: "La cocina americana está equipada: placa, horno, microondas, frigorífico con congelador, cafetera Nespresso (de cápsulas), hervidor y tostadora, además del menaje de cocina (vajilla, ollas, cubiertos).",
+      it: "L'angolo cottura è attrezzato: piano cottura, forno, microonde, frigorifero con congelatore, macchina da caffè Nespresso (a capsule), bollitore e tostapane, oltre al necessario da cucina (stoviglie, pentole, posate).",
+    },
+  "La machine fonctionne avec des capsules Nespresso. Remplissez le réservoir d'eau, insérez une capsule, placez votre tasse et lancez. Quelques capsules vous sont offertes pour démarrer.":
+    {
+      en: "The machine uses Nespresso capsules. Fill the water tank, insert a capsule, place your cup and start. A few capsules are provided to get you going.",
+      de: "Die Maschine arbeitet mit Nespresso-Kapseln. Füllen Sie den Wassertank, legen Sie eine Kapsel ein, stellen Sie Ihre Tasse darunter und starten Sie. Einige Kapseln erhalten Sie zum Start.",
+      es: "La máquina funciona con cápsulas Nespresso. Llene el depósito de agua, inserte una cápsula, coloque su taza y póngala en marcha. Se le ofrecen algunas cápsulas para empezar.",
+      it: "La macchina funziona con capsule Nespresso. Riempite il serbatoio dell'acqua, inserite una capsula, mettete la tazza e avviate. Alcune capsule vi sono offerte per iniziare.",
+    },
+  "Pour allumer les radiateurs, appuyez sur le bouton on/off et réglez la température. Merci de limiter votre consommation et de baisser le chauffage à votre départ.":
+    {
+      en: "To switch on the radiators, press the on/off button and set the temperature. Please limit your consumption and turn the heating down when you leave.",
+      de: "Zum Einschalten der Heizkörper drücken Sie die On/Off-Taste und stellen Sie die Temperatur ein. Bitte begrenzen Sie Ihren Verbrauch und drehen Sie die Heizung bei Ihrer Abreise herunter.",
+      es: "Para encender los radiadores, pulse el botón on/off y ajuste la temperatura. Por favor, limite su consumo y baje la calefacción al marcharse.",
+      it: "Per accendere i termosifoni, premete il pulsante on/off e regolate la temperatura. Vi preghiamo di limitare il consumo e di abbassare il riscaldamento alla partenza.",
+    },
+  "En cas de casse durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.":
+    {
+      en: "In case of breakage during your stay, please let us know so we can replace the missing items. Depending on the nature of the damaged items, a refund may be requested.",
+      de: "Bei Bruch während Ihres Aufenthalts informieren Sie uns bitte, damit wir die fehlenden Teile ersetzen können. Je nach Art der beschädigten Gegenstände kann eine Erstattung verlangt werden.",
+      es: "En caso de rotura durante su estancia, infórmenos para que podamos reponer los elementos que falten. Según la naturaleza de los artículos dañados, se podrá solicitar un reembolso.",
+      it: "In caso di rottura durante il soggiorno, vi preghiamo di informarci affinché possiamo sostituire gli elementi mancanti. A seconda della natura degli articoli danneggiati, potrà essere richiesto un rimborso.",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. L'appartement se situe au 2ᵉ étage (sans ascenseur). Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).":
+    {
+      en: "Non-smoking property: please go down to the street to smoke or vape. Parties and gatherings are strictly forbidden. The apartment is on the 2nd floor (no lift). Please respect the neighbours' peace and quiet by keeping noise down, both inside the apartment and in the common areas (hallways, stairs).",
+      de: "Nichtraucher-Unterkunft: Bitte gehen Sie zum Rauchen oder Dampfen auf die Straße. Partys und Feiern sind strengstens untersagt. Die Wohnung liegt im 2. Stock (kein Aufzug). Bitte achten Sie auf die Ruhe der Nachbarn und vermeiden Sie Lärm, sowohl in der Wohnung als auch in den Gemeinschaftsbereichen (Flure, Treppen).",
+      es: "Alojamiento para no fumadores: por favor, baje a la calle para fumar o vapear. Las fiestas y reuniones están estrictamente prohibidas. El apartamento está en la 2.ª planta (sin ascensor). Por favor, respete la tranquilidad del vecindario limitando el ruido, tanto en el apartamento como en las zonas comunes (pasillos, escaleras).",
+      it: "Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Le feste e i ricevimenti sono severamente vietati. L'appartamento si trova al 2º piano (senza ascensore). Vi preghiamo di rispettare la tranquillità del vicinato limitando i rumori, sia nell'appartamento sia nelle parti comuni (corridoi, scale).",
+    },
+  "Un local à poubelles se trouve au rez-de-chaussée de l'immeuble. Merci d'y déposer et de trier vos déchets pendant et à la fin de votre séjour.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche":
+    {
+      en: "A bin room is located on the ground floor of the building. Please dispose of and sort your waste there during and at the end of your stay.\n🟡 Yellow bin: packaging and recyclables\n⚫ Grey bin: household waste\n🍷 Glass: nearest glass container",
+      de: "Im Erdgeschoss des Gebäudes befindet sich ein Müllraum. Bitte entsorgen und trennen Sie dort Ihren Abfall während und am Ende Ihres Aufenthalts.\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: nächstgelegener Glascontainer",
+      es: "Hay un cuarto de basuras en la planta baja del edificio. Deposite y separe allí sus residuos durante y al final de su estancia.\n🟡 Contenedor amarillo: envases y reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: contenedor de vidrio más cercano",
+      it: "Un locale rifiuti si trova al piano terra dell'edificio. Vi preghiamo di depositare e differenziare i rifiuti lì durante e alla fine del soggiorno.\n🟡 Bidone giallo: imballaggi e riciclabili\n⚫ Bidone grigio: rifiuti domestici\n🍷 Vetro: contenitore del vetro più vicino",
+    },
+  "Les animaux de compagnie sont les bienvenus ! Merci simplement de veiller à leur propreté, d'éviter qu'ils ne montent sur les lits et canapés, et de ne pas les laisser seuls dans le logement.":
+    {
+      en: "Pets are welcome! Please just keep them clean, keep them off the beds and sofas, and don't leave them alone in the property.",
+      de: "Haustiere sind willkommen! Bitte achten Sie lediglich auf ihre Sauberkeit, halten Sie sie von Betten und Sofas fern und lassen Sie sie nicht allein in der Unterkunft.",
+      es: "¡Las mascotas son bienvenidas! Solo le pedimos que cuide su limpieza, evite que suban a las camas y sofás, y no las deje solas en el alojamiento.",
+      it: "Gli animali domestici sono i benvenuti! Vi chiediamo solo di curarne la pulizia, di evitare che salgano su letti e divani e di non lasciarli soli nell'alloggio.",
+    },
+  "Montez jusqu'au 2ᵉ étage, à la porte du logement « Beau Rivage ».":
+    {
+      en: "Go up to the 2nd floor, to the door of the “Beau Rivage” apartment.",
+      de: "Gehen Sie hinauf in den 2. Stock, zur Tür der Wohnung „Beau Rivage“.",
+      es: "Suba a la 2.ª planta, hasta la puerta del alojamiento «Beau Rivage».",
+      it: "Salite al 2º piano, alla porta dell'alloggio «Beau Rivage».",
+    },
+  "Cuisine équipée (plaques de cuisson, four, micro-ondes, réfrigérateur/congélateur, Nespresso, bouilloire, grille-pain)":
+    {
+      en: "Fitted kitchen (hob, oven, microwave, fridge/freezer, Nespresso, kettle, toaster)",
+      de: "Ausgestattete Küche (Kochfeld, Backofen, Mikrowelle, Kühl-/Gefrierschrank, Nespresso, Wasserkocher, Toaster)",
+      es: "Cocina equipada (placa, horno, microondas, frigorífico/congelador, Nespresso, hervidor, tostadora)",
+      it: "Cucina attrezzata (piano cottura, forno, microonde, frigo/congelatore, Nespresso, bollitore, tostapane)",
+    },
+  "Montez jusqu'au 3ᵉ étage, à la porte du logement « Embruns ».":
+    {
+      en: "Go up to the 3rd floor, to the door of the “Embruns” apartment.",
+      de: "Gehen Sie hinauf in den 3. Stock, zur Tür der Wohnung „Embruns“.",
+      es: "Suba a la 3.ª planta, hasta la puerta del alojamiento «Embruns».",
+      it: "Salite al 3º piano, alla porta dell'alloggio «Embruns».",
+    },
+  "L'appartement se situe au 3ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages.":
+    {
+      en: "The apartment is on the 3rd floor and the building has no lift. Bear this in mind for your luggage.",
+      de: "Die Wohnung liegt im 3. Stock und das Gebäude hat keinen Aufzug. Bedenken Sie dies für Ihr Gepäck.",
+      es: "El apartamento está en la 3.ª planta y el edificio no tiene ascensor. Téngalo en cuenta para su equipaje.",
+      it: "L'appartamento si trova al 3º piano e l'edificio non ha ascensore. Tenetene conto per i bagagli.",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. L'appartement se situe au 3ᵉ étage (sans ascenseur). Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, dans le logement comme dans les parties communes (couloirs, escaliers).":
+    {
+      en: "Non-smoking property: please go down to the street to smoke or vape. Parties and gatherings are strictly forbidden. The apartment is on the 3rd floor (no lift). Please respect the neighbours' peace and quiet by keeping noise down, both inside the apartment and in the common areas (hallways, stairs).",
+      de: "Nichtraucher-Unterkunft: Bitte gehen Sie zum Rauchen oder Dampfen auf die Straße. Partys und Feiern sind strengstens untersagt. Die Wohnung liegt im 3. Stock (kein Aufzug). Bitte achten Sie auf die Ruhe der Nachbarn und vermeiden Sie Lärm, sowohl in der Wohnung als auch in den Gemeinschaftsbereichen (Flure, Treppen).",
+      es: "Alojamiento para no fumadores: por favor, baje a la calle para fumar o vapear. Las fiestas y reuniones están estrictamente prohibidas. El apartamento está en la 3.ª planta (sin ascensor). Por favor, respete la tranquilidad del vecindario limitando el ruido, tanto en el apartamento como en las zonas comunes (pasillos, escaleras).",
+      it: "Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Le feste e i ricevimenti sono severamente vietati. L'appartamento si trova al 3º piano (senza ascensore). Vi preghiamo di rispettare la tranquillità del vicinato limitando i rumori, sia nell'appartamento sia nelle parti comuni (corridoi, scale).",
+    },
+  "Montez jusqu'au 3ᵉ étage, à la porte du logement « Belle Époque ».":
+    {
+      en: "Go up to the 3rd floor, to the door of the “Belle Époque” apartment.",
+      de: "Gehen Sie hinauf in den 3. Stock, zur Tür der Wohnung „Belle Époque“.",
+      es: "Suba a la 3.ª planta, hasta la puerta del alojamiento «Belle Époque».",
+      it: "Salite al 3º piano, alla porta dell'alloggio «Belle Époque».",
+    },
+  "🛏️ Le nécessaire":
+    {
+      en: "🛏️ Essentials",
+      de: "🛏️ Das Nötige",
+      es: "🛏️ Lo esencial",
+      it: "🛏️ L'essenziale",
+    },
+  "☂️ Utilisation du parasol":
+    {
+      en: "☂️ Using the parasol",
+      de: "☂️ Sonnenschirm bedienen",
+      es: "☂️ Uso de la sombrilla",
+      it: "☂️ Uso dell'ombrellone",
+    },
+  "☕ Machine à café Nespresso":
+    {
+      en: "☕ Nespresso coffee machine",
+      de: "☕ Nespresso-Kaffeemaschine",
+      es: "☕ Cafetera Nespresso",
+      it: "☕ Macchina da caffè Nespresso",
+    },
+  "Cuisine équipée (plaques tactiles, micro-ondes, machine Nespresso)":
+    {
+      en: "Equipped kitchen (touch hob, microwave, Nespresso machine)",
+      de: "Ausgestattete Küche (Touch-Kochfeld, Mikrowelle, Nespresso-Maschine)",
+      es: "Cocina equipada (placa táctil, microondas, cafetera Nespresso)",
+      it: "Cucina attrezzata (piano cottura touch, microonde, macchina Nespresso)",
+    },
+  "Salon avec canapé-lit et TV":
+    {
+      en: "Living room with sofa bed and TV",
+      de: "Wohnzimmer mit Schlafsofa und Fernseher",
+      es: "Salón con sofá cama y TV",
+      it: "Soggiorno con divano letto e TV",
+    },
+  "Salle d'eau avec WC":
+    {
+      en: "Shower room with toilet",
+      de: "Duschbad mit WC",
+      es: "Aseo con ducha y WC",
+      it: "Bagno con doccia e WC",
+    },
+  "Chambre sous pente avec lit":
+    {
+      en: "Sloped-ceiling bedroom with bed",
+      de: "Schlafzimmer unter der Dachschräge mit Bett",
+      es: "Dormitorio abuhardillado con cama",
+      it: "Camera mansardata con letto",
+    },
+  "Commode et rangements":
+    {
+      en: "Chest of drawers and storage",
+      de: "Kommode und Stauraum",
+      es: "Cómoda y almacenamiento",
+      it: "Cassettone e ripostigli",
+    },
+  "Draps fournis et lit fait":
+    {
+      en: "Sheets provided and bed made",
+      de: "Bettwäsche gestellt und Bett gemacht",
+      es: "Sábanas incluidas y cama hecha",
+      it: "Lenzuola fornite e letto pronto",
+    },
+  "TV avec décodeur Bouygues":
+    {
+      en: "TV with Bouygues set-top box",
+      de: "Fernseher mit Bouygues-Receiver",
+      es: "TV con descodificador Bouygues",
+      it: "TV con decoder Bouygues",
+    },
+  "TV (décodeur Bouygues)":
+    {
+      en: "TV (Bouygues set-top box)",
+      de: "Fernseher (Bouygues-Receiver)",
+      es: "TV (descodificador Bouygues)",
+      it: "TV (decoder Bouygues)",
+    },
+  "TV (Orange)":
+    {
+      en: "TV (Orange)",
+      de: "Fernseher (Orange)",
+      es: "TV (Orange)",
+      it: "TV (Orange)",
+    },
+  "TV (salon et chambre double)":
+    {
+      en: "TV (living room and double bedroom)",
+      de: "Fernseher (Wohnzimmer und Doppelzimmer)",
+      es: "TV (salón y dormitorio doble)",
+      it: "TV (soggiorno e camera matrimoniale)",
+    },
+  "TV (x2)":
+    {
+      en: "TV (x2)",
+      de: "Fernseher (x2)",
+      es: "TV (x2)",
+      it: "TV (x2)",
+    },
+  "Entrée indépendante":
+    {
+      en: "Independent entrance",
+      de: "Separater Eingang",
+      es: "Entrada independiente",
+      it: "Ingresso indipendente",
+    },
+  "Entrée":
+    {
+      en: "Entrance",
+      de: "Eingang",
+      es: "Entrada",
+      it: "Ingresso",
+    },
+  "Rassembler les serviettes de toilette utilisées":
+    {
+      en: "Gather up the used towels",
+      de: "Die benutzten Handtücher zusammenlegen",
+      es: "Reunir las toallas usadas",
+      it: "Raccogliere gli asciugamani usati",
+    },
+  "Baisser ou éteindre le chauffage":
+    {
+      en: "Turn the heating down or off",
+      de: "Die Heizung herunterdrehen oder ausschalten",
+      es: "Bajar o apagar la calefacción",
+      it: "Abbassare o spegnere il riscaldamento",
+    },
+  "Sortir les poubelles dans la rue":
+    {
+      en: "Take the bins out to the street",
+      de: "Den Müll auf die Straße bringen",
+      es: "Sacar la basura a la calle",
+      it: "Portare i rifiuti in strada",
+    },
+  "Cuisine équipée avec accès à la terrasse":
+    {
+      en: "Equipped kitchen with access to the terrace",
+      de: "Ausgestattete Küche mit Zugang zur Terrasse",
+      es: "Cocina equipada con acceso a la terraza",
+      it: "Cucina attrezzata con accesso alla terrazza",
+    },
+  "Chambre avec lit simple":
+    {
+      en: "Bedroom with a single bed",
+      de: "Schlafzimmer mit Einzelbett",
+      es: "Dormitorio con cama individual",
+      it: "Camera con letto singolo",
+    },
+  "Salle de douche avec lavabo":
+    {
+      en: "Shower room with washbasin",
+      de: "Duschbad mit Waschbecken",
+      es: "Cuarto de ducha con lavabo",
+      it: "Sala doccia con lavabo",
+    },
+  "Chambre avec lit double et lavabo":
+    {
+      en: "Bedroom with a double bed and washbasin",
+      de: "Schlafzimmer mit Doppelbett und Waschbecken",
+      es: "Dormitorio con cama doble y lavabo",
+      it: "Camera con letto matrimoniale e lavabo",
+    },
+  "Table et 4 chaises":
+    {
+      en: "Table and 4 chairs",
+      de: "Tisch und 4 Stühle",
+      es: "Mesa y 4 sillas",
+      it: "Tavolo e 4 sedie",
+    },
+  "Entrée de l'immeuble libre (on entre directement)":
+    {
+      en: "Building entrance open (you go straight in)",
+      de: "Gebäudeeingang frei zugänglich (man geht direkt hinein)",
+      es: "Entrada del edificio libre (se entra directamente)",
+      it: "Ingresso del palazzo libero (si entra direttamente)",
+    },
+  "Code de la boîte communiqué par message":
+    {
+      en: "Key box code sent by message",
+      de: "Code des Schlüsselkastens per Nachricht mitgeteilt",
+      es: "Código de la caja comunicado por mensaje",
+      it: "Codice della cassetta comunicato tramite messaggio",
+    },
+  "Salle d'eau avec douche":
+    {
+      en: "Shower room with shower",
+      de: "Duschbad mit Dusche",
+      es: "Aseo con ducha",
+      it: "Bagno con doccia",
+    },
+  "Chambre avec lit double (140 × 190)":
+    {
+      en: "Bedroom with a double bed (140 × 190)",
+      de: "Schlafzimmer mit Doppelbett (140 × 190)",
+      es: "Dormitorio con cama doble (140 × 190)",
+      it: "Camera con letto matrimoniale (140 × 190)",
+    },
+  "Salon avec canapé-lit d'appoint (140 × 190)":
+    {
+      en: "Living room with an extra sofa bed (140 × 190)",
+      de: "Wohnzimmer mit zusätzlichem Schlafsofa (140 × 190)",
+      es: "Salón con sofá cama supletorio (140 × 190)",
+      it: "Soggiorno con divano letto aggiuntivo (140 × 190)",
+    },
+  "Salle d'eau avec douche, lavabo et WC":
+    {
+      en: "Shower room with shower, washbasin and toilet",
+      de: "Duschbad mit Dusche, Waschbecken und WC",
+      es: "Aseo con ducha, lavabo y WC",
+      it: "Bagno con doccia, lavabo e WC",
+    },
+  "Marché couvert (La Halle)":
+    {
+      en: "Covered market (La Halle)",
+      de: "Markthalle (La Halle)",
+      es: "Mercado cubierto (La Halle)",
+      it: "Mercato coperto (La Halle)",
+    },
+  "La Haute-Ville":
+    {
+      en: "The Upper Town",
+      de: "Die Oberstadt",
+      es: "La Ciudad Alta",
+      it: "La Città Alta",
+    },
+  "Musée Christian Dior":
+    {
+      en: "Christian Dior Museum",
+      de: "Christian-Dior-Museum",
+      es: "Museo Christian Dior",
+      it: "Museo Christian Dior",
+    },
+  "Musée d'Art moderne Richard Anacréon":
+    {
+      en: "Richard Anacréon Museum of Modern Art",
+      de: "Richard-Anacréon-Museum für moderne Kunst",
+      es: "Museo de Arte Moderno Richard Anacréon",
+      it: "Museo d'Arte Moderna Richard Anacréon",
+    },
+  "Musée d'Art et d'Histoire de Granville":
+    {
+      en: "Granville Museum of Art and History",
+      de: "Museum für Kunst und Geschichte von Granville",
+      es: "Museo de Arte e Historia de Granville",
+      it: "Museo d'Arte e Storia di Granville",
+    },
+  "Office de Tourisme Granville Terre et Mer":
+    {
+      en: "Granville Terre et Mer Tourist Office",
+      de: "Touristeninformation Granville Terre et Mer",
+      es: "Oficina de Turismo Granville Terre et Mer",
+      it: "Ufficio del Turismo Granville Terre et Mer",
+    },
+  "Le sentier des douaniers (GR223)":
+    {
+      en: "The coastal customs path (GR223)",
+      de: "Der Zöllnerpfad (GR223)",
+      es: "El sendero de los aduaneros (GR223)",
+      it: "Il sentiero dei doganieri (GR223)",
+    },
+  "Plage du Plat Gousset":
+    {
+      en: "Plat Gousset beach",
+      de: "Strand Plat Gousset",
+      es: "Playa del Plat Gousset",
+      it: "Spiaggia del Plat Gousset",
+    },
+  "Plage de Hérel":
+    {
+      en: "Hérel beach",
+      de: "Strand von Hérel",
+      es: "Playa de Hérel",
+      it: "Spiaggia di Hérel",
+    },
+  "Plage de Donville-les-Bains":
+    {
+      en: "Donville-les-Bains beach",
+      de: "Strand von Donville-les-Bains",
+      es: "Playa de Donville-les-Bains",
+      it: "Spiaggia di Donville-les-Bains",
+    },
+  "Plage de Saint-Pair-sur-Mer":
+    {
+      en: "Saint-Pair-sur-Mer beach",
+      de: "Strand von Saint-Pair-sur-Mer",
+      es: "Playa de Saint-Pair-sur-Mer",
+      it: "Spiaggia di Saint-Pair-sur-Mer",
+    },
+  "Cinéma Le Sélect":
+    {
+      en: "Le Sélect cinema",
+      de: "Kino Le Sélect",
+      es: "Cine Le Sélect",
+      it: "Cinema Le Sélect",
+    },
+  "Casino de Granville":
+    {
+      en: "Granville Casino",
+      de: "Casino von Granville",
+      es: "Casino de Granville",
+      it: "Casinò di Granville",
+    },
+  "Roc des Curiosités — Musée & Aquarium":
+    {
+      en: "Roc des Curiosités — Museum & Aquarium",
+      de: "Roc des Curiosités — Museum & Aquarium",
+      es: "Roc des Curiosités — Museo y Acuario",
+      it: "Roc des Curiosités — Museo e Acquario",
+    },
+  "Centre Régional de Nautisme (CRNG)":
+    {
+      en: "Regional Sailing Centre (CRNG)",
+      de: "Regionales Wassersportzentrum (CRNG)",
+      es: "Centro Regional de Náutica (CRNG)",
+      it: "Centro Regionale di Nautica (CRNG)",
+    },
+  "Restaurants du Vaugueux":
+    {
+      en: "Le Vaugueux restaurants",
+      de: "Restaurants im Vaugueux",
+      es: "Restaurantes del Vaugueux",
+      it: "Ristoranti del Vaugueux",
+    },
+  "Château de Caen (~5 min)":
+    {
+      en: "Caen Castle (~5 min)",
+      de: "Schloss von Caen (~5 Min.)",
+      es: "Castillo de Caen (~5 min)",
+      it: "Castello di Caen (~5 min)",
+    },
+  "Port de plaisance & marché du dimanche":
+    {
+      en: "Marina & Sunday market",
+      de: "Yachthafen & Sonntagsmarkt",
+      es: "Puerto deportivo y mercado del domingo",
+      it: "Porto turistico & mercato della domenica",
+    },
+  "Boulangerie & tabac rue du Vaugueux":
+    {
+      en: "Bakery & tobacconist on Rue du Vaugueux",
+      de: "Bäckerei & Tabakladen in der Rue du Vaugueux",
+      es: "Panadería y estanco en la rue du Vaugueux",
+      it: "Panetteria & tabacchi in rue du Vaugueux",
+    },
+  "Cinéma LUX":
+    {
+      en: "LUX cinema",
+      de: "Kino LUX",
+      es: "Cine LUX",
+      it: "Cinema LUX",
+    },
+  "Boulangeries rue Saint-Pierre":
+    {
+      en: "Bakeries on Rue Saint-Pierre",
+      de: "Bäckereien in der Rue Saint-Pierre",
+      es: "Panaderías en la rue Saint-Pierre",
+      it: "Panetterie in rue Saint-Pierre",
+    },
+  "Pharmacie du Vaugueux":
+    {
+      en: "Vaugueux pharmacy",
+      de: "Apotheke Vaugueux",
+      es: "Farmacia del Vaugueux",
+      it: "Farmacia del Vaugueux",
+    },
+  "Pharmacie de la presqu'île":
+    {
+      en: "Peninsula pharmacy",
+      de: "Apotheke der Halbinsel",
+      es: "Farmacia de la península",
+      it: "Farmacia della penisola",
+    },
+  "Rue Froide & ses commerces":
+    {
+      en: "Rue Froide & its shops",
+      de: "Rue Froide & ihre Geschäfte",
+      es: "Rue Froide y sus comercios",
+      it: "Rue Froide e i suoi negozi",
+    },
+  "Rue Saint-Pierre (artère commerçante)":
+    {
+      en: "Rue Saint-Pierre (shopping street)",
+      de: "Rue Saint-Pierre (Einkaufsstraße)",
+      es: "Rue Saint-Pierre (calle comercial)",
+      it: "Rue Saint-Pierre (via commerciale)",
+    },
+  "Pharmacie Saint-Pierre":
+    {
+      en: "Saint-Pierre pharmacy",
+      de: "Apotheke Saint-Pierre",
+      es: "Farmacia Saint-Pierre",
+      it: "Farmacia Saint-Pierre",
+    },
+  "Casino de Houlgate (~3 min)":
+    {
+      en: "Houlgate Casino (~3 min)",
+      de: "Casino von Houlgate (~3 Min.)",
+      es: "Casino de Houlgate (~3 min)",
+      it: "Casinò di Houlgate (~3 min)",
+    },
+  "Marché de Houlgate (centre, ~3–4 min)":
+    {
+      en: "Houlgate market (centre, ~3–4 min)",
+      de: "Markt von Houlgate (Zentrum, ~3–4 Min.)",
+      es: "Mercado de Houlgate (centro, ~3–4 min)",
+      it: "Mercato di Houlgate (centro, ~3–4 min)",
+    },
+  "Office de tourisme (~4 min)":
+    {
+      en: "Tourist office (~4 min)",
+      de: "Touristeninformation (~4 Min.)",
+      es: "Oficina de turismo (~4 min)",
+      it: "Ufficio del turismo (~4 min)",
+    },
+  "Plage de Houlgate":
+    {
+      en: "Houlgate beach",
+      de: "Strand von Houlgate",
+      es: "Playa de Houlgate",
+      it: "Spiaggia di Houlgate",
+    },
+  "Falaises des Vaches Noires":
+    {
+      en: "Vaches Noires cliffs",
+      de: "Klippen der Vaches Noires",
+      es: "Acantilados de las Vaches Noires",
+      it: "Scogliere delle Vaches Noires",
+    },
+  "Casino de Houlgate":
+    {
+      en: "Houlgate Casino",
+      de: "Casino von Houlgate",
+      es: "Casino de Houlgate",
+      it: "Casinò di Houlgate",
+    },
+  "Pharmacie des Bains":
+    {
+      en: "Les Bains pharmacy",
+      de: "Apotheke des Bains",
+      es: "Farmacia des Bains",
+      it: "Farmacia des Bains",
+    },
+  "Pharmacie de la Gare":
+    {
+      en: "Station pharmacy",
+      de: "Bahnhofsapotheke",
+      es: "Farmacia de la Estación",
+      it: "Farmacia della Stazione",
+    },
+  "Pharmacie Le Saint":
+    {
+      en: "Le Saint pharmacy",
+      de: "Apotheke Le Saint",
+      es: "Farmacia Le Saint",
+      it: "Farmacia Le Saint",
+    },
+  "Pharmacie Centrale":
+    {
+      en: "Central pharmacy",
+      de: "Zentralapotheke",
+      es: "Farmacia Central",
+      it: "Farmacia Centrale",
+    },
+  "Stationnement payant autour de l'appartement.\nPlace Courtonne et sur le port (parking avec barrière).\nEn voirie : rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux et Graindorge (payant de 9h à 12h30 et de 14h à 19h).\nParking souterrain du Château, tout proche.\n⚠️ Évitez le port le samedi soir : le marché s'y tient le dimanche matin.":
+    {
+      en: "Paid parking around the apartment.\nPlace Courtonne and at the harbour (car park with barrier).\nOn-street: Rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux and Graindorge (paid 9 a.m.–12:30 p.m. and 2 p.m.–7 p.m.).\nChâteau underground car park, very close.\n⚠️ Avoid the harbour on Saturday evening: the market is held there on Sunday morning.",
+      de: "Kostenpflichtiges Parken rund um die Wohnung.\nPlace Courtonne und am Hafen (Parkplatz mit Schranke).\nAm Straßenrand: Rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux und Graindorge (kostenpflichtig 9–12:30 Uhr und 14–19 Uhr).\nTiefgarage Château, ganz in der Nähe.\n⚠️ Meiden Sie den Hafen am Samstagabend: Sonntagvormittag findet dort der Markt statt.",
+      es: "Aparcamiento de pago alrededor del apartamento.\nPlace Courtonne y en el puerto (aparcamiento con barrera).\nEn la vía pública: rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux y Graindorge (de pago de 9:00 a 12:30 y de 14:00 a 19:00).\nAparcamiento subterráneo del Château, muy cerca.\n⚠️ Evite el puerto el sábado por la noche: el mercado se celebra allí el domingo por la mañana.",
+      it: "Parcheggio a pagamento intorno all'appartamento.\nPlace Courtonne e sul porto (parcheggio con sbarra).\nSu strada: rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux e Graindorge (a pagamento dalle 9 alle 12:30 e dalle 14 alle 19).\nParcheggio sotterraneo del Château, molto vicino.\n⚠️ Evitate il porto il sabato sera: la domenica mattina vi si tiene il mercato.",
+    },
 };
