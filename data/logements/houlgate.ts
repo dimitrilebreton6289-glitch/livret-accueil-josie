@@ -71,7 +71,7 @@ function aSavoirSections(etage: string) {
     {
       titre: "🎁 Produits d'accueil",
       contenu:
-        "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.",
+        "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.",
     },
     {
       titre: "🛏️ Linge de maison",

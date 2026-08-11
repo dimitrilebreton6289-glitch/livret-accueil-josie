@@ -1668,6 +1668,14 @@ export const CONTENT: Record<string, Tr> = {
       es: "A su llegada, encontrará a su disposición: papel higiénico, una miniatura de gel de ducha/champú por persona, sal y pimienta, algunas cápsulas de café y té, lavavajillas y una esponja.",
       it: "Al vostro arrivo troverete a disposizione: carta igienica, un mini gel doccia/shampoo a persona, sale e pepe, alcune capsule di caffè e tè, detersivo per piatti e una spugna.",
     },
+  // Houlgate : produits d'accueil sans sel et poivre
+  "À votre arrivée, vous trouverez à disposition : papier toilette, une miniature de gel douche/shampooing par personne, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.":
+    {
+      en: "On arrival, you'll find provided: toilet paper, a mini shower gel/shampoo per person, a few coffee capsules as well as tea, washing-up liquid and a sponge.",
+      de: "Bei Ihrer Ankunft finden Sie bereitgestellt: Toilettenpapier, ein Mini-Duschgel/Shampoo pro Person, einige Kaffeekapseln sowie Tee, Spülmittel und einen Schwamm.",
+      es: "A su llegada, encontrará a su disposición: papel higiénico, una miniatura de gel de ducha/champú por persona, algunas cápsulas de café y té, lavavajillas y una esponja.",
+      it: "Al vostro arrivo troverete a disposizione: carta igienica, un mini gel doccia/shampoo a persona, alcune capsule di caffè e tè, detersivo per piatti e una spugna.",
+    },
   "🛏️ Linge de maison": {
     en: "🛏️ Bed & bath linen",
     de: "🛏️ Bett- und Haushaltswäsche",
