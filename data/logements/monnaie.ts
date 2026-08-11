@@ -64,12 +64,10 @@ export const monnaie: Logement = {
       ],
       etage: [
         "Salon avec TV et accès à la terrasse",
-        "Chambre avec lit simple",
         "Salle de douche avec lavabo",
       ],
       etage2: [
         "Chambre avec lit double et lavabo",
-        "Chambre avec lit simple",
         "Douche sous les toits, accès par une échelle de meunier",
         "WC",
       ],
@@ -81,8 +79,8 @@ export const monnaie: Logement = {
   },
 
   wifi: {
-    reseau: "Communiqué à l'arrivée",
-    motDePasse: "Communiqué à l'arrivée",
+    reseau: "Livebox-CFD8",
+    motDePasse: "cC4fkvfXDP5czPsX93",
   },
 
   pratique: {
@@ -116,7 +114,7 @@ export const monnaie: Logement = {
         "Capacité maximale : 4 voyageurs. Logement non-fumeur : merci de sortir sur la terrasse pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel et cette rue piétonne.",
     },
     poubelles:
-      "Les poubelles sont à déposer dans la rue, tous les soirs.",
+      "Les poubelles sont à déposer rue Froide (le camion passe tous les jours) et non dans la rue de la Monnaie.",
     animaux:
       "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.",
   },
@@ -150,7 +148,7 @@ export const monnaie: Logement = {
     horaire: "Jusqu'à 10h",
     instructions: [
       "Rassembler les serviettes de toilette utilisées",
-      "Sortir les poubelles dans la rue",
+      "Sortir les poubelles rue Froide (pas dans la rue de la Monnaie)",
       "Baisser ou éteindre le chauffage",
       "Éteindre les lumières et bien fermer les fenêtres et la porte de la terrasse",
       "Verrouiller la porte d'entrée et remettre les clés dans la boîte à clé",
