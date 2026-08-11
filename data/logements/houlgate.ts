@@ -417,7 +417,40 @@ function pratique(capacite: number, etage: string) {
 export const houlgate1: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
   ...base({ id: "houlgate-1", nom: "Houlgate 1", etage: "2ᵉ étage", cover: "/logements/houlgate-1/cover.jpg", coverCredit: "Photo : la digue de Houlgate — Gregory Deryckère, CC BY 2.5 (Wikimedia Commons). Provisoire.", capacite: 4 }),
-  arrivee: arrivee("2ᵉ étage", "Houlgate 1"),
+  arrivee: {
+    // Guide d'arrivée illustré propre à Houlgate 1 (photos + vidéo de la boîte à clés).
+    ...arrivee("2ᵉ étage", "Houlgate 1"),
+    etapes: [
+      {
+        texte: "Rendez-vous au 23 rue des Bains, à Houlgate.",
+        photo: "/logements/houlgate-1/arrivee/1.jpg",
+      },
+      {
+        texte:
+          "Poussez la porte bleue à côté du restaurant. Il n'y a ni clé ni badge pour cette porte : il suffit de la pousser pour entrer.",
+        photo: "/logements/houlgate-1/arrivee/2.jpg",
+      },
+      {
+        texte: "Dirigez-vous au fond du couloir, puis montez au 2ᵉ étage.",
+      },
+      {
+        texte: "Au 2ᵉ étage, dirigez-vous vers la porte numéro 1.",
+        photo: "/logements/houlgate-1/arrivee/3.jpg",
+      },
+      {
+        texte:
+          "Une boîte à clés se trouve à côté de cette porte. Composez le code reçu par message dans la conversation, puis ouvrez-la comme le montre la vidéo ci-dessous et prenez la clé.",
+      },
+      {
+        texte: "Ouvrez la porte avec la clé.",
+      },
+      {
+        texte: "Bienvenue et bon séjour ! 🌊",
+      },
+    ],
+    video: "/logements/houlgate-1/arrivee/keybox.mp4",
+    videoPortrait: true,
+  },
   pratique: pratique(4, "2ᵉ étage"),
   equipements: equipements("t2"),
 };
