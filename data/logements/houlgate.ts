@@ -502,7 +502,41 @@ export const houlgate2: Logement = {
 export const houlgate3: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
   ...base({ id: "houlgate-3", nom: "Houlgate 3", etage: "3ᵉ étage", cover: "/logements/houlgate-3/cover.jpg", coverCredit: "Photo : villa Belle Époque, 1 boulevard des Belges, Houlgate — DimiTalen, CC0 (Wikimedia Commons). Provisoire.", capacite: 4 }),
-  arrivee: arrivee("3ᵉ étage", "Houlgate 3"),
+  arrivee: {
+    // Même entrée d'immeuble et même boîte à clés que Houlgate 1 (photos 1/2 et
+    // vidéo réutilisées) ; on monte au 3ᵉ étage, porte n° 3.
+    ...arrivee("3ᵉ étage", "Houlgate 3"),
+    etapes: [
+      {
+        texte: "Rendez-vous au 23 rue des Bains, à Houlgate.",
+        photo: "/logements/houlgate-1/arrivee/1.jpg",
+      },
+      {
+        texte:
+          "Poussez la porte bleue à côté du restaurant. Il n'y a ni clé ni badge pour cette porte : il suffit de la pousser pour entrer.",
+        photo: "/logements/houlgate-1/arrivee/2.jpg",
+      },
+      {
+        texte: "Dirigez-vous au fond du couloir, puis montez au 3ᵉ étage.",
+      },
+      {
+        texte: "Au 3ᵉ étage, dirigez-vous vers la porte numéro 3.",
+        photo: "/logements/houlgate-3/arrivee/3.jpg",
+      },
+      {
+        texte:
+          "Une boîte à clés se trouve à côté de cette porte. Composez le code reçu par message dans la conversation, puis ouvrez-la comme le montre la vidéo ci-dessous et prenez la clé.",
+      },
+      {
+        texte: "Ouvrez la porte avec la clé.",
+      },
+      {
+        texte: "Bienvenue et bon séjour ! 🌊",
+      },
+    ],
+    video: "/logements/houlgate-1/arrivee/keybox.mp4",
+    videoPortrait: true,
+  },
   pratique: pratique(4, "3ᵉ étage"),
   equipements: equipements("t2"),
 };
@@ -511,7 +545,41 @@ export const houlgate3: Logement = {
 export const houlgate4: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
   ...base({ id: "houlgate-4", nom: "Houlgate 4", etage: "3ᵉ étage", cover: "/logements/houlgate-4/cover.jpg", coverCredit: "Photo : Houlgate, plage au couchant — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
-  arrivee: arrivee("3ᵉ étage", "Houlgate 4"),
+  arrivee: {
+    // Même entrée d'immeuble et même boîte à clés que Houlgate 1 (photos 1/2 et
+    // vidéo réutilisées) ; on monte au 3ᵉ étage, porte n° 4.
+    ...arrivee("3ᵉ étage", "Houlgate 4"),
+    etapes: [
+      {
+        texte: "Rendez-vous au 23 rue des Bains, à Houlgate.",
+        photo: "/logements/houlgate-1/arrivee/1.jpg",
+      },
+      {
+        texte:
+          "Poussez la porte bleue à côté du restaurant. Il n'y a ni clé ni badge pour cette porte : il suffit de la pousser pour entrer.",
+        photo: "/logements/houlgate-1/arrivee/2.jpg",
+      },
+      {
+        texte: "Dirigez-vous au fond du couloir, puis montez au 3ᵉ étage.",
+      },
+      {
+        texte: "Au 3ᵉ étage, dirigez-vous vers la porte numéro 4.",
+        photo: "/logements/houlgate-4/arrivee/3.jpg",
+      },
+      {
+        texte:
+          "Une boîte à clés se trouve à côté de cette porte. Composez le code reçu par message dans la conversation, puis ouvrez-la comme le montre la vidéo ci-dessous et prenez la clé.",
+      },
+      {
+        texte: "Ouvrez la porte avec la clé.",
+      },
+      {
+        texte: "Bienvenue et bon séjour ! 🌊",
+      },
+    ],
+    video: "/logements/houlgate-1/arrivee/keybox.mp4",
+    videoPortrait: true,
+  },
   pratique: pratique(2, "3ᵉ étage"),
   equipements: equipements("studio"),
 };

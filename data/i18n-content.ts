@@ -29,6 +29,24 @@ export const CONTENT: Record<string, Tr> = {
     es: "Diríjase al fondo del pasillo y suba a la 2.ª planta.",
     it: "Andate in fondo al corridoio, poi salite al 2° piano.",
   },
+  "Dirigez-vous au fond du couloir, puis montez au 3ᵉ étage.": {
+    en: "Go to the end of the hallway, then up to the 3rd floor.",
+    de: "Gehen Sie bis zum Ende des Flurs und dann hinauf in den 3. Stock.",
+    es: "Diríjase al fondo del pasillo y suba a la 3.ª planta.",
+    it: "Andate in fondo al corridoio, poi salite al 3° piano.",
+  },
+  "Au 3ᵉ étage, dirigez-vous vers la porte numéro 3.": {
+    en: "On the 3rd floor, head to door number 3.",
+    de: "Gehen Sie im 3. Stock zur Tür Nummer 3.",
+    es: "En la 3.ª planta, diríjase a la puerta número 3.",
+    it: "Al 3° piano, dirigetevi verso la porta numero 3.",
+  },
+  "Au 3ᵉ étage, dirigez-vous vers la porte numéro 4.": {
+    en: "On the 3rd floor, head to door number 4.",
+    de: "Gehen Sie im 3. Stock zur Tür Nummer 4.",
+    es: "En la 3.ª planta, diríjase a la puerta número 4.",
+    it: "Al 3° piano, dirigetevi verso la porta numero 4.",
+  },
   "Au 2ᵉ étage, dirigez-vous vers la porte numéro 1.": {
     en: "On the 2nd floor, head to door number 1.",
     de: "Gehen Sie im 2. Stock zur Tür Nummer 1.",
