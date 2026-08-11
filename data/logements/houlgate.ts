@@ -417,8 +417,7 @@ function pratique(capacite: number, etage: string) {
 
 /** Houlgate 1 — 2ᵉ étage — T2 (4 pers.). */
 export const houlgate1: Logement = {
-  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "houlgate-1", nom: "Houlgate 1", etage: "2ᵉ étage", cover: "/logements/houlgate-1/cover.jpg", coverCredit: "Photo : la digue de Houlgate — Gregory Deryckère, CC BY 2.5 (Wikimedia Commons). Provisoire.", capacite: 4 }),
+  ...base({ id: "houlgate-1", nom: "Houlgate 1", etage: "2ᵉ étage", cover: "/logements/houlgate-1/cover.jpg", capacite: 4 }),
   arrivee: {
     // Guide d'arrivée illustré propre à Houlgate 1 (photos + vidéo de la boîte à clés).
     ...arrivee("2ᵉ étage", "Houlgate 1"),
@@ -459,8 +458,7 @@ export const houlgate1: Logement = {
 
 /** Houlgate 2 — 2ᵉ étage — studio (2 pers.). */
 export const houlgate2: Logement = {
-  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "houlgate-2", nom: "Houlgate 2", etage: "2ᵉ étage", cover: "/logements/houlgate-2/cover.jpg", coverCredit: "Photo : Houlgate, plage à marée basse — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
+  ...base({ id: "houlgate-2", nom: "Houlgate 2", etage: "2ᵉ étage", cover: "/logements/houlgate-2/cover.jpg", capacite: 2 }),
   arrivee: {
     // Même entrée d'immeuble et même boîte à clés que Houlgate 1 (photos 1/2 et
     // vidéo réutilisées) ; seule change la porte du logement (porte n° 2).
@@ -502,8 +500,7 @@ export const houlgate2: Logement = {
 
 /** Houlgate 3 — 3ᵉ étage — T2 (4 pers.). */
 export const houlgate3: Logement = {
-  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "houlgate-3", nom: "Houlgate 3", etage: "3ᵉ étage", cover: "/logements/houlgate-3/cover.jpg", coverCredit: "Photo : villa Belle Époque, 1 boulevard des Belges, Houlgate — DimiTalen, CC0 (Wikimedia Commons). Provisoire.", capacite: 4 }),
+  ...base({ id: "houlgate-3", nom: "Houlgate 3", etage: "3ᵉ étage", cover: "/logements/houlgate-3/cover.jpg", capacite: 4 }),
   arrivee: {
     // Même entrée d'immeuble et même boîte à clés que Houlgate 1 (photos 1/2 et
     // vidéo réutilisées) ; on monte au 3ᵉ étage, porte n° 3.
@@ -545,8 +542,7 @@ export const houlgate3: Logement = {
 
 /** Houlgate 4 — 3ᵉ étage — studio (2 pers.). */
 export const houlgate4: Logement = {
-  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "houlgate-4", nom: "Houlgate 4", etage: "3ᵉ étage", cover: "/logements/houlgate-4/cover.jpg", coverCredit: "Photo : Houlgate, plage au couchant — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
+  ...base({ id: "houlgate-4", nom: "Houlgate 4", etage: "3ᵉ étage", cover: "/logements/houlgate-4/cover.jpg", capacite: 2 }),
   arrivee: {
     // Même entrée d'immeuble et même boîte à clés que Houlgate 1 (photos 1/2 et
     // vidéo réutilisées) ; on monte au 3ᵉ étage, porte n° 4.
