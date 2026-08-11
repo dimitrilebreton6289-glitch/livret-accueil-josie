@@ -151,6 +151,8 @@ export interface Logement {
     electromenager: string[];
     reglementInterieur: ReglementInterieur;
     poubelles: Tx;
+    /** Photo optionnelle du point de collecte (conteneurs de rue, local…). */
+    poubellesPhoto?: string;
     animaux: Tx;
   };
 

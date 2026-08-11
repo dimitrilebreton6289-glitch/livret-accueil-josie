@@ -78,6 +78,12 @@ export const CONTENT: Record<string, Tr> = {
     it: "Benvenuti e buon soggiorno! 🌊",
   },
   // ---------------------------------------------------- Houlgate (compléments)
+  "Les conteneurs à déchets se trouvent au bord de la rue, devant le Square Claude Debussy, à environ 2 minutes à pied du logement (voir la photo ci-dessous). Merci d'y déposer vos déchets ménagers, en sac fermé, pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces conteneurs : déposez-le dans la borne à verre située rue d'Axbridge, à environ 2 minutes à pied (vers le haut de la rue des Bains, côté mer).": {
+    en: "The waste containers are on the roadside, in front of Square Claude Debussy, about a 2-minute walk from the flat (see the photo below). Please dispose of your household waste there, in a closed bag, during and at the end of your stay.\n🍷 Glass does not go in these containers: drop it in the glass bank on Rue d'Axbridge, about a 2-minute walk away (toward the top of Rue des Bains, on the sea side).",
+    de: "Die Abfallcontainer stehen am Straßenrand, vor dem Square Claude Debussy, etwa 2 Gehminuten von der Wohnung entfernt (siehe Foto unten). Bitte entsorgen Sie dort Ihren Hausmüll in einem geschlossenen Beutel, während und am Ende Ihres Aufenthalts.\n🍷 Glas gehört nicht in diese Container: Werfen Sie es in den Glascontainer in der Rue d'Axbridge, etwa 2 Gehminuten entfernt (Richtung oberes Ende der Rue des Bains, zur Meerseite).",
+    es: "Los contenedores de residuos están al borde de la calle, frente al Square Claude Debussy, a unos 2 minutos a pie del alojamiento (vea la foto de abajo). Deposite allí sus residuos domésticos, en una bolsa cerrada, durante y al final de su estancia.\n🍷 El vidrio no va en estos contenedores: deposítelo en el contenedor de vidrio de la Rue d'Axbridge, a unos 2 minutos a pie (hacia la parte alta de la Rue des Bains, del lado del mar).",
+    it: "I contenitori dei rifiuti si trovano a bordo strada, davanti allo Square Claude Debussy, a circa 2 minuti a piedi dall'alloggio (vedi la foto qui sotto). Depositate lì i vostri rifiuti domestici, in un sacchetto chiuso, durante e alla fine del soggiorno.\n🍷 Il vetro non va in questi contenitori: gettatelo nella campana del vetro in Rue d'Axbridge, a circa 2 minuti a piedi (verso la parte alta della Rue des Bains, lato mare).",
+  },
   "Église Saint-Aubin (~4 min)": {
     en: "Saint-Aubin church (~4 min)",
     de: "Kirche Saint-Aubin (~4 Min.)",

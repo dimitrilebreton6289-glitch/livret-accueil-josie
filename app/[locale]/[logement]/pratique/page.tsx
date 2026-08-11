@@ -156,6 +156,16 @@ export default async function PratiquePage({
         {/* Poubelles / tri */}
         <InfoCard icon={Trash2} title={t("poubelles")}>
           <p className="whitespace-pre-line">{pick(pratique.poubelles, locale)}</p>
+          {pratique.poubellesPhoto && (
+            <div className="mt-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={pratique.poubellesPhoto}
+                alt=""
+                className="w-full rounded-tile object-cover shadow-[0_2px_12px_rgba(58,46,41,0.08)]"
+              />
+            </div>
+          )}
         </InfoCard>
       </div>
     </>

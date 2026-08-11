@@ -139,9 +139,10 @@ function etapesArrivee(etage: string, nom: string) {
   ];
 }
 
-// ── Poubelles (texte générique — à préciser) ─────────────────────────────────
+// ── Poubelles (conteneurs de rue devant le Square Claude Debussy) ────────────
 const POUBELLES =
-  "Un local à poubelles se trouve au rez-de-chaussée de l'immeuble. Merci d'y déposer et de trier vos déchets pendant et à la fin de votre séjour.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur à verre le plus proche";
+  "Les conteneurs à déchets se trouvent au bord de la rue, devant le Square Claude Debussy, à environ 2 minutes à pied du logement (voir la photo ci-dessous). Merci d'y déposer vos déchets ménagers, en sac fermé, pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces conteneurs : déposez-le dans la borne à verre située rue d'Axbridge, à environ 2 minutes à pied (vers le haut de la rue des Bains, côté mer).";
+const POUBELLES_PHOTO = "/logements/houlgate-1/poubelles.jpg";
 
 // ── Quartier (à pied) — commun ───────────────────────────────────────────────
 const QUARTIER = {
@@ -405,6 +406,7 @@ function pratique(capacite: number, etage: string) {
     electromenager: ELECTROMENAGER,
     reglementInterieur: reglement(capacite, etage),
     poubelles: POUBELLES,
+    poubellesPhoto: POUBELLES_PHOTO,
     animaux: "Les animaux de compagnie sont les bienvenus ! Merci simplement de veiller à leur propreté, d'éviter qu'ils ne montent sur les lits et canapés, et de ne pas les laisser seuls dans le logement.",
   };
 }

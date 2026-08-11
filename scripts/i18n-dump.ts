@@ -5,7 +5,7 @@ import { writeFileSync } from "node:fs";
 const SKIP_KEYS = new Set([
   "id", "ville", "cover", "coverCredit", "itineraire", "adresse",
   "reseau", "motDePasse", "tel", "key", "heure", "url",
-  "samu", "police", "pompiers", "europeen", "photo", "video",
+  "samu", "police", "pompiers", "europeen", "photo", "video", "poubellesPhoto",
 ]);
 
 // Noms propres (logements, commerces, lieux, personne) : pas de traduction.
