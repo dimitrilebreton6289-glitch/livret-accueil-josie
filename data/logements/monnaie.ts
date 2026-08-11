@@ -42,10 +42,7 @@ export const monnaie: Logement = {
       "Maison indépendante dans une rue piétonne, en plein centre historique",
       "Arrivée autonome : clés dans une boîte à clé sécurisée à code, près de l'entrée",
       "Le code de la boîte à clé vous est envoyé par message une fois le logement prêt",
-      "Suivez la vidéo ci-dessous pour rejoindre la maison",
     ],
-    video: "/logements/monnaie/arrivee-guide.mp4",
-    videoPortrait: true,
     arriveeAnticipee: {
       texte:
         "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
