@@ -35,6 +35,12 @@ export const CONTENT: Record<string, Tr> = {
     es: "En la 2.ª planta, diríjase a la puerta número 1.",
     it: "Al 2° piano, dirigetevi verso la porta numero 1.",
   },
+  "Au 2ᵉ étage, dirigez-vous vers la porte numéro 2.": {
+    en: "On the 2nd floor, head to door number 2.",
+    de: "Gehen Sie im 2. Stock zur Tür Nummer 2.",
+    es: "En la 2.ª planta, diríjase a la puerta número 2.",
+    it: "Al 2° piano, dirigetevi verso la porta numero 2.",
+  },
   "Une boîte à clés se trouve à côté de cette porte. Composez le code reçu par message dans la conversation, puis ouvrez-la comme le montre la vidéo ci-dessous et prenez la clé.": {
     en: "A key box is next to this door. Enter the code sent to you by message in the conversation, then open it as shown in the video below and take the key.",
     de: "Neben dieser Tür befindet sich ein Schlüsselkasten. Geben Sie den Code ein, den Sie per Nachricht im Chat erhalten haben, öffnen Sie ihn wie im Video unten gezeigt und nehmen Sie den Schlüssel.",
