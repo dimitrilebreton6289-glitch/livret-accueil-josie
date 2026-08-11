@@ -54,7 +54,7 @@ export const monnaie: Logement = {
     parking:
       "Rue piétonne : pas de stationnement devant la maison.\nStationnement possible Place Pierre Bouchard, Rue de Gémare et Rue des Teinturiers, à quelques minutes à pied.\nPlusieurs parkings souterrains dans le centre (Château, Les Rives de l'Orne, Paul Doumer et République).",
     bagages:
-      "Dépôt de bagages possible avant l'arrivée ou après le départ, sur demande.",
+      "Sur demande, vous pouvez laisser vos bagages dans le logement (avant l'arrivée ou après le départ) — pensez simplement à bien remettre la clé dans la boîte à clé en repartant.",
     decouverte: {
       rdc: [
         "Entrée",
@@ -114,7 +114,7 @@ export const monnaie: Logement = {
         "Capacité maximale : 4 voyageurs. Logement non-fumeur : merci de sortir sur la terrasse pour fumer ou vapoter. Les animaux de compagnie sont acceptés (1 animal maximum) sous réserve du supplément correspondant. Aucune fête ni événement autorisé. Merci de respecter le calme et le voisinage, dans ce quartier résidentiel et cette rue piétonne.",
     },
     poubelles:
-      "Les poubelles sont à déposer rue Froide (le camion passe tous les jours) et non dans la rue de la Monnaie.",
+      "Les poubelles sont à déposer rue Froide (le camion passe tous les jours) et non dans la rue de la Monnaie.\nBorne à verre la plus proche : 9 rue du Tour de Terre.",
     animaux:
       "Les animaux de compagnie sont acceptés (1 animal maximum), sous réserve du règlement et du supplément correspondant.",
   },
