@@ -10,6 +10,79 @@
 type Tr = { en?: string; de?: string; es?: string; it?: string };
 
 export const CONTENT: Record<string, Tr> = {
+  // ---------------------------------------------------- Houlgate (compléments)
+  "Église Saint-Aubin (~4 min)": {
+    en: "Saint-Aubin church (~4 min)",
+    de: "Kirche Saint-Aubin (~4 Min.)",
+    es: "Iglesia Saint-Aubin (~4 min)",
+    it: "Chiesa Saint-Aubin (~4 min)",
+  },
+  "📶 WiFi": {
+    en: "📶 Wi-Fi",
+    de: "📶 WLAN",
+    es: "📶 Wifi",
+    it: "📶 Wi-Fi",
+  },
+  "🚶 2ᵉ étage sans ascenseur": {
+    en: "🚶 2nd floor, no lift",
+    de: "🚶 2. Stock ohne Aufzug",
+    es: "🚶 2ª planta sin ascensor",
+    it: "🚶 2º piano senza ascensore",
+  },
+  "🚶 3ᵉ étage sans ascenseur": {
+    en: "🚶 3rd floor, no lift",
+    de: "🚶 3. Stock ohne Aufzug",
+    es: "🚶 3ª planta sin ascensor",
+    it: "🚶 3º piano senza ascensore",
+  },
+  "🛁 Salle d'eau": {
+    en: "🛁 Shower room",
+    de: "🛁 Duschbad",
+    es: "🛁 Cuarto de baño",
+    it: "🛁 Bagno",
+  },
+  "Congélateur": {
+    en: "Freezer",
+    de: "Gefrierschrank",
+    es: "Congelador",
+    it: "Congelatore",
+  },
+  "Canapé-lit (140 × 190)": {
+    en: "Sofa bed (140 × 190)",
+    de: "Schlafsofa (140 × 190)",
+    es: "Sofá cama (140 × 190)",
+    it: "Divano letto (140 × 190)",
+  },
+  "Canapé-lit d'appoint (140 × 190)": {
+    en: "Extra sofa bed (140 × 190)",
+    de: "Zusätzliches Schlafsofa (140 × 190)",
+    es: "Sofá cama de apoyo (140 × 190)",
+    it: "Divano letto aggiuntivo (140 × 190)",
+  },
+  "Montez jusqu'au 2ᵉ étage, à la porte du logement « Houlgate 1 ».": {
+    en: "Go up to the 2nd floor, to the door of the “Houlgate 1” apartment.",
+    de: "Gehen Sie hinauf in den 2. Stock, zur Tür der Wohnung „Houlgate 1“.",
+    es: "Suba a la 2.ª planta, hasta la puerta del alojamiento «Houlgate 1».",
+    it: "Salite al 2º piano, alla porta dell'alloggio «Houlgate 1».",
+  },
+  "Montez jusqu'au 2ᵉ étage, à la porte du logement « Houlgate 2 ».": {
+    en: "Go up to the 2nd floor, to the door of the “Houlgate 2” apartment.",
+    de: "Gehen Sie hinauf in den 2. Stock, zur Tür der Wohnung „Houlgate 2“.",
+    es: "Suba a la 2.ª planta, hasta la puerta del alojamiento «Houlgate 2».",
+    it: "Salite al 2º piano, alla porta dell'alloggio «Houlgate 2».",
+  },
+  "Montez jusqu'au 3ᵉ étage, à la porte du logement « Houlgate 3 ».": {
+    en: "Go up to the 3rd floor, to the door of the “Houlgate 3” apartment.",
+    de: "Gehen Sie hinauf in den 3. Stock, zur Tür der Wohnung „Houlgate 3“.",
+    es: "Suba a la 3.ª planta, hasta la puerta del alojamiento «Houlgate 3».",
+    it: "Salite al 3º piano, alla porta dell'alloggio «Houlgate 3».",
+  },
+  "Montez jusqu'au 3ᵉ étage, à la porte du logement « Houlgate 4 ».": {
+    en: "Go up to the 3rd floor, to the door of the “Houlgate 4” apartment.",
+    de: "Gehen Sie hinauf in den 3. Stock, zur Tür der Wohnung „Houlgate 4“.",
+    es: "Suba a la 3.ª planta, hasta la puerta del alojamiento «Houlgate 4».",
+    it: "Salite al 3º piano, alla porta dell'alloggio «Houlgate 4».",
+  },
   // ---------------------------------------------------------------- Arrivée
   "À partir de 16h": {
     en: "From 4 p.m.",
