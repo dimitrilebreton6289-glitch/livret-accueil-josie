@@ -85,6 +85,11 @@ export interface Logement {
 
   motAccueil: Tx;
 
+  /** Vidéo de présentation du logement, affichée sur la page d'accueil sous le
+   *  mot d'accueil. URL YouTube, Vimeo ou fichier /public. `portrait: true` force
+   *  un cadre vertical (MP4 filmé au téléphone). */
+  videoPresentation?: { url: string; portrait?: boolean };
+
   /** Vidéos (visite, mode d'emploi…). URL YouTube, Vimeo ou fichier /public.
    *  `portrait: true` force un cadre vertical (utile pour un MP4 filmé au
    *  téléphone ; les YouTube Shorts sont déjà détectés automatiquement). */

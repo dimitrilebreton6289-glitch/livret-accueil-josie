@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import MenuCard from "@/components/MenuCard";
 import WifiMenuCard from "@/components/WifiMenuCard";
 import JosieAvatar from "@/components/JosieAvatar";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default async function HomePage({
   params,
@@ -65,6 +66,20 @@ export default async function HomePage({
               </div>
             </div>
           </section>
+
+          {/* Vidéo de présentation du logement */}
+          {logement.videoPresentation && (
+            <section className="rounded-card bg-cream-deep p-5">
+              <h2 className="mb-3 font-display text-base font-semibold text-terracotta-dark">
+                {tHome("videoTitle")}
+              </h2>
+              <VideoEmbed
+                url={logement.videoPresentation.url}
+                title={tHome("videoTitle")}
+                portrait={logement.videoPresentation.portrait}
+              />
+            </section>
+          )}
 
           {/* 3–8. Sections */}
           <MenuCard

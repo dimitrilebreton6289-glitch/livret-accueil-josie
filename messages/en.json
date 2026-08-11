@@ -39,7 +39,8 @@
   "Home": {
     "directions": "Get me to the property",
     "welcomeTitle": "A warm welcome",
-    "amenitiesTitle": "Amenities"
+    "amenitiesTitle": "Amenities",
+    "videoTitle": "Property tour"
   },
   "Arrivee": {
     "title": "Arrival info",

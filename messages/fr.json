@@ -39,7 +39,8 @@
   "Home": {
     "directions": "Me rendre au logement",
     "welcomeTitle": "Mot d'accueil",
-    "amenitiesTitle": "Équipements"
+    "amenitiesTitle": "Équipements",
+    "videoTitle": "Visite du logement"
   },
   "Arrivee": {
     "title": "Infos arrivée",

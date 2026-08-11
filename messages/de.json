@@ -39,7 +39,8 @@
   "Home": {
     "directions": "Zur Unterkunft navigieren",
     "welcomeTitle": "Herzlich willkommen",
-    "amenitiesTitle": "Ausstattung"
+    "amenitiesTitle": "Ausstattung",
+    "videoTitle": "Rundgang durch die Unterkunft"
   },
   "Arrivee": {
     "title": "Anreise",

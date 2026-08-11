@@ -31,6 +31,11 @@ export const monnaie: Logement = {
     it: "Benvenuti in questa casa nel cuore della vecchia Caen! Su tre livelli con terrazza privata, a due passi da rue Froide, dalla chiesa di Saint-Pierre e dal castello, tutto il centro è raggiungibile a piedi. Buon soggiorno a Caen! ⚓",
   },
 
+  videoPresentation: {
+    url: "/logements/monnaie/visite.mp4",
+    portrait: true,
+  },
+
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
