@@ -4,8 +4,8 @@ import type { Logement, CategorySection, ReglementInterieur } from "../types";
  * HOULGATE — 23 rue des Bains (14510 Houlgate) — 4 logements Josie.
  *
  * L'immeuble regroupe 4 biens (mêmes équipements partout) :
- *   • 2ᵉ étage : un studio (« Écume ») + un T2 (« Beau Rivage »)
- *   • 3ᵉ étage : un studio (« Embruns ») + un T2 (« Belle Époque »)
+ *   • 2ᵉ étage : un studio (« Houlgate 2 ») + un T2 (« Houlgate 1 »)
+ *   • 3ᵉ étage : un studio (« Houlgate 4 ») + un T2 (« Houlgate 3 »)
  *
  * Studios : pièce unique avec canapé-lit 140 × 190 (2 pers.), coin cuisine, et
  *   salle d'eau (douche + lavabo + WC) dans la même pièce.
@@ -393,7 +393,7 @@ function arrivee(etage: string, nom: string) {
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte:
-      nom === "Écume" || nom === "Embruns" ? decouverteStudio() : decouverteT2(),
+      nom === "Houlgate 2" || nom === "Houlgate 4" ? decouverteStudio() : decouverteT2(),
   };
 }
 
@@ -413,38 +413,38 @@ function pratique(capacite: number, etage: string) {
 // Les 4 logements
 // ─────────────────────────────────────────────────────────────────────────────
 
-/** 2ᵉ étage — studio (2 pers.). */
-export const ecume: Logement = {
+/** Houlgate 1 — 2ᵉ étage — T2 (4 pers.). */
+export const houlgate1: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "ecume", nom: "Écume", etage: "2ᵉ étage", cover: "/logements/ecume/cover.jpg", coverCredit: "Photo : Houlgate, plage à marée basse — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
-  arrivee: arrivee("2ᵉ étage", "Écume"),
-  pratique: pratique(2, "2ᵉ étage"),
-  equipements: equipements("studio"),
-};
-
-/** 2ᵉ étage — T2 (4 pers.). */
-export const beauRivage: Logement = {
-  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "beau-rivage", nom: "Beau Rivage", etage: "2ᵉ étage", cover: "/logements/beau-rivage/cover.jpg", coverCredit: "Photo : la digue de Houlgate — Gregory Deryckère, CC BY 2.5 (Wikimedia Commons). Provisoire.", capacite: 4 }),
-  arrivee: arrivee("2ᵉ étage", "Beau Rivage"),
+  ...base({ id: "houlgate-1", nom: "Houlgate 1", etage: "2ᵉ étage", cover: "/logements/houlgate-1/cover.jpg", coverCredit: "Photo : la digue de Houlgate — Gregory Deryckère, CC BY 2.5 (Wikimedia Commons). Provisoire.", capacite: 4 }),
+  arrivee: arrivee("2ᵉ étage", "Houlgate 1"),
   pratique: pratique(4, "2ᵉ étage"),
   equipements: equipements("t2"),
 };
 
-/** 3ᵉ étage — studio (2 pers.). */
-export const embruns: Logement = {
+/** Houlgate 2 — 2ᵉ étage — studio (2 pers.). */
+export const houlgate2: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "embruns", nom: "Embruns", etage: "3ᵉ étage", cover: "/logements/embruns/cover.jpg", coverCredit: "Photo : Houlgate, plage au couchant — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
-  arrivee: arrivee("3ᵉ étage", "Embruns"),
-  pratique: pratique(2, "3ᵉ étage"),
+  ...base({ id: "houlgate-2", nom: "Houlgate 2", etage: "2ᵉ étage", cover: "/logements/houlgate-2/cover.jpg", coverCredit: "Photo : Houlgate, plage à marée basse — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
+  arrivee: arrivee("2ᵉ étage", "Houlgate 2"),
+  pratique: pratique(2, "2ᵉ étage"),
   equipements: equipements("studio"),
 };
 
-/** 3ᵉ étage — T2 (4 pers.). */
-export const belleEpoque: Logement = {
+/** Houlgate 3 — 3ᵉ étage — T2 (4 pers.). */
+export const houlgate3: Logement = {
   // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
-  ...base({ id: "belle-epoque", nom: "Belle Époque", etage: "3ᵉ étage", cover: "/logements/belle-epoque/cover.jpg", coverCredit: "Photo : villa Belle Époque, 1 boulevard des Belges, Houlgate — DimiTalen, CC0 (Wikimedia Commons). Provisoire.", capacite: 4 }),
-  arrivee: arrivee("3ᵉ étage", "Belle Époque"),
+  ...base({ id: "houlgate-3", nom: "Houlgate 3", etage: "3ᵉ étage", cover: "/logements/houlgate-3/cover.jpg", coverCredit: "Photo : villa Belle Époque, 1 boulevard des Belges, Houlgate — DimiTalen, CC0 (Wikimedia Commons). Provisoire.", capacite: 4 }),
+  arrivee: arrivee("3ᵉ étage", "Houlgate 3"),
   pratique: pratique(4, "3ᵉ étage"),
   equipements: equipements("t2"),
+};
+
+/** Houlgate 4 — 3ᵉ étage — studio (2 pers.). */
+export const houlgate4: Logement = {
+  // cover provisoire : photo Houlgate (Wikimedia Commons) → remplacer par la vraie photo du logement
+  ...base({ id: "houlgate-4", nom: "Houlgate 4", etage: "3ᵉ étage", cover: "/logements/houlgate-4/cover.jpg", coverCredit: "Photo : Houlgate, plage au couchant — Martpan, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.", capacite: 2 }),
+  arrivee: arrivee("3ᵉ étage", "Houlgate 4"),
+  pratique: pratique(2, "3ᵉ étage"),
+  equipements: equipements("studio"),
 };
