@@ -84,7 +84,7 @@ export const malo: Logement = {
     checkinExpress: [
       "Immeuble à la porte bleue, 8 bis rue Vauquelin",
       "Boîte à clés grise fixée sur la façade, juste à droite de la porte bleue",
-      "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt",
+      "Le code de la boîte à clés vous est envoyé le jour de votre arrivée, vers 12h, sur la conversation",
       "La clé de la boîte ouvre la porte bleue de l'immeuble",
       "Appartement au 2ᵉ étage, sans ascenseur",
     ],
@@ -106,7 +106,7 @@ export const malo: Logement = {
       },
       {
         texte:
-          "Composez le code reçu par message dans la conversation, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.",
+          "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.",
       },
       { texte: "Ouvrez la porte bleue de l'immeuble avec la clé." },
       { texte: "Montez au 2ᵉ étage (il n'y a pas d'ascenseur), jusqu'à la porte du logement." },
@@ -165,7 +165,7 @@ export const malo: Logement = {
       {
         titre: "🧺 Pas de lave-linge",
         contenu:
-          "Le logement ne dispose pas de lave-linge. Plusieurs laveries automatiques en libre-service se trouvent à quelques minutes à pied : retrouvez-les dans « Autour de moi », rubrique Laverie.",
+          "Le logement ne dispose pas de lave-linge. La laverie automatique la plus proche est le Lavomatique du coin de la rue Écuyère, en libre-service, à moins d'une minute à pied (sortez de l'immeuble, la rue Écuyère est juste au bout de la rue Vauquelin). Une autre laverie, Urban Wash, se trouve allée des Quatrans, au pied du château. Les deux sont dans « Autour de moi », rubrique Laverie.",
       },
       {
         titre: "🍳 Cuisine",
@@ -225,7 +225,7 @@ export const malo: Logement = {
         "Capacité maximale : 2 voyageurs. Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les animaux ne sont pas acceptés. Les fêtes et les soirées sont strictement interdites. L'appartement se situe au 2ᵉ étage (sans ascenseur), dans une petite copropriété calme : merci de veiller à la tranquillité du voisinage, dans le logement comme dans les parties communes.",
     },
     poubelles:
-      "Merci de déposer vos déchets ménagers, en sac fermé, dans les bacs gris situés à côté de la terrasse des deux restaurants, tout près de l'immeuble — pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces bacs : déposez-le dans la borne à verre au bout de la rue Vauquelin, vers la place Saint-Sauveur, à environ 2 minutes à pied.",
+      "⚠️ Le camion poubelle ne passe pas rue Vauquelin : merci de ne jamais laisser vos sacs devant l'immeuble.\nDéposez vos déchets ménagers, en sac fermé, après 18h, rue Saint-Pierre, rue Quincampoix ou rue Saint-Sauveur — toutes à une ou deux minutes à pied.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans le conteneur à verre du 28 rue Saint-Sauveur, à environ 2 minutes à pied.",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
@@ -259,7 +259,8 @@ export const malo: Logement = {
   depart: {
     horaire: "Jusqu'à 10h",
     instructions: [
-      "Faire la vaisselle, la ranger et vider les poubelles",
+      "Faire la vaisselle et la ranger",
+      "Rassembler vos déchets dans un sac fermé et le déposer en suivant les consignes « Poubelles » ci-dessous",
       "Rendre l'appartement propre et rangé",
       "Rassembler les serviettes de toilette utilisées",
       "Fermer les fenêtres, éteindre les lumières et baisser le chauffage",

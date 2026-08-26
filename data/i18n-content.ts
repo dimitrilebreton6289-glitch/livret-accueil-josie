@@ -4660,11 +4660,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "La llave de la caja abre la puerta azul del edificio",
     it: "La chiave della cassetta apre la porta blu dell'edificio",
   },
-  "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt": {
-    en: "The key box code is sent to you by message once the flat is ready",
-    de: "Den Code des Schlüsseltresors erhalten Sie per Nachricht, sobald die Wohnung bereit ist",
-    es: "El código de la caja de llaves se le envía por mensaje una vez que el alojamiento está listo",
-    it: "Il codice della cassetta portachiavi vi viene inviato per messaggio quando l'alloggio è pronto",
+  "Le code de la boîte à clés vous est envoyé le jour de votre arrivée, vers 12h, sur la conversation": {
+    en: "The key box code is sent to you in the conversation on the day of your arrival, around midday",
+    de: "Den Code des Schlüsseltresors erhalten Sie am Anreisetag gegen 12 Uhr im Chat",
+    es: "El código de la caja de llaves se le envía el día de su llegada, hacia las 12:00, en la conversación",
+    it: "Il codice della cassetta portachiavi vi viene inviato il giorno del vostro arrivo, verso le 12, nella conversazione",
   },
   "Appartement au 2ᵉ étage, sans ascenseur": {
     en: "Flat on the 2nd floor, no lift",
@@ -4684,11 +4684,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Hay una caja de llaves gris fijada en la fachada, justo a la derecha de la puerta azul.",
     it: "Una cassetta portachiavi grigia è fissata sulla facciata, subito a destra della porta blu.",
   },
-  "Composez le code reçu par message dans la conversation, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.": {
-    en: "Enter the code you received by message in the conversation, open the box as shown in the video below, then take the key.",
-    de: "Geben Sie den Code ein, den Sie per Nachricht im Chat erhalten haben, öffnen Sie den Tresor wie im Video unten gezeigt und nehmen Sie den Schlüssel.",
-    es: "Introduzca el código recibido por mensaje en la conversación, abra la caja como se muestra en el vídeo de abajo y coja la llave.",
-    it: "Digitate il codice ricevuto per messaggio nella conversazione, aprite la cassetta come mostrato nel video qui sotto e prendete la chiave.",
+  "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.": {
+    en: "Enter the code sent to you in the conversation on the day of your arrival, open the box as shown in the video below, then take the key.",
+    de: "Geben Sie den Code ein, den Sie am Anreisetag im Chat erhalten haben, öffnen Sie den Tresor wie im Video unten gezeigt und nehmen Sie den Schlüssel.",
+    es: "Introduzca el código recibido en la conversación el día de su llegada, abra la caja como se muestra en el vídeo de abajo y coja la llave.",
+    it: "Digitate il codice ricevuto nella conversazione il giorno del vostro arrivo, aprite la cassetta come mostrato nel video qui sotto e prendete la chiave.",
   },
   "Ouvrez la porte bleue de l'immeuble avec la clé.": {
     en: "Open the building's blue door with the key.",
@@ -4768,11 +4768,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "🧺 Sin lavadora",
     it: "🧺 Niente lavatrice",
   },
-  "Le logement ne dispose pas de lave-linge. Plusieurs laveries automatiques en libre-service se trouvent à quelques minutes à pied : retrouvez-les dans « Autour de moi », rubrique Laverie.": {
-    en: "The flat does not have a washing machine. Several self-service launderettes are a few minutes' walk away — you'll find them under “Around me”, in the Launderette section.",
-    de: "Die Wohnung verfügt über keine Waschmaschine. Mehrere SB-Waschsalons liegen wenige Gehminuten entfernt – Sie finden sie unter „In meiner Umgebung“, Rubrik Waschsalon.",
-    es: "El alojamiento no dispone de lavadora. Varias lavanderías de autoservicio están a unos minutos a pie: las encontrará en «A mi alrededor», sección Lavandería.",
-    it: "L'alloggio non dispone di lavatrice. Diverse lavanderie automatiche self-service si trovano a pochi minuti a piedi: le trovate in « Intorno a me », sezione Lavanderia.",
+  "Le logement ne dispose pas de lave-linge. La laverie automatique la plus proche est le Lavomatique du coin de la rue Écuyère, en libre-service, à moins d'une minute à pied (sortez de l'immeuble, la rue Écuyère est juste au bout de la rue Vauquelin). Une autre laverie, Urban Wash, se trouve allée des Quatrans, au pied du château. Les deux sont dans « Autour de moi », rubrique Laverie.": {
+    en: "The flat does not have a washing machine. The nearest launderette is the Lavomatique on the corner of rue Écuyère, self-service, less than a minute's walk away (leave the building — rue Écuyère is just at the end of rue Vauquelin). Another launderette, Urban Wash, is on allée des Quatrans, at the foot of the castle. Both are listed under “Around me”, in the Launderette section.",
+    de: "Die Wohnung verfügt über keine Waschmaschine. Der nächstgelegene Waschsalon ist der Lavomatique an der Ecke zur Rue Écuyère, SB-Betrieb, weniger als eine Gehminute entfernt (aus dem Haus treten – die Rue Écuyère liegt direkt am Ende der Rue Vauquelin). Ein weiterer Waschsalon, Urban Wash, befindet sich in der Allée des Quatrans am Fuß der Burg. Beide finden Sie unter „In meiner Umgebung“, Rubrik Waschsalon.",
+    es: "El alojamiento no dispone de lavadora. La lavandería más cercana es el Lavomatique de la esquina de la rue Écuyère, de autoservicio, a menos de un minuto a pie (al salir del edificio, la rue Écuyère está justo al final de la rue Vauquelin). Otra lavandería, Urban Wash, se encuentra en la allée des Quatrans, al pie del castillo. Las dos están en «A mi alrededor», sección Lavandería.",
+    it: "L'alloggio non dispone di lavatrice. La lavanderia più vicina è il Lavomatique all'angolo di rue Écuyère, self-service, a meno di un minuto a piedi (uscite dall'edificio: rue Écuyère è proprio in fondo a rue Vauquelin). Un'altra lavanderia, Urban Wash, si trova in allée des Quatrans, ai piedi del castello. Entrambe sono in « Intorno a me », sezione Lavanderia.",
   },
   "Le coin cuisine est équipé de plaques de cuisson avec hotte, d'un four à micro-ondes et d'un réfrigérateur avec congélateur, ainsi que du nécessaire de cuisine (casseroles et poêles, vaisselle, couverts, verres à vin, huile, sel et poivre). Il n'y a ni four traditionnel ni lave-vaisselle : merci de laver et de ranger la vaisselle après usage.": {
     en: "The kitchen area has a hob with extractor hood, a microwave and a fridge with freezer, plus everything you need to cook (pots and pans, crockery, cutlery, wine glasses, oil, salt and pepper). There is no conventional oven and no dishwasher — please wash and put away the dishes after use.",
@@ -4840,11 +4840,23 @@ export const CONTENT: Record<string, Tr> = {
     es: "Capacidad máxima: 2 viajeros. Alojamiento para no fumadores: le rogamos que baje a la calle para fumar o vapear. No se admiten animales. Las fiestas y reuniones están estrictamente prohibidas. El apartamento se encuentra en la 2.ª planta (sin ascensor), en una pequeña comunidad tranquila: le rogamos que respete la tranquilidad del vecindario, tanto en el alojamiento como en las zonas comunes.",
     it: "Capienza massima: 2 ospiti. Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Gli animali non sono ammessi. Feste e serate sono severamente vietate. L'appartamento si trova al 2° piano (senza ascensore), in un piccolo condominio tranquillo: vi preghiamo di rispettare la quiete del vicinato, sia nell'alloggio sia nelle parti comuni.",
   },
-  "Merci de déposer vos déchets ménagers, en sac fermé, dans les bacs gris situés à côté de la terrasse des deux restaurants, tout près de l'immeuble — pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces bacs : déposez-le dans la borne à verre au bout de la rue Vauquelin, vers la place Saint-Sauveur, à environ 2 minutes à pied.": {
-    en: "Please put your household waste, in a closed bag, in the grey bins next to the terrace of the two restaurants, very close to the building — both during and at the end of your stay.\n🍷 Glass does not go in these bins: take it to the glass bank at the end of rue Vauquelin, towards place Saint-Sauveur, about a 2-minute walk away.",
-    de: "Bitte entsorgen Sie Ihren Hausmüll in einem verschlossenen Beutel in den grauen Tonnen neben der Terrasse der beiden Restaurants, ganz in der Nähe des Gebäudes – während und am Ende Ihres Aufenthalts.\n🍷 Glas gehört nicht in diese Tonnen: Bringen Sie es zum Glascontainer am Ende der Rue Vauquelin, Richtung Place Saint-Sauveur, etwa 2 Gehminuten entfernt.",
-    es: "Le rogamos que deposite sus residuos domésticos, en una bolsa cerrada, en los contenedores grises situados junto a la terraza de los dos restaurantes, muy cerca del edificio, durante y al final de su estancia.\n🍷 El vidrio no va en estos contenedores: deposítelo en el contenedor de vidrio al final de la rue Vauquelin, hacia la place Saint-Sauveur, a unos 2 minutos a pie.",
-    it: "Vi preghiamo di depositare i vostri rifiuti domestici, in un sacchetto chiuso, nei bidoni grigi accanto alla terrazza dei due ristoranti, vicinissimi all'edificio, durante e alla fine del soggiorno.\n🍷 Il vetro non va in questi bidoni: portatelo alla campana del vetro in fondo a rue Vauquelin, verso place Saint-Sauveur, a circa 2 minuti a piedi.",
+  "⚠️ Le camion poubelle ne passe pas rue Vauquelin : merci de ne jamais laisser vos sacs devant l'immeuble.\nDéposez vos déchets ménagers, en sac fermé, après 18h, rue Saint-Pierre, rue Quincampoix ou rue Saint-Sauveur — toutes à une ou deux minutes à pied.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans le conteneur à verre du 28 rue Saint-Sauveur, à environ 2 minutes à pied.": {
+    en: "⚠️ The bin lorry does not come down rue Vauquelin: please never leave your bags in front of the building.\nPut your household waste out, in a closed bag, after 6 p.m., on rue Saint-Pierre, rue Quincampoix or rue Saint-Sauveur — all one or two minutes' walk away.\n🍷 Glass does not go with household waste: take it to the glass container at 28 rue Saint-Sauveur, about a 2-minute walk away.",
+    de: "⚠️ Die Müllabfuhr fährt nicht durch die Rue Vauquelin: Bitte stellen Sie Ihre Säcke niemals vor dem Gebäude ab.\nStellen Sie Ihren Hausmüll in einem verschlossenen Beutel nach 18 Uhr in der Rue Saint-Pierre, Rue Quincampoix oder Rue Saint-Sauveur heraus – alle ein bis zwei Gehminuten entfernt.\n🍷 Glas gehört nicht in den Hausmüll: Bringen Sie es zum Glascontainer in der Rue Saint-Sauveur 28, etwa 2 Gehminuten entfernt.",
+    es: "⚠️ El camión de la basura no pasa por la rue Vauquelin: le rogamos que nunca deje sus bolsas delante del edificio.\nDeposite sus residuos domésticos, en una bolsa cerrada, después de las 18:00, en la rue Saint-Pierre, la rue Quincampoix o la rue Saint-Sauveur, todas a uno o dos minutos a pie.\n🍷 El vidrio no va con la basura doméstica: deposítelo en el contenedor de vidrio del 28 rue Saint-Sauveur, a unos 2 minutos a pie.",
+    it: "⚠️ Il camion della spazzatura non passa in rue Vauquelin: vi preghiamo di non lasciare mai i vostri sacchi davanti all'edificio.\nDepositate i vostri rifiuti domestici, in un sacchetto chiuso, dopo le 18, in rue Saint-Pierre, rue Quincampoix o rue Saint-Sauveur — tutte a uno o due minuti a piedi.\n🍷 Il vetro non va con i rifiuti domestici: portatelo al contenitore del vetro al 28 rue Saint-Sauveur, a circa 2 minuti a piedi.",
+  },
+  "Faire la vaisselle et la ranger": {
+    en: "Wash the dishes and put them away",
+    de: "Das Geschirr abspülen und wegräumen",
+    es: "Lavar la vajilla y guardarla",
+    it: "Lavare le stoviglie e riporle",
+  },
+  "Rassembler vos déchets dans un sac fermé et le déposer en suivant les consignes « Poubelles » ci-dessous": {
+    en: "Gather your waste in a closed bag and put it out following the “Bins” instructions below",
+    de: "Ihren Abfall in einem verschlossenen Beutel sammeln und ihn gemäß den Hinweisen „Müll“ unten entsorgen",
+    es: "Reunir sus residuos en una bolsa cerrada y depositarla siguiendo las indicaciones «Basura» de abajo",
+    it: "Raccogliere i rifiuti in un sacchetto chiuso e depositarlo seguendo le indicazioni « Rifiuti » qui sotto",
   },
   "Chambre séparée (lit Queen Size)": {
     en: "Separate bedroom (queen-size bed)",
