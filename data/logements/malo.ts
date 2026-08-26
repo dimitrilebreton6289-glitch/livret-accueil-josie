@@ -225,7 +225,7 @@ export const malo: Logement = {
         "Capacité maximale : 2 voyageurs. Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les animaux ne sont pas acceptés. Les fêtes et les soirées sont strictement interdites. L'appartement se situe au 2ᵉ étage (sans ascenseur), dans une petite copropriété calme : merci de veiller à la tranquillité du voisinage, dans le logement comme dans les parties communes.",
     },
     poubelles:
-      "⚠️ Le camion poubelle ne passe pas rue Vauquelin : merci de ne jamais laisser vos sacs devant l'immeuble.\nDéposez vos déchets ménagers, en sac fermé, après 18h, rue Saint-Pierre, rue Quincampoix ou rue Saint-Sauveur — toutes à une ou deux minutes à pied.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans le conteneur à verre du 28 rue Saint-Sauveur, à environ 2 minutes à pied.",
+      "⚠️ Le camion poubelle ne passe pas rue Vauquelin : merci de ne jamais laisser vos sacs devant l'immeuble.\nDeux possibilités pour vos déchets ménagers, en sac fermé :\n• À tout moment : les bacs gris situés à côté des terrasses du restaurant La Médicis et du bar Le Chat Noir, juste à côté de l'immeuble.\n• Ou, après 18h uniquement : rue Saint-Pierre, rue Quincampoix ou rue Saint-Sauveur, toutes à une ou deux minutes à pied.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans le conteneur à verre du 28 rue Saint-Sauveur, à environ 2 minutes à pied.",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
