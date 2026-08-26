@@ -13,7 +13,11 @@ import { monnaie } from "./monnaie";
  *   • Salle de bain avec douche et WC
  *   • PAS de lave-linge → laveries automatiques listées dans « Autour de moi »
  *
- * Accès : arrivée autonome par boîte à clés, code envoyé par message.
+ * Accès : arrivée autonome. Boîte à clés grise fixée sur la façade, juste à
+ * droite de la porte bleue de l'immeuble (8 bis). La clé qu'elle contient ouvre
+ * la porte de l'immeuble (pas de code ni d'interphone). Vidéo d'accès :
+ * /logements/malo/arrivee/keybox.mp4 (photos 1.jpg / 2.jpg extraites de cette
+ * même vidéo).
  *
  * « Autour de moi » : le logement est à ~300 m de « Monnaie » (16 rue de la
  * Monnaie), même quartier, mêmes adresses → on réutilise directement les
@@ -23,36 +27,31 @@ import { monnaie } from "./monnaie";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER PAR AGATHE :
- *   - ADRESSE EXACTE (rue + numéro) → met aussi à jour ITINERAIRE et COORDS
- *   - WiFi : réseau + mot de passe (provisoire : « voir le dessous de la box »)
- *   - Accès immeuble : porte libre ? code ? interphone ? (texte générique en place)
- *   - Emplacement précis de la boîte à clés + photos du guide d'arrivée
- *   - Poubelles : emplacement des conteneurs + borne à verre (texte générique)
- *   - Animaux : renseignés comme NON acceptés (l'annonce Airbnb ne les mentionne pas)
+ *   - WiFi : réseau + mot de passe (provisoire : « voir sous la box »)
+ *   - Photo du point poubelles (bacs gris) — le texte est en place
  * ─────────────────────────────────────────────────────────────────────────────
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
  */
 
-// ⚠️ Adresse provisoire — à remplacer par l'adresse exacte.
-const ADRESSE = "Centre historique, 14000 Caen";
-const ITINERAIRE = "https://maps.google.com/?q=Rue+Froide+14000+Caen";
-// Point provisoire (rue Froide, cœur historique) — à affiner avec l'adresse exacte.
-const COORDS: [number, number] = [49.1837, -0.3652];
+const ADRESSE = "8 bis Rue Vauquelin, 14000 Caen";
+const ITINERAIRE = "https://maps.google.com/?q=8+bis+Rue+Vauquelin+14000+Caen";
+// Géocodage OpenStreetMap / Nominatim du 8 bis rue Vauquelin.
+const COORDS: [number, number] = [49.18251, -0.36689];
 
 // ── Autour de moi : mêmes adresses que « Monnaie » + les laveries ────────────
 const LAVERIE: CategorySection = {
   key: "laverie",
   lieux: [
     {
-      nom: "Urban Wash",
-      desc: "Laverie automatique en libre-service, allée des Quatrans (au pied du château), à quelques minutes à pied. Utile : le logement n'a pas de lave-linge.",
-      coords: [49.18396, -0.36315],
+      nom: "Lavomatique (rue Écuyère)",
+      desc: "La laverie automatique la plus proche, en libre-service, au coin de la rue Écuyère — à moins d'une minute à pied. Utile : le logement n'a pas de lave-linge.",
+      coords: [49.18206, -0.36733],
     },
     {
-      nom: "Lavomatique (rue Écuyère)",
-      desc: "Laverie automatique en libre-service, vers la rue Écuyère et la place Malherbe, à environ 5 min à pied.",
-      coords: [49.18206, -0.36733],
+      nom: "Urban Wash",
+      desc: "Autre laverie automatique en libre-service, allée des Quatrans, au pied du château.",
+      coords: [49.18396, -0.36315],
     },
   ],
 };
@@ -73,19 +72,20 @@ export const malo: Logement = {
   cover: "/logements/malo/cover.jpg",
 
   motAccueil: {
-    fr: "Bienvenue chez Malo ! Vous êtes en plein cœur historique de Caen, dans une rue piétonne au calme, à deux pas des rues commerçantes, du château et de l'église Saint-Pierre. Poutres apparentes, parquet en chevrons et lumière du matin : tout le centre-ville se découvre à pied. Très bon séjour ! ⚓",
-    en: "Welcome to Chez Malo! You're right in the heart of historic Caen, on a quiet pedestrian street, steps from the shopping streets, the castle and Saint-Pierre church. Exposed beams, herringbone parquet and morning light — the whole town centre is within walking distance. Enjoy your stay! ⚓",
-    de: "Willkommen bei Chez Malo! Sie wohnen mitten in der Altstadt von Caen, in einer ruhigen Fußgängerstraße, nur wenige Schritte von den Einkaufsstraßen, der Burg und der Kirche Saint-Pierre entfernt. Sichtbalken, Fischgrätparkett und Morgenlicht – die gesamte Innenstadt ist zu Fuß erreichbar. Einen schönen Aufenthalt! ⚓",
-    es: "¡Bienvenido a Chez Malo! Está en pleno casco histórico de Caen, en una tranquila calle peatonal, a dos pasos de las calles comerciales, el castillo y la iglesia Saint-Pierre. Vigas vistas, parqué en espiga y luz de la mañana: todo el centro se recorre a pie. ¡Feliz estancia! ⚓",
-    it: "Benvenuti a Chez Malo! Siete nel cuore storico di Caen, in una tranquilla via pedonale, a due passi dalle vie dello shopping, dal castello e dalla chiesa di Saint-Pierre. Travi a vista, parquet a spina di pesce e luce del mattino: tutto il centro è raggiungibile a piedi. Buon soggiorno! ⚓",
+    fr: "Bienvenue chez Malo ! Vous êtes en plein cœur historique de Caen, rue Vauquelin, à deux pas de la place Saint-Sauveur, des rues commerçantes et des meilleures terrasses de la ville. Poutres apparentes, parquet en chevrons et lumière du matin : tout le centre-ville se découvre à pied. Très bon séjour ! ⚓",
+    en: "Welcome to Chez Malo! You're right in the heart of historic Caen, on rue Vauquelin, steps from place Saint-Sauveur, the shopping streets and the town's best terraces. Exposed beams, herringbone parquet and morning light — the whole town centre is within walking distance. Enjoy your stay! ⚓",
+    de: "Willkommen bei Chez Malo! Sie wohnen mitten in der Altstadt von Caen, in der Rue Vauquelin, nur wenige Schritte vom Place Saint-Sauveur, den Einkaufsstraßen und den schönsten Terrassen der Stadt entfernt. Sichtbalken, Fischgrätparkett und Morgenlicht – die gesamte Innenstadt ist zu Fuß erreichbar. Einen schönen Aufenthalt! ⚓",
+    es: "¡Bienvenido a Chez Malo! Está en pleno casco histórico de Caen, en la rue Vauquelin, a dos pasos de la place Saint-Sauveur, de las calles comerciales y de las mejores terrazas de la ciudad. Vigas vistas, parqué en espiga y luz de la mañana: todo el centro se recorre a pie. ¡Feliz estancia! ⚓",
+    it: "Benvenuti a Chez Malo! Siete nel cuore storico di Caen, in rue Vauquelin, a due passi da place Saint-Sauveur, dalle vie dello shopping e dalle migliori terrazze della città. Travi a vista, parquet a spina di pesce e luce del mattino: tutto il centro è raggiungibile a piedi. Buon soggiorno! ⚓",
   },
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
-      "Immeuble dans une rue piétonne du centre historique",
-      "Arrivée autonome : la clé se trouve dans une boîte à clés à code",
+      "Immeuble à la porte bleue, 8 bis rue Vauquelin",
+      "Boîte à clés grise fixée sur la façade, juste à droite de la porte bleue",
       "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt",
+      "La clé de la boîte ouvre la porte bleue de l'immeuble",
       "Appartement au 2ᵉ étage, sans ascenseur",
     ],
     arriveeAnticipee: {
@@ -94,15 +94,26 @@ export const malo: Logement = {
       url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     etapes: [
-      { texte: "Rendez-vous à l'adresse du logement, dans le centre historique de Caen." },
-      { texte: "Entrez dans l'immeuble, puis montez au 2ᵉ étage (il n'y a pas d'ascenseur)." },
       {
         texte:
-          "Une boîte à clés à code se trouve à l'entrée du logement. Composez le code reçu par message dans la conversation, puis prenez la clé.",
+          "Rendez-vous au 8 bis rue Vauquelin, à Caen. L'immeuble se reconnaît à sa porte bleue et au numéro « 8 bis » sur la pierre.",
+        photo: "/logements/malo/arrivee/1.jpg",
       },
-      { texte: "Ouvrez la porte avec la clé." },
+      {
+        texte:
+          "Une boîte à clés grise est fixée sur la façade, juste à droite de la porte bleue.",
+        photo: "/logements/malo/arrivee/2.jpg",
+      },
+      {
+        texte:
+          "Composez le code reçu par message dans la conversation, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.",
+      },
+      { texte: "Ouvrez la porte bleue de l'immeuble avec la clé." },
+      { texte: "Montez au 2ᵉ étage (il n'y a pas d'ascenseur), jusqu'à la porte du logement." },
       { texte: "Bienvenue et bon séjour ! ⚓" },
     ],
+    video: "/logements/malo/arrivee/keybox.mp4",
+    videoPortrait: true,
     parking:
       "Rue piétonne : pas de stationnement possible devant l'immeuble.\nStationnement dans les rues voisines : rue Quincampoix, Fossés Saint-Julien et rue Demolombe.\nParkings souterrains les plus pratiques : République et Paul Doumer, à quelques minutes à pied.",
     bagages:
@@ -214,7 +225,7 @@ export const malo: Logement = {
         "Capacité maximale : 2 voyageurs. Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les animaux ne sont pas acceptés. Les fêtes et les soirées sont strictement interdites. L'appartement se situe au 2ᵉ étage (sans ascenseur), dans une petite copropriété calme : merci de veiller à la tranquillité du voisinage, dans le logement comme dans les parties communes.",
     },
     poubelles:
-      "Merci de descendre vos déchets ménagers, en sac fermé, dans les conteneurs les plus proches de l'immeuble, pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans la borne à verre la plus proche.",
+      "Merci de déposer vos déchets ménagers, en sac fermé, dans les bacs gris situés à côté de la terrasse des deux restaurants, tout près de l'immeuble — pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces bacs : déposez-le dans la borne à verre au bout de la rue Vauquelin, vers la place Saint-Sauveur, à environ 2 minutes à pied.",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
@@ -267,13 +278,15 @@ export const malo: Logement = {
 
   quartier: {
     aPied: [
-      "Rue Froide & ses commerces",
+      "Rue Écuyère & rue de Bras — bars et restaurants (~1 min)",
+      "Place Saint-Sauveur et ses terrasses (~2 min)",
+      "Rue Froide & ses commerces (~3 min)",
       "Rue Saint-Pierre (artère commerçante)",
-      "Église Saint-Pierre (~3 min)",
-      "Château de Caen (~5 min)",
-      "Le port de plaisance & le quai Vendeuvre (~7 min)",
+      "Église Saint-Pierre (~6 min)",
+      "Château de Caen (~8 min)",
+      "Le port de plaisance & le quai Vendeuvre (~10 min)",
     ],
-    note: "Vous êtes en plein cœur historique de Caen, dans une rue piétonne au calme. Tout le centre-ville, le château, le port et les rues commerçantes se font à pied, et le tram vous emmène à la gare en quelques minutes.",
+    note: "Vous êtes en plein cœur historique de Caen, dans une petite rue piétonne juste à côté de la rue Écuyère et de la place Saint-Sauveur — le quartier des terrasses, des bars et des restaurants. Tout le centre-ville, le château, le port et les rues commerçantes se font à pied, et le tram vous emmène à la gare en quelques minutes.",
   },
 
   autourDeMoi: {

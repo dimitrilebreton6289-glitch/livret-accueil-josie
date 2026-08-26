@@ -4642,17 +4642,23 @@ export const CONTENT: Record<string, Tr> = {
     },
 
   // ---------------------------------------------------------- Chez Malo (Caen)
-  "Immeuble dans une rue piétonne du centre historique": {
-    en: "Building on a pedestrian street in the historic centre",
-    de: "Gebäude in einer Fußgängerstraße in der Altstadt",
-    es: "Edificio en una calle peatonal del casco histórico",
-    it: "Edificio in una via pedonale del centro storico",
+  "Immeuble à la porte bleue, 8 bis rue Vauquelin": {
+    en: "Building with the blue door, 8 bis rue Vauquelin",
+    de: "Gebäude mit der blauen Tür, 8 bis rue Vauquelin",
+    es: "Edificio de la puerta azul, 8 bis rue Vauquelin",
+    it: "Edificio con la porta blu, 8 bis rue Vauquelin",
   },
-  "Arrivée autonome : la clé se trouve dans une boîte à clés à code": {
-    en: "Self check-in: the key is in a coded key box",
-    de: "Selbstständiger Check-in: Der Schlüssel liegt in einem Schlüsseltresor mit Code",
-    es: "Llegada autónoma: la llave está en una caja de seguridad con código",
-    it: "Check-in autonomo: la chiave si trova in una cassetta portachiavi con codice",
+  "Boîte à clés grise fixée sur la façade, juste à droite de la porte bleue": {
+    en: "Grey key box fixed to the wall, just to the right of the blue door",
+    de: "Grauer Schlüsseltresor an der Fassade, direkt rechts neben der blauen Tür",
+    es: "Caja de llaves gris fijada en la fachada, justo a la derecha de la puerta azul",
+    it: "Cassetta portachiavi grigia fissata sulla facciata, subito a destra della porta blu",
+  },
+  "La clé de la boîte ouvre la porte bleue de l'immeuble": {
+    en: "The key from the box opens the building's blue door",
+    de: "Der Schlüssel aus dem Tresor öffnet die blaue Haustür",
+    es: "La llave de la caja abre la puerta azul del edificio",
+    it: "La chiave della cassetta apre la porta blu dell'edificio",
   },
   "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt": {
     en: "The key box code is sent to you by message once the flat is ready",
@@ -4666,23 +4672,35 @@ export const CONTENT: Record<string, Tr> = {
     es: "Apartamento en la 2.ª planta, sin ascensor",
     it: "Appartamento al 2° piano, senza ascensore",
   },
-  "Rendez-vous à l'adresse du logement, dans le centre historique de Caen.": {
-    en: "Make your way to the address of the flat, in the historic centre of Caen.",
-    de: "Begeben Sie sich zur Adresse der Wohnung in der Altstadt von Caen.",
-    es: "Diríjase a la dirección del alojamiento, en el casco histórico de Caen.",
-    it: "Recatevi all'indirizzo dell'alloggio, nel centro storico di Caen.",
+  "Rendez-vous au 8 bis rue Vauquelin, à Caen. L'immeuble se reconnaît à sa porte bleue et au numéro « 8 bis » sur la pierre.": {
+    en: "Make your way to 8 bis rue Vauquelin, in Caen. You'll recognise the building by its blue door and the number “8 bis” on the stone.",
+    de: "Begeben Sie sich zur 8 bis rue Vauquelin in Caen. Sie erkennen das Gebäude an seiner blauen Tür und der Nummer „8 bis“ auf dem Stein.",
+    es: "Diríjase al 8 bis rue Vauquelin, en Caen. Reconocerá el edificio por su puerta azul y el número «8 bis» en la piedra.",
+    it: "Recatevi all'8 bis rue Vauquelin, a Caen. Riconoscerete l'edificio dalla porta blu e dal numero « 8 bis » sulla pietra.",
   },
-  "Entrez dans l'immeuble, puis montez au 2ᵉ étage (il n'y a pas d'ascenseur).": {
-    en: "Enter the building, then go up to the 2nd floor (there is no lift).",
-    de: "Betreten Sie das Gebäude und gehen Sie in den 2. Stock (es gibt keinen Aufzug).",
-    es: "Entre en el edificio y suba a la 2.ª planta (no hay ascensor).",
-    it: "Entrate nell'edificio e salite al 2° piano (non c'è ascensore).",
+  "Une boîte à clés grise est fixée sur la façade, juste à droite de la porte bleue.": {
+    en: "A grey key box is fixed to the wall, just to the right of the blue door.",
+    de: "Ein grauer Schlüsseltresor ist an der Fassade angebracht, direkt rechts neben der blauen Tür.",
+    es: "Hay una caja de llaves gris fijada en la fachada, justo a la derecha de la puerta azul.",
+    it: "Una cassetta portachiavi grigia è fissata sulla facciata, subito a destra della porta blu.",
   },
-  "Une boîte à clés à code se trouve à l'entrée du logement. Composez le code reçu par message dans la conversation, puis prenez la clé.": {
-    en: "A coded key box is located at the entrance to the flat. Enter the code you received by message in the conversation, then take the key.",
-    de: "Am Eingang der Wohnung befindet sich ein Schlüsseltresor mit Code. Geben Sie den Code ein, den Sie per Nachricht im Chat erhalten haben, und nehmen Sie den Schlüssel.",
-    es: "En la entrada del alojamiento hay una caja de llaves con código. Introduzca el código recibido por mensaje en la conversación y coja la llave.",
-    it: "All'ingresso dell'alloggio si trova una cassetta portachiavi con codice. Digitate il codice ricevuto per messaggio nella conversazione e prendete la chiave.",
+  "Composez le code reçu par message dans la conversation, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.": {
+    en: "Enter the code you received by message in the conversation, open the box as shown in the video below, then take the key.",
+    de: "Geben Sie den Code ein, den Sie per Nachricht im Chat erhalten haben, öffnen Sie den Tresor wie im Video unten gezeigt und nehmen Sie den Schlüssel.",
+    es: "Introduzca el código recibido por mensaje en la conversación, abra la caja como se muestra en el vídeo de abajo y coja la llave.",
+    it: "Digitate il codice ricevuto per messaggio nella conversazione, aprite la cassetta come mostrato nel video qui sotto e prendete la chiave.",
+  },
+  "Ouvrez la porte bleue de l'immeuble avec la clé.": {
+    en: "Open the building's blue door with the key.",
+    de: "Öffnen Sie die blaue Haustür mit dem Schlüssel.",
+    es: "Abra la puerta azul del edificio con la llave.",
+    it: "Aprite la porta blu dell'edificio con la chiave.",
+  },
+  "Montez au 2ᵉ étage (il n'y a pas d'ascenseur), jusqu'à la porte du logement.": {
+    en: "Go up to the 2nd floor (there is no lift), to the door of the flat.",
+    de: "Gehen Sie in den 2. Stock (es gibt keinen Aufzug), bis zur Wohnungstür.",
+    es: "Suba a la 2.ª planta (no hay ascensor), hasta la puerta del alojamiento.",
+    it: "Salite al 2° piano (non c'è ascensore), fino alla porta dell'alloggio.",
   },
   "Bienvenue et bon séjour ! ⚓": {
     en: "Welcome, and enjoy your stay! ⚓",
@@ -4822,11 +4840,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Capacidad máxima: 2 viajeros. Alojamiento para no fumadores: le rogamos que baje a la calle para fumar o vapear. No se admiten animales. Las fiestas y reuniones están estrictamente prohibidas. El apartamento se encuentra en la 2.ª planta (sin ascensor), en una pequeña comunidad tranquila: le rogamos que respete la tranquilidad del vecindario, tanto en el alojamiento como en las zonas comunes.",
     it: "Capienza massima: 2 ospiti. Alloggio per non fumatori: vi preghiamo di scendere in strada per fumare o svapare. Gli animali non sono ammessi. Feste e serate sono severamente vietate. L'appartamento si trova al 2° piano (senza ascensore), in un piccolo condominio tranquillo: vi preghiamo di rispettare la quiete del vicinato, sia nell'alloggio sia nelle parti comuni.",
   },
-  "Merci de descendre vos déchets ménagers, en sac fermé, dans les conteneurs les plus proches de l'immeuble, pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas avec les ordures ménagères : déposez-le dans la borne à verre la plus proche.": {
-    en: "Please take your household waste down, in a closed bag, to the containers nearest the building, both during and at the end of your stay.\n🍷 Glass does not go with household waste: please take it to the nearest glass bank.",
-    de: "Bitte bringen Sie Ihren Hausmüll in einem verschlossenen Beutel zu den nächstgelegenen Containern am Gebäude – während und am Ende Ihres Aufenthalts.\n🍷 Glas gehört nicht in den Hausmüll: Bringen Sie es zum nächstgelegenen Glascontainer.",
-    es: "Le rogamos que baje sus residuos domésticos, en una bolsa cerrada, a los contenedores más cercanos al edificio, durante y al final de su estancia.\n🍷 El vidrio no se tira con la basura doméstica: deposítelo en el contenedor de vidrio más cercano.",
-    it: "Vi preghiamo di portare i vostri rifiuti domestici, in un sacchetto chiuso, nei contenitori più vicini all'edificio, durante e alla fine del soggiorno.\n🍷 Il vetro non va con i rifiuti domestici: depositatelo nella campana del vetro più vicina.",
+  "Merci de déposer vos déchets ménagers, en sac fermé, dans les bacs gris situés à côté de la terrasse des deux restaurants, tout près de l'immeuble — pendant et à la fin de votre séjour.\n🍷 Le verre ne se met pas dans ces bacs : déposez-le dans la borne à verre au bout de la rue Vauquelin, vers la place Saint-Sauveur, à environ 2 minutes à pied.": {
+    en: "Please put your household waste, in a closed bag, in the grey bins next to the terrace of the two restaurants, very close to the building — both during and at the end of your stay.\n🍷 Glass does not go in these bins: take it to the glass bank at the end of rue Vauquelin, towards place Saint-Sauveur, about a 2-minute walk away.",
+    de: "Bitte entsorgen Sie Ihren Hausmüll in einem verschlossenen Beutel in den grauen Tonnen neben der Terrasse der beiden Restaurants, ganz in der Nähe des Gebäudes – während und am Ende Ihres Aufenthalts.\n🍷 Glas gehört nicht in diese Tonnen: Bringen Sie es zum Glascontainer am Ende der Rue Vauquelin, Richtung Place Saint-Sauveur, etwa 2 Gehminuten entfernt.",
+    es: "Le rogamos que deposite sus residuos domésticos, en una bolsa cerrada, en los contenedores grises situados junto a la terraza de los dos restaurantes, muy cerca del edificio, durante y al final de su estancia.\n🍷 El vidrio no va en estos contenedores: deposítelo en el contenedor de vidrio al final de la rue Vauquelin, hacia la place Saint-Sauveur, a unos 2 minutos a pie.",
+    it: "Vi preghiamo di depositare i vostri rifiuti domestici, in un sacchetto chiuso, nei bidoni grigi accanto alla terrazza dei due ristoranti, vicinissimi all'edificio, durante e alla fine del soggiorno.\n🍷 Il vetro non va in questi bidoni: portatelo alla campana del vetro in fondo a rue Vauquelin, verso place Saint-Sauveur, a circa 2 minuti a piedi.",
   },
   "Chambre séparée (lit Queen Size)": {
     en: "Separate bedroom (queen-size bed)",
@@ -4852,29 +4870,59 @@ export const CONTENT: Record<string, Tr> = {
     es: "Cerrar el apartamento con llave y devolver la llave a la caja de llaves",
     it: "Chiudere a chiave l'appartamento e rimettere la chiave nella cassetta portachiavi",
   },
-  "Le port de plaisance & le quai Vendeuvre (~7 min)": {
-    en: "The marina & quai Vendeuvre (~7 min)",
-    de: "Der Yachthafen & Quai Vendeuvre (~7 Min.)",
-    es: "El puerto deportivo y el quai Vendeuvre (~7 min)",
-    it: "Il porto turistico e il quai Vendeuvre (~7 min)",
+  "Rue Écuyère & rue de Bras — bars et restaurants (~1 min)": {
+    en: "Rue Écuyère & rue de Bras — bars and restaurants (~1 min)",
+    de: "Rue Écuyère & Rue de Bras – Bars und Restaurants (~1 Min.)",
+    es: "Rue Écuyère y rue de Bras — bares y restaurantes (~1 min)",
+    it: "Rue Écuyère e rue de Bras — bar e ristoranti (~1 min)",
   },
-  "Vous êtes en plein cœur historique de Caen, dans une rue piétonne au calme. Tout le centre-ville, le château, le port et les rues commerçantes se font à pied, et le tram vous emmène à la gare en quelques minutes.": {
-    en: "You are right in the historic heart of Caen, on a quiet pedestrian street. The whole town centre, the castle, the harbour and the shopping streets are all within walking distance, and the tram takes you to the station in a few minutes.",
-    de: "Sie befinden sich mitten im historischen Zentrum von Caen, in einer ruhigen Fußgängerstraße. Die gesamte Innenstadt, die Burg, der Hafen und die Einkaufsstraßen sind zu Fuß erreichbar, und die Straßenbahn bringt Sie in wenigen Minuten zum Bahnhof.",
-    es: "Se encuentra en pleno corazón histórico de Caen, en una tranquila calle peatonal. Todo el centro, el castillo, el puerto y las calles comerciales están a pie, y el tranvía le lleva a la estación en pocos minutos.",
-    it: "Vi trovate nel cuore storico di Caen, in una tranquilla via pedonale. Tutto il centro, il castello, il porto e le vie dello shopping sono raggiungibili a piedi, e il tram vi porta alla stazione in pochi minuti.",
+  "Place Saint-Sauveur et ses terrasses (~2 min)": {
+    en: "Place Saint-Sauveur and its terraces (~2 min)",
+    de: "Place Saint-Sauveur und seine Terrassen (~2 Min.)",
+    es: "Place Saint-Sauveur y sus terrazas (~2 min)",
+    it: "Place Saint-Sauveur e le sue terrazze (~2 min)",
   },
-  "Laverie automatique en libre-service, allée des Quatrans (au pied du château), à quelques minutes à pied. Utile : le logement n'a pas de lave-linge.": {
-    en: "Self-service launderette on allée des Quatrans (at the foot of the castle), a few minutes' walk away. Handy, as the flat has no washing machine.",
-    de: "SB-Waschsalon in der Allée des Quatrans (am Fuß der Burg), wenige Gehminuten entfernt. Praktisch, da die Wohnung keine Waschmaschine hat.",
-    es: "Lavandería de autoservicio en la allée des Quatrans (al pie del castillo), a unos minutos a pie. Útil: el alojamiento no tiene lavadora.",
-    it: "Lavanderia automatica self-service in allée des Quatrans (ai piedi del castello), a pochi minuti a piedi. Utile: l'alloggio non ha la lavatrice.",
+  "Rue Froide & ses commerces (~3 min)": {
+    en: "Rue Froide & its shops (~3 min)",
+    de: "Rue Froide & ihre Geschäfte (~3 Min.)",
+    es: "Rue Froide y sus comercios (~3 min)",
+    it: "Rue Froide e i suoi negozi (~3 min)",
   },
-  "Laverie automatique en libre-service, vers la rue Écuyère et la place Malherbe, à environ 5 min à pied.": {
-    en: "Self-service launderette, towards rue Écuyère and place Malherbe, about a 5-minute walk away.",
-    de: "SB-Waschsalon in Richtung Rue Écuyère und Place Malherbe, etwa 5 Gehminuten entfernt.",
-    es: "Lavandería de autoservicio, hacia la rue Écuyère y la place Malherbe, a unos 5 minutos a pie.",
-    it: "Lavanderia automatica self-service, verso rue Écuyère e place Malherbe, a circa 5 minuti a piedi.",
+  "Église Saint-Pierre (~6 min)": {
+    en: "Saint-Pierre church (~6 min)",
+    de: "Kirche Saint-Pierre (~6 Min.)",
+    es: "Iglesia Saint-Pierre (~6 min)",
+    it: "Chiesa di Saint-Pierre (~6 min)",
+  },
+  "Château de Caen (~8 min)": {
+    en: "Caen Castle (~8 min)",
+    de: "Burg von Caen (~8 Min.)",
+    es: "Castillo de Caen (~8 min)",
+    it: "Castello di Caen (~8 min)",
+  },
+  "Le port de plaisance & le quai Vendeuvre (~10 min)": {
+    en: "The marina & quai Vendeuvre (~10 min)",
+    de: "Der Yachthafen & Quai Vendeuvre (~10 Min.)",
+    es: "El puerto deportivo y el quai Vendeuvre (~10 min)",
+    it: "Il porto turistico e il quai Vendeuvre (~10 min)",
+  },
+  "Vous êtes en plein cœur historique de Caen, dans une petite rue piétonne juste à côté de la rue Écuyère et de la place Saint-Sauveur — le quartier des terrasses, des bars et des restaurants. Tout le centre-ville, le château, le port et les rues commerçantes se font à pied, et le tram vous emmène à la gare en quelques minutes.": {
+    en: "You are right in the historic heart of Caen, on a small pedestrian street just off rue Écuyère and place Saint-Sauveur — the district of terraces, bars and restaurants. The whole town centre, the castle, the harbour and the shopping streets are all within walking distance, and the tram takes you to the station in a few minutes.",
+    de: "Sie befinden sich mitten im historischen Zentrum von Caen, in einer kleinen Fußgängerstraße direkt neben der Rue Écuyère und dem Place Saint-Sauveur – dem Viertel der Terrassen, Bars und Restaurants. Die gesamte Innenstadt, die Burg, der Hafen und die Einkaufsstraßen sind zu Fuß erreichbar, und die Straßenbahn bringt Sie in wenigen Minuten zum Bahnhof.",
+    es: "Se encuentra en pleno corazón histórico de Caen, en una pequeña calle peatonal justo al lado de la rue Écuyère y de la place Saint-Sauveur, el barrio de las terrazas, los bares y los restaurantes. Todo el centro, el castillo, el puerto y las calles comerciales están a pie, y el tranvía le lleva a la estación en pocos minutos.",
+    it: "Vi trovate nel cuore storico di Caen, in una piccola via pedonale proprio accanto a rue Écuyère e place Saint-Sauveur, il quartiere delle terrazze, dei bar e dei ristoranti. Tutto il centro, il castello, il porto e le vie dello shopping sono raggiungibili a piedi, e il tram vi porta alla stazione in pochi minuti.",
+  },
+  "La laverie automatique la plus proche, en libre-service, au coin de la rue Écuyère — à moins d'une minute à pied. Utile : le logement n'a pas de lave-linge.": {
+    en: "The nearest self-service launderette, on the corner of rue Écuyère — less than a minute's walk away. Handy, as the flat has no washing machine.",
+    de: "Der nächstgelegene SB-Waschsalon, an der Ecke zur Rue Écuyère – weniger als eine Gehminute entfernt. Praktisch, da die Wohnung keine Waschmaschine hat.",
+    es: "La lavandería de autoservicio más cercana, en la esquina de la rue Écuyère, a menos de un minuto a pie. Útil: el alojamiento no tiene lavadora.",
+    it: "La lavanderia automatica più vicina, self-service, all'angolo di rue Écuyère — a meno di un minuto a piedi. Utile: l'alloggio non ha la lavatrice.",
+  },
+  "Autre laverie automatique en libre-service, allée des Quatrans, au pied du château.": {
+    en: "Another self-service launderette, on allée des Quatrans, at the foot of the castle.",
+    de: "Ein weiterer SB-Waschsalon in der Allée des Quatrans, am Fuß der Burg.",
+    es: "Otra lavandería de autoservicio, en la allée des Quatrans, al pie del castillo.",
+    it: "Un'altra lavanderia automatica self-service, in allée des Quatrans, ai piedi del castello.",
   },
   "Commencez par flâner dans la rue Froide et les ruelles pavées du vieux Caen, juste à côté, puis montez au château pour la vue et le Musée des Beaux-Arts. Le soir, le quartier du Vaugueux et les terrasses du port sont les meilleures adresses pour dîner. Et pour les gourmands, goûtez les tripes à la mode de Caen, la spécialité locale !": {
     en: "Start by strolling along rue Froide and the cobbled lanes of old Caen, right next door, then head up to the castle for the view and the Fine Arts Museum. In the evening, the Vaugueux quarter and the harbour terraces are the best places to dine. And for the food lovers, try tripes à la mode de Caen, the local speciality!",
