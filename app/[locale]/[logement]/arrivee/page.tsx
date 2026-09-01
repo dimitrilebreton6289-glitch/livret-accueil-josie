@@ -27,11 +27,12 @@ export default async function ArriveePage({
   const { arrivee, equipements } = logement;
   const base = `/${logement.id}`;
 
-  // Logement d'un seul niveau (studio, plain-pied…) : on n'étiquette pas la
-  // partie « Rez-de-chaussée » mais simplement « L'appartement ».
-  const espaceUnique =
-    arrivee.decouverte.etage.length === 0 &&
-    arrivee.decouverte.exterieur.length === 0;
+  // Logement d'un seul niveau (studio, appartement de plain-pied…) : on
+  // n'étiquette pas la partie « Rez-de-chaussée » mais simplement
+  // « L'appartement » — sinon un appartement à l'étage serait annoncé comme
+  // étant au rez-de-chaussée. L'extérieur a sa propre carte et n'entre pas
+  // dans ce calcul.
+  const espaceUnique = arrivee.decouverte.etage.length === 0;
 
   return (
     <>
