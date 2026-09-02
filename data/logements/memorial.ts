@@ -122,7 +122,9 @@ export const memorial: Logement = {
       {
         titre: "🛌 Couchages",
         contenu:
-          "L'appartement accueille 3 personnes :\n• la chambre dispose d'un lit double ;\n• le séjour dispose d'un canapé-lit 1 place.\n\nLes draps sont fournis pour ces deux couchages. Un matelas d'appoint 1 place est également rangé sous le lit de la chambre : il peut dépanner, mais les draps ne sont pas fournis pour celui-ci — pensez à apporter les vôtres si vous souhaitez l'utiliser.",
+          "L'appartement accueille 3 personnes :\n• la chambre dispose d'un lit double ;\n• le séjour dispose d'un canapé-lit 1 place.\n\nLes draps sont fournis pour ces deux couchages. Un matelas d'appoint 1 place est également rangé sous le lit de la chambre : il peut dépanner, mais les draps ne sont pas fournis pour celui-ci — pensez à apporter les vôtres si vous souhaitez l'utiliser.\n\nLa vidéo ci-dessous montre comment déplier et replier le canapé-lit du séjour.",
+        video: "/logements/memorial/canape.mp4",
+        videoPortrait: true,
       },
       {
         titre: "🛏️ Linge de maison",
@@ -142,7 +144,34 @@ export const memorial: Logement = {
       {
         titre: "🍳 Cuisine",
         contenu:
-          "La cuisine, séparée du séjour, est entièrement équipée : réfrigérateur, congélateur, micro-ondes, bouilloire, cafetière et grille-pain, ainsi que la vaisselle, les couverts, les verres à vin et tout le nécessaire de cuisine (casseroles, poêles, huile, sel et poivre). Une table à manger vous attend pour les repas.",
+          "La cuisine, séparée du séjour, est entièrement équipée : un four, une plaque de cuisson vitrocéramique, un réfrigérateur, un congélateur, un micro-ondes, une bouilloire, une cafetière et un grille-pain, ainsi que la vaisselle, les couverts, les verres à vin et tout le nécessaire de cuisine (casseroles, poêles, huile, sel et poivre). Une table à manger vous attend pour les repas.",
+      },
+      {
+        titre: "🔥 Four",
+        contenu:
+          "Le four est électrique et se pilote avec deux boutons et un afficheur central.\n\n1. Réglez le THERMOSTAT (bouton de gauche) sur la température souhaitée (de 50° à 250°) : le voyant rouge « marche » s'allume.\n2. Réglez le SÉLECTEUR (bouton de droite) sur le mode de cuisson voulu : « pâtisseries / poissons », « flans / tartes aux fruits », « grillades / tournebroche » ou « maintien au chaud ». Sur « 0 », le four est éteint.\n3. L'afficheur central sert de minuteur et d'horloge : avec la touche « sélection » et les touches + / −, vous pouvez régler un minuteur (facultatif).\n\nPensez à bien remettre les deux boutons sur « 0 » après utilisation.",
+        photos: [
+          "/logements/memorial/four-1.jpg",
+          "/logements/memorial/four-2.jpg",
+          "/logements/memorial/four-3.jpg",
+        ],
+      },
+      {
+        titre: "🍳 Plaque de cuisson",
+        contenu:
+          "La plaque est vitrocéramique, à commandes tactiles (pas de bouton à tourner).\n\n1. Effleurez la touche marche/arrêt pour activer la plaque.\n2. Sélectionnez la zone de cuisson, puis réglez la puissance avec les touches + et −.\n3. Pour éteindre, ramenez la puissance à « 0 » ou appuyez sur la touche marche/arrêt.\n\nUne sécurité enfant (cadenas) peut verrouiller les commandes : maintenez la touche cadenas appuyée pour déverrouiller. La vidéo ci-dessous montre le fonctionnement.",
+        video: "/logements/memorial/plaque.mp4",
+        videoPortrait: false,
+      },
+      {
+        titre: "📺 Télévision",
+        contenu:
+          "Deux télécommandes sont nécessaires : la télécommande Samsung (noire, marquée « SAMSUNG ») pour l'écran, et la télécommande Free (grise, logo « free ») pour la Freebox.\n\n1. Allumez le téléviseur avec le bouton rouge, en haut à gauche de la télécommande Samsung.\n2. Appuyez sur le bouton « SOURCE » (en haut à droite de la télécommande Samsung) et sélectionnez « HDMI2/DVI ».\n3. Allumez la Freebox avec la télécommande grise « free » (bouton de mise en marche en haut à droite).\n4. Utilisez ensuite la télécommande « free » pour changer de chaîne, régler le volume et naviguer dans Freebox TV.\n\nSi l'écran affiche « Pas de signal », vérifiez que la source est bien sur « HDMI2/DVI » et que la Freebox est allumée.",
+        photos: [
+          "/logements/memorial/tv-1.jpg",
+          "/logements/memorial/tv-2.jpg",
+          "/logements/memorial/tv-3.jpg",
+        ],
       },
       {
         titre: "🔥 Chauffage",
@@ -160,12 +189,27 @@ export const memorial: Logement = {
           "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
       },
       {
+        titre: "🗑️ Local poubelles",
+        contenu:
+          "Le local poubelles se trouve au sous-sol de la résidence (niveau -1). Prenez l'ascenseur jusqu'au niveau -1, puis ouvrez le local avec la petite clé fournie dans la boîte à clés (celle qui contient aussi le badge et la clé de l'appartement).\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\nMerci de trier vos déchets et de bien refermer le local derrière vous. La vidéo ci-dessous vous montre le chemin depuis l'ascenseur.",
+        video: "/logements/memorial/poubelles.mp4",
+        videoPortrait: true,
+      },
+      {
+        titre: "🔑 Dépôt des clés au départ",
+        contenu:
+          "À votre départ, déposez le badge de la résidence, la clé de l'appartement et la petite clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)",
+        photos: ["/logements/memorial/boite.jpg"],
+      },
+      {
         titre: "🐾 Animaux",
         contenu:
           "Les animaux de compagnie ne sont malheureusement pas acceptés dans ce logement.",
       },
     ],
     electromenager: [
+      "Four",
+      "Plaque vitrocéramique",
       "Réfrigérateur",
       "Congélateur",
       "Micro-ondes",
@@ -198,6 +242,8 @@ export const memorial: Logement = {
     "Canapé-lit 1 place",
     "TV",
     "Cuisine séparée équipée",
+    "Four",
+    "Plaque vitrocéramique",
     "Micro-ondes",
     "Réfrigérateur & congélateur",
     "Cafetière & bouilloire",
@@ -227,7 +273,7 @@ export const memorial: Logement = {
       "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser le chauffage",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
       "Fermer l'appartement à clé",
-      "Rapporter le badge de la résidence, la clé de l'appartement et la clé du local poubelles dans la boîte à clés du 46 rue Caponière, puis brouiller le code",
+      "Déposer le badge de la résidence, la clé de l'appartement et la clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery",
     ],
     departTardif: {
       texte:

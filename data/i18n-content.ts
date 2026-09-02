@@ -5730,4 +5730,123 @@ export const CONTENT: Record<string, Tr> = {
     es: "Estamos disponibles en todo momento a través del chat de su plataforma de reserva (Airbnb o Booking): no dude en escribirnos ante la menor duda.",
     it: "Siamo sempre disponibili tramite la conversazione della vostra piattaforma di prenotazione (Airbnb o Booking): non esitate a scriverci per qualsiasi domanda.",
   },
+  "Plaques tactiles":
+    {
+      en: "Touch-control hob",
+      de: "Touch-Kochfeld",
+      es: "Placa táctil",
+      it: "Piano cottura touch",
+    },
+  "Canapé-lit":
+    {
+      en: "Sofa bed",
+      de: "Schlafsofa",
+      es: "Sofá cama",
+      it: "Divano letto",
+    },
+  "Machine Nespresso (capsules fournies)":
+    {
+      en: "Nespresso machine (capsules provided)",
+      de: "Nespresso-Maschine (Kapseln inklusive)",
+      es: "Cafetera Nespresso (cápsulas incluidas)",
+      it: "Macchina Nespresso (capsule fornite)",
+    },
+  "Sur demande, vous pouvez laisser vos bagages dans le logement (avant l'arrivée ou après le départ) — pensez simplement à bien remettre la clé dans la boîte à clé en repartant.":
+    {
+      en: "On request, you can leave your luggage in the property (before check-in or after check-out) — just remember to put the key back in the key box when you leave.",
+      de: "Auf Anfrage können Sie Ihr Gepäck in der Unterkunft lassen (vor der Anreise oder nach der Abreise) — denken Sie nur daran, den Schlüssel beim Verlassen wieder in den Schlüsselkasten zu legen.",
+      es: "Bajo petición, puede dejar su equipaje en el alojamiento (antes de la llegada o después de la salida) — solo recuerde volver a dejar la llave en la caja al marcharse.",
+      it: "Su richiesta, potete lasciare i bagagli nell'alloggio (prima dell'arrivo o dopo la partenza) — ricordatevi solo di rimettere la chiave nella cassetta quando partite.",
+    },
+  "Les poubelles sont à déposer rue Froide (le camion passe tous les jours) et non dans la rue de la Monnaie.\nBorne à verre la plus proche : 9 rue du Tour de Terre.":
+    {
+      en: "Bins should be taken out on Rue Froide (the truck comes every day), not on Rue de la Monnaie.\nNearest glass container: 9 Rue du Tour de Terre.",
+      de: "Der Müll ist in der Rue Froide bereitzustellen (die Müllabfuhr kommt täglich), nicht in der Rue de la Monnaie.\nNächster Glascontainer: 9 Rue du Tour de Terre.",
+      es: "La basura debe dejarse en la rue Froide (el camión pasa todos los días), no en la rue de la Monnaie.\nContenedor de vidrio más cercano: 9 rue du Tour de Terre.",
+      it: "I rifiuti vanno depositati in rue Froide (il camion passa tutti i giorni) e non in rue de la Monnaie.\nContenitore del vetro più vicino: 9 rue du Tour de Terre.",
+    },
+  "Sortir les poubelles rue Froide (pas dans la rue de la Monnaie)":
+    {
+      en: "Take the bins out on Rue Froide (not on Rue de la Monnaie)",
+      de: "Den Müll in der Rue Froide bereitstellen (nicht in der Rue de la Monnaie)",
+      es: "Sacar la basura en la rue Froide (no en la rue de la Monnaie)",
+      it: "Portare i rifiuti in rue Froide (non in rue de la Monnaie)",
+    },
+  "L'appartement accueille 3 personnes :\n• la chambre dispose d'un lit double ;\n• le séjour dispose d'un canapé-lit 1 place.\n\nLes draps sont fournis pour ces deux couchages. Un matelas d'appoint 1 place est également rangé sous le lit de la chambre : il peut dépanner, mais les draps ne sont pas fournis pour celui-ci — pensez à apporter les vôtres si vous souhaitez l'utiliser.\n\nLa vidéo ci-dessous montre comment déplier et replier le canapé-lit du séjour.":
+    {
+      en: "The apartment sleeps 3:\n• the bedroom has a double bed;\n• the living room has a single sofa bed.\n\nSheets are provided for both of these. A spare single mattress is also stored under the bedroom bed: it can help in a pinch, but sheets are not provided for it — bring your own if you'd like to use it.\n\nThe video below shows how to unfold and fold the living-room sofa bed.",
+      de: "Die Wohnung bietet Platz für 3 Personen:\n• das Schlafzimmer hat ein Doppelbett;\n• das Wohnzimmer hat ein Einzel-Schlafsofa.\n\nFür beide wird Bettwäsche gestellt. Unter dem Bett im Schlafzimmer liegt zudem eine zusätzliche Einzelmatratze: sie hilft im Notfall, doch dafür wird keine Bettwäsche gestellt — bringen Sie Ihre eigene mit, wenn Sie sie nutzen möchten.\n\nDas Video unten zeigt, wie man das Schlafsofa im Wohnzimmer aus- und wieder einklappt.",
+      es: "El apartamento aloja a 3 personas:\n• el dormitorio dispone de una cama doble;\n• el salón dispone de un sofá cama individual.\n\nLas sábanas están incluidas para ambos. Bajo la cama del dormitorio hay también un colchón supletorio individual: puede sacar de un apuro, pero no se incluyen sábanas para este — traiga las suyas si desea usarlo.\n\nEl vídeo a continuación muestra cómo desplegar y plegar el sofá cama del salón.",
+      it: "L'appartamento ospita 3 persone:\n• la camera dispone di un letto matrimoniale;\n• il soggiorno dispone di un divano letto singolo.\n\nLe lenzuola sono fornite per entrambi. Sotto il letto della camera è riposto anche un materasso singolo aggiuntivo: può tornare utile, ma per questo le lenzuola non sono fornite — portate le vostre se desiderate usarlo.\n\nIl video qui sotto mostra come aprire e richiudere il divano letto del soggiorno.",
+    },
+  "La cuisine, séparée du séjour, est entièrement équipée : un four, une plaque de cuisson vitrocéramique, un réfrigérateur, un congélateur, un micro-ondes, une bouilloire, une cafetière et un grille-pain, ainsi que la vaisselle, les couverts, les verres à vin et tout le nécessaire de cuisine (casseroles, poêles, huile, sel et poivre). Une table à manger vous attend pour les repas.":
+    {
+      en: "The kitchen, separate from the living room, is fully equipped: an oven, a ceramic hob, a fridge, a freezer, a microwave, a kettle, a coffee maker and a toaster, plus crockery, cutlery, wine glasses and all the kitchen essentials (pots, pans, oil, salt and pepper). A dining table awaits you for meals.",
+      de: "Die vom Wohnzimmer getrennte Küche ist voll ausgestattet: ein Backofen, ein Glaskeramik-Kochfeld, ein Kühlschrank, ein Gefrierschrank, eine Mikrowelle, ein Wasserkocher, eine Kaffeemaschine und ein Toaster, dazu Geschirr, Besteck, Weingläser und die gesamte Küchenausstattung (Töpfe, Pfannen, Öl, Salz und Pfeffer). Ein Esstisch erwartet Sie für die Mahlzeiten.",
+      es: "La cocina, separada del salón, está totalmente equipada: un horno, una placa vitrocerámica, un frigorífico, un congelador, un microondas, un hervidor, una cafetera y una tostadora, además de la vajilla, los cubiertos, las copas de vino y todo lo necesario de cocina (ollas, sartenes, aceite, sal y pimienta). Una mesa de comedor le espera para las comidas.",
+      it: "La cucina, separata dal soggiorno, è completamente attrezzata: un forno, un piano cottura in vetroceramica, un frigorifero, un congelatore, un microonde, un bollitore, una caffettiera e un tostapane, oltre a stoviglie, posate, calici da vino e tutto il necessario da cucina (pentole, padelle, olio, sale e pepe). Un tavolo da pranzo vi attende per i pasti.",
+    },
+  "🔥 Four":
+    {
+      en: "🔥 Oven",
+      de: "🔥 Backofen",
+      es: "🔥 Horno",
+      it: "🔥 Forno",
+    },
+  "Le four est électrique et se pilote avec deux boutons et un afficheur central.\n\n1. Réglez le THERMOSTAT (bouton de gauche) sur la température souhaitée (de 50° à 250°) : le voyant rouge « marche » s'allume.\n2. Réglez le SÉLECTEUR (bouton de droite) sur le mode de cuisson voulu : « pâtisseries / poissons », « flans / tartes aux fruits », « grillades / tournebroche » ou « maintien au chaud ». Sur « 0 », le four est éteint.\n3. L'afficheur central sert de minuteur et d'horloge : avec la touche « sélection » et les touches + / −, vous pouvez régler un minuteur (facultatif).\n\nPensez à bien remettre les deux boutons sur « 0 » après utilisation.":
+    {
+      en: "The oven is electric and is controlled with two knobs and a central display.\n\n1. Set the THERMOSTAT (left knob) to the temperature you want (from 50° to 250°): the red “on” light comes on.\n2. Set the SELECTOR (right knob) to the cooking mode you want: “pastries / fish”, “flans / fruit tarts”, “grilling / rotisserie” or “keep warm”. On “0”, the oven is off.\n3. The central display works as a timer and clock: with the “select” button and the + / − keys, you can set a timer (optional).\n\nRemember to turn both knobs back to “0” after use.",
+      de: "Der Backofen ist elektrisch und wird mit zwei Drehknöpfen und einer zentralen Anzeige bedient.\n\n1. Stellen Sie den THERMOSTAT (linker Knopf) auf die gewünschte Temperatur (von 50° bis 250°): die rote „marche“-Leuchte geht an.\n2. Stellen Sie den WÄHLER (rechter Knopf) auf die gewünschte Garart: „Gebäck / Fisch“, „Flan / Obstkuchen“, „Grillen / Drehspieß“ oder „Warmhalten“. Auf „0“ ist der Ofen aus.\n3. Die zentrale Anzeige dient als Timer und Uhr: mit der Taste „sélection“ und den Tasten + / − können Sie einen Timer stellen (optional).\n\nDenken Sie daran, beide Knöpfe nach Gebrauch wieder auf „0“ zu stellen.",
+      es: "El horno es eléctrico y se maneja con dos mandos y una pantalla central.\n\n1. Ponga el TERMOSTATO (mando izquierdo) en la temperatura deseada (de 50° a 250°): se enciende el piloto rojo “marche”.\n2. Ponga el SELECTOR (mando derecho) en el modo de cocción deseado: “pastelería / pescado”, “flanes / tartas de fruta”, “parrilla / asador” o “mantener caliente”. En “0”, el horno está apagado.\n3. La pantalla central funciona como temporizador y reloj: con el botón “sélection” y las teclas + / − puede programar un temporizador (opcional).\n\nRecuerde volver a poner ambos mandos en “0” después de usarlo.",
+      it: "Il forno è elettrico e si comanda con due manopole e un display centrale.\n\n1. Regolate il TERMOSTATO (manopola di sinistra) sulla temperatura desiderata (da 50° a 250°): la spia rossa “marche” si accende.\n2. Regolate il SELETTORE (manopola di destra) sulla modalità di cottura desiderata: “pasticceria / pesce”, “flan / crostate di frutta”, “griglia / girarrosto” o “mantenimento in caldo”. Su “0”, il forno è spento.\n3. Il display centrale funge da timer e orologio: con il tasto “sélection” e i tasti + / − potete impostare un timer (facoltativo).\n\nRicordatevi di riportare entrambe le manopole su “0” dopo l'uso.",
+    },
+  "La plaque est vitrocéramique, à commandes tactiles (pas de bouton à tourner).\n\n1. Effleurez la touche marche/arrêt pour activer la plaque.\n2. Sélectionnez la zone de cuisson, puis réglez la puissance avec les touches + et −.\n3. Pour éteindre, ramenez la puissance à « 0 » ou appuyez sur la touche marche/arrêt.\n\nUne sécurité enfant (cadenas) peut verrouiller les commandes : maintenez la touche cadenas appuyée pour déverrouiller. La vidéo ci-dessous montre le fonctionnement.":
+    {
+      en: "The hob is ceramic, with touch controls (no knobs to turn).\n\n1. Tap the on/off key to switch the hob on.\n2. Select the cooking zone, then set the power with the + and − keys.\n3. To switch off, bring the power back to “0” or press the on/off key.\n\nA child lock (padlock) can lock the controls: hold the padlock key down to unlock. The video below shows how it works.",
+      de: "Das Kochfeld ist aus Glaskeramik, mit Sensortasten (keine Drehknöpfe).\n\n1. Berühren Sie die Ein/Aus-Taste, um das Kochfeld einzuschalten.\n2. Wählen Sie die Kochzone und stellen Sie die Leistung mit den Tasten + und − ein.\n3. Zum Ausschalten die Leistung wieder auf „0“ bringen oder die Ein/Aus-Taste drücken.\n\nEine Kindersicherung (Schloss) kann die Bedienung sperren: Halten Sie die Schloss-Taste gedrückt, um zu entsperren. Das Video unten zeigt die Bedienung.",
+      es: "La placa es vitrocerámica, con mandos táctiles (sin mandos que girar).\n\n1. Toque la tecla de encendido/apagado para activar la placa.\n2. Seleccione la zona de cocción y ajuste la potencia con las teclas + y −.\n3. Para apagar, baje la potencia a “0” o pulse la tecla de encendido/apagado.\n\nUn bloqueo infantil (candado) puede bloquear los mandos: mantenga pulsada la tecla del candado para desbloquear. El vídeo a continuación muestra el funcionamiento.",
+      it: "Il piano cottura è in vetroceramica, con comandi touch (nessuna manopola da girare).\n\n1. Sfiorate il tasto on/off per attivare il piano.\n2. Selezionate la zona di cottura, poi regolate la potenza con i tasti + e −.\n3. Per spegnere, riportate la potenza a “0” o premete il tasto on/off.\n\nUna sicurezza bambini (lucchetto) può bloccare i comandi: tenete premuto il tasto del lucchetto per sbloccare. Il video qui sotto mostra il funzionamento.",
+    },
+  "Deux télécommandes sont nécessaires : la télécommande Samsung (noire, marquée « SAMSUNG ») pour l'écran, et la télécommande Free (grise, logo « free ») pour la Freebox.\n\n1. Allumez le téléviseur avec le bouton rouge, en haut à gauche de la télécommande Samsung.\n2. Appuyez sur le bouton « SOURCE » (en haut à droite de la télécommande Samsung) et sélectionnez « HDMI2/DVI ».\n3. Allumez la Freebox avec la télécommande grise « free » (bouton de mise en marche en haut à droite).\n4. Utilisez ensuite la télécommande « free » pour changer de chaîne, régler le volume et naviguer dans Freebox TV.\n\nSi l'écran affiche « Pas de signal », vérifiez que la source est bien sur « HDMI2/DVI » et que la Freebox est allumée.":
+    {
+      en: "Two remotes are needed: the Samsung remote (black, marked “SAMSUNG”) for the screen, and the Free remote (grey, “free” logo) for the Freebox.\n\n1. Turn on the TV with the red button, top left of the Samsung remote.\n2. Press the “SOURCE” button (top right of the Samsung remote) and select “HDMI2/DVI”.\n3. Turn on the Freebox with the grey “free” remote (power button, top right).\n4. Then use the “free” remote to change channels, adjust the volume and navigate Freebox TV.\n\nIf the screen shows “No signal”, check that the source is set to “HDMI2/DVI” and that the Freebox is on.",
+      de: "Sie benötigen zwei Fernbedienungen: die Samsung-Fernbedienung (schwarz, mit „SAMSUNG“ beschriftet) für den Bildschirm und die Free-Fernbedienung (grau, „free“-Logo) für die Freebox.\n\n1. Schalten Sie den Fernseher mit der roten Taste oben links auf der Samsung-Fernbedienung ein.\n2. Drücken Sie die Taste „SOURCE“ (oben rechts auf der Samsung-Fernbedienung) und wählen Sie „HDMI2/DVI“.\n3. Schalten Sie die Freebox mit der grauen „free“-Fernbedienung ein (Ein/Aus-Taste oben rechts).\n4. Verwenden Sie dann die „free“-Fernbedienung, um Sender zu wechseln, die Lautstärke zu regeln und durch Freebox TV zu navigieren.\n\nWenn der Bildschirm „Kein Signal“ anzeigt, prüfen Sie, ob die Quelle auf „HDMI2/DVI“ steht und die Freebox eingeschaltet ist.",
+      es: "Se necesitan dos mandos: el mando Samsung (negro, con la marca “SAMSUNG”) para la pantalla, y el mando Free (gris, logo “free”) para la Freebox.\n\n1. Encienda el televisor con el botón rojo, arriba a la izquierda del mando Samsung.\n2. Pulse el botón “SOURCE” (arriba a la derecha del mando Samsung) y seleccione “HDMI2/DVI”.\n3. Encienda la Freebox con el mando gris “free” (botón de encendido, arriba a la derecha).\n4. Después use el mando “free” para cambiar de canal, ajustar el volumen y navegar por Freebox TV.\n\nSi la pantalla muestra “Sin señal”, compruebe que la fuente está en “HDMI2/DVI” y que la Freebox está encendida.",
+      it: "Servono due telecomandi: il telecomando Samsung (nero, con la scritta “SAMSUNG”) per lo schermo, e il telecomando Free (grigio, logo “free”) per la Freebox.\n\n1. Accendete il televisore con il pulsante rosso, in alto a sinistra sul telecomando Samsung.\n2. Premete il pulsante “SOURCE” (in alto a destra sul telecomando Samsung) e selezionate “HDMI2/DVI”.\n3. Accendete la Freebox con il telecomando grigio “free” (tasto di accensione in alto a destra).\n4. Usate poi il telecomando “free” per cambiare canale, regolare il volume e navigare in Freebox TV.\n\nSe lo schermo mostra “Nessun segnale”, verificate che la sorgente sia su “HDMI2/DVI” e che la Freebox sia accesa.",
+    },
+  "🗑️ Local poubelles":
+    {
+      en: "🗑️ Bin room",
+      de: "🗑️ Müllraum",
+      es: "🗑️ Cuarto de basuras",
+      it: "🗑️ Locale rifiuti",
+    },
+  "Le local poubelles se trouve au sous-sol de la résidence (niveau -1). Prenez l'ascenseur jusqu'au niveau -1, puis ouvrez le local avec la petite clé fournie dans la boîte à clés (celle qui contient aussi le badge et la clé de l'appartement).\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\nMerci de trier vos déchets et de bien refermer le local derrière vous. La vidéo ci-dessous vous montre le chemin depuis l'ascenseur.":
+    {
+      en: "The bin room is in the basement of the residence (level -1). Take the lift down to level -1, then open the room with the small key provided in the key box (the one that also holds the badge and the apartment key).\n🟡 Yellow bin: packaging and recyclables\n⚫ Grey bin: household waste\nPlease sort your waste and close the room properly behind you. The video below shows you the way from the lift.",
+      de: "Der Müllraum befindet sich im Untergeschoss der Residenz (Ebene -1). Fahren Sie mit dem Aufzug hinunter auf Ebene -1 und öffnen Sie den Raum mit dem kleinen Schlüssel aus dem Schlüsselkasten (dem, in dem auch der Badge und der Wohnungsschlüssel liegen).\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\nBitte trennen Sie Ihren Abfall und schließen Sie den Raum hinter sich gut. Das Video unten zeigt Ihnen den Weg vom Aufzug aus.",
+      es: "El cuarto de basuras está en el sótano de la residencia (nivel -1). Baje en ascensor hasta el nivel -1 y abra el cuarto con la llave pequeña incluida en la caja de llaves (la que contiene también el mando y la llave del apartamento).\n🟡 Contenedor amarillo: envases y reciclables\n⚫ Contenedor gris: residuos domésticos\nPor favor, separe sus residuos y cierre bien el cuarto al salir. El vídeo a continuación le muestra el camino desde el ascensor.",
+      it: "Il locale rifiuti si trova nel seminterrato della residenza (livello -1). Scendete con l'ascensore al livello -1, poi aprite il locale con la piccola chiave fornita nella cassetta delle chiavi (quella che contiene anche il badge e la chiave dell'appartamento).\n🟡 Bidone giallo: imballaggi e riciclabili\n⚫ Bidone grigio: rifiuti domestici\nVi preghiamo di differenziare i rifiuti e di richiudere bene il locale dietro di voi. Il video qui sotto vi mostra il percorso dall'ascensore.",
+    },
+  "🔑 Dépôt des clés au départ":
+    {
+      en: "🔑 Returning the keys on departure",
+      de: "🔑 Schlüsselrückgabe bei der Abreise",
+      es: "🔑 Devolución de las llaves a la salida",
+      it: "🔑 Riconsegna delle chiavi alla partenza",
+    },
+  "À votre départ, déposez le badge de la résidence, la clé de l'appartement et la petite clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)":
+    {
+      en: "When you leave, drop the residence badge, the apartment key and the small bin-room key into the apartment's mailbox (box no. 89), in the lobby of the residence, at 18 Avenue Maréchal Montgomery. You'll recognise it by the “CAEN & MER IMMO / STOP PUB” sticker (see photo).\n\n(As a reminder, the keys are picked up on arrival at 46 Rue Caponière — a different address.)",
+      de: "Werfen Sie bei Ihrer Abreise den Residenz-Badge, den Wohnungsschlüssel und den kleinen Schlüssel des Müllraums in den Briefkasten der Wohnung (Fach Nr. 89) im Eingangsbereich der Residenz, 18 Avenue Maréchal Montgomery. Sie erkennen ihn am Aufkleber „CAEN & MER IMMO / STOP PUB“ (siehe Foto).\n\n(Zur Erinnerung: Die Schlüssel werden bei der Anreise am 46 Rue Caponière abgeholt — eine andere Adresse.)",
+      es: "Al marcharse, deposite el mando de la residencia, la llave del apartamento y la llave pequeña del cuarto de basuras en el buzón del apartamento (buzón n.º 89), en el vestíbulo de la residencia, en el 18 Avenue Maréchal Montgomery. Lo reconocerá por la pegatina “CAEN & MER IMMO / STOP PUB” (ver foto).\n\n(Recuerde que las llaves se recogen a la llegada en el 46 Rue Caponière — una dirección distinta.)",
+      it: "Alla partenza, deponete il badge della residenza, la chiave dell'appartamento e la piccola chiave del locale rifiuti nella cassetta delle lettere dell'appartamento (cassetta n. 89), nell'atrio della residenza, al 18 Avenue Maréchal Montgomery. La riconoscerete dall'adesivo “CAEN & MER IMMO / STOP PUB” (vedi foto).\n\n(Per ricordo, le chiavi si ritirano all'arrivo al 46 Rue Caponière — un indirizzo diverso.)",
+    },
+  "Déposer le badge de la résidence, la clé de l'appartement et la clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery":
+    {
+      en: "Drop the residence badge, the apartment key and the bin-room key into the apartment's mailbox (box no. 89, in the lobby of the residence — “CAEN & MER IMMO / STOP PUB” sticker), at 18 Avenue Maréchal Montgomery",
+      de: "Den Residenz-Badge, den Wohnungsschlüssel und den Schlüssel des Müllraums in den Briefkasten der Wohnung werfen (Fach Nr. 89, im Eingangsbereich der Residenz — Aufkleber „CAEN & MER IMMO / STOP PUB“), 18 Avenue Maréchal Montgomery",
+      es: "Depositar el mando de la residencia, la llave del apartamento y la llave del cuarto de basuras en el buzón del apartamento (buzón n.º 89, en el vestíbulo de la residencia — pegatina “CAEN & MER IMMO / STOP PUB”), en el 18 Avenue Maréchal Montgomery",
+      it: "Deporre il badge della residenza, la chiave dell'appartamento e la chiave del locale rifiuti nella cassetta delle lettere dell'appartamento (cassetta n. 89, nell'atrio della residenza — adesivo “CAEN & MER IMMO / STOP PUB”), al 18 Avenue Maréchal Montgomery",
+    },
 };
