@@ -89,7 +89,7 @@ export const saintjean: Logement = {
   cover: "/logements/saintjean/salon.jpg",
 
   motAccueil:
-    "Bienvenue dans l'appartement Saint-Jean, en plein cœur de Caen ! Vous êtes rue Saint-Jean, à deux pas des restaurants, des commerces et du port — tout se fait à pied. Son petit plus : un balcon avec vue sur les toits de Caen, parfait pour un café le matin ou un verre le soir. Très bon séjour ! ☕",
+    "Bienvenue dans l'appartement Saint-Jean, en plein cœur de Caen ! Vous êtes rue Saint-Jean, à deux pas des restaurants, des commerces et du port — tout se fait à pied. Son petit plus : un balcon avec vue sur les toits de Caen, parfait pour un café le matin ou un verre le soir. Bon à savoir : le logement se situe au 3ᵉ étage, sans ascenseur. Très bon séjour ! ☕",
 
   arrivee: {
     horaire: "Arrivée autonome jusqu'à 22h",
