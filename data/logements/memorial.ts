@@ -56,32 +56,6 @@ export const memorial: Logement = {
       "Résidence sécurisée avec ascenseur : le badge ouvre la porte de l'immeuble, puis montez au 3ᵉ étage",
     ],
     video: "/logements/memorial/checkin.mp4",
-    etapes: [
-      {
-        texte:
-          "Première étape : rendez-vous au 46 rue Caponière, à Caen. C'est là que se trouve la boîte à clés — pas à l'adresse du logement. Comptez ce détour dans votre trajet.",
-      },
-      {
-        texte:
-          "Composez le code de la boîte à clés (il vous est envoyé par message une fois le logement prêt) et récupérez son contenu : le badge d'accès à la résidence, la clé de l'appartement et la petite clé du local poubelles. Pensez à refermer la boîte et à brouiller le code.",
-      },
-      {
-        texte:
-          "Deuxième étape : rejoignez le logement au 18 avenue Maréchal Montgomery, 14000 Caen — environ 2,2 km, soit 8 minutes en voiture. Le bâtiment est situé juste en face du Mémorial de Caen.",
-      },
-      {
-        texte:
-          "Garez-vous dans l'une des rues adjacentes : le stationnement y est gratuit et il y a presque toujours de la place. La résidence ne dispose pas de place attribuée.",
-      },
-      {
-        texte:
-          "Présentez le badge devant la porte de la résidence pour l'ouvrir, puis prenez l'ascenseur jusqu'au 3ᵉ étage.",
-      },
-      {
-        texte:
-          "Ouvrez la porte de l'appartement avec la clé. Bienvenue chez vous ! ⚠️ Ne laissez jamais les clés à l'intérieur.",
-      },
-    ],
     arriveeAnticipee: {
       texte:
         "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
