@@ -40,9 +40,7 @@ export const memorial: Logement = {
   itineraire:
     "https://maps.google.com/?q=18+Avenue+Mar%C3%A9chal+Montgomery+14000+Caen",
   coords: [49.20008, -0.38623],
-  cover: "/logements/memorial/cover.jpg",
-  coverCredit:
-    "Photo : le Mémorial de Caen — Mémorial de Caen, CC BY-SA 4.0 (Wikimedia Commons). Provisoire.",
+  cover: "/logements/memorial/cover2.jpg",
 
   motAccueil:
     "Bienvenue dans l'appartement Mémorial ! Vous êtes juste en face du Mémorial de Caen et du parc de la Colline aux Oiseaux, dans un quartier calme et verdoyant, à 10 minutes du centre-ville et de la mer. L'appartement est lumineux, exposé sud-est, avec un balcon parfait pour le café du matin. Très bon séjour à Caen ! 🕊️",
