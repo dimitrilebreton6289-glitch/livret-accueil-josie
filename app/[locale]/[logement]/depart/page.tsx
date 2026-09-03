@@ -6,6 +6,7 @@ import { pick } from "@/lib/content";
 import Header from "@/components/Header";
 import HighlightCard from "@/components/HighlightCard";
 import InfoCard from "@/components/InfoCard";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default async function DepartPage({
   params,
@@ -84,7 +85,8 @@ export default async function DepartPage({
           </InfoCard>
         )}
 
-        {/* Poubelles */}
+        {/* Poubelles (masqué si non renseigné, ex. détaillé dans un accordéon) */}
+        {pratique.poubelles && (
         <InfoCard icon={Trash2} title={t("poubelles")}>
           <p className="whitespace-pre-line">{pick(pratique.poubelles, locale)}</p>
           {pratique.poubellesPhoto && (
@@ -97,7 +99,17 @@ export default async function DepartPage({
               />
             </div>
           )}
+          {pratique.poubellesVideo && (
+            <div className="mt-3">
+              <VideoEmbed
+                url={pratique.poubellesVideo}
+                title={t("poubelles")}
+                portrait={pratique.poubellesVideoPortrait}
+              />
+            </div>
+          )}
         </InfoCard>
+        )}
 
         {/* Ménage pendant le séjour (service en cours de séjour, ≠ ménage de départ) */}
         <InfoCard icon={Sparkles} title={t("menage")}>

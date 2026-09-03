@@ -189,13 +189,6 @@ export const memorial: Logement = {
           "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
       },
       {
-        titre: "🗑️ Local poubelles",
-        contenu:
-          "Le local poubelles se trouve au sous-sol de la résidence (niveau -1). Prenez l'ascenseur jusqu'au niveau -1, puis ouvrez le local avec la petite clé fournie dans la boîte à clés (celle qui contient aussi le badge et la clé de l'appartement).\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\nMerci de trier vos déchets et de bien refermer le local derrière vous. La vidéo ci-dessous vous montre le chemin depuis l'ascenseur.",
-        video: "/logements/memorial/poubelles.mp4",
-        videoPortrait: true,
-      },
-      {
         titre: "🔑 Dépôt des clés au départ",
         contenu:
           "À votre départ, déposez le badge de la résidence, la clé de l'appartement et la petite clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)",
@@ -231,6 +224,8 @@ export const memorial: Logement = {
     },
     poubelles:
       "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1). La petite clé est dans la boîte à clés, avec le badge et la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : rue René Cassin (~130 m à pied)\n\n👉 Merci de bien refermer le local derrière vous.",
+    poubellesVideo: "/logements/memorial/poubelles.mp4",
+    poubellesVideoPortrait: true,
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },

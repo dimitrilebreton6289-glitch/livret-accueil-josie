@@ -150,9 +150,14 @@ export interface Logement {
     /** Électroménager, en étiquettes. */
     electromenager: string[];
     reglementInterieur: ReglementInterieur;
-    poubelles: Tx;
+    /** Consigne poubelles affichée sur la page Départ. Optionnel : si absent (ex.
+     * quand un accordéon « Local poubelles » le détaille déjà), la carte n'apparaît pas. */
+    poubelles?: Tx;
     /** Photo optionnelle du point de collecte (conteneurs de rue, local…). */
     poubellesPhoto?: string;
+    /** Vidéo optionnelle (ex. chemin jusqu'au local poubelles), affichée sur la page Départ. */
+    poubellesVideo?: string;
+    poubellesVideoPortrait?: boolean;
     animaux: Tx;
   };
 
