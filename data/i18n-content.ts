@@ -5855,4 +5855,46 @@ export const CONTENT: Record<string, Tr> = {
     es: "Visita del alojamiento",
     it: "Visita dell'alloggio",
   },
+  "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette & savon\n• 🧴 Gel douche / shampoing (une miniature par personne)\n• 🧂 Sel, poivre & huile\n• 🧽 Produit vaisselle & éponge":
+    {
+      en: "A few essentials are waiting for you on arrival:\n\n• 🧻 Toilet paper & soap\n• 🧴 Shower gel / shampoo (one mini bottle per person)\n• 🧂 Salt, pepper & oil\n• 🧽 Washing-up liquid & sponge",
+      de: "Bei Ihrer Ankunft warten einige Grundausstattungen auf Sie:\n\n• 🧻 Toilettenpapier & Seife\n• 🧴 Duschgel / Shampoo (eine Miniflasche pro Person)\n• 🧂 Salz, Pfeffer & Öl\n• 🧽 Spülmittel & Schwamm",
+      es: "A su llegada le esperan algunos productos esenciales:\n\n• 🧻 Papel higiénico y jabón\n• 🧴 Gel de ducha / champú (una miniatura por persona)\n• 🧂 Sal, pimienta y aceite\n• 🧽 Lavavajillas y esponja",
+      it: "Al vostro arrivo vi aspettano alcuni essenziali:\n\n• 🧻 Carta igienica e sapone\n• 🧴 Gel doccia / shampoo (una miniatura a persona)\n• 🧂 Sale, pepe e olio\n• 🧽 Detersivo per piatti e spugna",
+    },
+  "L'appartement accueille 3 personnes :\n\n• 🛏️ Chambre — un lit double\n• 🛋️ Séjour — un canapé-lit 1 place\n\nLes draps sont fournis pour ces deux couchages.\n\n➕ Un matelas d'appoint 1 place est aussi rangé sous le lit de la chambre (pour dépanner) — les draps ne sont pas fournis pour celui-ci, pensez à apporter les vôtres si besoin.\n\n🎬 La vidéo ci-dessous montre comment déplier et replier le canapé-lit du séjour.":
+    {
+      en: "The apartment sleeps 3:\n\n• 🛏️ Bedroom — a double bed\n• 🛋️ Living room — a single sofa bed\n\nSheets are provided for both of these.\n\n➕ A spare single mattress is also stored under the bedroom bed (in a pinch) — sheets are not provided for it, so bring your own if needed.\n\n🎬 The video below shows how to unfold and fold the living-room sofa bed.",
+      de: "Die Wohnung bietet Platz für 3 Personen:\n\n• 🛏️ Schlafzimmer — ein Doppelbett\n• 🛋️ Wohnzimmer — ein Einzel-Schlafsofa\n\nFür beide wird Bettwäsche gestellt.\n\n➕ Unter dem Bett im Schlafzimmer liegt zudem eine zusätzliche Einzelmatratze (für den Notfall) — dafür wird keine Bettwäsche gestellt, bringen Sie bei Bedarf Ihre eigene mit.\n\n🎬 Das Video unten zeigt, wie man das Schlafsofa im Wohnzimmer aus- und einklappt.",
+      es: "El apartamento aloja a 3 personas:\n\n• 🛏️ Dormitorio — una cama doble\n• 🛋️ Salón — un sofá cama individual\n\nLas sábanas están incluidas para ambos.\n\n➕ Bajo la cama del dormitorio hay también un colchón supletorio individual (para un apuro) — no se incluyen sábanas para este, traiga las suyas si lo necesita.\n\n🎬 El vídeo a continuación muestra cómo desplegar y plegar el sofá cama del salón.",
+      it: "L'appartamento ospita 3 persone:\n\n• 🛏️ Camera — un letto matrimoniale\n• 🛋️ Soggiorno — un divano letto singolo\n\nLe lenzuola sono fornite per entrambi.\n\n➕ Sotto il letto della camera è riposto anche un materasso singolo aggiuntivo (per necessità) — per questo le lenzuola non sono fornite, portate le vostre se serve.\n\n🎬 Il video qui sotto mostra come aprire e richiudere il divano letto del soggiorno.",
+    },
+  "• 🛏️ Draps fournis — le lit de la chambre est fait, ceux du canapé-lit sont fournis\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres & étendoir à linge à disposition":
+    {
+      en: "• 🛏️ Sheets provided — the bedroom bed is made, sofa-bed sheets included\n• 🛁 One towel per guest + a bath mat\n• 🍽️ A kitchen towel\n• 👕 Hangers & drying rack available",
+      de: "• 🛏️ Bettwäsche gestellt — das Bett im Schlafzimmer ist gemacht, Schlafsofa-Bettwäsche inklusive\n• 🛁 Ein Handtuch pro Gast + ein Badvorleger\n• 🍽️ Ein Geschirrtuch\n• 👕 Kleiderbügel & Wäscheständer vorhanden",
+      es: "• 🛏️ Sábanas incluidas — la cama del dormitorio está hecha, sábanas del sofá cama incluidas\n• 🛁 Una toalla por huésped + una alfombrilla de baño\n• 🍽️ Un paño de cocina\n• 👕 Perchas y tendedero disponibles",
+      it: "• 🛏️ Lenzuola fornite — il letto della camera è pronto, incluse quelle del divano letto\n• 🛁 Un asciugamano per ospite + un tappetino da bagno\n• 🍽️ Uno strofinaccio da cucina\n• 👕 Grucce e stendino a disposizione",
+    },
+  "Cuisine séparée, entièrement équipée :\n\n• 🔥 Four & plaque vitrocéramique\n• ❄️ Réfrigérateur & congélateur\n• ☕ Micro-ondes, bouilloire, cafetière & grille-pain\n• 🍴 Vaisselle, couverts, verres à vin & ustensiles (casseroles, poêles…)\n• 🧂 Huile, sel & poivre fournis\n• 🪑 Table à manger pour les repas":
+    {
+      en: "Separate kitchen, fully equipped:\n\n• 🔥 Oven & ceramic hob\n• ❄️ Fridge & freezer\n• ☕ Microwave, kettle, coffee maker & toaster\n• 🍴 Crockery, cutlery, wine glasses & utensils (pots, pans…)\n• 🧂 Oil, salt & pepper provided\n• 🪑 Dining table for meals",
+      de: "Separate Küche, voll ausgestattet:\n\n• 🔥 Backofen & Glaskeramik-Kochfeld\n• ❄️ Kühl- & Gefrierschrank\n• ☕ Mikrowelle, Wasserkocher, Kaffeemaschine & Toaster\n• 🍴 Geschirr, Besteck, Weingläser & Utensilien (Töpfe, Pfannen…)\n• 🧂 Öl, Salz & Pfeffer inklusive\n• 🪑 Esstisch für die Mahlzeiten",
+      es: "Cocina independiente, totalmente equipada:\n\n• 🔥 Horno y placa vitrocerámica\n• ❄️ Frigorífico y congelador\n• ☕ Microondas, hervidor, cafetera y tostadora\n• 🍴 Vajilla, cubiertos, copas de vino y utensilios (ollas, sartenes…)\n• 🧂 Aceite, sal y pimienta incluidos\n• 🪑 Mesa de comedor para las comidas",
+      it: "Cucina separata, completamente attrezzata:\n\n• 🔥 Forno e piano cottura in vetroceramica\n• ❄️ Frigorifero e congelatore\n• ☕ Microonde, bollitore, caffettiera e tostapane\n• 🍴 Stoviglie, posate, calici da vino e utensili (pentole, padelle…)\n• 🧂 Olio, sale e pepe forniti\n• 🪑 Tavolo da pranzo per i pasti",
+    },
+  "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1). La petite clé est dans la boîte à clés, avec le badge et la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : rue René Cassin (~130 m à pied)\n\n👉 Merci de bien refermer le local derrière vous.":
+    {
+      en: "♻️ Waste is sorted in the bin room, in the basement of the residence (level -1). The small key is in the key box, with the badge and the apartment key.\n\n🟡 Yellow bin — packaging & recyclables\n⚫ Grey bin — household waste\n🍷 Glass — nearest glass container: Rue René Cassin (~130 m walk)\n\n👉 Please close the room properly behind you.",
+      de: "♻️ Der Müll wird im Müllraum getrennt, im Untergeschoss der Residenz (Ebene -1). Der kleine Schlüssel ist im Schlüsselkasten, zusammen mit dem Badge und dem Wohnungsschlüssel.\n\n🟡 Gelbe Tonne — Verpackungen & Wertstoffe\n⚫ Graue Tonne — Restmüll\n🍷 Glas — nächster Glascontainer: Rue René Cassin (~130 m zu Fuß)\n\n👉 Bitte schließen Sie den Raum hinter sich gut.",
+      es: "♻️ La basura se separa en el cuarto de basuras, en el sótano de la residencia (nivel -1). La llave pequeña está en la caja de llaves, con el mando y la llave del apartamento.\n\n🟡 Contenedor amarillo — envases y reciclables\n⚫ Contenedor gris — residuos domésticos\n🍷 Vidrio — contenedor de vidrio más cercano: rue René Cassin (~130 m a pie)\n\n👉 Por favor, cierre bien el cuarto al salir.",
+      it: "♻️ I rifiuti si differenziano nel locale rifiuti, nel seminterrato della residenza (livello -1). La piccola chiave è nella cassetta delle chiavi, con il badge e la chiave dell'appartamento.\n\n🟡 Bidone giallo — imballaggi e riciclabili\n⚫ Bidone grigio — rifiuti domestici\n🍷 Vetro — contenitore del vetro più vicino: rue René Cassin (~130 m a piedi)\n\n👉 Vi preghiamo di richiudere bene il locale dietro di voi.",
+    },
+  "La boîte aux lettres où déposer les clés : boîte n°89, dans le hall — repérable à l'autocollant « CAEN & MER IMMO / STOP PUB ».":
+    {
+      en: "The mailbox for dropping off the keys: box no. 89, in the lobby — recognisable by the “CAEN & MER IMMO / STOP PUB” sticker.",
+      de: "Der Briefkasten für die Schlüsselrückgabe: Fach Nr. 89, im Eingangsbereich — erkennbar am Aufkleber „CAEN & MER IMMO / STOP PUB“.",
+      es: "El buzón donde depositar las llaves: buzón n.º 89, en el vestíbulo — reconocible por la pegatina “CAEN & MER IMMO / STOP PUB”.",
+      it: "La cassetta delle lettere dove riconsegnare le chiavi: cassetta n. 89, nell'atrio — riconoscibile dall'adesivo “CAEN & MER IMMO / STOP PUB”.",
+    },
 };

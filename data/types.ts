@@ -162,6 +162,10 @@ export interface Logement {
   depart: {
     horaire: Tx;
     instructions: Tx[];
+    /** Photo affichée sous la checklist de départ (ex. boîte aux lettres où déposer les clés). */
+    instructionsPhoto?: string;
+    /** Légende de la photo de départ (optionnelle). */
+    instructionsPhotoLegende?: Tx;
     /**
      * Départ tardif optionnel : un texte d'explication + des options horaires
      * avec leur lien de paiement (ex. Stripe). Affiché en bloc cliquable sur la

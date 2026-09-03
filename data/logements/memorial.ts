@@ -47,13 +47,7 @@ export const memorial: Logement = {
   motAccueil:
     "Bienvenue dans l'appartement Mémorial ! Vous êtes juste en face du Mémorial de Caen et du parc de la Colline aux Oiseaux, dans un quartier calme et verdoyant, à 10 minutes du centre-ville et de la mer. L'appartement est lumineux, exposé sud-est, avec un balcon parfait pour le café du matin. Très bon séjour à Caen ! 🕊️",
 
-  videos: [
-    {
-      titre: "Visite du logement",
-      url: "/logements/memorial/visite.mp4",
-      portrait: true,
-    },
-  ],
+  videoPresentation: { url: "/logements/memorial/visite.mp4", portrait: true },
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
@@ -125,19 +119,19 @@ export const memorial: Logement = {
       {
         titre: "🎁 Produits d'accueil",
         contenu:
-          "À votre arrivée, vous trouverez à disposition : papier toilette, savon, une miniature de gel douche/shampooing par personne, sel, poivre et huile, ainsi que du produit vaisselle et une éponge.",
+          "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette & savon\n• 🧴 Gel douche / shampoing (une miniature par personne)\n• 🧂 Sel, poivre & huile\n• 🧽 Produit vaisselle & éponge",
       },
       {
         titre: "🛌 Couchages",
         contenu:
-          "L'appartement accueille 3 personnes :\n• la chambre dispose d'un lit double ;\n• le séjour dispose d'un canapé-lit 1 place.\n\nLes draps sont fournis pour ces deux couchages. Un matelas d'appoint 1 place est également rangé sous le lit de la chambre : il peut dépanner, mais les draps ne sont pas fournis pour celui-ci — pensez à apporter les vôtres si vous souhaitez l'utiliser.\n\nLa vidéo ci-dessous montre comment déplier et replier le canapé-lit du séjour.",
+          "L'appartement accueille 3 personnes :\n\n• 🛏️ Chambre — un lit double\n• 🛋️ Séjour — un canapé-lit 1 place\n\nLes draps sont fournis pour ces deux couchages.\n\n➕ Un matelas d'appoint 1 place est aussi rangé sous le lit de la chambre (pour dépanner) — les draps ne sont pas fournis pour celui-ci, pensez à apporter les vôtres si besoin.\n\n🎬 La vidéo ci-dessous montre comment déplier et replier le canapé-lit du séjour.",
         video: "/logements/memorial/canape.mp4",
         videoPortrait: true,
       },
       {
         titre: "🛏️ Linge de maison",
         contenu:
-          "Les draps sont fournis et le lit de la chambre est fait ; les draps du canapé-lit sont eux aussi fournis. Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également mis à votre disposition. Des cintres et un étendoir à linge sont à votre disposition.",
+          "• 🛏️ Draps fournis — le lit de la chambre est fait, ceux du canapé-lit sont fournis\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres & étendoir à linge à disposition",
       },
       {
         titre: "🛁 Salle de bain",
@@ -152,7 +146,7 @@ export const memorial: Logement = {
       {
         titre: "🍳 Cuisine",
         contenu:
-          "La cuisine, séparée du séjour, est entièrement équipée : un four, une plaque de cuisson vitrocéramique, un réfrigérateur, un congélateur, un micro-ondes, une bouilloire, une cafetière et un grille-pain, ainsi que la vaisselle, les couverts, les verres à vin et tout le nécessaire de cuisine (casseroles, poêles, huile, sel et poivre). Une table à manger vous attend pour les repas.",
+          "Cuisine séparée, entièrement équipée :\n\n• 🔥 Four & plaque vitrocéramique\n• ❄️ Réfrigérateur & congélateur\n• ☕ Micro-ondes, bouilloire, cafetière & grille-pain\n• 🍴 Vaisselle, couverts, verres à vin & ustensiles (casseroles, poêles…)\n• 🧂 Huile, sel & poivre fournis\n• 🪑 Table à manger pour les repas",
       },
       {
         titre: "🔥 Four",
@@ -238,7 +232,7 @@ export const memorial: Logement = {
         "Logement non-fumeur : merci de descendre à l'extérieur pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. Les animaux de compagnie ne sont pas acceptés. Vous séjournez dans une résidence habitée à l'année : merci de veiller à la tranquillité du voisinage, en particulier sur le balcon et dans les parties communes.",
     },
     poubelles:
-      "Le local poubelles se trouve au sous-sol de la résidence. La petite clé qui l'ouvre se trouve dans la boîte à clés, avec le badge et la clé de l'appartement.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\nMerci de trier vos déchets et de refermer le local derrière vous.",
+      "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1). La petite clé est dans la boîte à clés, avec le badge et la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : rue René Cassin (~130 m à pied)\n\n👉 Merci de bien refermer le local derrière vous.",
     animaux:
       "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
@@ -283,6 +277,9 @@ export const memorial: Logement = {
       "Fermer l'appartement à clé",
       "Déposer le badge de la résidence, la clé de l'appartement et la clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery",
     ],
+    instructionsPhoto: "/logements/memorial/boite.jpg",
+    instructionsPhotoLegende:
+      "La boîte aux lettres où déposer les clés : boîte n°89, dans le hall — repérable à l'autocollant « CAEN & MER IMMO / STOP PUB ».",
     departTardif: {
       texte:
         "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.",

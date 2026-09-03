@@ -46,6 +46,21 @@ export default async function DepartPage({
               </li>
             ))}
           </ol>
+          {depart.instructionsPhoto && (
+            <figure className="mt-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={depart.instructionsPhoto}
+                alt=""
+                className="w-full rounded-tile object-cover shadow-[0_2px_12px_rgba(58,46,41,0.08)]"
+              />
+              {depart.instructionsPhotoLegende && (
+                <figcaption className="mt-2 text-center text-sm text-muted">
+                  {pick(depart.instructionsPhotoLegende, locale)}
+                </figcaption>
+              )}
+            </figure>
+          )}
         </InfoCard>
 
         {/* Départ tardif : explication + options horaires avec lien de paiement */}
