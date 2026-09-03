@@ -5849,4 +5849,10 @@ export const CONTENT: Record<string, Tr> = {
       es: "Depositar el mando de la residencia, la llave del apartamento y la llave del cuarto de basuras en el buzón del apartamento (buzón n.º 89, en el vestíbulo de la residencia — pegatina “CAEN & MER IMMO / STOP PUB”), en el 18 Avenue Maréchal Montgomery",
       it: "Deporre il badge della residenza, la chiave dell'appartamento e la chiave del locale rifiuti nella cassetta delle lettere dell'appartamento (cassetta n. 89, nell'atrio della residenza — adesivo “CAEN & MER IMMO / STOP PUB”), al 18 Avenue Maréchal Montgomery",
     },
+  "Visite du logement": {
+    en: "Tour of the apartment",
+    de: "Rundgang durch die Wohnung",
+    es: "Visita del alojamiento",
+    it: "Visita dell'alloggio",
+  },
 };
