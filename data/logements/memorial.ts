@@ -55,6 +55,7 @@ export const memorial: Logement = {
       "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt",
       "Résidence sécurisée avec ascenseur : le badge ouvre la porte de l'immeuble, puis montez au 3ᵉ étage",
     ],
+    video: "/logements/memorial/checkin.mp4",
     etapes: [
       {
         texte:
