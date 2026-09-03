@@ -107,8 +107,8 @@ export const memorial: Logement = {
   },
 
   wifi: {
-    reseau: "Communiqué par message avant votre arrivée",
-    motDePasse: "Communiqué par message avant votre arrivée",
+    reseau: "Freebox Nouria",
+    motDePasse: "MZARIWILEM26",
   },
 
   pratique: {
