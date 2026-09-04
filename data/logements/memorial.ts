@@ -12,8 +12,8 @@ import type { Logement } from "../types";
  *
  * ⚠️ PARTICULARITÉ : la boîte à clés n'est PAS sur place. Elle se trouve au
  * 46 rue Caponière (~2,2 km, ~8 min en voiture) et contient le badge de la
- * résidence, la clé de l'appartement et la clé du local poubelles. Le guide
- * d'arrivée est construit autour de ce double trajet.
+ * résidence et la clé de l'appartement (qui ouvre aussi le local poubelles ;
+ * il n'y a pas de clé séparée). Le guide d'arrivée est construit autour de ce double trajet.
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER PAR AGATHE (placeholders / infos manquantes) :
@@ -51,7 +51,7 @@ export const memorial: Logement = {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
       "⚠️ Deux étapes : la boîte à clés se trouve au 46 rue Caponière, puis vous rejoignez le logement au 18 avenue Maréchal Montgomery (~2,2 km, ~8 min en voiture)",
-      "La boîte à clés contient le badge de la résidence, la clé de l'appartement et la clé du local poubelles",
+      "La boîte à clés contient le badge de la résidence et la clé de l'appartement (qui ouvre aussi le local poubelles)",
       "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt",
       "Résidence sécurisée avec ascenseur : le badge ouvre la porte de l'immeuble, puis montez au 3ᵉ étage",
     ],
@@ -166,7 +166,7 @@ export const memorial: Logement = {
       {
         titre: "🔑 Dépôt des clés au départ",
         contenu:
-          "À votre départ, déposez le badge de la résidence, la clé de l'appartement et la petite clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)",
+          "À votre départ, déposez le badge de la résidence et la clé de l'appartement dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)",
         photos: ["/logements/memorial/boite.jpg"],
       },
       {
@@ -198,7 +198,7 @@ export const memorial: Logement = {
         "Logement non-fumeur : merci de descendre à l'extérieur pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. Les animaux de compagnie ne sont pas acceptés. Vous séjournez dans une résidence habitée à l'année : merci de veiller à la tranquillité du voisinage, en particulier sur le balcon et dans les parties communes.",
     },
     poubelles:
-      "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1). La petite clé est dans la boîte à clés, avec le badge et la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen\n\n👉 Merci de bien refermer le local derrière vous.",
+      "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1), qui s'ouvre avec la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen\n\n👉 Merci de bien refermer le local derrière vous.",
     poubellesVideo: "/logements/memorial/poubelles.mp4",
     poubellesVideoPortrait: true,
     animaux:
@@ -243,7 +243,7 @@ export const memorial: Logement = {
       "Fermer les fenêtres et la porte du balcon, éteindre les lumières et baisser le chauffage",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
       "Fermer l'appartement à clé",
-      "Déposer le badge de la résidence, la clé de l'appartement et la clé du local poubelles dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery",
+      "Déposer le badge de la résidence et la clé de l'appartement dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery",
     ],
     instructionsPhoto: "/logements/memorial/boite.jpg",
     instructionsPhotoLegende:

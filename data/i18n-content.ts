@@ -5911,4 +5911,32 @@ export const CONTENT: Record<string, Tr> = {
       es: "♻️ La basura se separa en el cuarto de basuras, en el sótano de la residencia (nivel -1). La llave pequeña está en la caja de llaves, con el mando y la llave del apartamento.\n\n🟡 Contenedor amarillo — envases y reciclables\n⚫ Contenedor gris — residuos domésticos\n🍷 Vidrio — contenedor de vidrio más cercano: 1 rue Normandie-Niémen\n\n👉 Por favor, cierre bien el cuarto al salir.",
       it: "♻️ I rifiuti si differenziano nel locale rifiuti, nel seminterrato della residenza (livello -1). La piccola chiave è nella cassetta delle chiavi, con il badge e la chiave dell'appartamento.\n\n🟡 Bidone giallo — imballaggi e riciclabili\n⚫ Bidone grigio — rifiuti domestici\n🍷 Vetro — contenitore del vetro più vicino: 1 rue Normandie-Niémen\n\n👉 Vi preghiamo di richiudere bene il locale dietro di voi.",
     },
+  "La boîte à clés contient le badge de la résidence et la clé de l'appartement (qui ouvre aussi le local poubelles)":
+    {
+      en: "The key box contains the residence badge and the apartment key (which also opens the bin room)",
+      de: "Der Schlüsselkasten enthält den Residenz-Badge und den Wohnungsschlüssel (der auch den Müllraum öffnet)",
+      es: "La caja de llaves contiene el mando de la residencia y la llave del apartamento (que también abre el cuarto de basuras)",
+      it: "La cassetta delle chiavi contiene il badge della residenza e la chiave dell'appartamento (che apre anche il locale rifiuti)",
+    },
+  "À votre départ, déposez le badge de la résidence et la clé de l'appartement dans la boîte aux lettres de l'appartement (boîte n°89), dans le hall de la résidence, au 18 avenue Maréchal Montgomery. Vous la reconnaîtrez à l'autocollant « CAEN & MER IMMO / STOP PUB » (voir photo).\n\n(Pour rappel, la récupération des clés se fait à votre arrivée au 46 rue Caponière — pas à la même adresse.)":
+    {
+      en: "When you leave, drop the residence badge and the apartment key into the apartment's mailbox (box no. 89), in the lobby of the residence, at 18 Avenue Maréchal Montgomery. You'll recognise it by the “CAEN & MER IMMO / STOP PUB” sticker (see photo).\n\n(As a reminder, the keys are picked up on arrival at 46 Rue Caponière — a different address.)",
+      de: "Werfen Sie bei Ihrer Abreise den Residenz-Badge und den Wohnungsschlüssel in den Briefkasten der Wohnung (Fach Nr. 89) im Eingangsbereich der Residenz, 18 Avenue Maréchal Montgomery. Sie erkennen ihn am Aufkleber „CAEN & MER IMMO / STOP PUB“ (siehe Foto).\n\n(Zur Erinnerung: Die Schlüssel werden bei der Anreise am 46 Rue Caponière abgeholt — eine andere Adresse.)",
+      es: "Al marcharse, deposite el mando de la residencia y la llave del apartamento en el buzón del apartamento (buzón n.º 89), en el vestíbulo de la residencia, en el 18 Avenue Maréchal Montgomery. Lo reconocerá por la pegatina “CAEN & MER IMMO / STOP PUB” (ver foto).\n\n(Recuerde que las llaves se recogen a la llegada en el 46 Rue Caponière — una dirección distinta.)",
+      it: "Alla partenza, deponete il badge della residenza e la chiave dell'appartamento nella cassetta delle lettere dell'appartamento (cassetta n. 89), nell'atrio della residenza, al 18 Avenue Maréchal Montgomery. La riconoscerete dall'adesivo “CAEN & MER IMMO / STOP PUB” (vedi foto).\n\n(Per ricordo, le chiavi si ritirano all'arrivo al 46 Rue Caponière — un indirizzo diverso.)",
+    },
+  "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1), qui s'ouvre avec la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen\n\n👉 Merci de bien refermer le local derrière vous.":
+    {
+      en: "♻️ Waste is sorted in the bin room, in the basement of the residence (level -1), which opens with the apartment key.\n\n🟡 Yellow bin — packaging & recyclables\n⚫ Grey bin — household waste\n🍷 Glass — nearest glass container: 1 Rue Normandie-Niémen\n\n👉 Please close the room properly behind you.",
+      de: "♻️ Der Müll wird im Müllraum getrennt, im Untergeschoss der Residenz (Ebene -1), der sich mit dem Wohnungsschlüssel öffnen lässt.\n\n🟡 Gelbe Tonne — Verpackungen & Wertstoffe\n⚫ Graue Tonne — Restmüll\n🍷 Glas — nächster Glascontainer: 1 Rue Normandie-Niémen\n\n👉 Bitte schließen Sie den Raum hinter sich gut.",
+      es: "♻️ La basura se separa en el cuarto de basuras, en el sótano de la residencia (nivel -1), que se abre con la llave del apartamento.\n\n🟡 Contenedor amarillo — envases y reciclables\n⚫ Contenedor gris — residuos domésticos\n🍷 Vidrio — contenedor de vidrio más cercano: 1 rue Normandie-Niémen\n\n👉 Por favor, cierre bien el cuarto al salir.",
+      it: "♻️ I rifiuti si differenziano nel locale rifiuti, nel seminterrato della residenza (livello -1), che si apre con la chiave dell'appartamento.\n\n🟡 Bidone giallo — imballaggi e riciclabili\n⚫ Bidone grigio — rifiuti domestici\n🍷 Vetro — contenitore del vetro più vicino: 1 rue Normandie-Niémen\n\n👉 Vi preghiamo di richiudere bene il locale dietro di voi.",
+    },
+  "Déposer le badge de la résidence et la clé de l'appartement dans la boîte aux lettres de l'appartement (boîte n°89, dans le hall de la résidence — autocollant « CAEN & MER IMMO / STOP PUB »), au 18 avenue Maréchal Montgomery":
+    {
+      en: "Drop the residence badge and the apartment key into the apartment's mailbox (box no. 89, in the lobby of the residence — “CAEN & MER IMMO / STOP PUB” sticker), at 18 Avenue Maréchal Montgomery",
+      de: "Den Residenz-Badge und den Wohnungsschlüssel in den Briefkasten der Wohnung werfen (Fach Nr. 89, im Eingangsbereich der Residenz — Aufkleber „CAEN & MER IMMO / STOP PUB“), 18 Avenue Maréchal Montgomery",
+      es: "Depositar el mando de la residencia y la llave del apartamento en el buzón del apartamento (buzón n.º 89, en el vestíbulo de la residencia — pegatina “CAEN & MER IMMO / STOP PUB”), en el 18 Avenue Maréchal Montgomery",
+      it: "Deporre il badge della residenza e la chiave dell'appartamento nella cassetta delle lettere dell'appartamento (cassetta n. 89, nell'atrio della residenza — adesivo “CAEN & MER IMMO / STOP PUB”), al 18 Avenue Maréchal Montgomery",
+    },
 };
