@@ -56,6 +56,7 @@ export const memorial: Logement = {
       "Résidence sécurisée avec ascenseur : le badge ouvre la porte de l'immeuble, puis montez au 3ᵉ étage",
     ],
     video: "/logements/memorial/checkin.mp4",
+    videoPortrait: true,
     arriveeAnticipee: {
       texte:
         "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
