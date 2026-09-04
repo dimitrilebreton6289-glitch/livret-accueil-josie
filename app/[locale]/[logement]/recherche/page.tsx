@@ -24,7 +24,7 @@ export default async function RecherchePage({
 
   const items: SearchItem[] = [];
 
-  // Sections (WiFi pointe vers l'accueil où se trouve sa carte).
+  // Sections. Le WiFi n'a pas de page : son résultat ouvre le volet WiFi.
   for (const s of SECTIONS) {
     const title = tNav(`sections.${s.key}`);
     const subtitle = tNav(`descriptions.${s.key}`);
@@ -33,6 +33,7 @@ export default async function RecherchePage({
       subtitle,
       href: `${base}${s.href}`,
       haystack: `${title} ${subtitle}`.toLowerCase(),
+      sheet: s.isSheet,
     });
   }
 

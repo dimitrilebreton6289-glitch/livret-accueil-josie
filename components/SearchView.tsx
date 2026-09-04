@@ -4,12 +4,15 @@ import { useMemo, useState } from "react";
 import { Search as SearchIcon, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { openWifiSheet } from "./WifiSheet";
 
 export interface SearchItem {
   title: string;
   subtitle: string;
   href: string;
   haystack: string;
+  /** Si vrai, le résultat ouvre le volet WiFi au lieu de naviguer. */
+  sheet?: boolean;
 }
 
 /** Recherche locale dans le contenu du livret (sections + lieux). */
@@ -46,12 +49,11 @@ export default function SearchView({ items }: { items: SearchItem[] }) {
           </p>
         ) : (
           <ul className="space-y-2">
-            {results.map((r) => (
-              <li key={`${r.href}-${r.title}`}>
-                <Link
-                  href={r.href}
-                  className="flex items-center gap-3 rounded-card bg-surface p-4 shadow-[0_2px_12px_rgba(58,46,41,0.06)] transition-soft active:scale-[0.99]"
-                >
+            {results.map((r) => {
+              const cardClass =
+                "flex w-full items-center gap-3 rounded-card bg-surface p-4 text-left shadow-[0_2px_12px_rgba(58,46,41,0.06)] transition-soft active:scale-[0.99]";
+              const inner = (
+                <>
                   <span className="min-w-0 flex-1">
                     <span className="block truncate font-bold text-ink">
                       {r.title}
@@ -61,9 +63,22 @@ export default function SearchView({ items }: { items: SearchItem[] }) {
                     </span>
                   </span>
                   <ChevronRight size={20} className="shrink-0 text-muted" />
-                </Link>
-              </li>
-            ))}
+                </>
+              );
+              return (
+                <li key={`${r.href}-${r.title}`}>
+                  {r.sheet ? (
+                    <button type="button" onClick={openWifiSheet} className={cardClass}>
+                      {inner}
+                    </button>
+                  ) : (
+                    <Link href={r.href} className={cardClass}>
+                      {inner}
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
