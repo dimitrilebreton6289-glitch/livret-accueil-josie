@@ -199,7 +199,7 @@ export const memorial: Logement = {
         "Logement non-fumeur : merci de descendre à l'extérieur pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. Les animaux de compagnie ne sont pas acceptés. Vous séjournez dans une résidence habitée à l'année : merci de veiller à la tranquillité du voisinage, en particulier sur le balcon et dans les parties communes.",
     },
     poubelles:
-      "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1), qui s'ouvre avec la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen\n\n👉 Merci de bien refermer le local derrière vous.",
+      "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1), qui s'ouvre avec la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen",
     poubellesVideo: "/logements/memorial/poubelles.mp4",
     poubellesVideoPortrait: true,
     animaux:

@@ -5939,4 +5939,11 @@ export const CONTENT: Record<string, Tr> = {
       es: "Depositar el mando de la residencia y la llave del apartamento en el buzón del apartamento (buzón n.º 89, en el vestíbulo de la residencia — pegatina “CAEN & MER IMMO / STOP PUB”), en el 18 Avenue Maréchal Montgomery",
       it: "Deporre il badge della residenza e la chiave dell'appartamento nella cassetta delle lettere dell'appartamento (cassetta n. 89, nell'atrio della residenza — adesivo “CAEN & MER IMMO / STOP PUB”), al 18 Avenue Maréchal Montgomery",
     },
+  "♻️ Le tri se fait au local poubelles, au sous-sol de la résidence (niveau -1), qui s'ouvre avec la clé de l'appartement.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — borne à verre la plus proche : 1 rue Normandie-Niémen":
+    {
+      en: "♻️ Waste is sorted in the bin room, in the basement of the residence (level -1), which opens with the apartment key.\n\n🟡 Yellow bin — packaging & recyclables\n⚫ Grey bin — household waste\n🍷 Glass — nearest glass container: 1 Rue Normandie-Niémen",
+      de: "♻️ Der Müll wird im Müllraum getrennt, im Untergeschoss der Residenz (Ebene -1), der sich mit dem Wohnungsschlüssel öffnen lässt.\n\n🟡 Gelbe Tonne — Verpackungen & Wertstoffe\n⚫ Graue Tonne — Restmüll\n🍷 Glas — nächster Glascontainer: 1 Rue Normandie-Niémen",
+      es: "♻️ La basura se separa en el cuarto de basuras, en el sótano de la residencia (nivel -1), que se abre con la llave del apartamento.\n\n🟡 Contenedor amarillo — envases y reciclables\n⚫ Contenedor gris — residuos domésticos\n🍷 Vidrio — contenedor de vidrio más cercano: 1 rue Normandie-Niémen",
+      it: "♻️ I rifiuti si differenziano nel locale rifiuti, nel seminterrato della residenza (livello -1), che si apre con la chiave dell'appartamento.\n\n🟡 Bidone giallo — imballaggi e riciclabili\n⚫ Bidone grigio — rifiuti domestici\n🍷 Vetro — contenitore del vetro più vicino: 1 rue Normandie-Niémen",
+    },
 };
