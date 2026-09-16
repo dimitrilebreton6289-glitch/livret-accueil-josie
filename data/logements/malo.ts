@@ -27,7 +27,6 @@ import { monnaie } from "./monnaie";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER PAR AGATHE :
- *   - WiFi : réseau + mot de passe (provisoire : « voir sous la box »)
  *   - Photo du point poubelles (bacs gris) — le texte est en place
  * ─────────────────────────────────────────────────────────────────────────────
  *
@@ -86,7 +85,7 @@ export const malo: Logement = {
       "Boîte à clés grise fixée sur la façade, juste à droite de la porte bleue",
       "Le code de la boîte à clés vous est envoyé le jour de votre arrivée, vers 12h, sur la conversation",
       "La clé de la boîte ouvre la porte bleue de l'immeuble",
-      "Appartement au 2ᵉ étage, sans ascenseur",
+      "Appartement au 2ᵉ étage sans ascenseur, porte de gauche",
     ],
     arriveeAnticipee: {
       texte:
@@ -109,7 +108,7 @@ export const malo: Logement = {
           "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.",
       },
       { texte: "Ouvrez la porte bleue de l'immeuble avec la clé." },
-      { texte: "Montez au 2ᵉ étage (il n'y a pas d'ascenseur), jusqu'à la porte du logement." },
+      { texte: "Montez au 2ᵉ étage (il n'y a pas d'ascenseur) : la porte du logement est à gauche." },
       { texte: "Bienvenue et bon séjour ! ⚓" },
     ],
     video: "/logements/malo/arrivee/keybox.mp4",
@@ -131,12 +130,11 @@ export const malo: Logement = {
     },
   },
 
-  // ⚠️ Provisoire : les champs WiFi ne passent PAS par le dictionnaire de
-  // traduction (ce sont normalement un SSID et un mot de passe bruts). D'où la
-  // mention bilingue, en attendant les vrais identifiants.
+  // Réseau 2,4 GHz (portée maximale) ; le 5 GHz « XXXX_BF50_5GHZ » utilise le
+  // même mot de passe, il est mentionné dans la section « WiFi » ci-dessous.
   wifi: {
-    reseau: "Voir sous la box · See under the router",
-    motDePasse: "Voir sous la box · See under the router",
+    reseau: "XXXX_BF50",
+    motDePasse: "zuf98yjym2man48prcr8",
   },
 
   pratique: {
@@ -155,7 +153,7 @@ export const malo: Logement = {
       {
         titre: "📶 WiFi",
         contenu:
-          "Le logement est équipé du WiFi. Le nom du réseau et le mot de passe sont indiqués sur l'étiquette collée sous la box, dans le logement.",
+          "Le logement est équipé du WiFi. Deux réseaux sont disponibles, avec le même mot de passe : XXXX_BF50 (2,4 GHz, meilleure portée dans tout l'appartement) et XXXX_BF50_5GHZ (5 GHz, plus rapide à proximité de la box). Le mot de passe est dans la rubrique WiFi de ce livret, et aussi sur l'étiquette collée sous la box.",
       },
       {
         titre: "🚶 2ᵉ étage sans ascenseur",
@@ -178,9 +176,22 @@ export const malo: Logement = {
           "Une cafetière, une bouilloire et un grille-pain sont à votre disposition. Une capsule de café par personne et du thé vous sont offerts pour démarrer.",
       },
       {
+        titre: "📺 Télévision",
+        contenu:
+          "Deux télécommandes sont nécessaires : la télécommande Samsung (la plus petite, sans chiffres) pour la télévision, et la télécommande du décodeur (la plus longue, avec les chiffres) pour les chaînes.\n\n1. Allumez la télévision avec la télécommande Samsung : bouton rouge de mise en marche, en haut à gauche.\n2. Allumez le décodeur avec sa télécommande : bouton de mise en marche en haut à droite.\n3. Si l'écran d'accueil Samsung reste affiché, sélectionnez l'entrée du décodeur : naviguez avec le pavé circulaire de la télécommande Samsung et validez avec le bouton central.\n4. Les chaînes s'affichent : utilisez ensuite la télécommande du décodeur pour changer de chaîne (P+ / P− ou les chiffres) et régler le volume (V+ / V−).\n\nPour Netflix, Prime Video ou YouTube, utilisez directement les boutons dédiés de la télécommande Samsung. Pensez à vous déconnecter de vos comptes avant votre départ.",
+        photos: [
+          "/logements/malo/tv-1.jpg",
+          "/logements/malo/tv-2.jpg",
+          "/logements/malo/tv-3.jpg",
+          "/logements/malo/tv-4.jpg",
+          "/logements/malo/tv-5.jpg",
+        ],
+      },
+      {
         titre: "🔥 Chauffage",
         contenu:
-          "Pour allumer les radiateurs, appuyez sur le bouton on/off et réglez la température. Merci de limiter votre consommation et de baisser le chauffage à votre départ.",
+          "Chaque radiateur se règle depuis son boîtier de commande, sur le dessus, à droite (voir la photo).\n\n• Bouton rond › : change de mode. Les voyants indiquent le mode actif : ☀ Confort (chauffe à la température réglée), ECO (température abaissée, idéal la nuit ou en votre absence), PROG (programmation). Le dernier voyant, 🔧, correspond aux réglages : merci de ne pas l'utiliser.\n• Flèches ▲ / ▼ : augmentent ou baissent la température.\n• Le petit voyant en bas à gauche s'allume quand le radiateur chauffe.\n\nSi les boutons ne réagissent pas, le clavier est peut-être verrouillé (cadenas à côté des flèches) : maintenez ▲ et ▼ appuyés ensemble quelques secondes.\n\nMerci de limiter votre consommation et de repasser les radiateurs en mode ECO à votre départ.",
+        photos: ["/logements/malo/chauffage.jpg"],
       },
       {
         titre: "🌙 Rideaux occultants",
