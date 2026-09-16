@@ -5958,4 +5958,48 @@ export const CONTENT: Record<string, Tr> = {
       es: "♻️ La basura se separa en el cuarto de basuras, en el sótano de la residencia (nivel -1), que se abre con la llave del apartamento.\n\n🟡 Contenedor amarillo — envases y reciclables\n⚫ Contenedor gris — residuos domésticos\n🍷 Vidrio — contenedor de vidrio más cercano: 1 rue Normandie-Niémen",
       it: "♻️ I rifiuti si differenziano nel locale rifiuti, nel seminterrato della residenza (livello -1), che si apre con la chiave dell'appartamento.\n\n🟡 Bidone giallo — imballaggi e riciclabili\n⚫ Bidone grigio — rifiuti domestici\n🍷 Vetro — contenitore del vetro più vicino: 1 rue Normandie-Niémen",
     },
+
+  // ------------------------------------- Chez Malo (cles, ajout)
+  "🔑 Porte du logement": {
+    en: "🔑 Flat door",
+    de: "🔑 Wohnungstür",
+    es: "🔑 Puerta del apartamento",
+    it: "🔑 Porta dell'appartamento",
+  },
+  "La boîte contient 3 clés : porte de l'immeuble, poignée du logement, et serrure du haut (montée à l'envers : elle s'ouvre dans le sens inverse des aiguilles d'une montre)": {
+    en: "The box contains 3 keys: for the building door, for the flat's door handle, and for the upper lock (mounted upside down: it opens counterclockwise)",
+    de: "Der Kasten enthält 3 Schlüssel: für die Haustür, für den Türgriff der Wohnung und für das obere Schloss (verkehrt herum eingebaut: es öffnet gegen den Uhrzeigersinn)",
+    es: "La caja contiene 3 llaves: la de la puerta del edificio, la de la manilla del apartamento y la de la cerradura superior (montada al revés: se abre en sentido antihorario)",
+    it: "La cassetta contiene 3 chiavi: quella del portone, quella della maniglia dell'appartamento e quella della serratura superiore (montata al contrario: si apre in senso antiorario)",
+  },
+  "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez les 3 clés à l'intérieur.": {
+    en: "Enter the code sent to you in the conversation on the day of your arrival, open the box as shown in the video below, then take the 3 keys inside.",
+    de: "Geben Sie den Code ein, den Sie am Tag Ihrer Ankunft im Chatverlauf erhalten haben, öffnen Sie den Kasten wie im Video unten gezeigt und nehmen Sie die 3 Schlüssel heraus.",
+    es: "Introduzca el código que recibió en la conversación el día de su llegada, abra la caja como se muestra en el vídeo de abajo y coja las 3 llaves que hay dentro.",
+    it: "Componete il codice ricevuto nella conversazione il giorno del vostro arrivo, aprite la cassetta come mostrato nel video qui sotto, quindi prendete le 3 chiavi all'interno.",
+  },
+  "Ouvrez la porte bleue de l'immeuble avec la clé correspondante.": {
+    en: "Open the building's blue door with the matching key.",
+    de: "Öffnen Sie die blaue Haustür mit dem passenden Schlüssel.",
+    es: "Abra la puerta azul del edificio con la llave correspondiente.",
+    it: "Aprite la porta blu del portone con la chiave corrispondente.",
+  },
+  "La porte du logement s'ouvre avec les deux autres clés : une pour la poignée, une pour la serrure du haut. ⚠️ Cette dernière est montée à l'envers : tournez-la dans le sens inverse des aiguilles d'une montre pour déverrouiller.": {
+    en: "The flat's door opens with the two other keys: one for the handle, one for the upper lock. ⚠️ This one is mounted upside down: turn it counterclockwise to unlock.",
+    de: "Die Wohnungstür öffnet sich mit den beiden anderen Schlüsseln: einer für den Türgriff, einer für das obere Schloss. ⚠️ Dieses ist verkehrt herum eingebaut: Drehen Sie den Schlüssel gegen den Uhrzeigersinn, um aufzuschließen.",
+    es: "La puerta del apartamento se abre con las otras dos llaves: una para la manilla, otra para la cerradura superior. ⚠️ Esta última está montada al revés: gírela en sentido antihorario para abrir.",
+    it: "La porta dell'appartamento si apre con le altre due chiavi: una per la maniglia, una per la serratura superiore. ⚠️ Quest'ultima è montata al contrario: giratela in senso antiorario per aprire.",
+  },
+  "Fermer l'appartement à clé (les deux serrures), puis remettre les 3 clés dans la boîte à clés": {
+    en: "Lock the flat (both locks), then put the 3 keys back in the key box",
+    de: "Die Wohnung abschließen (beide Schlösser) und die 3 Schlüssel wieder in den Schlüsselkasten legen",
+    es: "Cerrar el apartamento con llave (las dos cerraduras) y volver a colocar las 3 llaves en la caja de llaves",
+    it: "Chiudere l'appartamento a chiave (entrambe le serrature), quindi rimettere le 3 chiavi nella cassetta",
+  },
+  "La porte du logement s'ouvre avec deux clés : une pour la poignée, une pour la serrure du haut (verrou). ⚠️ Cette dernière est montée à l'envers : il faut tourner la clé dans le sens inverse des aiguilles d'une montre pour l'ouvrir, et donc dans le sens des aiguilles d'une montre pour la refermer.": {
+    en: "The flat's door opens with two keys: one for the handle, one for the upper lock (deadbolt). ⚠️ This one is mounted upside down: turn the key counterclockwise to open it, and clockwise to lock it again.",
+    de: "Die Wohnungstür öffnet sich mit zwei Schlüsseln: einer für den Türgriff, einer für das obere Schloss (Riegel). ⚠️ Dieses ist verkehrt herum eingebaut: Drehen Sie den Schlüssel gegen den Uhrzeigersinn, um zu öffnen, und im Uhrzeigersinn, um wieder abzuschließen.",
+    es: "La puerta del apartamento se abre con dos llaves: una para la manilla, otra para la cerradura superior (cerrojo). ⚠️ Esta última está montada al revés: gire la llave en sentido antihorario para abrir, y en sentido horario para volver a cerrar.",
+    it: "La porta dell'appartamento si apre con due chiavi: una per la maniglia, una per la serratura superiore (catenaccio). ⚠️ Quest'ultima è montata al contrario: girate la chiave in senso antiorario per aprire, e in senso orario per richiudere.",
+  },
 };

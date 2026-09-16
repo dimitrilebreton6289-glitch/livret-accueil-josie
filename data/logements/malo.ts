@@ -14,8 +14,11 @@ import { monnaie } from "./monnaie";
  *   • PAS de lave-linge → laveries automatiques listées dans « Autour de moi »
  *
  * Accès : arrivée autonome. Boîte à clés grise fixée sur la façade, juste à
- * droite de la porte bleue de l'immeuble (8 bis). La clé qu'elle contient ouvre
- * la porte de l'immeuble (pas de code ni d'interphone). Vidéo d'accès :
+ * droite de la porte bleue de l'immeuble (8 bis) — pas de code ni d'interphone
+ * pour l'immeuble. Elle contient 3 clés : celle de la porte bleue de
+ * l'immeuble, celle de la poignée de la porte du logement, et celle de la
+ * serrure du haut (verrou), montée à l'envers — elle s'ouvre dans le sens
+ * inverse des aiguilles d'une montre. Vidéo d'accès :
  * /logements/malo/arrivee/keybox.mp4 (photos 1.jpg / 2.jpg extraites de cette
  * même vidéo).
  *
@@ -84,7 +87,7 @@ export const malo: Logement = {
       "Immeuble à la porte bleue, 8 bis rue Vauquelin",
       "Boîte à clés grise fixée sur la façade, juste à droite de la porte bleue",
       "Le code de la boîte à clés vous est envoyé le jour de votre arrivée, vers 12h, sur la conversation",
-      "La clé de la boîte ouvre la porte bleue de l'immeuble",
+      "La boîte contient 3 clés : porte de l'immeuble, poignée du logement, et serrure du haut (montée à l'envers : elle s'ouvre dans le sens inverse des aiguilles d'une montre)",
       "Appartement au 2ᵉ étage sans ascenseur, porte de gauche",
     ],
     arriveeAnticipee: {
@@ -105,10 +108,14 @@ export const malo: Logement = {
       },
       {
         texte:
-          "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez la clé.",
+          "Composez le code reçu sur la conversation le jour de votre arrivée, ouvrez la boîte comme le montre la vidéo ci-dessous, puis prenez les 3 clés à l'intérieur.",
       },
-      { texte: "Ouvrez la porte bleue de l'immeuble avec la clé." },
+      { texte: "Ouvrez la porte bleue de l'immeuble avec la clé correspondante." },
       { texte: "Montez au 2ᵉ étage (il n'y a pas d'ascenseur) : la porte du logement est à gauche." },
+      {
+        texte:
+          "La porte du logement s'ouvre avec les deux autres clés : une pour la poignée, une pour la serrure du haut. ⚠️ Cette dernière est montée à l'envers : tournez-la dans le sens inverse des aiguilles d'une montre pour déverrouiller.",
+      },
       { texte: "Bienvenue et bon séjour ! ⚓" },
     ],
     video: "/logements/malo/arrivee/keybox.mp4",
@@ -159,6 +166,11 @@ export const malo: Logement = {
         titre: "🚶 2ᵉ étage sans ascenseur",
         contenu:
           "L'appartement se situe au 2ᵉ étage et l'immeuble n'a pas d'ascenseur. Prévoyez-le pour vos bagages.",
+      },
+      {
+        titre: "🔑 Porte du logement",
+        contenu:
+          "La porte du logement s'ouvre avec deux clés : une pour la poignée, une pour la serrure du haut (verrou). ⚠️ Cette dernière est montée à l'envers : il faut tourner la clé dans le sens inverse des aiguilles d'une montre pour l'ouvrir, et donc dans le sens des aiguilles d'une montre pour la refermer.",
       },
       {
         titre: "🧺 Pas de lave-linge",
@@ -275,7 +287,7 @@ export const malo: Logement = {
       "Rendre l'appartement propre et rangé",
       "Rassembler les serviettes de toilette utilisées",
       "Fermer les fenêtres, éteindre les lumières et baisser le chauffage",
-      "Fermer l'appartement à clé, puis remettre la clé dans la boîte à clés",
+      "Fermer l'appartement à clé (les deux serrures), puis remettre les 3 clés dans la boîte à clés",
     ],
     departTardif: {
       texte:
