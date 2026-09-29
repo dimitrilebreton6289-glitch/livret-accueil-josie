@@ -69,16 +69,84 @@ export const caen: Logement = {
 
   wifi: {
     reseau: "Bbox-29DFED5E",
-    motDePasse: "U6SxHerjsC12q996S",
+    motDePasse: "U6SxHerjsC12yq996S",
   },
 
   pratique: {
-    aSavoir: [
-      "Draps fournis et lit fait",
-      "Draps du canapé-lit dans le coffre en osier à l'entrée (une vidéo explique comment le déplier)",
-      "Une serviette de toilette par personne",
-      "Aspirateur dans le placard sous pente, à l'étage dans la chambre",
-      "Chauffage : merci de le baisser ou de l'éteindre à votre départ",
+    // « À savoir » présenté en accordéon (voir aSavoirSections).
+    aSavoir: [],
+    aSavoirSections: [
+      {
+        titre: {
+          fr: "🛏️ Linge & literie",
+          en: "🛏️ Linen & bedding",
+          de: "🛏️ Wäsche & Bettzeug",
+          es: "🛏️ Ropa de cama",
+          it: "🛏️ Biancheria e letto",
+        },
+        contenu: {
+          fr: "Les draps sont fournis et le lit est fait. Une serviette de toilette par personne. Les draps du canapé-lit se trouvent dans le coffre en osier à l'entrée.",
+          en: "Bed linen is provided and the bed is made. One bath towel per person. The sofa-bed linen is in the wicker chest by the entrance.",
+          de: "Bettwäsche wird gestellt und das Bett ist gemacht. Ein Handtuch pro Person. Die Bettwäsche für das Schlafsofa liegt in der Korbtruhe am Eingang.",
+          es: "Las sábanas están incluidas y la cama está hecha. Una toalla por persona. Las sábanas del sofá cama están en el baúl de mimbre de la entrada.",
+          it: "Le lenzuola sono fornite e il letto è pronto. Un asciugamano a persona. Le lenzuola del divano letto sono nel baule di vimini all'ingresso.",
+        },
+      },
+      {
+        titre: {
+          fr: "📺 Télévision",
+          en: "📺 Television",
+          de: "📺 Fernseher",
+          es: "📺 Televisión",
+          it: "📺 Televisione",
+        },
+        contenu: {
+          fr: "La télé fonctionne avec un décodeur Bbox (Bouygues). Il y a deux télécommandes.\n1. Allumez la télévision avec la télécommande de la TV (bouton rouge en haut).\n2. Allumez le décodeur Bbox avec sa télécommande (celle avec les boutons Netflix, Prime Video, Amazon Music et APPS).\n3. Si l'écran affiche « Aucun signal détecté », prenez la télécommande de la TV, appuyez sur le bouton Source / Entrées et sélectionnez HDMI2, puis validez avec OK.\n4. L'interface Bbox TV s'affiche : changez de chaîne et naviguez avec la télécommande du décodeur.\n💡 Si rien ne s'affiche, vérifiez que le décodeur Bbox (sous la télé) est bien allumé et que la source est sur HDMI2.",
+          en: "The TV works with a Bbox (Bouygues) set-top box. There are two remotes.\n1. Turn on the television with the TV remote (red button at the top).\n2. Turn on the Bbox box with its own remote (the one with the Netflix, Prime Video, Amazon Music and APPS buttons).\n3. If the screen shows « Aucun signal détecté » (No signal), take the TV remote, press the Source / Input button and select HDMI2, then confirm with OK.\n4. The Bbox TV interface appears: change channels and navigate with the box remote.\n💡 If nothing appears, check that the Bbox box (under the TV) is switched on and that the source is set to HDMI2.",
+          de: "Der Fernseher funktioniert mit einer Bbox (Bouygues) Box. Es gibt zwei Fernbedienungen.\n1. Schalten Sie den Fernseher mit der TV-Fernbedienung ein (rote Taste oben).\n2. Schalten Sie die Bbox-Box mit ihrer eigenen Fernbedienung ein (die mit den Tasten Netflix, Prime Video, Amazon Music und APPS).\n3. Wenn der Bildschirm « Aucun signal détecté » (Kein Signal) anzeigt, nehmen Sie die TV-Fernbedienung, drücken Sie die Taste Source / Quelle und wählen Sie HDMI2, dann mit OK bestätigen.\n4. Die Bbox-TV-Oberfläche erscheint: Wechseln Sie die Sender und navigieren Sie mit der Box-Fernbedienung.\n💡 Wenn nichts erscheint, prüfen Sie, ob die Bbox-Box (unter dem Fernseher) eingeschaltet ist und die Quelle auf HDMI2 steht.",
+          es: "El televisor funciona con un decodificador Bbox (Bouygues). Hay dos mandos.\n1. Encienda el televisor con el mando del TV (botón rojo arriba).\n2. Encienda el decodificador Bbox con su propio mando (el de los botones Netflix, Prime Video, Amazon Music y APPS).\n3. Si la pantalla muestra « Aucun signal détecté » (Sin señal), coja el mando del TV, pulse el botón Source / Entradas y seleccione HDMI2, luego confirme con OK.\n4. Aparece la interfaz Bbox TV: cambie de canal y navegue con el mando del decodificador.\n💡 Si no aparece nada, compruebe que el decodificador Bbox (debajo del televisor) esté encendido y que la fuente esté en HDMI2.",
+          it: "Il televisore funziona con un decoder Bbox (Bouygues). Ci sono due telecomandi.\n1. Accendete il televisore con il telecomando della TV (tasto rosso in alto).\n2. Accendete il decoder Bbox con il suo telecomando (quello con i tasti Netflix, Prime Video, Amazon Music e APPS).\n3. Se lo schermo mostra « Aucun signal détecté » (Nessun segnale), prendete il telecomando della TV, premete il tasto Source / Ingressi e selezionate HDMI2, poi confermate con OK.\n4. Appare l'interfaccia Bbox TV: cambiate canale e navigate con il telecomando del decoder.\n💡 Se non appare nulla, verificate che il decoder Bbox (sotto la TV) sia acceso e che la sorgente sia su HDMI2.",
+        },
+        photos: [
+          "/logements/caen/tv-01-allumer-tv.jpg",
+          "/logements/caen/tv-02-decodeur.jpg",
+          "/logements/caen/tv-03-sans-signal.jpg",
+          "/logements/caen/tv-04-hdmi2.jpg",
+          "/logements/caen/tv-05-ok.jpg",
+        ],
+      },
+      {
+        titre: {
+          fr: "🧹 Aspirateur",
+          en: "🧹 Vacuum cleaner",
+          de: "🧹 Staubsauger",
+          es: "🧹 Aspiradora",
+          it: "🧹 Aspirapolvere",
+        },
+        contenu: {
+          fr: "L'aspirateur se trouve dans le placard sous pente, à l'étage dans la chambre, à côté de la commode.",
+          en: "The vacuum cleaner is in the cupboard under the eaves, upstairs in the bedroom, next to the chest of drawers.",
+          de: "Der Staubsauger befindet sich im Schrank unter der Dachschräge, oben im Schlafzimmer, neben der Kommode.",
+          es: "La aspiradora está en el armario bajo el techo inclinado, arriba en el dormitorio, junto a la cómoda.",
+          it: "L'aspirapolvere si trova nell'armadio sotto la mansarda, al piano superiore in camera, accanto al comò.",
+        },
+      },
+      {
+        titre: {
+          fr: "🔥 Chauffage",
+          en: "🔥 Heating",
+          de: "🔥 Heizung",
+          es: "🔥 Calefacción",
+          it: "🔥 Riscaldamento",
+        },
+        contenu: {
+          fr: "Merci de baisser ou d'éteindre le chauffage à votre départ.",
+          en: "Please turn the heating down or off when you leave.",
+          de: "Bitte drehen Sie die Heizung beim Verlassen herunter oder schalten Sie sie aus.",
+          es: "Por favor, baje o apague la calefacción al marcharse.",
+          it: "Vi preghiamo di abbassare o spegnere il riscaldamento alla partenza.",
+        },
+      },
     ],
     electromenager: [
       "Plaques de cuisson tactiles",

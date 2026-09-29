@@ -146,7 +146,8 @@ export const fleur: Logement = {
       {
         titre: "🍳 Plaque de cuisson",
         contenu:
-          "Les boutons sont tactiles. Si la plaque se verrouille, restez appuyé longuement sur le cadenas afin de la déverrouiller.",
+          "Plaque à induction VALBERG, une zone, à commandes tactiles.\n1. Posez le récipient au centre du cercle.\n2. Appuyez sur le bouton Marche/Arrêt (⏻, en bas à droite) pour l'allumer.\n3. Réglez la puissance avec les touches − et + (ou « Max » / « Min » pour aller directement au maximum ou au minimum).\n4. La touche fonction (↻) fait défiler les modes : Puissance (⚡), Température (🌡) et Minuteur (🕐) ; le voyant allumé indique le mode actif, puis ajustez avec − / +.\n5. Pour éteindre, réappuyez sur le bouton Marche/Arrêt (⏻).\n⚠️ La plaque et le récipient restent chauds après usage.",
+        photos: ["/logements/fleur/plaque.jpg"],
       },
       {
         titre: "☕ Machine à café",
