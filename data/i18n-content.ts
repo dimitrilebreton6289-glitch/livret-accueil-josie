@@ -6030,11 +6030,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "La puerta de la residencia (puerta blanca bajo el balcón) siempre está abierta, no necesita llave",
     it: "La porta della residenza (porta bianca sotto il balcone) è sempre aperta, non serve la chiave",
   },
-  "Votre logement est la porte n°8": {
-    en: "Your apartment is door no. 8",
-    de: "Ihre Unterkunft ist Tür Nr. 8",
-    es: "Su alojamiento es la puerta n.º 8",
-    it: "Il vostro alloggio è la porta n° 8",
+  "Votre logement est au 1er étage, porte n°8": {
+    en: "Your apartment is on the 1st floor, door no. 8",
+    de: "Ihre Unterkunft befindet sich im 1. Stock, Tür Nr. 8",
+    es: "Su alojamiento está en la 1.ª planta, puerta n.º 8",
+    it: "Il vostro alloggio è al 1° piano, porta n° 8",
   },
   "Composez le code, puis faites descendre le bouton noir pour ouvrir la boîte et récupérer la clé.": {
     en: "Enter the code, then slide the black button down to open the box and take the key.",
@@ -6042,11 +6042,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Marque el código y deslice hacia abajo el botón negro para abrir la caja y coger la llave.",
     it: "Digitate il codice, poi fate scendere il pulsante nero per aprire la cassetta e prendere la chiave.",
   },
-  "Votre logement est la porte n°8. Bienvenue !": {
-    en: "Your apartment is door no. 8. Welcome!",
-    de: "Ihre Unterkunft ist Tür Nr. 8. Willkommen!",
-    es: "Su alojamiento es la puerta n.º 8. ¡Bienvenido!",
-    it: "Il vostro alloggio è la porta n° 8. Benvenuti!",
+  "Montez au 1er étage : votre logement est la porte n°8. Bienvenue !": {
+    en: "Go up to the 1st floor: your apartment is door no. 8. Welcome!",
+    de: "Gehen Sie in den 1. Stock: Ihre Unterkunft ist Tür Nr. 8. Willkommen!",
+    es: "Suba a la 1.ª planta: su alojamiento es la puerta n.º 8. ¡Bienvenido!",
+    it: "Salite al 1° piano: il vostro alloggio è la porta n° 8. Benvenuti!",
   },
   "Coin cuisine équipé": {
     en: "Equipped kitchenette",

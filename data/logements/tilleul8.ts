@@ -9,13 +9,12 @@ import type { Logement } from "../types";
  * l'annonce Airbnb 1795690762068018121 (hôte Maxime, Agathe co-hôte) :
  * studio pour UNE personne, canapé convertible avec vrai matelas, coin
  * bureau avec vue sur la verdure, coin cuisine équipé, salle d'eau avec
- * douche + WC. PAS de WiFi ni de TV. Parking gratuit sur place.
+ * douche + WC. 1er étage, porte n°8. PAS de WiFi ni de TV. Parking gratuit
+ * sur place.
  * Animaux acceptés (un seul, avec supplément).
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - Emplacement exact de la porte n°8 une fois dans la résidence (la porte
- *     blanche sous le balcon = porte de la résidence, toujours ouverte)
  *   - Vidéo d'arrivée propre à Tilleul 8 (celle de Tilleul 2 mène à la porte 2,
  *     elle n'est donc pas reprise ici)
  *   - Vidéo du canapé-lit : reprise de Tilleul 2 — à confirmer que c'est le
@@ -45,7 +44,7 @@ export const tilleul8: Logement = {
       "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
       "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche",
       "La porte de la résidence (porte blanche sous le balcon) est toujours ouverte, pas besoin de clé",
-      "Votre logement est la porte n°8",
+      "Votre logement est au 1er étage, porte n°8",
     ],
     etapes: [
       {
@@ -65,7 +64,7 @@ export const tilleul8: Logement = {
         texte: "Montez ensuite les escaliers sur votre droite pour accéder à la résidence. La porte blanche, sous le balcon, est la porte de la résidence : elle est toujours ouverte, pas besoin de clé.",
         photo: "/logements/tilleul8/arrivee-4.jpg",
       },
-      { texte: "Votre logement est la porte n°8. Bienvenue !" },
+      { texte: "Montez au 1er étage : votre logement est la porte n°8. Bienvenue !" },
     ],
     arriveeAnticipee: {
       texte:
