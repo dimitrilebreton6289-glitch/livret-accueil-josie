@@ -51,6 +51,7 @@ export const memorial: Logement = {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
       "⚠️ Deux étapes : la boîte à clés se trouve au 46 rue Caponière, puis vous rejoignez le logement au 18 avenue Maréchal Montgomery (~2,2 km, ~8 min en voiture)",
+      "📍 Au 46 rue Caponière, la boîte à clés est au fond de la cour, à gauche — c'est la deuxième boîte en partant de la droite",
       "La boîte à clés contient le badge de la résidence et la clé de l'appartement (qui ouvre aussi le local poubelles)",
       "Le code de la boîte à clés vous est envoyé par message une fois le logement prêt",
       "Résidence sécurisée avec ascenseur : le badge ouvre la porte de l'immeuble, puis montez au 3ᵉ étage",

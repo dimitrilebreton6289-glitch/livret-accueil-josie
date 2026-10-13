@@ -6009,4 +6009,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "La puerta del apartamento se abre con dos llaves: una para la manilla, otra para la cerradura superior (cerrojo). ⚠️ Esta última está montada al revés: gire la llave en sentido antihorario para abrir, y en sentido horario para volver a cerrar.",
     it: "La porta dell'appartamento si apre con due chiavi: una per la maniglia, una per la serratura superiore (catenaccio). ⚠️ Quest'ultima è montata al contrario: girate la chiave in senso antiorario per aprire, e in senso orario per richiudere.",
   },
+  "📍 Au 46 rue Caponière, la boîte à clés est au fond de la cour, à gauche — c'est la deuxième boîte en partant de la droite":
+    {
+      en: "📍 At 46 Rue Caponière, the key box is at the back of the courtyard, on the left — it is the second box from the right",
+      de: "📍 In der Rue Caponière 46 befindet sich der Schlüsselkasten hinten im Hof, links — es ist der zweite Kasten von rechts",
+      es: "📍 En el 46 de la rue Caponière, la caja de llaves está al fondo del patio, a la izquierda — es la segunda caja empezando por la derecha",
+      it: "📍 Al 46 di rue Caponière, la cassetta delle chiavi si trova in fondo al cortile, a sinistra — è la seconda cassetta partendo da destra",
+    },
 };
