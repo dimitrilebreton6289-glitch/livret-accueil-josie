@@ -6024,11 +6024,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "El código de la caja de llaves se le enviará por mensaje el día de su llegada",
     it: "Il codice della cassetta delle chiavi vi sarà comunicato per messaggio il giorno del vostro arrivo",
   },
-  "La porte de l'immeuble s'ouvre sans clé": {
-    en: "The building door opens without a key",
-    de: "Die Haustür öffnet sich ohne Schlüssel",
-    es: "La puerta del edificio se abre sin llave",
-    it: "Il portone dell'edificio si apre senza chiave",
+  "La porte de la résidence (porte blanche sous le balcon) est toujours ouverte, pas besoin de clé": {
+    en: "The residence's front door (white door under the balcony) is always open, no key needed",
+    de: "Die Eingangstür der Wohnanlage (weiße Tür unter dem Balkon) ist immer offen, kein Schlüssel nötig",
+    es: "La puerta de la residencia (puerta blanca bajo el balcón) siempre está abierta, no necesita llave",
+    it: "La porta della residenza (porta bianca sotto il balcone) è sempre aperta, non serve la chiave",
   },
   "Votre logement est la porte n°8": {
     en: "Your apartment is door no. 8",
@@ -6540,11 +6540,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Diríjase al lado izquierdo del edificio. Hay tres cajas de llaves en la pared: la suya es la que está sola, abajo a la izquierda.",
     it: "Dirigetevi sul lato sinistro dell'edificio. Al muro sono fissate tre cassette delle chiavi: la vostra è quella da sola, in basso a sinistra.",
   },
-  "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte d'entrée blanche, sous le balcon, s'ouvre sans clé.": {
-    en: "Then climb the stairs on your right to reach the building. The white front door, under the balcony, opens without a key.",
-    de: "Gehen Sie dann die Treppe zu Ihrer Rechten hinauf zum Gebäude. Die weiße Eingangstür unter dem Balkon öffnet sich ohne Schlüssel.",
-    es: "Después suba las escaleras a su derecha para acceder al edificio. La puerta de entrada blanca, bajo el balcón, se abre sin llave.",
-    it: "Salite poi le scale alla vostra destra per accedere all'edificio. La porta d'ingresso bianca, sotto il balcone, si apre senza chiave.",
+  "Montez ensuite les escaliers sur votre droite pour accéder à la résidence. La porte blanche, sous le balcon, est la porte de la résidence : elle est toujours ouverte, pas besoin de clé.": {
+    en: "Then climb the stairs on your right to reach the residence. The white door under the balcony is the residence's front door: it is always open, no key needed.",
+    de: "Gehen Sie dann die Treppe zu Ihrer Rechten hinauf zur Wohnanlage. Die weiße Tür unter dem Balkon ist die Eingangstür der Wohnanlage: Sie ist immer offen, kein Schlüssel nötig.",
+    es: "Después suba las escaleras a su derecha para acceder a la residencia. La puerta blanca, bajo el balcón, es la puerta de la residencia: siempre está abierta, no necesita llave.",
+    it: "Salite poi le scale alla vostra destra per accedere alla residenza. La porta bianca, sotto il balcone, è la porta della residenza: è sempre aperta, non serve la chiave.",
   },
   "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche": {
     en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the one on its own, at the bottom left",

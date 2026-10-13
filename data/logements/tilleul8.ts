@@ -14,9 +14,8 @@ import type { Logement } from "../types";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - Emplacement exact de la porte n°8 une fois dans l'immeuble (dernière
- *     étape du guide — à confirmer : la porte blanche sous le balcon est-elle
- *     la porte de l'immeuble ou celle du logement ?)
+ *   - Emplacement exact de la porte n°8 une fois dans la résidence (la porte
+ *     blanche sous le balcon = porte de la résidence, toujours ouverte)
  *   - Vidéo d'arrivée propre à Tilleul 8 (celle de Tilleul 2 mène à la porte 2,
  *     elle n'est donc pas reprise ici)
  *   - Vidéo du canapé-lit : reprise de Tilleul 2 — à confirmer que c'est le
@@ -45,7 +44,7 @@ export const tilleul8: Logement = {
     checkinExpress: [
       "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
       "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche",
-      "La porte de l'immeuble s'ouvre sans clé",
+      "La porte de la résidence (porte blanche sous le balcon) est toujours ouverte, pas besoin de clé",
       "Votre logement est la porte n°8",
     ],
     etapes: [
@@ -63,7 +62,7 @@ export const tilleul8: Logement = {
       },
       { texte: "Composez le code, puis faites descendre le bouton noir pour ouvrir la boîte et récupérer la clé." },
       {
-        texte: "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte d'entrée blanche, sous le balcon, s'ouvre sans clé.",
+        texte: "Montez ensuite les escaliers sur votre droite pour accéder à la résidence. La porte blanche, sous le balcon, est la porte de la résidence : elle est toujours ouverte, pas besoin de clé.",
         photo: "/logements/tilleul8/arrivee-4.jpg",
       },
       { texte: "Votre logement est la porte n°8. Bienvenue !" },
