@@ -17,8 +17,6 @@ import type { Logement } from "../types";
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
  *   - Vidéo d'arrivée propre à Tilleul 8 (celle de Tilleul 2 mène à la porte 2,
  *     elle n'est donc pas reprise ici)
- *   - Vidéo du canapé-lit : reprise de Tilleul 2 — à confirmer que c'est le
- *     même modèle
  *
  * « Autour de moi » : les adresses recommandées par Agathe sur le livret StyQR
  * de Tilleul 2 + commerces géolocalisés via OpenStreetMap. Les distances sont
@@ -110,7 +108,8 @@ export const tilleul8: Logement = {
         titre: "🛋️ Canapé-lit",
         contenu:
           "Le studio accueille 1 personne sur le canapé convertible, équipé d'un vrai matelas pour un couchage confortable. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.",
-        video: "https://www.youtube.com/watch?v=yB5Dmc_Acvk",
+        video: "/logements/tilleul8/canape.mp4",
+        videoPortrait: true,
       },
       {
         titre: "🛏️ Linge de maison",
