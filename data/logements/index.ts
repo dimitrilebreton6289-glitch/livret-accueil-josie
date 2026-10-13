@@ -10,6 +10,7 @@ import { monnaie } from "./monnaie";
 import { houlgate1, houlgate2, houlgate3, houlgate4 } from "./houlgate";
 import { malo } from "./malo";
 import { memorial } from "./memorial";
+import { tilleul8 } from "./tilleul8";
 
 /**
  * Registre des logements.
@@ -18,7 +19,7 @@ import { memorial } from "./memorial";
  *   2. Importez-le ici et ajoutez-le au tableau ci-dessous.
  * Son livret sera alors accessible sur /<langue>/<id>.
  */
-export const logements: Logement[] = [granville, caen, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial];
+export const logements: Logement[] = [granville, caen, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul8];
 
 /** Retourne un logement par son identifiant (ou undefined). */
 export function getLogement(id: string): Logement | undefined {
