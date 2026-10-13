@@ -6030,12 +6030,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "El código de la caja de llaves se le enviará por mensaje el día de su llegada",
     it: "Il codice della cassetta delle chiavi vi sarà comunicato per messaggio il giorno del vostro arrivo",
   },
-  "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge)": {
-    en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate)",
-    de: "Der Schlüsselkasten befindet sich auf der linken Seite des Gebäudes, Rue des Tilleuls 38 (gehen Sie durch das rote Törchen)",
-    es: "La caja de llaves se encuentra en el lado izquierdo del edificio, en el 38 de la rue des Tilleuls (pase la pequeña puerta roja)",
-    it: "La cassetta delle chiavi si trova sul lato sinistro dell'edificio, al 38 di rue des Tilleuls (passate il cancelletto rosso)",
-  },
   "La porte de l'immeuble s'ouvre sans clé": {
     en: "The building door opens without a key",
     de: "Die Haustür öffnet sich ohne Schlüssel",
@@ -6048,35 +6042,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Su alojamiento es la puerta n.º 8",
     it: "Il vostro alloggio è la porta n° 8",
   },
-  "Rendez-vous au 38 rue des Tilleuls, à Caen.": {
-    en: "Go to 38 rue des Tilleuls, in Caen.",
-    de: "Begeben Sie sich zur Rue des Tilleuls 38 in Caen.",
-    es: "Diríjase al 38 de la rue des Tilleuls, en Caen.",
-    it: "Recatevi al 38 di rue des Tilleuls, a Caen.",
-  },
-  "Passez le portillon rouge, puis montez les escaliers.": {
-    en: "Go through the red gate, then climb the stairs.",
-    de: "Gehen Sie durch das rote Törchen und dann die Treppe hinauf.",
-    es: "Pase la pequeña puerta roja y suba las escaleras.",
-    it: "Passate il cancelletto rosso, poi salite le scale.",
-  },
-  "Dirigez-vous sur la gauche de l'immeuble : la boîte à clés se trouve devant vous.": {
-    en: "Head to the left-hand side of the building: the key box is right in front of you.",
-    de: "Gehen Sie zur linken Seite des Gebäudes: Der Schlüsselkasten befindet sich direkt vor Ihnen.",
-    es: "Diríjase al lado izquierdo del edificio: la caja de llaves está justo delante de usted.",
-    it: "Dirigetevi sul lato sinistro dell'edificio: la cassetta delle chiavi è proprio davanti a voi.",
-  },
   "Composez le code, puis faites descendre le bouton noir pour ouvrir la boîte et récupérer la clé.": {
     en: "Enter the code, then slide the black button down to open the box and take the key.",
     de: "Geben Sie den Code ein und schieben Sie dann den schwarzen Knopf nach unten, um den Kasten zu öffnen und den Schlüssel zu entnehmen.",
     es: "Marque el código y deslice hacia abajo el botón negro para abrir la caja y coger la llave.",
     it: "Digitate il codice, poi fate scendere il pulsante nero per aprire la cassetta e prendere la chiave.",
-  },
-  "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte de l'immeuble s'ouvre sans clé.": {
-    en: "Then climb the stairs on your right to reach the building. The building door opens without a key.",
-    de: "Gehen Sie dann die Treppe zu Ihrer Rechten hinauf zum Gebäude. Die Haustür öffnet sich ohne Schlüssel.",
-    es: "Después suba las escaleras a su derecha para acceder al edificio. La puerta del edificio se abre sin llave.",
-    it: "Salite poi le scale alla vostra destra per accedere all'edificio. Il portone si apre senza chiave.",
   },
   "Votre logement est la porte n°8. Bienvenue !": {
     en: "Your apartment is door no. 8. Welcome!",
@@ -6137,12 +6107,6 @@ export const CONTENT: Record<string, Tr> = {
     de: "Die Kaffeemaschine ist eine Nespresso (Kapseln). Bei Ihrer Ankunft liegen einige Kapseln bereit.",
     es: "La cafetera es una Nespresso (cápsulas). A su llegada encontrará algunas cápsulas.",
     it: "La macchina del caffè è una Nespresso (capsule). Al vostro arrivo troverete alcune capsule.",
-  },
-  "Pour allumer le radiateur, soulevez le petit capot et appuyez sur le bouton marche/arrêt (au centre), puis réglez la température avec les flèches. Merci de limiter votre consommation et de baisser le chauffage avant de partir.": {
-    en: "To switch on the radiator, lift the small cover and press the on/off button (in the centre), then set the temperature with the arrows. Please keep your energy use reasonable and turn the heating down before leaving.",
-    de: "Um den Heizkörper einzuschalten, heben Sie die kleine Abdeckung an und drücken Sie die Ein-/Aus-Taste (in der Mitte); stellen Sie dann die Temperatur mit den Pfeiltasten ein. Bitte achten Sie auf Ihren Verbrauch und drehen Sie die Heizung vor der Abreise herunter.",
-    es: "Para encender el radiador, levante la pequeña tapa y pulse el botón de encendido/apagado (en el centro); después ajuste la temperatura con las flechas. Le rogamos moderar el consumo y bajar la calefacción antes de irse.",
-    it: "Per accendere il radiatore, sollevate il piccolo coperchio e premete il pulsante on/off (al centro), poi regolate la temperatura con le frecce. Vi preghiamo di limitare i consumi e di abbassare il riscaldamento prima di partire.",
   },
   "Nous accueillons avec plaisir votre animal de compagnie (un seul animal par séjour). Un supplément tarifaire est appliqué pour son accueil.": {
     en: "Your pet is very welcome (one pet per stay). An extra fee applies.",
@@ -6617,5 +6581,41 @@ export const CONTENT: Record<string, Tr> = {
     de: "Beginnen Sie den Tag mit einem Spaziergang durch die Vallée des Jardins gleich nebenan und gehen Sie dann über den Jardin des Plantes hinunter zum Schloss: alles zu Fuß erreichbar. Verpassen Sie freitagmorgens nicht den Markt auf der Place Saint-Sauveur — und Feinschmecker sollten die Kutteln nach Caener Art probieren, die lokale Spezialität!",
     es: "Empiece el día con un paseo por la Vallée des Jardins, justo al lado, y después baje por el Jardin des Plantes hasta el castillo: todo se hace a pie. El viernes por la mañana, no se pierda el mercado de la place Saint-Sauveur — y si es goloso, pruebe los callos a la moda de Caen, ¡la especialidad local!",
     it: "Iniziate la giornata con una passeggiata nella Vallée des Jardins, proprio accanto, poi scendete attraverso il Jardin des Plantes fino al castello: tutto si fa a piedi. Il venerdì mattina non perdetevi il mercato di place Saint-Sauveur — e per i golosi, assaggiate la trippa alla moda di Caen, la specialità locale!",
+  },
+  "Au 38 rue des Tilleuls, passez le portillon rouge, puis montez les escaliers.": {
+    en: "At 38 rue des Tilleuls, go through the red gate, then climb the stairs.",
+    de: "Gehen Sie in der Rue des Tilleuls 38 durch das rote Törchen und dann die Treppe hinauf.",
+    es: "En el 38 de la rue des Tilleuls, pase la pequeña puerta roja y suba las escaleras.",
+    it: "Al 38 di rue des Tilleuls, passate il cancelletto rosso, poi salite le scale.",
+  },
+  "Remontez l'allée jusqu'à la maison.": {
+    en: "Walk up the path to the house.",
+    de: "Gehen Sie den Weg hinauf bis zum Haus.",
+    es: "Suba por el camino hasta la casa.",
+    it: "Risalite il vialetto fino alla casa.",
+  },
+  "Dirigez-vous sur la gauche de l'immeuble. Trois boîtes à clés sont fixées au mur : la vôtre est la boîte seule, en bas à gauche.": {
+    en: "Head to the left-hand side of the building. Three key boxes are fixed to the wall: yours is the one on its own, at the bottom left.",
+    de: "Gehen Sie zur linken Seite des Gebäudes. An der Wand hängen drei Schlüsselkästen: Ihrer ist der einzelne, unten links.",
+    es: "Diríjase al lado izquierdo del edificio. Hay tres cajas de llaves en la pared: la suya es la que está sola, abajo a la izquierda.",
+    it: "Dirigetevi sul lato sinistro dell'edificio. Al muro sono fissate tre cassette delle chiavi: la vostra è quella da sola, in basso a sinistra.",
+  },
+  "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte d'entrée blanche, sous le balcon, s'ouvre sans clé.": {
+    en: "Then climb the stairs on your right to reach the building. The white front door, under the balcony, opens without a key.",
+    de: "Gehen Sie dann die Treppe zu Ihrer Rechten hinauf zum Gebäude. Die weiße Eingangstür unter dem Balkon öffnet sich ohne Schlüssel.",
+    es: "Después suba las escaleras a su derecha para acceder al edificio. La puerta de entrada blanca, bajo el balcón, se abre sin llave.",
+    it: "Salite poi le scale alla vostra destra per accedere all'edificio. La porta d'ingresso bianca, sotto il balcone, si apre senza chiave.",
+  },
+  "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche": {
+    en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the one on its own, at the bottom left",
+    de: "Der Schlüsselkasten befindet sich auf der linken Seite des Gebäudes, Rue des Tilleuls 38 (gehen Sie durch das rote Törchen): Es ist der einzelne, unten links",
+    es: "La caja de llaves se encuentra en el lado izquierdo del edificio, en el 38 de la rue des Tilleuls (pase la pequeña puerta roja): es la que está sola, abajo a la izquierda",
+    it: "La cassetta delle chiavi si trova sul lato sinistro dell'edificio, al 38 di rue des Tilleuls (passate il cancelletto rosso): è quella da sola, in basso a sinistra",
+  },
+  "Pour allumer le radiateur, soulevez le petit capot et appuyez sur le bouton marche/arrêt (au centre) : l'écran affiche « Con » (mode confort). Réglez ensuite la température avec les touches + et −. Merci de limiter votre consommation et de baisser le chauffage avant de partir.\n\n🎬 La vidéo ci-dessous montre la manipulation.": {
+    en: "To switch on the radiator, lift the small cover and press the on/off button (in the centre): the screen shows \"Con\" (comfort mode). Then set the temperature with the + and − buttons. Please keep your energy use reasonable and turn the heating down before leaving.\n\n🎬 The video below shows how to do it.",
+    de: "Um den Heizkörper einzuschalten, heben Sie die kleine Abdeckung an und drücken Sie die Ein-/Aus-Taste (in der Mitte): Das Display zeigt „Con“ (Komfortmodus). Stellen Sie dann die Temperatur mit den Tasten + und − ein. Bitte achten Sie auf Ihren Verbrauch und drehen Sie die Heizung vor der Abreise herunter.\n\n🎬 Das Video unten zeigt die Bedienung.",
+    es: "Para encender el radiador, levante la pequeña tapa y pulse el botón de encendido/apagado (en el centro): la pantalla muestra «Con» (modo confort). Después ajuste la temperatura con los botones + y −. Le rogamos moderar el consumo y bajar la calefacción antes de irse.\n\n🎬 El vídeo de abajo muestra cómo hacerlo.",
+    it: "Per accendere il radiatore, sollevate il piccolo coperchio e premete il pulsante on/off (al centro): lo schermo mostra «Con» (modalità comfort). Regolate poi la temperatura con i tasti + e −. Vi preghiamo di limitare i consumi e di abbassare il riscaldamento prima di partire.\n\n🎬 Il video qui sotto mostra come fare.",
   },
 };

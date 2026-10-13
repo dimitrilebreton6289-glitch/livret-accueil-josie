@@ -12,13 +12,14 @@ import type { Logement } from "../types";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - Étage et emplacement exact de la porte n°8 (dernière étape du guide —
- *     Tilleul 2 est au RDC à gauche, porte 2)
+ *   - Emplacement exact de la porte n°8 une fois dans l'immeuble (dernière
+ *     étape du guide — à confirmer : la porte blanche sous le balcon est-elle
+ *     la porte de l'immeuble ou celle du logement ?)
  *   - WiFi : nom du réseau + mot de passe (placeholder actuellement)
  *   - Vidéo d'arrivée propre à Tilleul 8 (celle de Tilleul 2 mène à la porte 2,
  *     elle n'est donc pas reprise ici)
- *   - Vidéo du canapé-lit et photos du radiateur : reprises de Tilleul 2 —
- *     à confirmer que ce sont les mêmes modèles
+ *   - Vidéo du canapé-lit : reprise de Tilleul 2 — à confirmer que c'est le
+ *     même modèle
  *   - Photo de couverture réelle → remplacer public/logements/tilleul8/cover.jpg
  *     (actuellement les remparts du château, Wikimedia Commons, avec coverCredit)
  *   - Équipements exacts (lave-vaisselle ? TV ? lave-linge ?) — repris de
@@ -48,16 +49,28 @@ export const tilleul8: Logement = {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
       "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
-      "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge)",
+      "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche",
       "La porte de l'immeuble s'ouvre sans clé",
       "Votre logement est la porte n°8",
     ],
     etapes: [
-      { texte: "Rendez-vous au 38 rue des Tilleuls, à Caen." },
-      { texte: "Passez le portillon rouge, puis montez les escaliers." },
-      { texte: "Dirigez-vous sur la gauche de l'immeuble : la boîte à clés se trouve devant vous." },
+      {
+        texte: "Au 38 rue des Tilleuls, passez le portillon rouge, puis montez les escaliers.",
+        photo: "/logements/tilleul8/arrivee-1.jpg",
+      },
+      {
+        texte: "Remontez l'allée jusqu'à la maison.",
+        photo: "/logements/tilleul8/arrivee-2.jpg",
+      },
+      {
+        texte: "Dirigez-vous sur la gauche de l'immeuble. Trois boîtes à clés sont fixées au mur : la vôtre est la boîte seule, en bas à gauche.",
+        photo: "/logements/tilleul8/arrivee-3.jpg",
+      },
       { texte: "Composez le code, puis faites descendre le bouton noir pour ouvrir la boîte et récupérer la clé." },
-      { texte: "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte de l'immeuble s'ouvre sans clé." },
+      {
+        texte: "Montez ensuite les escaliers sur votre droite pour accéder à l'immeuble. La porte d'entrée blanche, sous le balcon, s'ouvre sans clé.",
+        photo: "/logements/tilleul8/arrivee-4.jpg",
+      },
       { texte: "Votre logement est la porte n°8. Bienvenue !" },
     ],
     arriveeAnticipee: {
@@ -112,8 +125,9 @@ export const tilleul8: Logement = {
       {
         titre: "🔥 Chauffage",
         contenu:
-          "Pour allumer le radiateur, soulevez le petit capot et appuyez sur le bouton marche/arrêt (au centre), puis réglez la température avec les flèches. Merci de limiter votre consommation et de baisser le chauffage avant de partir.",
-        photos: ["/logements/tilleul8/chauffage-1.jpg", "/logements/tilleul8/chauffage-2.jpg"],
+          "Pour allumer le radiateur, soulevez le petit capot et appuyez sur le bouton marche/arrêt (au centre) : l'écran affiche « Con » (mode confort). Réglez ensuite la température avec les touches + et −. Merci de limiter votre consommation et de baisser le chauffage avant de partir.\n\n🎬 La vidéo ci-dessous montre la manipulation.",
+        video: "/logements/tilleul8/chauffage.mp4",
+        videoPortrait: true,
       },
       {
         titre: "🍽️ Vaisselle",
@@ -143,6 +157,7 @@ export const tilleul8: Logement = {
       texte:
         "Logement non-fumeur : merci de descendre dans la rue pour fumer ou vapoter. Les fêtes et les soirées sont strictement interdites. Merci de veiller à la tranquillité du voisinage en limitant les nuisances sonores, à l'intérieur du logement comme dans les parties communes.",
     },
+    poubellesPhoto: "/logements/tilleul8/poubelles.jpg",
     poubelles:
       "♻️ Les bacs se trouvent dans la rue des Tilleuls, à la sortie du portail. Merci de bien trier vos déchets.\n\n🟡 Bac jaune — emballages & recyclables\n⚫ Bac gris — ordures ménagères\n🍷 Verre — conteneur au 9 rue des Tilleuls",
     animaux:
