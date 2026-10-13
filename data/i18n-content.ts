@@ -6018,12 +6018,6 @@ export const CONTENT: Record<string, Tr> = {
     },
 
   // ------------------------------------------ Tilleul 8 (Caen, 38 rue des Tilleuls)
-  "Bienvenue au Tilleul 8 ! Votre studio est niché dans une rue calme, à deux pas du Jardin des Plantes et de la Vallée des Jardins, et à une dizaine de minutes à pied du château et du centre historique. Le tram est à 3 minutes pour rejoindre le centre et la gare. Très bon séjour à Caen ! 🌳": {
-    en: "Welcome to Tilleul 8! Your studio is tucked away on a quiet street, a stone's throw from the Jardin des Plantes and the Vallée des Jardins, and about ten minutes' walk from the castle and the historic centre. The tram is 3 minutes away to reach the city centre and the station. Enjoy your stay in Caen! 🌳",
-    de: "Willkommen im Tilleul 8! Ihr Studio liegt in einer ruhigen Straße, nur wenige Schritte vom Jardin des Plantes und der Vallée des Jardins entfernt und etwa zehn Gehminuten vom Schloss und der Altstadt. Die Straßenbahn ist 3 Minuten entfernt und bringt Sie ins Zentrum und zum Bahnhof. Einen schönen Aufenthalt in Caen! 🌳",
-    es: "¡Bienvenido a Tilleul 8! Su estudio se encuentra en una calle tranquila, a dos pasos del Jardin des Plantes y de la Vallée des Jardins, y a unos diez minutos a pie del castillo y del centro histórico. El tranvía está a 3 minutos para ir al centro y a la estación. ¡Que disfrute de su estancia en Caen! 🌳",
-    it: "Benvenuti al Tilleul 8! Il vostro monolocale si trova in una via tranquilla, a due passi dal Jardin des Plantes e dalla Vallée des Jardins, e a una decina di minuti a piedi dal castello e dal centro storico. Il tram è a 3 minuti per raggiungere il centro e la stazione. Buon soggiorno a Caen! 🌳",
-  },
   "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée": {
     en: "The key box code is sent to you by message on the day of your arrival",
     de: "Den Code des Schlüsselkastens erhalten Sie am Anreisetag per Nachricht",
@@ -6054,59 +6048,17 @@ export const CONTENT: Record<string, Tr> = {
     es: "Su alojamiento es la puerta n.º 8. ¡Bienvenido!",
     it: "Il vostro alloggio è la porta n° 8. Benvenuti!",
   },
-  "🅿️ Stationnement dans la rue : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants à proximité : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).": {
-    en: "🅿️ Street parking: rue des Tilleuls, rue Branly, rue du Magasin à Poudre and avenue de Courseulles.\n🅿️ Paid underground car parks nearby: Mairie, Château and Paul Doumer (rates on indigoneo.fr).",
-    de: "🅿️ Parken auf der Straße: Rue des Tilleuls, Rue Branly, Rue du Magasin à Poudre und Avenue de Courseulles.\n🅿️ Kostenpflichtige Tiefgaragen in der Nähe: Mairie, Château und Paul Doumer (Tarife auf indigoneo.fr).",
-    es: "🅿️ Aparcamiento en la calle: rue des Tilleuls, rue Branly, rue du Magasin à Poudre y avenue de Courseulles.\n🅿️ Aparcamientos subterráneos de pago cerca: Mairie, Château y Paul Doumer (tarifas en indigoneo.fr).",
-    it: "🅿️ Parcheggio in strada: rue des Tilleuls, rue Branly, rue du Magasin à Poudre e avenue de Courseulles.\n🅿️ Parcheggi sotterranei a pagamento nelle vicinanze: Mairie, Château e Paul Doumer (tariffe su indigoneo.fr).",
-  },
-  "Pièce de vie avec canapé-lit 2 personnes": {
-    en: "Living space with a double sofa bed",
-    de: "Wohnraum mit Schlafsofa für 2 Personen",
-    es: "Sala de estar con sofá cama para 2 personas",
-    it: "Zona giorno con divano letto per 2 persone",
-  },
   "Coin cuisine équipé": {
     en: "Equipped kitchenette",
     de: "Ausgestattete Küchenecke",
     es: "Rincón de cocina equipado",
     it: "Angolo cottura attrezzato",
   },
-  "Salle de bain avec WC": {
-    en: "Bathroom with toilet",
-    de: "Badezimmer mit WC",
-    es: "Baño con inodoro",
-    it: "Bagno con WC",
-  },
-  "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette\n• 🧴 Gel douche / shampoing (une miniature par personne)\n• 🧂 Sel & poivre\n• ☕ Capsules de café\n• 🧽 Produit vaisselle & éponge": {
-    en: "When you arrive, a few essentials are waiting for you:\n\n• 🧻 Toilet paper\n• 🧴 Shower gel / shampoo (one mini bottle per person)\n• 🧂 Salt & pepper\n• ☕ Coffee capsules\n• 🧽 Washing-up liquid & sponge",
-    de: "Bei Ihrer Ankunft erwarten Sie einige Grundausstattungen:\n\n• 🧻 Toilettenpapier\n• 🧴 Duschgel / Shampoo (eine Miniatur pro Person)\n• 🧂 Salz & Pfeffer\n• ☕ Kaffeekapseln\n• 🧽 Spülmittel & Schwamm",
-    es: "A su llegada, le esperan algunos productos básicos:\n\n• 🧻 Papel higiénico\n• 🧴 Gel de ducha / champú (un formato mini por persona)\n• 🧂 Sal y pimienta\n• ☕ Cápsulas de café\n• 🧽 Lavavajillas y esponja",
-    it: "Al vostro arrivo troverete alcuni prodotti essenziali:\n\n• 🧻 Carta igienica\n• 🧴 Bagnoschiuma / shampoo (una confezione mini a persona)\n• 🧂 Sale e pepe\n• ☕ Capsule di caffè\n• 🧽 Detersivo per piatti e spugna",
-  },
   "🛋️ Canapé-lit": {
     en: "🛋️ Sofa bed",
     de: "🛋️ Schlafsofa",
     es: "🛋️ Sofá cama",
     it: "🛋️ Divano letto",
-  },
-  "Le studio accueille 2 personnes sur le canapé-lit de la pièce de vie. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.": {
-    en: "The studio sleeps 2 on the sofa bed in the living space. Bed linen is provided.\n\n🎬 The video below shows how to unfold the sofa bed.",
-    de: "Das Studio bietet 2 Personen Platz auf dem Schlafsofa im Wohnraum. Bettwäsche wird gestellt.\n\n🎬 Das Video unten zeigt, wie man das Schlafsofa ausklappt.",
-    es: "El estudio acoge a 2 personas en el sofá cama de la sala de estar. Se proporcionan sábanas.\n\n🎬 El vídeo de abajo muestra cómo desplegar el sofá cama.",
-    it: "Il monolocale ospita 2 persone sul divano letto della zona giorno. Le lenzuola sono fornite.\n\n🎬 Il video qui sotto mostra come aprire il divano letto.",
-  },
-  "• 🛏️ Draps fournis pour le canapé-lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine": {
-    en: "• 🛏️ Bed linen provided for the sofa bed\n• 🛁 One bath towel per guest + a bath mat\n• 🍽️ A tea towel",
-    de: "• 🛏️ Bettwäsche für das Schlafsofa wird gestellt\n• 🛁 Ein Badetuch pro Gast + eine Badematte\n• 🍽️ Ein Geschirrtuch",
-    es: "• 🛏️ Sábanas incluidas para el sofá cama\n• 🛁 Una toalla de baño por huésped + una alfombrilla de baño\n• 🍽️ Un paño de cocina",
-    it: "• 🛏️ Lenzuola fornite per il divano letto\n• 🛁 Un asciugamano a ospite + un tappetino da bagno\n• 🍽️ Uno strofinaccio da cucina",
-  },
-  "La machine à café est une Nespresso (capsules). Quelques capsules vous attendent à votre arrivée.": {
-    en: "The coffee machine is a Nespresso (capsules). A few capsules are waiting for you on arrival.",
-    de: "Die Kaffeemaschine ist eine Nespresso (Kapseln). Bei Ihrer Ankunft liegen einige Kapseln bereit.",
-    es: "La cafetera es una Nespresso (cápsulas). A su llegada encontrará algunas cápsulas.",
-    it: "La macchina del caffè è una Nespresso (capsule). Al vostro arrivo troverete alcune capsule.",
   },
   "Nous accueillons avec plaisir votre animal de compagnie (un seul animal par séjour). Un supplément tarifaire est appliqué pour son accueil.": {
     en: "Your pet is very welcome (one pet per stay). An extra fee applies.",
@@ -6132,12 +6084,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "Las mascotas son bienvenidas (una por estancia), con un suplemento.",
     it: "Gli animali domestici sono i benvenuti (uno per soggiorno), con un supplemento.",
   },
-  "Canapé-lit 2 personnes": {
-    en: "Double sofa bed",
-    de: "Schlafsofa für 2 Personen",
-    es: "Sofá cama para 2 personas",
-    it: "Divano letto per 2 persone",
-  },
   "Animaux acceptés": {
     en: "Pets allowed",
     de: "Haustiere erlaubt",
@@ -6149,12 +6095,6 @@ export const CONTENT: Record<string, Tr> = {
     de: "Den Müll in die Tonnen in der Rue des Tilleuls (am Ausgang des Tors) bringen",
     es: "Vaciar la basura en los contenedores de la rue des Tilleuls (a la salida del portón)",
     it: "Svuotare la spazzatura nei bidoni di rue des Tilleuls (all'uscita del cancello)",
-  },
-  "Fermer les fenêtres et le velux, éteindre les lumières et baisser le chauffage": {
-    en: "Close the windows and the skylight, switch off the lights and turn the heating down",
-    de: "Fenster und Dachfenster schließen, das Licht ausschalten und die Heizung herunterdrehen",
-    es: "Cerrar las ventanas y el velux, apagar las luces y bajar la calefacción",
-    it: "Chiudere le finestre e il lucernario, spegnere le luci e abbassare il riscaldamento",
   },
   "Fermer l'appartement à clé et remettre la clé dans la boîte à clés": {
     en: "Lock the apartment and put the key back in the key box",
@@ -6617,5 +6557,119 @@ export const CONTENT: Record<string, Tr> = {
     de: "Um den Heizkörper einzuschalten, heben Sie die kleine Abdeckung an und drücken Sie die Ein-/Aus-Taste (in der Mitte): Das Display zeigt „Con“ (Komfortmodus). Stellen Sie dann die Temperatur mit den Tasten + und − ein. Bitte achten Sie auf Ihren Verbrauch und drehen Sie die Heizung vor der Abreise herunter.\n\n🎬 Das Video unten zeigt die Bedienung.",
     es: "Para encender el radiador, levante la pequeña tapa y pulse el botón de encendido/apagado (en el centro): la pantalla muestra «Con» (modo confort). Después ajuste la temperatura con los botones + y −. Le rogamos moderar el consumo y bajar la calefacción antes de irse.\n\n🎬 El vídeo de abajo muestra cómo hacerlo.",
     it: "Per accendere il radiatore, sollevate il piccolo coperchio e premete il pulsante on/off (al centro): lo schermo mostra «Con» (modalità comfort). Regolate poi la temperatura con i tasti + e −. Vi preghiamo di limitare i consumi e di abbassare il riscaldamento prima di partire.\n\n🎬 Il video qui sotto mostra come fare.",
+  },
+  "Bienvenue au Tilleul 8 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳": {
+    en: "Welcome to Tilleul 8! Your studio, designed for one person, is tucked away on a quiet street, a stone's throw from the university, the Jardin des Plantes and the Vallée des Jardins. Its desk area overlooking the greenery is ideal for studying or remote working, and the castle and the historic centre are about ten minutes' walk away. Enjoy your stay in Caen! 🌳",
+    de: "Willkommen im Tilleul 8! Ihr Studio für eine Person liegt in einer ruhigen Straße, nur wenige Schritte von der Universität, dem Jardin des Plantes und der Vallée des Jardins entfernt. Die Schreibecke mit Blick ins Grüne ist ideal zum Lernen oder für Homeoffice, und Schloss und Altstadt erreichen Sie in etwa zehn Gehminuten. Einen schönen Aufenthalt in Caen! 🌳",
+    es: "¡Bienvenido a Tilleul 8! Su estudio, pensado para una persona, se encuentra en una calle tranquila, a dos pasos de la universidad, del Jardin des Plantes y de la Vallée des Jardins. Su rincón de trabajo con vistas a la vegetación es ideal para estudiar o teletrabajar, y el castillo y el centro histórico están a unos diez minutos a pie. ¡Que disfrute de su estancia en Caen! 🌳",
+    it: "Benvenuti al Tilleul 8! Il vostro monolocale, pensato per una persona, si trova in una via tranquilla, a due passi dall'università, dal Jardin des Plantes e dalla Vallée des Jardins. L'angolo scrivania con vista sul verde è ideale per studiare o lavorare da remoto, e il castello e il centro storico sono a una decina di minuti a piedi. Buon soggiorno a Caen! 🌳",
+  },
+  "🅿️ Un parking gratuit se trouve sur place, avec des places faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).": {
+    en: "🅿️ There is free parking on site, with spaces easy to find.\n🅿️ You can also park in the nearby streets: rue des Tilleuls, rue Branly, rue du Magasin à Poudre and avenue de Courseulles.\n🅿️ Paid underground car parks in the centre: Mairie, Château and Paul Doumer (rates on indigoneo.fr).",
+    de: "🅿️ Vor Ort gibt es einen kostenlosen Parkplatz, auf dem man leicht einen Platz findet.\n🅿️ Sie können auch in den Nachbarstraßen parken: Rue des Tilleuls, Rue Branly, Rue du Magasin à Poudre und Avenue de Courseulles.\n🅿️ Kostenpflichtige Tiefgaragen im Zentrum: Mairie, Château und Paul Doumer (Tarife auf indigoneo.fr).",
+    es: "🅿️ Hay un aparcamiento gratuito en el lugar, con plazas fáciles de encontrar.\n🅿️ También puede aparcar en las calles cercanas: rue des Tilleuls, rue Branly, rue du Magasin à Poudre y avenue de Courseulles.\n🅿️ Aparcamientos subterráneos de pago en el centro: Mairie, Château y Paul Doumer (tarifas en indigoneo.fr).",
+    it: "🅿️ Sul posto c'è un parcheggio gratuito, con posti facili da trovare.\n🅿️ Potete anche parcheggiare nelle vie vicine: rue des Tilleuls, rue Branly, rue du Magasin à Poudre e avenue de Courseulles.\n🅿️ Parcheggi sotterranei a pagamento in centro: Mairie, Château e Paul Doumer (tariffe su indigoneo.fr).",
+  },
+  "Pièce de vie avec canapé convertible (vrai matelas) et rangements": {
+    en: "Living space with a sofa bed (real mattress) and storage",
+    de: "Wohnraum mit Schlafsofa (echte Matratze) und Stauraum",
+    es: "Sala de estar con sofá cama (colchón de verdad) y espacio de almacenamiento",
+    it: "Zona giorno con divano letto (vero materasso) e spazi di rimessaggio",
+  },
+  "Coin bureau avec vue dégagée sur la verdure": {
+    en: "Desk area with an open view over the greenery",
+    de: "Schreibecke mit freiem Blick ins Grüne",
+    es: "Rincón de trabajo con vistas despejadas a la vegetación",
+    it: "Angolo scrivania con vista aperta sul verde",
+  },
+  "📶 Pas de WiFi ni de TV": {
+    en: "📶 No WiFi or TV",
+    de: "📶 Kein WLAN und kein Fernseher",
+    es: "📶 Sin WiFi ni televisión",
+    it: "📶 Niente WiFi né TV",
+  },
+  "Le studio ne dispose ni du WiFi ni de la télévision. Pensez à prévoir votre connexion mobile (4G/5G) pour toute la durée de votre séjour.": {
+    en: "The studio has neither WiFi nor a television. Please make sure you have mobile data (4G/5G) for the whole of your stay.",
+    de: "Das Studio verfügt weder über WLAN noch über einen Fernseher. Bitte sorgen Sie für mobiles Internet (4G/5G) für die gesamte Dauer Ihres Aufenthalts.",
+    es: "El estudio no dispone de WiFi ni de televisión. Prevea su conexión móvil (4G/5G) para toda su estancia.",
+    it: "Il monolocale non dispone né di WiFi né di televisione. Prevedete la vostra connessione mobile (4G/5G) per tutta la durata del soggiorno.",
+  },
+  "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette & savon\n• 🧴 Gel douche & shampoing\n• 🧂 Huile, sel & poivre\n• 🧽 Produit vaisselle & éponge": {
+    en: "When you arrive, a few essentials are waiting for you:\n\n• 🧻 Toilet paper & soap\n• 🧴 Shower gel & shampoo\n• 🧂 Oil, salt & pepper\n• 🧽 Washing-up liquid & sponge",
+    de: "Bei Ihrer Ankunft erwarten Sie einige Grundausstattungen:\n\n• 🧻 Toilettenpapier & Seife\n• 🧴 Duschgel & Shampoo\n• 🧂 Öl, Salz & Pfeffer\n• 🧽 Spülmittel & Schwamm",
+    es: "A su llegada, le esperan algunos productos básicos:\n\n• 🧻 Papel higiénico y jabón\n• 🧴 Gel de ducha y champú\n• 🧂 Aceite, sal y pimienta\n• 🧽 Lavavajillas y esponja",
+    it: "Al vostro arrivo troverete alcuni prodotti essenziali:\n\n• 🧻 Carta igienica e sapone\n• 🧴 Bagnoschiuma e shampoo\n• 🧂 Olio, sale e pepe\n• 🧽 Detersivo per piatti e spugna",
+  },
+  "Le studio accueille 1 personne sur le canapé convertible, équipé d'un vrai matelas pour un couchage confortable. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.": {
+    en: "The studio sleeps 1 person on the sofa bed, fitted with a real mattress for a comfortable night. Bed linen is provided.\n\n🎬 The video below shows how to unfold the sofa bed.",
+    de: "Das Studio bietet 1 Person Platz auf dem Schlafsofa mit echter Matratze für bequemen Schlaf. Bettwäsche wird gestellt.\n\n🎬 Das Video unten zeigt, wie man das Schlafsofa ausklappt.",
+    es: "El estudio acoge a 1 persona en el sofá cama, equipado con un colchón de verdad para dormir cómodamente. Se proporcionan sábanas.\n\n🎬 El vídeo de abajo muestra cómo desplegar el sofá cama.",
+    it: "Il monolocale ospita 1 persona sul divano letto, dotato di un vero materasso per dormire comodamente. Le lenzuola sono fornite.\n\n🎬 Il video qui sotto mostra come aprire il divano letto.",
+  },
+  "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le canapé-lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition": {
+    en: "Hotel-quality linen, cleaned by a professional laundry:\n\n• 🛏️ Bed linen provided for the sofa bed\n• 🛁 One bath towel per guest + a bath mat\n• 🍽️ A tea towel\n• 👕 Hangers, storage & an iron available",
+    de: "Wäsche in Hotelqualität, von einer professionellen Wäscherei gereinigt:\n\n• 🛏️ Bettwäsche für das Schlafsofa wird gestellt\n• 🛁 Ein Badetuch pro Gast + eine Badematte\n• 🍽️ Ein Geschirrtuch\n• 👕 Kleiderbügel, Stauraum & Bügeleisen vorhanden",
+    es: "Ropa de calidad hotelera, tratada por una lavandería profesional:\n\n• 🛏️ Sábanas incluidas para el sofá cama\n• 🛁 Una toalla de baño por huésped + una alfombrilla de baño\n• 🍽️ Un paño de cocina\n• 👕 Perchas, espacio de almacenamiento y plancha a su disposición",
+    it: "Biancheria di qualità alberghiera, trattata da una lavanderia professionale:\n\n• 🛏️ Lenzuola fornite per il divano letto\n• 🛁 Un asciugamano a ospite + un tappetino da bagno\n• 🍽️ Uno strofinaccio da cucina\n• 👕 Grucce, spazi di rimessaggio e ferro da stiro a disposizione",
+  },
+  "Le coin cuisine est équipé pour préparer vos repas :\n\n• 🔥 Plaques de cuisson\n• ❄️ Réfrigérateur\n• 🍲 Four à micro-ondes\n• ☕ Cafetière, bouilloire & grille-pain\n• 🍴 Vaisselle, couverts, casseroles & poêles\n• 🧂 Huile, sel & poivre fournis": {
+    en: "The kitchenette is equipped for cooking your meals:\n\n• 🔥 Hob\n• ❄️ Fridge\n• 🍲 Microwave\n• ☕ Coffee maker, kettle & toaster\n• 🍴 Crockery, cutlery, pots & pans\n• 🧂 Oil, salt & pepper provided",
+    de: "Die Küchenecke ist zum Kochen ausgestattet:\n\n• 🔥 Kochplatten\n• ❄️ Kühlschrank\n• 🍲 Mikrowelle\n• ☕ Kaffeemaschine, Wasserkocher & Toaster\n• 🍴 Geschirr, Besteck, Töpfe & Pfannen\n• 🧂 Öl, Salz & Pfeffer vorhanden",
+    es: "El rincón de cocina está equipado para preparar sus comidas:\n\n• 🔥 Placas de cocción\n• ❄️ Frigorífico\n• 🍲 Microondas\n• ☕ Cafetera, hervidor y tostadora\n• 🍴 Vajilla, cubiertos, ollas y sartenes\n• 🧂 Aceite, sal y pimienta incluidos",
+    it: "L'angolo cottura è attrezzato per preparare i vostri pasti:\n\n• 🔥 Piastre di cottura\n• ❄️ Frigorifero\n• 🍲 Forno a microonde\n• ☕ Macchina del caffè, bollitore e tostapane\n• 🍴 Stoviglie, posate, pentole e padelle\n• 🧂 Olio, sale e pepe forniti",
+  },
+  "🪑 Espace de travail": {
+    en: "🪑 Workspace",
+    de: "🪑 Arbeitsplatz",
+    es: "🪑 Espacio de trabajo",
+    it: "🪑 Spazio di lavoro",
+  },
+  "Un coin bureau, face à la fenêtre et à la verdure, vous permet d'étudier ou de télétravailler confortablement. Pour la connexion, prévoyez votre partage de connexion mobile (pas de WiFi).": {
+    en: "A desk area facing the window and the greenery lets you study or work remotely in comfort. For internet, plan to use your mobile hotspot (no WiFi).",
+    de: "Eine Schreibecke mit Blick aus dem Fenster ins Grüne ermöglicht bequemes Lernen oder Homeoffice. Für Internet nutzen Sie bitte Ihren mobilen Hotspot (kein WLAN).",
+    es: "Un rincón de trabajo, frente a la ventana y a la vegetación, le permite estudiar o teletrabajar con comodidad. Para la conexión, prevea compartir los datos de su móvil (no hay WiFi).",
+    it: "Un angolo scrivania, di fronte alla finestra e al verde, vi permette di studiare o lavorare da remoto comodamente. Per la connessione, prevedete l'hotspot del vostro telefono (niente WiFi).",
+  },
+  "🚿 Salle d'eau": {
+    en: "🚿 Shower room",
+    de: "🚿 Duschbad",
+    es: "🚿 Baño",
+    it: "🚿 Bagno",
+  },
+  "La salle d'eau dispose d'une douche, d'un lavabo, d'un WC et d'un sèche-cheveux.": {
+    en: "The shower room has a shower, a washbasin, a toilet and a hairdryer.",
+    de: "Das Duschbad verfügt über Dusche, Waschbecken, WC und Haartrockner.",
+    es: "El baño dispone de ducha, lavabo, inodoro y secador de pelo.",
+    it: "Il bagno dispone di doccia, lavabo, WC e asciugacapelli.",
+  },
+  "Canapé convertible (vrai matelas)": {
+    en: "Sofa bed (real mattress)",
+    de: "Schlafsofa (echte Matratze)",
+    es: "Sofá cama (colchón de verdad)",
+    it: "Divano letto (vero materasso)",
+  },
+  "Parking gratuit sur place": {
+    en: "Free parking on site",
+    de: "Kostenloser Parkplatz vor Ort",
+    es: "Aparcamiento gratuito en el lugar",
+    it: "Parcheggio gratuito sul posto",
+  },
+  "Four à micro-ondes": {
+    en: "Microwave",
+    de: "Mikrowelle",
+    es: "Microondas",
+    it: "Forno a microonde",
+  },
+  "Espace de travail dédié": {
+    en: "Dedicated workspace",
+    de: "Eigener Arbeitsplatz",
+    es: "Espacio de trabajo",
+    it: "Spazio di lavoro dedicato",
+  },
+  "Stores ou rideaux occultants": {
+    en: "Blackout blinds or curtains",
+    de: "Verdunkelungsrollos oder -vorhänge",
+    es: "Persianas o cortinas opacas",
+    it: "Tende o tapparelle oscuranti",
   },
 };

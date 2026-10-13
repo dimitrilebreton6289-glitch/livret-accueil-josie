@@ -5,25 +5,22 @@ import type { Logement } from "../types";
  * entre le Jardin des Plantes, la Vallée des Jardins et le campus 1 de
  * l'université, à ~10 min à pied du château.
  *
- * Construit sur le livret StyQR de « Tilleul 2 » (même immeuble, même
- * aménagement, d'après Agathe) : studio avec pièce de vie + canapé-lit
- * 2 personnes, coin cuisine équipé, coin repas, salle de bain avec WC.
- * Capacité 2 personnes. Animaux acceptés (un seul, avec supplément).
+ * Construit sur le livret StyQR de « Tilleul 2 » (même immeuble) et sur
+ * l'annonce Airbnb 1795690762068018121 (hôte Maxime, Agathe co-hôte) :
+ * studio pour UNE personne, canapé convertible avec vrai matelas, coin
+ * bureau avec vue sur la verdure, coin cuisine équipé, salle d'eau avec
+ * douche + WC. PAS de WiFi ni de TV. Parking gratuit sur place.
+ * Animaux acceptés (un seul, avec supplément).
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
  *   - Emplacement exact de la porte n°8 une fois dans l'immeuble (dernière
  *     étape du guide — à confirmer : la porte blanche sous le balcon est-elle
  *     la porte de l'immeuble ou celle du logement ?)
- *   - WiFi : nom du réseau + mot de passe (placeholder actuellement)
  *   - Vidéo d'arrivée propre à Tilleul 8 (celle de Tilleul 2 mène à la porte 2,
  *     elle n'est donc pas reprise ici)
  *   - Vidéo du canapé-lit : reprise de Tilleul 2 — à confirmer que c'est le
  *     même modèle
- *   - Photo de couverture réelle → remplacer public/logements/tilleul8/cover.jpg
- *     (actuellement les remparts du château, Wikimedia Commons, avec coverCredit)
- *   - Équipements exacts (lave-vaisselle ? TV ? lave-linge ?) — repris de
- *     Tilleul 2 a minima
  *
  * « Autour de moi » : les adresses recommandées par Agathe sur le livret StyQR
  * de Tilleul 2 + commerces géolocalisés via OpenStreetMap. Les distances sont
@@ -39,11 +36,9 @@ export const tilleul8: Logement = {
   itineraire: "https://maps.google.com/?q=38+Rue+des+Tilleuls+14000+Caen",
   coords: [49.1935284, -0.3673367],
   cover: "/logements/tilleul8/cover.jpg",
-  coverCredit:
-    "Photo : les remparts du château de Caen — Frédéric Bisson, CC BY 2.0 (Wikimedia Commons). Provisoire.",
 
   motAccueil:
-    "Bienvenue au Tilleul 8 ! Votre studio est niché dans une rue calme, à deux pas du Jardin des Plantes et de la Vallée des Jardins, et à une dizaine de minutes à pied du château et du centre historique. Le tram est à 3 minutes pour rejoindre le centre et la gare. Très bon séjour à Caen ! 🌳",
+    "Bienvenue au Tilleul 8 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳",
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
@@ -79,15 +74,16 @@ export const tilleul8: Logement = {
       url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
-      "🅿️ Stationnement dans la rue : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants à proximité : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).",
+      "🅿️ Un parking gratuit se trouve sur place, avec des places faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
       rdc: [
-        "Pièce de vie avec canapé-lit 2 personnes",
+        "Pièce de vie avec canapé convertible (vrai matelas) et rangements",
+        "Coin bureau avec vue dégagée sur la verdure",
         "Coin cuisine équipé",
         "Coin repas",
-        "Salle de bain avec WC",
+        "Salle d'eau avec douche, lavabo et WC",
       ],
       etage: [],
       exterieur: [],
@@ -95,32 +91,47 @@ export const tilleul8: Logement = {
   },
 
   wifi: {
-    reseau: "Communiqué par message avant votre arrivée",
-    motDePasse: "Communiqué par message avant votre arrivée",
+    reseau: "Pas de WiFi dans ce logement",
+    motDePasse: "Prévoyez votre connexion mobile (4G/5G)",
   },
 
   pratique: {
     aSavoir: [],
     aSavoirSections: [
       {
+        titre: "📶 Pas de WiFi ni de TV",
+        contenu:
+          "Le studio ne dispose ni du WiFi ni de la télévision. Pensez à prévoir votre connexion mobile (4G/5G) pour toute la durée de votre séjour.",
+      },
+      {
         titre: "🎁 Produits d'accueil",
         contenu:
-          "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette\n• 🧴 Gel douche / shampoing (une miniature par personne)\n• 🧂 Sel & poivre\n• ☕ Capsules de café\n• 🧽 Produit vaisselle & éponge",
+          "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette & savon\n• 🧴 Gel douche & shampoing\n• 🧂 Huile, sel & poivre\n• 🧽 Produit vaisselle & éponge",
       },
       {
         titre: "🛋️ Canapé-lit",
         contenu:
-          "Le studio accueille 2 personnes sur le canapé-lit de la pièce de vie. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.",
+          "Le studio accueille 1 personne sur le canapé convertible, équipé d'un vrai matelas pour un couchage confortable. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.",
         video: "https://www.youtube.com/watch?v=yB5Dmc_Acvk",
       },
       {
         titre: "🛏️ Linge de maison",
         contenu:
-          "• 🛏️ Draps fournis pour le canapé-lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine",
+          "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le canapé-lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition",
       },
       {
-        titre: "☕ Machine à café",
-        contenu: "La machine à café est une Nespresso (capsules). Quelques capsules vous attendent à votre arrivée.",
+        titre: "🍳 Cuisine",
+        contenu:
+          "Le coin cuisine est équipé pour préparer vos repas :\n\n• 🔥 Plaques de cuisson\n• ❄️ Réfrigérateur\n• 🍲 Four à micro-ondes\n• ☕ Cafetière, bouilloire & grille-pain\n• 🍴 Vaisselle, couverts, casseroles & poêles\n• 🧂 Huile, sel & poivre fournis",
+      },
+      {
+        titre: "🪑 Espace de travail",
+        contenu:
+          "Un coin bureau, face à la fenêtre et à la verdure, vous permet d'étudier ou de télétravailler confortablement. Pour la connexion, prévoyez votre partage de connexion mobile (pas de WiFi).",
+      },
+      {
+        titre: "🚿 Salle d'eau",
+        contenu: "La salle d'eau dispose d'une douche, d'un lavabo, d'un WC et d'un sèche-cheveux.",
       },
       {
         titre: "🔥 Chauffage",
@@ -143,12 +154,15 @@ export const tilleul8: Logement = {
     electromenager: [
       "Plaques de cuisson",
       "Réfrigérateur",
-      "Micro-ondes",
+      "Four à micro-ondes",
       "Bouilloire électrique",
-      "Machine à café Nespresso",
+      "Cafetière",
+      "Grille-pain",
+      "Fer à repasser",
+      "Sèche-cheveux",
     ],
     reglementInterieur: {
-      capaciteMax: 2,
+      capaciteMax: 1,
       nonFumeur: true,
       animauxAcceptes: true,
       evenementsAutorises: false,
@@ -165,17 +179,22 @@ export const tilleul8: Logement = {
   },
 
   equipements: [
-    "WiFi",
-    "Canapé-lit 2 personnes",
+    "Canapé convertible (vrai matelas)",
+    "Espace de travail dédié",
     "Coin cuisine équipé",
-    "Machine à café Nespresso",
-    "Bouilloire",
-    "Micro-ondes",
+    "Plaques de cuisson",
+    "Four à micro-ondes",
     "Réfrigérateur",
-    "Salle de bain avec WC",
+    "Cafetière & bouilloire",
+    "Grille-pain",
+    "Salle d'eau avec douche",
+    "Sèche-cheveux",
+    "Fer à repasser",
+    "Stores ou rideaux occultants",
     "Chauffage",
     "Eau chaude",
     "Linge de lit & serviettes",
+    "Parking gratuit sur place",
     "Animaux acceptés",
   ],
 
@@ -188,7 +207,7 @@ export const tilleul8: Logement = {
       "Faire la vaisselle et la ranger",
       "Vider les poubelles dans les bacs de la rue des Tilleuls (à la sortie du portail)",
       "Rendre l'appartement propre et rangé",
-      "Fermer les fenêtres et le velux, éteindre les lumières et baisser le chauffage",
+      "Fermer les fenêtres, éteindre les lumières et baisser le chauffage",
       "Fermer l'appartement à clé et remettre la clé dans la boîte à clés",
     ],
     departTardif: {
