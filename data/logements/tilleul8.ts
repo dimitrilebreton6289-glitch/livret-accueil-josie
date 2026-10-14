@@ -9,8 +9,8 @@ import type { Logement } from "../types";
  * l'annonce Airbnb 1795690762068018121 (hôte Maxime, Agathe co-hôte) :
  * studio pour UNE personne, canapé convertible avec vrai matelas, coin
  * bureau avec vue sur la verdure, coin cuisine équipé, salle d'eau avec
- * douche + WC. 1er étage, porte n°8. PAS de WiFi ni de TV. Parking gratuit
- * sur place.
+ * douche + WC. 1er étage, porte n°8. PAS de WiFi ni de TV. Stationnement gratuit
+ * dans la rue (pas de parking privé).
  * Animaux acceptés (un seul, avec supplément).
  *
  * ─────────────────────────────────────────────────────────────────────────────
@@ -70,7 +70,7 @@ export const tilleul8: Logement = {
       url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
-      "🅿️ Un parking gratuit se trouve sur place, avec des places faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).",
+      "🅿️ Pas de parking privé : le stationnement se fait gratuitement dans la rue des Tilleuls, où les places sont faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
@@ -191,7 +191,7 @@ export const tilleul8: Logement = {
     "Chauffage",
     "Eau chaude",
     "Linge de lit & serviettes",
-    "Parking gratuit sur place",
+    "Stationnement gratuit dans les rues adjacentes",
     "Animaux acceptés",
   ],
 

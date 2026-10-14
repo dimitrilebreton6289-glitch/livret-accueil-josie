@@ -6564,11 +6564,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "¡Bienvenido a Tilleul 8! Su estudio, pensado para una persona, se encuentra en una calle tranquila, a dos pasos de la universidad, del Jardin des Plantes y de la Vallée des Jardins. Su rincón de trabajo con vistas a la vegetación es ideal para estudiar o teletrabajar, y el castillo y el centro histórico están a unos diez minutos a pie. ¡Que disfrute de su estancia en Caen! 🌳",
     it: "Benvenuti al Tilleul 8! Il vostro monolocale, pensato per una persona, si trova in una via tranquilla, a due passi dall'università, dal Jardin des Plantes e dalla Vallée des Jardins. L'angolo scrivania con vista sul verde è ideale per studiare o lavorare da remoto, e il castello e il centro storico sono a una decina di minuti a piedi. Buon soggiorno a Caen! 🌳",
   },
-  "🅿️ Un parking gratuit se trouve sur place, avec des places faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue des Tilleuls, rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).": {
-    en: "🅿️ There is free parking on site, with spaces easy to find.\n🅿️ You can also park in the nearby streets: rue des Tilleuls, rue Branly, rue du Magasin à Poudre and avenue de Courseulles.\n🅿️ Paid underground car parks in the centre: Mairie, Château and Paul Doumer (rates on indigoneo.fr).",
-    de: "🅿️ Vor Ort gibt es einen kostenlosen Parkplatz, auf dem man leicht einen Platz findet.\n🅿️ Sie können auch in den Nachbarstraßen parken: Rue des Tilleuls, Rue Branly, Rue du Magasin à Poudre und Avenue de Courseulles.\n🅿️ Kostenpflichtige Tiefgaragen im Zentrum: Mairie, Château und Paul Doumer (Tarife auf indigoneo.fr).",
-    es: "🅿️ Hay un aparcamiento gratuito en el lugar, con plazas fáciles de encontrar.\n🅿️ También puede aparcar en las calles cercanas: rue des Tilleuls, rue Branly, rue du Magasin à Poudre y avenue de Courseulles.\n🅿️ Aparcamientos subterráneos de pago en el centro: Mairie, Château y Paul Doumer (tarifas en indigoneo.fr).",
-    it: "🅿️ Sul posto c'è un parcheggio gratuito, con posti facili da trovare.\n🅿️ Potete anche parcheggiare nelle vie vicine: rue des Tilleuls, rue Branly, rue du Magasin à Poudre e avenue de Courseulles.\n🅿️ Parcheggi sotterranei a pagamento in centro: Mairie, Château e Paul Doumer (tariffe su indigoneo.fr).",
+  "🅿️ Pas de parking privé : le stationnement se fait gratuitement dans la rue des Tilleuls, où les places sont faciles à trouver.\n🅿️ Vous pouvez aussi vous garer dans les rues voisines : rue Branly, rue du Magasin à Poudre et avenue de Courseulles.\n🅿️ Parkings souterrains payants dans le centre : Mairie, Château et Paul Doumer (tarifs sur indigoneo.fr).": {
+    en: "🅿️ No private car park: parking is free on rue des Tilleuls itself, where spaces are easy to find.\n🅿️ You can also park in the nearby streets: rue Branly, rue du Magasin à Poudre and avenue de Courseulles.\n🅿️ Paid underground car parks in the centre: Mairie, Château and Paul Doumer (rates on indigoneo.fr).",
+    de: "🅿️ Kein privater Parkplatz: Sie parken kostenlos direkt in der Rue des Tilleuls, wo man leicht einen Platz findet.\n🅿️ Sie können auch in den Nachbarstraßen parken: Rue Branly, Rue du Magasin à Poudre und Avenue de Courseulles.\n🅿️ Kostenpflichtige Tiefgaragen im Zentrum: Mairie, Château und Paul Doumer (Tarife auf indigoneo.fr).",
+    es: "🅿️ No hay aparcamiento privado: se aparca gratis en la propia rue des Tilleuls, donde es fácil encontrar sitio.\n🅿️ También puede aparcar en las calles cercanas: rue Branly, rue du Magasin à Poudre y avenue de Courseulles.\n🅿️ Aparcamientos subterráneos de pago en el centro: Mairie, Château y Paul Doumer (tarifas en indigoneo.fr).",
+    it: "🅿️ Nessun parcheggio privato: si parcheggia gratuitamente in rue des Tilleuls, dove è facile trovare posto.\n🅿️ Potete anche parcheggiare nelle vie vicine: rue Branly, rue du Magasin à Poudre e avenue de Courseulles.\n🅿️ Parcheggi sotterranei a pagamento in centro: Mairie, Château e Paul Doumer (tariffe su indigoneo.fr).",
   },
   "Pièce de vie avec canapé convertible (vrai matelas) et rangements": {
     en: "Living space with a sofa bed (real mattress) and storage",
@@ -6647,12 +6647,6 @@ export const CONTENT: Record<string, Tr> = {
     de: "Schlafsofa (echte Matratze)",
     es: "Sofá cama (colchón de verdad)",
     it: "Divano letto (vero materasso)",
-  },
-  "Parking gratuit sur place": {
-    en: "Free parking on site",
-    de: "Kostenloser Parkplatz vor Ort",
-    es: "Aparcamiento gratuito en el lugar",
-    it: "Parcheggio gratuito sul posto",
   },
   "Four à micro-ondes": {
     en: "Microwave",
