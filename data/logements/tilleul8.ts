@@ -40,7 +40,7 @@ export const tilleul8: Logement = {
     horaire: "Arrivée autonome à partir de 17h",
     checkinExpress: [
       "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
-      "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche",
+      "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche — celle entourée en vert sur la photo",
       "La porte de la résidence (porte blanche sous le balcon) est toujours ouverte, pas besoin de clé",
       "Votre logement est au 1er étage, porte n°8",
     ],

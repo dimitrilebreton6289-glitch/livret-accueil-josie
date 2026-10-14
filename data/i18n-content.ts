@@ -6546,11 +6546,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Después suba las escaleras a su derecha para acceder a la residencia. La puerta blanca, bajo el balcón, es la puerta de la residencia: siempre está abierta, no necesita llave.",
     it: "Salite poi le scale alla vostra destra per accedere alla residenza. La porta bianca, sotto il balcone, è la porta della residenza: è sempre aperta, non serve la chiave.",
   },
-  "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche": {
-    en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the one on its own, at the bottom left",
-    de: "Der Schlüsselkasten befindet sich auf der linken Seite des Gebäudes, Rue des Tilleuls 38 (gehen Sie durch das rote Törchen): Es ist der einzelne, unten links",
-    es: "La caja de llaves se encuentra en el lado izquierdo del edificio, en el 38 de la rue des Tilleuls (pase la pequeña puerta roja): es la que está sola, abajo a la izquierda",
-    it: "La cassetta delle chiavi si trova sul lato sinistro dell'edificio, al 38 di rue des Tilleuls (passate il cancelletto rosso): è quella da sola, in basso a sinistra",
+  "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte seule, en bas à gauche — celle entourée en vert sur la photo": {
+    en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the one on its own, at the bottom left — the one circled in green in the photo",
+    de: "Der Schlüsselkasten befindet sich auf der linken Seite des Gebäudes, Rue des Tilleuls 38 (gehen Sie durch das rote Törchen): Es ist der einzelne, unten links — der auf dem Foto grün eingekreiste",
+    es: "La caja de llaves se encuentra en el lado izquierdo del edificio, en el 38 de la rue des Tilleuls (pase la pequeña puerta roja): es la que está sola, abajo a la izquierda — la rodeada en verde en la foto",
+    it: "La cassetta delle chiavi si trova sul lato sinistro dell'edificio, al 38 di rue des Tilleuls (passate il cancelletto rosso): è quella da sola, in basso a sinistra — quella cerchiata in verde nella foto",
   },
   "Pour allumer le radiateur, soulevez le petit capot et appuyez sur le bouton marche/arrêt (au centre) : l'écran affiche « Con » (mode confort). Réglez ensuite la température avec les touches + et −. Merci de limiter votre consommation et de baisser le chauffage avant de partir.\n\n🎬 La vidéo ci-dessous montre la manipulation.": {
     en: "To switch on the radiator, lift the small cover and press the on/off button (in the centre): the screen shows \"Con\" (comfort mode). Then set the temperature with the + and − buttons. Please keep your energy use reasonable and turn the heating down before leaving.\n\n🎬 The video below shows how to do it.",
