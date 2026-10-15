@@ -6666,4 +6666,18 @@ export const CONTENT: Record<string, Tr> = {
     es: "Persianas o cortinas opacas",
     it: "Tende o tapparelle oscuranti",
   },
+  "⚠️ Serrure du portail cassée : ouvrez le portail directement à la poignée (une vidéo est disponible dans Infos pratiques)":
+    {
+      en: "⚠️ Gate lock broken: open the gate directly using the handle (a video is available in Infos pratiques)",
+      de: "⚠️ Torschloss defekt: Öffnen Sie das Tor direkt am Griff (ein Video finden Sie unter Infos pratiques)",
+      es: "⚠️ Cerradura de la verja rota: abra la verja directamente con la manilla (hay un vídeo en Infos pratiques)",
+      it: "⚠️ Serratura del cancello rotta: aprite il cancello direttamente con la maniglia (un video è disponibile in Infos pratiques)",
+    },
+  "⚠️ Le portail d'entrée a une serrure cassée : la clé ne fonctionne pas, mais le portail n'est pas verrouillé. Pour l'ouvrir, actionnez directement la poignée — deux façons sont possibles, montrées dans la vidéo (page Infos pratiques). Pensez à bien refermer le portail derrière vous.":
+    {
+      en: "⚠️ The entrance gate has a broken lock: the key does not work, but the gate is not locked. To open it, use the handle directly — there are two ways, shown in the video (Infos pratiques page). Please close the gate properly behind you.",
+      de: "⚠️ Das Eingangstor hat ein defektes Schloss: Der Schlüssel funktioniert nicht, aber das Tor ist nicht verriegelt. Zum Öffnen betätigen Sie direkt den Griff — es gibt zwei Möglichkeiten, die im Video (Seite Infos pratiques) gezeigt werden. Bitte schließen Sie das Tor hinter sich wieder richtig.",
+      es: "⚠️ La verja de entrada tiene la cerradura rota: la llave no funciona, pero la verja no está cerrada con llave. Para abrirla, use directamente la manilla — hay dos formas, mostradas en el vídeo (página Infos pratiques). Por favor, cierre bien la verja tras usted.",
+      it: "⚠️ Il cancello d'ingresso ha la serratura rotta: la chiave non funziona, ma il cancello non è chiuso a chiave. Per aprirlo, usate direttamente la maniglia — ci sono due modi, mostrati nel video (pagina Infos pratiques). Vi preghiamo di richiudere bene il cancello dietro di voi.",
+    },
 };

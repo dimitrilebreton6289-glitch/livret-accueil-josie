@@ -24,10 +24,25 @@ export const caen: Logement = {
     it: "Benvenuti nel quartiere del Vaugueux, il cuore storico e goloso di Caen! Siete a due passi dal castello di Guglielmo il Conquistatore, dal porto turistico e dai migliori ristoranti della città. Tutto il centro è raggiungibile a piedi. Buon soggiorno a Caen! ⚓",
   },
 
+  videos: [
+    {
+      titre: {
+        fr: "🔓 Ouvrir le portail d'entrée (serrure cassée)",
+        en: "🔓 Opening the entrance gate (lock broken)",
+        de: "🔓 Das Eingangstor öffnen (Schloss defekt)",
+        es: "🔓 Abrir la verja de entrada (cerradura rota)",
+        it: "🔓 Aprire il cancello d'ingresso (serratura rotta)",
+      },
+      url: "/logements/caen/portail.mp4",
+      portrait: true,
+    },
+  ],
+
   arrivee: {
     horaire: "À partir de 17h",
     checkinExpress: [
       "Appartement en rez-de-chaussée surélevé : quelques marches extérieures à monter",
+      "⚠️ Serrure du portail cassée : ouvrez le portail directement à la poignée (une vidéo est disponible dans Infos pratiques)",
       "Clés dans une boîte à clé sécurisée à code, près de l'entrée",
       "Le code de la boîte à clé vous est envoyé par message une fois le logement prêt",
       "Suivez la vidéo d'accès ci-dessous pour trouver le logement",
@@ -41,6 +56,11 @@ export const caen: Logement = {
       {
         texte:
           "Repérez la boîte à clé sécurisée près de l'entrée, composez le code et récupérez les clés. Pensez à refermer la boîte et à brouiller le code.",
+      },
+      {
+        texte:
+          "⚠️ Le portail d'entrée a une serrure cassée : la clé ne fonctionne pas, mais le portail n'est pas verrouillé. Pour l'ouvrir, actionnez directement la poignée — deux façons sont possibles, montrées dans la vidéo (page Infos pratiques). Pensez à bien refermer le portail derrière vous.",
+        photo: "/logements/caen/portail-serrure.jpg",
       },
       {
         texte:
