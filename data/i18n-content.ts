@@ -6680,4 +6680,219 @@ export const CONTENT: Record<string, Tr> = {
       es: "⚠️ La verja de entrada tiene la cerradura rota: la llave no funciona, pero la verja no está cerrada con llave. Para abrirla, use directamente la manilla — hay dos formas, mostradas en el vídeo (página Infos pratiques). Por favor, cierre bien la verja tras usted.",
       it: "⚠️ Il cancello d'ingresso ha la serratura rotta: la chiave non funziona, ma il cancello non è chiuso a chiave. Per aprirlo, usate direttamente la maniglia — ci sono due modi, mostrati nel video (pagina Infos pratiques). Vi preghiamo di richiudere bene il cancello dietro di voi.",
     },
+
+  // =================================================================
+  // Vaugueux 1 — Caen, 18 rue Graindorge
+  // =================================================================
+  "Duplex : salon-séjour et cuisine au rez-de-chaussée, chambre à l'étage": {
+    en: "Duplex: living room and kitchen on the ground floor, bedroom upstairs",
+    de: "Maisonette: Wohnzimmer und Küche im Erdgeschoss, Schlafzimmer im Obergeschoss",
+    es: "Dúplex: salón y cocina en la planta baja, dormitorio arriba",
+    it: "Duplex: soggiorno e cucina al piano terra, camera al piano superiore",
+  },
+  "Accès par un portillon vert, au fond du passage du 18 rue Graindorge": {
+    en: "Access through a green gate, at the end of the passage at 18 rue Graindorge",
+    de: "Zugang durch ein grünes Tor, am Ende des Durchgangs in der Rue Graindorge 18",
+    es: "Acceso por una verja verde, al fondo del pasaje del 18 rue Graindorge",
+    it: "Accesso tramite un cancelletto verde, in fondo al passaggio del 18 rue Graindorge",
+  },
+  "Clés dans une boîte à clé à code (le code vous est communiqué le jour de l'arrivée)":
+    {
+      en: "Keys in a code lockbox (the code is sent to you on the day of arrival)",
+      de: "Schlüssel in einem Code-Schlüsselkasten (den Code erhalten Sie am Anreisetag)",
+      es: "Llaves en una caja de seguridad con código (el código se le comunica el día de llegada)",
+      it: "Chiavi in una cassetta con codice (il codice vi viene comunicato il giorno dell'arrivo)",
+    },
+  "Arrivée anticipée possible sur demande préalable": {
+    en: "Early check-in possible on prior request",
+    de: "Frühe Anreise auf vorherige Anfrage möglich",
+    es: "Entrada anticipada posible previa solicitud",
+    it: "Check-in anticipato possibile su richiesta preventiva",
+  },
+  "Le code de la boîte à clé vous est communiqué le jour de votre arrivée, par message.":
+    {
+      en: "The lockbox code is sent to you by message on the day of your arrival.",
+      de: "Der Code des Schlüsselkastens wird Ihnen am Anreisetag per Nachricht mitgeteilt.",
+      es: "El código de la caja de llaves se le comunica por mensaje el día de su llegada.",
+      it: "Il codice della cassetta delle chiavi vi viene comunicato via messaggio il giorno dell'arrivo.",
+    },
+  "Rendez-vous au 18 rue Graindorge. Avancez sous le passage et empruntez les escaliers, puis tournez à droite : vous trouverez un portillon vert.":
+    {
+      en: "Go to 18 rue Graindorge. Walk through the passage and take the stairs, then turn right: you'll find a green gate.",
+      de: "Gehen Sie zur Rue Graindorge 18. Gehen Sie durch den Durchgang und nehmen Sie die Treppe, dann rechts: Sie finden ein grünes Tor.",
+      es: "Diríjase al 18 rue Graindorge. Avance por el pasaje y suba las escaleras, luego gire a la derecha: encontrará una verja verde.",
+      it: "Recatevi al 18 di rue Graindorge. Proseguite sotto il passaggio e salite le scale, poi girate a destra: troverete un cancelletto verde.",
+    },
+  "Sur la boîte à clés du dessus, composez le code reçu par message, appuyez simultanément sur les boutons latéraux pour l'ouvrir, récupérez les clés, puis refermez la boîte et brouillez le code.":
+    {
+      en: "On the upper lockbox, enter the code received by message, press the side buttons at the same time to open it, take the keys, then close the box and scramble the code.",
+      de: "Geben Sie am oberen Schlüsselkasten den per Nachricht erhaltenen Code ein, drücken Sie gleichzeitig die seitlichen Tasten zum Öffnen, nehmen Sie die Schlüssel, schließen Sie dann den Kasten und verstellen Sie den Code.",
+      es: "En la caja de llaves de arriba, introduzca el código recibido por mensaje, pulse a la vez los botones laterales para abrirla, coja las llaves, luego cierre la caja y descomponga el código.",
+      it: "Sulla cassetta delle chiavi in alto, componete il codice ricevuto via messaggio, premete contemporaneamente i pulsanti laterali per aprirla, prendete le chiavi, poi richiudete la cassetta e azzerate il codice.",
+    },
+  "Une fois dans la cour, montez les escaliers et passez la porte en bois. Votre porte est la première à droite : ouvrez-la avec l'autre clé. Pour verrouiller, levez la poignée puis tournez la clé. Bienvenue chez vous !":
+    {
+      en: "Once in the courtyard, go up the stairs and through the wooden door. Your door is the first on the right: open it with the other key. To lock, lift the handle then turn the key. Welcome!",
+      de: "Im Hof angekommen, gehen Sie die Treppe hinauf und durch die Holztür. Ihre Tür ist die erste rechts: Öffnen Sie sie mit dem anderen Schlüssel. Zum Abschließen den Griff anheben und den Schlüssel drehen. Herzlich willkommen!",
+      es: "Una vez en el patio, suba las escaleras y cruce la puerta de madera. Su puerta es la primera a la derecha: ábrala con la otra llave. Para cerrar, levante la manilla y gire la llave. ¡Bienvenido!",
+      it: "Una volta nel cortile, salite le scale e varcate la porta di legno. La vostra porta è la prima a destra: apritela con l'altra chiave. Per chiudere, sollevate la maniglia e girate la chiave. Benvenuti!",
+    },
+  "Stationnement payant en journée (de 9h à 12h30 et de 14h à 19h) dans les rues Graindorge, du Vaugueux, avenue de la Libération et Montoir-Poissonnerie.\nParkings souterrains payants : Mairie, Château, Paul Doumer.\nTarifs des parkings : indigoneo.fr":
+    {
+      en: "Paid parking during the day (9 a.m.–12:30 p.m. and 2–7 p.m.) on rue Graindorge, rue du Vaugueux, avenue de la Libération and rue Montoir-Poissonnerie.\nPaid underground car parks: Mairie, Château, Paul Doumer.\nParking rates: indigoneo.fr",
+      de: "Kostenpflichtiges Parken tagsüber (9–12:30 Uhr und 14–19 Uhr) in der Rue Graindorge, Rue du Vaugueux, Avenue de la Libération und Rue Montoir-Poissonnerie.\nKostenpflichtige Tiefgaragen: Mairie, Château, Paul Doumer.\nParkgebühren: indigoneo.fr",
+      es: "Aparcamiento de pago durante el día (de 9 a 12:30 y de 14 a 19 h) en rue Graindorge, rue du Vaugueux, avenue de la Libération y rue Montoir-Poissonnerie.\nAparcamientos subterráneos de pago: Mairie, Château, Paul Doumer.\nTarifas: indigoneo.fr",
+      it: "Parcheggio a pagamento di giorno (dalle 9 alle 12:30 e dalle 14 alle 19) in rue Graindorge, rue du Vaugueux, avenue de la Libération e rue Montoir-Poissonnerie.\nParcheggi sotterranei a pagamento: Mairie, Château, Paul Doumer.\nTariffe: indigoneo.fr",
+    },
+  "Dépôt de bagages possible, sous réserve de disponibilité du logement et sur demande préalable.":
+    {
+      en: "Luggage drop-off possible, subject to the flat's availability and on prior request.",
+      de: "Gepäckaufbewahrung möglich, vorbehaltlich der Verfügbarkeit der Wohnung und auf vorherige Anfrage.",
+      es: "Posibilidad de dejar el equipaje, según la disponibilidad del alojamiento y previa solicitud.",
+      it: "Possibilità di deposito bagagli, salvo disponibilità dell'alloggio e su richiesta preventiva.",
+    },
+  "Salon-séjour avec canapé-lit (140 × 200)": {
+    en: "Living room with sofa bed (140 × 200)",
+    de: "Wohnzimmer mit Schlafsofa (140 × 200)",
+    es: "Salón con sofá cama (140 × 200)",
+    it: "Soggiorno con divano letto (140 × 200)",
+  },
+  "Salle de bain": {
+    en: "Bathroom",
+    de: "Badezimmer",
+    es: "Baño",
+    it: "Bagno",
+  },
+  "Grande chambre avec lit double (140 × 200)": {
+    en: "Large bedroom with double bed (140 × 200)",
+    de: "Großes Schlafzimmer mit Doppelbett (140 × 200)",
+    es: "Amplio dormitorio con cama doble (140 × 200)",
+    it: "Ampia camera con letto matrimoniale (140 × 200)",
+  },
+  "Les draps sont fournis pour les deux couchages (lit double et canapé-lit). Chaque voyageur dispose d'une serviette de toilette ; un tapis de bain et un torchon de cuisine sont également à disposition.":
+    {
+      en: "Bed linen is provided for both beds (double bed and sofa bed). Each guest has a bath towel; a bath mat and a kitchen towel are also available.",
+      de: "Bettwäsche wird für beide Betten gestellt (Doppelbett und Schlafsofa). Jeder Gast hat ein Handtuch; eine Badematte und ein Geschirrtuch stehen ebenfalls bereit.",
+      es: "Se proporcionan sábanas para las dos camas (cama doble y sofá cama). Cada huésped dispone de una toalla; también hay una alfombrilla de baño y un paño de cocina.",
+      it: "Le lenzuola sono fornite per entrambi i letti (letto matrimoniale e divano letto). Ogni ospite dispone di un asciugamano; sono disponibili anche un tappetino da bagno e uno strofinaccio.",
+    },
+  "À votre arrivée, vous trouverez : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café ainsi que du thé, du produit vaisselle et une éponge.":
+    {
+      en: "On arrival you'll find: toilet paper, a mini shower gel/shampoo per person, salt and pepper, a few coffee capsules and tea, washing-up liquid and a sponge.",
+      de: "Bei Ihrer Ankunft finden Sie: Toilettenpapier, ein Mini-Duschgel/Shampoo pro Person, Salz und Pfeffer, einige Kaffeekapseln sowie Tee, Spülmittel und einen Schwamm.",
+      es: "A su llegada encontrará: papel higiénico, una miniatura de gel de ducha/champú por persona, sal y pimienta, algunas cápsulas de café y té, lavavajillas y una esponja.",
+      it: "Al vostro arrivo troverete: carta igienica, un mini bagnoschiuma/shampoo a persona, sale e pepe, qualche capsula di caffè e del tè, detersivo per piatti e una spugna.",
+    },
+  "1. Appuyez sur le bouton On/Off pour allumer l'écran du téléviseur (si aucune image ne s'affiche, vérifiez que la source sélectionnée est bien HDMI 1).\n2. Avec la télécommande de la box, appuyez sur le bouton On/Off pour allumer le décodeur.\n3. Utilisez cette télécommande pour changer de chaîne et régler le volume.":
+    {
+      en: "1. Press the On/Off button to turn on the TV screen (if no picture appears, check that the selected source is HDMI 1).\n2. With the box remote, press On/Off to turn on the set-top box.\n3. Use this remote to change channels and adjust the volume.",
+      de: "1. Drücken Sie die Ein/Aus-Taste, um den Fernsehbildschirm einzuschalten (wenn kein Bild erscheint, prüfen Sie, ob die Quelle HDMI 1 gewählt ist).\n2. Schalten Sie mit der Fernbedienung der Box über Ein/Aus den Receiver ein.\n3. Mit dieser Fernbedienung wechseln Sie die Sender und stellen die Lautstärke ein.",
+      es: "1. Pulse el botón On/Off para encender la pantalla del televisor (si no aparece imagen, compruebe que la fuente seleccionada sea HDMI 1).\n2. Con el mando del decodificador, pulse On/Off para encenderlo.\n3. Use este mando para cambiar de canal y ajustar el volumen.",
+      it: "1. Premete il tasto On/Off per accendere lo schermo del televisore (se non appare l'immagine, verificate che la sorgente selezionata sia HDMI 1).\n2. Con il telecomando del decoder, premete On/Off per accenderlo.\n3. Usate questo telecomando per cambiare canale e regolare il volume.",
+    },
+  "Les boutons sont tactiles. Si la plaque se verrouille, restez appuyé longuement sur le cadenas pour la déverrouiller.":
+    {
+      en: "The controls are touch-sensitive. If the hob locks, press and hold the padlock icon to unlock it.",
+      de: "Die Tasten sind berührungsempfindlich. Wenn das Kochfeld sperrt, halten Sie das Schloss-Symbol gedrückt, um es zu entsperren.",
+      es: "Los botones son táctiles. Si la placa se bloquea, mantenga pulsado el candado para desbloquearla.",
+      it: "I pulsanti sono tattili. Se il piano si blocca, tenete premuto a lungo il lucchetto per sbloccarlo.",
+    },
+  "Tournez les boutons pour choisir la température et le type de cuisson.": {
+    en: "Turn the knobs to choose the temperature and the cooking mode.",
+    de: "Drehen Sie die Knöpfe, um Temperatur und Garart zu wählen.",
+    es: "Gire los mandos para elegir la temperatura y el tipo de cocción.",
+    it: "Girate le manopole per scegliere la temperatura e il tipo di cottura.",
+  },
+  "🌡️ Chauffage": {
+    en: "🌡️ Heating",
+    de: "🌡️ Heizung",
+    es: "🌡️ Calefacción",
+    it: "🌡️ Riscaldamento",
+  },
+  "Pour allumer les radiateurs, appuyez sur le bouton central (symbole Power), puis réglez la température avec les touches + et − de chaque côté. Merci de couper ou de baisser le chauffage lors de vos absences ou quand vous aérez, pour limiter la consommation.":
+    {
+      en: "To turn on the radiators, press the central button (Power symbol), then set the temperature with the + and − keys on each side. Please turn the heating off or down when you're out or airing the flat, to limit consumption.",
+      de: "Zum Einschalten der Heizkörper drücken Sie die mittlere Taste (Power-Symbol) und stellen dann die Temperatur mit den Tasten + und − an jeder Seite ein. Bitte schalten Sie die Heizung aus oder herunter, wenn Sie abwesend sind oder lüften, um den Verbrauch zu begrenzen.",
+      es: "Para encender los radiadores, pulse el botón central (símbolo Power) y ajuste la temperatura con las teclas + y − de cada lado. Apague o baje la calefacción cuando se ausente o ventile, para limitar el consumo.",
+      it: "Per accendere i radiatori, premete il tasto centrale (simbolo Power), poi regolate la temperatura con i tasti + e − ai lati. Vi preghiamo di spegnere o abbassare il riscaldamento quando siete fuori o arieggiate, per limitare i consumi.",
+    },
+  "🧹 Aspirateur": {
+    en: "🧹 Vacuum cleaner",
+    de: "🧹 Staubsauger",
+    es: "🧹 Aspiradora",
+    it: "🧹 Aspirapolvere",
+  },
+  "L'aspirateur et la toile se situent dans la chambre.": {
+    en: "The vacuum cleaner and the cloth are in the bedroom.",
+    de: "Der Staubsauger und das Tuch befinden sich im Schlafzimmer.",
+    es: "La aspiradora y el paño están en el dormitorio.",
+    it: "L'aspirapolvere e il panno si trovano in camera.",
+  },
+  "TV (décodeur box)": {
+    en: "TV (set-top box)",
+    de: "TV (Receiver-Box)",
+    es: "TV (decodificador)",
+    it: "TV (decoder)",
+  },
+  "Merci de veiller à la tranquillité du voisinage et de limiter les nuisances sonores, de jour comme de nuit.":
+    {
+      en: "Please respect the neighbours' peace and keep noise to a minimum, day and night.",
+      de: "Bitte achten Sie auf die Ruhe der Nachbarschaft und begrenzen Sie Lärm, tags wie nachts.",
+      es: "Le rogamos que respete la tranquilidad del vecindario y limite los ruidos, de día y de noche.",
+      it: "Vi preghiamo di rispettare la tranquillità del vicinato e di limitare i rumori, di giorno e di notte.",
+    },
+  "Logement non-fumeur : merci de descendre dans la rue pour fumer. Les animaux de compagnie sont acceptés (1 maximum) avec supplément. Les fêtes et soirées sont strictement interdites. Merci de respecter le calme et le voisinage.":
+    {
+      en: "Non-smoking flat: please go down to the street to smoke. Pets are allowed (1 maximum) with a surcharge. Parties and events are strictly forbidden. Please respect the quiet and the neighbours.",
+      de: "Nichtraucherwohnung: Bitte gehen Sie zum Rauchen auf die Straße. Haustiere sind erlaubt (max. 1) gegen Aufpreis. Partys und Feiern sind streng verboten. Bitte respektieren Sie die Ruhe und die Nachbarschaft.",
+      es: "Alojamiento para no fumadores: baje a la calle para fumar. Se admiten mascotas (1 máximo) con suplemento. Las fiestas y veladas están estrictamente prohibidas. Respete la tranquilidad y el vecindario.",
+      it: "Alloggio per non fumatori: scendete in strada per fumare. Gli animali sono ammessi (1 al massimo) con supplemento. Feste e serate sono severamente vietate. Vi preghiamo di rispettare la quiete e il vicinato.",
+    },
+  "Les poubelles sont à déposer dans les bacs situés à côté du restaurant « Bo Bun ». S'ils ne sont pas présents, déposez vos déchets au 47 avenue de la Libération. Merci de trier avec soin : bac jaune (emballages et recyclables), bac gris (ordures ménagères), verre (conteneur avenue de la Libération).":
+    {
+      en: "Rubbish should be left in the bins next to the « Bo Bun » restaurant. If they are not there, take your waste to 47 avenue de la Libération. Please sort it carefully: yellow bin (packaging and recyclables), grey bin (household waste), glass (container on avenue de la Libération).",
+      de: "Der Müll gehört in die Tonnen neben dem Restaurant « Bo Bun ». Falls sie nicht da sind, bringen Sie Ihren Abfall zur Avenue de la Libération 47. Bitte sorgfältig trennen: gelbe Tonne (Verpackungen und Wertstoffe), graue Tonne (Restmüll), Glas (Container an der Avenue de la Libération).",
+      es: "La basura se deposita en los contenedores situados junto al restaurante « Bo Bun ». Si no están, lleve sus residuos al 47 avenue de la Libération. Separe con cuidado: contenedor amarillo (envases y reciclables), contenedor gris (basura doméstica), vidrio (contenedor en avenue de la Libération).",
+      it: "I rifiuti vanno depositati nei bidoni accanto al ristorante « Bo Bun ». Se non ci sono, portate i rifiuti al 47 di avenue de la Libération. Differenziate con cura: bidone giallo (imballaggi e riciclabili), bidone grigio (indifferenziata), vetro (contenitore in avenue de la Libération).",
+    },
+  "Les animaux de compagnie sont acceptés (1 maximum), avec un supplément tarifaire.":
+    {
+      en: "Pets are allowed (1 maximum), with a surcharge.",
+      de: "Haustiere sind erlaubt (max. 1), gegen Aufpreis.",
+      es: "Se admiten mascotas (1 máximo), con suplemento.",
+      it: "Gli animali domestici sono ammessi (1 al massimo), con supplemento.",
+    },
+  "TV (box)": {
+    en: "TV (box)",
+    de: "TV (Box)",
+    es: "TV (box)",
+    it: "TV (box)",
+  },
+  "Rendre l'appartement propre et rangé : faire la vaisselle et la ranger, vider les poubelles":
+    {
+      en: "Leave the flat clean and tidy: wash and put away the dishes, empty the bins",
+      de: "Die Wohnung sauber und aufgeräumt hinterlassen: Geschirr spülen und wegräumen, Mülleimer leeren",
+      es: "Dejar el apartamento limpio y ordenado: lavar y guardar la vajilla, vaciar las papeleras",
+      it: "Lasciare l'appartamento pulito e in ordine: lavare e riporre i piatti, svuotare i cestini",
+    },
+  "Laisser les draps sur les lits (l'équipe de ménage s'en charge) ; laisser les serviettes utilisées dans la salle de bain":
+    {
+      en: "Leave the sheets on the beds (the cleaning team will handle them); leave used towels in the bathroom",
+      de: "Die Laken auf den Betten lassen (das Reinigungsteam kümmert sich darum); benutzte Handtücher im Bad lassen",
+      es: "Dejar las sábanas en las camas (se encarga el equipo de limpieza); dejar las toallas usadas en el baño",
+      it: "Lasciare le lenzuola sui letti (ci pensa il team delle pulizie); lasciare gli asciugamani usati in bagno",
+    },
+  "Fermer les fenêtres, éteindre les lumières et baisser les radiateurs (écran de commande dans l'entrée)":
+    {
+      en: "Close the windows, turn off the lights and turn down the radiators (control screen in the entrance)",
+      de: "Fenster schließen, Licht ausschalten und Heizkörper herunterdrehen (Bedienfeld im Eingang)",
+      es: "Cerrar las ventanas, apagar las luces y bajar los radiadores (pantalla de control en la entrada)",
+      it: "Chiudere le finestre, spegnere le luci e abbassare i radiatori (schermo di comando all'ingresso)",
+    },
+  "Pensez à vous déconnecter de vos comptes (Netflix, Prime…) sur la TV": {
+    en: "Remember to log out of your accounts (Netflix, Prime…) on the TV",
+    de: "Denken Sie daran, sich auf dem Fernseher von Ihren Konten (Netflix, Prime …) abzumelden",
+    es: "Acuérdese de cerrar sesión en sus cuentas (Netflix, Prime…) en la TV",
+    it: "Ricordatevi di disconnettervi dai vostri account (Netflix, Prime…) sulla TV",
+  },
 };

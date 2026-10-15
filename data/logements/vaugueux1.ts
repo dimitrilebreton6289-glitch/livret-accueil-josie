@@ -22,6 +22,9 @@ export const vaugueux1: Logement = {
   cover: "/logements/caen/cover.jpg",
   coverCredit: "Photo : Gzen92 / Wikimedia Commons — CC BY-SA 4.0",
 
+  // Même portail (serrure cassée) que Vaugueux 2 : on réutilise la vidéo traduite.
+  videos: caen.videos,
+
   motAccueil: {
     fr: "Bienvenue au cœur du Vaugueux, le quartier historique et gourmand de Caen ! Ce duplex est idéalement situé : l'hyper-centre et l'université sont à 5 minutes à pied, au milieu des meilleurs restaurants de la ville. Très bon séjour à Caen ! ⚓",
     en: "Welcome to the heart of the Vaugueux, the historic and foodie district of Caen! This duplex is ideally located: the city centre and the university are a 5-minute walk away, surrounded by the city's best restaurants. Enjoy your stay in Caen! ⚓",
@@ -35,6 +38,7 @@ export const vaugueux1: Logement = {
     checkinExpress: [
       "Duplex : salon-séjour et cuisine au rez-de-chaussée, chambre à l'étage",
       "Accès par un portillon vert, au fond du passage du 18 rue Graindorge",
+      "⚠️ Serrure du portail cassée : ouvrez le portail directement à la poignée (une vidéo est disponible dans Infos pratiques)",
       "Clés dans une boîte à clé à code (le code vous est communiqué le jour de l'arrivée)",
       "Arrivée anticipée possible sur demande préalable",
     ],
@@ -53,11 +57,12 @@ export const vaugueux1: Logement = {
       },
       {
         texte:
-          "Ouvrez le portillon avec la petite clé (elle peut être un peu dure à tourner — ne forcez pas). Dans la cour, montez les escaliers et passez la porte en bois.",
+          "⚠️ Le portail d'entrée a une serrure cassée : la clé ne fonctionne pas, mais le portail n'est pas verrouillé. Pour l'ouvrir, actionnez directement la poignée — deux façons sont possibles, montrées dans la vidéo (page Infos pratiques). Pensez à bien refermer le portail derrière vous.",
+        photo: "/logements/caen/portail-serrure.jpg",
       },
       {
         texte:
-          "Votre porte est la première à droite : ouvrez-la avec l'autre clé. Pour verrouiller, levez la poignée puis tournez la clé. Bienvenue chez vous !",
+          "Une fois dans la cour, montez les escaliers et passez la porte en bois. Votre porte est la première à droite : ouvrez-la avec l'autre clé. Pour verrouiller, levez la poignée puis tournez la clé. Bienvenue chez vous !",
       },
     ],
     parking:
