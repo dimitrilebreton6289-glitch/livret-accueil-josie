@@ -19,8 +19,7 @@ export const vaugueux1: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=18+Rue+Graindorge+14000+Caen",
   coords: [49.1852, -0.3599],
-  cover: "/logements/caen/cover.jpg",
-  coverCredit: "Photo : Gzen92 / Wikimedia Commons — CC BY-SA 4.0",
+  cover: "/logements/vaugueux1/cover.jpg",
 
   // Même portail (serrure cassée) que Vaugueux 2 : on réutilise la vidéo traduite.
   videos: caen.videos,
