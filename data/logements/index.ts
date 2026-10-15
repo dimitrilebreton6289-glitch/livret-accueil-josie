@@ -1,6 +1,7 @@
 import type { Logement } from "../types";
 import { granville } from "./granville";
 import { caen } from "./caen";
+import { vaugueux1 } from "./vaugueux1";
 import { fleur } from "./fleur";
 import { mer } from "./mer";
 import { boheme } from "./boheme";
@@ -19,7 +20,7 @@ import { tilleul8 } from "./tilleul8";
  *   2. Importez-le ici et ajoutez-le au tableau ci-dessous.
  * Son livret sera alors accessible sur /<langue>/<id>.
  */
-export const logements: Logement[] = [granville, caen, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul8];
+export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul8];
 
 /** Retourne un logement par son identifiant (ou undefined). */
 export function getLogement(id: string): Logement | undefined {
