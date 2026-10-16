@@ -138,6 +138,12 @@ export const tilleul8: Logement = {
         videoPortrait: true,
       },
       {
+        titre: "💧 Déshumidificateur",
+        contenu:
+          "Un déshumidificateur est à votre disposition dans l'appartement. Vous pouvez l'éteindre lorsque vous êtes sur place, mais nous vous recommandons de le laisser fonctionner pendant vos absences. Pensez à vider régulièrement son réservoir : il suffit de le retirer, de vider l'eau, puis de le remettre en place.",
+        photos: ["/logements/tilleul8/deshumidificateur.jpg"],
+      },
+      {
         titre: "🍽️ Vaisselle",
         contenu:
           "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
