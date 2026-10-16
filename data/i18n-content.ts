@@ -6822,11 +6822,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "🧹 Aspiradora",
     it: "🧹 Aspirapolvere",
   },
-  "L'aspirateur et la toile se situent dans la chambre.": {
-    en: "The vacuum cleaner and the cloth are in the bedroom.",
-    de: "Der Staubsauger und das Tuch befinden sich im Schlafzimmer.",
-    es: "La aspiradora y el paño están en el dormitorio.",
-    it: "L'aspirapolvere e il panno si trovano in camera.",
+  "L'aspirateur et la serpillière se situent dans la chambre.": {
+    en: "The vacuum cleaner and the mop are in the bedroom.",
+    de: "Der Staubsauger und der Wischmopp befinden sich im Schlafzimmer.",
+    es: "La aspiradora y la fregona están en el dormitorio.",
+    it: "L'aspirapolvere e il mocio si trovano in camera.",
   },
   "TV (décodeur box)": {
     en: "TV (set-top box)",

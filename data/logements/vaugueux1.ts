@@ -124,7 +124,7 @@ export const vaugueux1: Logement = {
       },
       {
         titre: "🧹 Aspirateur",
-        contenu: "L'aspirateur et la toile se situent dans la chambre.",
+        contenu: "L'aspirateur et la serpillière se situent dans la chambre.",
       },
     ],
     electromenager: [
