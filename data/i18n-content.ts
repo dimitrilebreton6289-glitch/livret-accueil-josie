@@ -6558,18 +6558,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "Para encender el radiador, levante la pequeña tapa y pulse el botón de encendido/apagado (en el centro): la pantalla muestra «Con» (modo confort). Después ajuste la temperatura con los botones + y −. Le rogamos moderar el consumo y bajar la calefacción antes de irse.\n\n🎬 El vídeo de abajo muestra cómo hacerlo.",
     it: "Per accendere il radiatore, sollevate il piccolo coperchio e premete il pulsante on/off (al centro): lo schermo mostra «Con» (modalità comfort). Regolate poi la temperatura con i tasti + e −. Vi preghiamo di limitare i consumi e di abbassare il riscaldamento prima di partire.\n\n🎬 Il video qui sotto mostra come fare.",
   },
-  "💧 Déshumidificateur": {
-    en: "💧 Dehumidifier",
-    de: "💧 Luftentfeuchter",
-    es: "💧 Deshumidificador",
-    it: "💧 Deumidificatore",
-  },
-  "Un déshumidificateur est à votre disposition dans l'appartement. Vous pouvez l'éteindre lorsque vous êtes sur place, mais nous vous recommandons de le laisser fonctionner pendant vos absences. Pensez à vider régulièrement son réservoir : il suffit de le retirer, de vider l'eau, puis de le remettre en place.": {
-    en: "A dehumidifier is available in the apartment. You may switch it off while you are there, but we recommend leaving it running while you are out. Remember to empty its tank regularly: simply remove it, pour out the water, then put it back in place.",
-    de: "In der Wohnung steht Ihnen ein Luftentfeuchter zur Verfügung. Sie können ihn ausschalten, wenn Sie vor Ort sind, wir empfehlen jedoch, ihn während Ihrer Abwesenheit laufen zu lassen. Denken Sie daran, den Behälter regelmäßig zu leeren: Entnehmen Sie ihn einfach, gießen Sie das Wasser aus und setzen Sie ihn wieder ein.",
-    es: "Tiene a su disposición un deshumidificador en el apartamento. Puede apagarlo cuando esté presente, pero le recomendamos dejarlo funcionar durante sus ausencias. Acuérdese de vaciar su depósito con regularidad: basta con retirarlo, vaciar el agua y volver a colocarlo en su sitio.",
-    it: "Nell'appartamento è a vostra disposizione un deumidificatore. Potete spegnerlo quando siete presenti, ma vi consigliamo di lasciarlo in funzione durante le vostre assenze. Ricordatevi di svuotare regolarmente il serbatoio: è sufficiente rimuoverlo, svuotare l'acqua e rimetterlo al suo posto.",
-  },
   "Bienvenue au Tilleul 8 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳": {
     en: "Welcome to Tilleul 8! Your studio, designed for one person, is tucked away on a quiet street, a stone's throw from the university, the Jardin des Plantes and the Vallée des Jardins. Its desk area overlooking the greenery is ideal for studying or remote working, and the castle and the historic centre are about ten minutes' walk away. Enjoy your stay in Caen! 🌳",
     de: "Willkommen im Tilleul 8! Ihr Studio für eine Person liegt in einer ruhigen Straße, nur wenige Schritte von der Universität, dem Jardin des Plantes und der Vallée des Jardins entfernt. Die Schreibecke mit Blick ins Grüne ist ideal zum Lernen oder für Homeoffice, und Schloss und Altstadt erreichen Sie in etwa zehn Gehminuten. Einen schönen Aufenthalt in Caen! 🌳",
