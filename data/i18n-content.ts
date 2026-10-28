@@ -6018,11 +6018,41 @@ export const CONTENT: Record<string, Tr> = {
     },
 
   // ------------------------------------------ Tilleul 3 (Caen, 38 rue des Tilleuls)
-  "Bienvenue au Tilleul 3 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳": {
-    en: "Welcome to Tilleul 3! Your studio, designed for one person, is tucked away on a quiet street, a stone's throw from the university, the Jardin des Plantes and the Vallée des Jardins. Its desk area overlooking the greenery is ideal for studying or remote working, and the castle and the historic centre are about ten minutes' walk away. Enjoy your stay in Caen! 🌳",
-    de: "Willkommen im Tilleul 3! Ihr Studio für eine Person liegt in einer ruhigen Straße, nur wenige Schritte von der Universität, dem Jardin des Plantes und der Vallée des Jardins entfernt. Die Schreibecke mit Blick ins Grüne ist ideal zum Lernen oder für Homeoffice, und Schloss und Altstadt erreichen Sie in etwa zehn Gehminuten. Einen schönen Aufenthalt in Caen! 🌳",
-    es: "¡Bienvenido a Tilleul 3! Su estudio, pensado para una persona, se encuentra en una calle tranquila, a dos pasos de la universidad, del Jardin des Plantes y de la Vallée des Jardins. Su rincón de trabajo con vistas a la vegetación es ideal para estudiar o teletrabajar, y el castillo y el centro histórico están a unos diez minutos a pie. ¡Que disfrute de su estancia en Caen! 🌳",
-    it: "Benvenuti al Tilleul 3! Il vostro monolocale, pensato per una persona, si trova in una via tranquilla, a due passi dall'università, dal Jardin des Plantes e dalla Vallée des Jardins. L'angolo scrivania con vista sul verde è ideale per studiare o lavorare da remoto, e il castello e il centro storico sono a una decina di minuti a piedi. Buon soggiorno a Caen! 🌳",
+  "Bienvenue au Tilleul 3 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Le château et le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳": {
+    en: "Welcome to Tilleul 3! Your studio, designed for one person, is tucked away on a quiet street, a stone's throw from the university, the Jardin des Plantes and the Vallée des Jardins. The castle and the historic centre are about ten minutes' walk away. Enjoy your stay in Caen! 🌳",
+    de: "Willkommen im Tilleul 3! Ihr Studio für eine Person liegt in einer ruhigen Straße, nur wenige Schritte von der Universität, dem Jardin des Plantes und der Vallée des Jardins entfernt. Schloss und Altstadt erreichen Sie in etwa zehn Gehminuten. Einen schönen Aufenthalt in Caen! 🌳",
+    es: "¡Bienvenido a Tilleul 3! Su estudio, pensado para una persona, se encuentra en una calle tranquila, a dos pasos de la universidad, del Jardin des Plantes y de la Vallée des Jardins. El castillo y el centro histórico están a unos diez minutos a pie. ¡Que disfrute de su estancia en Caen! 🌳",
+    it: "Benvenuti al Tilleul 3! Il vostro monolocale, pensato per una persona, si trova in una via tranquilla, a due passi dall'università, dal Jardin des Plantes e dalla Vallée des Jardins. Il castello e il centro storico sono a una decina di minuti a piedi. Buon soggiorno a Caen! 🌳",
+  },
+  "Pièce de vie avec lit et rangements": {
+    en: "Living area with a bed and storage",
+    de: "Wohnbereich mit Bett und Stauraum",
+    es: "Sala de estar con cama y armarios",
+    it: "Zona giorno con letto e spazi per riporre",
+  },
+  "Lit": {
+    en: "Bed",
+    de: "Bett",
+    es: "Cama",
+    it: "Letto",
+  },
+  "📶 WiFi (pas de télévision)": {
+    en: "📶 WiFi (no television)",
+    de: "📶 WLAN (kein Fernseher)",
+    es: "📶 WiFi (sin televisión)",
+    it: "📶 WiFi (niente televisione)",
+  },
+  "Le studio est équipé du WiFi : le réseau et le mot de passe sont indiqués dans l'onglet WiFi. En revanche, il ne dispose pas de télévision.": {
+    en: "The studio has WiFi: the network and password are shown in the WiFi tab. However, it does not have a television.",
+    de: "Das Studio verfügt über WLAN: Netzwerk und Passwort finden Sie im Reiter WLAN. Einen Fernseher gibt es jedoch nicht.",
+    es: "El estudio dispone de WiFi: la red y la contraseña figuran en la pestaña WiFi. No cuenta, en cambio, con televisión.",
+    it: "Il monolocale dispone di WiFi: rete e password sono indicate nella scheda WiFi. Non è invece presente la televisione.",
+  },
+  "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition": {
+    en: "Hotel-quality linen, laundered by a professional service:\n\n• 🛏️ Sheets provided for the bed\n• 🛁 One bath towel per guest + a bath mat\n• 🍽️ A kitchen towel\n• 👕 Hangers, storage & an iron available",
+    de: "Wäsche in Hotelqualität, von einer professionellen Wäscherei aufbereitet:\n\n• 🛏️ Bettwäsche für das Bett gestellt\n• 🛁 Ein Handtuch pro Gast + eine Badematte\n• 🍽️ Ein Geschirrtuch\n• 👕 Kleiderbügel, Stauraum & Bügeleisen vorhanden",
+    es: "Ropa de calidad hotelera, tratada por una lavandería profesional:\n\n• 🛏️ Sábanas incluidas para la cama\n• 🛁 Una toalla de baño por huésped + una alfombrilla de baño\n• 🍽️ Un paño de cocina\n• 👕 Perchas, armarios y plancha a disposición",
+    it: "Biancheria di qualità alberghiera, trattata da una lavanderia professionale:\n\n• 🛏️ Lenzuola fornite per il letto\n• 🛁 Un asciugamano da bagno per ospite + un tappetino da bagno\n• 🍽️ Uno strofinaccio da cucina\n• 👕 Grucce, spazi per riporre e ferro da stiro a disposizione",
   },
   "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte du haut à gauche — celle entourée en vert sur la photo": {
     en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the top-left one — the one circled in green in the photo",

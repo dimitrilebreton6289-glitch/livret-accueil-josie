@@ -18,9 +18,9 @@ import type { Logement } from "../types";
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ PHOTOS/VIDÉOS encore reprises de Tilleul 8 (à remplacer par les vraies de
  *    Tilleul 3 quand disponibles) : cover.jpg, arrivee-1.jpg (portillon),
- *    arrivee-2.jpg (allée), arrivee-4.jpg (porte résidence), canape.mp4,
- *    chauffage.mp4, poubelles.jpg. (arrivee-3 = boîte à clés et arrivee-5 =
- *    porte n°3 sont bien les photos propres à Tilleul 3.)
+ *    arrivee-2.jpg (allée), arrivee-4.jpg (porte résidence), chauffage.mp4,
+ *    poubelles.jpg. (arrivee-3 = boîte à clés et arrivee-5 = porte n°3 sont
+ *    bien les photos propres à Tilleul 3.)
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
  */
@@ -34,7 +34,7 @@ export const tilleul3: Logement = {
   cover: "/logements/tilleul3/cover.jpg",
 
   motAccueil:
-    "Bienvenue au Tilleul 3 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳",
+    "Bienvenue au Tilleul 3 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Le château et le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳",
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
@@ -78,8 +78,7 @@ export const tilleul3: Logement = {
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
       rdc: [
-        "Pièce de vie avec canapé convertible (vrai matelas) et rangements",
-        "Coin bureau avec vue dégagée sur la verdure",
+        "Pièce de vie avec lit et rangements",
         "Coin cuisine équipé",
         "Coin repas",
         "Salle d'eau avec douche, lavabo et WC",
@@ -90,17 +89,17 @@ export const tilleul3: Logement = {
   },
 
   wifi: {
-    reseau: "Pas de WiFi dans ce logement",
-    motDePasse: "Prévoyez votre connexion mobile (4G/5G)",
+    reseau: "SFR 7B50",
+    motDePasse: "wxq77svaf4pyi89kpue8",
   },
 
   pratique: {
     aSavoir: [],
     aSavoirSections: [
       {
-        titre: "📶 Pas de WiFi ni de TV",
+        titre: "📶 WiFi (pas de télévision)",
         contenu:
-          "Le studio ne dispose ni du WiFi ni de la télévision. Pensez à prévoir votre connexion mobile (4G/5G) pour toute la durée de votre séjour.",
+          "Le studio est équipé du WiFi : le réseau et le mot de passe sont indiqués dans l'onglet WiFi. En revanche, il ne dispose pas de télévision.",
       },
       {
         titre: "🎁 Produits d'accueil",
@@ -108,26 +107,14 @@ export const tilleul3: Logement = {
           "À votre arrivée, quelques essentiels vous attendent :\n\n• 🧻 Papier toilette & savon\n• 🧴 Gel douche & shampoing\n• 🧂 Huile, sel & poivre\n• 🧽 Produit vaisselle & éponge",
       },
       {
-        titre: "🛋️ Canapé-lit",
-        contenu:
-          "Le studio accueille 1 personne sur le canapé convertible, équipé d'un vrai matelas pour un couchage confortable. Les draps sont fournis.\n\n🎬 La vidéo ci-dessous montre comment déplier le canapé-lit.",
-        video: "/logements/tilleul3/canape.mp4",
-        videoPortrait: true,
-      },
-      {
         titre: "🛏️ Linge de maison",
         contenu:
-          "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le canapé-lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition",
+          "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition",
       },
       {
         titre: "🍳 Cuisine",
         contenu:
           "Le coin cuisine est équipé pour préparer vos repas :\n\n• 🔥 Plaques de cuisson\n• ❄️ Réfrigérateur\n• 🍲 Four à micro-ondes\n• ☕ Cafetière, bouilloire & grille-pain\n• 🍴 Vaisselle, couverts, casseroles & poêles\n• 🧂 Huile, sel & poivre fournis",
-      },
-      {
-        titre: "🪑 Espace de travail",
-        contenu:
-          "Un coin bureau, face à la fenêtre et à la verdure, vous permet d'étudier ou de télétravailler confortablement. Pour la connexion, prévoyez votre partage de connexion mobile (pas de WiFi).",
       },
       {
         titre: "🚿 Salle d'eau",
@@ -179,8 +166,8 @@ export const tilleul3: Logement = {
   },
 
   equipements: [
-    "Canapé convertible (vrai matelas)",
-    "Espace de travail dédié",
+    "Lit",
+    "WiFi",
     "Coin cuisine équipé",
     "Plaques de cuisson",
     "Four à micro-ondes",
