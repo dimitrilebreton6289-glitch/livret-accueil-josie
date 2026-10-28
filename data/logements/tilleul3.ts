@@ -17,10 +17,10 @@ import type { Logement } from "../types";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ PHOTOS/VIDÉOS encore reprises de Tilleul 8 (à remplacer par les vraies de
- *    Tilleul 3 quand disponibles) : cover.jpg, arrivee-1.jpg (portillon),
+ *    Tilleul 3 quand disponibles) : arrivee-1.jpg (portillon),
  *    arrivee-2.jpg (allée), arrivee-4.jpg (porte résidence), chauffage.mp4,
- *    poubelles.jpg. (arrivee-3 = boîte à clés et arrivee-5 = porte n°3 sont
- *    bien les photos propres à Tilleul 3.)
+ *    poubelles.jpg. (cover.jpg, arrivee-3 = boîte à clés et arrivee-5 =
+ *    porte n°3 sont bien les photos propres à Tilleul 3.)
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
  */
