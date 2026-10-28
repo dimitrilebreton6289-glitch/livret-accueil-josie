@@ -6017,6 +6017,37 @@ export const CONTENT: Record<string, Tr> = {
       it: "📍 Al 46 di rue Caponière, la cassetta delle chiavi si trova in fondo al cortile, a sinistra — è la seconda cassetta partendo da destra",
     },
 
+  // ------------------------------------------ Tilleul 3 (Caen, 38 rue des Tilleuls)
+  "Bienvenue au Tilleul 3 ! Votre studio, pensé pour une personne, est niché dans une rue calme, à deux pas de l'université, du Jardin des Plantes et de la Vallée des Jardins. Son coin bureau avec vue sur la verdure est idéal pour étudier ou télétravailler, et le château comme le centre historique sont à une dizaine de minutes à pied. Très bon séjour à Caen ! 🌳": {
+    en: "Welcome to Tilleul 3! Your studio, designed for one person, is tucked away on a quiet street, a stone's throw from the university, the Jardin des Plantes and the Vallée des Jardins. Its desk area overlooking the greenery is ideal for studying or remote working, and the castle and the historic centre are about ten minutes' walk away. Enjoy your stay in Caen! 🌳",
+    de: "Willkommen im Tilleul 3! Ihr Studio für eine Person liegt in einer ruhigen Straße, nur wenige Schritte von der Universität, dem Jardin des Plantes und der Vallée des Jardins entfernt. Die Schreibecke mit Blick ins Grüne ist ideal zum Lernen oder für Homeoffice, und Schloss und Altstadt erreichen Sie in etwa zehn Gehminuten. Einen schönen Aufenthalt in Caen! 🌳",
+    es: "¡Bienvenido a Tilleul 3! Su estudio, pensado para una persona, se encuentra en una calle tranquila, a dos pasos de la universidad, del Jardin des Plantes y de la Vallée des Jardins. Su rincón de trabajo con vistas a la vegetación es ideal para estudiar o teletrabajar, y el castillo y el centro histórico están a unos diez minutos a pie. ¡Que disfrute de su estancia en Caen! 🌳",
+    it: "Benvenuti al Tilleul 3! Il vostro monolocale, pensato per una persona, si trova in una via tranquilla, a due passi dall'università, dal Jardin des Plantes e dalla Vallée des Jardins. L'angolo scrivania con vista sul verde è ideale per studiare o lavorare da remoto, e il castello e il centro storico sono a una decina di minuti a piedi. Buon soggiorno a Caen! 🌳",
+  },
+  "La boîte à clés se trouve sur le côté gauche de l'immeuble, au 38 rue des Tilleuls (passez le portillon rouge) : c'est la boîte du haut à gauche — celle entourée en vert sur la photo": {
+    en: "The key box is on the left-hand side of the building, at 38 rue des Tilleuls (go through the red gate): it's the top-left one — the one circled in green in the photo",
+    de: "Der Schlüsselkasten befindet sich auf der linken Seite des Gebäudes, Rue des Tilleuls 38 (gehen Sie durch das rote Törchen): Es ist der oben links — der auf dem Foto grün eingekreiste",
+    es: "La caja de llaves se encuentra en el lado izquierdo del edificio, en el 38 de la rue des Tilleuls (pase la pequeña puerta roja): es la de arriba a la izquierda — la rodeada en verde en la foto",
+    it: "La cassetta delle chiavi si trova sul lato sinistro dell'edificio, al 38 di rue des Tilleuls (passate il cancelletto rosso): è quella in alto a sinistra — quella cerchiata in verde nella foto",
+  },
+  "Votre logement est au rez-de-chaussée, deuxième porte à gauche (porte n°3)": {
+    en: "Your apartment is on the ground floor, second door on the left (door no. 3)",
+    de: "Ihre Unterkunft befindet sich im Erdgeschoss, zweite Tür links (Tür Nr. 3)",
+    es: "Su alojamiento está en la planta baja, la segunda puerta a la izquierda (puerta n.º 3)",
+    it: "Il vostro alloggio è al piano terra, seconda porta a sinistra (porta n° 3)",
+  },
+  "Dirigez-vous sur la gauche de l'immeuble. Trois boîtes à clés sont fixées au mur : la vôtre est celle du haut à gauche (entourée en vert sur la photo).": {
+    en: "Head to the left-hand side of the building. Three key boxes are fixed to the wall: yours is the top-left one (circled in green in the photo).",
+    de: "Gehen Sie zur linken Seite des Gebäudes. An der Wand hängen drei Schlüsselkästen: Ihrer ist der oben links (auf dem Foto grün eingekreist).",
+    es: "Diríjase al lado izquierdo del edificio. Hay tres cajas de llaves en la pared: la suya es la de arriba a la izquierda (rodeada en verde en la foto).",
+    it: "Dirigetevi sul lato sinistro dell'edificio. Al muro sono fissate tre cassette delle chiavi: la vostra è quella in alto a sinistra (cerchiata in verde nella foto).",
+  },
+  "Une fois dans la résidence, votre logement est au rez-de-chaussée : c'est la deuxième porte à gauche, porte n°3. Bienvenue !": {
+    en: "Once inside the residence, your apartment is on the ground floor: it's the second door on the left, door no. 3. Welcome!",
+    de: "In der Wohnanlage befindet sich Ihre Unterkunft im Erdgeschoss: Es ist die zweite Tür links, Tür Nr. 3. Willkommen!",
+    es: "Una vez dentro de la residencia, su alojamiento está en la planta baja: es la segunda puerta a la izquierda, puerta n.º 3. ¡Bienvenido!",
+    it: "Una volta dentro la residenza, il vostro alloggio è al piano terra: è la seconda porta a sinistra, porta n° 3. Benvenuti!",
+  },
   // ------------------------------------------ Tilleul 8 (Caen, 38 rue des Tilleuls)
   "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée": {
     en: "The key box code is sent to you by message on the day of your arrival",
