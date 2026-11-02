@@ -112,6 +112,11 @@ export const tilleul3: Logement = {
           "Linge de qualité hôtelière, traité par une blanchisserie professionnelle :\n\n• 🛏️ Draps fournis pour le lit\n• 🛁 Une serviette de toilette par voyageur + un tapis de bain\n• 🍽️ Un torchon de cuisine\n• 👕 Cintres, rangements & fer à repasser à disposition",
       },
       {
+        titre: "🪟 Store occultant (Velux)",
+        contenu:
+          "Une perche est à votre disposition dans la chambre, à côté du dressing, pour fermer le store du Velux et occulter totalement la lumière du jour.",
+      },
+      {
         titre: "🍳 Cuisine",
         contenu:
           "Le coin cuisine est équipé pour préparer vos repas :\n\n• 🔥 Plaques de cuisson\n• ❄️ Réfrigérateur\n• 🍲 Four à micro-ondes\n• ☕ Cafetière, bouilloire & grille-pain\n• 🍴 Vaisselle, couverts, casseroles & poêles\n• 🧂 Huile, sel & poivre fournis",

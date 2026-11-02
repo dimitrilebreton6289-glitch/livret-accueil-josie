@@ -6042,6 +6042,18 @@ export const CONTENT: Record<string, Tr> = {
     es: "📶 WiFi (sin televisión)",
     it: "📶 WiFi (niente televisione)",
   },
+  "🪟 Store occultant (Velux)": {
+    en: "🪟 Blackout blind (Velux)",
+    de: "🪟 Verdunklungsrollo (Velux)",
+    es: "🪟 Estor opaco (Velux)",
+    it: "🪟 Tenda oscurante (Velux)",
+  },
+  "Une perche est à votre disposition dans la chambre, à côté du dressing, pour fermer le store du Velux et occulter totalement la lumière du jour.": {
+    en: "A pole is available in the bedroom, next to the dressing area, to close the Velux blind and block out daylight completely.",
+    de: "Im Schlafzimmer, neben dem Ankleidebereich, steht eine Stange bereit, um das Velux-Rollo zu schließen und das Tageslicht vollständig auszublenden.",
+    es: "En el dormitorio, junto al vestidor, hay una pértiga a su disposición para cerrar el estor de la ventana Velux y bloquear por completo la luz del día.",
+    it: "In camera, accanto alla cabina armadio, è a vostra disposizione un'asta per chiudere la tenda del Velux e oscurare completamente la luce del giorno.",
+  },
   "Le studio est équipé du WiFi : le réseau et le mot de passe sont indiqués dans l'onglet WiFi. En revanche, il ne dispose pas de télévision.": {
     en: "The studio has WiFi: the network and password are shown in the WiFi tab. However, it does not have a television.",
     de: "Das Studio verfügt über WLAN: Netzwerk und Passwort finden Sie im Reiter WLAN. Einen Fernseher gibt es jedoch nicht.",
