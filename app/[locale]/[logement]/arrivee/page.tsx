@@ -114,16 +114,20 @@ export default async function ArriveePage({
         {/* Arrivée anticipée : explication + lien de paiement */}
         {arrivee.arriveeAnticipee && (
           <InfoCard icon={Hourglass} title={t("arriveeAnticipee")}>
-            <p className="mb-3">{pick(arrivee.arriveeAnticipee.texte, locale)}</p>
-            <a
-              href={arrivee.arriveeAnticipee.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex min-h-12 items-center justify-between gap-3 rounded-tile bg-terracotta px-4 font-bold text-white shadow-[0_4px_14px_rgba(215,92,69,0.3)] transition-soft active:scale-[0.98]"
-            >
-              <span>{t("arriveeAnticipeeCta")}</span>
-              <ExternalLink size={18} className="shrink-0" />
-            </a>
+            <p className={arrivee.arriveeAnticipee.url ? "mb-3" : undefined}>
+              {pick(arrivee.arriveeAnticipee.texte, locale)}
+            </p>
+            {arrivee.arriveeAnticipee.url && (
+              <a
+                href={arrivee.arriveeAnticipee.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex min-h-12 items-center justify-between gap-3 rounded-tile bg-terracotta px-4 font-bold text-white shadow-[0_4px_14px_rgba(215,92,69,0.3)] transition-soft active:scale-[0.98]"
+              >
+                <span>{t("arriveeAnticipeeCta")}</span>
+                <ExternalLink size={18} className="shrink-0" />
+              </a>
+            )}
           </InfoCard>
         )}
 

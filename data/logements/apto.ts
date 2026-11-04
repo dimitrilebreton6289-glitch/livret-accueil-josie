@@ -24,14 +24,15 @@ import { cinema } from "./cinema";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - Tarif du jacuzzi pour l'Apto (repris de l'annonce : 20 € / 15 € / offert
- *     par créneau de 4 h)
- *   - Piscine : période d'ouverture et consignes de sécurité
- *   - Boîte à clés : emplacement exact + photos d'arrivée
- *   - Poubelles : repris de la Cinéma Room (à préciser)
- *   - Liens Stripe repris des autres livrets (l'annonce indique 10 € pour
- *     l'arrivée anticipée / le dépôt de bagages)
+ *   - Photos de la boîte à clés (devant la porte du logement) — à venir
+ *   - Poubelles : repris de la Cinéma Room (Agathe demande au propriétaire)
  *   - Mode d'emploi du poêle à bois et du vidéoprojecteur
+ *
+ * Confirmé par Agathe (2026-11-04) : portail toujours ouvert ; jacuzzi par
+ * créneaux de 4 h de 18h à 22h, 20 € / 15 € / 3e offert, à réserver idéalement
+ * 24 h avant ; piscine dès les beaux jours (plutôt mai-juin) ; arrivée
+ * anticipée (14h30) et départ tardif (12h max) à 10 €, sur demande, sans lien
+ * Stripe (départ tardif partagé avec cinema.ts).
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
  */
@@ -50,25 +51,21 @@ export const apto: Logement = {
   arrivee: {
     horaire: "Arrivée autonome à partir de 16h",
     checkinExpress: [
-      "Arrivée autonome grâce à une boîte à clés sécurisée : le code vous est communiqué par message avant votre arrivée",
+      "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement : le code vous est communiqué par message avant votre arrivée",
       "Le gîte se trouve dans un corps de ferme en rénovation avec une verrière centrale",
-      "Entrez dans la cour par le portail noir (électrique) et allez jusqu'au fond de l'allée : vous êtes arrivés à l'Apto",
+      "Le portail noir de la cour est toujours ouvert : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     etapes: [
       { texte: "Présentez-vous au 27 rue Éole, à Chicheboville : un corps de ferme en rénovation, avec une verrière centrale." },
-      { texte: "Entrez dans la cour par le portail noir et garez-vous sur le parking privé." },
+      { texte: "Entrez dans la cour par le portail noir (toujours ouvert) et garez-vous sur le parking privé." },
       { texte: "Allez jusqu'au fond de l'allée : c'est le gîte Apto." },
-      { texte: "Récupérez la clé dans la boîte à clés sécurisée, avec le code reçu par message. Bienvenue !" },
+      { texte: "La boîte à clés se trouve devant la porte du gîte : composez le code reçu par message et récupérez la clé. Bienvenue !" },
     ],
-    arriveeAnticipee: {
-      texte:
-        "Vous souhaitez arriver avant 16h ou déposer vos bagages ? C'est possible sur demande (supplément), selon disponibilité. Réservez ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
-      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
-    },
+    arriveeAnticipee: cinema.arrivee.arriveeAnticipee,
     parking: cinema.arrivee.parking,
     bagages:
-      "Le dépôt de bagages est possible avant ou après votre séjour, sur demande et selon disponibilité (supplément, comme l'arrivée anticipée).",
+      "Le dépôt de bagages est possible avant ou après votre séjour, sur demande et selon disponibilité, moyennant un supplément de 10 €.",
     decouverte: {
       rdc: [
         "Salon chaleureux avec canapé, vidéoprojecteur et poêle à bois",
@@ -84,9 +81,9 @@ export const apto: Logement = {
       exterieur: [
         "Jardin privé entièrement clos",
         "Terrasse en bois avec cuisine extérieure, plancha et chaises longues",
-        "Piscine",
+        "Piscine (dès les beaux jours, plutôt à partir de mai-juin)",
         "Trampoline de 5 m, balançoire et toboggan",
-        "Parking privé avec portail électrique",
+        "Parking privé dans la cour",
       ],
     },
   },
@@ -122,12 +119,12 @@ export const apto: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est disponible d'avril à octobre, en option, par créneaux de 4 heures :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nÀ réserver au moins 24 h à l'avance, sous réserve de disponibilité (il est partagé avec l'autre gîte de la ferme). Contactez-nous pour réserver votre créneau !",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est proposé en option d'avril à octobre. Chaque créneau dure 4 heures, de 18h à 22h :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nPar exemple, 3 créneaux réservés = 12 heures d'accès au total, par tranches de 4 heures. À réserver idéalement 24 h à l'avance, selon les disponibilités : le jacuzzi est partagé avec un autre logement. Contactez-nous pour réserver vos créneaux !",
       },
       {
         titre: "🌳 Jardin, piscine & jeux",
         contenu:
-          "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.",
+          "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine, ouverte dès les beaux jours (plutôt à partir de mai-juin, si la météo le permet)\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.",
       },
       {
         titre: "🚴 Vélos",
@@ -212,7 +209,7 @@ export const apto: Logement = {
     "Jardin privé clos",
     "Terrasse avec cuisine extérieure & plancha",
     "Chaises longues",
-    "Piscine",
+    "Piscine (dès mai-juin)",
     "Trampoline, balançoire & toboggan",
     "Jacuzzi (en option)",
     "Vélos (location)",

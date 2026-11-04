@@ -67,7 +67,9 @@ export default async function DepartPage({
         {/* Départ tardif : explication + options horaires avec lien de paiement */}
         {depart.departTardif && (
           <InfoCard icon={Hourglass} title={t("departTardif")}>
-            <p className="mb-3">{pick(depart.departTardif.texte, locale)}</p>
+            <p className={depart.departTardif.options.length ? "mb-3" : undefined}>
+              {pick(depart.departTardif.texte, locale)}
+            </p>
             <div className="space-y-2">
               {depart.departTardif.options.map((o) => (
                 <a

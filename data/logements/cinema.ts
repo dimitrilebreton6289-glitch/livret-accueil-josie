@@ -20,14 +20,16 @@ import { memorial } from "./memorial";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - WiFi : mot de passe (réseau « Cinéma Room » d'après l'annonce)
- *   - Boîte à clés : emplacement exact + photos d'arrivée pas à pas
- *     (portail électrique : comment l'ouvrir ?)
- *   - Ménage : l'annonce dit « non inclus, à faire soi-même ou option 80 € »
- *     → repris tel quel dans le départ, à confirmer
- *   - Poubelles : emplacement des bacs et jours de collecte
- *   - Liens Stripe (arrivée anticipée / départ tardif) repris des autres livrets
+ *   - WiFi : mot de passe (réseau « Cinéma Room » d'après l'annonce) — Agathe
+ *     demande au propriétaire
+ *   - Photos de la boîte à clés (devant la porte du logement) — à venir
+ *   - Poubelles : emplacement des bacs et jours de collecte — Agathe demande
  *   - Mode d'emploi vidéoprojecteur / jacuzzi / borne d'arcade (photos ?)
+ *
+ * Confirmé par Agathe (2026-11-04) : portail toujours ouvert ; boîte à clés
+ * devant la porte de chaque logement ; ménage comme d'habitude (pas d'option
+ * 80 €) ; arrivée anticipée (14h30) et départ tardif (12h max) à 10 € chacun,
+ * sur demande, comme le propriétaire (pas de lien Stripe) ; jacuzzi de 18h à 22h.
  *
  * « Autour de moi » : adresses réelles géolocalisées via OpenStreetMap autour du
  * 27 rue Éole (Bellengreville à ~2 km, Argences à ~4 km). Culture et plages
@@ -50,18 +52,17 @@ export const cinema: Logement = {
   arrivee: {
     horaire: "Arrivée autonome de 16h à 2h du matin",
     checkinExpress: [
-      "Arrivée autonome grâce à une boîte à clés sécurisée",
-      "Le code de la boîte à clés et les instructions d'accès vous sont communiqués par message le jour de votre arrivée",
-      "Le logement donne sur une cour privative fermée par un portail électrique, avec parking sur place",
+      "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement",
+      "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
+      "Le portail de la cour est toujours ouvert : entrez et garez-vous sur le parking privé",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver avant 16h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
-      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+        "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.",
     },
     parking:
-      "Parking privé gratuit sur place, dans la cour fermée par un portail électrique.\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
+      "Parking privé gratuit sur place, dans la cour (le portail est toujours ouvert).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
@@ -75,7 +76,7 @@ export const cinema: Logement = {
       ],
       etage: [],
       exterieur: [
-        "Cour privative avec parking et portail électrique",
+        "Cour privative avec parking",
         "Jacuzzi privatif avec vidéoprojecteur, sans supplément (d'avril à octobre)",
       ],
     },
@@ -107,7 +108,7 @@ export const cinema: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre).\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.",
       },
       {
         titre: "🚴 Vélos",
@@ -213,12 +214,11 @@ export const cinema: Logement = {
   ],
 
   menageEnSejour:
-    "Le ménage n'est pas inclus dans le prix du séjour : vous pouvez le faire vous-même (produits et matériel fournis) ou réserver la prestation de ménage en option (80 €). Contactez-nous pour en profiter.",
+    "Besoin d'un ménage en cours de séjour ? Disponible en supplément, sur demande. Contactez-nous.",
 
   depart: {
     horaire: "Jusqu'à 10h",
     instructions: [
-      "Faire le ménage (produits et matériel fournis), sauf si vous avez réservé la prestation de ménage en option",
       "Faire la vaisselle, la ranger et vider les poubelles",
       "Fermer les fenêtres, éteindre les lumières, le vidéoprojecteur et la borne d'arcade, et baisser le chauffage ou la climatisation",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Disney+, etc.)",
@@ -226,12 +226,8 @@ export const cinema: Logement = {
     ],
     departTardif: {
       texte:
-        "Le départ est prévu au plus tard à 10h. Si vous souhaitez prolonger votre séjour avec un départ tardif, merci d'en faire la demande en amont. Cette option entraîne un supplément, à régler directement via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.",
-      options: [
-        { heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" },
-        { heure: "13h", url: "https://buy.stripe.com/28E9AU4Ew57rfpxgcZ7ss0b" },
-        { heure: "14h", url: "https://buy.stripe.com/dRmeVe8UMgQ95OX4uh7ss0c" },
-      ],
+        "Le départ est prévu au plus tard à 10h. Un départ tardif jusqu'à 12h maximum est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour le réserver.",
+      options: [],
     },
   },
 

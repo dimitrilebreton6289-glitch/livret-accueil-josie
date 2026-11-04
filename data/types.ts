@@ -110,11 +110,12 @@ export interface Logement {
     /**
      * Arrivée anticipée optionnelle : un texte d'explication + un lien de
      * paiement (ex. Stripe). Affiché en bloc cliquable sur la page Arrivée.
-     * Si absent, la section n'apparaît pas.
+     * Si absent, la section n'apparaît pas. Sans `url`, seul le texte
+     * s'affiche (arrivée anticipée sur demande, sans lien de paiement).
      */
     arriveeAnticipee?: {
       texte: Tx;
-      url: string;
+      url?: string;
     };
     parking: Tx;
     bagages: Tx;
@@ -174,7 +175,8 @@ export interface Logement {
     /**
      * Départ tardif optionnel : un texte d'explication + des options horaires
      * avec leur lien de paiement (ex. Stripe). Affiché en bloc cliquable sur la
-     * page Départ. Si absent, la section n'apparaît pas.
+     * page Départ. Si absent, la section n'apparaît pas. Avec `options: []`,
+     * seul le texte s'affiche (départ tardif sur demande, sans lien).
      */
     departTardif?: {
       texte: Tx;
