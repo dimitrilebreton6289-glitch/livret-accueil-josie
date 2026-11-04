@@ -24,13 +24,15 @@ import { cinema } from "./cinema";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - Photos de la boîte à clés (devant la porte du logement) — à venir
- *   - Poubelles : repris de la Cinéma Room (Agathe demande au propriétaire)
+ *   - Photos de la boîte à clés (devant la porte du logement) et des
+ *     conteneurs à poubelles — à venir
  *   - Mode d'emploi du poêle à bois et du vidéoprojecteur
  *
- * Confirmé par Agathe (2026-11-04) : portail toujours ouvert ; jacuzzi par
+ * Confirmé par Agathe (2026-11-04) : portail à code (1437#) ; conteneurs dans
+ * l'allée, à gauche en venant de l'Apto ; jacuzzi par
  * créneaux de 4 h de 18h à 22h, 20 € / 15 € / 3e offert, à réserver idéalement
- * 24 h avant ; piscine dès les beaux jours (plutôt mai-juin) ; arrivée
+ * 24 h avant ; piscine en général de début juin à début
+ * septembre selon la météo ; arrivée
  * anticipée (14h30) et départ tardif (12h max) à 10 €, sur demande, sans lien
  * Stripe (départ tardif partagé avec cinema.ts).
  *
@@ -53,12 +55,12 @@ export const apto: Logement = {
     checkinExpress: [
       "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement : le code vous est communiqué par message avant votre arrivée",
       "Le gîte se trouve dans un corps de ferme en rénovation avec une verrière centrale",
-      "Le portail noir de la cour est toujours ouvert : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto",
+      "Le portail noir de la cour s'ouvre avec le code 1437# : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     etapes: [
       { texte: "Présentez-vous au 27 rue Éole, à Chicheboville : un corps de ferme en rénovation, avec une verrière centrale." },
-      { texte: "Entrez dans la cour par le portail noir (toujours ouvert) et garez-vous sur le parking privé." },
+      { texte: "Ouvrez le portail noir avec le code 1437#, entrez dans la cour et garez-vous sur le parking privé." },
       { texte: "Allez jusqu'au fond de l'allée : c'est le gîte Apto." },
       { texte: "La boîte à clés se trouve devant la porte du gîte : composez le code reçu par message et récupérez la clé. Bienvenue !" },
     ],
@@ -81,7 +83,7 @@ export const apto: Logement = {
       exterieur: [
         "Jardin privé entièrement clos",
         "Terrasse en bois avec cuisine extérieure, plancha et chaises longues",
-        "Piscine (dès les beaux jours, plutôt à partir de mai-juin)",
+        "Piscine (en général de début juin à début septembre, selon la météo)",
         "Trampoline de 5 m, balançoire et toboggan",
         "Parking privé dans la cour",
       ],
@@ -124,7 +126,7 @@ export const apto: Logement = {
       {
         titre: "🌳 Jardin, piscine & jeux",
         contenu:
-          "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine, ouverte dès les beaux jours (plutôt à partir de mai-juin, si la météo le permet)\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.",
+          "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine, ouverte en général de début juin à début septembre (selon la météo)\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.",
       },
       {
         titre: "🚴 Vélos",
@@ -183,7 +185,8 @@ export const apto: Logement = {
       texte:
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. Le branchement de voiture électrique est interdit sur place. Les photos et tournages commerciaux ne sont pas autorisés. Merci de fermer le logement à clé à votre départ.",
     },
-    poubelles: cinema.pratique.poubelles,
+    poubelles:
+      "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
     animaux: cinema.pratique.animaux,
   },
 
@@ -209,7 +212,7 @@ export const apto: Logement = {
     "Jardin privé clos",
     "Terrasse avec cuisine extérieure & plancha",
     "Chaises longues",
-    "Piscine (dès mai-juin)",
+    "Piscine (juin → septembre)",
     "Trampoline, balançoire & toboggan",
     "Jacuzzi (en option)",
     "Vélos (location)",

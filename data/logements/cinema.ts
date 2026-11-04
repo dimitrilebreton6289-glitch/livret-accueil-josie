@@ -20,13 +20,12 @@ import { memorial } from "./memorial";
  *
  * ─────────────────────────────────────────────────────────────────────────────
  * ⚠️ À COMPLÉTER / VÉRIFIER PAR AGATHE :
- *   - WiFi : mot de passe (réseau « Cinéma Room » d'après l'annonce) — Agathe
- *     demande au propriétaire
- *   - Photos de la boîte à clés (devant la porte du logement) — à venir
- *   - Poubelles : emplacement des bacs et jours de collecte — Agathe demande
+ *   - Photos de la boîte à clés (devant la porte du logement) et des
+ *     conteneurs à poubelles — à venir
  *   - Mode d'emploi vidéoprojecteur / jacuzzi / borne d'arcade (photos ?)
  *
- * Confirmé par Agathe (2026-11-04) : portail toujours ouvert ; boîte à clés
+ * Confirmé par Agathe (2026-11-04) : portail à code (1437#) ; WiFi Eco14370
+ * (même mot de passe que l'Apto) ; conteneurs dans l'allée ; boîte à clés
  * devant la porte de chaque logement ; ménage comme d'habitude (pas d'option
  * 80 €) ; arrivée anticipée (14h30) et départ tardif (12h max) à 10 € chacun,
  * sur demande, comme le propriétaire (pas de lien Stripe) ; jacuzzi de 18h à 22h.
@@ -54,7 +53,7 @@ export const cinema: Logement = {
     checkinExpress: [
       "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement",
       "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
-      "Le portail de la cour est toujours ouvert : entrez et garez-vous sur le parking privé",
+      "Le portail de la cour s'ouvre avec le code 1437# : entrez et garez-vous sur le parking privé",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     arriveeAnticipee: {
@@ -62,7 +61,7 @@ export const cinema: Logement = {
         "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.",
     },
     parking:
-      "Parking privé gratuit sur place, dans la cour (le portail est toujours ouvert).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
+      "Parking privé gratuit sur place, dans la cour (portail à code : 1437#).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
@@ -84,7 +83,7 @@ export const cinema: Logement = {
 
   wifi: {
     reseau: "Cinéma Room",
-    motDePasse: "À compléter", // TODO: mot de passe WiFi
+    motDePasse: "Eco14370",
   },
 
   pratique: {
@@ -177,7 +176,7 @@ export const cinema: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. La recharge de voiture électrique est interdite sur place. Les photos et tournages commerciaux ne sont pas autorisés.",
     },
     poubelles:
-      "Les déchets doivent être triés et déposés dans les bacs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village", // TODO: emplacement des bacs + jours de collecte
+      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
     animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
 

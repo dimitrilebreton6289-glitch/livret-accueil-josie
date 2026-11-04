@@ -7185,12 +7185,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "Alojamiento para no fumadores (incluidos cigarrillos electrónicos y vapeo). Las fiestas y los eventos están prohibidos. No se admiten animales. Está prohibido recargar coches eléctricos en el lugar. No se permiten fotografías ni rodajes comerciales.",
     it: "Alloggio per non fumatori (sigarette elettroniche e svapo compresi). Feste ed eventi sono vietati. Gli animali non sono ammessi. È vietato ricaricare auto elettriche in loco. Non sono consentiti servizi fotografici o riprese commerciali.",
   },
-  "Les déchets doivent être triés et déposés dans les bacs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village": {
-    en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: take it to the village collection point",
-    de: "Der Müll muss getrennt und in die dafür vorgesehenen Tonnen geworfen werden.\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: zur Sammelstelle im Dorf bringen",
-    es: "Los residuos deben clasificarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: depositar en el punto de recogida del pueblo",
-    it: "I rifiuti devono essere differenziati e gettati negli appositi contenitori.\n🟡 Contenitore giallo: imballaggi e rifiuti riciclabili\n⚫ Contenitore grigio: rifiuti indifferenziati\n🍷 Vetro: da portare al punto di raccolta del paese",
-  },
   "Connexion Ethernet": {
     en: "Ethernet connection",
     de: "Ethernet-Anschluss",
@@ -8020,23 +8014,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Llegada autónoma gracias a una caja de llaves segura, situada delante de la puerta del alojamiento",
     it: "Arrivo autonomo grazie a una cassetta portachiavi sicura, situata davanti alla porta dell'alloggio",
   },
-  "Le portail de la cour est toujours ouvert : entrez et garez-vous sur le parking privé": {
-    en: "The courtyard gate is always open: drive in and park in the private car park",
-    de: "Das Hoftor ist immer offen: Fahren Sie hinein und parken Sie auf dem Privatparkplatz",
-    es: "El portón del patio está siempre abierto: entre y aparque en el aparcamiento privado",
-    it: "Il cancello del cortile è sempre aperto: entrate e parcheggiate nel parcheggio privato",
-  },
   "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.": {
     en: "Would you like to arrive earlier? Early check-in from 2:30 pm is possible on request, subject to availability, for an extra €10. Contact us to book it.",
     de: "Sie möchten früher anreisen? Ein früher Check-in ab 14:30 Uhr ist auf Anfrage und je nach Verfügbarkeit gegen einen Aufpreis von 10 € möglich. Kontaktieren Sie uns, um ihn zu buchen.",
     es: "¿Desea llegar antes? Es posible una llegada anticipada a partir de las 14:30 bajo petición, según disponibilidad, con un suplemento de 10 €. Contáctenos para reservarla.",
     it: "Desiderate arrivare prima? Un arrivo anticipato a partire dalle 14:30 è possibile su richiesta, in base alla disponibilità, con un supplemento di 10 €. Contattateci per prenotarlo.",
-  },
-  "Parking privé gratuit sur place, dans la cour (le portail est toujours ouvert).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).": {
-    en: "Free private parking on site, in the courtyard (the gate is always open).\n⚠️ Charging electric cars is not allowed on site. Nearest charging points: in Bellengreville (~2 km) and at E.Leclerc in Argences (~4 km).",
-    de: "Kostenloser Privatparkplatz vor Ort, im Hof (das Tor ist immer offen).\n⚠️ Das Laden von Elektroautos ist vor Ort nicht erlaubt. Nächste Ladestationen: in Bellengreville (~2 km) und beim E.Leclerc in Argences (~4 km).",
-    es: "Aparcamiento privado gratuito en el lugar, en el patio (el portón está siempre abierto).\n⚠️ Está prohibido recargar coches eléctricos en el lugar. Puntos de recarga más cercanos: en Bellengreville (~2 km) y en el E.Leclerc de Argences (~4 km).",
-    it: "Parcheggio privato gratuito in loco, nel cortile (il cancello è sempre aperto).\n⚠️ È vietato ricaricare auto elettriche in loco. Colonnine più vicine: a Bellengreville (~2 km) e all'E.Leclerc di Argences (~4 km).",
   },
   "Cour privative avec parking": {
     en: "Private courtyard with parking",
@@ -8062,18 +8044,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "Llegada autónoma gracias a una caja de llaves segura, situada delante de la puerta del alojamiento: el código se le envía por mensaje antes de su llegada",
     it: "Arrivo autonomo grazie a una cassetta portachiavi sicura, situata davanti alla porta dell'alloggio: il codice vi viene inviato per messaggio prima dell'arrivo",
   },
-  "Le portail noir de la cour est toujours ouvert : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto": {
-    en: "The black courtyard gate is always open: drive in and go to the end of the driveway, you have arrived at L'Apto",
-    de: "Das schwarze Hoftor ist immer offen: Fahren Sie hinein und bis zum Ende der Einfahrt, Sie sind am L'Apto angekommen",
-    es: "El portón negro del patio está siempre abierto: entre y vaya hasta el fondo del camino, ha llegado a L'Apto",
-    it: "Il cancello nero del cortile è sempre aperto: entrate e proseguite fino in fondo al viale, siete arrivati a L'Apto",
-  },
-  "Entrez dans la cour par le portail noir (toujours ouvert) et garez-vous sur le parking privé.": {
-    en: "Enter the courtyard through the black gate (always open) and park in the private car park.",
-    de: "Fahren Sie durch das schwarze Tor (immer offen) in den Hof und parken Sie auf dem Privatparkplatz.",
-    es: "Entre en el patio por el portón negro (siempre abierto) y aparque en el aparcamiento privado.",
-    it: "Entrate nel cortile dal cancello nero (sempre aperto) e parcheggiate nel parcheggio privato.",
-  },
   "La boîte à clés se trouve devant la porte du gîte : composez le code reçu par message et récupérez la clé. Bienvenue !": {
     en: "The key box is in front of the cottage door: enter the code you received by message and collect the key. Welcome!",
     de: "Der Schlüsselkasten befindet sich vor der Tür des Ferienhauses: Geben Sie den per Nachricht erhaltenen Code ein und nehmen Sie den Schlüssel. Willkommen!",
@@ -8085,12 +8055,6 @@ export const CONTENT: Record<string, Tr> = {
     de: "Die Gepäckaufbewahrung ist vor oder nach Ihrem Aufenthalt auf Anfrage und je nach Verfügbarkeit gegen einen Aufpreis von 10 € möglich.",
     es: "Es posible dejar el equipaje antes o después de su estancia, bajo petición y según disponibilidad, con un suplemento de 10 €.",
     it: "Il deposito bagagli è possibile prima o dopo il soggiorno, su richiesta e in base alla disponibilità, con un supplemento di 10 €.",
-  },
-  "Piscine (dès les beaux jours, plutôt à partir de mai-juin)": {
-    en: "Swimming pool (from the first fine days, usually from May–June)",
-    de: "Pool (ab den ersten schönen Tagen, meist ab Mai–Juni)",
-    es: "Piscina (desde los primeros días buenos, normalmente a partir de mayo-junio)",
-    it: "Piscina (dalle prime belle giornate, di solito da maggio-giugno)",
   },
   "Parking privé dans la cour": {
     en: "Private parking in the courtyard",
@@ -8104,16 +8068,58 @@ export const CONTENT: Record<string, Tr> = {
     es: "El jacuzzi privado, equipado con videoproyector, se ofrece de forma opcional de abril a octubre. Cada franja dura 4 horas, de 18:00 a 22:00:\n\n• 1.ª franja: 20 €\n• 2.ª franja: 15 €\n• 3.ª franja: gratis\n\nPor ejemplo, 3 franjas reservadas = 12 horas de acceso en total, en tramos de 4 horas. Lo ideal es reservar con 24 h de antelación, según disponibilidad: el jacuzzi se comparte con otro alojamiento. ¡Contáctenos para reservar sus franjas!",
     it: "La jacuzzi privata, dotata di videoproiettore, è proposta come opzione da aprile a ottobre. Ogni fascia dura 4 ore, dalle 18:00 alle 22:00:\n\n• 1ª fascia: 20 €\n• 2ª fascia: 15 €\n• 3ª fascia: gratuita\n\nAd esempio, 3 fasce prenotate = 12 ore di accesso in totale, a blocchi di 4 ore. Da prenotare idealmente 24 ore prima, in base alla disponibilità: la jacuzzi è condivisa con un altro alloggio. Contattateci per prenotare le vostre fasce!",
   },
-  "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine, ouverte dès les beaux jours (plutôt à partir de mai-juin, si la météo le permet)\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.": {
-    en: "The private garden is fully enclosed:\n\n• 🍖 Wooden terrace with outdoor kitchen and plancha\n• 🪑 Garden furniture and sun loungers\n• 🏊 Swimming pool, open from the first fine days (usually from May–June, weather permitting)\n• 🤸 5 m diameter trampoline, swing and slide\n\n⚠️ Children must be supervised by an adult at all times, especially around the pool and on the play equipment.",
-    de: "Der Privatgarten ist vollständig umzäunt:\n\n• 🍖 Holzterrasse mit Außenküche und Plancha\n• 🪑 Gartenmöbel und Liegestühle\n• 🏊 Pool, geöffnet ab den ersten schönen Tagen (meist ab Mai–Juni, je nach Wetter)\n• 🤸 Trampolin mit 5 m Durchmesser, Schaukel und Rutsche\n\n⚠️ Kinder müssen stets von einem Erwachsenen beaufsichtigt werden, insbesondere am Pool und auf den Spielgeräten.",
-    es: "El jardín privado está totalmente cerrado:\n\n• 🍖 Terraza de madera con cocina exterior y plancha\n• 🪑 Mobiliario de exterior y tumbonas\n• 🏊 Piscina, abierta desde los primeros días buenos (normalmente a partir de mayo-junio, si el tiempo lo permite)\n• 🤸 Cama elástica de 5 m de diámetro, columpio y tobogán\n\n⚠️ Los niños deben estar siempre bajo la vigilancia de un adulto, sobre todo cerca de la piscina y en los juegos.",
-    it: "Il giardino privato è completamente recintato:\n\n• 🍖 Terrazza in legno con cucina esterna e plancha\n• 🪑 Arredi da esterno e sdraio\n• 🏊 Piscina, aperta dalle prime belle giornate (di solito da maggio-giugno, meteo permettendo)\n• 🤸 Trampolino di 5 m di diametro, altalena e scivolo\n\n⚠️ I bambini devono restare sotto la sorveglianza di un adulto, in particolare vicino alla piscina e sui giochi.",
+  "Le portail de la cour s'ouvre avec le code 1437# : entrez et garez-vous sur le parking privé": {
+    en: "The courtyard gate opens with the code 1437#: drive in and park in the private car park",
+    de: "Das Hoftor öffnet sich mit dem Code 1437#: Fahren Sie hinein und parken Sie auf dem Privatparkplatz",
+    es: "El portón del patio se abre con el código 1437#: entre y aparque en el aparcamiento privado",
+    it: "Il cancello del cortile si apre con il codice 1437#: entrate e parcheggiate nel parcheggio privato",
   },
-  "Piscine (dès mai-juin)": {
-    en: "Swimming pool (from May–June)",
-    de: "Pool (ab Mai–Juni)",
-    es: "Piscina (desde mayo-junio)",
-    it: "Piscina (da maggio-giugno)",
+  "Parking privé gratuit sur place, dans la cour (portail à code : 1437#).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).": {
+    en: "Free private parking on site, in the courtyard (gate code: 1437#).\n⚠️ Charging electric cars is not allowed on site. Nearest charging points: in Bellengreville (~2 km) and at E.Leclerc in Argences (~4 km).",
+    de: "Kostenloser Privatparkplatz vor Ort, im Hof (Torcode: 1437#).\n⚠️ Das Laden von Elektroautos ist vor Ort nicht erlaubt. Nächste Ladestationen: in Bellengreville (~2 km) und beim E.Leclerc in Argences (~4 km).",
+    es: "Aparcamiento privado gratuito en el lugar, en el patio (código del portón: 1437#).\n⚠️ Está prohibido recargar coches eléctricos en el lugar. Puntos de recarga más cercanos: en Bellengreville (~2 km) y en el E.Leclerc de Argences (~4 km).",
+    it: "Parcheggio privato gratuito in loco, nel cortile (codice del cancello: 1437#).\n⚠️ È vietato ricaricare auto elettriche in loco. Colonnine più vicine: a Bellengreville (~2 km) e all'E.Leclerc di Argences (~4 km).",
+  },
+  "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village": {
+    en: "The bins are in the driveway, on the right as you leave the Cinéma Room. Please sort your waste:\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: take it to the village collection point",
+    de: "Die Mülltonnen stehen in der Einfahrt, rechts, wenn Sie aus dem Cinéma Room kommen. Bitte trennen Sie Ihren Müll:\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: zur Sammelstelle im Dorf bringen",
+    es: "Los contenedores de basura están en el camino, a la derecha al salir de la Cinéma Room. Por favor, clasifique sus residuos:\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: depositar en el punto de recogida del pueblo",
+    it: "I bidoni della spazzatura si trovano nel viale, a destra uscendo dalla Cinéma Room. Vi preghiamo di differenziare i rifiuti:\n🟡 Contenitore giallo: imballaggi e rifiuti riciclabili\n⚫ Contenitore grigio: rifiuti indifferenziati\n🍷 Vetro: da portare al punto di raccolta del paese",
+  },
+  "Le portail noir de la cour s'ouvre avec le code 1437# : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto": {
+    en: "The black courtyard gate opens with the code 1437#: drive in and go to the end of the driveway, you have arrived at L'Apto",
+    de: "Das schwarze Hoftor öffnet sich mit dem Code 1437#: Fahren Sie hinein und bis zum Ende der Einfahrt, Sie sind am L'Apto angekommen",
+    es: "El portón negro del patio se abre con el código 1437#: entre y vaya hasta el fondo del camino, ha llegado a L'Apto",
+    it: "Il cancello nero del cortile si apre con il codice 1437#: entrate e proseguite fino in fondo al viale, siete arrivati a L'Apto",
+  },
+  "Ouvrez le portail noir avec le code 1437#, entrez dans la cour et garez-vous sur le parking privé.": {
+    en: "Open the black gate with the code 1437#, enter the courtyard and park in the private car park.",
+    de: "Öffnen Sie das schwarze Tor mit dem Code 1437#, fahren Sie in den Hof und parken Sie auf dem Privatparkplatz.",
+    es: "Abra el portón negro con el código 1437#, entre en el patio y aparque en el aparcamiento privado.",
+    it: "Aprite il cancello nero con il codice 1437#, entrate nel cortile e parcheggiate nel parcheggio privato.",
+  },
+  "Piscine (en général de début juin à début septembre, selon la météo)": {
+    en: "Swimming pool (usually from early June to early September, weather permitting)",
+    de: "Pool (meist von Anfang Juni bis Anfang September, je nach Wetter)",
+    es: "Piscina (normalmente de principios de junio a principios de septiembre, según el tiempo)",
+    it: "Piscina (di solito da inizio giugno a inizio settembre, meteo permettendo)",
+  },
+  "Le jardin privé est entièrement clos :\n\n• 🍖 Terrasse en bois avec cuisine extérieure et plancha\n• 🪑 Mobilier d'extérieur et chaises longues\n• 🏊 Piscine, ouverte en général de début juin à début septembre (selon la météo)\n• 🤸 Trampoline de 5 m de diamètre, balançoire et toboggan\n\n⚠️ Les enfants doivent rester sous la surveillance d'un adulte, en particulier autour de la piscine et sur les jeux.": {
+    en: "The private garden is fully enclosed:\n\n• 🍖 Wooden terrace with outdoor kitchen and plancha\n• 🪑 Garden furniture and sun loungers\n• 🏊 Swimming pool, usually open from early June to early September (weather permitting)\n• 🤸 5 m diameter trampoline, swing and slide\n\n⚠️ Children must be supervised by an adult at all times, especially around the pool and on the play equipment.",
+    de: "Der Privatgarten ist vollständig umzäunt:\n\n• 🍖 Holzterrasse mit Außenküche und Plancha\n• 🪑 Gartenmöbel und Liegestühle\n• 🏊 Pool, meist von Anfang Juni bis Anfang September geöffnet (je nach Wetter)\n• 🤸 Trampolin mit 5 m Durchmesser, Schaukel und Rutsche\n\n⚠️ Kinder müssen stets von einem Erwachsenen beaufsichtigt werden, insbesondere am Pool und auf den Spielgeräten.",
+    es: "El jardín privado está totalmente cerrado:\n\n• 🍖 Terraza de madera con cocina exterior y plancha\n• 🪑 Mobiliario de exterior y tumbonas\n• 🏊 Piscina, abierta normalmente de principios de junio a principios de septiembre (según el tiempo)\n• 🤸 Cama elástica de 5 m de diámetro, columpio y tobogán\n\n⚠️ Los niños deben estar siempre bajo la vigilancia de un adulto, sobre todo cerca de la piscina y en los juegos.",
+    it: "Il giardino privato è completamente recintato:\n\n• 🍖 Terrazza in legno con cucina esterna e plancha\n• 🪑 Arredi da esterno e sdraio\n• 🏊 Piscina, aperta di solito da inizio giugno a inizio settembre (meteo permettendo)\n• 🤸 Trampolino di 5 m di diametro, altalena e scivolo\n\n⚠️ I bambini devono restare sotto la sorveglianza di un adulto, in particolare vicino alla piscina e sui giochi.",
+  },
+  "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village": {
+    en: "The bins are in the driveway, on the left as you come from the cottage. Please sort your waste:\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: take it to the village collection point",
+    de: "Die Mülltonnen stehen in der Einfahrt, links, wenn Sie vom Ferienhaus kommen. Bitte trennen Sie Ihren Müll:\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: zur Sammelstelle im Dorf bringen",
+    es: "Los contenedores de basura están en el camino, a la izquierda viniendo desde la casa. Por favor, clasifique sus residuos:\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: depositar en el punto de recogida del pueblo",
+    it: "I bidoni della spazzatura si trovano nel viale, sulla sinistra venendo dal gîte. Vi preghiamo di differenziare i rifiuti:\n🟡 Contenitore giallo: imballaggi e rifiuti riciclabili\n⚫ Contenitore grigio: rifiuti indifferenziati\n🍷 Vetro: da portare al punto di raccolta del paese",
+  },
+  "Piscine (juin → septembre)": {
+    en: "Swimming pool (June → September)",
+    de: "Pool (Juni → September)",
+    es: "Piscina (junio → septiembre)",
+    it: "Piscina (giugno → settembre)",
   },
 };
