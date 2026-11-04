@@ -322,11 +322,11 @@ export const vacherie: Logement = {
           it: "🧹 Pulizie e personale",
         },
         contenu: {
-          fr: "Un ménage de fin de séjour est inclus dans votre forfait. Il est aussi possible d'organiser, directement avec la gardienne, une prestation quotidienne ou à la demande de ménage, de baby-sitting ou de cuisine. Un ou deux personnels de maison logés chez le gardien peuvent également être mis à disposition de façon permanente — à demander par message avant votre séjour.",
-          en: "An end-of-stay cleaning is included in your package. You may also arrange, directly with the caretaker, daily or on-request housekeeping, babysitting or cooking services. One or two members of household staff, lodged with the caretaker, can likewise be made available throughout your stay — please request this by message before you arrive.",
-          de: "Eine Endreinigung ist in Ihrem Paket enthalten. Sie können zudem direkt mit der Hausmeisterin tägliche oder bedarfsweise Reinigungs-, Babysitting- oder Kochdienste vereinbaren. Ein oder zwei beim Hausmeister untergebrachte Hausangestellte können Ihnen ebenfalls dauerhaft zur Verfügung stehen – bitte fragen Sie dies vor Ihrer Ankunft per Nachricht an.",
-          es: "La limpieza de fin de estancia está incluida en su paquete. También puede organizar, directamente con la guardesa, un servicio diario o a demanda de limpieza, canguro o cocina. Uno o dos miembros del personal de servicio, alojados en casa del guardés, pueden ponerse igualmente a su disposición de forma permanente; solicítelo por mensaje antes de su estancia.",
-          it: "Una pulizia di fine soggiorno è inclusa nel vostro pacchetto. È inoltre possibile organizzare, direttamente con la custode, un servizio quotidiano o su richiesta di pulizie, baby-sitting o cucina. Uno o due membri del personale di casa, alloggiati presso il custode, possono essere messi a disposizione in modo permanente: fatene richiesta via messaggio prima del soggiorno.",
+          fr: "Un ménage de fin de séjour est inclus dans votre forfait. Il est aussi possible d'organiser, directement avec la gardienne et en supplément, une prestation quotidienne ou à la demande de ménage, de baby-sitting ou de cuisine. Un ou deux personnels de maison logés chez le gardien peuvent également être mis à disposition de façon permanente, en supplément — à demander par message avant votre séjour.",
+          en: "An end-of-stay cleaning is included in your package. You may also arrange, directly with the caretaker and for an extra charge, daily or on-request housekeeping, babysitting or cooking services. One or two members of household staff, lodged with the caretaker, can likewise be made available throughout your stay, also for an extra charge — please request this by message before you arrive.",
+          de: "Eine Endreinigung ist in Ihrem Paket enthalten. Sie können zudem gegen Aufpreis direkt mit der Hausmeisterin tägliche oder bedarfsweise Reinigungs-, Babysitting- oder Kochdienste vereinbaren. Ein oder zwei beim Hausmeister untergebrachte Hausangestellte können Ihnen ebenfalls, gegen Aufpreis, dauerhaft zur Verfügung stehen – bitte fragen Sie dies vor Ihrer Ankunft per Nachricht an.",
+          es: "La limpieza de fin de estancia está incluida en su paquete. También puede organizar, directamente con la guardesa y con un suplemento, un servicio diario o a demanda de limpieza, canguro o cocina. Uno o dos miembros del personal de servicio, alojados en casa del guardés, pueden ponerse igualmente a su disposición de forma permanente, con un suplemento; solicítelo por mensaje antes de su estancia.",
+          it: "Una pulizia di fine soggiorno è inclusa nel vostro pacchetto. È inoltre possibile organizzare, direttamente con la custode e con un supplemento, un servizio quotidiano o su richiesta di pulizie, baby-sitting o cucina. Uno o due membri del personale di casa, alloggiati presso il custode, possono essere messi a disposizione in modo permanente, con un supplemento: fatene richiesta via messaggio prima del soggiorno.",
         },
       },
       {
@@ -426,11 +426,11 @@ export const vacherie: Logement = {
   ],
 
   menageEnSejour: {
-    fr: "Le ménage de fin de séjour est inclus. Besoin d'un ménage supplémentaire pendant votre séjour ? C'est possible : organisez-le directement avec la gardienne.",
-    en: "End-of-stay cleaning is included. Would you like additional cleaning during your stay? It can be arranged directly with the caretaker.",
-    de: "Die Endreinigung ist inbegriffen. Wünschen Sie während Ihres Aufenthalts eine zusätzliche Reinigung? Das lässt sich direkt mit der Hausmeisterin vereinbaren.",
-    es: "La limpieza de fin de estancia está incluida. ¿Desea una limpieza adicional durante su estancia? Puede organizarla directamente con la guardesa.",
-    it: "Le pulizie di fine soggiorno sono incluse. Desiderate una pulizia aggiuntiva durante il soggiorno? È possibile organizzarla direttamente con la custode.",
+    fr: "Le ménage de fin de séjour est inclus. Besoin d'un ménage supplémentaire pendant votre séjour ? C'est possible, en supplément : organisez-le directement avec la gardienne.",
+    en: "End-of-stay cleaning is included. Would you like additional cleaning during your stay? It can be arranged directly with the caretaker, for an extra charge.",
+    de: "Die Endreinigung ist inbegriffen. Wünschen Sie während Ihres Aufenthalts eine zusätzliche Reinigung? Das lässt sich gegen Aufpreis direkt mit der Hausmeisterin vereinbaren.",
+    es: "La limpieza de fin de estancia está incluida. ¿Desea una limpieza adicional durante su estancia? Puede organizarla directamente con la guardesa, con un suplemento.",
+    it: "Le pulizie di fine soggiorno sono incluse. Desiderate una pulizia aggiuntiva durante il soggiorno? È possibile organizzarla direttamente con la custode, con un supplemento.",
   },
 
   depart: {
@@ -825,11 +825,11 @@ export const vacherie: Logement = {
   numerosUtiles: {
     contact: { nom: "Agathe — Josie Conciergerie", tel: "+33677551548" },
     note: {
-      fr: "Nos gardiens, Danijela (+33 6 22 79 87 32) et Tomica (+33 6 17 58 04 63), sont présents sur place pour toute demande. Agathe, votre gestionnaire, reste joignable sur la conversation Airbnb ou par téléphone. En cas d'urgence, le propriétaire Grégory peut être contacté au +33 6 14 45 87 50.",
-      en: "Our caretakers, Danijela (+33 6 22 79 87 32) and Tomica (+33 6 17 58 04 63), are on site for any request. Agathe, your property manager, remains reachable via the Airbnb conversation or by phone. In an emergency, the owner, Grégory, can be reached on +33 6 14 45 87 50.",
-      de: "Unsere Hausmeister Danijela (+33 6 22 79 87 32) und Tomica (+33 6 17 58 04 63) sind für jedes Anliegen vor Ort. Agathe, Ihre Verwalterin, ist über die Airbnb-Konversation oder telefonisch erreichbar. Im Notfall ist der Eigentümer Grégory unter +33 6 14 45 87 50 erreichbar.",
-      es: "Nuestros guardeses, Danijela (+33 6 22 79 87 32) y Tomica (+33 6 17 58 04 63), están en la propiedad para cualquier petición. Agathe, su gestora, sigue localizable a través de la conversación de Airbnb o por teléfono. En caso de urgencia, puede contactar con el propietario, Grégory, en el +33 6 14 45 87 50.",
-      it: "I nostri custodi, Danijela (+33 6 22 79 87 32) e Tomica (+33 6 17 58 04 63), sono sul posto per ogni richiesta. Agathe, la vostra gestore, resta raggiungibile tramite la conversazione Airbnb o per telefono. In caso di urgenza, il proprietario Grégory è contattabile al +33 6 14 45 87 50.",
+      fr: "Nos gardiens, Danijela (+33 6 22 79 87 32) et Tomica (+33 6 17 58 04 63), sont présents sur place pour toute demande. Agathe, votre gestionnaire, reste joignable au +33 6 77 55 15 48 ou sur la conversation Airbnb. En cas d'urgence, le propriétaire Grégory peut être contacté au +33 6 14 45 87 50.",
+      en: "Our caretakers, Danijela (+33 6 22 79 87 32) and Tomica (+33 6 17 58 04 63), are on site for any request. Agathe, your property manager, can be reached on +33 6 77 55 15 48 or via the Airbnb conversation. In an emergency, the owner, Grégory, can be reached on +33 6 14 45 87 50.",
+      de: "Unsere Hausmeister Danijela (+33 6 22 79 87 32) und Tomica (+33 6 17 58 04 63) sind für jedes Anliegen vor Ort. Agathe, Ihre Verwalterin, ist unter +33 6 77 55 15 48 oder über die Airbnb-Konversation erreichbar. Im Notfall ist der Eigentümer Grégory unter +33 6 14 45 87 50 erreichbar.",
+      es: "Nuestros guardeses, Danijela (+33 6 22 79 87 32) y Tomica (+33 6 17 58 04 63), están en la propiedad para cualquier petición. Agathe, su gestora, está disponible en el +33 6 77 55 15 48 o a través de la conversación de Airbnb. En caso de urgencia, puede contactar con el propietario, Grégory, en el +33 6 14 45 87 50.",
+      it: "I nostri custodi, Danijela (+33 6 22 79 87 32) e Tomica (+33 6 17 58 04 63), sono sul posto per ogni richiesta. Agathe, la vostra gestore, è raggiungibile al +33 6 77 55 15 48 o tramite la conversazione Airbnb. In caso di urgenza, il proprietario Grégory è contattabile al +33 6 14 45 87 50.",
     },
     urgences: { samu: "15", police: "17", pompiers: "18", europeen: "112" },
   },
