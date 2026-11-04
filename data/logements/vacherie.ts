@@ -1,7 +1,7 @@
 import type { Logement } from "../types";
 
 /**
- * Logement « La Maison du Passeur » — demeure historique en bord de Seine, 78840 Moisson.
+ * Logement « La Vacherie » — demeure historique en bord de Seine, 78840 Moisson.
  *
  * Grande propriété face au château de La Roche-Guyon, à 1h de Paris : maison
  * principale sur 3 niveaux, maison d'amis près de la piscine, chapelle
@@ -19,21 +19,21 @@ import type { Logement } from "../types";
  *     une mention bilingue est affichée.
  *   - coords : affiner le point exact de la maison sur la carte si besoin.
  */
-export const maisondupasseur: Logement = {
-  id: "maisondupasseur",
-  nom: "La Maison du Passeur",
+export const vacherie: Logement = {
+  id: "vacherie",
+  nom: "La Vacherie",
   adresse: "La Vacherie, 78840 Moisson",
   ville: "Moisson",
   itineraire: "https://maps.google.com/?q=La+Vacherie+78840+Moisson",
   coords: [49.0825, 1.627],
-  cover: "/logements/maisondupasseur/cover.jpg",
+  cover: "/logements/vacherie/cover.jpg",
 
   motAccueil: {
-    fr: "Bienvenue à La Maison du Passeur. Cette demeure historique de briques et de pierres, posée au bord de Seine face au château de La Roche-Guyon, vous ouvre son jardin à la française, son petit bois et ses dépendances — chapelle, piscine chauffée et ponton privatif. Jadis dépendance du château, la maison a traversé les siècles en gardant toute son âme. Danijela et Tomica, nos gardiens, veillent sur les lieux et se tiennent à votre disposition. Nous vous souhaitons un séjour hors du temps, à une heure de Paris. 🏰",
-    en: "Welcome to La Maison du Passeur. This historic brick-and-stone residence, set on the banks of the Seine and facing the Château de La Roche-Guyon, opens onto its formal French garden, private woodland and outbuildings — a chapel, a heated pool and a private pontoon. Once a dependency of the château, the house has crossed the centuries with its soul intact. Our caretakers, Danijela and Tomica, watch over the estate and remain at your service throughout your stay. We wish you a timeless escape, just an hour from Paris. 🏰",
-    de: "Willkommen in La Maison du Passeur. Dieses historische Anwesen aus Ziegel und Naturstein liegt am Ufer der Seine, gegenüber dem Schloss La Roche-Guyon, und öffnet Ihnen seinen französischen Garten, sein kleines Wäldchen und seine Nebengebäude – Kapelle, beheizter Pool und privater Bootssteg. Einst ein Nebengut des Schlosses, hat das Haus die Jahrhunderte mit unversehrter Seele überdauert. Unsere Hausmeister Danijela und Tomica kümmern sich um das Anwesen und stehen Ihnen jederzeit zur Verfügung. Wir wünschen Ihnen einen Aufenthalt außerhalb der Zeit, nur eine Stunde von Paris entfernt. 🏰",
-    es: "Bienvenido a La Maison du Passeur. Esta residencia histórica de ladrillo y piedra, a orillas del Sena y frente al castillo de La Roche-Guyon, le abre su jardín a la francesa, su pequeño bosque y sus dependencias: capilla, piscina climatizada y embarcadero privado. Antigua dependencia del castillo, la casa ha atravesado los siglos conservando toda su alma. Nuestros guardeses, Danijela y Tomica, cuidan de la propiedad y están a su disposición durante toda su estancia. Le deseamos una escapada fuera del tiempo, a una hora de París. 🏰",
-    it: "Benvenuti a La Maison du Passeur. Questa dimora storica in mattoni e pietra, affacciata sulle rive della Senna di fronte al castello di La Roche-Guyon, vi apre il suo giardino alla francese, il suo piccolo bosco e le sue dipendenze: cappella, piscina riscaldata e pontile privato. Un tempo dipendenza del castello, la casa ha attraversato i secoli conservando intatta la sua anima. I nostri custodi, Danijela e Tomica, vegliano sulla proprietà e restano a vostra disposizione per tutto il soggiorno. Vi auguriamo un soggiorno fuori dal tempo, a un'ora da Parigi. 🏰",
+    fr: "Bienvenue à La Vacherie. Cette demeure historique de briques et de pierres, posée au bord de Seine face au château de La Roche-Guyon, vous ouvre son jardin à la française, son petit bois et ses dépendances — chapelle, piscine chauffée et ponton privatif. Jadis dépendance du château, la maison a traversé les siècles en gardant toute son âme. Danijela et Tomica, nos gardiens, veillent sur les lieux et se tiennent à votre disposition. Nous vous souhaitons un séjour hors du temps, à une heure de Paris. 🏰",
+    en: "Welcome to La Vacherie. This historic brick-and-stone residence, set on the banks of the Seine and facing the Château de La Roche-Guyon, opens onto its formal French garden, private woodland and outbuildings — a chapel, a heated pool and a private pontoon. Once a dependency of the château, the house has crossed the centuries with its soul intact. Our caretakers, Danijela and Tomica, watch over the estate and remain at your service throughout your stay. We wish you a timeless escape, just an hour from Paris. 🏰",
+    de: "Willkommen in La Vacherie. Dieses historische Anwesen aus Ziegel und Naturstein liegt am Ufer der Seine, gegenüber dem Schloss La Roche-Guyon, und öffnet Ihnen seinen französischen Garten, sein kleines Wäldchen und seine Nebengebäude – Kapelle, beheizter Pool und privater Bootssteg. Einst ein Nebengut des Schlosses, hat das Haus die Jahrhunderte mit unversehrter Seele überdauert. Unsere Hausmeister Danijela und Tomica kümmern sich um das Anwesen und stehen Ihnen jederzeit zur Verfügung. Wir wünschen Ihnen einen Aufenthalt außerhalb der Zeit, nur eine Stunde von Paris entfernt. 🏰",
+    es: "Bienvenido a La Vacherie. Esta residencia histórica de ladrillo y piedra, a orillas del Sena y frente al castillo de La Roche-Guyon, le abre su jardín a la francesa, su pequeño bosque y sus dependencias: capilla, piscina climatizada y embarcadero privado. Antigua dependencia del castillo, la casa ha atravesado los siglos conservando toda su alma. Nuestros guardeses, Danijela y Tomica, cuidan de la propiedad y están a su disposición durante toda su estancia. Le deseamos una escapada fuera del tiempo, a una hora de París. 🏰",
+    it: "Benvenuti a La Vacherie. Questa dimora storica in mattoni e pietra, affacciata sulle rive della Senna di fronte al castello di La Roche-Guyon, vi apre il suo giardino alla francese, il suo piccolo bosco e le sue dipendenze: cappella, piscina riscaldata e pontile privato. Un tempo dipendenza del castello, la casa ha attraversato i secoli conservando intatta la sua anima. I nostri custodi, Danijela e Tomica, vegliano sulla proprietà e restano a vostra disposizione per tutto il soggiorno. Vi auguriamo un soggiorno fuori dal tempo, a un'ora da Parigi. 🏰",
   },
 
   arrivee: {
