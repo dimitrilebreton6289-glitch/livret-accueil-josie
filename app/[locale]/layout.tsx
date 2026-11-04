@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
-import { Fraunces, Nunito } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
+// Polices hébergées dans le projet (versions variables, sous-ensemble latin,
+// licence SIL OFL) plutôt que via next/font/google : le build Vercel échouait
+// régulièrement en téléchargeant les polices chez Google.
+const fraunces = localFont({
+  src: "../fonts/fraunces-latin-var.woff2",
+  weight: "500 700",
   variable: "--font-fraunces",
 });
 
-const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+const nunito = localFont({
+  src: "../fonts/nunito-latin-var.woff2",
+  weight: "400 800",
   variable: "--font-nunito",
 });
 
