@@ -59,13 +59,20 @@ export const apto: Logement = {
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     etapes: [
-      { texte: "Présentez-vous au 27 rue Éole, à Chicheboville : un corps de ferme en rénovation, avec une verrière centrale." },
-      { texte: "Ouvrez le portail noir avec le code 1437#, entrez dans la cour et garez-vous sur le parking privé." },
-      { texte: "Allez jusqu'au fond de l'allée : c'est le gîte Apto." },
-      { texte: "La boîte à clés se trouve devant la porte du gîte : composez le code reçu par message et récupérez la clé. Bienvenue !" },
+      { texte: "Présentez-vous au 27 rue Éole, à Moult-Chicheboville : un corps de ferme en rénovation, reconnaissable à sa verrière centrale." },
+      { texte: "Ouvrez le portail noir avec le code 1437# (communiqué dans votre message) et entrez dans la cour." },
+      {
+        texte: "Descendez l'allée jusqu'au fond : vos deux places de stationnement vous attendent devant le gîte, le long de la pelouse.",
+        photo: "/logements/apto/parking.jpg",
+      },
+      {
+        texte: "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue à l'Apto ! 🍏",
+        photo: "/logements/apto/boite-cles.jpg",
+      },
     ],
     arriveeAnticipee: cinema.arrivee.arriveeAnticipee,
-    parking: cinema.arrivee.parking,
+    parking:
+      "Deux places de stationnement privées et gratuites vous sont réservées, au fond de l'allée, devant le gîte.\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
     bagages:
       "Le dépôt de bagages est possible avant ou après votre séjour, sur demande et selon disponibilité, moyennant un supplément de 10 €.",
     decouverte: {
