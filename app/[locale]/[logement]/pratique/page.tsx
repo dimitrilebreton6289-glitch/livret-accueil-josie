@@ -11,7 +11,56 @@ import {
   Camera,
   Moon,
   PlayCircle,
+  Droplet,
+  Clapperboard,
+  Gamepad2,
+  Bath,
+  Bike,
+  BedDouble,
+  ShowerHead,
+  Thermometer,
+  Cctv,
+  Utensils,
+  Leaf,
+  Flame,
+  Trees,
+  Dices,
 } from "lucide-react";
+
+/**
+ * Icône (lucide) affichée dans le badge rond de chaque section « à savoir »,
+ * à la place de l'émoji en tête de titre. La clé est l'émoji du titre, privé
+ * de son éventuel sélecteur de variation (️), pour un appariement fiable.
+ */
+const SECTION_ICONS: Record<string, typeof Info> = {
+  "🚱": Droplet,
+  "🎬": Clapperboard,
+  "🎮": Gamepad2,
+  "🛁": Bath,
+  "🚴": Bike,
+  "🛏": BedDouble,
+  "🍳": CookingPot,
+  "🚿": ShowerHead,
+  "🌡": Thermometer,
+  "👥": Users,
+  "📹": Cctv,
+  "🍽": Utensils,
+  "🌿": Leaf,
+  "🔥": Flame,
+  "🌳": Trees,
+  "🎲": Dices,
+};
+
+/** Sépare l'émoji de tête d'un titre et renvoie l'icône associée + le libellé nettoyé. */
+function sectionIcon(title: string): { Icon: typeof Info; label: string } {
+  const sp = title.indexOf(" ");
+  if (sp > 0) {
+    const token = title.slice(0, sp).replace(/️/g, "");
+    const Icon = SECTION_ICONS[token];
+    if (Icon) return { Icon, label: title.slice(sp + 1) };
+  }
+  return { Icon: Info, label: title };
+}
 import { getLogement } from "@/data/logements";
 import { pick, pickList } from "@/lib/content";
 import Header from "@/components/Header";
@@ -86,10 +135,18 @@ export default async function PratiquePage({
           <>
             <SectionHeader>{t("aSavoir")}</SectionHeader>
             <div className="space-y-3">
-              {pratique.aSavoirSections.map((sec, i) => (
+              {pratique.aSavoirSections.map((sec, i) => {
+                const picked = pick(sec.titre, locale);
+                // Icônes (au lieu des émojis) sur les livrets Cinéma Room et Apto.
+                const useIcons = id === "cinema" || id === "apto";
+                const { Icon, label } = useIcons
+                  ? sectionIcon(picked)
+                  : { Icon: null as typeof Info | null, label: picked };
+                return (
                 <Accordion
                   key={i}
-                  title={pick(sec.titre, locale)}
+                  icon={Icon ? <Icon size={20} /> : undefined}
+                  title={label}
                   defaultOpen={i === 0}
                 >
                   <p className="whitespace-pre-line">{pick(sec.contenu, locale)}</p>
@@ -116,7 +173,8 @@ export default async function PratiquePage({
                     </div>
                   )}
                 </Accordion>
-              ))}
+                );
+              })}
             </div>
           </>
         ) : (
