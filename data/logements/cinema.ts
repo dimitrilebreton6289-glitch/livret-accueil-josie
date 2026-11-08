@@ -59,12 +59,20 @@ export const cinema: Logement = {
     etapes: [
       {
         texte:
-          "Repérez la porte en bois de la Cinéma Room (plaque « Cinema Room » bien visible). La boîte à clés sécurisée est fixée sur le mur en pierre, juste à droite de la porte.",
+          "Rendez-vous au 27 rue Éole, à Moult-Chicheboville. Ouvrez le portail de la cour avec le code 1437# et garez-vous à l'intérieur. ⚠️ Il n'y a de la place que pour une seule voiture : si vous venez à deux véhicules, un parking est disponible au niveau de la mairie, un peu plus loin.",
+      },
+      {
+        texte:
+          "Repérez la porte en bois, avec la pancarte « Cinema Room ». La boîte à clés sécurisée est fixée sur le mur en pierre, juste à droite de la porte. Composez le code communiqué dans votre message pour l'ouvrir et récupérer les clés.",
         photo: "/logements/cinema/boite-cles.jpg",
       },
       {
         texte:
-          "Composez le code communiqué par message le jour de votre arrivée, ouvrez la boîte, récupérez les clés… et bon séjour ! 🎬",
+          "Ouvrez la porte en bois avec la clé grise : tournez la poignée et poussez. Veillez à bien refermer la porte derrière vous.",
+      },
+      {
+        texte:
+          "Montez ensuite au premier étage : la porte du logement se trouve sur votre gauche. Ouvrez-la avec la clé rouge… et bon séjour ! 🎬",
       },
     ],
     arriveeAnticipee: {
@@ -72,7 +80,7 @@ export const cinema: Logement = {
         "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.",
     },
     parking:
-      "Parking privé gratuit sur place, dans la cour (portail à code : 1437#).\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
+      "Parking privé gratuit sur place, dans la cour (portail à code : 1437#). ⚠️ Il n'y a de la place que pour une seule voiture : si vous venez à deux véhicules, un parking est disponible au niveau de la mairie, un peu plus loin.\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
     bagages:
       "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
     decouverte: {
