@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { LogIn, LogOut, Info, Compass, Phone, MapPin } from "lucide-react";
+import { LogIn, LogOut, DoorOpen, DoorClosed, Info, Compass, Phone, MapPin } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
@@ -23,6 +23,12 @@ export default async function HomePage({
   const t = await getTranslations("Nav");
   const tHome = await getTranslations("Home");
   const base = `/${logement.id}`;
+
+  // Cinéma Room & Apto : icônes « porte qui s'ouvre / se ferme » plus parlantes
+  // pour Arrivée / Départ. Les autres livrets gardent les flèches (LogIn/LogOut).
+  const doors = id === "cinema" || id === "apto";
+  const arriveeIcon = doors ? DoorOpen : LogIn;
+  const departIcon = doors ? DoorClosed : LogOut;
 
   return (
     <>
@@ -83,13 +89,13 @@ export default async function HomePage({
 
           {/* 3–8. Sections */}
           <MenuCard
-            icon={LogIn}
+            icon={arriveeIcon}
             label={t("sections.arrivee")}
             desc={t("descriptions.arrivee")}
             href={`${base}/arrivee`}
           />
           <MenuCard
-            icon={LogOut}
+            icon={departIcon}
             label={t("sections.depart")}
             desc={t("descriptions.depart")}
             href={`${base}/depart`}
