@@ -126,7 +126,7 @@ export const cinema: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.",
       },
       {
         titre: "🚴 Vélos",

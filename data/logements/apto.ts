@@ -128,7 +128,7 @@ export const apto: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est proposé en option d'avril à octobre. Chaque créneau dure 4 heures, de 18h à 22h :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nPar exemple, 3 créneaux réservés = 12 heures d'accès au total, par tranches de 4 heures. À réserver idéalement 24 h à l'avance, selon les disponibilités : le jacuzzi est partagé avec un autre logement. Contactez-nous pour réserver vos créneaux !",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est proposé en option d'avril à octobre. Chaque créneau dure 4 heures, de 18h à 22h :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nPar exemple, 3 créneaux réservés = 12 heures d'accès au total, par tranches de 4 heures. À réserver idéalement 24 h à l'avance, selon les disponibilités : le jacuzzi est partagé avec un autre logement. Contactez-nous pour réserver vos créneaux !\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.",
       },
       {
         titre: "🌳 Jardin, piscine & jeux",
