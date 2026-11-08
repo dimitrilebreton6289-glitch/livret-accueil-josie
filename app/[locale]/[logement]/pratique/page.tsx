@@ -32,7 +32,7 @@ import {
  * à la place de l'émoji en tête de titre. La clé est l'émoji du titre, privé
  * de son éventuel sélecteur de variation (️), pour un appariement fiable.
  */
-const SECTION_ICONS: Record<string, typeof Info> = {
+const SECTION_ICONS: Record<string, typeof Info | undefined> = {
   "🚱": Droplet,
   "🎬": Clapperboard,
   "🎮": Gamepad2,
