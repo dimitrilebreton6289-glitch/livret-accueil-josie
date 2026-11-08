@@ -56,6 +56,17 @@ export const cinema: Logement = {
       "Le portail de la cour s'ouvre avec le code 1437# : entrez et garez-vous sur le parking privé",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
+    etapes: [
+      {
+        texte:
+          "Repérez la porte en bois de la Cinéma Room (plaque « Cinema Room » bien visible). La boîte à clés sécurisée est fixée sur le mur en pierre, juste à droite de la porte.",
+        photo: "/logements/cinema/boite-cles.jpg",
+      },
+      {
+        texte:
+          "Composez le code communiqué par message le jour de votre arrivée, ouvrez la boîte, récupérez les clés… et bon séjour ! 🎬",
+      },
+    ],
     arriveeAnticipee: {
       texte:
         "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.",
@@ -176,7 +187,8 @@ export const cinema: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. La recharge de voiture électrique est interdite sur place. Les photos et tournages commerciaux ne sont pas autorisés.",
     },
     poubelles:
-      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
+      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
+    poubellesPhoto: "/logements/cinema/poubelles.jpg",
     animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
 
