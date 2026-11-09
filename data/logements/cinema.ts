@@ -195,7 +195,7 @@ export const cinema: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. La recharge de voiture électrique est interdite sur place. Les photos et tournages commerciaux ne sont pas autorisés.",
     },
     poubelles:
-      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
+      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
     poubellesPhoto: "/logements/cinema/poubelles.jpg",
     animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },

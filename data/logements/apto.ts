@@ -193,7 +193,7 @@ export const apto: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. Le branchement de voiture électrique est interdit sur place. Les photos et tournages commerciaux ne sont pas autorisés. Merci de fermer le logement à clé à votre départ.",
     },
     poubelles:
-      "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer au point de collecte du village",
+      "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
     poubellesPhoto: "/logements/apto/poubelles.jpg",
     animaux: cinema.pratique.animaux,
   },

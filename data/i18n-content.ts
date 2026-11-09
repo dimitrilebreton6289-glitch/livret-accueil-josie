@@ -8406,4 +8406,18 @@ export const CONTENT: Record<string, Tr> = {
     es: "El meandro de Moisson, un remanso de calma",
     it: "L'ansa di Moisson, un'oasi di pace",
   },
+
+  // ------------------------------------------ Apto & Cinéma Room — tri des déchets (verre bac bleu + compost)
+  "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)": {
+    en: "The waste bins are in the lane, on the left as you come from the gîte. Please sort your waste carefully:\n🟡 Yellow bin: packaging and recyclables\n⚫ Grey bin: general household waste\n🍷 Glass: in the blue bin, next to the waste bins\n🌱 Compost: for your food waste (vegetable peelings, fruit, etc.)",
+    de: "Die Mülltonnen befinden sich im Weg, links, wenn Sie vom Gîte kommen. Bitte trennen Sie Ihren Abfall sorgfältig:\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: in die blaue Tonne neben den Mülltonnen\n🌱 Kompost: für Ihre Lebensmittelabfälle (Gemüseschalen, Obst usw.)",
+    es: "Los contenedores de basura están en el camino, a la izquierda según se viene del alojamiento. Separe bien sus residuos:\n🟡 Contenedor amarillo: envases y reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: en el contenedor azul, junto a las basuras\n🌱 Compost: para sus residuos de comida (peladuras de verduras, fruta, etc.)",
+    it: "I bidoni della spazzatura si trovano nel vialetto, a sinistra arrivando dalla casa. Vi preghiamo di differenziare bene i rifiuti:\n🟡 Bidone giallo: imballaggi e riciclabili\n⚫ Bidone grigio: rifiuti indifferenziati\n🍷 Vetro: nel bidone blu, accanto ai bidoni\n🌱 Compost: per i rifiuti alimentari (bucce di verdura, frutta, ecc.)",
+  },
+  "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)": {
+    en: "The waste bins are in the lane, on the right as you leave the Cinéma Room. Please sort your waste carefully:\n🟡 Yellow bin: packaging and recyclables\n⚫ Grey bin: general household waste\n🍷 Glass: in the blue bin, next to the waste bins\n🌱 Compost: for your food waste (vegetable peelings, fruit, etc.)",
+    de: "Die Mülltonnen befinden sich im Weg, rechts, wenn Sie den Cinéma Room verlassen. Bitte trennen Sie Ihren Abfall sorgfältig:\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: in die blaue Tonne neben den Mülltonnen\n🌱 Kompost: für Ihre Lebensmittelabfälle (Gemüseschalen, Obst usw.)",
+    es: "Los contenedores de basura están en el camino, a la derecha al salir de la Cinéma Room. Separe bien sus residuos:\n🟡 Contenedor amarillo: envases y reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: en el contenedor azul, junto a las basuras\n🌱 Compost: para sus residuos de comida (peladuras de verduras, fruta, etc.)",
+    it: "I bidoni della spazzatura si trovano nel vialetto, a destra uscendo dalla Cinéma Room. Vi preghiamo di differenziare bene i rifiuti:\n🟡 Bidone giallo: imballaggi e riciclabili\n⚫ Bidone grigio: rifiuti indifferenziati\n🍷 Vetro: nel bidone blu, accanto ai bidoni\n🌱 Compost: per i rifiuti alimentari (bucce di verdura, frutta, ecc.)",
+  },
 };
