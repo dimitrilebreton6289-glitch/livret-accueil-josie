@@ -96,6 +96,8 @@ const LAVERIES: Lieu[] = [
  * 36 rue Demolombe (~130 m), à côté des boîtes aux lettres, derrière le
  * portillon en métal (ouvert). Elle contient la clé du studio et le badge de
  * l'interphone du 12. Parcours fourni par Agathe le 2026-11-12, avec photos.
+ * Le code de la boîte n'est PAS affiché dans le livret, à la demande
+ * d'Agathe : il est envoyé par message.
  * Au départ, la clé ET le badge sont remis dans cette même boîte (confirmé).
  *
  * ⚠️ À COMPLÉTER PAR AGATHE :
@@ -119,10 +121,9 @@ export const adn: Logement = {
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 16h",
-    codeBoite: "2301",
     checkinExpress: [
       "⚠️ Deux étapes : les clés sont à récupérer au 36 rue Demolombe, à 2 minutes à pied du logement",
-      "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers",
+      "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers. Le code vous est communiqué par message avant votre arrivée",
       "Le studio se trouve au 1er étage, porte de droite (tapis léopard)",
     ],
     etapes: [
@@ -133,7 +134,7 @@ export const adn: Logement = {
       },
       {
         texte:
-          "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code indiqué ci-dessus.",
+          "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code reçu par message.",
         photo: "/logements/adn/arrivee-2.jpg",
       },
       {

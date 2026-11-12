@@ -8860,11 +8860,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "⚠️ Dos etapas: las llaves se recogen en el 36 rue Demolombe, a 2 minutos a pie del alojamiento",
     it: "⚠️ Due tappe: le chiavi vanno ritirate al 36 rue Demolombe, a 2 minuti a piedi dall'alloggio",
   },
-  "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers": {
-    en: "The key box contains the studio key and the fob that opens the door at 12 rue des Croisiers",
-    de: "Der Schlüsselkasten enthält den Studioschlüssel und den Chip, der die Tür der 12 rue des Croisiers öffnet",
-    es: "La caja de llaves contiene la llave del estudio y la tarjeta que abre la puerta del 12 rue des Croisiers",
-    it: "La cassetta contiene la chiave del monolocale e il badge che apre la porta del 12 rue des Croisiers",
+  "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers. Le code vous est communiqué par message avant votre arrivée": {
+    en: "The key box contains the studio key and the fob that opens the door at 12 rue des Croisiers. The code is sent to you by message before your arrival",
+    de: "Der Schlüsselkasten enthält den Studioschlüssel und den Chip, der die Tür der 12 rue des Croisiers öffnet. Den Code erhalten Sie vor Ihrer Ankunft per Nachricht",
+    es: "La caja de llaves contiene la llave del estudio y la tarjeta que abre la puerta del 12 rue des Croisiers. El código se le envía por mensaje antes de su llegada",
+    it: "La cassetta contiene la chiave del monolocale e il badge che apre la porta del 12 rue des Croisiers. Il codice vi viene inviato per messaggio prima dell'arrivo",
   },
   "Le studio se trouve au 1er étage, porte de droite (tapis léopard)": {
     en: "The studio is on the 1st floor, door on the right (leopard-print doormat)",
@@ -8878,11 +8878,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Diríjase primero al 36 rue Demolombe para recoger las llaves. Pase la verja metálica: está abierta.",
     it: "Recatevi prima al 36 rue Demolombe per ritirare le chiavi. Oltrepassate il cancelletto in metallo: è aperto.",
   },
-  "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code indiqué ci-dessus.": {
-    en: "The key box is right next to the letterboxes. Enter the code shown above.",
-    de: "Der Schlüsselkasten befindet sich direkt neben den Briefkästen. Geben Sie den oben angegebenen Code ein.",
-    es: "La caja de llaves está justo al lado de los buzones. Introduzca el código indicado arriba.",
-    it: "La cassetta portachiavi si trova proprio accanto alle cassette delle lettere. Inserite il codice indicato sopra.",
+  "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code reçu par message.": {
+    en: "The key box is right next to the letterboxes. Enter the code you received by message.",
+    de: "Der Schlüsselkasten befindet sich direkt neben den Briefkästen. Geben Sie den per Nachricht erhaltenen Code ein.",
+    es: "La caja de llaves está justo al lado de los buzones. Introduzca el código recibido por mensaje.",
+    it: "La cassetta portachiavi si trova proprio accanto alle cassette delle lettere. Inserite il codice ricevuto per messaggio.",
   },
   "Baissez la flèche vers le bas et ouvrez la boîte. Récupérez la clé et le badge, puis refermez la boîte et brouillez le code.": {
     en: "Push the arrow down and open the box. Take the key and the fob, then close the box and scramble the code.",
