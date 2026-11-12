@@ -92,9 +92,15 @@ const LAVERIES: Lieu[] = [
  * (NEARBY), le reste repris de Caen.
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ À COMPLÉTER PAR AGATHE (le guide d'arrivée de l'annonce est vide) :
+ * ⚠️ PARTICULARITÉ : la boîte à clés n'est PAS au 12 rue des Croisiers mais au
+ * 36 rue Demolombe (~130 m), à côté des boîtes aux lettres, derrière le
+ * portillon en métal (ouvert). Elle contient la clé du studio et le badge de
+ * l'interphone du 12. Parcours fourni par Agathe le 2026-11-12, avec photos.
+ *
+ * ⚠️ À COMPLÉTER PAR AGATHE :
  *   - WiFi : nom du réseau + mot de passe
- *   - Boîte à clés : emplacement, porte d'immeuble (digicode ?), photos
+ *   - Départ : confirmer qu'on remet la clé ET le badge dans la boîte du
+ *     36 rue Demolombe (supposé)
  *   - Poubelles : emplacement des bacs
  *   - Chauffage, TV : modes d'emploi
  *
@@ -114,10 +120,42 @@ export const adn: Logement = {
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 16h",
+    codeBoite: "2301",
     checkinExpress: [
-      "Arrivée autonome grâce à une boîte à clés sécurisée",
-      "Toutes les informations d'accès (code de la boîte à clés) vous sont transmises par message avant votre arrivée",
-      "Le studio se trouve au 1er étage",
+      "⚠️ Deux étapes : les clés sont à récupérer au 36 rue Demolombe, à 2 minutes à pied du logement",
+      "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers",
+      "Le studio se trouve au 1er étage, porte de droite (tapis léopard)",
+    ],
+    etapes: [
+      {
+        texte:
+          "Rendez-vous d'abord au 36 rue Demolombe pour récupérer les clés. Passez le portillon en métal : il est ouvert.",
+        photo: "/logements/adn/arrivee-1.jpg",
+      },
+      {
+        texte:
+          "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code indiqué ci-dessus.",
+        photo: "/logements/adn/arrivee-2.jpg",
+      },
+      {
+        texte:
+          "Baissez la flèche vers le bas et ouvrez la boîte. Récupérez la clé et le badge, puis refermez la boîte et brouillez le code.",
+        photo: "/logements/adn/arrivee-3.jpg",
+      },
+      {
+        texte:
+          "Rendez-vous ensuite au 12 rue des Croisiers, à 2 minutes à pied (grande porte bleue). Entrez en passant le badge devant l'interphone.",
+        photo: "/logements/adn/arrivee-4.jpg",
+      },
+      {
+        texte:
+          "Une fois dans la cour, passez les boîtes aux lettres et empruntez la porte juste à gauche.",
+        photo: "/logements/adn/arrivee-5.jpg",
+      },
+      {
+        texte:
+          "Montez au 1er étage : c'est la porte de droite, avec le tapis léopard. Ouvrez avec la clé. Bienvenue chez vous ! 🙂",
+      },
     ],
     arriveeAnticipee: {
       texte:
@@ -226,7 +264,7 @@ export const adn: Logement = {
       "Rendre l'appartement propre et rangé",
       "Fermer les fenêtres, éteindre les lumières et baisser le chauffage",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
-      "Fermer le logement à clé et remettre les clés dans la boîte à clés",
+      "Fermer le logement à clé, puis remettre la clé et le badge dans la boîte à clés du 36 rue Demolombe (à côté des boîtes aux lettres)",
     ],
     departTardif: caen.depart.departTardif,
   },

@@ -8427,24 +8427,6 @@ export const CONTENT: Record<string, Tr> = {
     es: "¡Bienvenido a ADN, su nido acogedor de piedra de Caen! Situado en una calle tranquila y con vistas a un patio, este estudio lleno de encanto le ofrece una tranquilidad poco común en pleno centro. El castillo, la plaza Saint-Sauveur y las mejores direcciones de la ciudad están a pocos minutos a pie. ¡Que disfrute de su estancia en Caen! 🏰",
     it: "Benvenuti ad ADN, il vostro nido accogliente in pietra di Caen! Situato in una via tranquilla e affacciato su un cortile, questo monolocale pieno di fascino vi offre una tranquillità rara in pieno centro. Il castello, la piazza Saint-Sauveur e i migliori indirizzi della città sono a pochi minuti a piedi. Buon soggiorno a Caen! 🏰",
   },
-  "Arrivée autonome grâce à une boîte à clés sécurisée": {
-    en: "Self check-in with a secure key box",
-    de: "Selbstständiger Check-in dank eines sicheren Schlüsselkastens",
-    es: "Llegada autónoma gracias a una caja de llaves segura",
-    it: "Arrivo autonomo grazie a una cassetta portachiavi sicura",
-  },
-  "Toutes les informations d'accès (code de la boîte à clés) vous sont transmises par message avant votre arrivée": {
-    en: "All access information (key box code) is sent to you by message before your arrival",
-    de: "Alle Zugangsinformationen (Code des Schlüsselkastens) erhalten Sie vor Ihrer Ankunft per Nachricht",
-    es: "Toda la información de acceso (código de la caja de llaves) se le envía por mensaje antes de su llegada",
-    it: "Tutte le informazioni di accesso (codice della cassetta portachiavi) vi vengono inviate per messaggio prima dell'arrivo",
-  },
-  "Le studio se trouve au 1er étage": {
-    en: "The studio is on the 1st floor",
-    de: "Das Studio befindet sich im 1. Stock",
-    es: "El estudio está en la 1.ª planta",
-    it: "Il monolocale si trova al 1° piano",
-  },
   "Vous souhaitez arriver avant 16h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.": {
     en: "Would you like to arrive before 4 pm? Early check-in is possible on request (extra charge), subject to availability. Book it below, then let me know your arrival time once payment is made.",
     de: "Sie möchten vor 16 Uhr anreisen? Ein früher Check-in ist auf Anfrage (gegen Aufpreis) und je nach Verfügbarkeit möglich. Buchen Sie ihn unten und teilen Sie mir nach der Zahlung Ihre Ankunftszeit mit.",
@@ -8870,5 +8852,66 @@ export const CONTENT: Record<string, Tr> = {
     de: "Nutzen Sie die Lage: Steigen Sie auf die Schlossmauern für den Blick über die Stadt, bummeln Sie dann über die Place Saint-Sauveur und die Rue Écuyère und gönnen Sie sich einen Drink auf einer Terrasse. Freitagmorgens sollten Sie den Markt auf der Place Saint-Sauveur nicht verpassen, einen der schönsten von Caen!",
     es: "Aproveche la ubicación: suba a las murallas del castillo para ver la ciudad, pasee después por la plaza Saint-Sauveur y la rue Écuyère y tómese algo en una terraza. Los viernes por la mañana, no se pierda el mercado de la plaza Saint-Sauveur, ¡uno de los más bonitos de Caen!",
     it: "Approfittate della posizione: salite sui bastioni del castello per la vista sulla città, poi passeggiate per piazza Saint-Sauveur e rue Écuyère e concedetevi un drink in terrazza. Il venerdì mattina non perdete il mercato di piazza Saint-Sauveur, uno dei più belli di Caen!",
+  },
+  // ------------------------------------------ ADN — arrivée par le 36 rue Demolombe
+  "⚠️ Deux étapes : les clés sont à récupérer au 36 rue Demolombe, à 2 minutes à pied du logement": {
+    en: "⚠️ Two steps: the keys are to be collected at 36 rue Demolombe, a 2-minute walk from the accommodation",
+    de: "⚠️ Zwei Schritte: Die Schlüssel holen Sie in der 36 rue Demolombe ab, 2 Gehminuten von der Unterkunft entfernt",
+    es: "⚠️ Dos etapas: las llaves se recogen en el 36 rue Demolombe, a 2 minutos a pie del alojamiento",
+    it: "⚠️ Due tappe: le chiavi vanno ritirate al 36 rue Demolombe, a 2 minuti a piedi dall'alloggio",
+  },
+  "La boîte à clés contient la clé du studio et le badge qui ouvre la porte du 12 rue des Croisiers": {
+    en: "The key box contains the studio key and the fob that opens the door at 12 rue des Croisiers",
+    de: "Der Schlüsselkasten enthält den Studioschlüssel und den Chip, der die Tür der 12 rue des Croisiers öffnet",
+    es: "La caja de llaves contiene la llave del estudio y la tarjeta que abre la puerta del 12 rue des Croisiers",
+    it: "La cassetta contiene la chiave del monolocale e il badge che apre la porta del 12 rue des Croisiers",
+  },
+  "Le studio se trouve au 1er étage, porte de droite (tapis léopard)": {
+    en: "The studio is on the 1st floor, door on the right (leopard-print doormat)",
+    de: "Das Studio befindet sich im 1. Stock, rechte Tür (Fußmatte mit Leopardenmuster)",
+    es: "El estudio está en la 1.ª planta, puerta de la derecha (felpudo de leopardo)",
+    it: "Il monolocale si trova al 1° piano, porta a destra (zerbino leopardato)",
+  },
+  "Rendez-vous d'abord au 36 rue Demolombe pour récupérer les clés. Passez le portillon en métal : il est ouvert.": {
+    en: "First go to 36 rue Demolombe to collect the keys. Go through the metal gate: it is open.",
+    de: "Gehen Sie zuerst zur 36 rue Demolombe, um die Schlüssel abzuholen. Gehen Sie durch das Metalltor: Es ist offen.",
+    es: "Diríjase primero al 36 rue Demolombe para recoger las llaves. Pase la verja metálica: está abierta.",
+    it: "Recatevi prima al 36 rue Demolombe per ritirare le chiavi. Oltrepassate il cancelletto in metallo: è aperto.",
+  },
+  "La boîte à clés se trouve juste à côté des boîtes aux lettres. Composez le code indiqué ci-dessus.": {
+    en: "The key box is right next to the letterboxes. Enter the code shown above.",
+    de: "Der Schlüsselkasten befindet sich direkt neben den Briefkästen. Geben Sie den oben angegebenen Code ein.",
+    es: "La caja de llaves está justo al lado de los buzones. Introduzca el código indicado arriba.",
+    it: "La cassetta portachiavi si trova proprio accanto alle cassette delle lettere. Inserite il codice indicato sopra.",
+  },
+  "Baissez la flèche vers le bas et ouvrez la boîte. Récupérez la clé et le badge, puis refermez la boîte et brouillez le code.": {
+    en: "Push the arrow down and open the box. Take the key and the fob, then close the box and scramble the code.",
+    de: "Drücken Sie den Pfeil nach unten und öffnen Sie den Kasten. Nehmen Sie Schlüssel und Chip heraus, schließen Sie den Kasten wieder und verstellen Sie den Code.",
+    es: "Baje la flecha hacia abajo y abra la caja. Recoja la llave y la tarjeta, luego cierre la caja y mezcle el código.",
+    it: "Abbassate la freccia verso il basso e aprite la cassetta. Prendete la chiave e il badge, poi richiudete la cassetta e mescolate il codice.",
+  },
+  "Rendez-vous ensuite au 12 rue des Croisiers, à 2 minutes à pied (grande porte bleue). Entrez en passant le badge devant l'interphone.": {
+    en: "Then go to 12 rue des Croisiers, a 2-minute walk away (large blue door). Enter by holding the fob in front of the intercom.",
+    de: "Gehen Sie dann zur 12 rue des Croisiers, 2 Gehminuten entfernt (große blaue Tür). Halten Sie den Chip vor die Gegensprechanlage, um einzutreten.",
+    es: "Diríjase después al 12 rue des Croisiers, a 2 minutos a pie (gran puerta azul). Entre pasando la tarjeta por delante del interfono.",
+    it: "Recatevi poi al 12 rue des Croisiers, a 2 minuti a piedi (grande portone blu). Entrate passando il badge davanti al citofono.",
+  },
+  "Une fois dans la cour, passez les boîtes aux lettres et empruntez la porte juste à gauche.": {
+    en: "Once in the courtyard, walk past the letterboxes and take the door just to the left.",
+    de: "Gehen Sie im Hof an den Briefkästen vorbei und nehmen Sie die Tür direkt links.",
+    es: "Una vez en el patio, pase los buzones y tome la puerta justo a la izquierda.",
+    it: "Una volta nel cortile, superate le cassette delle lettere e prendete la porta subito a sinistra.",
+  },
+  "Montez au 1er étage : c'est la porte de droite, avec le tapis léopard. Ouvrez avec la clé. Bienvenue chez vous ! 🙂": {
+    en: "Go up to the 1st floor: it's the door on the right, with the leopard-print doormat. Open it with the key. Welcome home! 🙂",
+    de: "Gehen Sie in den 1. Stock: Es ist die rechte Tür mit der Leoparden-Fußmatte. Öffnen Sie mit dem Schlüssel. Willkommen zu Hause! 🙂",
+    es: "Suba a la 1.ª planta: es la puerta de la derecha, con el felpudo de leopardo. Abra con la llave. ¡Bienvenido a casa! 🙂",
+    it: "Salite al 1° piano: è la porta a destra, con lo zerbino leopardato. Aprite con la chiave. Benvenuti a casa! 🙂",
+  },
+  "Fermer le logement à clé, puis remettre la clé et le badge dans la boîte à clés du 36 rue Demolombe (à côté des boîtes aux lettres)": {
+    en: "Lock the accommodation, then put the key and the fob back in the key box at 36 rue Demolombe (next to the letterboxes)",
+    de: "Die Unterkunft abschließen und dann Schlüssel und Chip zurück in den Schlüsselkasten in der 36 rue Demolombe legen (neben den Briefkästen)",
+    es: "Cerrar el alojamiento con llave y luego volver a dejar la llave y la tarjeta en la caja de llaves del 36 rue Demolombe (junto a los buzones)",
+    it: "Chiudere l'alloggio a chiave, poi rimettere la chiave e il badge nella cassetta portachiavi del 36 rue Demolombe (accanto alle cassette delle lettere)",
   },
 };
