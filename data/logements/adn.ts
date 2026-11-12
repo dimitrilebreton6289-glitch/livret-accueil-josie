@@ -102,7 +102,6 @@ const LAVERIES: Lieu[] = [
  *
  * ⚠️ À COMPLÉTER PAR AGATHE :
  *   - WiFi : nom du réseau + mot de passe
- *   - Poubelles : emplacement des bacs
  *   - Chauffage, TV : modes d'emploi
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
@@ -234,7 +233,8 @@ export const adn: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris) : merci de descendre dans la rue pour fumer. Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés.",
     },
     poubelles:
-      "Les déchets doivent être triés et déposés dans les bacs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans les conteneurs à verre du quartier", // TODO: emplacement des bacs
+      "Les poubelles se trouvent dans la cour du 12 rue des Croisiers, alignées le long du mur (voir photo). Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans les conteneurs à verre du quartier",
+    poubellesPhoto: "/logements/adn/poubelles.jpg",
     animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
 

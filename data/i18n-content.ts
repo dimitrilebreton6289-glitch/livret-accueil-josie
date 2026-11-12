@@ -8517,11 +8517,11 @@ export const CONTENT: Record<string, Tr> = {
     es: "Alojamiento para no fumadores (incluidos cigarrillos electrónicos y vapeo): por favor, baje a la calle para fumar. Las fiestas y los eventos están prohibidos. No se admiten animales.",
     it: "Alloggio per non fumatori (sigarette elettroniche e svapo compresi): per fumare vi preghiamo di scendere in strada. Feste ed eventi sono vietati. Gli animali non sono ammessi.",
   },
-  "Les déchets doivent être triés et déposés dans les bacs prévus à cet effet.\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans les conteneurs à verre du quartier": {
-    en: "Waste must be sorted and placed in the bins provided.\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: take it to the neighbourhood glass containers",
-    de: "Der Müll muss getrennt und in die dafür vorgesehenen Tonnen geworfen werden.\n🟡 Gelbe Tonne: Verpackungen und Wertstoffe\n⚫ Graue Tonne: Restmüll\n🍷 Glas: in die Glascontainer des Viertels",
-    es: "Los residuos deben clasificarse y depositarse en los contenedores previstos.\n🟡 Contenedor amarillo: envases y residuos reciclables\n⚫ Contenedor gris: residuos domésticos\n🍷 Vidrio: depositar en los contenedores de vidrio del barrio",
-    it: "I rifiuti devono essere differenziati e gettati negli appositi contenitori.\n🟡 Contenitore giallo: imballaggi e rifiuti riciclabili\n⚫ Contenitore grigio: rifiuti indifferenziati\n🍷 Vetro: da gettare nelle campane del vetro del quartiere",
+  "Les poubelles se trouvent dans la cour du 12 rue des Croisiers, alignées le long du mur (voir photo). Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans les conteneurs à verre du quartier": {
+    en: "The bins are in the courtyard at 12 rue des Croisiers, lined up along the wall (see photo). Please sort your waste carefully:\n🟡 Yellow bin: packaging and recyclable waste\n⚫ Grey bin: household waste\n🍷 Glass: to be taken to the neighbourhood glass bottle banks",
+    de: "Die Mülltonnen stehen im Hof der 12 rue des Croisiers, entlang der Mauer (siehe Foto). Bitte trennen Sie Ihren Müll sorgfältig:\n🟡 Gelbe Tonne: Verpackungen und recycelbare Abfälle\n⚫ Graue Tonne: Restmüll\n🍷 Glas: in die Glascontainer im Viertel",
+    es: "Los cubos de basura están en el patio del 12 rue des Croisiers, alineados a lo largo del muro (ver foto). Por favor, separe bien sus residuos:\n🟡 Cubo amarillo: envases y residuos reciclables\n⚫ Cubo gris: residuos domésticos\n🍷 Vidrio: depositar en los contenedores de vidrio del barrio",
+    it: "I bidoni della spazzatura si trovano nel cortile del 12 rue des Croisiers, allineati lungo il muro (vedi foto). Vi preghiamo di differenziare bene i rifiuti:\n🟡 Bidone giallo: imballaggi e rifiuti riciclabili\n⚫ Bidone grigio: rifiuti indifferenziati\n🍷 Vetro: da depositare nelle campane del vetro del quartiere",
   },
   "Lit double (queen)": {
     en: "Double bed (queen)",
