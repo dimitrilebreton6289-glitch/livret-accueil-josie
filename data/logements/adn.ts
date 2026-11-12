@@ -96,11 +96,10 @@ const LAVERIES: Lieu[] = [
  * 36 rue Demolombe (~130 m), à côté des boîtes aux lettres, derrière le
  * portillon en métal (ouvert). Elle contient la clé du studio et le badge de
  * l'interphone du 12. Parcours fourni par Agathe le 2026-11-12, avec photos.
+ * Au départ, la clé ET le badge sont remis dans cette même boîte (confirmé).
  *
  * ⚠️ À COMPLÉTER PAR AGATHE :
  *   - WiFi : nom du réseau + mot de passe
- *   - Départ : confirmer qu'on remet la clé ET le badge dans la boîte du
- *     36 rue Demolombe (supposé)
  *   - Poubelles : emplacement des bacs
  *   - Chauffage, TV : modes d'emploi
  *
