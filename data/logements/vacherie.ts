@@ -36,6 +36,21 @@ export const vacherie: Logement = {
     it: "Benvenuti a La Vacherie. Questa dimora storica in mattoni e pietra, affacciata sulle rive della Senna di fronte al castello di La Roche-Guyon, vi apre il suo giardino alla francese, il suo piccolo bosco e le sue dipendenze: cappella, piscina riscaldata e pontile privato. Un tempo dipendenza del castello, la casa ha attraversato i secoli conservando intatta la sua anima. I nostri custodi, Danijela e Tomica, vegliano sulla proprietà e restano a vostra disposizione per tutto il soggiorno. Vi auguriamo un soggiorno fuori dal tempo, a un'ora da Parigi. 🏰",
   },
 
+  /** Visite guidée de la maison, pièce par pièce (clips verticaux filmés sur place). */
+  videos: [
+    { titre: { fr: "Arrivée & entrée", en: "Arrival & entrance", de: "Ankunft & Eingang", es: "Llegada y entrada", it: "Arrivo e ingresso" }, url: "/logements/vacherie/videos/01-arrivee-entree.mp4", portrait: true },
+    { titre: { fr: "Hall & WC", en: "Hallway & WC", de: "Flur & WC", es: "Recibidor y aseo", it: "Ingresso e WC" }, url: "/logements/vacherie/videos/02-hall-wc.mp4", portrait: true },
+    { titre: { fr: "Cuisine", en: "Kitchen", de: "Küche", es: "Cocina", it: "Cucina" }, url: "/logements/vacherie/videos/03-cuisine.mp4", portrait: true },
+    { titre: { fr: "Salle à manger & couloir", en: "Dining room & hallway", de: "Esszimmer & Flur", es: "Comedor y pasillo", it: "Sala da pranzo e corridoio" }, url: "/logements/vacherie/videos/04-salle-a-manger-couloir.mp4", portrait: true },
+    { titre: { fr: "Salon", en: "Living room", de: "Wohnzimmer", es: "Salón", it: "Salotto" }, url: "/logements/vacherie/videos/05-salon.mp4", portrait: true },
+    { titre: { fr: "Escalier & suite parentale", en: "Staircase & master suite", de: "Treppe & Elternsuite", es: "Escalera y suite principal", it: "Scala e suite padronale" }, url: "/logements/vacherie/videos/06-escalier-suite-parentale.mp4", portrait: true },
+    { titre: { fr: "Chambre aux lits superposés", en: "Bunk-bed bedroom", de: "Zimmer mit Etagenbetten", es: "Habitación con literas", it: "Camera con letti a castello" }, url: "/logements/vacherie/videos/07-chambre-lits-superposes.mp4", portrait: true },
+    { titre: { fr: "Chambre côté Seine", en: "Bedroom facing the Seine", de: "Zimmer zur Seine", es: "Habitación con vistas al Sena", it: "Camera lato Senna" }, url: "/logements/vacherie/videos/08-chambre-cote-seine.mp4", portrait: true },
+    { titre: { fr: "Salle de bain", en: "Bathroom", de: "Badezimmer", es: "Baño", it: "Bagno" }, url: "/logements/vacherie/videos/09-salle-de-bain.mp4", portrait: true },
+    { titre: { fr: "Dernier étage", en: "Top floor", de: "Dachgeschoss", es: "Última planta", it: "Ultimo piano" }, url: "/logements/vacherie/videos/10-dernier-etage.mp4", portrait: true },
+    { titre: { fr: "Sous-sol & cave", en: "Basement & cellar", de: "Untergeschoss & Keller", es: "Sótano y bodega", it: "Seminterrato e cantina" }, url: "/logements/vacherie/videos/11-sous-sol.mp4", portrait: true },
+  ],
+
   arrivee: {
     horaire: {
       fr: "Arrivée à partir de 14h — accueil par nos gardiens",
