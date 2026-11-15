@@ -40,7 +40,8 @@
     "directions": "Me rendre au logement",
     "welcomeTitle": "Mot d'accueil",
     "amenitiesTitle": "Équipements",
-    "videoTitle": "Visite du logement"
+    "videoTitle": "Visite du logement",
+    "discoverVideoTitle": "Découvrir la maison en vidéo"
   },
   "Arrivee": {
     "title": "Infos arrivée",

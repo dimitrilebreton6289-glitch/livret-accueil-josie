@@ -95,6 +95,15 @@ export interface Logement {
    *  téléphone ; les YouTube Shorts sont déjà détectés automatiquement). */
   videos?: { titre: Tx; url: string; portrait?: boolean }[];
 
+  /** Visite guidée en vidéo affichée sur la page d'accueil, sous le titre
+   *  « Découvrir la maison en vidéo ». Les clips sont regroupés par zone
+   *  (ex. « La maison », « Le domaine ») et chaque vidéo porte le nom de la
+   *  pièce ou de l'espace. `portrait: true` force un cadre vertical. */
+  visiteMaison?: {
+    titre: Tx;
+    videos: { titre: Tx; url: string; portrait?: boolean }[];
+  }[];
+
   arrivee: {
     horaire: Tx;
     /** Points d'accès, en liste à puces. */

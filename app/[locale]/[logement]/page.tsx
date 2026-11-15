@@ -87,6 +87,38 @@ export default async function HomePage({
             </section>
           )}
 
+          {/* Visite guidée : découvrir la maison en vidéo, rangée par pièce */}
+          {logement.visiteMaison && logement.visiteMaison.length > 0 && (
+            <section className="rounded-card bg-cream-deep p-5">
+              <h2 className="mb-4 font-display text-base font-semibold text-terracotta-dark">
+                {tHome("discoverVideoTitle")}
+              </h2>
+              <div className="space-y-5">
+                {logement.visiteMaison.map((groupe, gi) => (
+                  <div key={gi}>
+                    <h3 className="mb-2.5 font-display text-sm font-semibold text-ink/80">
+                      {pick(groupe.titre, locale)}
+                    </h3>
+                    <div className="grid grid-cols-2 gap-3">
+                      {groupe.videos.map((v, vi) => (
+                        <figure key={vi} className="space-y-1.5">
+                          <VideoEmbed
+                            url={v.url}
+                            title={pick(v.titre, locale)}
+                            portrait={v.portrait}
+                          />
+                          <figcaption className="text-center text-[12px] leading-tight text-ink/75">
+                            {pick(v.titre, locale)}
+                          </figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* 3–8. Sections */}
           <MenuCard
             icon={arriveeIcon}
