@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 // Polices hébergées dans le projet (versions variables, sous-ensemble latin,
@@ -49,6 +50,8 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${fraunces.variable} ${nunito.variable}`}>
       <body className="bg-cream">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        {/* Statistiques de visite Vercel (sans cookie, anonymes) */}
+        <Analytics />
       </body>
     </html>
   );

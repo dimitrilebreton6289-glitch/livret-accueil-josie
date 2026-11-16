@@ -91,7 +91,9 @@
   "Wifi": {
     "title": "WiFi",
     "network": "Red",
-    "password": "Contraseña"
+    "password": "Contraseña",
+    "qrTitle": "Conectarse escaneando",
+    "qrHint": "Escanee este código con la cámara de otro teléfono o tableta: se conectará al WiFi sin escribir la contraseña."
   },
   "Autour": {
     "title": "Alrededores",
@@ -139,5 +141,10 @@
     "placeholder": "Buscar en la guía…",
     "empty": "Escriba una palabra para buscar (WiFi, playa, aparcamiento…).",
     "noResults": "Sin resultados para «{query}»."
+  },
+  "Weather": {
+    "title": "El tiempo de los próximos días",
+    "today": "Hoy",
+    "rainTip": "Se anuncia lluvia: aquí tiene nuestras ideas de salidas a cubierto (museos, cine, cafés)."
   }
 }

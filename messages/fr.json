@@ -91,7 +91,9 @@
   "Wifi": {
     "title": "WiFi",
     "network": "Réseau",
-    "password": "Mot de passe"
+    "password": "Mot de passe",
+    "qrTitle": "Se connecter en scannant",
+    "qrHint": "Scannez ce code avec l'appareil photo d'un autre téléphone ou d'une tablette : il se connecte au WiFi sans taper le mot de passe."
   },
   "Autour": {
     "title": "Autour de moi",
@@ -139,5 +141,10 @@
     "placeholder": "Rechercher dans le livret…",
     "empty": "Tapez un mot pour rechercher (WiFi, plage, parking…).",
     "noResults": "Aucun résultat pour « {query} »."
+  },
+  "Weather": {
+    "title": "Météo des prochains jours",
+    "today": "Auj.",
+    "rainTip": "De la pluie est annoncée : voici nos idées de sorties à l'abri (musées, cinéma, cafés)."
   }
 }

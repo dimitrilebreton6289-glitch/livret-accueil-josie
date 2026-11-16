@@ -91,7 +91,9 @@
   "Wifi": {
     "title": "WiFi",
     "network": "Rete",
-    "password": "Password"
+    "password": "Password",
+    "qrTitle": "Connettersi con una scansione",
+    "qrHint": "Inquadrate questo codice con la fotocamera di un altro telefono o tablet: si connetterà al WiFi senza digitare la password."
   },
   "Autour": {
     "title": "Nei dintorni",
@@ -139,5 +141,10 @@
     "placeholder": "Cerca nella guida…",
     "empty": "Digita una parola per cercare (WiFi, spiaggia, parcheggio…).",
     "noResults": "Nessun risultato per «{query}»."
+  },
+  "Weather": {
+    "title": "Meteo dei prossimi giorni",
+    "today": "Oggi",
+    "rainTip": "È prevista pioggia: ecco le nostre idee per uscite al coperto (musei, cinema, caffè)."
   }
 }

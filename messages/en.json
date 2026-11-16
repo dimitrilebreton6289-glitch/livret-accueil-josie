@@ -91,7 +91,9 @@
   "Wifi": {
     "title": "WiFi",
     "network": "Network",
-    "password": "Password"
+    "password": "Password",
+    "qrTitle": "Connect by scanning",
+    "qrHint": "Scan this code with the camera of another phone or tablet: it joins the WiFi without typing the password."
   },
   "Autour": {
     "title": "Around here",
@@ -139,5 +141,10 @@
     "placeholder": "Search the guide…",
     "empty": "Type a word to search (WiFi, beach, parking…).",
     "noResults": "No results for “{query}”."
+  },
+  "Weather": {
+    "title": "Weather for the next few days",
+    "today": "Today",
+    "rainTip": "Rain is forecast: here are our ideas for indoor outings (museums, cinema, cafés)."
   }
 }

@@ -91,7 +91,9 @@
   "Wifi": {
     "title": "WLAN",
     "network": "Netzwerk",
-    "password": "Passwort"
+    "password": "Passwort",
+    "qrTitle": "Per Scan verbinden",
+    "qrHint": "Scannen Sie diesen Code mit der Kamera eines anderen Handys oder Tablets: Es verbindet sich ohne Passworteingabe mit dem WLAN."
   },
   "Autour": {
     "title": "In der Umgebung",
@@ -139,5 +141,10 @@
     "placeholder": "In der Mappe suchen…",
     "empty": "Geben Sie ein Wort ein (WLAN, Strand, Parken…).",
     "noResults": "Keine Ergebnisse für „{query}“."
+  },
+  "Weather": {
+    "title": "Wetter der nächsten Tage",
+    "today": "Heute",
+    "rainTip": "Es ist Regen angesagt: Hier sind unsere Ideen für Ausflüge im Trockenen (Museen, Kino, Cafés)."
   }
 }

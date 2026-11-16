@@ -3,7 +3,13 @@
 import { useEffect, useState } from "react";
 import { Wifi, X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { QRCodeSVG } from "qrcode.react";
 import CopyButton from "./CopyButton";
+
+/** Échappe un texte pour le format QR WiFi (\ ; , : " doivent être précédés de \). */
+function escapeWifi(v: string): string {
+  return v.replace(/([\\;,:"])/g, "\\$1");
+}
 
 /** Évènement global pour ouvrir le volet WiFi depuis n'importe quelle carte/menu. */
 export const OPEN_WIFI_EVENT = "josie:open-wifi";
@@ -99,6 +105,26 @@ export default function WifiSheet({
         <div className="mt-5 flex justify-center">
           <CopyButton value={motDePasse} label={tc("copyPassword")} />
         </div>
+
+        {/* QR code WiFi : un autre téléphone (ou une tablette) le scanne et se
+            connecte directement, sans taper le mot de passe. */}
+        {/* Pas de QR pour les logements sans WiFi (« Pas de WiFi… » / « Prévoyez… »). */}
+        {motDePasse && !/^pas de wifi/i.test(reseau) && !/^prévoyez/i.test(motDePasse) && (
+          <div className="mt-6 flex items-center gap-4 rounded-tile bg-cream-deep p-4">
+            <div className="shrink-0 rounded-lg bg-white p-2">
+              <QRCodeSVG
+                value={`WIFI:T:WPA;S:${escapeWifi(reseau)};P:${escapeWifi(motDePasse)};;`}
+                size={112}
+                marginSize={0}
+                level="M"
+              />
+            </div>
+            <div>
+              <p className="font-display text-sm font-semibold text-ink">{t("qrTitle")}</p>
+              <p className="mt-1 text-xs leading-snug text-muted">{t("qrHint")}</p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -9,6 +9,7 @@ import WifiMenuCard from "@/components/WifiMenuCard";
 import JosieAvatar from "@/components/JosieAvatar";
 import VideoEmbed from "@/components/VideoEmbed";
 import Accordion from "@/components/Accordion";
+import WeatherCard from "@/components/WeatherCard";
 
 export default async function HomePage({
   params,
@@ -73,6 +74,9 @@ export default async function HomePage({
               </div>
             </div>
           </section>
+
+          {/* Météo des prochains jours (chargée dans le navigateur) */}
+          <WeatherCard coords={logement.coords} autourHref={`${base}/autour`} />
 
           {/* Vidéo de présentation du logement */}
           {logement.videoPresentation && (
