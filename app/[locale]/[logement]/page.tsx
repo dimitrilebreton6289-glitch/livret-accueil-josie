@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { LogIn, LogOut, DoorOpen, DoorClosed, Info, Compass, Phone, MapPin } from "lucide-react";
+import { LogIn, LogOut, DoorOpen, DoorClosed, Info, Compass, Phone, MapPin, Clapperboard } from "lucide-react";
 import { getLogement } from "@/data/logements";
 import { pick } from "@/lib/content";
 import Header from "@/components/Header";
@@ -88,13 +88,14 @@ export default async function HomePage({
             </section>
           )}
 
-          {/* Visite guidée : découvrir la maison en vidéo, rangée par pièce */}
+          {/* Visite guidée : un seul onglet dépliable « Découvrir la maison en
+              vidéo » ; à l'ouverture, les pièces (elles-mêmes dépliables). */}
           {logement.visiteMaison && logement.visiteMaison.length > 0 && (
-            <section className="rounded-card bg-cream-deep p-5">
-              <h2 className="mb-4 font-display text-base font-semibold text-terracotta-dark">
-                {tHome("discoverVideoTitle")}
-              </h2>
-              <div className="space-y-5">
+            <Accordion
+              icon={<Clapperboard size={20} />}
+              title={tHome("discoverVideoTitle")}
+            >
+              <div className="-mx-4 -mb-4 space-y-5 rounded-b-card bg-cream-deep px-4 pb-4 pt-3">
                 {logement.visiteMaison.map((groupe, gi) => (
                   <div key={gi}>
                     <h3 className="mb-2.5 font-display text-sm font-semibold text-ink/80">
@@ -115,7 +116,7 @@ export default async function HomePage({
                   </div>
                 ))}
               </div>
-            </section>
+            </Accordion>
           )}
 
           {/* 3–8. Sections */}
