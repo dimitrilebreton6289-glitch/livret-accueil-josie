@@ -8,6 +8,7 @@ import MenuCard from "@/components/MenuCard";
 import WifiMenuCard from "@/components/WifiMenuCard";
 import JosieAvatar from "@/components/JosieAvatar";
 import VideoEmbed from "@/components/VideoEmbed";
+import Accordion from "@/components/Accordion";
 
 export default async function HomePage({
   params,
@@ -99,18 +100,16 @@ export default async function HomePage({
                     <h3 className="mb-2.5 font-display text-sm font-semibold text-ink/80">
                       {pick(groupe.titre, locale)}
                     </h3>
-                    <div className="grid grid-cols-2 gap-3">
+                    <div className="space-y-2">
                       {groupe.videos.map((v, vi) => (
-                        <figure key={vi} className="space-y-1.5">
+                        <Accordion key={vi} title={pick(v.titre, locale)}>
                           <VideoEmbed
                             url={v.url}
                             title={pick(v.titre, locale)}
                             portrait={v.portrait}
+                            preload="none"
                           />
-                          <figcaption className="text-center text-[12px] leading-tight text-ink/75">
-                            {pick(v.titre, locale)}
-                          </figcaption>
-                        </figure>
+                        </Accordion>
                       ))}
                     </div>
                   </div>

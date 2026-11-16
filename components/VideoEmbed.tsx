@@ -18,10 +18,14 @@ export default function VideoEmbed({
   url,
   title,
   portrait: portraitProp,
+  preload,
 }: {
   url: string;
   title?: string;
   portrait?: boolean;
+  /** Pré-chargement du fichier vidéo. `"none"` = ne rien charger tant que la
+   *  vidéo n'est pas lue (utile dans un accordéon replié). Défaut navigateur sinon. */
+  preload?: "none" | "metadata" | "auto";
 }) {
   const yt = youtubeId(url);
   const vm = vimeoId(url);
@@ -56,6 +60,7 @@ export default function VideoEmbed({
         src={url}
         controls
         playsInline
+        preload={preload}
         className="absolute inset-0 h-full w-full bg-black object-contain"
       />
     );
