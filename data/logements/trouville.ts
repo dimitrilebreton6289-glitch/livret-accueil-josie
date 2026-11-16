@@ -154,7 +154,7 @@ const CATEGORIES: CategorySection[] = [
  * de la boîte à clés, 28, est indiqué — ce n'est pas un code).
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ Vidéos hébergées chez StyQR (local vélo, local poubelles) : à mettre sur YouTube.
+ * ⚠️ Vidéos hébergées chez StyQR (local vélo, local poubelles) : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos).
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :
  *   - Vidéo d'arrivée : dans StyQR, le lien cliquable mène à « Palace Trouville »
@@ -271,7 +271,7 @@ export const trouville: Logement = {
         titre: "🚲 Local vélo",
         contenu:
           "Un local vélo est à votre disposition dans la résidence, juste à l'entrée du local poubelles. La vidéo ci-dessous vous montre où il se trouve.",
-        video: "https://styqr-space.ams3.cdn.digitaloceanspaces.com/d02eb1fb-455b-4b04-92b7-477e95fb541e/video-543_singular_display.mov",
+        video: "/logements/trouville/videos/velo.mp4",
         videoPortrait: true,
       },
       {
@@ -311,7 +311,7 @@ export const trouville: Logement = {
     poubelles:
       "Les poubelles sont à déposer dans les bacs du local situé en face de la réception, au rez-de-chaussée (voir la vidéo ci-dessous). Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 21 rue de Paris",
     poubellesVideo:
-      "https://styqr-space.ams3.cdn.digitaloceanspaces.com/cc1c8b5d-f9e6-4b04-8a3e-9784c5cf09ab/video-543_singular_display.MOV",
+      "/logements/trouville/videos/poubelles.mp4",
     poubellesVideoPortrait: true,
     animaux:
       "Votre animal de compagnie est le bienvenu (un seul animal par séjour). Un supplément est appliqué pour son accueil.",

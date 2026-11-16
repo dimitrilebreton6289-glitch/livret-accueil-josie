@@ -21,7 +21,7 @@ import { bayeuxcave } from "./bayeuxcave";
  * distances sont recalculées automatiquement depuis ce logement.
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ Photo de couverture à fournir : en attendant, c'est une vue des toits de
+ * Couverture reprise de l'annonce Booking le 16/11/2026 (ancienne note : photo de couverture à fournir) : en attendant, c'est une vue des toits de
  *    Bayeux et de la cathédrale (prise depuis l'appartement Bayeux Cave).
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :

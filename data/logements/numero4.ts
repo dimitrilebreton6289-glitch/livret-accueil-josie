@@ -254,7 +254,7 @@ const c = caponiere46;
  * ⚠️ Photo de couverture à fournir (photo générique du château de Caen en
  * attendant).
  *
- * ⚠️ Vidéo « Télévision » hébergée chez StyQR : à mettre sur YouTube.
+ * ⚠️ Vidéo « Télévision » hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos).
  *
  * ⚠️ À vérifier par Agathe :
  *   - Départ : StyQR dit à la fois « remettre les clés dans la boîte à code »
@@ -312,7 +312,7 @@ export const numero4: Logement = {
       {
         titre: "📺 Télévision",
         contenu: c.studio.tv,
-        video: "https://styqr-space.ams3.cdn.digitaloceanspaces.com/332403af-7e4b-45c8-ad74-a376af7b7709/IMG_8056-(1)-(1).mov",
+        video: "/logements/numero4/videos/tv.mp4",
         videoPortrait: true,
       },
       c.sections.cafe,

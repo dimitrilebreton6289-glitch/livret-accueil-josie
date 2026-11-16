@@ -94,7 +94,7 @@ const LAVERIES: Lieu[] = [
  * Aucun code en clair dans le livret StyQR (le code de la boîte à clés est
  * envoyé par message le jour de l'arrivée).
  *
- * ⚠️ Vidéo hébergée chez StyQR : à mettre sur YouTube (mode d'emploi de la
+ * ⚠️ Vidéo hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos) (mode d'emploi de la
  * TV, section « Télévision »).
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :
@@ -202,7 +202,7 @@ export const desmoueux: Logement = {
         contenu:
           "1. Appuyez sur le bouton Power (rouge, tout en haut de la télécommande blanche) pour allumer l'écran.\n2. Patientez quelques secondes jusqu'à l'apparition du menu d'accueil (ou allumez le décodeur avec sa propre télécommande, s'il y en a une deuxième).\n3. Avec les flèches, sélectionnez l'application « Molotov TV » et validez avec OK, ou allez sur la TV d'Orange pour regarder les chaînes.\n4. Utilisez ensuite la même télécommande pour choisir vos chaînes (ou celle du décodeur, uniquement pour changer de chaîne).\n💡 Avec le décodeur, appuyez sur SOURCE pour choisir la bonne entrée (HDMI 1 ou 2). Si cela ne fonctionne pas, débranchez puis rebranchez le décodeur.",
         video:
-          "https://styqr-space.ams3.cdn.digitaloceanspaces.com/0ec85c6a-aecf-47bb-84de-a688fee4c3a3/copy_51A1BEE5-2B26-4FCC-BA3A-C1EF8B6264E0.MOV",
+          "/logements/desmoueux/videos/tv.mp4",
         videoPortrait: true,
       },
       {

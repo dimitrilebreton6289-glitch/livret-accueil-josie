@@ -22,13 +22,11 @@ import { lappartTr } from "./lappart";
 import { loftTr } from "./loft";
 import { maison111Tr } from "./maison111";
 import { carlitoTr } from "./carlito";
-import { ruecTr } from "./ruec";
 import { saintsauveurTr } from "./saintsauveur";
 import { bayeuxcaveTr } from "./bayeuxcave";
 import { saintpatriceTr } from "./saintpatrice";
 import { ouistrehamTr } from "./ouistreham";
 import { trouvilleTr } from "./trouville";
-import { roselTr } from "./rosel";
 import { studio29Tr } from "./studio29";
 import { chezjohanTr } from "./chezjohan";
 import { vauquelinTr } from "./vauquelin";
@@ -65,13 +63,11 @@ export const STYQR_CONTENT: Record<string, Tr> = {
   ...loftTr,
   ...maison111Tr,
   ...carlitoTr,
-  ...ruecTr,
   ...saintsauveurTr,
   ...bayeuxcaveTr,
   ...saintpatriceTr,
   ...ouistrehamTr,
   ...trouvilleTr,
-  ...roselTr,
   ...studio29Tr,
   ...chezjohanTr,
   ...vauquelinTr,

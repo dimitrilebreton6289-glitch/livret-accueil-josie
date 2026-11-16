@@ -25,7 +25,7 @@ import { NEARBY_SAINT_SAUVEUR, LAVERIES_SAINT_SAUVEUR, chezjohan } from "./chezj
  * Aucun code en clair dans le livret StyQR (le code de la boîte à clés est
  * envoyé par message le jour de l'arrivée).
  *
- * ⚠️ Vidéo hébergée chez StyQR : à mettre sur YouTube (dépliage du lit,
+ * ⚠️ Vidéo hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos) (dépliage du lit,
  * section « Lit escamotable »). Le livret StyQR contenait une 2e vidéo du même
  * sujet, plus ancienne, non reprise :
  * https://styqr-space.ams3.cdn.digitaloceanspaces.com/03683869-86f1-473d-872a-1fc65bdd47ff/0401-(1).mov
@@ -117,7 +117,7 @@ export const vauquelin: Logement = {
         contenu:
           "Pour gagner de la place, le lit double se replie contre le mur, sous la télévision. Pour le déplier ou le replier, regardez cette courte vidéo.",
         video:
-          "https://styqr-space.ams3.cdn.digitaloceanspaces.com/7fe74a4e-5144-4cb6-bc29-5d277a844a36/59665988-3F7A-4280-8C9C-A39302D7129B-export.mov",
+          "/logements/vauquelin/videos/lit.mp4",
         videoPortrait: true,
         photos: ["/logements/vauquelin/lit-ferme.jpg", "/logements/vauquelin/lit-ouvert.jpg"],
       },

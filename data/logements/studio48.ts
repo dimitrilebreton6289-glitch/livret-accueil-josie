@@ -74,7 +74,7 @@ const LAVERIES: Lieu[] = [
  * l'Ancienne Boucherie.
  *
  * Annonces : Booking 15395060. Pas d'annonce Airbnb identifiée.
- * ⚠️ Photo de couverture à fournir : en attendant, couverture générique de
+ * Couverture reprise de l'annonce Booking le 16/11/2026 (ancienne note : photo de couverture à fournir) : en attendant, couverture générique de
  * Caen (/logements/caen/cover.jpg).
  *
  * Refait d'après le livret StyQR « Studio 48 » (export du 2026-11-16, voir le
@@ -105,7 +105,7 @@ export const studio48: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=48+Rue+de+Bayeux+14000+Caen",
   coords: [49.1829024, -0.3774544],
-  cover: "/logements/caen/cover.jpg",
+  cover: "/logements/studio48/cover.jpg",
 
   motAccueil:
     "Bienvenue au Studio 48 ! Votre studio se trouve au rez-de-chaussée, rue de Bayeux, à deux pas de l'Abbaye aux Hommes. Cafés, restaurants et commerces sont tout proches, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰",

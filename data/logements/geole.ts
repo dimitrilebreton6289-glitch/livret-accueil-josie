@@ -228,7 +228,7 @@ export const geole: Logement = {
     poubelles:
       "Les poubelles se trouvent dans la cour, à l'extérieur de l'immeuble, à côté du portail d'entrée. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 8 place de la Mare",
     poubellesVideo:
-      "https://styqr-space.ams3.cdn.digitaloceanspaces.com/3d9cfaea-0819-436a-bc20-e4ac4a177af9/video-453_singular_display.MOV",
+      "/logements/geole/videos/poubelles.mp4",
     poubellesVideoPortrait: true,
     animaux:
       "Votre animal de compagnie est le bienvenu (un seul animal par séjour). Un supplément est appliqué pour son accueil.",

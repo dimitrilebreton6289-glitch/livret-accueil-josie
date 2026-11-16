@@ -116,7 +116,7 @@ export const RUE_BASSE_QUARTIER: Logement["quartier"] = {
  * Aucun code en clair dans le livret StyQR (le code de la boîte à clés est
  * envoyé par message).
  *
- * ⚠️ Vidéo hébergée chez StyQR : à mettre sur YouTube (la même vidéo sert au
+ * ⚠️ Vidéo hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos) (la même vidéo sert au
  * Loft). Si StyQR est résilié, le lien cessera de fonctionner.
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :
@@ -143,7 +143,7 @@ export const lappart: Logement = {
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     video:
-      "https://styqr-space.ams3.cdn.digitaloceanspaces.com/03e578d7-c54a-4850-90bb-71a5967d8469/IMG_8654.mov",
+      "/logements/lappart/videos/arrivee.mp4",
     videoPortrait: true,
     checkinExpress: [
       "L'appartement se trouve au 1er étage du 43 rue Basse, à gauche sur le palier (porte n°1)",

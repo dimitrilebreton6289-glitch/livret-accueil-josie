@@ -90,7 +90,7 @@ const LAVERIES: Lieu[] = [
  * StyQR. Il n'est PAS repris ici : il est envoyé par message avec celui de la
  * boîte à clés.
  *
- * ⚠️ Photo de couverture à fournir : en attendant, photo générique du château
+ * Couverture reprise de l'annonce Booking le 16/11/2026 (ancienne note : photo de couverture à fournir) : en attendant, photo générique du château
  * de Caen (/logements/caen/cover.jpg), faute d'annonce Airbnb pour ce logement.
  *
  * ⚠️ Vidéos hébergées chez StyQR (local vélo, départ, poubelles) : à mettre
@@ -112,7 +112,7 @@ export const chateau: Logement = {
   ville: "Caen",
   itineraire: "https://maps.google.com/?q=72+Rue+du+Vaugueux+14000+Caen",
   coords: [49.187145, -0.3601249],
-  cover: "/logements/caen/cover.jpg",
+  cover: "/logements/chateau/cover.jpg",
 
   motAccueil:
     "Bienvenue au Château ! Votre appartement se trouve dans le quartier du Vaugueux, au pied du château de Caen, que vous pourrez admirer depuis votre balcon. Ruelles pavées, restaurants et port de plaisance sont à quelques pas, et tout le centre historique se découvre à pied. Très bon séjour ! 🏰",
@@ -220,14 +220,14 @@ export const chateau: Logement = {
         contenu:
           "Un local à vélos est à votre disposition à l'extérieur de l'immeuble : en sortant, partez sur la gauche, il se trouve juste à droite du local poubelles. Pensez à prévoir un antivol. La vidéo ci-dessous vous montre le chemin.",
         video:
-          "https://styqr-space.ams3.cdn.digitaloceanspaces.com/35837bea-5d2e-456c-9d6b-1efb4d0f8ed8/copy_B6F1D60D-04CA-4CF1-940D-D48206E57FDE.MOV",
+          "/logements/chateau/videos/velo.mp4",
         videoPortrait: true,
       },
       {
         titre: "🔑 Départ : rendre les clés",
         contenu:
           "Le jour du départ, suivez cette vidéo pour sortir de la résidence et remettre les clés dans la boîte à clés de la place n° 24.",
-        video: "https://styqr-space.ams3.cdn.digitaloceanspaces.com/cd374249-aec1-4683-9bf0-7e146a6c7f9f/0603-(3).mov",
+        video: "/logements/chateau/videos/depart-cles.mp4",
         videoPortrait: true,
       },
       {
@@ -258,7 +258,7 @@ export const chateau: Logement = {
     poubelles:
       "Les poubelles se trouvent dans le « LOCAL POUBELLES », à l'extérieur, à côté de la porte d'entrée de l'immeuble. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 47 avenue de la Libération",
     poubellesVideo:
-      "https://styqr-space.ams3.cdn.digitaloceanspaces.com/3af67ecd-8b8e-405a-83f0-3176b043c4a8/video-453_singular_display.MOV",
+      "/logements/chateau/videos/poubelles.mp4",
     poubellesVideoPortrait: true,
     animaux:
       "Votre animal de compagnie est le bienvenu (un seul animal par séjour). Un supplément est appliqué pour son accueil.",

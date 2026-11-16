@@ -42,13 +42,11 @@ import { lappart } from "./lappart";
 import { loft } from "./loft";
 import { maison111 } from "./maison111";
 import { carlito } from "./carlito";
-import { ruec } from "./ruec";
 import { saintsauveur } from "./saintsauveur";
 import { bayeuxcave } from "./bayeuxcave";
 import { saintpatrice } from "./saintpatrice";
 import { ouistreham } from "./ouistreham";
 import { trouville } from "./trouville";
-import { rosel } from "./rosel";
 import { studio29 } from "./studio29";
 import { chezjohan } from "./chezjohan";
 import { vauquelin } from "./vauquelin";
@@ -65,7 +63,7 @@ import { maltot10 } from "./10abc";
  * Son livret sera alors accessible sur /<langue>/<id>.
  */
 export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul3, tilleul8, cinema, apto, vacherie, adn, boucherie1,
-  boucherie2, boucherie3, chateau, saintpierre, cheztheo, geole, numero4, numero7, duplex, vert, simone, perruche, tilleul2, tilleul4, tilleul9, gemare, thies, demolombe, pigaciere, lappart, loft, maison111, carlito, ruec, saintsauveur, bayeuxcave, saintpatrice, ouistreham, trouville, rosel, studio29, chezjohan, vauquelin, chezgeo, desmoueux, studio48, maltot10,
+  boucherie2, boucherie3, chateau, saintpierre, cheztheo, geole, numero4, numero7, duplex, vert, simone, perruche, tilleul2, tilleul4, tilleul9, gemare, thies, demolombe, pigaciere, lappart, loft, maison111, carlito, saintsauveur, bayeuxcave, saintpatrice, ouistreham, trouville, studio29, chezjohan, vauquelin, chezgeo, desmoueux, studio48, maltot10,
 ];
 
 /** Retourne un logement par son identifiant (ou undefined). */

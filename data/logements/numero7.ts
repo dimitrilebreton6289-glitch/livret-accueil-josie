@@ -83,7 +83,7 @@ export const numero7: Logement = {
       {
         titre: "📺 Télévision",
         contenu: c.studio.tv,
-        video: "https://styqr-space.ams3.cdn.digitaloceanspaces.com/f678db1b-7c6c-49d5-a06d-c2508a8aec4c/IMG_8056-(1)-(1).mov",
+        video: "/logements/numero7/videos/tv.mp4",
         videoPortrait: true,
       },
       c.sections.cafe,
@@ -92,7 +92,7 @@ export const numero7: Logement = {
         titre: "🌡️ Chauffage",
         contenu:
           "Pour allumer les radiateurs, sélectionnez « Allumer » avec les flèches, puis réglez la température. La vidéo ci-dessous vous montre comment faire. Merci de veiller à limiter votre consommation.",
-        video: "https://styqr-space.ams3.cdn.digitaloceanspaces.com/8c7aaf15-7799-4977-97ec-581db1a00ca3/IMG_8053.MOV",
+        video: "/logements/numero7/videos/chauffage.mp4",
         videoPortrait: true,
       },
       c.sections.menagePiece,

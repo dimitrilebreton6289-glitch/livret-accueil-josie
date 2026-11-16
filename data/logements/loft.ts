@@ -29,7 +29,7 @@ import {
  * Aucun code en clair dans le livret StyQR (le code de la boîte à clés est
  * envoyé par message).
  *
- * ⚠️ Vidéo hébergée chez StyQR : à mettre sur YouTube (c'est la même vidéo que
+ * ⚠️ Vidéo hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos) (c'est la même vidéo que
  * pour L'appart : ouverture de la porte de l'immeuble avec la clé FICHET).
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :
@@ -56,7 +56,7 @@ export const loft: Logement = {
   arrivee: {
     horaire: "Arrivée autonome à partir de 17h",
     video:
-      "https://styqr-space.ams3.cdn.digitaloceanspaces.com/94c5550f-aad8-4598-82e6-5205c52e9a82/IMG_8654.mov",
+      "/logements/loft/videos/arrivee.mp4",
     videoPortrait: true,
     checkinExpress: [
       "Le loft se trouve au 43 rue Basse : entrée au 1er étage, en face de l'escalier (porte n°2)",

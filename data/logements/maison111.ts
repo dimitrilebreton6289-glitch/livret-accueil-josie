@@ -88,7 +88,7 @@ const STATIONS: Lieu[] = [
  * Aucun code en clair dans le livret StyQR (le code de la boîte à clés est
  * envoyé par message).
  *
- * ⚠️ Vidéo hébergée chez StyQR (stationnement des vélos) : à mettre sur YouTube.
+ * ⚠️ Vidéo hébergée chez StyQR (stationnement des vélos) : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos).
  *
  * ⚠️ À VÉRIFIER PAR AGATHE :
  *   - Jardin : la présentation StyQR et Airbnb disent « jardin privatif », mais
@@ -175,7 +175,7 @@ export const maison111: Logement = {
         contenu:
           "Si vous voyagez à vélo, vous pouvez stationner vos vélos dans le jardin de la résidence (voir la vidéo). Le jardin étant partagé avec les autres résidents, il n'est pas sécurisé à 100 % : pensez à apporter vos antivols.",
         video:
-          "https://styqr-space.ams3.cdn.digitaloceanspaces.com/87d98f2a-cf60-4141-98d2-4b8353181852/IMG_1153.mov",
+          "/logements/maison111/videos/velos.mp4",
         videoPortrait: true,
       },
       {
