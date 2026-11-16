@@ -75,6 +75,9 @@ const LAVERIES: Lieu[] = [
  * Boucherie, à côté de l'Abbaye aux Hommes. Même immeuble que Boucherie 2
  * (2e étage) et Boucherie 3.
  *
+ * Annonces : Airbnb 766008550904483143 (« Boucherie 1er »), Booking 15394790.
+ * Photos reprises de l'annonce Airbnb (couverture = salon).
+ *
  * Refait d'après le livret StyQR « Boucherie 1 » (export du 2026-11-16, voir
  * le cerveau Josie : raw/documents/livrets-styqr/Boucherie-1.md) :
  * salon avec canapé-lit (2 pers.), espace repas et cuisine équipée, chambre
@@ -92,8 +95,6 @@ const LAVERIES: Lieu[] = [
  * Agathe.
  *
  * ⚠️ À COMPLÉTER PAR AGATHE :
- *   - Photo de couverture : provisoirement l'Abbaye aux Hommes (Wikimedia
- *     Commons, crédit dans coverCredit). Remplacer par une photo du logement.
  *   - Photos du parcours d'arrivée (optionnel : la vidéo existe déjà).
  *
  * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
@@ -106,7 +107,6 @@ export const boucherie1: Logement = {
   itineraire: "https://maps.google.com/?q=10+Place+de+l'Ancienne+Boucherie+14000+Caen",
   coords: [49.1826374, -0.3743477],
   cover: "/logements/boucherie1/cover.jpg",
-  coverCredit: "Abbaye aux Hommes — photo Zairon, Wikimedia Commons, CC BY-SA 4.0",
 
   motAccueil:
     "Bienvenue à Boucherie 1 ! Votre appartement se trouve sur une jolie place pavée, à deux pas de l'Abbaye aux Hommes et de l'hôtel de ville. Cafés, restaurants et petits commerces sont en bas de chez vous, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰",
@@ -172,10 +172,12 @@ export const boucherie1: Logement = {
         titre: "🛋️ Canapé-lit",
         contenu: "Pour déplier le canapé-lit, regardez cette courte vidéo.",
         video: "https://www.youtube.com/watch?v=yB5Dmc_Acvk",
+        photos: ["/logements/boucherie1/canape-lit.jpg"],
       },
       {
         titre: "☕ Machine à café",
         contenu: "La machine à café est une Nespresso (capsules). Quelques capsules vous sont offertes à votre arrivée.",
+        photos: ["/logements/boucherie1/cafe.jpg"],
       },
       {
         titre: "🔥 Plaque de cuisson",
