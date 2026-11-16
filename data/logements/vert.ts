@@ -25,7 +25,7 @@ import { caponiere46 as c } from "./numero4";
  * n'est PAS repris ici : il est envoyé par message, avec celui de la boîte à
  * clés.
  *
- * ⚠️ Photo de couverture à fournir (photo générique du château de Caen en
+ * Couverture reprise de l'annonce Airbnb 44679486 (« Appartement lit double et canapé-lit », annonce « Appartements de François ») le 16/11/2026 (ancienne note : photo de couverture à fournir) (photo générique du château de Caen en
  * attendant).
  *
  * ⚠️ À vérifier par Agathe :
@@ -45,7 +45,7 @@ export const vert: Logement = {
   ville: c.ville,
   itineraire: c.itineraire,
   coords: c.coords,
-  cover: c.cover,
+  cover: "/logements/vert/cover.jpg",
 
   motAccueil:
     "Bienvenue dans l'appartement Vert ! Cosy et rénové, il se trouve au 1er étage d'un immeuble de la rue Caponière, à deux pas de l'Abbaye aux Hommes et du centre-ville. Cafés, restaurants et commerces sont tout proches, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🌿",

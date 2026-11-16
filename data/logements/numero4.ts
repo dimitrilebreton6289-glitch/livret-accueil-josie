@@ -251,7 +251,7 @@ const c = caponiere46;
  * StyQR. Il n'est PAS repris ici : il est envoyé par message, avec celui de la
  * serrure.
  *
- * ⚠️ Photo de couverture à fournir (photo générique du château de Caen en
+ * Couverture reprise de l'annonce Airbnb 38215581 (« Studio rénové haut de gamme », annonce « Appartements de François ») le 16/11/2026 (ancienne note : photo de couverture à fournir) (photo générique du château de Caen en
  * attendant).
  *
  * ⚠️ Vidéo « Télévision » hébergée chez StyQR : rapatriée dans le livret le 16/11/2026 (fichier MP4 dans public/logements/<id>/videos).
@@ -272,7 +272,7 @@ export const numero4: Logement = {
   ville: c.ville,
   itineraire: c.itineraire,
   coords: c.coords,
-  cover: c.cover,
+  cover: "/logements/numero4/cover.jpg",
 
   motAccueil:
     "Bienvenue au Numéro 4 ! Votre studio se trouve au 1er étage d'un immeuble de la rue Caponière, à deux pas de l'Abbaye aux Hommes et de la place Saint-Sauveur. Cafés, restaurants et commerces sont tout proches, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰",

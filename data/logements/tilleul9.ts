@@ -25,7 +25,7 @@ import { TILLEUL_CATEGORIES, TILLEUL_COUP_DE_COEUR } from "./tilleul2";
  * et bacs (Tilleul 8), radiateur, cafetière et déshumidificateur (StyQR).
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ Photo de couverture à fournir : la couverture actuelle est la façade de
+ * Couverture reprise de l'annonce Airbnb 1649517131502445626 (« Studio terrasse privée », annonce « Appartements de Maxime ») le 16/11/2026 (ancienne note : photo de couverture à fournir) : la couverture actuelle est la façade de
  *    l'immeuble (photo de Tilleul 8), faute de photos propres au studio.
  * ⚠️ À vérifier par Agathe :
  *   - Photos du parcours d'arrivée côté droit (boîte à clés, portillon noir) :

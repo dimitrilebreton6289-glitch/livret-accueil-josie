@@ -22,7 +22,7 @@ import { caponiere46 as c } from "./numero4";
  * StyQR. Il n'est PAS repris ici : il est envoyé par message, avec celui de la
  * serrure.
  *
- * ⚠️ Photo de couverture à fournir (photo générique du château de Caen en
+ * Couverture reprise de l'annonce Airbnb 37313298 (« Studio haut de gamme · Lit Queen », annonce « Appartements de François ») le 16/11/2026 (ancienne note : photo de couverture à fournir) (photo générique du château de Caen en
  * attendant).
  *
  * ⚠️ Vidéos « Télévision » et « Chauffage » hébergées chez StyQR : à mettre
@@ -43,7 +43,7 @@ export const numero7: Logement = {
   ville: c.ville,
   itineraire: c.itineraire,
   coords: c.coords,
-  cover: c.cover,
+  cover: "/logements/numero7/cover.jpg",
 
   motAccueil:
     "Bienvenue au Numéro 7 ! Votre studio se trouve au 2e étage d'un immeuble de la rue Caponière, à deux pas de l'Abbaye aux Hommes et de la place Saint-Sauveur. Cafés, restaurants et commerces sont tout proches, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰",

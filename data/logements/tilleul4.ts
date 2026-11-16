@@ -25,7 +25,7 @@ import { TILLEUL_CATEGORIES, TILLEUL_COUP_DE_COEUR } from "./tilleul2";
  * et bacs (Tilleul 8), radiateur, télécommandes et cafetière (StyQR).
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ Photo de couverture à fournir : la couverture actuelle est la façade de
+ * Couverture reprise de l'annonce Airbnb 1649546243007952500 (« Studio cosy », annonce « Appartements de Maxime ») le 16/11/2026 (ancienne note : photo de couverture à fournir) : la couverture actuelle est la façade de
  *    l'immeuble (photo de Tilleul 8), faute de photos propres au studio.
  * ⚠️ À vérifier par Agathe :
  *   - Nom exact du réseau WiFi : StyQR affiche « XXXX_7B50 » (même mot de passe

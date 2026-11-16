@@ -67,7 +67,7 @@ export const TILLEUL_COUP_DE_COEUR =
  * résidence (arrivee-4), bacs (poubelles). Photo du radiateur : StyQR.
  *
  * ─────────────────────────────────────────────────────────────────────────────
- * ⚠️ Photo de couverture à fournir : la couverture actuelle est la façade de
+ * Couverture reprise de l'annonce Airbnb 1497126870002663478 (« Studio neuf », annonce « Appartements de Maxime ») le 16/11/2026 (ancienne note : photo de couverture à fournir) : la couverture actuelle est la façade de
  *    l'immeuble (photo de Tilleul 8), faute de photos propres au studio.
  * ⚠️ À vérifier par Agathe :
  *   - Nom exact du réseau WiFi : StyQR affiche « XXXX_7B50 » pour Tilleul 2 et
