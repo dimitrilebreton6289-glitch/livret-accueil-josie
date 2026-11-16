@@ -1,0 +1,287 @@
+import type { Logement, Lieu } from "../types";
+import { caen } from "./caen";
+
+/**
+ * Adresses proches du 10 place de l'Ancienne Boucherie (quartier de l'Abbaye
+ * aux Hommes), reprises du livret StyQR « Boucherie 1 » (coups de cœur d'Agathe
+ * + commerces géolocalisés). Elles remplacent les catégories « du quotidien »
+ * de Caen ; les autres (culture, nature, plages, sorties…) sont reprises de
+ * Caen. Les distances sont recalculées depuis les coordonnées du logement.
+ */
+const NEARBY: Record<string, Lieu[]> = {
+  restaurants: [
+    { nom: "Joufflu 1er", desc: "Restaurant sur la place, juste en bas du logement.", coords: [49.1826033, -0.3739158] },
+    { nom: "Bouillon Caponière", desc: "Bouillon : cuisine traditionnelle à petits prix.", coords: [49.1819247, -0.3749707] },
+    { nom: "Chez Sandy", desc: "Restaurant de quartier, rue Caponière.", coords: [49.1816888, -0.3762207] },
+    { nom: "Bouillon Saint Martin", desc: "Bouillon, place Saint-Martin.", coords: [49.183564, -0.3706303] },
+    { nom: "Monsieur Louis", desc: "Cuisine normande.", coords: [49.1828029, -0.3685023] },
+    { nom: "La Buona Tavola", desc: "Cuisine italienne, près de la place Saint-Sauveur.", coords: [49.1830556, -0.3677778] },
+    { nom: "Canaglia", desc: "Pizzeria.", coords: [49.1819193, -0.3675325] },
+    { nom: "La Tomette", desc: "Restaurant de cuisine maison.", coords: [49.181308, -0.3663487] },
+    { nom: "Le Mug", desc: "Coup de cœur d'Agathe, rue Saint-Pierre.", coords: [49.1832633, -0.3639462] },
+    { nom: "Bœuf & Cow", desc: "Coup de cœur d'Agathe : viandes et burgers.", coords: [49.1834259, -0.3604218] },
+    { nom: "Le Bistrot Basque", desc: "Coup de cœur d'Agathe, quai Vendeuvre.", coords: [49.1829026, -0.3557928] },
+    { nom: "A Contre Sens", desc: "Coup de cœur d'Agathe : table gastronomique, quai François Mitterrand.", coords: [49.1815869, -0.3499325] },
+  ],
+  restorapide: [
+    { nom: "Les Burgers de Colette", desc: "Coup de cœur d'Agathe : burgers, rue Écuyère.", coords: [49.1818593, -0.3689317] },
+    { nom: "Bagel Street", desc: "Bagels.", coords: [49.1819321, -0.3665865] },
+    { nom: "Grain de folie", desc: "Sandwichs et formules à emporter.", coords: [49.1824995, -0.3647361] },
+    { nom: "Café Céramique Nami", desc: "Café et pâtisseries, sur la place (on peut aussi y peindre sa céramique).", coords: [49.182623, -0.3741035] },
+    { nom: "Mapple Coffee", desc: "Coffee shop, rue Caponière.", coords: [49.1821698, -0.374836] },
+    { nom: "Bayla", desc: "Brunch, rue Écuyère.", coords: [49.1818898, -0.3701178] },
+    { nom: "Kinkuro", desc: "Coffee shop, rue Écuyère.", coords: [49.1819977, -0.3687669] },
+  ],
+  bars: [
+    { nom: "Le Boudoir", desc: "Bar, rue Pémagnie.", coords: [49.1836653, -0.3694402] },
+    { nom: "Nonna", desc: "Coup de cœur d'Agathe, rue Saint-Sauveur.", coords: [49.1830556, -0.3676429] },
+    { nom: "Le Comptoir", desc: "Bar de quartier, produits locaux.", coords: [49.1837389, -0.3662196] },
+    { nom: "Âmbar", desc: "Coup de cœur d'Agathe, boulevard Maréchal Leclerc.", coords: [49.1816815, -0.3614276] },
+  ],
+  bouche: [
+    { nom: "Poissonnerie Le Grand Bleu", desc: "Poissonnerie, à deux pas du logement.", coords: [49.1823635, -0.3737343] },
+    { nom: "Fromagerie Conquérant", desc: "Fromagerie, rue Guillaume le Conquérant.", coords: [49.1822109, -0.371903] },
+    { nom: "Maison Kayser", desc: "Boulangerie, place Saint-Sauveur.", coords: [49.1828662, -0.3681402] },
+    { nom: "Tartines et Gourmandises", desc: "Coup de cœur d'Agathe : boulangerie, rue Froide.", coords: [49.1837062, -0.3656687] },
+    { nom: "Cave Rouge et Blanc", desc: "Caviste, rue aux Namps.", coords: [49.1840356, -0.3664232] },
+    { nom: "La Crémerie des Baratineurs", desc: "Coup de cœur d'Agathe : fromagerie, rue Saint-Jean.", coords: [49.181263, -0.3583316] },
+  ],
+  courses: [
+    { nom: "Carrefour Express", desc: "La supérette la plus proche, rue de Bayeux.", coords: [49.1824752, -0.3760565] },
+    { nom: "Casino Shop", desc: "Supérette, place Malherbe.", coords: [49.1820829, -0.3669639] },
+    { nom: "E.Leclerc", desc: "Supermarché, rue Lanfranc.", coords: [49.1862961, -0.3810212] },
+    { nom: "Marché Saint-Sauveur", desc: "Le marché du vendredi matin, place Saint-Sauveur : l'un des plus beaux de Caen.", coords: [49.182429, -0.369917] },
+  ],
+  tram: [
+    { nom: "Arrêt de bus « Hôtel de Ville »", desc: "L'arrêt de bus le plus proche, devant l'Abbaye aux Hommes.", coords: [49.1811824, -0.3727734] },
+    { nom: "Arrêt de tram « Place de la Mare »", desc: "L'arrêt de tram le plus proche (~10 min à pied).", coords: [49.187628, -0.3672767] },
+    { nom: "Réseau Twisto (tram & bus)", desc: "3 lignes de tram et de nombreux bus. Horaires, plan et tickets sur l'appli Twisto ou aux distributeurs." },
+  ],
+  sante: [
+    { nom: "Pharmacie Danjou", desc: "La pharmacie la plus proche, place Malherbe. Pharmacie de garde : composez le 3237.", coords: [49.1819435, -0.3671331] },
+    { nom: "Pharmacie Lafayette du Théâtre", desc: "Pharmacie, rue Paul Doumer.", coords: [49.1817725, -0.3650896] },
+    { nom: "Clinique de la Miséricorde", desc: "Clinique, fossés Saint-Julien.", coords: [49.185343, -0.367257] },
+  ],
+};
+
+/** Laveries proches (catégorie absente du livret de Caen, ajoutée ici). */
+const LAVERIES: Lieu[] = [
+  { nom: "Lavomatique Caponière", desc: "La laverie la plus proche, rue Caponière.", coords: [49.1815765, -0.3765192] },
+  { nom: "Lavomatique Écuyère", desc: "Laverie automatique, rue Écuyère.", coords: [49.1820676, -0.3674522] },
+];
+
+/**
+ * Logement « Boucherie 1 » — appartement au 1er étage du 10 place de l'Ancienne
+ * Boucherie, à côté de l'Abbaye aux Hommes. Même immeuble que Boucherie 2
+ * (2e étage) et Boucherie 3.
+ *
+ * Refait d'après le livret StyQR « Boucherie 1 » (export du 2026-11-16, voir
+ * le cerveau Josie : raw/documents/livrets-styqr/Boucherie-1.md) :
+ * salon avec canapé-lit (2 pers.), espace repas et cuisine équipée, chambre
+ * indépendante avec lit double, salle de bain et WC séparés. Arrivée 17h,
+ * départ 10h. Animaux acceptés (1 maximum, avec supplément). Non-fumeur,
+ * pas de fêtes.
+ *
+ * « Autour de moi » : adresses du quotidien proches du logement (NEARBY),
+ * avec les coups de cœur d'Agathe repris de StyQR ; le reste vient de Caen.
+ *
+ * ─────────────────────────────────────────────────────────────────────────────
+ * ⚠️ Le code de la porte d'entrée de l'immeuble figurait en clair dans le
+ * livret StyQR. Il n'est PAS repris ici (comme pour la boîte à clés d'ADN) :
+ * il est envoyé par message avec celui de la boîte à clés. À confirmer par
+ * Agathe.
+ *
+ * ⚠️ À COMPLÉTER PAR AGATHE :
+ *   - Photo de couverture : provisoirement l'Abbaye aux Hommes (Wikimedia
+ *     Commons, crédit dans coverCredit). Remplacer par une photo du logement.
+ *   - Photos du parcours d'arrivée (optionnel : la vidéo existe déjà).
+ *
+ * Pour traduire un texte, voir data/i18n-content.ts (clé = texte FR exact).
+ */
+export const boucherie1: Logement = {
+  id: "boucherie1",
+  nom: "Boucherie 1",
+  adresse: "10 Place de l'Ancienne Boucherie, 14000 Caen",
+  ville: "Caen",
+  itineraire: "https://maps.google.com/?q=10+Place+de+l'Ancienne+Boucherie+14000+Caen",
+  coords: [49.1826374, -0.3743477],
+  cover: "/logements/boucherie1/cover.jpg",
+  coverCredit: "Abbaye aux Hommes — photo Zairon, Wikimedia Commons, CC BY-SA 4.0",
+
+  motAccueil:
+    "Bienvenue à Boucherie 1 ! Votre appartement se trouve sur une jolie place pavée, à deux pas de l'Abbaye aux Hommes et de l'hôtel de ville. Cafés, restaurants et petits commerces sont en bas de chez vous, et le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰",
+
+  arrivee: {
+    horaire: "Arrivée autonome à partir de 17h",
+    video: "https://youtube.com/shorts/MyzpQHsw5wk",
+    videoPortrait: true,
+    checkinExpress: [
+      "L'appartement se trouve au 1er étage du 10 place de l'Ancienne Boucherie, porte de gauche sur le palier",
+      "Le code de la porte d'entrée et celui de la boîte à clés vous sont communiqués par message le jour de votre arrivée",
+      "Suivez la vidéo ci-dessous pour accéder à l'appartement",
+    ],
+    etapes: [
+      { texte: "Rendez-vous au 10 place de l'Ancienne Boucherie." },
+      { texte: "Composez le code de la porte d'entrée reçu par message, puis ouvrez la porte." },
+      { texte: "Traversez le couloir et allez à gauche : la boîte à clés se trouve à côté des boîtes aux lettres." },
+      {
+        texte:
+          "Composez le code de la boîte à clés reçu par message, puis appuyez sur les boutons latéraux pour l'ouvrir. Récupérez les clés, refermez la boîte et brouillez le code.",
+      },
+      { texte: "Montez les escaliers jusqu'au 1er étage : votre porte est à gauche sur le palier. Bienvenue chez vous ! 🙂" },
+    ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+    },
+    parking:
+      "Stationnement payant en journée (9h-12h30 et 14h-19h) rue Guillaume le Conquérant, rue Caponière, rue Saint-Martin et rue de Bayeux.\nStationnement gratuit rue Bicoquet, rue Caponière (après le coiffeur Henriette), rue Neuve Bourg l'Abbé, rue de Bretagne, rue de l'Académie et rue d'Hastings.\nParkings souterrains payants : Mairie et Paul Doumer. Tarifs : indigoneo.fr",
+    bagages:
+      "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
+    decouverte: {
+      rdc: [
+        "Pièce de vie avec salon et canapé-lit (2 personnes)",
+        "Espace repas et cuisine équipée",
+        "Salle de bain et WC séparés",
+        "Au fond de l'appartement, chambre indépendante avec lit double (2 personnes)",
+      ],
+      etage: [],
+      exterieur: [],
+    },
+  },
+
+  wifi: {
+    reseau: "Thibaud et Marine 1",
+    motDePasse: "AirbnbMT1",
+  },
+
+  pratique: {
+    aSavoir: [],
+    aSavoirSections: [
+      {
+        titre: "🎁 Produits d'accueil",
+        contenu:
+          "À votre arrivée, vous trouverez : papier toilette, une miniature de gel douche/shampooing par personne, sel et poivre, quelques capsules de café et du thé, du produit vaisselle et une éponge.",
+      },
+      {
+        titre: "🛏️ Linge de maison",
+        contenu:
+          "Les draps sont fournis pour les deux lits. Chaque voyageur dispose d'une serviette de toilette. Un tapis de bain et un torchon de cuisine sont également à votre disposition.",
+      },
+      {
+        titre: "🛋️ Canapé-lit",
+        contenu: "Pour déplier le canapé-lit, regardez cette courte vidéo.",
+        video: "https://www.youtube.com/watch?v=yB5Dmc_Acvk",
+      },
+      {
+        titre: "☕ Machine à café",
+        contenu: "La machine à café est une Nespresso (capsules). Quelques capsules vous sont offertes à votre arrivée.",
+      },
+      {
+        titre: "🔥 Plaque de cuisson",
+        contenu:
+          "Les boutons sont tactiles. Si la plaque se verrouille, restez appuyé longuement sur le cadenas (ou la clé selon le modèle) pour la déverrouiller.",
+      },
+      {
+        titre: "📺 Télévision",
+        contenu:
+          "1. Appuyez sur le bouton On/Off pour allumer le téléviseur (sans image, vérifiez que la source est bien HDMI 1).\n2. Avec la télécommande de la box, appuyez sur On/Off pour allumer le décodeur.\n3. Avec les flèches, sélectionnez « TV Bouygues » puis validez avec OK.\n4. Utilisez ensuite la télécommande de la box pour changer de chaîne et régler le volume.",
+      },
+      {
+        titre: "🌡️ Chauffage",
+        contenu:
+          "Pour allumer les radiateurs, appuyez sur le bouton On/Off, puis réglez la température avec les flèches. Merci de veiller à limiter votre consommation.",
+      },
+      {
+        titre: "🧹 Ménage",
+        contenu: "L'aspirateur et la serpillière se trouvent dans le placard près de la salle de bain.",
+      },
+      {
+        titre: "👶 Équipement bébé",
+        contenu:
+          "Un lit parapluie peut être mis à votre disposition sur demande préalable. Le matelas et les draps ne sont pas fournis.",
+      },
+      {
+        titre: "🍽️ Vaisselle",
+        contenu:
+          "En cas de casse de vaisselle durant votre séjour, merci de nous en informer afin que nous puissions remplacer les éléments manquants. Selon la nature des articles endommagés, un remboursement pourra être demandé.",
+      },
+    ],
+    electromenager: [
+      "Plaque de cuisson",
+      "Réfrigérateur",
+      "Machine Nespresso",
+      "TV",
+    ],
+    reglementInterieur: {
+      capaciteMax: 4,
+      nonFumeur: true,
+      animauxAcceptes: true,
+      evenementsAutorises: false,
+      horairesCalme:
+        "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes.",
+      texte:
+        "Logement non-fumeur : merci de descendre dans la rue pour fumer. Les fêtes et les soirées sont strictement interdites. Merci de limiter le bruit, dans l'appartement comme dans les couloirs et les escaliers.",
+    },
+    poubelles:
+      "Les poubelles se trouvent dans le patio extérieur, au rez-de-chaussée. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 4 place de l'Ancienne Boucherie",
+    animaux:
+      "Votre animal de compagnie est le bienvenu (un seul animal par séjour). Un supplément est appliqué pour son accueil.",
+  },
+
+  equipements: [
+    "WiFi",
+    "TV (box Bouygues)",
+    "Lit double",
+    "Canapé-lit",
+    "Cuisine équipée",
+    "Plaque de cuisson",
+    "Réfrigérateur",
+    "Machine Nespresso",
+    "Salle de bain",
+    "WC séparés",
+    "Chauffage",
+    "Linge de lit & serviettes",
+    "Lit parapluie (sur demande)",
+    "Animaux acceptés",
+  ],
+
+  menageEnSejour: caen.menageEnSejour,
+
+  depart: {
+    horaire: "Jusqu'à 10h",
+    instructions: [
+      "Faire la vaisselle, la ranger et vider les poubelles",
+      "Rendre l'appartement propre et rangé",
+      "Fermer les fenêtres, éteindre les lumières et baisser ou éteindre les radiateurs",
+      "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Amazon Prime, etc.)",
+      "Fermer l'appartement à clé, puis remettre les clés dans la boîte à clés (à côté des boîtes aux lettres)",
+    ],
+    departTardif: caen.depart.departTardif,
+  },
+
+  quartier: {
+    aPied: [
+      "Abbaye aux Hommes & hôtel de ville (~2 min)",
+      "Place Saint-Martin (~4 min)",
+      "Rue Écuyère — bars & restaurants (~5 min)",
+      "Place Saint-Sauveur — cafés & marché du vendredi (~5 min)",
+      "Jardin des Plantes (~10 min)",
+      "Château de Caen (~12 min)",
+    ],
+    note: "Vous êtes dans le quartier de l'Abbaye aux Hommes, à l'ouest du centre historique. La place est calme, avec cafés et restaurants à deux pas. La rue Écuyère, la place Saint-Sauveur et le château se rejoignent facilement à pied.",
+  },
+
+  autourDeMoi: {
+    categories: [
+      ...caen.autourDeMoi.categories.map((c) =>
+        NEARBY[c.key] ? { key: c.key, lieux: NEARBY[c.key] } : c,
+      ),
+      { key: "laverie", lieux: LAVERIES },
+    ],
+    coupDeCoeur:
+      "Commencez par un café sur la place, puis visitez l'Abbaye aux Hommes juste à côté. Le vendredi matin, ne manquez pas le marché de la place Saint-Sauveur. Côté table, les adresses préférées d'Agathe : Les Burgers de Colette, Le Mug, Bœuf & Cow, Le Bistrot Basque et A Contre Sens. Pour un verre : Nonna ou Âmbar.",
+  },
+
+  numerosUtiles: caen.numerosUtiles,
+};
