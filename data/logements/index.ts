@@ -18,6 +18,44 @@ import { tilleul8 } from "./tilleul8";
 import { vacherie } from "./vacherie";
 import { adn } from "./adn";
 import { boucherie1 } from "./boucherie1";
+// Livrets refaits depuis StyQR (novembre 2026)
+import { boucherie2 } from "./boucherie2";
+import { boucherie3 } from "./boucherie3";
+import { chateau } from "./chateau";
+import { saintpierre } from "./saintpierre";
+import { cheztheo } from "./cheztheo";
+import { geole } from "./geole";
+import { numero4 } from "./numero4";
+import { numero7 } from "./numero7";
+import { duplex } from "./duplex";
+import { vert } from "./vert";
+import { simone } from "./simone";
+import { perruche } from "./perruche";
+import { tilleul2 } from "./tilleul2";
+import { tilleul4 } from "./tilleul4";
+import { tilleul9 } from "./tilleul9";
+import { gemare } from "./gemare";
+import { thies } from "./thies";
+import { demolombe } from "./demolombe";
+import { pigaciere } from "./pigaciere";
+import { lappart } from "./lappart";
+import { loft } from "./loft";
+import { maison111 } from "./maison111";
+import { carlito } from "./carlito";
+import { ruec } from "./ruec";
+import { saintsauveur } from "./saintsauveur";
+import { bayeuxcave } from "./bayeuxcave";
+import { saintpatrice } from "./saintpatrice";
+import { ouistreham } from "./ouistreham";
+import { trouville } from "./trouville";
+import { rosel } from "./rosel";
+import { studio29 } from "./studio29";
+import { chezjohan } from "./chezjohan";
+import { vauquelin } from "./vauquelin";
+import { chezgeo } from "./chezgeo";
+import { desmoueux } from "./desmoueux";
+import { studio48 } from "./studio48";
+import { maltot10 } from "./10abc";
 
 /**
  * Registre des logements.
@@ -26,7 +64,9 @@ import { boucherie1 } from "./boucherie1";
  *   2. Importez-le ici et ajoutez-le au tableau ci-dessous.
  * Son livret sera alors accessible sur /<langue>/<id>.
  */
-export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul3, tilleul8, cinema, apto, vacherie, adn, boucherie1];
+export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul3, tilleul8, cinema, apto, vacherie, adn, boucherie1,
+  boucherie2, boucherie3, chateau, saintpierre, cheztheo, geole, numero4, numero7, duplex, vert, simone, perruche, tilleul2, tilleul4, tilleul9, gemare, thies, demolombe, pigaciere, lappart, loft, maison111, carlito, ruec, saintsauveur, bayeuxcave, saintpatrice, ouistreham, trouville, rosel, studio29, chezjohan, vauquelin, chezgeo, desmoueux, studio48, maltot10,
+];
 
 /** Retourne un logement par son identifiant (ou undefined). */
 export function getLogement(id: string): Logement | undefined {

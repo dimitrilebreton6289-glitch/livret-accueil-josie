@@ -1,0 +1,167 @@
+import type { Tr } from "../i18n-content";
+
+/** Traductions du livret « gemare » (refait depuis StyQR). Clé = texte FR exact. */
+export const gemareTr: Record<string, Tr> = {
+  "Bienvenue à Gémare ! Votre appartement se trouve à deux pas du château et de la rue Saint-Pierre, avec le tram juste à côté. Restaurants, bars et commerces sont au coin de la rue, et tout le centre historique de Caen se découvre à pied. Très bon séjour ! 🏰": {
+    en: "Welcome to Gémare! Your flat is a stone's throw from the castle and rue Saint-Pierre, with the tram right next door. Restaurants, bars and shops are just around the corner, and the whole historic centre of Caen can be explored on foot. Enjoy your stay! 🏰",
+    de: "Willkommen im Gémare! Ihre Wohnung liegt nur wenige Schritte vom Schloss und der Rue Saint-Pierre entfernt, die Straßenbahn hält gleich nebenan. Restaurants, Bars und Geschäfte sind gleich um die Ecke, und die gesamte Altstadt von Caen lässt sich zu Fuß erkunden. Einen schönen Aufenthalt! 🏰",
+    es: "¡Bienvenido a Gémare! Su apartamento está a dos pasos del castillo y de la rue Saint-Pierre, con el tranvía justo al lado. Restaurantes, bares y tiendas están a la vuelta de la esquina, y todo el centro histórico de Caen se recorre a pie. ¡Que disfrute de su estancia! 🏰",
+    it: "Benvenuti al Gémare! Il vostro appartamento si trova a due passi dal castello e da rue Saint-Pierre, con il tram proprio accanto. Ristoranti, bar e negozi sono dietro l'angolo, e tutto il centro storico di Caen si scopre a piedi. Buon soggiorno! 🏰",
+  },
+  "L'appartement se trouve au rez-de-chaussée du 35 rue Gémare, juste à gauche en entrant": {
+    en: "The flat is on the ground floor of 35 rue Gémare, just on the left as you come in",
+    de: "Die Wohnung befindet sich im Erdgeschoss der Rue Gémare 35, gleich links nach dem Eingang",
+    es: "El apartamento está en la planta baja del 35 rue Gémare, justo a la izquierda al entrar",
+    it: "L'appartamento si trova al piano terra del 35 rue Gémare, subito a sinistra entrando",
+  },
+  "Rendez-vous au 35 rue Gémare : la boîte à clés est fixée à gauche de la porte de l'immeuble.": {
+    en: "Go to 35 rue Gémare: the key box is fixed to the left of the building's front door.",
+    de: "Begeben Sie sich zur Rue Gémare 35: Die Schlüsselbox ist links neben der Haustür befestigt.",
+    es: "Diríjase al 35 rue Gémare: la caja de llaves está fijada a la izquierda de la puerta del edificio.",
+    it: "Recatevi al 35 rue Gémare: la cassetta portachiavi è fissata a sinistra del portone dell'edificio.",
+  },
+  "Composez le code reçu par message, puis appuyez sur le cadenas pour ouvrir la boîte. Récupérez le badge et la clé, refermez la boîte et brouillez le code.": {
+    en: "Enter the code you received by message, then press the padlock to open the box. Take the fob and the key, close the box and scramble the code.",
+    de: "Geben Sie den per Nachricht erhaltenen Code ein und drücken Sie dann auf das Schloss, um die Box zu öffnen. Nehmen Sie den Chip und den Schlüssel heraus, schließen Sie die Box und verstellen Sie den Code.",
+    es: "Marque el código recibido por mensaje y luego presione el candado para abrir la caja. Recoja el llavero electrónico y la llave, cierre la caja y desordene el código.",
+    it: "Digitate il codice ricevuto per messaggio, poi premete sul lucchetto per aprire la cassetta. Prendete il badge e la chiave, richiudete la cassetta e mescolate il codice.",
+  },
+  "Passez le badge devant le lecteur rond, sous l'interphone, puis poussez la porte.": {
+    en: "Hold the fob in front of the round reader below the intercom, then push the door.",
+    de: "Halten Sie den Chip vor das runde Lesegerät unter der Gegensprechanlage und drücken Sie dann die Tür auf.",
+    es: "Pase el llavero electrónico por el lector redondo situado bajo el interfono y empuje la puerta.",
+    it: "Passate il badge davanti al lettore rotondo, sotto il citofono, poi spingete la porta.",
+  },
+  "La porte de l'appartement se trouve au rez-de-chaussée, juste sur votre gauche : ouvrez-la avec le verrou situé au-dessus de la poignée. Bienvenue chez vous ! 🙂": {
+    en: "The flat's door is on the ground floor, just on your left: open it using the lock above the handle. Welcome home! 🙂",
+    de: "Die Wohnungstür befindet sich im Erdgeschoss, gleich links: Öffnen Sie sie mit dem Schloss oberhalb der Klinke. Willkommen zu Hause! 🙂",
+    es: "La puerta del apartamento está en la planta baja, justo a su izquierda: ábrala con la cerradura situada encima de la manilla. ¡Bienvenido a casa! 🙂",
+    it: "La porta dell'appartamento si trova al piano terra, subito alla vostra sinistra: apritela con la serratura sopra la maniglia. Benvenuti a casa! 🙂",
+  },
+  "Stationnement payant en journée (9h-12h30 et 14h-19h) passage du Grand Turc, rue Demolombe, rue Saint-Laurent, rue de Geôle et parking des Quatrans.\nParkings souterrains payants : Mairie, Paul Doumer, République et Château. Tarifs : indigoneo.fr": {
+    en: "Paid parking during the day (9 a.m.–12.30 p.m. and 2–7 p.m.) on passage du Grand Turc, rue Demolombe, rue Saint-Laurent, rue de Geôle and at the Quatrans car park.\nPaid underground car parks: Mairie, Paul Doumer, République and Château. Rates: indigoneo.fr",
+    de: "Gebührenpflichtiges Parken tagsüber (9–12:30 Uhr und 14–19 Uhr) in der Passage du Grand Turc, Rue Demolombe, Rue Saint-Laurent, Rue de Geôle und auf dem Parkplatz Quatrans.\nGebührenpflichtige Tiefgaragen: Mairie, Paul Doumer, République und Château. Tarife: indigoneo.fr",
+    es: "Aparcamiento de pago durante el día (9 h-12.30 h y 14 h-19 h) en el passage du Grand Turc, la rue Demolombe, la rue Saint-Laurent, la rue de Geôle y el aparcamiento de los Quatrans.\nAparcamientos subterráneos de pago: Mairie, Paul Doumer, République y Château. Tarifas: indigoneo.fr",
+    it: "Parcheggio a pagamento di giorno (9-12.30 e 14-19) in passage du Grand Turc, rue Demolombe, rue Saint-Laurent, rue de Geôle e al parcheggio dei Quatrans.\nParcheggi sotterranei a pagamento: Mairie, Paul Doumer, République e Château. Tariffe: indigoneo.fr",
+  },
+  "En entrant : salon, cuisine équipée et espace repas": {
+    en: "As you enter: living room, equipped kitchen and dining area",
+    de: "Beim Eintreten: Wohnzimmer, ausgestattete Küche und Essbereich",
+    es: "Al entrar: salón, cocina equipada y zona de comedor",
+    it: "Entrando: soggiorno, cucina attrezzata e zona pranzo",
+  },
+  "Vous disposez de deux télécommandes : l'une pour la télévision, l'autre pour le décodeur Free.\n1. Allumez la télévision et le décodeur avec leurs boutons On/Off.\n2. Sélectionnez la source HDMI 1 pour accéder à Free TV.\n3. Changez ensuite de chaîne avec la télécommande du décodeur.": {
+    en: "You have two remote controls: one for the TV, the other for the Free set-top box.\n1. Turn on the TV and the set-top box with their On/Off buttons.\n2. Select the HDMI 1 source to access Free TV.\n3. Then change channels with the set-top box remote.",
+    de: "Sie haben zwei Fernbedienungen: eine für den Fernseher, die andere für den Free-Decoder.\n1. Schalten Sie Fernseher und Decoder mit ihren On/Off-Tasten ein.\n2. Wählen Sie die Quelle HDMI 1, um Free TV zu nutzen.\n3. Wechseln Sie dann die Sender mit der Fernbedienung des Decoders.",
+    es: "Dispone de dos mandos: uno para el televisor y otro para el decodificador Free.\n1. Encienda el televisor y el decodificador con sus botones On/Off.\n2. Seleccione la fuente HDMI 1 para acceder a Free TV.\n3. Cambie después de canal con el mando del decodificador.",
+    it: "Avete a disposizione due telecomandi: uno per il televisore, l'altro per il decoder Free.\n1. Accendete il televisore e il decoder con i rispettivi tasti On/Off.\n2. Selezionate la sorgente HDMI 1 per accedere a Free TV.\n3. Cambiate poi canale con il telecomando del decoder.",
+  },
+  "Pour allumer les radiateurs, appuyez sur le bouton On/Off, puis réglez la température avec les flèches. Merci de veiller à limiter votre consommation.\n\n⚠️ Dans la chambre, le radiateur est tout près du lit : merci de ne pas poser la couette ou les draps dessus.": {
+    en: "To turn on the heaters, press the On/Off button, then set the temperature with the arrows. Please be mindful of your energy use.\n\n⚠️ In the bedroom, the heater is right next to the bed: please don't put the duvet or sheets on it.",
+    de: "Um die Heizkörper einzuschalten, drücken Sie die On/Off-Taste und stellen Sie dann die Temperatur mit den Pfeiltasten ein. Bitte achten Sie auf einen sparsamen Verbrauch.\n\n⚠️ Im Schlafzimmer steht der Heizkörper direkt neben dem Bett: Bitte legen Sie weder Bettdecke noch Bettwäsche darauf.",
+    es: "Para encender los radiadores, pulse el botón On/Off y ajuste la temperatura con las flechas. Por favor, procure limitar su consumo.\n\n⚠️ En el dormitorio, el radiador está muy cerca de la cama: por favor, no ponga el edredón ni las sábanas encima.",
+    it: "Per accendere i termosifoni, premete il tasto On/Off, poi regolate la temperatura con le frecce. Vi preghiamo di limitare i consumi.\n\n⚠️ In camera il termosifone è vicinissimo al letto: vi preghiamo di non appoggiarvi il piumone o le lenzuola.",
+  },
+  "Un lit bébé est à votre disposition, rangé dans le lit coffre de la chambre (le matelas et les draps ne sont pas fournis). Vous disposez aussi d'une chaise pour enfant et d'un peu de vaisselle adaptée.": {
+    en: "A baby cot is available, stored in the storage bed in the bedroom (mattress and sheets are not provided). There's also a child's chair and some children's tableware.",
+    de: "Ein Babybett steht zur Verfügung; es ist im Bettkasten im Schlafzimmer verstaut (Matratze und Bettwäsche werden nicht gestellt). Außerdem gibt es einen Kinderstuhl und etwas Kindergeschirr.",
+    es: "Hay una cuna a su disposición, guardada en el canapé abatible del dormitorio (no se proporcionan colchón ni sábanas). También dispone de una silla infantil y de algo de vajilla para niños.",
+    it: "È a disposizione un lettino per neonati, riposto nel letto contenitore della camera (materasso e lenzuola non forniti). Avete anche una seggiolina per bambini e un po' di stoviglie per bambini.",
+  },
+  "Les déchets sont à déposer dans les bacs gris de la rue : le camion-poubelle passe tous les jours.\n🍷 Verre : 9 rue du Tour de Terre\n🥬 Déchets alimentaires (compost) : rue des Teinturiers": {
+    en: "Please put your rubbish in the grey bins in the street: the bin lorry comes every day.\n🍷 Glass: 9 rue du Tour de Terre\n🥬 Food waste (compost): rue des Teinturiers",
+    de: "Bitte entsorgen Sie Ihren Müll in den grauen Tonnen auf der Straße: Die Müllabfuhr kommt jeden Tag.\n🍷 Glas: Rue du Tour de Terre 9\n🥬 Bioabfall (Kompost): Rue des Teinturiers",
+    es: "Deposite los residuos en los contenedores grises de la calle: el camión de la basura pasa todos los días.\n🍷 Vidrio: 9 rue du Tour de Terre\n🥬 Residuos orgánicos (compost): rue des Teinturiers",
+    it: "I rifiuti vanno gettati nei bidoni grigi in strada: il camion della spazzatura passa tutti i giorni.\n🍷 Vetro: 9 rue du Tour de Terre\n🥬 Rifiuti organici (compost): rue des Teinturiers",
+  },
+  "Chaise haute": {
+    en: "High chair",
+    de: "Hochstuhl",
+    es: "Trona",
+    it: "Seggiolone",
+  },
+  "Fermer l'appartement à clé et remettre les clés dans la boîte à clés": {
+    en: "Lock the flat and put the keys back in the key box",
+    de: "Die Wohnung abschließen und die Schlüssel zurück in die Schlüsselbox legen",
+    es: "Cerrar el apartamento con llave y volver a dejar las llaves en la caja de llaves",
+    it: "Chiudere l'appartamento a chiave e rimettere le chiavi nella cassetta portachiavi",
+  },
+  "Le départ est prévu au plus tard à 10h. Un départ à 11h est possible gratuitement, selon disponibilités : demandez-le-nous. Pour partir plus tard, un départ tardif est possible sur demande préalable, avec un supplément à régler via le lien correspondant ci-dessous. Merci de me communiquer votre heure de départ une fois le paiement effectué.": {
+    en: "Check-out is by 10 a.m. at the latest. A check-out at 11 a.m. is possible free of charge, subject to availability: just ask us. To leave later, a late check-out is available on prior request, with an extra charge to be paid via the relevant link below. Please let me know your departure time once the payment is made.",
+    de: "Die Abreise ist spätestens um 10 Uhr vorgesehen. Eine Abreise um 11 Uhr ist je nach Verfügbarkeit kostenlos möglich: Fragen Sie uns einfach. Für eine spätere Abreise ist ein später Check-out auf vorherige Anfrage möglich, gegen einen Aufpreis, der über den entsprechenden Link unten zu bezahlen ist. Bitte teilen Sie mir Ihre Abreisezeit mit, sobald die Zahlung erfolgt ist.",
+    es: "La salida está prevista a las 10 h como muy tarde. Es posible salir a las 11 h sin coste, según disponibilidad: solo tiene que pedírnoslo. Para salir más tarde, puede solicitar con antelación una salida tardía, con un suplemento que se abona a través del enlace correspondiente más abajo. Por favor, comuníqueme su hora de salida una vez realizado el pago.",
+    it: "La partenza è prevista entro le 10. Una partenza alle 11 è possibile gratuitamente, in base alla disponibilità: basta chiedercelo. Per partire più tardi è possibile richiedere in anticipo una partenza posticipata, con un supplemento da pagare tramite il link corrispondente qui sotto. Vi prego di comunicarmi l'orario di partenza una volta effettuato il pagamento.",
+  },
+  "Arrêt de tram « Château - Quatrans » (~2 min)": {
+    en: "“Château - Quatrans” tram stop (~2 min)",
+    de: "Straßenbahnhaltestelle „Château - Quatrans“ (~2 Min.)",
+    es: "Parada de tranvía «Château - Quatrans» (~2 min)",
+    it: "Fermata del tram «Château - Quatrans» (~2 min)",
+  },
+  "Port de plaisance (~10 min)": {
+    en: "Marina (~10 min)",
+    de: "Yachthafen (~10 Min.)",
+    es: "Puerto deportivo (~10 min)",
+    it: "Porto turistico (~10 min)",
+  },
+  "Vous êtes en plein centre historique, entre le château, la rue Saint-Pierre et le quartier Saint-Sauveur. Restaurants, bars et commerces sont à deux pas, et le tram (arrêt Château - Quatrans) dessert la gare et la presqu'île.": {
+    en: "You're right in the historic centre, between the castle, rue Saint-Pierre and the Saint-Sauveur district. Restaurants, bars and shops are just steps away, and the tram (Château - Quatrans stop) serves the station and the peninsula.",
+    de: "Sie wohnen mitten in der Altstadt, zwischen dem Schloss, der Rue Saint-Pierre und dem Viertel Saint-Sauveur. Restaurants, Bars und Geschäfte sind nur wenige Schritte entfernt, und die Straßenbahn (Haltestelle Château - Quatrans) fährt zum Bahnhof und zur Halbinsel.",
+    es: "Está en pleno centro histórico, entre el castillo, la rue Saint-Pierre y el barrio de Saint-Sauveur. Restaurantes, bares y tiendas están a dos pasos, y el tranvía (parada Château - Quatrans) le lleva a la estación y a la península.",
+    it: "Siete in pieno centro storico, tra il castello, rue Saint-Pierre e il quartiere Saint-Sauveur. Ristoranti, bar e negozi sono a due passi, e il tram (fermata Château - Quatrans) collega la stazione e la penisola.",
+  },
+  "Pizzeria, rue de Geôle.": {
+    en: "Pizzeria, rue de Geôle.",
+    de: "Pizzeria, rue de Geôle.",
+    es: "Pizzería, rue de Geôle.",
+    it: "Pizzeria, rue de Geôle.",
+  },
+  "Restaurant coréen.": {
+    en: "Korean restaurant.",
+    de: "Koreanisches Restaurant.",
+    es: "Restaurante coreano.",
+    it: "Ristorante coreano.",
+  },
+  "Coup de cœur d'Agathe : burgers, rue Buquet.": {
+    en: "One of Agathe's favourites: burgers, rue Buquet.",
+    de: "Agathes Lieblingsadresse: Burger, rue Buquet.",
+    es: "Uno de los favoritos de Agathe: hamburguesas, rue Buquet.",
+    it: "Uno dei preferiti di Agathe: burger, rue Buquet.",
+  },
+  "Coup de cœur d'Agathe : brunch, avenue du Six Juin.": {
+    en: "One of Agathe's favourites: brunch, avenue du Six Juin.",
+    de: "Agathes Lieblingsadresse: Brunch, avenue du Six Juin.",
+    es: "Uno de los favoritos de Agathe: brunch, avenue du Six Juin.",
+    it: "Uno dei preferiti di Agathe: brunch, avenue du Six Juin.",
+  },
+  "Bar à vins, rue de Geôle.": {
+    en: "Wine bar, rue de Geôle.",
+    de: "Weinbar, rue de Geôle.",
+    es: "Bar de vinos, rue de Geôle.",
+    it: "Wine bar, rue de Geôle.",
+  },
+  "Bar, rue de Geôle.": {
+    en: "Bar, rue de Geôle.",
+    de: "Bar, rue de Geôle.",
+    es: "Bar, rue de Geôle.",
+    it: "Bar, rue de Geôle.",
+  },
+  "Pâtisserie-chocolaterie.": {
+    en: "Pastry and chocolate shop.",
+    de: "Konditorei und Chocolaterie.",
+    es: "Pastelería y chocolatería.",
+    it: "Pasticceria e cioccolateria.",
+  },
+  "Arrêt de tram et de bus au pied du château.": {
+    en: "Tram and bus stop at the foot of the castle.",
+    de: "Straßenbahn- und Bushaltestelle am Fuß des Schlosses.",
+    es: "Parada de tranvía y autobús al pie del castillo.",
+    it: "Fermata del tram e dell'autobus ai piedi del castello.",
+  },
+  "Montez sur les remparts du château, juste à côté, pour la vue sur la ville, puis flânez rue Saint-Pierre et rue Froide. Le vendredi matin, ne manquez pas le marché de la place Saint-Sauveur. Côté table, les adresses préférées d'Agathe : Le Mug, Bœuf & Cow, Le Bistrot Basque, A Contre Sens et Les Burgers de Colette. Pour un verre : Nonna ou Âmbar.": {
+    en: "Climb the castle ramparts, right next door, for the view over the city, then stroll along rue Saint-Pierre and rue Froide. On Friday mornings, don't miss the market on place Saint-Sauveur. For food, Agathe's favourite spots: Le Mug, Bœuf & Cow, Le Bistrot Basque, A Contre Sens and Les Burgers de Colette. For a drink: Nonna or Âmbar.",
+    de: "Steigen Sie auf die Schlossmauern gleich nebenan, um die Aussicht auf die Stadt zu genießen, und bummeln Sie dann durch die Rue Saint-Pierre und die Rue Froide. Verpassen Sie freitagvormittags nicht den Markt auf der Place Saint-Sauveur. Zum Essen Agathes Lieblingsadressen: Le Mug, Bœuf & Cow, Le Bistrot Basque, A Contre Sens und Les Burgers de Colette. Für einen Drink: Nonna oder Âmbar.",
+    es: "Suba a las murallas del castillo, justo al lado, para disfrutar de la vista sobre la ciudad, y pasee después por la rue Saint-Pierre y la rue Froide. Los viernes por la mañana, no se pierda el mercado de la place Saint-Sauveur. Para comer, las direcciones favoritas de Agathe: Le Mug, Bœuf & Cow, Le Bistrot Basque, A Contre Sens y Les Burgers de Colette. Para tomar algo: Nonna o Âmbar.",
+    it: "Salite sui bastioni del castello, proprio accanto, per la vista sulla città, poi passeggiate in rue Saint-Pierre e rue Froide. Il venerdì mattina non perdetevi il mercato di place Saint-Sauveur. A tavola, gli indirizzi preferiti di Agathe: Le Mug, Bœuf & Cow, Le Bistrot Basque, A Contre Sens e Les Burgers de Colette. Per un drink: Nonna o Âmbar.",
+  },
+};

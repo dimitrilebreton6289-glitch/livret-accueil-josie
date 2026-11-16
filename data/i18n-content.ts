@@ -7,9 +7,11 @@
  * Les noms propres (Edulis, Lidl, Le Sélect…) ne sont pas traduits :
  * il suffit de ne pas les lister ici.
  */
-type Tr = { en?: string; de?: string; es?: string; it?: string };
+import { STYQR_CONTENT } from "./i18n-styqr";
 
-export const CONTENT: Record<string, Tr> = {
+export type Tr = { en?: string; de?: string; es?: string; it?: string };
+
+export const BASE_CONTENT: Record<string, Tr> = {
   // ------------------------------------------ Houlgate 1 — étapes d'arrivée
   "Rendez-vous au 23 rue des Bains, à Houlgate.": {
     en: "Meet at 23 rue des Bains, in Houlgate.",
@@ -9390,3 +9392,7 @@ export const CONTENT: Record<string, Tr> = {
     it: "La lavanderia più vicina, rue Caponière.",
   },
 };
+
+/** Dictionnaire complet : traductions de base + celles des livrets refaits
+ *  depuis StyQR (un fichier par logement dans data/i18n-styqr/). */
+export const CONTENT: Record<string, Tr> = { ...STYQR_CONTENT, ...BASE_CONTENT };
