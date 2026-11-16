@@ -10,6 +10,7 @@ import JosieAvatar from "@/components/JosieAvatar";
 import VideoEmbed from "@/components/VideoEmbed";
 import Accordion from "@/components/Accordion";
 import WeatherCard from "@/components/WeatherCard";
+import SejourBlocs from "@/components/SejourBlocs";
 
 export default async function HomePage({
   params,
@@ -59,6 +60,10 @@ export default async function HomePage({
             externalHref={logement.itineraire}
             featured
           />
+
+          {/* Livret connecté : logement prêt, codes, état à l'arrivée, avis
+              (seulement avec un lien de séjour valable) */}
+          <SejourBlocs livret={logement.id} />
 
           {/* 2. Mot d'accueil */}
           <section className="rounded-card bg-cream-deep p-5">

@@ -146,5 +146,33 @@
     "title": "El tiempo de los próximos días",
     "today": "Hoy",
     "rainTip": "Se anuncia lluvia: aquí tiene nuestras ideas de salidas a cubierto (museos, cine, cafés)."
+  },
+  "Sejour": {
+    "chargement": "Abriendo su guía de bienvenida…",
+    "lienInvalideTitre": "Enlace no disponible",
+    "lienInvalideTexte": "Este enlace no es válido o su estancia ha terminado. Contáctenos a través de los mensajes de su reserva.",
+    "pretTitre": "¡Su alojamiento está listo!",
+    "pretTexte": "La limpieza ha terminado, todo está listo para recibirle.",
+    "pretTexteHeure": "La limpieza ha terminado: puede llegar a partir de las {heure} h.",
+    "enPreparationTitre": "Su alojamiento se está preparando",
+    "enPreparationTexte": "La limpieza está en curso. Vuelva a esta página un poco más tarde: indicará cuándo está todo listo.",
+    "codesTitre": "Sus códigos de acceso",
+    "codesNote": "Visibles solo durante su estancia. Por favor, no los comparta.",
+    "etatTitre": "¿Todo en orden?",
+    "etatQuestion": "Díganos con un clic si todo está bien en el alojamiento.",
+    "etatOk": "👍 Todo perfecto",
+    "etatProbleme": "Señalar un problema",
+    "etatPlaceholder": "Describa el problema (qué falta, qué no funciona…)",
+    "etatPhoto": "Añadir una foto (opcional)",
+    "etatMerci": "¡Gracias! Su mensaje se ha enviado al equipo.",
+    "envoyer": "Enviar",
+    "envoi": "Enviando…",
+    "erreur": "El envío no ha funcionado. Inténtelo de nuevo o escríbanos a través de su reserva.",
+    "avisTitre": "Su estancia en una nota",
+    "avisQuestion": "¿Qué tal su estancia?",
+    "avisPrive": "¡Gracias! Díganos qué podría haber sido mejor: su mensaje va directamente a Agathe, que gestiona el alojamiento.",
+    "avisMerci": "Gracias por su opinión, Agathe la leerá con atención.",
+    "avisMerciBon": "¡Muchas gracias! Si tiene un minuto, una opinión pública nos ayuda muchísimo.",
+    "avisPublicLien": "Dejar una opinión en {plateforme}"
   }
 }

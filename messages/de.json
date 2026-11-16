@@ -146,5 +146,33 @@
     "title": "Wetter der nächsten Tage",
     "today": "Heute",
     "rainTip": "Es ist Regen angesagt: Hier sind unsere Ideen für Ausflüge im Trockenen (Museen, Kino, Cafés)."
+  },
+  "Sejour": {
+    "chargement": "Ihre Willkommensmappe wird geöffnet…",
+    "lienInvalideTitre": "Link nicht verfügbar",
+    "lienInvalideTexte": "Dieser Link ist ungültig oder Ihr Aufenthalt ist beendet. Bitte kontaktieren Sie uns über die Nachrichten Ihrer Buchung.",
+    "pretTitre": "Ihre Unterkunft ist bereit!",
+    "pretTexte": "Die Reinigung ist abgeschlossen, alles ist für Ihre Ankunft bereit.",
+    "pretTexteHeure": "Die Reinigung ist abgeschlossen: Sie können ab {heure} Uhr anreisen.",
+    "enPreparationTitre": "Ihre Unterkunft wird vorbereitet",
+    "enPreparationTexte": "Die Reinigung läuft. Schauen Sie etwas später wieder auf diese Seite: Sie zeigt an, wenn alles bereit ist.",
+    "codesTitre": "Ihre Zugangscodes",
+    "codesNote": "Nur während Ihres Aufenthalts sichtbar. Bitte nicht weitergeben.",
+    "etatTitre": "Gut angekommen?",
+    "etatQuestion": "Sagen Sie uns mit einem Klick, ob alles in Ordnung ist.",
+    "etatOk": "👍 Alles ist perfekt",
+    "etatProbleme": "Ein Problem melden",
+    "etatPlaceholder": "Beschreiben Sie das Problem (was fehlt, was nicht funktioniert…)",
+    "etatPhoto": "Foto hinzufügen (optional)",
+    "etatMerci": "Danke! Ihre Nachricht wurde an das Team weitergeleitet.",
+    "envoyer": "Senden",
+    "envoi": "Wird gesendet…",
+    "erreur": "Das Senden hat nicht funktioniert. Bitte erneut versuchen oder uns über Ihre Buchung schreiben.",
+    "avisTitre": "Ihr Aufenthalt in einer Note",
+    "avisQuestion": "Wie war Ihr Aufenthalt?",
+    "avisPrive": "Danke! Sagen Sie uns, was besser sein könnte: Ihre Nachricht geht direkt an Agathe, die die Unterkunft verwaltet.",
+    "avisMerci": "Danke für Ihre Rückmeldung, Agathe wird sie aufmerksam lesen.",
+    "avisMerciBon": "Vielen Dank! Wenn Sie eine Minute haben, hilft uns eine öffentliche Bewertung sehr.",
+    "avisPublicLien": "Bewertung auf {plateforme} abgeben"
   }
 }

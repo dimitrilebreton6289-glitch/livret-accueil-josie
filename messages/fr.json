@@ -146,5 +146,33 @@
     "title": "Météo des prochains jours",
     "today": "Auj.",
     "rainTip": "De la pluie est annoncée : voici nos idées de sorties à l'abri (musées, cinéma, cafés)."
+  },
+  "Sejour": {
+    "chargement": "Ouverture de votre livret…",
+    "lienInvalideTitre": "Lien indisponible",
+    "lienInvalideTexte": "Ce lien n'est pas valable ou votre séjour est terminé. Contactez-nous par la messagerie de votre réservation.",
+    "pretTitre": "Votre logement est prêt !",
+    "pretTexte": "Le ménage est terminé, tout est prêt pour vous accueillir.",
+    "pretTexteHeure": "Le ménage est terminé : vous pouvez arriver à partir de {heure} h.",
+    "enPreparationTitre": "Votre logement est en préparation",
+    "enPreparationTexte": "Le ménage est en cours. Revenez sur cette page un peu plus tard : elle indiquera quand tout est prêt.",
+    "codesTitre": "Vos codes d'accès",
+    "codesNote": "Visibles uniquement pendant votre séjour. Merci de ne pas les partager.",
+    "etatTitre": "Bien installé(e) ?",
+    "etatQuestion": "Dites-nous en un clic si tout est en ordre dans le logement.",
+    "etatOk": "👍 Tout est parfait",
+    "etatProbleme": "Signaler un problème",
+    "etatPlaceholder": "Décrivez le problème (ce qui manque, ce qui ne fonctionne pas…)",
+    "etatPhoto": "Ajouter une photo (facultatif)",
+    "etatMerci": "Merci ! Votre message est bien transmis à l'équipe.",
+    "envoyer": "Envoyer",
+    "envoi": "Envoi en cours…",
+    "erreur": "L'envoi n'a pas fonctionné. Réessayez ou écrivez-nous par la messagerie de votre réservation.",
+    "avisTitre": "Votre séjour en une note",
+    "avisQuestion": "Comment s'est passé votre séjour ?",
+    "avisPrive": "Merci ! Dites-nous ce qui aurait pu être mieux : votre message va directement à Agathe, qui gère le logement.",
+    "avisMerci": "Merci pour votre retour, Agathe va le lire avec attention.",
+    "avisMerciBon": "Merci beaucoup ! Si vous avez une minute, un avis public nous aide énormément.",
+    "avisPublicLien": "Laisser un avis sur {plateforme}"
   }
 }

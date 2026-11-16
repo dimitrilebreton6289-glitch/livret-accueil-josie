@@ -146,5 +146,33 @@
     "title": "Weather for the next few days",
     "today": "Today",
     "rainTip": "Rain is forecast: here are our ideas for indoor outings (museums, cinema, cafés)."
+  },
+  "Sejour": {
+    "chargement": "Opening your welcome guide…",
+    "lienInvalideTitre": "Link unavailable",
+    "lienInvalideTexte": "This link is not valid or your stay has ended. Please contact us through your booking messages.",
+    "pretTitre": "Your home is ready!",
+    "pretTexte": "Cleaning is done, everything is ready to welcome you.",
+    "pretTexteHeure": "Cleaning is done: you can arrive from {heure}:00.",
+    "enPreparationTitre": "Your home is being prepared",
+    "enPreparationTexte": "Cleaning is in progress. Come back to this page a little later: it will show when everything is ready.",
+    "codesTitre": "Your access codes",
+    "codesNote": "Only visible during your stay. Please do not share them.",
+    "etatTitre": "All settled in?",
+    "etatQuestion": "Let us know in one tap if everything is in order.",
+    "etatOk": "👍 Everything is perfect",
+    "etatProbleme": "Report a problem",
+    "etatPlaceholder": "Describe the problem (what is missing, what doesn't work…)",
+    "etatPhoto": "Add a photo (optional)",
+    "etatMerci": "Thank you! Your message has been sent to the team.",
+    "envoyer": "Send",
+    "envoi": "Sending…",
+    "erreur": "Sending failed. Please try again or message us through your booking.",
+    "avisTitre": "Your stay in one rating",
+    "avisQuestion": "How was your stay?",
+    "avisPrive": "Thank you! Tell us what could have been better: your message goes straight to Agathe, who manages the home.",
+    "avisMerci": "Thank you for your feedback, Agathe will read it carefully.",
+    "avisMerciBon": "Thank you so much! If you have a minute, a public review helps us enormously.",
+    "avisPublicLien": "Leave a review on {plateforme}"
   }
 }

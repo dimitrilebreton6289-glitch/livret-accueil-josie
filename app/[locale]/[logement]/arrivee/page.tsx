@@ -11,6 +11,7 @@ import CopyButton from "@/components/CopyButton";
 import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
 import VideoEmbed from "@/components/VideoEmbed";
+import SejourBlocs from "@/components/SejourBlocs";
 
 export default async function ArriveePage({
   params,
@@ -39,6 +40,9 @@ export default async function ArriveePage({
       <Header variant="sub" base={base} title={t("title")} />
 
       <div className="animate-fade-rise space-y-3 px-4 py-4">
+        {/* Livret connecté : codes d'accès pendant le séjour */}
+        <SejourBlocs livret={logement.id} montrer={["pret", "codes"]} />
+
         {/* Heure d'arrivée, en évidence */}
         <HighlightCard
           icon={Clock}
