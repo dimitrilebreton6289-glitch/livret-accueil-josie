@@ -250,6 +250,7 @@ export const vacherie: Logement = {
           es: "La piscina está a su disposición: está climatizada y el guardés la limpia a diario. Está protegida por una valla que debe mantenerse cerrada por la seguridad de los niños (no hay sirena de alarma).",
           it: "La piscina è a vostra disposizione: è riscaldata e pulita ogni giorno dal custode. È protetta da una barriera, da tenere chiusa per la sicurezza dei bambini (non è presente una sirena d'allarme).",
         },
+        photos: ["/logements/vacherie/piscine.jpg"],
       },
       {
         titre: {
