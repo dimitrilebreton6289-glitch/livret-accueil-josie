@@ -113,12 +113,28 @@ export default async function HomePage({
                     <div className="space-y-2">
                       {groupe.videos.map((v, vi) => (
                         <Accordion key={vi} title={pick(v.titre, locale)}>
-                          <VideoEmbed
-                            url={v.url}
-                            title={pick(v.titre, locale)}
-                            portrait={v.portrait}
-                            preload="none"
-                          />
+                          {v.texte && <p>{pick(v.texte, locale)}</p>}
+                          {v.url && (
+                            <div className={v.texte ? "mt-3" : ""}>
+                              <VideoEmbed
+                                url={v.url}
+                                title={pick(v.titre, locale)}
+                                portrait={v.portrait}
+                                preload="none"
+                              />
+                            </div>
+                          )}
+                          {v.photo && (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              src={v.photo}
+                              alt={pick(v.titre, locale)}
+                              loading="lazy"
+                              className={`w-full rounded-tile object-cover shadow-[0_2px_12px_rgba(58,46,41,0.08)] ${
+                                v.texte || v.url ? "mt-3" : ""
+                              }`}
+                            />
+                          )}
                         </Accordion>
                       ))}
                     </div>

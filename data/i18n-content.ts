@@ -8216,11 +8216,11 @@ export const BASE_CONTENT: Record<string, Tr> = {
     es: "Jardín a la francesa cerrado de 0,5 ha",
     it: "Giardino alla francese recintato di 0,5 ha",
   },
-  "Piscine chauffée, protégée par une barrière": {
-    en: "Heated pool, enclosed by a safety fence",
-    de: "Beheizter Pool, durch einen Sicherheitszaun gesichert",
-    es: "Piscina climatizada, protegida por una valla",
-    it: "Piscina riscaldata, protetta da una barriera",
+  "Piscine chauffée, protégée par une barrière — ouverte d'avril à septembre (en fonction de la météo)": {
+    en: "Heated pool, enclosed by a safety fence — open from April to September (weather permitting)",
+    de: "Beheizter Pool, durch einen Sicherheitszaun gesichert – geöffnet von April bis September (je nach Wetter)",
+    es: "Piscina climatizada, protegida por una valla: abierta de abril a septiembre (según el tiempo)",
+    it: "Piscina riscaldata, protetta da una barriera: aperta da aprile a settembre (in base al meteo)",
   },
   "Maison d'amis près de la piscine (chambre, salle de bain, salon et cuisine)": {
     en: "Guest house by the pool (bedroom, bathroom, living room and kitchen)",

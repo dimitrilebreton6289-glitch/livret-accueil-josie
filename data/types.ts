@@ -101,7 +101,16 @@ export interface Logement {
    *  pièce ou de l'espace. `portrait: true` force un cadre vertical. */
   visiteMaison?: {
     titre: Tx;
-    videos: { titre: Tx; url: string; portrait?: boolean }[];
+    videos: {
+      titre: Tx;
+      /** Vidéo (URL YouTube/Vimeo ou fichier /public). Optionnelle. */
+      url?: string;
+      /** Photo (chemin /public), à la place ou en plus d'une vidéo. */
+      photo?: string;
+      /** Court texte affiché au-dessus de la vidéo / de la photo. */
+      texte?: Tx;
+      portrait?: boolean;
+    }[];
   }[];
 
   arrivee: {
