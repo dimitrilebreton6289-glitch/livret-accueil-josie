@@ -18,7 +18,9 @@ import {
  */
 export default function SejourBlocs({
   livret,
-  montrer = ["pret", "codes", "etat", "avis"],
+  // « etat » (Bien installé ?) mis en pause le 17/11/2026 à la demande de
+  // Dimitri : le code reste prêt, il suffit de le rajouter ici pour le réactiver.
+  montrer = ["pret", "codes", "avis"],
 }: {
   livret: string;
   montrer?: ("pret" | "codes" | "etat" | "avis")[];
