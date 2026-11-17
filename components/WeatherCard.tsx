@@ -2,14 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { CloudRain } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 
 /**
  * Météo des prochains jours au logement (service gratuit Open-Meteo, sans clé).
  * Chargée dans le navigateur du voyageur : si le service ne répond pas, la
  * carte ne s'affiche simplement pas. Si de la pluie est annoncée aujourd'hui
- * ou demain, un lien propose les idées « jour de pluie » (Autour de moi).
+ * ou demain, l'« idée pour aujourd'hui » de l'accueil propose déjà une sortie à l'abri.
  */
 
 interface Day {
@@ -34,13 +32,7 @@ function icon(code: number): string {
   return "🌥️";
 }
 
-export default function WeatherCard({
-  coords,
-  autourHref,
-}: {
-  coords: [number, number];
-  autourHref: string;
-}) {
+export default function WeatherCard({ coords }: { coords: [number, number] }) {
   const t = useTranslations("Weather");
   const locale = useLocale();
   const [days, setDays] = useState<Day[] | null>(null);
@@ -74,7 +66,6 @@ export default function WeatherCard({
   if (!days || days.length === 0) return null;
 
   const fmt = new Intl.DateTimeFormat(locale, { weekday: "short" });
-  const rainSoon = days.slice(0, 2).some((d) => d.rain >= 60);
 
   return (
     <section className="rounded-card bg-cream-deep p-5">
@@ -96,15 +87,6 @@ export default function WeatherCard({
           </div>
         ))}
       </div>
-      {rainSoon && (
-        <Link
-          href={autourHref}
-          className="mt-3 flex items-center gap-2 rounded-tile bg-surface p-3 text-sm text-ink/85"
-        >
-          <CloudRain size={18} className="shrink-0 text-terracotta" />
-          <span>{t("rainTip")}</span>
-        </Link>
-      )}
     </section>
   );
 }

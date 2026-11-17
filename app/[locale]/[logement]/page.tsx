@@ -136,7 +136,7 @@ export default async function HomePage({
         </div>
 
         {/* Météo des prochains jours */}
-        <WeatherCard coords={logement.coords} autourHref={`${base}/autour?filtre=abri`} />
+        <WeatherCard coords={logement.coords} />
 
         {/* Vidéo de présentation du logement */}
         {logement.videoPresentation && (
