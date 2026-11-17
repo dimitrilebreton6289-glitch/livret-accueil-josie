@@ -41,7 +41,7 @@ export default function ADecouvrir({ places, autourHref }: { places: PlaceVM[]; 
             type="button"
             onClick={() => setFiltre(filtre === k ? "tous" : k)}
             className={`rounded-full px-3 py-1.5 text-xs font-bold transition-soft ${
-              filtre === k ? "bg-ink text-white" : "bg-surface text-ink/80 shadow-[0_1px_6px_rgba(58,46,41,0.08)]"
+              filtre === k ? "bg-terracotta text-white" : "bg-surface text-ink/80 shadow-[0_1px_6px_rgba(58,46,41,0.08)]"
             }`}
           >
             {label}

@@ -1,1 +1,2416 @@
-{}
+{
+  "1824@49.1846,-0.3667": {
+    "horaires": "Mo-Su 08:00-23:00",
+    "osm": "node/13146904475",
+    "site": "https://www.laparticuliere.fr/le-bar/",
+    "tel": "+33261537110"
+  },
+  "202@49.1780,-0.3561": {
+    "osm": "node/11879692372",
+    "tel": "+33231831397"
+  },
+  "7 Sens@48.8368,-1.5971": {
+    "adresse": "12 Rue Saint-Sauveur",
+    "horaires": "Tu-Th 10:30-21:00; Fr,Sa 10:30-22:00; Mo,Su,PH off",
+    "osm": "node/13854434437",
+    "tel": "+33233505162"
+  },
+  "A Contre Sens@49.1816,-0.3499": {
+    "horaires": "We-Sa 12:00-13:00,19:30-20:45",
+    "osm": "node/10128288416",
+    "site": "https://www.acontresens.fr/",
+    "tel": "+33231974448"
+  },
+  "Abbaye aux Dames (la Trinité)@49.1860,-0.3536": {
+    "adresse": "Avenue Reine Mathilde",
+    "osm": "way/50073918",
+    "photo": "/lieux/abbaye-aux-dames-la-trinite-0063.jpg",
+    "photoCredit": "Johan Allard, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.normandie.fr/visites-de-labbaye-aux-dames",
+    "tel": "+33231069845"
+  },
+  "Abbaye aux Hommes (Saint-Étienne)@49.1811,-0.3717": {
+    "adresse": "Esplanade Jean-Marie Louvel, Caen",
+    "osm": "way/155629494",
+    "photo": "/lieux/abbaye-aux-hommes-saint-etienne-5e65.jpg",
+    "photoCredit": "Viault, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Alban Guillemet@49.1832,-0.3608": {
+    "horaires": "Tu-Fr 09:30-13:00,14:30-19:30, Sa 09:30-19:30, Su,PH 09:30-13:00",
+    "osm": "node/3861077321",
+    "site": "https://www.albanguilmet.fr"
+  },
+  "Alban Guilmet@49.1832,-0.3608": {
+    "horaires": "Tu-Fr 09:30-13:00,14:30-19:30, Sa 09:30-19:30, Su,PH 09:30-13:00",
+    "osm": "node/3861077321",
+    "site": "https://www.albanguilmet.fr"
+  },
+  "Aldi@49.1507,-0.2639": {
+    "horaires": "Mo-Sa 08:30-20:00; Su 08:30-12:30",
+    "osm": "node/14257371864",
+    "site": "https://www.aldi.fr/magasins-et-horaires-d-ouverture/cagny/1b-route-de-paris/6451592.html"
+  },
+  "Alternativi@49.1842,-0.3702": {
+    "horaires": "Mo-Sa 08:30-19:30",
+    "osm": "node/12217477847",
+    "tel": "+33231801315"
+  },
+  "Amalfi@49.1783,-0.3562": {
+    "horaires": "Tu-Sa 12:00-14:00,19:00-23:00",
+    "osm": "node/11879211221",
+    "tel": "+33231853334"
+  },
+  "Amalfi@49.1784,-0.3561": {
+    "horaires": "Tu-Sa 12:00-14:00,19:00-23:00",
+    "osm": "node/11879211221",
+    "tel": "+33231853334"
+  },
+  "Arbuste Café@49.1845,-0.3604": {
+    "horaires": "Tu-Sa 10:00-19:00",
+    "osm": "node/10199491339",
+    "site": "https://arbustecafe.com/",
+    "tel": "+33261921167"
+  },
+  "Arbuste@49.1845,-0.3604": {
+    "horaires": "Tu-Sa 10:00-19:00",
+    "osm": "node/10199491339",
+    "site": "https://arbustecafe.com/",
+    "tel": "+33261921167"
+  },
+  "Arromanches-les-Bains@49.3380,-0.6210": {
+    "osm": "node/392036212",
+    "photo": "/lieux/arromanches-les-bains-5502.jpg",
+    "photoCredit": "Florian Pépellin, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.arromanches.com/"
+  },
+  "Atelier Rambaud@49.1836,-0.3657": {
+    "adresse": "39 Rue Froide",
+    "horaires": "Tu 12:00-19:00; We-Fr 10:30-13:30,14:00-19:00; Sa 09:30-19:00; PH Tu-Th 10:30-19:00; PH Fr-Sa 09:30-19:00",
+    "osm": "node/9542880074",
+    "site": "https://atelierrambaud.fr/",
+    "tel": "+33231801941"
+  },
+  "Au Bon Accueil@49.1272,-0.1644": {
+    "osm": "node/937060435",
+    "tel": "+33231236420"
+  },
+  "Au Chat Noir@49.1830,-0.3672": {
+    "horaires": "Tu-Sa 16:00-01:00",
+    "osm": "node/7436511155",
+    "tel": "+33214749030"
+  },
+  "Au Cheval Blanc@49.2845,-0.2600": {
+    "horaires": "We-Su 12:00-15:00,17:30-23:00; Mo-Tu off",
+    "osm": "node/5054122989",
+    "tel": "+33753992303"
+  },
+  "Au Fournil de Benjamin@49.1264,-0.1646": {
+    "osm": "node/5501245209",
+    "tel": "+33980741517"
+  },
+  "Au Vivier@49.2937,-0.2852": {
+    "horaires": "Jul-Aug 10:00-13:00,16:00-20:30",
+    "osm": "way/208415559",
+    "site": "https://www.au-vivier-colleville.fr/",
+    "tel": "+33231971338"
+  },
+  "Auchan@49.2903,-0.2848": {
+    "adresse": "Rue de la Mer, 14880 Colleville-Montgomery",
+    "horaires": "Mo-Sa 08:30-20:00; Su 09:00-12:30,13:00-20:00",
+    "osm": "way/656171977",
+    "site": "https://www.auchan.fr/magasins/supermarche/auchan-supermarche-colleville/s-1310",
+    "tel": "+33261101020"
+  },
+  "Aux Délices Express@49.1921,-0.3955": {
+    "osm": "node/11862472432",
+    "tel": "+33250106973"
+  },
+  "Aux Délices Normands@49.1796,-0.3575": {
+    "osm": "node/1635229254",
+    "tel": "+33231866193"
+  },
+  "Aux Délices d'Édimbourg@49.1912,-0.3598": {
+    "horaires": "Mo-Fr 06:30-19:30",
+    "osm": "node/5295669253",
+    "tel": "+33231444915"
+  },
+  "Aux Délices de Riva@49.2855,-0.2603": {
+    "osm": "node/5054123351",
+    "tel": "+33231968408"
+  },
+  "Aux Normandises@49.1825,-0.3655": {
+    "horaires": "Mo-Fr 07:30-19:15, Sa 08:00-19:15",
+    "osm": "node/1195161445",
+    "tel": "+33231855588"
+  },
+  "Aux délices de Saint-Jean@49.1781,-0.3563": {
+    "horaires": "Mo-Fr 06:30-19:30",
+    "osm": "node/1635227818",
+    "tel": "+33231823955"
+  },
+  "Aéroport de Caen-Carpiquet@49.1733,-0.4500": {
+    "osm": "way/42019305",
+    "photo": "/lieux/aeroport-de-caen-carpiquet-febe.jpg",
+    "photoCredit": "Crochet.david, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://caen.aeroport.fr/"
+  },
+  "Aéroport de Caen-Carpiquet@49.1832,-0.4594": {
+    "osm": "way/42019305",
+    "photo": "/lieux/aeroport-de-caen-carpiquet-a402.jpg",
+    "photoCredit": "Crochet.david, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://caen.aeroport.fr/"
+  },
+  "BTKC@49.1788,-0.3570": {
+    "horaires": "We 18:00-22:30; Th-Sa 18:00-01:00; Mo,Tu,Su off",
+    "osm": "node/1635229256"
+  },
+  "Bagel Street@49.1819,-0.3666": {
+    "horaires": "Mo-We 09:00-21:00; Th-Sa 09:00-23:00",
+    "osm": "node/10790729488",
+    "tel": "+33231073389"
+  },
+  "Bagel Street@49.1820,-0.3666": {
+    "horaires": "Mo-We 09:00-21:00; Th-Sa 09:00-23:00",
+    "osm": "node/10790729488",
+    "tel": "+33231073389"
+  },
+  "Bajocave@49.2771,-0.7017": {
+    "horaires": "Tu 10:00-12:30,14:00-19:30; We 10:00-13:00,14:00-20:00; Th 10:00-12:30,14:00-19:30; Fr 10:00-12:30,14:00-19:30; Sa 10:00-13:00,14:00-20:00; Su 10:30-12:30",
+    "osm": "node/7007651539",
+    "tel": "+33973520930"
+  },
+  "Bar La Cale@48.8357,-1.5963": {
+    "adresse": "22 Boulevard des Amiraux Granvillais",
+    "horaires": "Mo-Tu 16:00-24:00; We-Fr,Su 11:00-24:00; Sa 10:00-24:00",
+    "osm": "node/13758864767"
+  },
+  "Bar de la Fac@49.1879,-0.3661": {
+    "horaires": "Mo-Sa 15:00-01:00",
+    "osm": "node/4945393125",
+    "tel": "+33231734116"
+  },
+  "Bar des Amis@49.1164,-0.1654": {
+    "horaires": "Mo-Fr 06:00-20:00; Sa 08:00-20:00",
+    "osm": "node/5501485669"
+  },
+  "Bayeux Aventure@49.2870,-0.7654": {
+    "osm": "way/1260479100",
+    "site": "https://bayeux-aventure.fr",
+    "tel": "+33261790279"
+  },
+  "Bayla@49.1819,-0.3701": {
+    "adresse": "47 Rue Écuyère",
+    "horaires": "Tu 17:00-01:00; We-Sa 12:00-01:00; Su 11:00-15:00; Mo off",
+    "osm": "node/11704261900",
+    "site": "https://baylarestaurant.com/",
+    "tel": "+33231912083"
+  },
+  "Bayon@49.1789,-0.3571": {
+    "horaires": "Mo-Su 11:30-14:00,18:30-22:00",
+    "osm": "node/5108420436",
+    "tel": "+33231347917"
+  },
+  "Baïkal Market@49.1792,-0.3571": {
+    "horaires": "Mo-Su 10:00-20:00",
+    "osm": "node/11891972633",
+    "tel": "+33231262957"
+  },
+  "Bibliothèque Alexis-de-Tocqueville@49.1823,-0.3505": {
+    "adresse": "15 Quai François Mitterrand, 14053 Caen",
+    "horaires": "Tu-Sa 10:00-18:30; Su 15:00-18:30",
+    "osm": "way/371169023",
+    "site": "https://bibliotheques.caenlamer.fr/caen-bibliotheque-alexis-de-tocqueville-accueil.aspx",
+    "tel": "+33231304700"
+  },
+  "Biocoop@49.1817,-0.3604": {
+    "horaires": "Mo-Sa 09:30-19:30",
+    "osm": "node/5100862252",
+    "site": "https://www.biocoop-passagedemoge.com",
+    "tel": "+33231803051"
+  },
+  "Bisette@49.2767,-0.7011": {
+    "osm": "node/12825782635",
+    "site": "https://www.bisettebayeux.fr",
+    "tel": "+33231109764"
+  },
+  "Bistrot Saigon@49.1840,-0.3637": {
+    "horaires": "Mo-Sa 11:30-14:30, 18:30-22:30; Su 18:30-22:30",
+    "osm": "node/7156004642",
+    "site": "https://bistrotsaigon.com/",
+    "tel": "+33951998000"
+  },
+  "Blossom@49.1841,-0.3647": {
+    "horaires": "We 14:30-18:00; Tu,Th-Sa 10:30-18:00",
+    "osm": "node/7469376315",
+    "tel": "+33231853030"
+  },
+  "Boucherie Leblanc@49.3657,0.0817": {
+    "horaires": "Mo,Tu,Th-Sa 08:00-13:00,15:30-19:30; Su 08:00-13:00",
+    "osm": "node/8553591717"
+  },
+  "Boucherie Maison Marguery@48.8375,-1.5913": {
+    "adresse": "120 Rue Couraye",
+    "horaires": "Tu,Th,Fr 08:00-13:00,15:00-19:00; Sa 08:00-13:00,15:00-18:00; We 08:00-13:00",
+    "osm": "node/12994472494",
+    "site": "https://www.maisonmarguery.fr/",
+    "tel": "+33233500343"
+  },
+  "Boucherie Marcel@49.1828,-0.3565": {
+    "horaires": "Tu-Sa 06:30-12:45, 14:15-19:30; Su 07:00-13:00",
+    "osm": "node/1993336200",
+    "site": "http://www.boucherie-marcel.com/",
+    "tel": "+33231861625"
+  },
+  "Boucherie Marcel@49.1828,-0.3566": {
+    "horaires": "Tu-Sa 06:30-12:45, 14:15-19:30; Su 07:00-13:00",
+    "osm": "node/1993336200",
+    "site": "http://www.boucherie-marcel.com/",
+    "tel": "+33231861625"
+  },
+  "Boucherie Sabot@49.1844,-0.3594": {
+    "horaires": "Tu-Sa 07:00-19:30",
+    "osm": "node/5553036407",
+    "site": "http://boucheriesabot.fr/",
+    "tel": "+33231936249"
+  },
+  "Boucherie Saint-Sauveur@49.1835,-0.3688": {
+    "horaires": "Tu-Th,Sa 09:00-13:00,16:00-19:00; Fr 08:00-13:00,16:00-19:00",
+    "osm": "node/2137283238"
+  },
+  "Bouchon & Houblon@49.1835,-0.3656": {
+    "horaires": "Tu-Sa 11:00-12:00",
+    "osm": "node/11929338574",
+    "tel": "+33231233710"
+  },
+  "Bouillon Caponière@49.1819,-0.3750": {
+    "horaires": "Tu-Th 12:00-14:00,19:30-21:30; Fr,Sa 12:00-14:00,19:30-22:00",
+    "osm": "node/5166302175",
+    "site": "https://bouillon-caponiere.eatbu.com/?lang=fr",
+    "tel": "+33231305747"
+  },
+  "Bouillon Saint Martin@49.1836,-0.3706": {
+    "osm": "node/8168262264",
+    "tel": "+33231959235"
+  },
+  "Bouillon Saint-Martin@49.1836,-0.3706": {
+    "osm": "node/8168262264",
+    "tel": "+33231959235"
+  },
+  "Boulangerie Calou@49.1818,-0.3761": {
+    "horaires": "Mo-Fr 06:30-14:00,15:30-19:00; Sa 06:30-14:00",
+    "osm": "node/1381567534",
+    "tel": "+33231502983"
+  },
+  "Boulangerie Jolin@49.1754,-0.3873": {
+    "adresse": "214 Rue Caponière",
+    "horaires": "Tu-Sa 07:30-13:30,14:30-20:00",
+    "osm": "node/4587854290",
+    "tel": "+33231738580"
+  },
+  "Boulangerie Robert@48.8372,-1.5951": {
+    "adresse": "38 Rue Couraye",
+    "horaires": "Mo,Th,Fr,Sa 07:00-19:30; Su,PH 07:15-19:15; Tu,We off",
+    "osm": "node/1798144003",
+    "tel": "+33233501098"
+  },
+  "Boulangerie des Ducs@49.2769,-0.7019": {
+    "horaires": "We-Su 07:00-19:00; Mo-Tu off",
+    "osm": "node/11115152599",
+    "tel": "+33231920707"
+  },
+  "Boulangerie du Chemin Vert@49.1926,-0.3925": {
+    "horaires": "Tu-Sa 07:00-19:30; Su 07:00-13:00",
+    "osm": "node/7346253505",
+    "tel": "+33231744260"
+  },
+  "Boulangerie l'Épi d'Or@49.2863,-0.2589": {
+    "osm": "node/13167373450",
+    "tel": "+33231971810"
+  },
+  "Boumbap@49.1829,-0.3627": {
+    "horaires": "Tu 18:00-21:00; We-Sa 12:00-01:00; Su 11:30-15:00",
+    "osm": "node/12146105295",
+    "site": "https://www.boumbap.fr/",
+    "tel": "+33231855215"
+  },
+  "Bowling 868@49.2650,-0.6764": {
+    "osm": "node/2034721563",
+    "site": "http://www.bowling868.com",
+    "tel": "+33231518868"
+  },
+  "Bowling de Caen@49.1649,-0.4250": {
+    "osm": "node/5514939811",
+    "site": "https://bowling-caen.com/"
+  },
+  "Brasserie Laurent@49.1999,-0.3971": {
+    "osm": "node/5350820442",
+    "tel": "+33231504040"
+  },
+  "Brasserie des Ducs@49.2792,-0.7090": {
+    "horaires": "Mo-Th 11:30-14:00,18:30-22:00; Fr 11:30-14:00,18:30-22:30; Sa 11:30-14:30,18:30-22:30; Su 11:30-14:30,18:30-22:00",
+    "osm": "node/3796505634",
+    "site": "https://www.brasseriedesducs-bayeux.com",
+    "tel": "+33231108655"
+  },
+  "Brasserie du Stade@48.8381,-1.5786": {
+    "osm": "node/13525086141",
+    "tel": "+33233501432"
+  },
+  "Bread Rolls@49.2784,-0.7060": {
+    "osm": "node/9083537729",
+    "tel": "+33231227494"
+  },
+  "Broc' Café@49.1821,-0.3676": {
+    "horaires": "Mo-Sa 09:30-01:00",
+    "osm": "node/2489613932",
+    "tel": "+33975275691"
+  },
+  "Bureau de poste Caen La Folie-Couvrechef@49.2024,-0.3793": {
+    "horaires": "Mo-Fr 09:00-12:00,14:00-17:00; Sa 09:00-12:00; PH off",
+    "osm": "node/4437961299",
+    "site": "https://localiser.laposte.fr/calvados/caen/caen-la-folie-couvrechef-149540"
+  },
+  "Burger King@49.1851,-0.3642": {
+    "horaires": "Mo-Su 11:00-24:00",
+    "osm": "way/155641243",
+    "site": "https://www.burgerking.fr/restaurants/caen-chateau",
+    "tel": "+33231238979"
+  },
+  "Bœuf & Cow@49.1834,-0.3604": {
+    "horaires": "Mo-Su 12:00-14:00,19:00-23:00",
+    "osm": "node/1654420719",
+    "site": "https://boeufandcow.com/",
+    "tel": "+33231863775"
+  },
+  "Cabourg@49.2872,-0.1157": {
+    "osm": "relation/3555035",
+    "photo": "/lieux/cabourg-989e.jpg",
+    "photoCredit": "Ji-Elle, Public domain, Wikimedia Commons"
+  },
+  "Café Le Régent@49.1842,-0.3599": {
+    "horaires": "Mo-Su 08:00-00:00",
+    "osm": "node/2309414090"
+  },
+  "Café des Quatrans@49.1839,-0.3641": {
+    "horaires": "Mo-Sa 11:00-20:00",
+    "osm": "node/4951022187",
+    "tel": "+33231863968"
+  },
+  "Canaglia@49.1819,-0.3675": {
+    "horaires": "Mo-Th 12:00-14:00,19:00-22:00; Fr 12:00-14:00,19:00-23:00; Sa 12:00-14:30,19:00-23:00; Su 12:00-14:30,19:00-22:00",
+    "osm": "node/11107487360",
+    "site": "https://www.pizzeriacanaglia.com/",
+    "tel": "+33231799083"
+  },
+  "Carrefour Bayeux@49.2854,-0.7061": {
+    "horaires": "Mo-Sa 08:30-20:00; Su 09:00-12:30",
+    "osm": "way/132136133",
+    "site": "https://www.carrefour.fr/magasin/bayeux",
+    "tel": "+33231515979"
+  },
+  "Carrefour City (Desmaisons)@48.8367,-1.5988": {
+    "adresse": "5bis Rue Clément Desmaisons",
+    "horaires": "Mo-Sa 07:00-21:00; Su 09:00-13:00",
+    "osm": "node/1770707949",
+    "site": "https://www.carrefour.fr/magasin/city-granville-desmaisons",
+    "tel": "+33233910285"
+  },
+  "Carrefour City (rue Couraye)@48.8377,-1.5911": {
+    "horaires": "Mo-Sa 07:00-21:00; Su 09:00-13:00",
+    "osm": "node/9000487157",
+    "site": "https://www.carrefour.fr/magasin/city-granville",
+    "tel": "+33233500050"
+  },
+  "Carrefour City@49.1497,-0.2643": {
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-20:00",
+    "osm": "node/13266795831",
+    "site": "https://www.carrefour.fr/magasin/city-cagny",
+    "tel": "+33231470040"
+  },
+  "Carrefour City@49.1752,-0.3777": {
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
+    "osm": "node/7342598893",
+    "site": "https://www.carrefour.fr/magasin/city-caen-saint-ouen",
+    "tel": "+33231745851"
+  },
+  "Carrefour City@49.1826,-0.3592": {
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+    "osm": "node/9004771291",
+    "site": "https://www.carrefour.fr/magasin/city-caen-bernieres",
+    "tel": "+33231462631"
+  },
+  "Carrefour City@49.1990,-0.3654": {
+    "adresse": "Rue de la Défense Passive, 14000 Caen",
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+    "osm": "node/266647123",
+    "site": "https://www.carrefour.fr/magasin/city-caen-defense-passive",
+    "tel": "+33231930203"
+  },
+  "Carrefour City@49.2765,-0.7003": {
+    "horaires": "Mo-Sa 07:00-21:00; Su 09:00-20:00",
+    "osm": "node/3030197242",
+    "site": "https://www.carrefour.fr/magasin/city-bayeux",
+    "tel": "+33231100827"
+  },
+  "Carrefour City@49.2845,-0.2613": {
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
+    "osm": "node/271364302",
+    "site": "https://www.carrefour.fr/magasin/city-ouistreham",
+    "tel": "+33231971968"
+  },
+  "Carrefour City@49.3034,-0.0770": {
+    "horaires": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+    "osm": "node/13204703244",
+    "site": "https://www.carrefour.fr/magasin/city-houlgate",
+    "tel": "+33231287143"
+  },
+  "Carrefour Express@49.1607,-0.3437": {
+    "horaires": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+    "osm": "node/12343483860",
+    "site": "https://www.carrefour.fr/magasin/express-caen-liberte",
+    "tel": "+33231521948"
+  },
+  "Carrefour Express@49.1782,-0.3564": {
+    "horaires": "Mo-Sa 07:00-22:00; Su 09:00-13:00,16:00-20:00",
+    "osm": "node/1635229255",
+    "site": "https://www.carrefour.fr/magasin/express-caen",
+    "tel": "+33231788605"
+  },
+  "Carrefour Express@49.2033,-0.3790": {
+    "horaires": "Mo-Sa 07:00-21:00; Su 09:00-13:00",
+    "osm": "node/12271744494",
+    "site": "https://www.carrefour.fr/magasin/express-caen-boutiques",
+    "tel": "+33231442594"
+  },
+  "Carrefour Express@49.3623,0.0862": {
+    "horaires": "Mo-Su 08:00-21:00",
+    "osm": "node/8981289960",
+    "site": "https://www.carrefour.fr/magasin/express-trouville-sur-mer",
+    "tel": "+33231985479"
+  },
+  "Carrefour Market@49.2682,-0.2600": {
+    "horaires": "Mo-Sa 08:30-20:00; Su 09:00-12:45",
+    "osm": "way/112220514",
+    "site": "https://www.carrefour.fr/magasin/market-ouistreham",
+    "tel": "+33231968889"
+  },
+  "Carrément Gourmand@49.1699,-0.3410": {
+    "horaires": "Tu-Sa 07:00-19:00; Su 07:30-12:30",
+    "osm": "node/12552250609",
+    "tel": "+33231520072"
+  },
+  "Casino Barrière Trouville@49.3664,0.0790": {
+    "adresse": "Place du Maréchal Foch, 14360",
+    "osm": "node/3416323259",
+    "site": "https://www.casinosbarriere.com/fr/trouville.html",
+    "tel": "+33231877500"
+  },
+  "Casino Shop (place Malherbe)@49.1821,-0.3670": {
+    "horaires": "Mo-Fr 08:30-22:00; Sa 09:00-22:00",
+    "osm": "node/6947742515",
+    "site": "https://petitcasino.casino.fr/stores/c6295/caen-4-place-malherbe"
+  },
+  "Casino Shop (rue Saint-Pierre)@49.1836,-0.3621": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/1192915968"
+  },
+  "Casino Shop@49.1821,-0.3669": {
+    "horaires": "Mo-Fr 08:30-22:00; Sa 09:00-22:00",
+    "osm": "node/6947742515",
+    "site": "https://petitcasino.casino.fr/stores/c6295/caen-4-place-malherbe"
+  },
+  "Casino Shop@49.1821,-0.3670": {
+    "horaires": "Mo-Fr 08:30-22:00; Sa 09:00-22:00",
+    "osm": "node/6947742515",
+    "site": "https://petitcasino.casino.fr/stores/c6295/caen-4-place-malherbe"
+  },
+  "Casino Shop@49.1836,-0.3621": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/1192915968"
+  },
+  "Casino Shop@49.1837,-0.3622": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/1192915968"
+  },
+  "Casino de Granville@48.8391,-1.5985": {
+    "adresse": "Place du Maréchal Foch, 50400 Granville",
+    "osm": "node/1488874610",
+    "tel": "+33233500079"
+  },
+  "Casino de Houlgate@49.3049,-0.0757": {
+    "osm": "way/108808028",
+    "photo": "/lieux/casino-de-houlgate-24a4.jpg",
+    "photoCredit": "Gregory Deryckère, CC BY 2.5, Wikimedia Commons",
+    "site": "https://www.casino-houlgate.fr/"
+  },
+  "Casino de Luc-sur-Mer@49.3211,-0.3567": {
+    "horaires": "Mo-Fr, Su 09:30-03:00; Sa 09:30-04:00",
+    "osm": "way/316307780",
+    "site": "http://luc.groupetranchant.com",
+    "tel": "+33231973219"
+  },
+  "Cave Rouge et Blanc@49.1840,-0.3664": {
+    "horaires": "Tu-Th 10:00-13:00,15:00-19:30, Fr,Sa 10:00-19:30, We 15:00-19:30",
+    "osm": "node/5143143374",
+    "tel": "+33231382480"
+  },
+  "Centre aquatique Auréo@49.2827,-0.7010": {
+    "osm": "way/1259663465",
+    "site": "https://www.centreaquatique-aureo.fr/",
+    "tel": "+33231920764"
+  },
+  "Centre hospitalier de Bayeux@49.2746,-0.7012": {
+    "adresse": "Rue de Nesmond, 14400 Bayeux",
+    "osm": "way/888875308",
+    "tel": "+33231515151"
+  },
+  "Chez Fratelli@49.1254,-0.2096": {
+    "horaires": "Tu 10:00-12:30,15:00-19:00; We-Fr 10:00-12:30,15:00-19:30; Sa 10:00-13:00,15:00-20:00; Su 10:00-12:30; PH off",
+    "osm": "node/8749227230",
+    "site": "https://www.bellengreville.chezfratelli.fr/",
+    "tel": "+33698375220"
+  },
+  "Chez Gisèle@49.1758,-0.3565": {
+    "horaires": "Tu-Sa 15:00-01:00",
+    "osm": "node/7628435734"
+  },
+  "Chez Paulette@49.1837,-0.3664": {
+    "adresse": "7 Rue Saint-Sauveur",
+    "horaires": "Mo-Su 17:00-01:00",
+    "osm": "node/3261460544",
+    "tel": "+33769352222"
+  },
+  "Chez Poto@49.1848,-0.3634": {
+    "horaires": "Mo-Su 11:00-14:30,18:00-22:00",
+    "osm": "node/7498073506",
+    "tel": "+33683753735"
+  },
+  "Chez Sandy@49.1817,-0.3762": {
+    "horaires": "Tu,Th-Sa 12:00-14:30,18:30-21:30; We 12:00-14:30",
+    "osm": "node/9839093454",
+    "tel": "+33231088360"
+  },
+  "Chez Tuyet@49.1844,-0.3647": {
+    "horaires": "Mo-Sa 11:30-14:30,18:30-21:30",
+    "osm": "node/3824495771"
+  },
+  "Château de Caen@49.1866,-0.3633": {
+    "osm": "node/4405690045",
+    "photo": "/lieux/chateau-de-caen-fbb8.jpg",
+    "photoCredit": "Nikater, Public domain, Wikimedia Commons"
+  },
+  "Château de Caen@49.1868,-0.3615": {
+    "osm": "node/4405690045",
+    "photo": "/lieux/chateau-de-caen-af5d.jpg",
+    "photoCredit": "Nikater, Public domain, Wikimedia Commons"
+  },
+  "Château de La Roche-Guyon@49.0796,1.6294": {
+    "horaires": "10:00-18:00",
+    "osm": "relation/6023411",
+    "photo": "/lieux/chateau-de-la-roche-guyon-5969.jpg",
+    "photoCredit": "Jean-Christophe BENOIST, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Cimetière américain de Colleville-sur-Mer@49.3586,-0.8547": {
+    "osm": "relation/9390140",
+    "photo": "/lieux/cimetiere-americain-de-colleville-sur-mer-8303.jpg",
+    "photoCredit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.abmc.gov/cemeteries-memorials/europe/normandy-american-cemetery"
+  },
+  "Cinéma LUX@49.1697,-0.3394": {
+    "adresse": "6 Avenue Sainte-Thérèse, 14000 Caen",
+    "osm": "way/155699275",
+    "site": "https://www.cinemalux.org/spip/",
+    "tel": "+33231822987"
+  },
+  "Cinéma Le Méliès@49.2781,-0.7033": {
+    "osm": "way/132132700",
+    "site": "https://www.cinemalemelies.fr",
+    "tel": "+33231215547"
+  },
+  "Cinéma Le Sélect@48.8388,-1.5945": {
+    "adresse": "7 Boulevard d'Hauteserve",
+    "osm": "node/1770735126",
+    "site": "https://www.cinemaleselect-granville.com/",
+    "tel": "+33233507727"
+  },
+  "Clinique de la Miséricorde@49.1853,-0.3673": {
+    "adresse": "15 Fossés Saint-Julien",
+    "osm": "way/577856909",
+    "site": "https://www.fondation-misericorde.fr/les-etablissements/la-clinique-de-la-misericorde/",
+    "tel": "+33231152520"
+  },
+  "Club nautique de Trouville-Hennequeville@49.3765,0.0869": {
+    "osm": "way/98710263",
+    "site": "https://cnth.org/wordpress/"
+  },
+  "Cocci Market@49.1815,-0.3586": {
+    "horaires": "Mo-Su 08:00-22:00",
+    "osm": "node/4577215727"
+  },
+  "CocciMarket@48.8384,-1.5786": {
+    "adresse": "40 Rue du Vieux Moulin, 50300",
+    "horaires": "Mo-Su 08:00-22:00",
+    "osm": "node/6927182085",
+    "site": "https://www.coccinelle.fr/magasin/granville",
+    "tel": "+33233906390"
+  },
+  "Coccimarket@49.1251,-0.2074": {
+    "horaires": "Mo-Sa 07:30-13:00,16:00-19:00; Su 07:30-19:00",
+    "osm": "node/8749227252",
+    "site": "https://www.coccinelle.fr/magasin/bellengreville",
+    "tel": "+33231236284"
+  },
+  "Coccimarket@49.2762,-0.6935": {
+    "horaires": "Mo-Su 07:00-22:00",
+    "osm": "node/5866528986",
+    "site": "https://www.coccinelle.fr/magasin/bayeux",
+    "tel": "+33231923192"
+  },
+  "Coccinelle Express@49.1685,-0.3519": {
+    "horaires": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
+    "osm": "node/6487702043",
+    "site": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccinelle-express/caen/137-rue-de-falaise",
+    "tel": "+33231349257"
+  },
+  "Coccinelle Express@49.1846,-0.3586": {
+    "osm": "node/3030242478",
+    "site": "https://www.coccinelle.fr/trouver_un_magasin/details/coccinelle-express/caen/1-rue-basse",
+    "tel": "+33659271290"
+  },
+  "Coccinelle Express@49.1847,-0.3587": {
+    "osm": "node/3030242478",
+    "site": "https://www.coccinelle.fr/trouver_un_magasin/details/coccinelle-express/caen/1-rue-basse",
+    "tel": "+33659271290"
+  },
+  "Contact Market@49.1784,-0.3801": {
+    "adresse": "152 Rue Caponière",
+    "osm": "node/7394335350"
+  },
+  "Contact'Market@49.1784,-0.3801": {
+    "adresse": "152 Rue Caponière",
+    "osm": "node/7394335350"
+  },
+  "Céramilatte@49.1817,-0.3581": {
+    "horaires": "Tu 13:00-18:15; We,Fr 10:00-18:15; Th 13:00-21:00; Sa 09:30-18:00; Su-Mo off",
+    "osm": "node/12134065717",
+    "site": "https://ceramilatte.fr/",
+    "tel": "+33988385275"
+  },
+  "D'wich@48.8384,-1.5993": {
+    "adresse": "113 Rue des Juifs",
+    "osm": "node/13753621177",
+    "tel": "+33979409791"
+  },
+  "Deauville@49.3600,0.0750": {
+    "osm": "relation/135589",
+    "photo": "/lieux/deauville-a4eb.jpg",
+    "photoCredit": "Kamel15, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Dives-sur-Mer — Village Guillaume-le-Conquérant@49.2831,-0.1012": {
+    "osm": "relation/135604",
+    "photo": "/lieux/dives-sur-mer-village-guillaume-le-conquerant-f0e7.jpg",
+    "photoCredit": "Ikmo-ned, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Du pain mais pas que@49.1465,-0.2556": {
+    "osm": "node/6631710287",
+    "tel": "+33231234151"
+  },
+  "E.Leclerc Bayeux@49.2780,-0.7194": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/4258212080",
+    "site": "https://www.e.leclerc/mag/e-leclerc-bayeux",
+    "tel": "+33231923604"
+  },
+  "E.Leclerc Caen@49.1863,-0.3810": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/5586218227",
+    "site": "https://www.e.leclerc/mag/e-leclerc-caen",
+    "tel": "+33231857561"
+  },
+  "E.Leclerc@49.1863,-0.3810": {
+    "horaires": "Mo-Sa 09:00-20:00",
+    "osm": "node/5586218227",
+    "site": "https://www.e.leclerc/mag/e-leclerc-caen",
+    "tel": "+33231857561"
+  },
+  "Eelam Market@49.1865,-0.3659": {
+    "adresse": "92 Rue de Geôle",
+    "osm": "node/11888827575"
+  },
+  "Eric Kayser@49.1829,-0.3682": {
+    "horaires": "Mo-Su 07:00-20:00",
+    "osm": "node/1694359503"
+  },
+  "Et si & Cie@49.1881,-0.3663": {
+    "horaires": "Mo-Tu, Th-Fr 12:00-14:30, 18:30-22:00; We 12:00-14:30",
+    "osm": "node/2309830684",
+    "site": "https://www.et-si-et-cie.com/",
+    "tel": "+33231474133"
+  },
+  "Fada@49.1833,-0.3568": {
+    "adresse": "14 Quai Vendeuvre",
+    "horaires": "Mo-We 16:00-01:00; Th-Sa 16:00-03:00; Su-Mo off",
+    "osm": "node/12228410063",
+    "site": "https://go.nordqr.com/fada/"
+  },
+  "Festyland@49.1840,-0.4249": {
+    "osm": "way/50073479",
+    "photo": "/lieux/festyland-120f.jpg",
+    "photoCredit": "Copyleft, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://festyland.com/",
+    "tel": "+33231750404"
+  },
+  "Fleur de Sushi@49.1793,-0.3606": {
+    "horaires": "Tu-Sa 12:00-15:00, 19:00-23:00",
+    "osm": "node/1603738826",
+    "site": "https://www.fleurdesushi.fr/",
+    "tel": "+33231742664"
+  },
+  "Franck Placet Traiteur@49.1265,-0.1647": {
+    "osm": "node/5501245460",
+    "tel": "+33231436903"
+  },
+  "Fromagerie Conquérant@49.1822,-0.3719": {
+    "horaires": "Mo 16:00-19:00; Tu-Sa 09:30-13:30,15:00-19:00",
+    "osm": "node/3889126794",
+    "site": "https://fromagerie-conquerant.com/",
+    "tel": "+33231088568"
+  },
+  "Gare SNCF de Caen@49.1772,-0.3489": {
+    "adresse": "15 Place de la Gare, 14000 Caen",
+    "osm": "way/155643737",
+    "photo": "/lieux/gare-sncf-de-caen-ee68.jpg",
+    "photoCredit": "Benoît Prieur, CC0, Wikimedia Commons"
+  },
+  "Gare SNCF de Caen@49.1776,-0.3481": {
+    "adresse": "15 Place de la Gare, 14000 Caen",
+    "osm": "way/155643737",
+    "photo": "/lieux/gare-sncf-de-caen-7f1a.jpg",
+    "photoCredit": "Benoît Prieur, CC0, Wikimedia Commons"
+  },
+  "Gare SNCF de Granville@48.8384,-1.5873": {
+    "osm": "way/135520937",
+    "photo": "/lieux/gare-sncf-de-granville-da0a.jpg",
+    "photoCredit": "Cyrilb1881, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Gare de Bayeux@49.2697,-0.6981": {
+    "osm": "way/132132683",
+    "photo": "/lieux/gare-de-bayeux-be5b.jpg",
+    "photoCredit": "Agfrbr, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Gare de Frénouville-Cagny@49.1412,-0.2604": {
+    "osm": "relation/7916971",
+    "photo": "/lieux/gare-de-frenouville-cagny-57ba.jpg",
+    "photoCredit": "Florian Fèvre, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Gare de Mantes-la-Jolie@48.9896,1.7033": {
+    "osm": "node/1729433458",
+    "photo": "/lieux/gare-de-mantes-la-jolie-6006.jpg",
+    "photoCredit": "Remontees, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Gare de Moult-Argences@49.1112,-0.1864": {
+    "osm": "relation/8048533",
+    "photo": "/lieux/gare-de-moult-argences-74df.jpg",
+    "photoCredit": "Cevenol2, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Gare de Trouville-Deauville@49.3593,0.0841": {
+    "osm": "relation/7849349",
+    "photo": "/lieux/gare-de-trouville-deauville-37e6.jpg",
+    "photoCredit": "DurandMatthieu, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Gare de Vernon-Giverny@49.0931,1.4760": {
+    "horaires": "Mo 05:45-21:05; Tu-Th 05:45-20:45; Fr 05:45-21:05; Sa 06:00-21:30; Su 07:10-22:10",
+    "osm": "way/126311347",
+    "photo": "/lieux/gare-de-vernon-giverny-d68b.jpg",
+    "photoCredit": "Theoliane, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Glo'express Café@49.2009,-0.3787": {
+    "adresse": "8 Porte de l'Europe, 14000 Caen",
+    "horaires": "Mo-Fr 09:00-15:00,17:00-22:00",
+    "osm": "node/8714347541",
+    "site": "https://www.globexpresscafe.com/",
+    "tel": "+33231537117"
+  },
+  "Golf de Caen la Mer@49.2281,-0.3369": {
+    "osm": "way/49590479",
+    "site": "https://golf-caenlamer.fr/",
+    "tel": "+33231947209"
+  },
+  "Grande Pharmacie Trouvillaise@49.3640,0.0837": {
+    "horaires": "Mo-Sa 08:45-19:30; Su 09:00-13:00",
+    "osm": "node/467732142",
+    "site": "https://www.grandepharmacietrouvillaise.fr/",
+    "tel": "+33231881550"
+  },
+  "Grande Pharmacie de Caen@49.1834,-0.3630": {
+    "horaires": "Mo-Sa 08:30-20:00",
+    "osm": "node/7696163438",
+    "tel": "+33231299090"
+  },
+  "Grande Pharmacie de Caen@49.1835,-0.3629": {
+    "horaires": "Mo-Sa 08:30-20:00",
+    "osm": "node/7696163438",
+    "tel": "+33231299090"
+  },
+  "Honfleur@49.4230,0.2309": {
+    "osm": "relation/126415",
+    "photo": "/lieux/honfleur-1fcd.jpg",
+    "photoCredit": "Pinpin, CC BY 2.5, Wikimedia Commons"
+  },
+  "Hôpital privé Saint-Martin@49.1981,-0.3805": {
+    "osm": "way/155700017",
+    "site": "https://hopital-prive-saint-martin-caen.ramsaygds.fr/",
+    "tel": "+33826461400"
+  },
+  "Hôpital privé Saint-Martin@49.1982,-0.3810": {
+    "osm": "way/155700017",
+    "site": "https://hopital-prive-saint-martin-caen.ramsaygds.fr/",
+    "tel": "+33826461400"
+  },
+  "Intermarché@49.1694,-0.3454": {
+    "horaires": "Mo-Sa 08:30-20:00; Su 09:00-12:30",
+    "osm": "way/155629502",
+    "site": "https://www.intermarche.com/magasins/04856/caen-14000/infos-pratiques"
+  },
+  "Jardin botanique de Bayeux@49.2869,-0.7174": {
+    "horaires": "Apr-Sep: Mo-Su 09:00-20:00; Oct: Mo-Su 09:00-19:00; Nov-Feb: Mo-Su 09:00-17:00; Mar: Mo-Su 09:00-19:00",
+    "osm": "way/126349120",
+    "photo": "/lieux/jardin-botanique-de-bayeux-a40c.jpg",
+    "photoCredit": "Romain Bréget, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Joufflu 1er@49.1826,-0.3739": {
+    "horaires": "Tu-Sa 12:00-13:30,19:00-21:30",
+    "osm": "node/3811636660",
+    "site": "https://restaurant-joufflu1er.fr/",
+    "tel": "+33231392853"
+  },
+  "Ju'ste Chez Moi@49.1864,-0.3659": {
+    "horaires": "Tu-Th 12:00-17:30, 19:00-21:30; Fr-Sa 09:00-17:30, 19:00-22:00",
+    "osm": "node/3792583661",
+    "tel": "+33231152879"
+  },
+  "Julien Marée@49.1835,-0.3592": {
+    "horaires": "Tu-Sa 08:00-19:00",
+    "osm": "node/1896398680",
+    "site": "https://www.ollca.com/caen/boutiques/poissonnerie-julien-maree",
+    "tel": "+33231868093"
+  },
+  "Keys & Co.@49.1786,-0.3532": {
+    "horaires": "We-Su 09:00-18:00",
+    "osm": "node/1635264303",
+    "tel": "+33231346083"
+  },
+  "Keys & Co@49.1786,-0.3532": {
+    "horaires": "We-Su 09:00-18:00",
+    "osm": "node/1635264303",
+    "tel": "+33231346083"
+  },
+  "Kingorry Pub@49.3655,0.0823": {
+    "osm": "node/8553471417",
+    "tel": "+33786002112"
+  },
+  "Koboon@49.1813,-0.3493": {
+    "horaires": "Mo 18:30-22:30; Tu-Th 11:30-14:30,18:30-22:30; Fr,Sa 11:30-14:30,18:30-23:30",
+    "osm": "node/11740859424",
+    "site": "https://www.koboon-resto.fr/carte-caen",
+    "tel": "+33261921505"
+  },
+  "Kokomo@49.1849,-0.3637": {
+    "horaires": "Mo-Sa 16:00-01:00",
+    "osm": "node/2309413826",
+    "tel": "+33231936680"
+  },
+  "Koméli@49.1840,-0.3659": {
+    "horaires": "Tu-Fr 11:00-18:00; Sa 11:00-19:00; Su-Mo off",
+    "osm": "node/12149420350",
+    "site": "https://omsbi-komeli.com/",
+    "tel": "+33978811888"
+  },
+  "L'Aca Va Bières@49.1838,-0.3662": {
+    "horaires": "Su-Tu 17:00-01:00; We-Sa 14:00-01:00",
+    "osm": "node/11853710595",
+    "tel": "+33603070220"
+  },
+  "L'Accostage@49.2890,-0.2570": {
+    "adresse": "Esplanade Alexandre Lofi",
+    "horaires": "Su-Th 10:00-21:30; Fr-Sa 10:00-22:00",
+    "osm": "node/5085678066",
+    "site": "https://restaurant-laccostage-ouistreham.fr/",
+    "tel": "+33231970523"
+  },
+  "L'Agora@49.1710,-0.3507": {
+    "horaires": "Mo 07:00-20:00; Tu-Sa 06:30-20:00",
+    "osm": "node/4351378882"
+  },
+  "L'Alchimie@49.2044,-0.3903": {
+    "horaires": "Mo-Fr 06:30-19:30",
+    "osm": "node/2353424741",
+    "site": "https://boulangerie-lalchimie-caen.eatbu.com/?lang=fr"
+  },
+  "L'Alchimie@49.2764,-0.6992": {
+    "osm": "node/5292347666",
+    "tel": "+33214080397"
+  },
+  "L'Alcôve@49.2755,-0.7020": {
+    "osm": "node/6221320985",
+    "site": "https://www.lalcove-bayeux.fr",
+    "tel": "+33231923008"
+  },
+  "L'Angle Saint-Laurent@49.2777,-0.7009": {
+    "horaires": "Tu-Fr 12:00-13:30, 19:00-21:00; Sa 19:00-21:00",
+    "osm": "node/5554902871",
+    "site": "https://langlesaintlaurent.com",
+    "tel": "+33231920301"
+  },
+  "L'Antre Potes@49.1873,-0.3661": {
+    "horaires": "Mo-Th 08:00-21:00; Fr 08:00-00:00",
+    "osm": "node/5414371338",
+    "tel": "+33231863001"
+  },
+  "L'Apostrophe@49.1894,-0.3649": {
+    "horaires": "Mo-Fr 08:00-15:15",
+    "osm": "node/11397866857",
+    "site": "https://www.crous-normandie.fr/restaurant/cafeteria-lapostrophe/",
+    "tel": "+33231566350"
+  },
+  "L'Auberge@49.2790,-0.2514": {
+    "adresse": "81 Avenue Michel Cabieu, 14150 Ouistreham",
+    "osm": "node/6939340486",
+    "tel": "+33231770295"
+  },
+  "L'Authentic@49.3041,-0.0749": {
+    "horaires": "Mo-Su 09:00-21:00",
+    "osm": "node/13449957942",
+    "tel": "+33231856252"
+  },
+  "L'Edulis@48.8375,-1.5974": {
+    "horaires": "We-Sa 12:15-14:00,19:15-21:00; Su 12:15-14:00",
+    "osm": "node/1798124816",
+    "site": "https://www.restaurantledulis.com/",
+    "tel": "+33214134588"
+  },
+  "L'Entrepotes@49.2851,-0.2595": {
+    "horaires": "Tu-Su 11:00-14:30,17:30-21:30",
+    "osm": "node/5054122997",
+    "tel": "+33231969332"
+  },
+  "L'Orangerie@49.1894,-0.3719": {
+    "adresse": "1 Avenue de Creully, 14000 Caen",
+    "horaires": "Jun-Aug 10:00-19:00; Sep-Oct 10:00-18:00",
+    "osm": "node/11135687105"
+  },
+  "L'Orient Express@49.1775,-0.3567": {
+    "horaires": "We-Sa 22:00-05:00, Su 20:00-01:00",
+    "osm": "node/2271447588",
+    "site": "https://www.orient-club.fr",
+    "tel": "+33231728164"
+  },
+  "L'écume@49.1842,-0.3656": {
+    "horaires": "Tu,We 00:00-04:00; Th-Su 00:00-05:00",
+    "osm": "node/1911316962",
+    "tel": "+33231852233"
+  },
+  "La Boucherie du Centre@49.1930,-0.3930": {
+    "horaires": "Mo-Sa 09:00-20:00; Fr 09:00-13:00,14:00-20:00; Su 11:00-13:00",
+    "osm": "node/13893515806"
+  },
+  "La Brasserie@49.1498,-0.2646": {
+    "osm": "node/13266795848",
+    "tel": "+33231804311"
+  },
+  "La Brioche Chaude@49.1833,-0.3594": {
+    "horaires": "Mo 08:30-18:30; Tu-Sa 07:30-19:00; Su off",
+    "osm": "node/6443213478",
+    "tel": "+33231852496"
+  },
+  "La Buona Tavola@49.1831,-0.3678": {
+    "horaires": "Mo-We 12:00-14:00,19:00-22:30; Th-Sa 12:00-14:00,19:00-23:00; Su off",
+    "osm": "node/1694359559",
+    "site": "https://www.labuonatavola.fr/",
+    "tel": "+33231503535"
+  },
+  "La Casinière@49.1842,-0.3666": {
+    "horaires": "Tu-Sa; Mo-Su off",
+    "osm": "node/4377679489",
+    "site": "https://la-casiniere.fr/",
+    "tel": "+33231388284"
+  },
+  "La Cave du Vaugueux@49.1853,-0.3591": {
+    "adresse": "2 Rue des Chanoines",
+    "horaires": "Tu-Sa 10:30-19:30",
+    "osm": "node/8357340464"
+  },
+  "La Champa@49.1778,-0.3582": {
+    "horaires": "Mo-Sa 11:30-14:00, Mo,Tu,Th,Fr 19:00-21:00",
+    "osm": "node/2359354722",
+    "tel": "+33231723863"
+  },
+  "La Crémerie des Baratineurs@49.1813,-0.3583": {
+    "horaires": "Mo-We 16:00-19:00; Th 10:00-14:00,16:00-19:00; Fr-Sa 09:00-20:00; Su 10:00-13:00",
+    "osm": "node/6339549045",
+    "site": "https://www.lacremeriedesbaratineurs.fr/",
+    "tel": "+33983231265"
+  },
+  "La Fabbrica@48.8359,-1.6052": {
+    "adresse": "49 Rue du Port, 50400",
+    "horaires": "Th-Sa 12:00-14:00, 19:00-20:30; Tu-We 12:00-14:30",
+    "osm": "node/13818732602",
+    "tel": "+33233500580"
+  },
+  "La Folie Douce@49.2021,-0.3869": {
+    "horaires": "Mo-Fr 07:30-19:30",
+    "osm": "node/2978225404",
+    "tel": "+33231505205"
+  },
+  "La Folie's@49.2008,-0.3821": {
+    "horaires": "Mo-Fr 06:30-19:00; Sa 07:00-12:30",
+    "osm": "node/1679987097",
+    "site": "https://www.boulangerie-lafolies.fr/",
+    "tel": "+33231288102"
+  },
+  "La Fournée@49.1824,-0.3646": {
+    "horaires": "Mo-Sa 07:00-19:15",
+    "osm": "node/2301818962",
+    "tel": "+33231233707"
+  },
+  "La Fromagerie de Bayeux@49.2790,-0.7074": {
+    "osm": "node/5292357447",
+    "tel": "+33214080840"
+  },
+  "La Fromagerie des Bains@49.3665,0.0822": {
+    "osm": "node/8553498128",
+    "tel": "+33231982814"
+  },
+  "La Galettoire@49.1833,-0.3672": {
+    "horaires": "Su 12:00-14:00,19:00-21:30; We-Sa 12:00-14:00,19:00-22:00",
+    "osm": "node/1902188045",
+    "site": "https://la-galettoire.eatbu.com/",
+    "tel": "+33231854528"
+  },
+  "La Gitane@49.2762,-0.6989": {
+    "osm": "node/11115165423",
+    "site": "https://lagitane.shop",
+    "tel": "+33231920233"
+  },
+  "La Gourmandine@49.3038,-0.0755": {
+    "adresse": "33 Rue des Bains, 14510 Houlgate",
+    "osm": "node/13449957919"
+  },
+  "La Grande Bouteille@49.1846,-0.3575": {
+    "osm": "node/4142975601",
+    "site": "https://lagrandebouteille.fr/",
+    "tel": "+33231441806"
+  },
+  "La Grange aux Dîmes@49.2767,-0.2578": {
+    "osm": "way/112221440",
+    "photo": "/lieux/la-grange-aux-dimes-e6e9.jpg",
+    "photoCredit": "Sylenius, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "La Maison du Vrac@49.1846,-0.3645": {
+    "horaires": "Mo-Sa 10:00-19:00",
+    "osm": "node/7021329221",
+    "tel": "+33981308160"
+  },
+  "La Mer Paulette@49.3657,0.0822": {
+    "osm": "node/4909653221",
+    "tel": "+33214094606"
+  },
+  "La Moulerie@49.2884,-0.2588": {
+    "adresse": "5 Place Alfred Thomas, 14150 Ouistreham",
+    "osm": "node/5054123009",
+    "tel": "+33231971743"
+  },
+  "La Napolitaine@49.1843,-0.3619": {
+    "horaires": "Tu, Th 11:30-14:00, 18:30-23:00; We, Fr-Su 18:30-23:00",
+    "osm": "node/5221327789",
+    "site": "https://www.pizza-caen.fr/",
+    "tel": "+33231853333"
+  },
+  "La Nouvelle Vague@49.2788,-0.7076": {
+    "osm": "node/12063125204",
+    "tel": "+33231101649"
+  },
+  "La Pagaille@49.1827,-0.3554": {
+    "horaires": "Mo-We 17:00-01:00, Th-Sa 17:00-03:00",
+    "osm": "node/2336670740",
+    "tel": "+33250082547"
+  },
+  "La Pagaille@49.1827,-0.3555": {
+    "horaires": "Mo-We 17:00-01:00, Th-Sa 17:00-03:00",
+    "osm": "node/2336670740",
+    "tel": "+33250082547"
+  },
+  "La Parenthèse@49.1903,-0.3648": {
+    "horaires": "Mo-Th 07:45-18:30; Fr 07:45-17:00",
+    "osm": "node/7191281083",
+    "site": "https://www.crous-normandie.fr/restaurant/cafeteria-la-parenthese/",
+    "tel": "+33231566350"
+  },
+  "La Perle du Liban@49.1856,-0.3653": {
+    "horaires": "Mo-Sa 12:00-14:00, 18:00-22:30",
+    "osm": "node/6531510385",
+    "tel": "+33231387835"
+  },
+  "La Perle du Liban@49.1856,-0.3654": {
+    "horaires": "Mo-Sa 12:00-14:00, 18:00-22:30",
+    "osm": "node/6531510385",
+    "tel": "+33231387835"
+  },
+  "La Plage de Deauville@49.3604,0.0655": {
+    "osm": "relation/19120654",
+    "photo": "/lieux/la-plage-de-deauville-a3ab.jpg",
+    "photoCredit": "Pinpin, CC BY 2.5, Wikimedia Commons"
+  },
+  "La Prairie@49.1788,-0.3675": {
+    "osm": "relation/7902625",
+    "photo": "/lieux/la-prairie-73bd.jpg",
+    "photoCredit": "Karldupart, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "La Rafale@48.8376,-1.6038": {
+    "adresse": "6 Place Cambernon",
+    "horaires": "Sep-May: We-Th 10:00-01:00; Sep-May: Fr-Sa 10:00-02:00; Sep-May: Su 10:00-01:00; Jun-Aug: 10:00-02:00",
+    "osm": "node/6132670513",
+    "site": "https://www.la-rafale.com/",
+    "tel": "+33233501001"
+  },
+  "La Rapière@49.2763,-0.6992": {
+    "horaires": "Tu,Th-Sa 12:00-13:30, 19:00-20:15; We 19:00-20:15",
+    "osm": "node/5554902870",
+    "site": "https://www.larapiere.net",
+    "tel": "+33231210545"
+  },
+  "La Renaissance@49.1467,-0.2558": {
+    "osm": "node/13266795817",
+    "site": "https://larenaissance-cagny.fr/",
+    "tel": "+33231392429"
+  },
+  "La Table d'Hôtes@49.2835,-0.2590": {
+    "adresse": "10 Avenue du Général Leclerc, 14150 Ouistreham",
+    "horaires": "Mo-Sa 12:00-13:30, 19:30-21:00; Tu 12:00-13:30; We off; Su 12:00-13:30",
+    "osm": "node/2901171305",
+    "site": "http://www.latabledhotes-caen.com/",
+    "tel": "+33231971844"
+  },
+  "La Table du Lion@49.2761,-0.6985": {
+    "osm": "node/12242055334",
+    "site": "https://www.liondor-bayeux.fr/fr/pagex/restaurant-bayeux.4322.html",
+    "tel": "+33231920690"
+  },
+  "La Talemière d'Argences@49.1254,-0.1640": {
+    "osm": "node/5501245437",
+    "tel": "+33231236110"
+  },
+  "La Tomette@49.1813,-0.3663": {
+    "horaires": "Tu-Sa 10:00-15:00,18:00-01:00, Su 19:00-23:00",
+    "osm": "node/9458618906",
+    "site": "https://latomette.fr/",
+    "tel": "+33663545601"
+  },
+  "La Trattoria@49.1856,-0.3599": {
+    "horaires": "Tu-Sa 12:00-14:00, 19:00-22:30",
+    "osm": "node/3107069045",
+    "tel": "+33231479701"
+  },
+  "La Vallée des Jardins@49.1955,-0.3736": {
+    "osm": "way/24491628",
+    "photo": "/lieux/la-vallee-des-jardins-3e4e.jpg",
+    "photoCredit": "Roi.dagobert, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "La Voile Blanche@49.2889,-0.2569": {
+    "adresse": "16 Place Alfred Thomas",
+    "osm": "node/9795392718",
+    "site": "https://lavoileblanche-ouistreham.fr/",
+    "tel": "+33231367358"
+  },
+  "Laverie du Château@49.1848,-0.3631": {
+    "horaires": "Mo-Su 07:00-21:00",
+    "osm": "node/7497264207"
+  },
+  "Lavomatique (rue Maréchal Foch)@49.2772,-0.7009": {
+    "horaires": "07:00-21:00",
+    "osm": "node/7007658530"
+  },
+  "Lavomatique (rue des Bouchers)@49.2794,-0.7067": {
+    "horaires": "Mo-Su 07:00-21:00",
+    "osm": "node/8587141141"
+  },
+  "Lavomatique Lyautey@49.1702,-0.3535": {
+    "adresse": "1 Boulevard Maréchal Lyautey",
+    "horaires": "Mo-Su 08:00-20:00",
+    "osm": "node/5132369259",
+    "tel": "+33231788187"
+  },
+  "Lavomatique@49.1885,-0.3822": {
+    "adresse": "12 Avenue de la 1ere Armée Française",
+    "horaires": "07:00-21:00",
+    "osm": "node/12025745074"
+  },
+  "Le 36@49.2028,-0.3905": {
+    "osm": "node/12245759498",
+    "site": "https://caen-nord.brithotel.fr/restauration",
+    "tel": "+33231443636"
+  },
+  "Le Baroudeur@49.1880,-0.3664": {
+    "horaires": "Mo-Fr 16:00-01:00, Sa 17:00-01:00",
+    "osm": "node/5414371484"
+  },
+  "Le Beau Site@49.1753,-0.3877": {
+    "adresse": "216 Rue Caponière",
+    "horaires": "Mo-Fr 06:30-20:00; Sa 07:30-19:30",
+    "osm": "node/4596002289",
+    "tel": "+33231745376"
+  },
+  "Le Bellen@49.1247,-0.2066": {
+    "horaires": "Mo-Fr 06:00-21:00; Sa 07:30-21:00; Su 08:30-20:00",
+    "osm": "node/8750023157",
+    "tel": "+33231236160"
+  },
+  "Le Billot Argençais@49.1260,-0.1640": {
+    "osm": "node/5501245469",
+    "tel": "+33231236080"
+  },
+  "Le Bistrot Basque@49.1828,-0.3556": {
+    "horaires": "Mo-Th 12:00-14:00,19:30-22:30; Fr-Sa 12:00-14:00,19:30-23:00",
+    "osm": "node/2336670744",
+    "site": "https://www.le-bistrot-basque.com/",
+    "tel": "+33231382126"
+  },
+  "Le Bistrot Basque@49.1829,-0.3558": {
+    "horaires": "Mo-Th 12:00-14:00,19:30-22:30; Fr-Sa 12:00-14:00,19:30-23:00",
+    "osm": "node/2336670744",
+    "site": "https://www.le-bistrot-basque.com/",
+    "tel": "+33231382126"
+  },
+  "Le Bon Prétexte@49.1801,-0.3563": {
+    "horaires": "Tu-We 16:00-22:00; Th-Fr 16:00-00:00; Sa 15:00-00:00",
+    "osm": "node/11871171437"
+  },
+  "Le Boudoir@49.1837,-0.3694": {
+    "horaires": "Mo-Sa 17:00-01:00",
+    "osm": "node/6683693550",
+    "tel": "+33231933943"
+  },
+  "Le Caen Paris@49.1218,-0.1975": {
+    "osm": "way/333256405",
+    "tel": "+33231156961"
+  },
+  "Le Café Cuillère@49.2765,-0.6998": {
+    "osm": "node/11115158665",
+    "tel": "+33231167554"
+  },
+  "Le Cargö@49.1807,-0.3475": {
+    "osm": "way/155643960",
+    "photo": "/lieux/le-cargo-956b.jpg",
+    "photoCredit": "Arts Attack!, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://lecargo.fr/",
+    "tel": "+33231867931"
+  },
+  "Le Central@49.3653,0.0821": {
+    "adresse": "158 Boulevard Fernand Moureaux",
+    "osm": "node/13186216995",
+    "site": "https://www.hotel-central-trouville.com/",
+    "tel": "+33231881368"
+  },
+  "Le Channel@49.2789,-0.2516": {
+    "adresse": "79 Avenue Michel Cabieu, 14150 Ouistreham",
+    "osm": "node/5448441767",
+    "site": "https://restaurantlechannel.fr/",
+    "tel": "+33231965169"
+  },
+  "Le Chef et sa Femme@49.1779,-0.3583": {
+    "horaires": "Mo-Sa 12:00-14:00, 19:00-21:00; We, Su 12:00-14:00",
+    "osm": "node/2639839697",
+    "tel": "+33231844653"
+  },
+  "Le Comptoir & La Table@49.3625,0.0792": {
+    "adresse": "1 Quai de la Marine, 14800 Deauville",
+    "osm": "node/10123267534",
+    "site": "https://lecomptoiretlatable.fr/",
+    "tel": "+33231889251"
+  },
+  "Le Comptoir@49.1837,-0.3662": {
+    "horaires": "Tu-Sa 12:00-01:00",
+    "osm": "node/3861101249",
+    "tel": "+33231385340"
+  },
+  "Le Comptoir@49.1838,-0.3663": {
+    "horaires": "Tu-Sa 12:00-01:00",
+    "osm": "node/3861101249",
+    "tel": "+33231385340"
+  },
+  "Le Conquérant@49.2740,-0.7004": {
+    "horaires": "Tu-Sa 17:00-01:00",
+    "osm": "node/2377235260",
+    "site": "https://bar-leconquerant.fr",
+    "tel": "+33231103602"
+  },
+  "Le Cosmos@49.1927,-0.3931": {
+    "adresse": "62 Rue du Chemin Vert",
+    "osm": "node/12506854344",
+    "tel": "+33231731444"
+  },
+  "Le Dauphin@49.1845,-0.3649": {
+    "osm": "node/2359354689",
+    "site": "http://www.le-dauphin-normandie.com/",
+    "tel": "+33231862226"
+  },
+  "Le Farniente@49.1820,-0.3650": {
+    "horaires": "We 23:30-03:00; Th,Fr 23:30-05:00",
+    "osm": "node/11394086366",
+    "tel": "+33231863000"
+  },
+  "Le Florentin@49.2764,-0.7035": {
+    "horaires": "Tu-Sa 12:00-14:30, 18:45-21:00",
+    "osm": "node/4435544889",
+    "tel": "+33231923864"
+  },
+  "Le Fournil de Cyril@49.1164,-0.1649": {
+    "adresse": "17 Route de Paris, 14370 Moult-Chicheboville",
+    "horaires": "Mo-Tu 06:00-19:45; Th-Su 06:00-19:45",
+    "osm": "node/5501485393",
+    "site": "https://www.franceboulangerie.fr/boulangeries/boulangerie-le-fournil-de-cyril/",
+    "tel": "+33231236694"
+  },
+  "Le Fournil des Saveurs@49.1272,-0.2130": {
+    "horaires": "Mo-Fr 06:00-20:00",
+    "osm": "node/4095483671",
+    "tel": "+33231082588"
+  },
+  "Le French@49.1827,-0.3553": {
+    "horaires": "Mo-Sa 19:00-03:00",
+    "osm": "node/2336670742"
+  },
+  "Le Goéland@49.2795,-0.2510": {
+    "adresse": "5 Place du Général de Gaulle, 14150 Ouistreham",
+    "osm": "node/1700377995"
+  },
+  "Le Grand Bunker — Musée du Mur de l'Atlantique@49.2874,-0.2523": {
+    "adresse": "103 Avenue de la Plage, 14150 Ouistreham",
+    "horaires": "Apr-Sep:09:00-19:00",
+    "osm": "node/270493987",
+    "site": "https://museegrandbunker.com/",
+    "tel": "+33231972869"
+  },
+  "Le Grenier à Crêpes@49.1784,-0.3567": {
+    "horaires": "Mo-Fr 12:00-14:00,19:00-22:00; Sa 19:30-22:00",
+    "osm": "node/6201005297",
+    "site": "https://www.legrenieracrepes.fr/",
+    "tel": "+33231837944"
+  },
+  "Le Guynemer@49.1683,-0.3466": {
+    "osm": "node/1636410015",
+    "tel": "+33231822379"
+  },
+  "Le Havane@49.2853,-0.2596": {
+    "osm": "node/5054123342",
+    "tel": "+33231971819"
+  },
+  "Le Hopping@49.1849,-0.3564": {
+    "osm": "node/11920399985",
+    "tel": "+33972863321"
+  },
+  "Le Jardin des Plantes@49.1892,-0.3703": {
+    "adresse": "Place Blot, 14000 Caen",
+    "horaires": "Nov-Feb Mo-Fr 08:00-17:30, Sa-Su 10:00-17:30; Mar,Apr,Sep,Oct Mo-Fr 08:00-18:30, Sa-Su 10:00-18:30; May-Aug Mo-Fr 08:00-19:30, Sa-Su 10:00-19:30; Dec 25 off; Jan 1 off; PH \"Variable\"",
+    "osm": "way/28741037",
+    "site": "https://caen.fr/annuaire-equipement/jardin-des-plantes-jardin-botanique"
+  },
+  "Le Jardin des Plantes@49.1893,-0.3712": {
+    "adresse": "Place Blot, 14000 Caen",
+    "horaires": "Nov-Feb Mo-Fr 08:00-17:30, Sa-Su 10:00-17:30; Mar,Apr,Sep,Oct Mo-Fr 08:00-18:30, Sa-Su 10:00-18:30; May-Aug Mo-Fr 08:00-19:30, Sa-Su 10:00-19:30; Dec 25 off; Jan 1 off; PH \"Variable\"",
+    "osm": "way/28741037",
+    "site": "https://caen.fr/annuaire-equipement/jardin-des-plantes-jardin-botanique"
+  },
+  "Le Jardin@48.8376,-1.5995": {
+    "adresse": "21 Rue Lecampion",
+    "osm": "node/13570978798",
+    "tel": "+33233891988"
+  },
+  "Le Kikalou@49.2030,-0.3790": {
+    "osm": "node/13202487439",
+    "site": "https://lekikalou.fr/",
+    "tel": "+33231437474"
+  },
+  "Le Leprechaun@49.1011,-0.1537": {
+    "osm": "node/1925175369",
+    "tel": "+33670781897"
+  },
+  "Le Longchamp@49.1780,-0.3545": {
+    "horaires": "Mo-Fr 07:00-20:00; Sa 08:30-20:00",
+    "osm": "node/12476491239",
+    "tel": "+33231476243"
+  },
+  "Le Machiniste@49.1775,-0.3568": {
+    "horaires": "Tu-Sa 17:00-01:00; Su 17:00-23:00",
+    "osm": "node/2271447586",
+    "site": "https://www.lemachiniste.fr/",
+    "tel": "+33231831558"
+  },
+  "Le Mont-Saint-Michel@48.6355,-1.5103": {
+    "osm": "way/211285890",
+    "photo": "/lieux/le-mont-saint-michel-30b3.jpg",
+    "photoCredit": "Lynx1211, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.ot-montsaintmichel.com/"
+  },
+  "Le Montmartre@49.2766,-0.7002": {
+    "osm": "node/11115103868",
+    "tel": "+33629905063"
+  },
+  "Le Moulin de la Galette@49.2741,-0.7009": {
+    "horaires": "Mo,Th 12:00-14:00,19:00-21:00; Fr,Sa 12:00-14:00,19:00-21:30; Su 12:00-14:30,18:00-21:00",
+    "osm": "node/12803135419",
+    "site": "https://www.moulindelagalette-bayeux.com",
+    "tel": "+33231224775"
+  },
+  "Le Mug@49.1833,-0.3639": {
+    "horaires": "Tu-Sa 09:30-18:30",
+    "osm": "node/12641446116",
+    "tel": "+33983483181"
+  },
+  "Le Multiverre@49.1855,-0.3652": {
+    "horaires": "Mo-Su 17:00-01:00",
+    "osm": "node/11929327164",
+    "tel": "+33982444786"
+  },
+  "Le Mémorial de Caen@49.1973,-0.3840": {
+    "horaires": "Apr-Sep 09:00-19:00; Oct-Mar 09:00-18:00; Dec 25 off",
+    "osm": "way/155629535",
+    "photo": "/lieux/le-memorial-de-caen-9b59.jpg",
+    "photoCredit": "Urban~commonswiki, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.memorial-caen.fr/",
+    "tel": "+33231060644"
+  },
+  "Le Mémorial de Caen@49.1976,-0.3847": {
+    "horaires": "Apr-Sep 09:00-19:00; Oct-Mar 09:00-18:00; Dec 25 off",
+    "osm": "way/155629535",
+    "photo": "/lieux/le-memorial-de-caen-e1b8.jpg",
+    "photoCredit": "Urban~commonswiki, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.memorial-caen.fr/",
+    "tel": "+33231060644"
+  },
+  "Le Mémorial de Caen@49.1979,-0.3837": {
+    "horaires": "Apr-Sep 09:00-19:00; Oct-Mar 09:00-18:00; Dec 25 off",
+    "osm": "way/155629535",
+    "photo": "/lieux/le-memorial-de-caen-f7fc.jpg",
+    "photoCredit": "Urban~commonswiki, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.memorial-caen.fr/",
+    "tel": "+33231060644"
+  },
+  "Le Normandy@49.1461,-0.2548": {
+    "osm": "node/6631718288",
+    "tel": "+33965334197"
+  },
+  "Le P'tit Chou Normand@49.1833,-0.3634": {
+    "horaires": "Mo 11:00-19:45, Tu-Sa 07:30-19:45",
+    "osm": "node/1192915979",
+    "tel": "+33231387946"
+  },
+  "Le P'tit Roméa@49.1349,-0.2951": {
+    "horaires": "Mo 17:30-20:45; Tu-Th 11:15-13:30,17:30-21:00; Fr 11:00-13:30,17:30-22:00; Sa 17:30-22:00; Su 17:30-21:00",
+    "osm": "node/1166751090",
+    "tel": "+33231950831"
+  },
+  "Le Palais de Bombay@49.1786,-0.3565": {
+    "horaires": "Mo-Su 11:30-15:00, 18:30-23:00",
+    "osm": "node/6634980829",
+    "tel": "+33214477049"
+  },
+  "Le Patio@49.2018,-0.3934": {
+    "adresse": "12 Rue Alfred Kastler, 14000 Caen",
+    "horaires": "Mo-Fr 07:30-16:00",
+    "osm": "node/2978224983",
+    "site": "https://www.lepatio-caen.fr/",
+    "tel": "+33231933665"
+  },
+  "Le Pavillon@49.1926,-0.3595": {
+    "horaires": "Mo-Fr 11:30-14:00",
+    "osm": "way/155695477",
+    "site": "https://lepavillonrestaucaen.wixsite.com/caen",
+    "tel": "+33231942010"
+  },
+  "Le Petit Moulin@49.2763,-0.6937": {
+    "osm": "node/11773052157",
+    "tel": "+33231107174"
+  },
+  "Le Portobello Rock Club@49.1836,-0.3522": {
+    "horaires": "Th-Sa 22:00-03:00",
+    "osm": "node/3384397600",
+    "site": "https://www.portobellorockclub.fr"
+  },
+  "Le Pétrin de Saint-Jean@49.1784,-0.3566": {
+    "horaires": "We-Su 07:00-19:30",
+    "osm": "node/1635227032"
+  },
+  "Le Rethel@49.1684,-0.3349": {
+    "adresse": "59 Boulevard de Rethel",
+    "osm": "node/12737151240"
+  },
+  "Le Royal@49.1784,-0.3795": {
+    "adresse": "99 Rue Caponière",
+    "osm": "node/11998834190",
+    "tel": "+33231861055"
+  },
+  "Le Royalty@49.3043,-0.0748": {
+    "horaires": "PH,Mo-Su 12:00-23:00",
+    "osm": "node/11076914835",
+    "site": "https://www.leroyalty.fr/",
+    "tel": "+33231280915"
+  },
+  "Le Saint Alban@49.1836,-0.3659": {
+    "adresse": "43 Rue Froide",
+    "horaires": "Tu,We 09:00-20:30; Th-Sa 09:00-21:30",
+    "osm": "node/3797793255"
+  },
+  "Le Saint-Claude@49.1841,-0.3588": {
+    "horaires": "Mo 09:00-18:00; Tu-Fr 07:00-20:30; Su-Sa off",
+    "osm": "node/1632692366",
+    "tel": "+33231863647"
+  },
+  "Le Salon Lavoir@48.8369,-1.6002": {
+    "adresse": "Rue d'Orléans",
+    "horaires": "07:00-21:00",
+    "osm": "node/12133315401"
+  },
+  "Le Toucan@49.1992,-0.3608": {
+    "horaires": "Mo-Fr 08:30-16:00",
+    "osm": "node/5045873278",
+    "site": "https://www.brasserieletoucan.fr/",
+    "tel": "+33231745498"
+  },
+  "Le Valéa@49.1792,-0.3571": {
+    "osm": "node/5845992493",
+    "tel": "+33250106419"
+  },
+  "Le Verger Saint-Jean@49.1798,-0.3581": {
+    "horaires": "Tu-Sa 08:30-13:00,15:30-19:00",
+    "osm": "node/7538288068",
+    "tel": "+33231860019"
+  },
+  "Le Verger Saint-Jean@49.1799,-0.3581": {
+    "horaires": "Tu-Sa 08:30-13:00,15:30-19:00",
+    "osm": "node/7538288068",
+    "tel": "+33231860019"
+  },
+  "Les 3 Marches@49.1847,-0.3580": {
+    "osm": "node/10821983301",
+    "tel": "+33231952194"
+  },
+  "Les Affiches@49.3678,0.0790": {
+    "adresse": "6 Rue de Paris",
+    "osm": "node/10029980727"
+  },
+  "Les Burgers de Colette (rue Buquet)@49.1848,-0.3589": {
+    "adresse": "6 Rue Buquet",
+    "horaires": "Mo-Sa 12:00-14:00,19:00-22:30; Su 12:00-14:30,19:00-22:30",
+    "osm": "node/3326594303",
+    "site": "https://colette-burger.webflow.io/restaurants/caen-rue-buquet",
+    "tel": "+33231395503"
+  },
+  "Les Burgers de Colette (rue Buquet)@49.1848,-0.3590": {
+    "adresse": "6 Rue Buquet",
+    "horaires": "Mo-Sa 12:00-14:00,19:00-22:30; Su 12:00-14:30,19:00-22:30",
+    "osm": "node/3326594303",
+    "site": "https://colette-burger.webflow.io/restaurants/caen-rue-buquet",
+    "tel": "+33231395503"
+  },
+  "Les Burgers de Colette (rue Écuyère)@49.1819,-0.3689": {
+    "horaires": "11:30-23:00; Fr,Sa 11:30-00:00",
+    "osm": "node/5010205500",
+    "site": "https://colette-burger.webflow.io/restaurants/caen---rue-ecuyere",
+    "tel": "+33231501344"
+  },
+  "Les Burgers de Colette@49.1819,-0.3689": {
+    "horaires": "11:30-23:00; Fr,Sa 11:30-00:00",
+    "osm": "node/5010205500",
+    "site": "https://colette-burger.webflow.io/restaurants/caen---rue-ecuyere",
+    "tel": "+33231501344"
+  },
+  "Les Burgers de Colette@49.1848,-0.3590": {
+    "adresse": "6 Rue Buquet",
+    "horaires": "Mo-Sa 12:00-14:00,19:00-22:30; Su 12:00-14:30,19:00-22:30",
+    "osm": "node/3326594303",
+    "site": "https://colette-burger.webflow.io/restaurants/caen-rue-buquet",
+    "tel": "+33231395503"
+  },
+  "Les Embruns@49.1811,-0.3581": {
+    "horaires": "Mo-Su 08:15-13:00,15:00-19:15",
+    "osm": "node/3889252352",
+    "tel": "+33231860276"
+  },
+  "Les Franciscaines@49.3544,0.0666": {
+    "adresse": "145 b Avenue de la République, 14800 Deauville",
+    "horaires": "Tu-Su 10:30-18:30",
+    "osm": "relation/1002357",
+    "site": "https://lesfranciscaines.fr/",
+    "tel": "+33261522920"
+  },
+  "Les Grands Vilains@48.8382,-1.5997": {
+    "adresse": "93 Rue des Juifs, 50400 Granville",
+    "horaires": "Mo,We-Th 12:00-15:00,19:00-22:00; Fr-Sa 12:00-15:00,19:00-23:00",
+    "osm": "node/1419017559",
+    "tel": "+33233500114"
+  },
+  "Les Passantes@49.3036,-0.0763": {
+    "horaires": "We-Th 12:00-13:45, 19:00-21:00; Fr-Su 12:00-13:45, 18:00-21:00",
+    "osm": "node/13204703242",
+    "site": "https://www.les-passantes.fr/"
+  },
+  "Les Pavés de Caen@49.1834,-0.3682": {
+    "horaires": "Tu-Sa 12:00-21:00",
+    "osm": "node/5230978062",
+    "tel": "+33231268372"
+  },
+  "Les Petites Bulles@49.2767,-0.7000": {
+    "horaires": "Mo,Tu,Th,Fr 16:00-01:00; We,Sa 12:00-01:00",
+    "osm": "node/7663421009",
+    "tel": "+33231164742"
+  },
+  "Les Quatre Bouchons@49.1786,-0.3572": {
+    "horaires": "Mo 12:00-14:00; Tu-Sa 12:00-14:00, 19:00-23:00; Su off",
+    "osm": "node/5339251374",
+    "tel": "+33613203540"
+  },
+  "Les Toqués du Terroir Normand@49.3663,0.0822": {
+    "horaires": "Mo-Su,PH 10:00-19:00",
+    "osm": "node/11202724102",
+    "tel": "+33231981307"
+  },
+  "Les Volets Roses@49.2756,-0.7045": {
+    "horaires": "Th-Mo 09:00-18:00",
+    "osm": "node/7783626901",
+    "tel": "+33641602340"
+  },
+  "Les îles Chausey@48.8709,-1.8225": {
+    "osm": "relation/224243",
+    "photo": "/lieux/les-iles-chausey-a8b8.jpg",
+    "photoCredit": "Pline, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Lidl@48.8362,-1.5823": {
+    "adresse": "53 Avenue Aristide Briand",
+    "horaires": "Mo-Sa 08:30-20:00; Su 08:30-12:15",
+    "osm": "way/135524167",
+    "site": "https://www.lidl.fr/s/fr-FR/supermarches/granville/avenue-aristide-briand-53/"
+  },
+  "Lidl@49.1191,-0.1867": {
+    "horaires": "Mo-Sa 08:30-20:00; Su 08:30-12:15",
+    "osm": "way/648177065",
+    "site": "https://www.lidl.fr/s/fr-FR/supermarches/moult/lieu-dit-la-haye-au-blanc-146/"
+  },
+  "Mademoiselle Hel@49.1753,-0.3550": {
+    "horaires": "Tu-Fr 10:00-13:00,14:00-19:00; Sa 10:00-13:00,14:00-18:00; Mo off",
+    "osm": "node/12211085846",
+    "site": "https://mademoisellehel.fr/",
+    "tel": "+33760858209"
+  },
+  "Maison Eric Kayser@49.1829,-0.3682": {
+    "horaires": "Mo-Su 07:00-20:00",
+    "osm": "node/1694359503"
+  },
+  "Maison Kayser — Saint-Sauveur@49.1829,-0.3681": {
+    "horaires": "Tu-Th,Sa 09:00-13:00,16:00-19:00; Fr 08:00-13:00,16:00-19:00",
+    "osm": "node/2137283238"
+  },
+  "Maison Toulorge@49.1760,-0.3888": {
+    "adresse": "5 Rue Eugène Maës, 14000 Caen",
+    "horaires": "Tu-Su 07:00-20:30",
+    "osm": "way/155665022",
+    "site": "https://maison-toulorge.com/boutique-caen/",
+    "tel": "+33231954605"
+  },
+  "Maison Toulorge@49.1805,-0.3588": {
+    "horaires": "Tu-Su 06:00-20:00",
+    "osm": "node/4800750447",
+    "site": "https://maison-toulorge.com/boutique-caen/",
+    "tel": "+33231861220"
+  },
+  "Maison des Quatrans@49.1862,-0.3600": {
+    "osm": "way/155643168",
+    "photo": "/lieux/maison-des-quatrans-7068.jpg",
+    "photoCredit": "Andy Li, CC0, Wikimedia Commons"
+  },
+  "Maisons JK@49.3668,0.0816": {
+    "horaires": "Su 07:00-18:30; Tu-Sa 07:00-19:30",
+    "osm": "node/4385209367",
+    "tel": "+33231981744"
+  },
+  "Mamma Mia@49.2866,-0.2592": {
+    "osm": "node/5054123337",
+    "site": "https://www.mammamiaouistreham.com/"
+  },
+  "Mapple Coffee@49.1822,-0.3748": {
+    "adresse": "3 Rue Caponière",
+    "horaires": "Mo-Sa 07:30-19:00",
+    "osm": "node/11835727803",
+    "site": "https://mapple-coffee-caen.eatbu.com/",
+    "tel": "+33986641914"
+  },
+  "Marché Saint-Patrice@49.2794,-0.7077": {
+    "horaires": "Sa 07:30-14:00",
+    "osm": "node/8557347134"
+  },
+  "Marché Saint-Sauveur (vendredi matin)@49.1824,-0.3699": {
+    "horaires": "Fr 07:30-13:30",
+    "osm": "node/1636448656"
+  },
+  "Marché Saint-Sauveur@49.1824,-0.3699": {
+    "horaires": "Fr 07:30-13:30",
+    "osm": "node/1636448656"
+  },
+  "Marché aux Poissons@49.3649,0.0819": {
+    "osm": "way/86519390",
+    "photo": "/lieux/marche-aux-poissons-20f3.jpg",
+    "photoCredit": "Gregory Deryckère, CC BY 2.5, Wikimedia Commons"
+  },
+  "Marché aux poissons@49.2804,-0.2499": {
+    "horaires": "Tu-Su 08:30-19:00",
+    "osm": "way/305055826"
+  },
+  "Mariatte et Fils@49.1723,-0.3893": {
+    "adresse": "77 Boulevard Yves Guillou, 14000 Caen",
+    "horaires": "Mo 07:00-21:00; We-Su 07:00-21:00",
+    "osm": "node/1898349943",
+    "tel": "+33231291135"
+  },
+  "Mc Boho@49.1777,-0.3566": {
+    "osm": "node/11897490851",
+    "tel": "+33664770911"
+  },
+  "McDonald's@49.1180,-0.1771": {
+    "horaires": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+    "osm": "way/718310903",
+    "site": "https://www.mcdonalds.fr/restaurants/mcdonalds-moult/1224",
+    "tel": "+33231385233"
+  },
+  "Mian Mian@49.1843,-0.3620": {
+    "horaires": "Mo-Sa 11:00-15:00,17:00-22:00",
+    "osm": "node/12536127942",
+    "tel": "+33231450781"
+  },
+  "Miettes et Cie@49.1977,-0.3643": {
+    "horaires": "Tu-Sa 08:00-19:30; Su 07:00-13:30",
+    "osm": "node/2309830740"
+  },
+  "Modjo@49.1852,-0.3657": {
+    "horaires": "Mo-Fr 08:00-20:00",
+    "osm": "node/2517177325",
+    "tel": "+33214473741"
+  },
+  "Monop'@49.1817,-0.3573": {
+    "adresse": "22 Avenue du 6 Juin",
+    "horaires": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
+    "osm": "node/2309413844",
+    "site": "https://www.monoprix.fr/2195.html",
+    "tel": "+33231853131"
+  },
+  "Monoprix@49.3659,0.0810": {
+    "adresse": "166 Boulevard Fernand Moureaux, 14360 Trouville-sur-Mer",
+    "horaires": "Mo-Sa 08:00-20:45; Su 08:00-19:45",
+    "osm": "node/1006163600",
+    "site": "https://www.monoprix.fr/805.html",
+    "tel": "+33231880636"
+  },
+  "Monsieur Louis@49.1828,-0.3685": {
+    "horaires": "Mo-Sa 12:00-14:00, 19:00-22:00",
+    "osm": "node/6005196972",
+    "site": "http://www.monsieur-louis.com",
+    "tel": "+33261536050"
+  },
+  "Monsieur Louis@49.1828,-0.3686": {
+    "horaires": "Mo-Sa 12:00-14:00, 19:00-22:00",
+    "osm": "node/6005196972",
+    "site": "http://www.monsieur-louis.com",
+    "tel": "+33261536050"
+  },
+  "Musée Christian Dior@48.8401,-1.5986": {
+    "osm": "way/135528003",
+    "photo": "/lieux/musee-christian-dior-678f.jpg",
+    "photoCredit": "SimonCourtecuisse, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Musée Mémorial de la Bataille de Normandie@49.2734,-0.7114": {
+    "horaires": "Feb-Apr 10:00-12:30,14:00-18:00; May-Sep 09:30-18:30; Oct-Dec 10:00-12:30, 14:00-18:00",
+    "osm": "relation/1774525",
+    "photo": "/lieux/musee-memorial-de-la-bataille-de-normandie-9405.jpg",
+    "photoCredit": "Fouriau Grégory, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.bayeuxmuseum.com/musee-memorial-de-la-bataille-de-normandie",
+    "tel": "+33231512550"
+  },
+  "Musée Villa Montebello@49.3714,0.0843": {
+    "osm": "way/86513731",
+    "photo": "/lieux/musee-villa-montebello-2d49.jpg",
+    "photoCredit": "Pymouss, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.trouville.fr/MuseeVillaMontebello/",
+    "tel": "+33231885133"
+  },
+  "Musée d'Art et d'Histoire Baron Gérard (MAHB)@49.2760,-0.7036": {
+    "horaires": "May-Sep: Mo-Su,PH 09:30-18:30, Oct-Apr: Mo-Su,PH 10:00-12:30,14:00-18:00",
+    "osm": "node/2578288672",
+    "photo": "/lieux/musee-d-art-et-d-histoire-baron-gerard-mahb-5aff.jpg",
+    "photoCredit": "Chatsam, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.bayeuxmuseum.com",
+    "tel": "+33231512550"
+  },
+  "Musée d'Art et d'Histoire de Granville@48.8360,-1.6018": {
+    "osm": "node/1384094524",
+    "photo": "/lieux/musee-d-art-et-d-histoire-de-granville-d0b9.jpg",
+    "photoCredit": "HaguardDuNord, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.ville-granville.fr/a-voir-a-faire-a-granville/vie-culturelle-et-artistique/musee-dart-et",
+    "tel": "+33233504410"
+  },
+  "Musée d'Art moderne Richard Anacréon@48.8362,-1.6010": {
+    "osm": "node/5864155897",
+    "photo": "/lieux/musee-d-art-moderne-richard-anacreon-7f0f.jpg",
+    "photoCredit": "Selbymay, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.ville-granville.fr/a-voir-a-faire-a-granville/vie-culturelle-et-artistique/musee-dart-moderne-richard-anacreon/",
+    "tel": "+33233510294"
+  },
+  "Musée de Normandie@49.1864,-0.3608": {
+    "osm": "relation/18446895",
+    "photo": "/lieux/musee-de-normandie-01bb.jpg",
+    "photoCredit": "Karldupart, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://musee-de-normandie.caen.fr/",
+    "tel": "+33231304760"
+  },
+  "Musée de la Tapisserie de Bayeux@49.2744,-0.7006": {
+    "horaires": "Mo-Su 09:00-17:00,09:00-19:00; 2025 Sep 01-2027 Oct 01 off",
+    "osm": "node/3836386657",
+    "photo": "/lieux/musee-de-la-tapisserie-de-bayeux-0ef8.jpg",
+    "photoCredit": "Myrabella, Public domain, Wikimedia Commons",
+    "site": "https://www.bayeuxmuseum.com",
+    "tel": "+33231512550"
+  },
+  "Musée des Beaux-Arts de Caen@49.1872,-0.3623": {
+    "horaires": "Sep-Jun Tu-Fr 09:30-12:30,13:30-18:00; Sep-Jun,Jul-Aug Sa,Su 11:00-18:00; Jul-Aug Mo-Fr 09:30-12:30,13:30-18:00; Easter monday  11:00-18:00; Whit monday  11:00-18:00; Jan01 Off, May01 Off, Ascension Day Off, Nov01 Off, Dec25 Off",
+    "osm": "node/315032925",
+    "photo": "/lieux/musee-des-beaux-arts-de-caen-af7e.jpg",
+    "photoCredit": "Christophe.Finot, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://mba.caen.fr/"
+  },
+  "Musée du N°4 Commando@49.2886,-0.2596": {
+    "horaires": "10:00-13:00,14:00-18:30",
+    "osm": "node/5054123010",
+    "site": "https://www.musee-4commando.fr/"
+  },
+  "NONNA@49.1831,-0.3677": {
+    "horaires": "Mo-Su 17:00-24:00",
+    "osm": "node/5963596353",
+    "tel": "+33967509046"
+  },
+  "Nemour@49.1931,-0.3932": {
+    "osm": "node/11891241248",
+    "tel": "+33231241826"
+  },
+  "Netto@49.2010,-0.3974": {
+    "horaires": "Mo-Sa 08:30-19:30; Su 09:00-12:30",
+    "osm": "way/1171718900",
+    "site": "https://magasin.netto.fr/493-netto-saint-contest",
+    "tel": "+33231071730"
+  },
+  "Night Market@49.1813,-0.3672": {
+    "osm": "node/11963488578",
+    "tel": "+33601288123"
+  },
+  "Nonna@49.1831,-0.3676": {
+    "horaires": "Mo-Su 17:00-24:00",
+    "osm": "node/5963596353",
+    "tel": "+33967509046"
+  },
+  "O'Donnell's Irish Pub@49.1832,-0.3564": {
+    "osm": "node/2271447585",
+    "tel": "+33231855150"
+  },
+  "Office de Tourisme Granville Terre et Mer@48.8371,-1.6007": {
+    "adresse": "2 Rue Lecampion, 50400 Granville",
+    "osm": "node/13770789207",
+    "site": "https://www.tourisme-granville-terre-mer.com/",
+    "tel": "+33233913003"
+  },
+  "Oh Barbecue!@49.1185,-0.1795": {
+    "horaires": "Mo-Sa 12:00-14:00; Tu-Th 19:00-21:00; Fr,Sa 19:00-22:00; Su off",
+    "osm": "way/331956819",
+    "site": "https://www.ohbarbecue.fr/",
+    "tel": "+33231382996"
+  },
+  "Olly's@49.1849,-0.3572": {
+    "osm": "node/13392043549",
+    "tel": "+33770833206"
+  },
+  "Oxo Bar@49.2861,-0.2590": {
+    "horaires": "Tu-Sa 17:00-01:00; Su 14:00-22:00",
+    "osm": "node/4789500921"
+  },
+  "Parc de la Colline aux Oiseaux@49.1975,-0.3924": {
+    "adresse": "Avenue Amiral Mountbatten, 14000 Caen",
+    "horaires": "Nov-Feb Mo-Fr 08:00-17:30, Sa-Su 10:00-17:30; Mar,Apr,Sep,Oct Mo-Fr 08:00-18:30, Sa-Su 10:00-18:30; May-Aug Mo-Fr 08:00-19:30, Sa-Su 10:00-19:30",
+    "osm": "way/24521239"
+  },
+  "Parc de la Colline aux Oiseaux@49.1980,-0.3914": {
+    "adresse": "Avenue Amiral Mountbatten, 14000 Caen",
+    "horaires": "Nov-Feb Mo-Fr 08:00-17:30, Sa-Su 10:00-17:30; Mar,Apr,Sep,Oct Mo-Fr 08:00-18:30, Sa-Su 10:00-18:30; May-Aug Mo-Fr 08:00-19:30, Sa-Su 10:00-19:30",
+    "osm": "way/24521239"
+  },
+  "Parc de la Colline aux Oiseaux@49.1980,-0.3924": {
+    "adresse": "Avenue Amiral Mountbatten, 14000 Caen",
+    "horaires": "Nov-Feb Mo-Fr 08:00-17:30, Sa-Su 10:00-17:30; Mar,Apr,Sep,Oct Mo-Fr 08:00-18:30, Sa-Su 10:00-18:30; May-Aug Mo-Fr 08:00-19:30, Sa-Su 10:00-19:30",
+    "osm": "way/24521239"
+  },
+  "Patanella@49.2755,-0.7045": {
+    "horaires": "Mo-Fr 11:30-14:00,17:00-22:00; Sa-Su off",
+    "osm": "node/4283973209",
+    "site": "https://patanella.fr",
+    "tel": "+33231220461"
+  },
+  "Pathé Les Rives de l'Orne@49.1774,-0.3501": {
+    "adresse": "14 Esplanade Léopold Sédar-Senghor, 14000 Caen",
+    "osm": "node/4883839446",
+    "site": "https://www.pathe.fr/cinemas/cinema-pathe-les-rives-de-l-orne",
+    "tel": "+33231525974"
+  },
+  "Patinoire de Caen la Mer@49.1773,-0.3686": {
+    "osm": "way/155645070",
+    "photo": "/lieux/patinoire-de-caen-la-mer-91d9.jpg",
+    "photoCredit": "Benoit-caen, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Pegasus Bridge — Mémorial Pegasus@49.2425,-0.2731": {
+    "adresse": "1 Avenue du Major John Howard, 14860 Ranville",
+    "horaires": "Feb-Mar: 10:00-17:00; Apr-Sep: Mo-Su 09:30-18:30; Oct 1-Dec 15: 10:00-17:00",
+    "osm": "way/1211761979",
+    "photo": "/lieux/pegasus-bridge-memorial-pegasus-8ce1.jpg",
+    "photoCredit": "Patrbe, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://musee.memorial-pegasus.com/",
+    "tel": "+33231781944"
+  },
+  "Phare de Ouistreham@49.2799,-0.2479": {
+    "osm": "way/107457075",
+    "photo": "/lieux/phare-de-ouistreham-52e3.jpg",
+    "photoCredit": "Viault, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Pharmacie 2000@49.1929,-0.3933": {
+    "osm": "node/12506854345",
+    "tel": "+33231732633"
+  },
+  "Pharmacie Centrale@48.8376,-1.5981": {
+    "horaires": "Mo-Fr 09:00-12:30,14:00-19:30; Sa 09:00-13:00,14:00-19:00",
+    "osm": "node/10798918314",
+    "tel": "+33233500078"
+  },
+  "Pharmacie Danjou-Rousselot@49.1819,-0.3671": {
+    "horaires": "Mo-Sa 09:15-19:00",
+    "osm": "node/1693086228",
+    "tel": "+33231307817"
+  },
+  "Pharmacie Decoutère@49.1270,-0.1650": {
+    "horaires": "Mo-Fr 09:00-12:30,14:00-19:30; Sa 09:00-12:30,14:00-19:00",
+    "osm": "node/937060433",
+    "site": "https://decoutere.aprium-pharmacie.fr/accueil",
+    "tel": "+33231236035"
+  },
+  "Pharmacie Lafayette du Théâtre@49.1818,-0.3651": {
+    "horaires": "Mo-Sa 09:00-19:30",
+    "osm": "node/5739379884",
+    "site": "https://www.pharmacielafayette.com/pharmacies/caen",
+    "tel": "+33231860737"
+  },
+  "Pharmacie Lafayette@49.1816,-0.3649": {
+    "horaires": "Mo-Sa 09:00-19:30",
+    "osm": "node/5739379884",
+    "site": "https://www.pharmacielafayette.com/pharmacies/caen",
+    "tel": "+33231860737"
+  },
+  "Pharmacie Le Saint@48.8379,-1.5853": {
+    "horaires": "Mo-Fr 09:15-12:15,14:00-19:15; Sa 09:15-12:15",
+    "osm": "node/12945117103",
+    "tel": "+33233500235"
+  },
+  "Pharmacie Saint-Jean@49.1796,-0.3579": {
+    "horaires": "Mo-Sa 09:15-13:00,14:00-19:00",
+    "osm": "node/1635224514",
+    "tel": "+33231861301"
+  },
+  "Pharmacie Saint-Michel@49.1752,-0.3542": {
+    "horaires": "Mo-Fr 09:00-12:30,14:00-19:30; Sa 09:00-12:30",
+    "osm": "node/1635266741",
+    "site": "https://www.pharmaciesaintmichel-caen.fr/",
+    "tel": "+33231823670"
+  },
+  "Pharmacie Saint-Ouen@49.1727,-0.3809": {
+    "horaires": "Tu-Sa 09:00-19:00",
+    "osm": "node/12512936625",
+    "tel": "+33231745628"
+  },
+  "Pharmacie Saint-Patrice@49.2789,-0.7082": {
+    "horaires": "Mo-Sa 08:30-19:30",
+    "osm": "node/7663361036",
+    "site": "https://pharmaciesaintpatrice.site-solocal.com/",
+    "tel": "+33231920427"
+  },
+  "Pharmacie Schiebold-Derouet@49.1823,-0.3746": {
+    "horaires": "Mo-Sa 09:00-12:30,14:00-19:30",
+    "osm": "node/3658844765",
+    "site": "https://pharmaciederouetschiebold14.pharminfo.fr/"
+  },
+  "Pharmacie de La Folie-Couvrechef@49.2010,-0.3790": {
+    "osm": "node/8582476342",
+    "tel": "+33231942447"
+  },
+  "Pharmacie de l'Envol@49.1168,-0.1659": {
+    "horaires": "Mo-Fr 09:00-12:15,14:00-19:30; Sa 09:00-12:15,14:00-19:00",
+    "osm": "node/5011948710",
+    "site": "https://www.pharmacie-moult.fr/",
+    "tel": "+33231236887"
+  },
+  "Pharmacie de la Gare@48.8376,-1.5894": {
+    "adresse": "2 Avenue du Maréchal Leclerc",
+    "osm": "node/1798161595",
+    "tel": "+33233500110"
+  },
+  "Pharmacie de la Guérinière@49.1610,-0.3419": {
+    "horaires": "Mo-Fr 08:00-19:30; Sa 09:00-19:00; Su off",
+    "osm": "node/10171416364",
+    "site": "https://pharmaciedelagueriniere.fr/",
+    "tel": "+33231823980"
+  },
+  "Pharmacie de la Plage@49.2863,-0.2591": {
+    "osm": "node/13167373451",
+    "tel": "+33231971828"
+  },
+  "Pharmacie de la Plaine@49.1446,-0.2517": {
+    "horaires": "Mo-Sa 09:00-19:30; Su 09:00-18:00",
+    "osm": "node/6631718289",
+    "site": "https://pharmacie-de-la-plaine-cagny.pharmacorp.fr"
+  },
+  "Pharmacie de la République@49.1814,-0.3627": {
+    "horaires": "Mo-Fr 09:00-13:00,14:00-19:00; Sa 09:00-13:00,14:00-18:00",
+    "osm": "node/1635275940",
+    "tel": "+33231861113"
+  },
+  "Pharmacie de la presqu'île@49.1832,-0.3530": {
+    "horaires": "Mo-Sa 09:00-12:30,14:00-19:30",
+    "osm": "node/1903750248",
+    "site": "https://pharmacie-dlp-caen.pharmacorp.fr/",
+    "tel": "+33231955730"
+  },
+  "Pharmacie de la presqu'île@49.1833,-0.3531": {
+    "horaires": "Mo-Sa 09:00-12:30,14:00-19:30",
+    "osm": "node/1903750248",
+    "site": "https://pharmacie-dlp-caen.pharmacorp.fr/",
+    "tel": "+33231955730"
+  },
+  "Pharmacie des Bains@49.3034,-0.0772": {
+    "horaires": "Mo-Fr 09:00-12:30,14:00-19:30; Sa 09:00-12:30,14:30-19:30",
+    "osm": "node/13204703238",
+    "tel": "+33231287052"
+  },
+  "Pharmacie du Calvaire Saint-Pierre@49.1978,-0.3643": {
+    "horaires": "Mo-Sa 09:00-12:30,14:00-19:30",
+    "osm": "node/2309830742",
+    "site": "https://www.pharmacie-csp.fr/",
+    "tel": "+33231931019"
+  },
+  "Pharmacie du Centre@49.2776,-0.7046": {
+    "horaires": "Mo 13:45-19:30; Tu-Fr 09:00-12:45, 13:45-19:30; Sa 09:00-12:45, 14:00-19:00",
+    "osm": "node/7655441439",
+    "site": "https://www.pharmacie-du-centre-bayeux.fr",
+    "tel": "+33231920083"
+  },
+  "Pharmacie du Chemin Vert@49.1921,-0.3954": {
+    "horaires": "Mo-Fr 08:30-19:30; Sa 09:00-12:30,14:00-18:00",
+    "osm": "node/11862472431",
+    "tel": "+33231732633"
+  },
+  "Pharmacie du Parc@49.1693,-0.3435": {
+    "adresse": "107 Avenue Capitaine Georges Guynemer, 14000 Caen",
+    "horaires": "Jul-Aug Mo-Sa 09:00-12:30,14:00-19:00; Sep-Jun Mo-Fr 09:00-13:00,14:00-19:30; Sep-Jun Sa 09:00-13:00,14:00-19:00",
+    "osm": "node/3126625350"
+  },
+  "Pharmacie du Pont Saint-Jean@49.2769,-0.7011": {
+    "horaires": "Mo-Sa 08:30-19:30",
+    "osm": "node/3836371374",
+    "tel": "+33231920763"
+  },
+  "Pharmacie du Port@49.2796,-0.2510": {
+    "adresse": "1 Place du Général de Gaulle, 14150 Ouistreham",
+    "horaires": "Mo-Sa 09:00-12:30,14:30-19:30",
+    "osm": "node/5033073207"
+  },
+  "Pharmacie du Port@49.3648,0.0827": {
+    "horaires": "Mo-Sa 09:00-13:00,14:00-19:30; Su 09:00-13:00",
+    "osm": "node/467732139",
+    "site": "https://www.pharmacieduport14.fr/",
+    "tel": "+33231881059"
+  },
+  "Pipelettes & Co@49.3672,0.0814": {
+    "horaires": "Th,Fr 09:30-18:30; Sa 09:30-19:00; Su,Mo 09:30-18:30; Tu,We off",
+    "osm": "node/10029980742",
+    "site": "https://www.pipelettesandco.com/",
+    "tel": "+33231984149"
+  },
+  "Pizzeria Canaglia@49.1819,-0.3675": {
+    "horaires": "Mo-Th 12:00-14:00,19:00-22:00; Fr 12:00-14:00,19:00-23:00; Sa 12:00-14:30,19:00-23:00; Su 12:00-14:30,19:00-22:00",
+    "osm": "node/11107487360",
+    "site": "https://www.pizzeriacanaglia.com/",
+    "tel": "+33231799083"
+  },
+  "Pizzeria Canaglia@49.1820,-0.3676": {
+    "horaires": "Mo-Th 12:00-14:00,19:00-22:00; Fr 12:00-14:00,19:00-23:00; Sa 12:00-14:30,19:00-23:00; Su 12:00-14:30,19:00-22:00",
+    "osm": "node/11107487360",
+    "site": "https://www.pizzeriacanaglia.com/",
+    "tel": "+33231799083"
+  },
+  "Plage de Deauville@49.3607,0.0665": {
+    "osm": "relation/19120654",
+    "photo": "/lieux/plage-de-deauville-19a7.jpg",
+    "photoCredit": "Pinpin, CC BY 2.5, Wikimedia Commons"
+  },
+  "Plage du Plat Gousset@48.8389,-1.5994": {
+    "osm": "way/155188182",
+    "photo": "/lieux/plage-du-plat-gousset-7092.jpg",
+    "photoCredit": "Marianna, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Polyclinique du Parc@49.1680,-0.3453": {
+    "adresse": "20 Avenue Capitaine Georges Guynemer, 14000 Caen",
+    "osm": "way/52624919",
+    "site": "https://www.elsan.care/fr/polyclinique-parc-caen",
+    "tel": "+33231828282"
+  },
+  "Pop Corn Labyrinthe@49.1277,-0.2595": {
+    "horaires": "Fr 21:00-23:30",
+    "osm": "node/10822051705",
+    "site": "https://www.popcornlabyrinthe.fr/caen/",
+    "tel": "+33272256843"
+  },
+  "Port de plaisance de Ouistreham@49.2793,-0.2490": {
+    "osm": "way/107457044",
+    "site": "https://www.ouistreham-plaisance.com/"
+  },
+  "Port-en-Bessin@49.3464,-0.7533": {
+    "osm": "node/392050040",
+    "photo": "/lieux/port-en-bessin-b073.jpg",
+    "photoCredit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://www.portenbessin-huppain.fr"
+  },
+  "Pressing Baechler@49.1812,-0.3625": {
+    "horaires": "Mo-Sa 08:00-19:00",
+    "osm": "node/10801272398",
+    "site": "https://www.5asec.fr/trouvez-votre-pressing-5asec/basse-normandie/caen/pressing-baechler-caen-pont-saint-jacques"
+  },
+  "Proxi@49.1266,-0.1650": {
+    "osm": "node/937060444",
+    "tel": "+33981886033"
+  },
+  "Renée@49.1263,-0.1641": {
+    "horaires": "Tu 12:00-14:30; We 10:00-14:30; Th 09:30-14:30; Fr-Sa 10:00-14:30,19:30-22:00",
+    "osm": "node/5501245185",
+    "site": "https://www.restaurantrenee.fr",
+    "tel": "+33231856223"
+  },
+  "Restaurant Linette@49.2007,-0.3892": {
+    "adresse": "9 Rue Karl Probst",
+    "horaires": "Mo-Fr 12:00-21:00; Sa-Su off",
+    "osm": "node/12243453655",
+    "site": "https://linette-caen.com",
+    "tel": "+33231443420"
+  },
+  "Roc des Curiosités — Musée & Aquarium@48.8345,-1.6075": {
+    "adresse": "1 Boulevard Vaufleury, Granville",
+    "osm": "relation/18474846",
+    "photo": "/lieux/roc-des-curiosites-musee-aquarium-b8f2.jpg",
+    "photoCredit": "Cocu Cyril, CC BY-SA 3.0, Wikimedia Commons",
+    "site": "https://le-roc-des-curiosites.com/",
+    "tel": "+33233501983"
+  },
+  "Roze@49.2556,-0.3738": {
+    "osm": "node/1710576233",
+    "site": "https://www.roze-restaurant.fr/",
+    "tel": "+33231441017"
+  },
+  "Rungis@49.2788,-0.7079": {
+    "osm": "node/7010866167",
+    "tel": "+33231922694"
+  },
+  "Rustica@49.1833,-0.3652": {
+    "horaires": "Tu-Th 12:00-14:00,19:00-22:30; Fr,Sa 12:00-14:00,19:00-23:00",
+    "osm": "node/3797793962",
+    "site": "http://pizzarusticacaen.fr/",
+    "tel": "+33231865050"
+  },
+  "S'il-vous-plaît@49.1829,-0.3664": {
+    "horaires": "Tu-Fr 11:00-18:30; Sa 11:00-19:00",
+    "osm": "node/11869220620",
+    "tel": "+33765237712"
+  },
+  "Safran@49.1837,-0.3664": {
+    "horaires": "Tu-Sa 12:00-15:00,18:00-22:00",
+    "osm": "node/1996209696",
+    "tel": "+33231387227"
+  },
+  "Sasésu@49.1790,-0.3573": {
+    "horaires": "Mo-Su 11:00-23:30",
+    "osm": "node/4585228570",
+    "site": "https://sasesu.com/fr",
+    "tel": "+33231918343"
+  },
+  "Schmilblic@49.1838,-0.3661": {
+    "horaires": "Tu-Sa 11:30-20:00",
+    "osm": "node/3797793244",
+    "tel": "+33231859699"
+  },
+  "Selma Alabama@49.2763,-0.6999": {
+    "horaires": "Tu-Sa 08:00-18:00; Su 10:00-18:00",
+    "osm": "node/11115159726",
+    "tel": "+33982531855"
+  },
+  "Sixt — location de voitures@49.1756,-0.3482": {
+    "horaires": "Mo-Fr 08:00-19:00; Sa 09:00-12:30, 13:00-16:00; Su 12:00-18:00",
+    "osm": "node/12096869539",
+    "site": "https://www.sixt.co.uk/car-hire/france/caen/caen-train-station/"
+  },
+  "Solide@49.1800,-0.3589": {
+    "horaires": "Tu,We 10:30-13:00,15:30-19:30; Th,Fr 10:30-13:00,16:00-22:00; Sa 10:30-13:00,14:30-19:30; Mo,Su off",
+    "osm": "node/13307661848"
+  },
+  "Stade nautique Eugène Maës@49.1766,-0.3688": {
+    "adresse": "12 Boulevard Yves Guillou, 14000 Caen",
+    "osm": "way/1361164072"
+  },
+  "Station Service E.Leclerc@49.1189,-0.1746": {
+    "adresse": "Rue de la Gare, 14370",
+    "horaires": "24/7",
+    "osm": "node/13294184703"
+  },
+  "Station-service Intermarché@49.1694,-0.3452": {
+    "horaires": "24/7",
+    "osm": "node/4391851320"
+  },
+  "Super U@49.2002,-0.3976": {
+    "horaires": "Mo-Sa 08:30-20:00",
+    "osm": "way/263542590",
+    "site": "https://www.magasins-u.com/magasin/superu-saintcontest.m22291"
+  },
+  "Tabac L'Antre Potes@49.1872,-0.3660": {
+    "horaires": "Mo-Th 08:00-21:00; Fr 08:00-00:00",
+    "osm": "node/5414371338",
+    "tel": "+33231863001"
+  },
+  "Tabac Presse Pemagnie@49.1836,-0.3689": {
+    "horaires": "Mo-Sa 07:30-20:00",
+    "osm": "node/3790546220",
+    "tel": "+33231855985"
+  },
+  "Tabac Presse Pémagnie@49.1836,-0.3689": {
+    "horaires": "Mo-Sa 07:30-20:00",
+    "osm": "node/3790546220",
+    "tel": "+33231855985"
+  },
+  "Tabac Presse Saint-Ouen@49.1751,-0.3778": {
+    "horaires": "Mo-Sa 09:00-18:00",
+    "osm": "node/7342598894"
+  },
+  "Tabac Presse de l'Abbaye@49.1823,-0.3751": {
+    "osm": "node/10670111505",
+    "tel": "+33987709230"
+  },
+  "Tabac du Château@49.1849,-0.3636": {
+    "horaires": "Th-Sa 08:00-20:00; Su-We 08:00-19:00",
+    "osm": "node/1635290897",
+    "tel": "+33231854984"
+  },
+  "Talemelerie Guillaume@49.1866,-0.3601": {
+    "adresse": "52 Rue du Vaugueux, 14000 Caen",
+    "horaires": "Tu-Sa 06:30-20:00; Su 07:00-19:30",
+    "osm": "node/1993724795",
+    "tel": "+33231938672"
+  },
+  "Tartines et Gourmandises@49.1837,-0.3657": {
+    "horaires": "Tu-Sa 08:30-19:00",
+    "osm": "node/3797793987",
+    "tel": "+33231502432"
+  },
+  "Tartines et Gourmandises@49.1837,-0.3658": {
+    "horaires": "Tu-Sa 08:30-19:00",
+    "osm": "node/3797793987",
+    "tel": "+33231502432"
+  },
+  "The People@49.1819,-0.3481": {
+    "osm": "node/13618413606",
+    "site": "https://www.thepeoplehostel.com/fr/destinations/caen/",
+    "tel": "+33261536940"
+  },
+  "Ty Gibus@49.1938,-0.3676": {
+    "horaires": "Mo-We 12:00-14:00; Th-Fr 12:00-14:00, 19:00-23:00",
+    "osm": "way/155698996",
+    "site": "http://www.olivierbriand.bzh/",
+    "tel": "+33231860133"
+  },
+  "Urban Wash@49.1840,-0.3631": {
+    "horaires": "07:00-22:00",
+    "osm": "node/11888827583",
+    "tel": "+33688105279"
+  },
+  "Vallée des Jardins@49.1953,-0.3730": {
+    "osm": "way/24491628",
+    "photo": "/lieux/vallee-des-jardins-0db5.jpg",
+    "photoCredit": "Roi.dagobert, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Vernon@49.0937,1.4853": {
+    "osm": "relation/74780",
+    "photo": "/lieux/vernon-78c4.jpg",
+    "photoCredit": "Giverny888, CC BY-SA 4.0, Wikimedia Commons",
+    "site": "https://www.vernon27.fr/"
+  },
+  "Viveco market@49.2794,-0.7098": {
+    "horaires": "Mo-Sa 07:00-22:00",
+    "osm": "node/10600910305"
+  },
+  "Yatai Sushis@49.1793,-0.3572": {
+    "horaires": "Mo-Sa 11:00-14:00,18:00-22:00",
+    "osm": "node/1635229250",
+    "tel": "+33689377986"
+  },
+  "Youmaa Café@49.2768,-0.7012": {
+    "horaires": "Tu-Sa 10:00-18:30; Su 13:00-18:30",
+    "osm": "node/11115153579"
+  },
+  "Yver Chocolatier@49.1819,-0.3616": {
+    "horaires": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+    "osm": "node/11560956267",
+    "tel": "+33231947658"
+  },
+  "Zénith Fraîcheur@49.1716,-0.3871": {
+    "adresse": "61 Boulevard Yves Guillou, 14000 Caen",
+    "horaires": "Tu-Sa 07:30-20:00",
+    "osm": "node/4466462648",
+    "tel": "+33250280217"
+  },
+  "À Contre Sens@49.1819,-0.3510": {
+    "horaires": "We-Sa 12:00-13:00,19:30-20:45",
+    "osm": "node/10128288416",
+    "site": "https://www.acontresens.fr/",
+    "tel": "+33231974448"
+  },
+  "Âmbar@49.1817,-0.3614": {
+    "horaires": "Tu-Sa 18:00-01:00; Mo,Su off",
+    "osm": "node/9997413250",
+    "site": "https://ambarcaen.com/",
+    "tel": "+33686138840"
+  },
+  "Église Notre-Dame-du-Bon-Secours@49.3682,0.0810": {
+    "osm": "way/86518022",
+    "photo": "/lieux/eglise-notre-dame-du-bon-secours-6253.jpg",
+    "photoCredit": "Chabe01, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  "Église Saint-Pierre@49.1838,-0.3608": {
+    "osm": "way/154620108",
+    "photo": "/lieux/eglise-saint-pierre-ab8d.jpg",
+    "photoCredit": "Ikmo-ned, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Église Saint-Pierre@49.1841,-0.3607": {
+    "osm": "way/154620108",
+    "photo": "/lieux/eglise-saint-pierre-cb4c.jpg",
+    "photoCredit": "Ikmo-ned, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  "Ô 54@49.2858,-0.2590": {
+    "adresse": "54 Avenue de la Mer",
+    "osm": "node/11557245416",
+    "site": "https://o54-ouistreham.eatbu.com/"
+  }
+}

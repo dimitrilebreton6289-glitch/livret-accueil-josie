@@ -84,16 +84,16 @@ export default async function HomePage({
         {/* Comment entrer */}
         <Link
           href={`${base}/arrivee`}
-          className="flex items-center gap-3 rounded-[22px] bg-ink p-4 text-white shadow-[0_6px_20px_rgba(58,46,41,0.25)] transition-soft active:scale-[0.99]"
+          className="flex items-center gap-3 rounded-[22px] bg-terracotta p-4 text-white shadow-[0_6px_18px_rgba(215,92,69,0.35)] transition-soft active:scale-[0.99]"
         >
-          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-[#e9a23b] text-ink">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-white">
             <DoorOpen size={24} />
           </span>
           <span className="min-w-0 flex-1">
-            <span className="block text-xs text-white/70">{pick(logement.arrivee.horaire, locale)}</span>
+            <span className="block text-xs text-white/85">{pick(logement.arrivee.horaire, locale)}</span>
             <span className="block font-display text-lg font-semibold">{tA("commentEntrer")}</span>
           </span>
-          <span className="flex items-center gap-1 rounded-full bg-white/10 px-3 py-1.5 text-xs font-bold">
+          <span className="flex items-center gap-1 rounded-full bg-white px-3 py-1.5 text-xs font-bold text-terracotta-dark">
             <KeyRound size={14} /> {tA("guide")}
           </span>
         </Link>

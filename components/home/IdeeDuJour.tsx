@@ -39,21 +39,21 @@ export default function IdeeDuJour({ places, coords }: { places: PlaceVM[]; coor
       href={p.itineraire}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex gap-3 overflow-hidden rounded-[22px] bg-ink p-3 text-white shadow-[0_4px_18px_rgba(58,46,41,0.25)] transition-soft active:scale-[0.99]"
+      className="flex gap-3 overflow-hidden rounded-[22px] bg-terracotta-soft p-3 text-ink shadow-[0_2px_14px_rgba(58,46,41,0.07)] transition-soft active:scale-[0.99]"
     >
       {p.photo && (
-        <div className="relative size-24 shrink-0 overflow-hidden rounded-2xl bg-white/10">
+        <div className="relative size-24 shrink-0 overflow-hidden rounded-2xl bg-white/60">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={p.photo} alt={p.nom} className="h-full w-full object-cover" />
         </div>
       )}
       <div className={`min-w-0 py-1 ${p.photo ? "" : "px-2"}`}>
-        <p className="flex items-center gap-1 text-xs font-bold uppercase tracking-wide text-[#f3c98b]">
+        <p className="flex items-center gap-1 text-xs font-bold uppercase tracking-wide text-terracotta-dark">
           {pluieOk ? <CloudRain size={13} /> : <Lightbulb size={13} />}
           {pluieOk ? t("ideePluie") : t("idee")}
         </p>
         <p className="mt-1 font-display text-base font-semibold">{p.nom}</p>
-        <p className="mt-0.5 line-clamp-2 text-xs text-white/75">{p.desc}</p>
+        <p className="mt-0.5 line-clamp-2 text-xs text-ink/75">{p.desc}</p>
         <div className="mt-1.5">
           <BadgeMarche p={p} surPhoto />
         </div>

@@ -60,7 +60,7 @@ export default function Tuiles({
           <p className="font-display text-base font-semibold text-ink">{t("wifi")}</p>
           <p className="truncate text-xs text-muted">{wifiDispo ? reseau : t("pasDeWifi")}</p>
           {wifiDispo && (
-            <span className="mt-2 inline-block rounded-full bg-ink px-3 py-1 text-xs font-bold text-white">
+            <span className="mt-2 inline-block rounded-full bg-terracotta px-3 py-1 text-xs font-bold text-white">
               {t("copierCode")}
             </span>
           )}
@@ -90,7 +90,7 @@ export default function Tuiles({
       {/* Carte */}
       <Link
         href={`${base}/autour?vue=carte`}
-        className={`${carte} bg-[#e6eef0]`}
+        className={`${carte} bg-cream-deep`}
         style={{
           backgroundImage:
             "linear-gradient(90deg, transparent 46%, #fff 46%, #fff 52%, transparent 52%), linear-gradient(20deg, transparent 58%, #fff 58%, #fff 63%, transparent 63%)",
@@ -109,7 +109,7 @@ export default function Tuiles({
       </Link>
 
       {/* Services */}
-      <Link href={aServices ? `${base}/services` : `${base}/depart`} className={`${carte} bg-[#fbe6c9]`}>
+      <Link href={aServices ? `${base}/services` : `${base}/depart`} className={`${carte} bg-terracotta-soft`}>
         <span className="flex size-10 items-center justify-center rounded-2xl bg-white/70 text-terracotta-dark">
           <Sparkles size={20} />
         </span>

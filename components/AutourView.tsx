@@ -164,7 +164,7 @@ export default function AutourView({
                 type="button"
                 onClick={() => setFiltre(f.k)}
                 className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-bold transition-soft ${
-                  filtre === f.k ? "bg-ink text-white" : "bg-surface text-ink/80 shadow-[0_1px_6px_rgba(58,46,41,0.08)]"
+                  filtre === f.k ? "bg-terracotta text-white" : "bg-surface text-ink/80 shadow-[0_1px_6px_rgba(58,46,41,0.08)]"
                 }`}
               >
                 {f.label}

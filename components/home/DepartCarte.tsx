@@ -56,7 +56,7 @@ export default function DepartCarte({
         <button
           type="button"
           onClick={() => setOuvert(true)}
-          className="mt-3 flex w-full items-center justify-center gap-2 rounded-full bg-[#e9a23b] py-3 text-sm font-bold text-ink shadow-[0_4px_14px_rgba(233,162,59,0.35)] transition-soft active:scale-[0.98]"
+          className="mt-3 flex w-full items-center justify-center gap-2 rounded-full bg-terracotta py-3 text-sm font-bold text-white shadow-[0_4px_14px_rgba(215,92,69,0.35)] transition-soft active:scale-[0.98]"
         >
           <Luggage size={18} />
           {t("jePars")}
