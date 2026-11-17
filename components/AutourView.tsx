@@ -26,21 +26,16 @@ import {
   ShieldAlert,
   Heart,
   Footprints,
-  Navigation,
   type LucideIcon,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { CategoryKey } from "@/data/types";
 import MapView from "./MapView";
+import PlaceCard, { type PlaceVM } from "./PlaceCard";
+import { ouvertMaintenant } from "./StatutOuverture";
 import type { MapMarker } from "./Map";
 
-export interface PlaceVM {
-  nom: string;
-  desc: string;
-  itineraire: string;
-  /** Distance à vol d'oiseau depuis le logement, ex. « ~1,2 km ». */
-  distance?: string;
-}
+export type { PlaceVM } from "./PlaceCard";
 
 export interface CategoryVM {
   key: CategoryKey;
@@ -102,6 +97,26 @@ export default function AutourView({
     setTab(searchParams.get("vue") === "carte" ? "map" : "list");
   }, [searchParams]);
 
+  // Filtres rapides : coups de cœur, ouvert maintenant, à l'abri (pluie).
+  const [filtre, setFiltre] = useState<"tous" | "coeur" | "ouvert" | "abri">(
+    searchParams.get("filtre") === "abri" ? "abri" : "tous",
+  );
+  const toutes = categories.flatMap((c) => c.places);
+  const filtrees =
+    filtre === "tous"
+      ? []
+      : toutes
+          .filter((p) =>
+            filtre === "coeur" ? p.coupDeCoeur : filtre === "abri" ? p.abri : ouvertMaintenant(p.horaires) === true,
+          )
+          .sort((a, b) => (a.minutes ?? 999) - (b.minutes ?? 999));
+  const FILTRES = [
+    { k: "tous", label: t("filtreTous") },
+    { k: "coeur", label: t("filtreCoeur") },
+    { k: "ouvert", label: t("filtreOuvert") },
+    { k: "abri", label: t("filtreAbri") },
+  ] as const;
+
   return (
     <div className="px-4 py-4">
       {/* Bascule Carte / Adresses */}
@@ -141,6 +156,36 @@ export default function AutourView({
             <p className="text-[15px] leading-relaxed text-white/90">{coupDeCoeur}</p>
           </section>
 
+          {/* Filtres rapides */}
+          <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
+            {FILTRES.map((f) => (
+              <button
+                key={f.k}
+                type="button"
+                onClick={() => setFiltre(f.k)}
+                className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-bold transition-soft ${
+                  filtre === f.k ? "bg-ink text-white" : "bg-surface text-ink/80 shadow-[0_1px_6px_rgba(58,46,41,0.08)]"
+                }`}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
+
+          {filtre !== "tous" ? (
+            filtrees.length === 0 ? (
+              <p className="rounded-card bg-surface p-5 text-center text-sm text-muted">{t("aucunResultat")}</p>
+            ) : (
+              <ul className="space-y-3">
+                {filtrees.map((p) => (
+                  <li key={p.nom + p.itineraire}>
+                    <PlaceCard p={p} />
+                  </li>
+                ))}
+              </ul>
+            )
+          ) : (
+            <>
           {/* Grille de catégories (liens d'ancrage) */}
           <div className="grid grid-cols-2 gap-3">
             {categories.map((c) => {
@@ -173,35 +218,15 @@ export default function AutourView({
               </h2>
               <ul className="space-y-3">
                 {c.places.map((p) => (
-                  <li
-                    key={p.nom}
-                    className="rounded-card bg-surface p-4 shadow-[0_2px_12px_rgba(58,46,41,0.06)]"
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <p className="font-bold text-ink">{p.nom}</p>
-                      {p.distance && (
-                        <span className="mt-0.5 shrink-0 rounded-full bg-terracotta-soft px-2.5 py-0.5 text-xs font-bold text-terracotta-dark">
-                          {p.distance}
-                        </span>
-                      )}
-                    </div>
-                    <p className="mt-1 text-[15px] leading-relaxed text-ink/80">
-                      {p.desc}
-                    </p>
-                    <a
-                      href={p.itineraire}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-3 inline-flex min-h-10 items-center gap-2 rounded-full bg-cream-deep px-4 text-sm font-bold text-terracotta-dark transition-soft active:scale-95"
-                    >
-                      <Navigation size={16} />
-                      {tc("itinerary")}
-                    </a>
+                  <li key={p.nom + p.itineraire}>
+                    <PlaceCard p={p} />
                   </li>
                 ))}
               </ul>
             </section>
           ))}
+            </>
+          )}
 
           {/* À pied */}
           {aPied.length > 0 && (

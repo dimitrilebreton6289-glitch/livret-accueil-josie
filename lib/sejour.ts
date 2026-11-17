@@ -25,6 +25,7 @@ export type SejourInfo = {
   codes: string | null;
   etatDonne: boolean;
   avisDonne: boolean;
+  departFait?: boolean;
 };
 
 export type Sejour = { r: string; c: string; info: SejourInfo; aujourdhui: string };
@@ -110,7 +111,7 @@ export function useSejour(livret: string): [Sejour | null, () => void] {
 /** Envoie un retour (état à l'arrivée ou avis). */
 export async function envoyerRetour(
   s: Sejour,
-  champs: { type: "etat" | "avis"; toutVaBien?: boolean; note?: number; message?: string; photo?: Blob | null },
+  champs: { type: "etat" | "avis" | "depart"; toutVaBien?: boolean; note?: number; message?: string; photo?: Blob | null },
 ): Promise<boolean> {
   const f = new FormData();
   f.set("r", s.r);

@@ -30,6 +30,10 @@ export async function generateMetadata({
   return {
     title: titre,
     description,
+    // Ajout à l'écran d'accueil (Android : manifeste ; iPhone : appleWebApp).
+    manifest: `/api/manifest/${locale}/${logement.id}`,
+    appleWebApp: { capable: true, title: logement.nom, statusBarStyle: "default" },
+    icons: { apple: "/apple-touch-icon.png" },
     openGraph: {
       title: titre,
       description,

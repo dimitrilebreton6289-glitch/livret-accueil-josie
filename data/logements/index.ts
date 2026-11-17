@@ -6,7 +6,6 @@ import { fleur } from "./fleur";
 import { mer } from "./mer";
 import { boheme } from "./boheme";
 import { saintjean } from "./saintjean";
-import { quais } from "./quais";
 import { monnaie } from "./monnaie";
 import { houlgate1, houlgate2, houlgate3, houlgate4 } from "./houlgate";
 import { malo } from "./malo";
@@ -62,7 +61,7 @@ import { maltot10 } from "./10abc";
  *   2. Importez-le ici et ajoutez-le au tableau ci-dessous.
  * Son livret sera alors accessible sur /<langue>/<id>.
  */
-export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, quais, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul3, tilleul8, cinema, apto, vacherie, adn, boucherie1,
+export const logements: Logement[] = [granville, caen, vaugueux1, fleur, mer, boheme, saintjean, monnaie, houlgate1, houlgate2, houlgate3, houlgate4, malo, memorial, tilleul3, tilleul8, cinema, apto, vacherie, adn, boucherie1,
   boucherie2, boucherie3, chateau, saintpierre, cheztheo, geole, numero4, numero7, duplex, vert, simone, perruche, tilleul2, tilleul4, tilleul9, gemare, thies, demolombe, pigaciere, lappart, loft, maison111, carlito, saintsauveur, bayeuxcave, saintpatrice, ouistreham, trouville, studio29, chezjohan, vauquelin, chezgeo, desmoueux, studio48, maltot10,
 ];
 

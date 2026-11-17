@@ -28,19 +28,19 @@ export default function MenuCard(
     "group flex w-full items-center gap-4 rounded-card p-4 text-left transition-soft active:scale-[0.99]";
   const skin = featured
     ? "bg-terracotta text-white shadow-[0_6px_18px_rgba(215,92,69,0.35)]"
-    : "bg-surface text-ink shadow-[0_2px_12px_rgba(58,46,41,0.06)]";
+    : "bg-surface text-ink shadow-[0_2px_14px_rgba(58,46,41,0.07)]";
 
   const inner = (
     <>
       <span
-        className={`flex size-12 shrink-0 items-center justify-center rounded-full ${
+        className={`flex size-12 shrink-0 items-center justify-center rounded-2xl ${
           featured ? "bg-white/20 text-white" : "bg-terracotta-soft text-terracotta-dark"
         }`}
       >
         <Icon size={24} />
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block truncate font-bold">{label}</span>
+        <span className="block truncate font-display text-[17px] font-semibold">{label}</span>
         {desc && (
           <span
             className={`block truncate text-sm ${

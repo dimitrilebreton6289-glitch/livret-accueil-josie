@@ -17,12 +17,12 @@ export default function InfoCard({
 }) {
   return (
     <section
-      className={`rounded-card bg-surface p-5 shadow-[0_2px_12px_rgba(58,46,41,0.06)] ${className}`}
+      className={`rounded-card bg-surface p-5 shadow-[0_2px_14px_rgba(58,46,41,0.07)] ${className}`}
     >
       {title && (
-        <h3 className="mb-2 flex items-center gap-2 font-display text-base font-semibold text-ink">
+        <h3 className="mb-3 flex items-center gap-2.5 font-display text-[17px] font-semibold text-ink">
           {Icon && (
-            <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-terracotta-soft text-terracotta-dark">
+            <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-terracotta-soft text-terracotta-dark">
               <Icon size={18} />
             </span>
           )}

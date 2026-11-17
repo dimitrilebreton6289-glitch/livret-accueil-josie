@@ -6,14 +6,12 @@ import {
   pick,
   pickList,
   mapsUrl,
-  haversineMeters,
-  formatDistance,
 } from "@/lib/content";
 import type { Lieu } from "@/data/types";
+import { categoriesVM } from "@/lib/lieux-vm";
 import Header from "@/components/Header";
 import AutourView, {
   type CategoryVM,
-  type PlaceVM,
 } from "@/components/AutourView";
 import type { MapMarker } from "@/components/Map";
 
@@ -32,25 +30,12 @@ export default async function AutourPage({
   const a = logement.autourDeMoi;
   const base = `/${logement.id}`;
 
-  // Itinéraire d'un lieu : lien explicite, sinon recherche Google Maps par nom + ville
-  // (plus fiable que des coordonnées approximatives pour un commerce).
   const placeUrl = (l: Lieu) =>
     l.itineraire ?? mapsUrl(`${l.nom}, ${logement.ville}`);
 
-  const toVM = (lieux: Lieu[]): PlaceVM[] =>
-    lieux.map((l) => ({
-      nom: pick(l.nom, locale),
-      desc: pick(l.desc, locale),
-      itineraire: placeUrl(l),
-      distance: l.coords
-        ? `~${formatDistance(haversineMeters(logement.coords, l.coords))}`
-        : undefined,
-    }));
-
-  // Catégories dans l'ordre des données (on n'affiche que celles qui ont des lieux).
-  const categories: CategoryVM[] = a.categories
-    .map((c) => ({ key: c.key, places: toVM(c.lieux) }))
-    .filter((c) => c.places.length > 0);
+  // Catégories dans l'ordre des données (on n'affiche que celles qui ont des lieux),
+  // avec horaires, photo, temps de marche (voir lib/lieux-vm.ts).
+  const categories: CategoryVM[] = categoriesVM(logement, locale);
 
   // Marqueurs : tous les lieux géolocalisés.
   const allLieux: Lieu[] = a.categories.flatMap((c) => c.lieux);

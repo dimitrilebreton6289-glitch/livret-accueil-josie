@@ -25,7 +25,7 @@
   --color-danger: #c0563f;
 
   /* Rayons */
-  --radius-card: 1.25rem; /* ~20px */
+  --radius-card: 1.375rem; /* ~22px */
   --radius-tile: 1rem; /* ~16px */
 
   /* Polices (injectées par next/font dans le layout) */
