@@ -132,7 +132,7 @@ export default async function HomePage({
 
         {/* Adresses à découvrir */}
         <div className="pt-2">
-          <ADecouvrir places={decouvrir} autourHref={`${base}/autour`} />
+          <ADecouvrir places={decouvrir} pool={aDecouvrir(logement, locale, 200)} autourHref={`${base}/autour`} />
         </div>
 
         {/* Météo des prochains jours */}

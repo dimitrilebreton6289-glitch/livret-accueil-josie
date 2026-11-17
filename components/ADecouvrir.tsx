@@ -12,14 +12,27 @@ import StatutOuverture, { ouvertMaintenant } from "./StatutOuverture";
  * coups de cœur d'Agathe et adresses les plus proches, avec photo, temps de
  * marche et « ouvert maintenant ». Filtres rapides : ouvert maintenant, à l'abri.
  */
-export default function ADecouvrir({ places, autourHref }: { places: PlaceVM[]; autourHref: string }) {
+export default function ADecouvrir({
+  places,
+  pool,
+  autourHref,
+}: {
+  places: PlaceVM[];
+  /** Toutes les adresses du logement : les filtres cherchent dedans. */
+  pool: PlaceVM[];
+  autourHref: string;
+}) {
   const t = useTranslations("Autour");
   const [filtre, setFiltre] = useState<"tous" | "ouvert" | "abri">("tous");
   if (places.length === 0) return null;
 
-  const liste = places.filter((p) =>
-    filtre === "tous" ? true : filtre === "abri" ? p.abri : ouvertMaintenant(p.horaires) === true,
-  );
+  const liste =
+    filtre === "tous"
+      ? places
+      : pool
+          .filter((p) => (filtre === "abri" ? p.abri : ouvertMaintenant(p.horaires) === true))
+          .sort((a, b) => (a.minutes ?? 999) - (b.minutes ?? 999))
+          .slice(0, 12);
 
   return (
     <section>
