@@ -41,17 +41,13 @@ export default function IdeeDuJour({ places, coords }: { places: PlaceVM[]; coor
       rel="noopener noreferrer"
       className="flex gap-3 overflow-hidden rounded-[22px] bg-ink p-3 text-white shadow-[0_4px_18px_rgba(58,46,41,0.25)] transition-soft active:scale-[0.99]"
     >
-      <div className="relative size-24 shrink-0 overflow-hidden rounded-2xl bg-white/10">
-        {p.photo ? (
-          // eslint-disable-next-line @next/next/no-img-element
+      {p.photo && (
+        <div className="relative size-24 shrink-0 overflow-hidden rounded-2xl bg-white/10">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={p.photo} alt={p.nom} className="h-full w-full object-cover" />
-        ) : (
-          <div className="flex h-full items-center justify-center text-white/60">
-            <Lightbulb size={28} />
-          </div>
-        )}
-      </div>
-      <div className="min-w-0 py-1">
+        </div>
+      )}
+      <div className={`min-w-0 py-1 ${p.photo ? "" : "px-2"}`}>
         <p className="flex items-center gap-1 text-xs font-bold uppercase tracking-wide text-[#f3c98b]">
           {pluieOk ? <CloudRain size={13} /> : <Lightbulb size={13} />}
           {pluieOk ? t("ideePluie") : t("idee")}

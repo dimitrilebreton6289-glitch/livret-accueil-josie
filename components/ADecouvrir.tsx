@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Heart, MapPin } from "lucide-react";
+import { Heart } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { BadgeMarche, type PlaceVM } from "./PlaceCard";
 import StatutOuverture, { ouvertMaintenant } from "./StatutOuverture";
@@ -60,20 +60,21 @@ export default function ADecouvrir({ places, autourHref }: { places: PlaceVM[]; 
               rel="noopener noreferrer"
               className="w-56 shrink-0 snap-start overflow-hidden rounded-card bg-surface shadow-[0_2px_12px_rgba(58,46,41,0.08)]"
             >
-              <div className="relative h-28 bg-cream-deep">
-                {p.photo ? (
-                  // eslint-disable-next-line @next/next/no-img-element
+              {p.photo && (
+                <div className="relative h-28 bg-cream-deep">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={p.photo} alt={p.nom} loading="lazy" className="h-full w-full object-cover" />
-                ) : (
-                  <div className="flex h-full items-center justify-center text-terracotta/60">
-                    <MapPin size={32} />
+                  <div className="absolute bottom-2 left-2">
+                    <BadgeMarche p={p} surPhoto />
+                  </div>
+                </div>
+              )}
+              <div className="p-3">
+                {!p.photo && (
+                  <div className="mb-1.5">
+                    <BadgeMarche p={p} />
                   </div>
                 )}
-                <div className="absolute bottom-2 left-2">
-                  <BadgeMarche p={p} surPhoto />
-                </div>
-              </div>
-              <div className="p-3">
                 <div className="min-h-4">
                   <StatutOuverture horaires={p.horaires} />
                 </div>
