@@ -32,7 +32,7 @@ const NEARBY: Record<string, Lieu[]> = {
     { nom: "Grain de folie", desc: "Sandwichs et formules à emporter.", coords: [49.1824995, -0.3647361] },
   ],
   bars: [
-    { nom: "Le Tripot", desc: "Bar juste en bas du logement.", coords: [49.1867546, -0.365889] },
+    { nom: "Le Girardot", desc: "Bar juste en bas du logement.", coords: [49.1867546, -0.365889] },
     { nom: "L'Antre Potes", desc: "Bar convivial.", coords: [49.1872949, -0.3661049] },
     { nom: "Nonna", desc: "Coup de cœur d'Agathe, rue Saint-Sauveur.", coords: [49.1830556, -0.3676429] },
     { nom: "Âmbar", desc: "Coup de cœur d'Agathe, boulevard Maréchal Leclerc.", coords: [49.1816815, -0.3614276] },
