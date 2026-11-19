@@ -62,7 +62,7 @@ export const cinema: Logement = {
       {
         texte:
           "Le voyant du clavier passe au vert et le portail s'ouvre tout seul. Entrez et garez-vous sur la place de parking, le long du mur en pierre.",
-        photo: "/logements/cinema/portail-ouvert.jpg",
+        photo: "/logements/cinema/parking.jpg",
       },
       {
         texte:

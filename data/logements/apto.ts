@@ -53,9 +53,6 @@ export const apto: Logement = {
   arrivee: {
     horaire: "Arrivée autonome à partir de 16h",
     checkinExpress: [
-      "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement : le code vous est communiqué par message avant votre arrivée",
-      "Le gîte se trouve dans un corps de ferme en rénovation avec une verrière centrale",
-      "Le portail noir de la cour s'ouvre avec le code 1437# : entrez et allez jusqu'au fond de l'allée, vous êtes arrivés à l'Apto",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     etapes: [
