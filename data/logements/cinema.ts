@@ -125,7 +125,15 @@ export const cinema: Logement = {
         photos: [
           "/logements/cinema/projecteur.jpg",
           "/logements/cinema/telecommande-cinema.jpg",
-          "/logements/cinema/ecran-accueil.jpg",
+        ],
+      },
+      {
+        titre: "📺 Télévision de la chambre",
+        contenu:
+          "La télévision de la chambre s'allume avec le bouton rond en haut à gauche de la télécommande noire. Les boutons Netflix, Prime Video et Disney+ ouvrent directement les applis, et les chaînes en direct sont dans l'appli Molotov.",
+        photos: [
+          "/logements/cinema/telecommande-tv.jpg",
+          "/logements/cinema/tv-accueil.jpg",
         ],
       },
       {
