@@ -60,10 +60,17 @@ export const apto: Logement = {
     ],
     etapes: [
       { texte: "Présentez-vous au 27 rue Éole, à Moult-Chicheboville : un corps de ferme en rénovation, reconnaissable à sa verrière centrale." },
-      { texte: "Ouvrez le portail noir avec le code 1437# (communiqué dans votre message) et entrez dans la cour." },
+      {
+        texte: "Ouvrez le portail noir avec le code 1437# (communiqué dans votre message), sur le clavier fixé au pilier : le voyant passe au vert et le portail s'ouvre tout seul. Entrez dans la cour.",
+        photo: "/logements/apto/portail-clavier.jpg",
+      },
       {
         texte: "Descendez l'allée jusqu'au fond : vos deux places de stationnement vous attendent devant le gîte, le long de la pelouse.",
         photo: "/logements/apto/parking.jpg",
+      },
+      {
+        texte: "Entrez dans le jardin par l'ouverture dans le mur en pierre : le gîte et sa terrasse en bois sont juste derrière.",
+        photo: "/logements/apto/jardin.jpg",
       },
       {
         texte: "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue à l'Apto ! 🍏",
@@ -123,12 +130,23 @@ export const apto: Logement = {
       {
         titre: "🎬 Vidéoprojecteur",
         contenu:
-          "Le salon est équipé d'un vidéoprojecteur qui donne accès aux principales applications de streaming (Netflix, etc.).\n\n⚠️ Aucun abonnement n'est fourni : merci d'utiliser vos propres comptes, et pensez à vous déconnecter avant de partir.",
+          "Le salon est équipé d'un vidéoprojecteur qui donne accès aux principales applications de streaming (Netflix, etc.).\n\n⚠️ Aucun abonnement n'est fourni : merci d'utiliser vos propres comptes, et pensez à vous déconnecter avant de partir.\n\n1️⃣ Allumez-le avec le bouton rouge, en haut à gauche de la télécommande.\n2️⃣ Choisissez une appli avec le rond central (Netflix, YouTube, Prime Video, Orange TV pour les chaînes).",
+        photos: [
+          "/logements/apto/telecommande-projecteur.jpg",
+          "/logements/apto/projecteur-applis.jpg",
+          "/logements/apto/projecteur.jpg",
+        ],
       },
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est proposé en option d'avril à octobre. Chaque créneau dure 4 heures, de 18h à 22h :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nPar exemple, 3 créneaux réservés = 12 heures d'accès au total, par tranches de 4 heures. À réserver idéalement 24 h à l'avance, selon les disponibilités : le jacuzzi est partagé avec un autre logement. Contactez-nous pour réserver vos créneaux !\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est proposé en option d'avril à octobre. Chaque créneau dure 4 heures, de 18h à 22h :\n\n• 1er créneau : 20 €\n• 2e créneau : 15 €\n• 3e créneau : offert\n\nPar exemple, 3 créneaux réservés = 12 heures d'accès au total, par tranches de 4 heures. À réserver idéalement 24 h à l'avance, selon les disponibilités : le jacuzzi est partagé avec un autre logement. Contactez-nous pour réserver vos créneaux !\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n\n🔑 La boîte à clés est fixée sur le poteau en bois, près des vélos.\n🎬 Pour l'écran : allumez le vidéoprojecteur avec le bouton rouge de la télécommande, puis choisissez Netflix ou YouTube avec les flèches et « OK ».",
+        photos: [
+          "/logements/apto/jacuzzi-cabane.jpg",
+          "/logements/apto/jacuzzi-boite-cles.jpg",
+          "/logements/apto/jacuzzi-telecommande.jpg",
+          "/logements/apto/jacuzzi-ecran.jpg",
+        ],
       },
       {
         titre: "🌳 Jardin, piscine & jeux",
@@ -193,7 +211,7 @@ export const apto: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. Le branchement de voiture électrique est interdit sur place. Les photos et tournages commerciaux ne sont pas autorisés. Merci de fermer le logement à clé à votre départ.",
     },
     poubelles:
-      "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
+      "Les conteneurs à poubelles se trouvent dans l'allée, sur la gauche en venant du gîte. D'autres conteneurs sont aussi devant le portail, au bord de la route : vous pouvez utiliser les deux. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
     poubellesPhoto: "/logements/apto/poubelles.jpg",
     animaux: cinema.pratique.animaux,
   },

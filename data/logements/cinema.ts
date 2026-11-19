@@ -60,6 +60,12 @@ export const cinema: Logement = {
       {
         texte:
           "Rendez-vous au 27 rue Éole, à Moult-Chicheboville. Ouvrez le portail de la cour avec le code 1437# et garez-vous à l'intérieur. ⚠️ Il n'y a de la place que pour une seule voiture : si vous venez à deux véhicules, un parking est disponible au niveau de la mairie, un peu plus loin.",
+        photo: "/logements/cinema/portail-clavier.jpg",
+      },
+      {
+        texte:
+          "Le voyant du clavier passe au vert et le portail s'ouvre tout seul. Entrez et garez-vous sur la place de parking, le long du mur en pierre.",
+        photo: "/logements/cinema/portail-ouvert.jpg",
       },
       {
         texte:
@@ -69,10 +75,12 @@ export const cinema: Logement = {
       {
         texte:
           "Ouvrez la porte en bois avec la clé grise : tournez la poignée et poussez. Veillez à bien refermer la porte derrière vous.",
+        photo: "/logements/cinema/porte.jpg",
       },
       {
         texte:
           "Montez ensuite au premier étage : la porte du logement se trouve sur votre gauche. Ouvrez-la avec la clé rouge… et bon séjour ! 🎬",
+        photo: "/logements/cinema/escalier.jpg",
       },
     ],
     arriveeAnticipee: {
@@ -116,7 +124,12 @@ export const cinema: Logement = {
       {
         titre: "🎬 Salle cinéma & streaming",
         contenu:
-          "Le salon est pensé comme une vraie salle de cinéma : vidéoprojecteur XXL, système audio et stores occultants.\n\n• 📺 Pack streaming inclus : Netflix, Disney+, Canal+ et bien d'autres\n• ❌ Prime Video n'est pas proposé\n• 🔑 Pensez à vous déconnecter de vos comptes personnels avant de partir\n\nEt ouvrez l'œil : des clins d'œil à des films cultes sont cachés un peu partout dans le logement ! 🔍",
+          "Le salon est pensé comme une vraie salle de cinéma : vidéoprojecteur XXL, système audio et stores occultants.\n\n• 📺 Pack streaming inclus : Netflix, Disney+, Canal+ et bien d'autres\n• ❌ Prime Video n'est pas proposé\n• 🔑 Pensez à vous déconnecter de vos comptes personnels avant de partir\n\nEt ouvrez l'œil : des clins d'œil à des films cultes sont cachés un peu partout dans le logement ! 🔍\n\n📺 Dans la chambre, la télévision s'allume avec le bouton rond en haut à gauche de la télécommande noire. Les boutons Netflix, Prime Video et Disney+ ouvrent directement les applis, et les chaînes en direct sont dans l'appli Molotov.",
+        photos: [
+          "/logements/cinema/projecteur.jpg",
+          "/logements/cinema/telecommande-tv.jpg",
+          "/logements/cinema/tv-accueil.jpg",
+        ],
       },
       {
         titre: "🎮 Espace gaming",
@@ -126,7 +139,13 @@ export const cinema: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.\n\n🔑 La boîte à clés est fixée sur le poteau en bois, près des vélos.\n🎬 Pour l'écran : allumez le vidéoprojecteur avec le bouton rouge de la télécommande, puis choisissez Netflix ou YouTube avec les flèches et « OK ».",
+        photos: [
+          "/logements/cinema/jacuzzi-cabane.jpg",
+          "/logements/cinema/jacuzzi-boite-cles.jpg",
+          "/logements/cinema/jacuzzi-telecommande.jpg",
+          "/logements/cinema/jacuzzi-ecran.jpg",
+        ],
       },
       {
         titre: "🚴 Vélos",
@@ -150,7 +169,8 @@ export const cinema: Logement = {
       {
         titre: "🌡️ Chauffage & climatisation",
         contenu:
-          "Le logement est équipé de radiateurs et de la climatisation. Merci de limiter votre consommation, de fermer les fenêtres quand le chauffage ou la clim fonctionne, et de tout baisser avant de partir.",
+          "⚠️ Merci de ne pas toucher au radiateur du salon : le logement est chauffé par une pompe à chaleur, réglée à distance par le propriétaire.\n\n🛏️ Seul le radiateur de la chambre peut être réglé, avec le boîtier situé sur le dessus. Pensez à l'éteindre à la fin de votre séjour.\n\nMerci de fermer les fenêtres quand le chauffage ou la clim fonctionne.",
+        photos: ["/logements/cinema/radiateur-chambre.jpg"],
       },
       {
         titre: "👥 Visiteurs",
@@ -195,7 +215,7 @@ export const cinema: Logement = {
         "Logement non-fumeur (cigarette électronique et vapotage compris). Les fêtes et les événements sont interdits. Les animaux ne sont pas acceptés. La recharge de voiture électrique est interdite sur place. Les photos et tournages commerciaux ne sont pas autorisés.",
     },
     poubelles:
-      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
+      "Les conteneurs à poubelles se trouvent dans l'allée, à droite en sortant de la Cinéma Room. D'autres conteneurs sont aussi devant le portail, au bord de la route : vous pouvez utiliser les deux. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : à déposer dans le bac bleu, à côté des poubelles\n🌱 Compost : pour vos déchets alimentaires (épluchures de légumes, fruits, etc.)",
     poubellesPhoto: "/logements/cinema/poubelles.jpg",
     animaux: "Les animaux de compagnie ne sont pas acceptés dans ce logement.",
   },
@@ -239,7 +259,7 @@ export const cinema: Logement = {
     horaire: "Jusqu'à 10h",
     instructions: [
       "Faire la vaisselle, la ranger et vider les poubelles",
-      "Fermer les fenêtres, éteindre les lumières, le vidéoprojecteur et la borne d'arcade, et baisser le chauffage ou la climatisation",
+      "Fermer les fenêtres, éteindre les lumières, le vidéoprojecteur, la borne d'arcade et le radiateur de la chambre",
       "Penser à vous déconnecter des plateformes utilisées avec vos identifiants (Netflix, Disney+, etc.)",
       "Fermer le logement à clé et remettre les clés dans la boîte à clés",
     ],
