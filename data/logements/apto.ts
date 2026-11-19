@@ -117,7 +117,7 @@ export const apto: Logement = {
       {
         titre: "🌿 Un gîte éco-rénové",
         contenu:
-          "Le gîte a été rénové dans une démarche écologique, avec des matériaux naturels (paille, terre, chaux). Le confort est assuré par une pompe à chaleur (chauffage et climatisation) et un poêle à bois. Merci de limiter votre consommation et de tout baisser avant de partir.",
+          "Le gîte a été rénové dans une démarche écologique, avec des matériaux naturels (paille, terre, chaux). Le confort est assuré par une pompe à chaleur (chauffage et climatisation) et un poêle à bois. La pompe à chaleur est réglée à distance : merci de ne pas modifier le réglage.",
       },
       {
         titre: "🔥 Poêle à bois",

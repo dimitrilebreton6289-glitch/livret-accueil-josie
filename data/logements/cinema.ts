@@ -174,7 +174,7 @@ export const cinema: Logement = {
       {
         titre: "🌡️ Chauffage & climatisation",
         contenu:
-          "⚠️ Merci de ne pas toucher au radiateur du salon : le logement est chauffé par une pompe à chaleur, réglée à distance par le propriétaire.\n\n🛏️ Seul le radiateur de la chambre peut être réglé, avec le boîtier situé sur le dessus. Pensez à l'éteindre à la fin de votre séjour.\n\nMerci de fermer les fenêtres quand le chauffage ou la clim fonctionne.",
+          "⚠️ Merci de ne pas toucher au radiateur du salon : le logement est chauffé par une pompe à chaleur, réglée à distance.\n\n🛏️ Seul le radiateur de la chambre peut être réglé, avec le boîtier situé sur le dessus. Pensez à l'éteindre à la fin de votre séjour.\n\nMerci de fermer les fenêtres quand le chauffage ou la clim fonctionne.",
         photos: ["/logements/cinema/radiateur-chambre.jpg"],
       },
       {
