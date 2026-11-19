@@ -63,10 +63,9 @@ export const apto: Logement = {
       },
       {
         texte: "Descendez l'allée jusqu'au fond : vos deux places de stationnement vous attendent devant le gîte, le long de la pelouse.",
-        photo: "/logements/apto/parking.jpg",
       },
       {
-        texte: "Entrez dans le jardin par l'ouverture dans le mur en pierre : le gîte et sa terrasse en bois sont juste derrière.",
+        texte: "Pour entrer dans le jardin, ne passez pas sous le mur en pierre : prenez le petit passage sur la droite. Le gîte et sa terrasse en bois sont juste derrière.",
         photo: "/logements/apto/jardin.jpg",
       },
       {
@@ -117,7 +116,7 @@ export const apto: Logement = {
       {
         titre: "🌿 Un gîte éco-rénové",
         contenu:
-          "Le gîte a été rénové dans une démarche écologique, avec des matériaux naturels (paille, terre, chaux). Le confort est assuré par une pompe à chaleur (chauffage et climatisation) et un poêle à bois. La pompe à chaleur est réglée à distance : merci de ne pas modifier le réglage.",
+          "Le gîte a été rénové dans une démarche écologique, avec des matériaux naturels (paille, terre, chaux). Le confort est assuré par une pompe à chaleur (chauffage et climatisation) et un poêle à bois.",
       },
       {
         titre: "🔥 Poêle à bois",

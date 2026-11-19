@@ -82,7 +82,8 @@ export const cinema: Logement = {
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour la réserver.",
+        "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément. Réservez-la ci-dessous, puis indiquez-nous votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
       "Parking privé gratuit sur place, dans la cour (portail à code : 1437#). ⚠️ Il n'y a de la place que pour une seule voiture : si vous venez à deux véhicules, un parking est disponible au niveau de la mairie, un peu plus loin.\n⚠️ La recharge de voiture électrique est interdite sur place. Bornes de recharge les plus proches : à Bellengreville (~2 km) et au E.Leclerc d'Argences (~4 km).",
@@ -270,8 +271,8 @@ export const cinema: Logement = {
     ],
     departTardif: {
       texte:
-        "Le départ est prévu au plus tard à 10h. Un départ tardif jusqu'à 12h maximum est possible sur demande, selon disponibilité, moyennant un supplément de 10 €. Contactez-nous pour le réserver.",
-      options: [],
+        "Le départ est prévu au plus tard à 10h. Un départ tardif jusqu'à 12h maximum est possible sur demande, selon disponibilité, moyennant un supplément. Réglez-le via le lien ci-dessous, puis indiquez-nous votre heure de départ une fois le paiement effectué.",
+      options: [{ heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" }],
     },
   },
 
