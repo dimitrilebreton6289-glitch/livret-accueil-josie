@@ -8,9 +8,8 @@ import { caen } from "./caen";
  * « Autour de moi », les numéros utiles et le départ tardif de Vaugueux 2.
  * Contenu repris du livret StyQR (my.styqr.fr/s/vaugueux1).
  *
- * Contenu rédigé en français ; seul le mot d'accueil est traduit inline.
- * Les traductions du reste (arrivée, pratique, départ) restent à compléter
- * dans data/i18n-content.ts (sinon affiché en FR).
+ * Contenu rédigé en français ; le mot d'accueil est traduit inline, le reste
+ * dans data/i18n-content.ts et data/i18n-styqr/vaugueux1.ts (5 langues).
  */
 export const vaugueux1: Logement = {
   id: "vaugueux1",
