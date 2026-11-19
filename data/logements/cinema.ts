@@ -51,9 +51,6 @@ export const cinema: Logement = {
   arrivee: {
     horaire: "Arrivée autonome de 16h à 2h du matin",
     checkinExpress: [
-      "Arrivée autonome grâce à une boîte à clés sécurisée, située devant la porte du logement",
-      "Le code de la boîte à clés vous est communiqué par message le jour de votre arrivée",
-      "Le portail de la cour s'ouvre avec le code 1437# : entrez et garez-vous sur le parking privé",
       "⚠️ Le logement n'est pas adapté aux personnes à mobilité réduite",
     ],
     etapes: [
@@ -124,11 +121,11 @@ export const cinema: Logement = {
       {
         titre: "🎬 Salle cinéma & streaming",
         contenu:
-          "Le salon est pensé comme une vraie salle de cinéma : vidéoprojecteur XXL, système audio et stores occultants.\n\n• 📺 Pack streaming inclus : Netflix, Disney+, Canal+ et bien d'autres\n• ❌ Prime Video n'est pas proposé\n• 🔑 Pensez à vous déconnecter de vos comptes personnels avant de partir\n\nEt ouvrez l'œil : des clins d'œil à des films cultes sont cachés un peu partout dans le logement ! 🔍\n\n📺 Dans la chambre, la télévision s'allume avec le bouton rond en haut à gauche de la télécommande noire. Les boutons Netflix, Prime Video et Disney+ ouvrent directement les applis, et les chaînes en direct sont dans l'appli Molotov.",
+          "Le salon est pensé comme une vraie salle de cinéma : vidéoprojecteur XXL, système audio et stores occultants.\n\n• 📺 Pack streaming inclus : Netflix, Disney+, Canal+ et bien d'autres\n• ❌ Prime Video n'est pas proposé\n• 🔑 Pensez à vous déconnecter de vos comptes personnels avant de partir\n\nEt ouvrez l'œil : des clins d'œil à des films cultes sont cachés un peu partout dans le logement ! 🔍\n\n▶️ Pour lancer l'écran : appuyez d'abord sur le bouton on/off du vidéoprojecteur, puis utilisez la télécommande.",
         photos: [
           "/logements/cinema/projecteur.jpg",
-          "/logements/cinema/telecommande-tv.jpg",
-          "/logements/cinema/tv-accueil.jpg",
+          "/logements/cinema/telecommande-cinema.jpg",
+          "/logements/cinema/ecran-accueil.jpg",
         ],
       },
       {
