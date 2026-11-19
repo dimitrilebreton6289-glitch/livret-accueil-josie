@@ -271,8 +271,12 @@ export const cinema: Logement = {
     ],
     departTardif: {
       texte:
-        "Le départ est prévu au plus tard à 10h. Un départ tardif jusqu'à 12h maximum est possible sur demande, selon disponibilité, moyennant un supplément. Réglez-le via le lien ci-dessous, puis indiquez-nous votre heure de départ une fois le paiement effectué.",
-      options: [{ heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" }],
+        "Le départ est prévu au plus tard à 10h. Un départ tardif (12h, 13h ou 14h) est possible sur demande, selon disponibilité, moyennant un supplément. Réglez-le via le lien ci-dessous, puis indiquez-nous votre heure de départ une fois le paiement effectué.",
+      options: [
+        { heure: "12h", url: "https://buy.stripe.com/fZebKA7IW4Oc7egeUU" },
+        { heure: "13h", url: "https://buy.stripe.com/28E9AU4Ew57rfpxgcZ7ss0b" },
+        { heure: "14h", url: "https://buy.stripe.com/dRmeVe8UMgQ95OX4uh7ss0c" },
+      ],
     },
   },
 
