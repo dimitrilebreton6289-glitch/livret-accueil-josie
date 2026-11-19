@@ -81,6 +81,7 @@
     "capacite": "{n, plural, =1 {# huésped máximo} other {# huéspedes máximo}}",
     "nonFumeur": "Alojamiento para no fumadores",
     "fumeurOk": "Permitido fumar",
+    "fumeurExterieur": "Se permite fumar (solo en el exterior)",
     "animauxNon": "No se admiten mascotas",
     "animauxOui": "Se admiten mascotas",
     "evenementsNon": "Prohibidas fiestas y eventos",

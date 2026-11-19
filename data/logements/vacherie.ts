@@ -394,6 +394,7 @@ export const vacherie: Logement = {
     reglementInterieur: {
       capaciteMax: 14,
       nonFumeur: false,
+      fumeurExterieur: true,
       animauxAcceptes: true,
       evenementsAutorises: false,
       horairesCalme: {

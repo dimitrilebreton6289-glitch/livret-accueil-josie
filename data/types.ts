@@ -64,6 +64,9 @@ export interface ReglementInterieur {
   evenementsAutorises: boolean;
   /** Optionnel : si absent, la ligne « tournages » n'est pas affichée. */
   tournagesAutorises?: boolean;
+  /** Avec `nonFumeur: false` : précise que fumer n'est autorisé qu'à l'extérieur
+   *  (libellé « Fumeurs autorisés (à l'extérieur) »). */
+  fumeurExterieur?: boolean;
   horairesCalme: Tx;
   texte: Tx;
 }

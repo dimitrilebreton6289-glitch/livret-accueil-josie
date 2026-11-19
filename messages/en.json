@@ -81,6 +81,7 @@
     "capacite": "{n, plural, =1 {# guest maximum} other {# guests maximum}}",
     "nonFumeur": "Non-smoking property",
     "fumeurOk": "Smoking allowed",
+    "fumeurExterieur": "Smoking allowed (outdoors only)",
     "animauxNon": "No pets allowed",
     "animauxOui": "Pets allowed",
     "evenementsNon": "No parties or events",

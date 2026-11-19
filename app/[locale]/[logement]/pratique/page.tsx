@@ -7,6 +7,7 @@ import {
   PawPrint,
   Users,
   CigaretteOff,
+  Cigarette,
   PartyPopper,
   Camera,
   Moon,
@@ -92,8 +93,12 @@ export default async function PratiquePage({
     [
       { icon: Users, label: t("capacite", { n: r.capaciteMax }), tone: "neutral" },
       {
-        icon: CigaretteOff,
-        label: r.nonFumeur ? t("nonFumeur") : t("fumeurOk"),
+        icon: r.nonFumeur ? CigaretteOff : Cigarette,
+        label: r.nonFumeur
+          ? t("nonFumeur")
+          : r.fumeurExterieur
+            ? t("fumeurExterieur")
+            : t("fumeurOk"),
         tone: r.nonFumeur ? "no" : "ok",
       },
       {
