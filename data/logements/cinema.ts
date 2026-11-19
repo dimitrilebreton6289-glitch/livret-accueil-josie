@@ -144,7 +144,7 @@ export const cinema: Logement = {
       {
         titre: "🛁 Jacuzzi privatif",
         contenu:
-          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (disponible d'avril à octobre, de 18h à 22h).\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n\n⚠️ Merci de nous prévenir à l'avance si vous comptez l'utiliser ou non pendant votre séjour : cela nous permet de l'organiser au mieux.\n\n🔑 La boîte à clés est fixée sur le poteau en bois, près des vélos.\n🎬 Pour l'écran : allumez le vidéoprojecteur avec le bouton rouge de la télécommande, puis choisissez Netflix ou YouTube avec les flèches et « OK ».",
+          "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (d'avril à octobre).\n\n🕒 3 créneaux de 4 heures par jour : 8h–12h, 14h–18h et 19h–23h.\n📅 Réservez au moins 24 h à l'avance, avec le lien de réservation que vous recevez par message : le jacuzzi est partagé avec l'autre logement de la ferme.\n↩️ Annulation possible jusqu'à 48 h avant le créneau.\n🤫 Merci de faire attention au bruit après 22h.\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n🔑 La boîte à clés est fixée sur le poteau en bois, près des vélos.\n🎬 Pour l'écran : allumez le vidéoprojecteur avec le bouton rouge de la télécommande, puis choisissez Netflix ou YouTube avec les flèches et « OK ».",
         photos: [
           "/logements/cinema/jacuzzi-cabane.jpg",
           "/logements/cinema/jacuzzi-boite-cles.jpg",
