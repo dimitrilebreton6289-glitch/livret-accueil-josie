@@ -33,6 +33,8 @@ export const vaugueux1: Logement = {
 
   arrivee: {
     horaire: "À partir de 17h",
+    video: "https://youtube.com/shorts/u6rL3qjGdMk",
+    videoPortrait: true,
     checkinExpress: [
       "Duplex : salon-séjour et cuisine au rez-de-chaussée, chambre à l'étage",
       "Accès par un portillon vert, au fond du passage du 18 rue Graindorge",
