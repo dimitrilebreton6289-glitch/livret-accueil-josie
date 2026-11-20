@@ -14,12 +14,10 @@ function heure(h: string | undefined): string {
 }
 
 /** Ligne supplémentaire propre à un logement (jacuzzi). */
-const JACUZZI: Record<string, string> = {
-  cinema:
-    "➡️ Le jacuzzi privatif est inclus dans votre séjour (d'avril à octobre) : réservez votre créneau au moins 24 h à l'avance depuis le livret, rubrique Infos pratiques > Jacuzzi privatif, bouton « Voir le calendrier et réserver un créneau ».",
-  apto:
-    "➡️ Le jacuzzi privatif est proposé en option (d'avril à octobre : 20 € le créneau de 4 h, le 3e créneau offert) : réservez votre créneau au moins 24 h à l'avance depuis le livret, rubrique Infos pratiques > Jacuzzi privatif, bouton « Voir le calendrier et réserver un créneau ».",
-};
+const LIGNE_JACUZZI =
+  "➡️ Votre logement donne accès à un jacuzzi privatif, partagé avec le logement voisin. Réservez votre créneau (matin, après-midi ou soir) au moins 24 h à l'avance ici :
+https://equipe.josie-conciergerie.fr/jacuzzi/{{hostaway_reservation_id}}?c={{channel_reservation_id}}";
+const JACUZZI: Record<string, string> = { cinema: LIGNE_JACUZZI, apto: LIGNE_JACUZZI };
 
 function message(l: (typeof logements)[number]): string {
   const v = l.arrivee.video;
