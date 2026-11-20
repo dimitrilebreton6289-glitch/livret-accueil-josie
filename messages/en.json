@@ -166,6 +166,8 @@
     "rainTip": "Rain is forecast: here are our ideas for indoor outings (museums, cinema, cafés)."
   },
   "Sejour": {
+    "jacuzziCalendrier": "View the calendar and book a slot",
+    "jacuzziSansLien": "Open the guide from the link sent by message to access the hot tub calendar.",
     "chargement": "Opening your welcome guide…",
     "lienInvalideTitre": "Link unavailable",
     "lienInvalideTexte": "This link is not valid or your stay has ended. Please contact us through your booking messages.",

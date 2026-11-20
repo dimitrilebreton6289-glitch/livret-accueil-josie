@@ -70,6 +70,7 @@ import Bullets from "@/components/Bullets";
 import Chips from "@/components/Chips";
 import VideoEmbed from "@/components/VideoEmbed";
 import Accordion from "@/components/Accordion";
+import JacuzziBouton from "@/components/JacuzziBouton";
 import SectionHeader from "@/components/SectionHeader";
 
 export default async function PratiquePage({
@@ -155,6 +156,7 @@ export default async function PratiquePage({
                   defaultOpen={i === 0}
                 >
                   <p className="whitespace-pre-line">{pick(sec.contenu, locale)}</p>
+                  {sec.action === "jacuzzi" && <JacuzziBouton livret={id} />}
                   {sec.video && (
                     <div className="mt-3">
                       <VideoEmbed

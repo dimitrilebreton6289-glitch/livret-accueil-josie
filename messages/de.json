@@ -166,6 +166,8 @@
     "rainTip": "Es ist Regen angesagt: Hier sind unsere Ideen für Ausflüge im Trockenen (Museen, Kino, Cafés)."
   },
   "Sejour": {
+    "jacuzziCalendrier": "Kalender ansehen und Zeitfenster buchen",
+    "jacuzziSansLien": "Öffnen Sie das Gästebuch über den Link aus der Nachricht, um den Whirlpool-Kalender zu sehen.",
     "chargement": "Ihre Willkommensmappe wird geöffnet…",
     "lienInvalideTitre": "Link nicht verfügbar",
     "lienInvalideTexte": "Dieser Link ist ungültig oder Ihr Aufenthalt ist beendet. Bitte kontaktieren Sie uns über die Nachrichten Ihrer Buchung.",

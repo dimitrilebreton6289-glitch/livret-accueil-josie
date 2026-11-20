@@ -166,6 +166,8 @@
     "rainTip": "De la pluie est annoncée : voici nos idées de sorties à l'abri (musées, cinéma, cafés)."
   },
   "Sejour": {
+    "jacuzziCalendrier": "Voir le calendrier et réserver un créneau",
+    "jacuzziSansLien": "Ouvrez le livret depuis le lien reçu par message pour accéder au calendrier du jacuzzi.",
     "chargement": "Ouverture de votre livret…",
     "lienInvalideTitre": "Lien indisponible",
     "lienInvalideTexte": "Ce lien n'est pas valable ou votre séjour est terminé. Contactez-nous par la messagerie de votre réservation.",

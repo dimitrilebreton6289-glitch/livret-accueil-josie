@@ -144,6 +144,7 @@ export const cinema: Logement = {
       },
       {
         titre: "🛁 Jacuzzi privatif",
+        action: "jacuzzi",
         contenu:
           "Le jacuzzi privatif, équipé d'un vidéoprojecteur, est inclus dans votre séjour, sans supplément (d'avril à octobre).\n\n🕒 3 créneaux de 4 heures par jour : 8h–12h, 14h–18h et 19h–23h.\n📅 Réservez au moins 24 h à l'avance, avec le lien de réservation que vous recevez par message : le jacuzzi est partagé avec l'autre logement de la ferme.\n↩️ Annulation possible jusqu'à 48 h avant le créneau.\n🤫 Merci de faire attention au bruit après 22h.\n\n📍 Il se trouve à l'extérieur, dans le local en bois brûlé. Le code de la boîte à clés permettant d'y accéder vous sera communiqué par message.\n🔑 La boîte à clés est fixée sur le poteau en bois, près des vélos.\n🎬 Pour l'écran : allumez le vidéoprojecteur avec le bouton rouge de la télécommande, puis choisissez Netflix ou YouTube avec les flèches et « OK ».\n📋 Un mode d'emploi du jacuzzi est affiché juste à côté.",
         photos: [
@@ -175,7 +176,7 @@ export const cinema: Logement = {
       {
         titre: "🌡️ Chauffage & climatisation",
         contenu:
-          "⚠️ Merci de ne pas toucher au radiateur du salon : le logement est chauffé par une pompe à chaleur, réglée à distance.\n\n🛏️ Seul le radiateur de la chambre peut être réglé, avec le boîtier situé sur le dessus. Pensez à l'éteindre à la fin de votre séjour.\n\nMerci de fermer les fenêtres quand le chauffage ou la clim fonctionne.",
+          "🌡️ Le logement est chauffé par une pompe à chaleur, réglée à distance : merci de ne pas modifier ses réglages.\n\n🛏️ Le radiateur de la chambre peut être réglé, avec le boîtier situé sur le dessus. Pensez à l'éteindre à la fin de votre séjour.\n\nMerci de fermer les fenêtres quand le chauffage ou la clim fonctionne.",
         photos: ["/logements/cinema/radiateur-chambre.jpg"],
       },
       {

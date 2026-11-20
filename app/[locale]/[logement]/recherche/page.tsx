@@ -37,6 +37,17 @@ export default async function RecherchePage({
     });
   }
 
+  // Infos pratiques : chaque sous-partie (jacuzzi, TV, chauffage…) est cherchable.
+  for (const sec of logement.pratique.aSavoirSections ?? []) {
+    const titre = pick(sec.titre, locale);
+    items.push({
+      title: titre,
+      subtitle: tNav("sections.pratique"),
+      href: `${base}/pratique`,
+      haystack: `${titre} ${pick(sec.contenu, locale)}`.toLowerCase(),
+    });
+  }
+
   // Lieux « autour de moi ».
   for (const c of logement.autourDeMoi.categories) {
     for (const l of c.lieux) {

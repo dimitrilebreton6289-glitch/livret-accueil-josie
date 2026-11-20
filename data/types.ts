@@ -168,6 +168,8 @@ export interface Logement {
       video?: string;
       videoPortrait?: boolean;
       photos?: string[];
+      /** Ajoute le bouton « calendrier du jacuzzi » (lien de séjour requis). */
+      action?: "jacuzzi";
     }[];
     /** Électroménager, en étiquettes. */
     electromenager: string[];

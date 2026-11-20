@@ -166,6 +166,8 @@
     "rainTip": "Se anuncia lluvia: aquí tiene nuestras ideas de salidas a cubierto (museos, cine, cafés)."
   },
   "Sejour": {
+    "jacuzziCalendrier": "Ver el calendario y reservar una franja",
+    "jacuzziSansLien": "Abra la guía desde el enlace recibido por mensaje para acceder al calendario del jacuzzi.",
     "chargement": "Abriendo su guía de bienvenida…",
     "lienInvalideTitre": "Enlace no disponible",
     "lienInvalideTexte": "Este enlace no es válido o su estancia ha terminado. Contáctenos a través de los mensajes de su reserva.",
