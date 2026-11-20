@@ -18,6 +18,7 @@ import IdeeDuJour from "@/components/home/IdeeDuJour";
 import Installer from "@/components/home/Installer";
 import { aDecouvrir, categoriesVM } from "@/lib/lieux-vm";
 import { motAccueilSansNom, titreLogement } from "@/lib/titre-logement";
+import JacuzziCarte from "@/components/JacuzziCarte";
 
 /**
  * Accueil du livret, en « tableau de bord » : grande photo, mot d'Agathe,
@@ -98,6 +99,11 @@ export default async function HomePage({
             <KeyRound size={14} /> {tA("guide")}
           </span>
         </Link>
+
+        {/* Jacuzzi : calendrier de réservation (logements concernés) */}
+        {logement.pratique.aSavoirSections?.some((sec) => sec.action === "jacuzzi") && (
+          <JacuzziCarte livret={logement.id} />
+        )}
 
         {/* Adresse + itinéraire */}
         <a

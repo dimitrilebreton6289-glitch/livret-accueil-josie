@@ -168,6 +168,8 @@
   "Sejour": {
     "jacuzziCalendrier": "Ver el calendario y reservar una franja",
     "jacuzziSansLien": "Abra la guía desde el enlace recibido por mensaje para acceder al calendario del jacuzzi.",
+    "jacuzziTitre": "Jacuzzi privado",
+    "jacuzziResume": "Reserve su franja (mañana, tarde o noche) con al menos 24 h de antelación.",
     "chargement": "Abriendo su guía de bienvenida…",
     "lienInvalideTitre": "Enlace no disponible",
     "lienInvalideTexte": "Este enlace no es válido o su estancia ha terminado. Contáctenos a través de los mensajes de su reserva.",

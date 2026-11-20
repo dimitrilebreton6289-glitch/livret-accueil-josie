@@ -168,6 +168,8 @@
   "Sejour": {
     "jacuzziCalendrier": "Voir le calendrier et réserver un créneau",
     "jacuzziSansLien": "Ouvrez le livret depuis le lien reçu par message pour accéder au calendrier du jacuzzi.",
+    "jacuzziTitre": "Jacuzzi privatif",
+    "jacuzziResume": "Réservez votre créneau (matin, après-midi ou soir) au moins 24 h à l'avance.",
     "chargement": "Ouverture de votre livret…",
     "lienInvalideTitre": "Lien indisponible",
     "lienInvalideTexte": "Ce lien n'est pas valable ou votre séjour est terminé. Contactez-nous par la messagerie de votre réservation.",

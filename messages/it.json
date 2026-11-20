@@ -168,6 +168,8 @@
   "Sejour": {
     "jacuzziCalendrier": "Vedi il calendario e prenota una fascia",
     "jacuzziSansLien": "Aprite la guida dal link ricevuto per messaggio per accedere al calendario della jacuzzi.",
+    "jacuzziTitre": "Jacuzzi privata",
+    "jacuzziResume": "Prenotate la vostra fascia (mattina, pomeriggio o sera) con almeno 24 ore di anticipo.",
     "chargement": "Apertura della guida di benvenuto…",
     "lienInvalideTitre": "Link non disponibile",
     "lienInvalideTexte": "Questo link non è valido o il soggiorno è terminato. Contattateci tramite i messaggi della prenotazione.",

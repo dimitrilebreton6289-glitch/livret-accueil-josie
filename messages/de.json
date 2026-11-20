@@ -168,6 +168,8 @@
   "Sejour": {
     "jacuzziCalendrier": "Kalender ansehen und Zeitfenster buchen",
     "jacuzziSansLien": "Öffnen Sie das Gästebuch über den Link aus der Nachricht, um den Whirlpool-Kalender zu sehen.",
+    "jacuzziTitre": "Privater Whirlpool",
+    "jacuzziResume": "Reservieren Sie Ihr Zeitfenster (morgens, nachmittags oder abends) mindestens 24 Stunden im Voraus.",
     "chargement": "Ihre Willkommensmappe wird geöffnet…",
     "lienInvalideTitre": "Link nicht verfügbar",
     "lienInvalideTexte": "Dieser Link ist ungültig oder Ihr Aufenthalt ist beendet. Bitte kontaktieren Sie uns über die Nachrichten Ihrer Buchung.",

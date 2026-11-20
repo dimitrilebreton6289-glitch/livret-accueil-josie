@@ -168,6 +168,8 @@
   "Sejour": {
     "jacuzziCalendrier": "View the calendar and book a slot",
     "jacuzziSansLien": "Open the guide from the link sent by message to access the hot tub calendar.",
+    "jacuzziTitre": "Private hot tub",
+    "jacuzziResume": "Book your slot (morning, afternoon or evening) at least 24 hours ahead.",
     "chargement": "Opening your welcome guide…",
     "lienInvalideTitre": "Link unavailable",
     "lienInvalideTexte": "This link is not valid or your stay has ended. Please contact us through your booking messages.",
