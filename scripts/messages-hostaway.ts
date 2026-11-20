@@ -8,9 +8,20 @@ import { HOSTAWAY } from "../data/hostaway";
 const LIEN =
   "https://accueil.josie-conciergerie.fr/fr/sejour?r={{hostaway_reservation_id}}&c={{channel_reservation_id}}";
 
-function heure(h: string | undefined): string {
-  const m = /(\d{1,2})\s*h\s*(\d{2})?/i.exec(h ?? "");
-  return m ? `${m[1]}h${m[2] ?? ""}` : "17h";
+type Horaire = string | { fr: string } | undefined;
+function texteHoraire(h: Horaire): string {
+  return typeof h === "string" ? h : (h?.fr ?? "");
+}
+function heure(h: Horaire): string {
+  const m = /(\d{1,2})\s*h\s*(\d{2})?/i.exec(texteHoraire(h));
+  if (!m) throw new Error("Horaire d'arrivée illisible : " + JSON.stringify(h));
+  return `${m[1]}h${m[2] ?? ""}`;
+}
+/** « jusqu'à 22h » = heure limite d'arrivée, pas heure d'ouverture. */
+function phraseEntree(h: Horaire): string {
+  return /jusqu/i.test(texteHoraire(h))
+    ? `L’arrivée autonome est possible jusqu’à ${heure(h)}.`
+    : `L’entrée dans les lieux est possible à partir de ${heure(h)}.`;
 }
 
 /** Ligne supplémentaire propre à un logement (jacuzzi). */
@@ -42,7 +53,7 @@ function message(l: (typeof logements)[number]): string {
     lignes.push("➡️ Les étapes pour accéder au logement sont détaillées dans le livret.", "");
   }
   lignes.push(
-    `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). L’entrée dans les lieux est possible à partir de ${heure(l.arrivee.horaire)}.`,
+    `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). ${phraseEntree(l.arrivee.horaire)}`,
     "",
     "➡️ Si vous souhaitez arriver plus tôt ou partir plus tard que l'horaire habituel, n'hésitez pas à nous le demander à l'avance, cela peut être possible selon les disponibilités.",
     "",
