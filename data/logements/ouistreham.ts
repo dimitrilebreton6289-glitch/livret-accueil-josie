@@ -143,7 +143,7 @@ const CATEGORIES: CategorySection[] = [
  *
  * Refait d'après le livret StyQR « Ouistreham » (export du 2026-11-16, voir le
  * cerveau Josie : raw/documents/livrets-styqr/Ouistreham.md). Arrivée 17h,
- * départ 10h. Animaux acceptés (1 maximum, avec supplément). Non-fumeur, pas
+ * départ 10h. Animaux non acceptés. Non-fumeur, pas
  * de fêtes. PAS DE WIFI. Aucun code en clair dans le livret StyQR. Vidéos
  * YouTube (arrivée + canapé-lit) reprises telles quelles.
  *
@@ -295,7 +295,7 @@ export const ouistreham: Logement = {
     reglementInterieur: {
       capaciteMax: 4,
       nonFumeur: true,
-      animauxAcceptes: true,
+      animauxAcceptes: false,
       evenementsAutorises: false,
       horairesCalme:
         "Merci d'être particulièrement vigilants entre 22h00 et 8h00 afin de respecter le sommeil de chacun, dans le logement comme dans les parties communes (couloirs, escaliers).",
@@ -304,8 +304,7 @@ export const ouistreham: Logement = {
     },
     poubelles:
       "Les poubelles sont à déposer dans le local situé à l'extérieur de la résidence : en sortant de la résidence, prenez à droite, puis encore à droite. Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 51 avenue Andry",
-    animaux:
-      "Votre animal de compagnie est le bienvenu (un seul animal par séjour). Un supplément est appliqué pour son accueil.",
+    animaux: "Les animaux ne sont pas acceptés dans ce logement.",
   },
 
   equipements: [
@@ -326,7 +325,6 @@ export const ouistreham: Logement = {
     "Salle de bain avec douche",
     "Chauffage",
     "Linge de lit & serviettes",
-    "Animaux acceptés (supplément)",
   ],
 
   menageEnSejour: caen.menageEnSejour,
