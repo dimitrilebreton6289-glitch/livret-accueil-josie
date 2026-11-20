@@ -39,7 +39,7 @@ function message(l: (typeof logements)[number]): string {
       "",
     );
   } else if (v) {
-    lignes.push("➡️ Une vidéo explicative pour accéder au logement est disponible dans le livret.", "");
+    lignes.push("➡️ Les étapes pour accéder au logement sont détaillées dans le livret.", "");
   }
   lignes.push(
     `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). L’entrée dans les lieux est possible à partir de ${heure(l.arrivee.horaire)}.`,
