@@ -18,9 +18,12 @@ function heure(h: Horaire): string {
   return `${m[1]}h${m[2] ?? ""}`;
 }
 /** « jusqu'à 22h » = heure limite d'arrivée, pas heure d'ouverture. */
-function phraseEntree(h: Horaire): string {
+const DEBUT_ARRIVEE: Record<string, string> = { saintjean: "17h" };
+function phraseEntree(h: Horaire, id: string): string {
   return /jusqu/i.test(texteHoraire(h))
-    ? `L’arrivée autonome est possible jusqu’à ${heure(h)}.`
+    ? DEBUT_ARRIVEE[id]
+      ? `L’arrivée autonome est possible de ${DEBUT_ARRIVEE[id]} à ${heure(h)}.`
+      : `L’arrivée autonome est possible jusqu’à ${heure(h)}.`
     : `L’entrée dans les lieux est possible à partir de ${heure(h)}.`;
 }
 
@@ -31,9 +34,13 @@ const JACUZZI: Record<string, string> = { cinema: LIGNE_JACUZZI, apto: LIGNE_JAC
 
 /** Logements dont la vidéo d'arrivée du livret ne doit pas être annoncée dans le message. */
 const SANS_VIDEO = new Set(["lappart"]);
+/** Vidéo YouTube d'accès à annoncer dans le message quand elle n'est pas dans arrivee.video. */
+const VIDEO_MESSAGE: Record<string, string> = {
+  vaugueux1: "https://youtube.com/shorts/u6rL3qjGdMk",
+};
 
 function message(l: (typeof logements)[number]): string {
-  const v = SANS_VIDEO.has(l.id) ? undefined : l.arrivee.video;
+  const v = SANS_VIDEO.has(l.id) ? undefined : (VIDEO_MESSAGE[l.id] ?? l.arrivee.video);
   const youtube = v && /^https?:\/\/(www\.)?youtu/.test(v);
   const lignes: string[] = [
     "Afin de préparer au mieux votre arrivée,",
@@ -53,7 +60,7 @@ function message(l: (typeof logements)[number]): string {
     lignes.push("➡️ Les étapes pour accéder au logement sont détaillées dans le livret.", "");
   }
   lignes.push(
-    `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). ${phraseEntree(l.arrivee.horaire)}`,
+    `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). ${phraseEntree(l.arrivee.horaire, l.id)}`,
     "",
     "➡️ Si vous souhaitez arriver plus tôt ou partir plus tard que l'horaire habituel, n'hésitez pas à nous le demander à l'avance, cela peut être possible selon les disponibilités.",
     "",
