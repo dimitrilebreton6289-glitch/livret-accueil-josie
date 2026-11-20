@@ -21,13 +21,18 @@ const COURT: Record<string, string> = {
   it: "Il vostro alloggio",
 };
 
-/** « Votre logement à Caen ». */
-export function titreLogement(l: Pick<Logement, "ville">, locale: string): string {
+/** Livrets dont le nom est une marque connue des voyageurs : on le garde affiché. */
+const NOM_AFFICHE = new Set(["cinema", "apto"]);
+
+/** « Votre logement à Caen » (ou le nom, pour Cinéma Room et L'Apto). */
+export function titreLogement(l: Pick<Logement, "ville"> & Partial<Pick<Logement, "id" | "nom">>, locale: string): string {
+  if (l.id && l.nom && NOM_AFFICHE.has(l.id)) return l.nom;
   return (TITRE[locale] ?? TITRE.fr).replace("{ville}", l.ville);
 }
 
 /** « Votre logement » (étiquettes courtes : carte, nom d'appli). */
-export function titreCourt(locale: string): string {
+export function titreCourt(locale: string, l?: Pick<Logement, "id" | "nom">): string {
+  if (l && NOM_AFFICHE.has(l.id)) return l.nom;
   return COURT[locale] ?? COURT.fr;
 }
 
@@ -36,7 +41,8 @@ export function titreCourt(locale: string): string {
  * cette première phrase quand elle cite le nom interne (le bandeau dit déjà
  * « Bienvenue »).
  */
-export function motAccueilSansNom(texte: string, l: Pick<Logement, "nom">): string {
+export function motAccueilSansNom(texte: string, l: Pick<Logement, "id" | "nom">): string {
+  if (NOM_AFFICHE.has(l.id)) return texte;
   const i = texte.indexOf("!");
   if (i < 0) return texte;
   const sansAccent = (x: string) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();

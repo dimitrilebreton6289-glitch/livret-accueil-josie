@@ -48,7 +48,7 @@ export const apto: Logement = {
   cover: "/logements/apto/cover.jpg",
 
   motAccueil:
-    "Vous êtes dans « le domaine de la pomme », comme on dit en vieux normand ! Ce gîte éco-rénové en paille, terre et chaux vous offre une vraie parenthèse au vert, au calme de la campagne et à seulement 15 minutes de Caen. Côté jardin : plancha, chaises longues, piscine et trampoline ; côté intérieur : poêle à bois et filet suspendu pour paresser. Il ne vous reste plus qu'à ralentir et profiter ! 🍏",
+    "Bienvenue à l'Apto, « le domaine de la pomme » en vieux normand ! Ce gîte éco-rénové en paille, terre et chaux vous offre une vraie parenthèse au vert, au calme de la campagne et à seulement 15 minutes de Caen. Côté jardin : plancha, chaises longues, piscine et trampoline ; côté intérieur : poêle à bois et filet suspendu pour paresser. Il ne vous reste plus qu'à ralentir et profiter ! 🍏",
 
   arrivee: {
     horaire: "Arrivée autonome à partir de 16h",
@@ -69,7 +69,7 @@ export const apto: Logement = {
         photo: "/logements/apto/jardin.jpg",
       },
       {
-        texte: "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue ! 🍏",
+        texte: "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue à l'Apto ! 🍏",
         photo: "/logements/apto/boite-cles.jpg",
       },
     ],

@@ -56,7 +56,7 @@ export default async function AutourPage({
         <Suspense>
           <AutourView
             center={logement.coords}
-            homeLabel={titreCourt(locale)}
+            homeLabel={titreCourt(locale, logement)}
             itinerary={logement.itineraire}
             markers={markers}
             categories={categories}

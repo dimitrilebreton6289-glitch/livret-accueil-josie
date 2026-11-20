@@ -33,7 +33,7 @@ export async function generateMetadata({
     description,
     // Ajout à l'écran d'accueil (Android : manifeste ; iPhone : appleWebApp).
     manifest: `/api/manifest/${locale}/${logement.id}`,
-    appleWebApp: { capable: true, title: titreCourt(locale), statusBarStyle: "default" },
+    appleWebApp: { capable: true, title: titreCourt(locale, logement), statusBarStyle: "default" },
     icons: { icon: [{ url: "/icon.png", sizes: "225x225", type: "image/png" }], apple: "/apple-touch-icon.png" },
     openGraph: {
       title: titre,

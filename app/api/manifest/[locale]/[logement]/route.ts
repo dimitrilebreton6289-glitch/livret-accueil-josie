@@ -15,8 +15,8 @@ export async function GET(
   if (!logement) return NextResponse.json({}, { status: 404 });
   return NextResponse.json(
     {
-      name: `${titreCourt(locale)} · Josie`,
-      short_name: titreCourt(locale),
+      name: `${titreCourt(locale, logement)} · Josie`,
+      short_name: titreCourt(locale, logement),
       start_url: `/${locale}/${logement.id}`,
       scope: `/${locale}/${logement.id}`,
       display: "standalone",
