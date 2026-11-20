@@ -36,6 +36,7 @@ import { studio48Tr } from "./studio48";
 import { maltot10Tr } from "./10abc";
 import { vaugueux1Tr } from "./vaugueux1";
 import { cinemaTr } from "./cinema";
+import { aptoTr } from "./apto";
 
 /**
  * Traductions des livrets refaits depuis StyQR : un fichier par logement
@@ -79,4 +80,5 @@ export const STYQR_CONTENT: Record<string, Tr> = {
   ...maltot10Tr,
   ...vaugueux1Tr,
   ...cinemaTr,
+  ...aptoTr,
 };
