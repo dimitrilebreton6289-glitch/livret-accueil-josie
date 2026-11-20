@@ -18,8 +18,11 @@ const LIGNE_JACUZZI =
   "➡️ Votre logement donne accès à un jacuzzi privatif, partagé avec le logement voisin. Réservez votre créneau (matin, après-midi ou soir) au moins 24 h à l'avance ici :\nhttps://equipe.josie-conciergerie.fr/jacuzzi/{{hostaway_reservation_id}}?c={{channel_reservation_id}}";
 const JACUZZI: Record<string, string> = { cinema: LIGNE_JACUZZI, apto: LIGNE_JACUZZI };
 
+/** Logements dont la vidéo d'arrivée du livret ne doit pas être annoncée dans le message. */
+const SANS_VIDEO = new Set(["lappart"]);
+
 function message(l: (typeof logements)[number]): string {
-  const v = l.arrivee.video;
+  const v = SANS_VIDEO.has(l.id) ? undefined : l.arrivee.video;
   const youtube = v && /^https?:\/\/(www\.)?youtu/.test(v);
   const lignes: string[] = [
     "Afin de préparer au mieux votre arrivée,",
