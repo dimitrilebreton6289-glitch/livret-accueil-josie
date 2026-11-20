@@ -39,9 +39,10 @@ export function titreCourt(locale: string): string {
 export function motAccueilSansNom(texte: string, l: Pick<Logement, "nom">): string {
   const i = texte.indexOf("!");
   if (i < 0) return texte;
+  const sansAccent = (x: string) => x.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const premiere = texte.slice(0, i);
-  const debut = /^(bienvenue|welcome|willkommen|bienvenid|benvenut)/i.test(premiere.trim());
-  if (!debut || !premiere.toLowerCase().includes(l.nom.toLowerCase())) return texte;
+  const debut = /^[¡\s]*(bienvenue|welcome|willkommen|bienvenid|benvenut)/i.test(premiere);
+  if (!debut || !sansAccent(premiere).includes(sansAccent(l.nom))) return texte;
   const reste = texte.slice(i + 1).trimStart();
   return reste ? reste.charAt(0).toUpperCase() + reste.slice(1) : texte;
 }

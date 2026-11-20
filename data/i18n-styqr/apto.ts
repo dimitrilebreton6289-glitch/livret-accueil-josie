@@ -26,11 +26,11 @@ export const aptoTr: Record<string, Tr> = {
     es: "Para entrar en el jardín, no pase bajo el muro de piedra: tome el pequeño paso de la derecha. El gîte y su terraza de madera están justo detrás.",
     it: "Per entrare in giardino, non passate sotto il muro di pietra: prendete il piccolo passaggio sulla destra. Il gîte e la sua terrazza in legno sono subito dietro.",
   },
-  "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue à l'Apto ! 🍏": {
-    en: "The secure key box is fixed to the stone wall, just to the left of the gîte's glass door: enter the code from your message, take the key… and welcome to the Apto! 🍏",
-    de: "Der Schlüsselsafe ist an der Steinmauer links neben der Glastür des Ferienhauses befestigt: Geben Sie den Code aus Ihrer Nachricht ein, nehmen Sie den Schlüssel … und willkommen im Apto! 🍏",
-    es: "La caja de llaves de seguridad está fijada al muro de piedra, justo a la izquierda de la puerta acristalada del gîte: marque el código recibido por mensaje, coja la llave… ¡y bienvenido al Apto! 🍏",
-    it: "La cassetta di sicurezza per le chiavi è fissata al muro di pietra, subito a sinistra della porta a vetri del gîte: digitate il codice ricevuto per messaggio, prendete la chiave… e benvenuti all'Apto! 🍏",
+  "La boîte à clés sécurisée est fixée sur le mur en pierre, juste à gauche de la porte vitrée du gîte : composez le code reçu par message, récupérez la clé… et bienvenue ! 🍏": {
+    en: "The secure key box is fixed to the stone wall, just to the left of the gîte's glass door: enter the code from your message, take the key… and welcome! 🍏",
+    de: "Der Schlüsselsafe ist an der Steinmauer links neben der Glastür des Ferienhauses befestigt: Geben Sie den Code aus Ihrer Nachricht ein, nehmen Sie den Schlüssel … und willkommen! 🍏",
+    es: "La caja de llaves de seguridad está fijada al muro de piedra, justo a la izquierda de la puerta acristalada del gîte: marque el código recibido por mensaje, coja la llave… ¡y bienvenido! 🍏",
+    it: "La cassetta di sicurezza per le chiavi è fissata al muro di pietra, subito a sinistra della porta a vetri del gîte: digitate il codice ricevuto per messaggio, prendete la chiave… e benvenuti! 🍏",
   },
   "Vous souhaitez arriver plus tôt ? Une arrivée anticipée à partir de 14h30 est possible sur demande, selon disponibilité, moyennant un supplément. Réservez-la ci-dessous, puis indiquez-nous votre heure d'arrivée une fois le paiement effectué.": {
     en: "Would you like to arrive earlier? Early arrival from 2:30 pm is possible on request, subject to availability, for an extra fee. Book it below, then tell us your arrival time once payment is made.",
