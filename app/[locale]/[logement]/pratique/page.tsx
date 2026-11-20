@@ -151,6 +151,7 @@ export default async function PratiquePage({
                 return (
                 <Accordion
                   key={i}
+                  id={`sec-${i}`}
                   icon={Icon ? <Icon size={20} /> : undefined}
                   title={label}
                   defaultOpen={i === 0}

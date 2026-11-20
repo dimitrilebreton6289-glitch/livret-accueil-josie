@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 /** Carte dépliable : en-tête cliquable + contenu animé. */
@@ -9,17 +9,33 @@ export default function Accordion({
   title,
   children,
   defaultOpen = false,
+  id,
 }: {
   /** Icône déjà rendue (ex. <Clock size={20} />). */
   icon?: React.ReactNode;
   title: React.ReactNode;
   children: React.ReactNode;
   defaultOpen?: boolean;
+  /** Ancre : un lien « …#id » ouvre cette carte et y fait défiler la page. */
+  id?: string;
 }) {
   const [open, setOpen] = useState(defaultOpen);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!id) return;
+    const aller = () => {
+      if (window.location.hash !== `#${id}`) return;
+      setOpen(true);
+      setTimeout(() => ref.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 350);
+    };
+    aller();
+    window.addEventListener("hashchange", aller);
+    return () => window.removeEventListener("hashchange", aller);
+  }, [id]);
 
   return (
-    <div className="overflow-hidden rounded-card bg-surface shadow-[0_2px_12px_rgba(58,46,41,0.06)]">
+    <div id={id} ref={ref} className="scroll-mt-20 overflow-hidden rounded-card bg-surface shadow-[0_2px_12px_rgba(58,46,41,0.06)]">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}

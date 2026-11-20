@@ -38,12 +38,12 @@ export default async function RecherchePage({
   }
 
   // Infos pratiques : chaque sous-partie (jacuzzi, TV, chauffage…) est cherchable.
-  for (const sec of logement.pratique.aSavoirSections ?? []) {
+  for (const [i, sec] of (logement.pratique.aSavoirSections ?? []).entries()) {
     const titre = pick(sec.titre, locale);
     items.push({
       title: titre,
       subtitle: tNav("sections.pratique"),
-      href: `${base}/pratique`,
+      href: `${base}/pratique#sec-${i}`,
       haystack: `${titre} ${pick(sec.contenu, locale)}`.toLowerCase(),
     });
   }
