@@ -118,7 +118,8 @@ export const caponiere46 = {
     "Le dépôt de bagages est possible, sous réserve de disponibilité du logement. Merci d'en faire la demande en amont afin que nous puissions vous confirmer la faisabilité.",
   arriveeAnticipee: {
     texte:
-      "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+      "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+    url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
   },
   poubelles:
     "Les poubelles se trouvent dans les bacs à l'extérieur, juste à côté du salon de coiffure « Henriette ». Merci de bien trier vos déchets :\n🟡 Bac jaune : emballages et déchets recyclables\n⚫ Bac gris : ordures ménagères\n🍷 Verre : conteneur au 4 place de l'Ancienne Boucherie",

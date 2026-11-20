@@ -150,7 +150,8 @@ export const chateau: Logement = {
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
       "Une place de stationnement privée et sécurisée vous est réservée dans la résidence (place n° 24). Ouvrez la porte du garage avec la télécommande du trousseau.\nSi besoin, stationnement payant en journée (9h-12h30 et 14h-19h) rue de la Pigacière, rue du Vaugueux, avenue de la Libération, rue de la Délivrande et rue Doyen Morière.\nParkings souterrains payants : Mairie, Château et Paul Doumer. Tarifs : indigoneo.fr",

@@ -67,6 +67,11 @@ export const caen: Logement = {
           "Montez les quelques marches extérieures : l'appartement se situe en rez-de-chaussée surélevé. Bienvenue chez vous !",
       },
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Stationnement payant autour de l'appartement.\nPlace Courtonne et sur le port (parking avec barrière).\nEn voirie : rues Basse, Buquet, des Prairies Saint-Gilles, du Vaugueux et Graindorge (payant de 9h à 12h30 et de 14h à 19h).\nParking souterrain du Château, tout proche.\n⚠️ Évitez le port le samedi soir : le marché s'y tient le dimanche matin.",
     bagages:

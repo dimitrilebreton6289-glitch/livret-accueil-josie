@@ -139,7 +139,8 @@ export const geole: Logement = {
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
       "Un parking privé et sécurisé se trouve dans la résidence. Les places ne sont pas attribuées : vous pouvez vous garer s'il y a de la place à votre arrivée.\nSi besoin, stationnement payant en journée (9h-12h30 et 14h-19h) fossés Saint-Julien, rue Chanoine Xavier de Saint-Paul, rue Gemare et parking de la place de la Mare (en face du tram).\nParkings souterrains payants : Mairie, Château et Paul Doumer. Tarifs : indigoneo.fr",

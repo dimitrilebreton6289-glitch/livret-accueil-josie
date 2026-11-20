@@ -14,6 +14,7 @@ import AutourView, {
   type CategoryVM,
 } from "@/components/AutourView";
 import type { MapMarker } from "@/components/Map";
+import { titreCourt } from "@/lib/titre-logement";
 
 export default async function AutourPage({
   params,
@@ -55,7 +56,7 @@ export default async function AutourPage({
         <Suspense>
           <AutourView
             center={logement.coords}
-            homeLabel={logement.nom}
+            homeLabel={titreCourt(locale)}
             itinerary={logement.itineraire}
             markers={markers}
             categories={categories}

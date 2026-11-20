@@ -65,6 +65,11 @@ export const vaugueux1: Logement = {
           "Une fois dans la cour, montez les escaliers et passez la porte en bois. Votre porte est la première à droite : ouvrez-la avec l'autre clé. Pour verrouiller, levez la poignée puis tournez la clé. Bienvenue chez vous !",
       },
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Stationnement payant en journée (de 9h à 12h30 et de 14h à 19h) dans les rues Graindorge, du Vaugueux, avenue de la Libération et Montoir-Poissonnerie.\nParkings souterrains payants : Mairie, Château, Paul Doumer.\nTarifs des parkings : indigoneo.fr",
     bagages:

@@ -56,11 +56,11 @@ export const bayeuxcaveTr: Record<string, Tr> = {
     es: "Suba las escaleras hasta la última planta (¡atención, se sube bastante!). El apartamento es la única puerta del rellano: abra con la llave. ¡Bienvenido a casa! 🙂",
     it: "Salite le scale fino all'ultimo piano (attenzione, si sale parecchio!). L'appartamento è l'unica porta del pianerottolo: aprite con la chiave. Benvenuti! 🙂",
   },
-  "Vous souhaitez arriver avant 17h30 ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.": {
-    en: "Would you like to arrive before 5:30 p.m.? An early check-in is possible, subject to availability and on prior request. Contact us to ask for it.",
-    de: "Möchten Sie vor 17:30 Uhr anreisen? Ein früher Check-in ist je nach Verfügbarkeit und auf vorherige Anfrage möglich. Kontaktieren Sie uns dafür.",
-    es: "¿Desea llegar antes de las 17:30? La llegada anticipada es posible, según disponibilidad y previa solicitud. Contáctenos para pedirla.",
-    it: "Desiderate arrivare prima delle 17:30? L'arrivo anticipato è possibile, in base alla disponibilità e su richiesta preventiva. Contattateci per richiederlo.",
+  "Vous souhaitez arriver avant 17h30 ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.": {
+    en: "Would you like to arrive before 5:30 p.m.? An early check-in is possible on request (surcharge), subject to availability. Book it below, then let me know your arrival time once payment is made.",
+    de: "Möchten Sie vor 17:30 Uhr anreisen? Eine frühe Anreise ist auf Anfrage möglich (Aufpreis), je nach Verfügbarkeit. Buchen Sie sie unten und teilen Sie mir nach der Zahlung Ihre Ankunftszeit mit.",
+    es: "¿Desea llegar antes de las 17:30? Es posible una entrada anticipada bajo petición (suplemento), según disponibilidad. Resérvela a continuación e indíqueme su hora de llegada una vez realizado el pago.",
+    it: "Desiderate arrivare prima delle 17:30? Un arrivo anticipato è possibile su richiesta (supplemento), secondo disponibilità. Prenotatelo qui sotto, poi comunicatemi l'orario di arrivo una volta effettuato il pagamento.",
   },
   "Stationnement gratuit dans les rues voisines : rue de la Cave, avenue Georges Clemenceau et rue Saint-Jean.": {
     en: "Free parking in the nearby streets: rue de la Cave, avenue Georges Clemenceau and rue Saint-Jean.",

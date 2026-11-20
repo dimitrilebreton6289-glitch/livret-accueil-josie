@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getLogement, getLogementIds } from "@/data/logements";
 import BottomNav from "@/components/BottomNav";
 import WifiSheet from "@/components/WifiSheet";
+import { titreCourt, titreLogement } from "@/lib/titre-logement";
 
 /** Pré-génère les pages de chaque logement. */
 export function generateStaticParams() {
@@ -24,7 +25,7 @@ export async function generateMetadata({
   if (!logement) return {};
 
   const t = await getTranslations({ locale, namespace: "Nav" });
-  const titre = `${logement.nom} — ${t("appTitle")}`;
+  const titre = `${titreLogement(logement, locale)} — ${t("appTitle")}`;
   const description = `${t("appTitle")} · ${logement.ville}`;
 
   return {
@@ -32,14 +33,14 @@ export async function generateMetadata({
     description,
     // Ajout à l'écran d'accueil (Android : manifeste ; iPhone : appleWebApp).
     manifest: `/api/manifest/${locale}/${logement.id}`,
-    appleWebApp: { capable: true, title: logement.nom, statusBarStyle: "default" },
-    icons: { apple: "/apple-touch-icon.png" },
+    appleWebApp: { capable: true, title: titreCourt(locale), statusBarStyle: "default" },
+    icons: { icon: [{ url: "/icon.png", sizes: "225x225", type: "image/png" }], apple: "/apple-touch-icon.png" },
     openGraph: {
       title: titre,
       description,
       type: "website",
       locale,
-      images: [{ url: logement.cover, alt: logement.nom }],
+      images: [{ url: logement.cover, alt: titreLogement(logement, locale) }],
     },
     twitter: {
       card: "summary_large_image",

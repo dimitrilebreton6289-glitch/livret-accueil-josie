@@ -1,4 +1,5 @@
 import type { Logement } from "../types";
+import { caen } from "./caen";
 
 /**
  * Logement « Granville ».
@@ -61,6 +62,11 @@ export const granville: Logement = {
         photo: "/logements/granville/arrivee-3.jpg",
       },
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 16h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Stationnement gratuit et facile dans la rue, devant la maison ou à quelques mètres.",
     bagages:
@@ -179,6 +185,8 @@ export const granville: Logement = {
       "Bien verrouiller la porte d'entrée et le portillon",
       "Remettre les clés dans la boîte à code",
     ],
+    // Départ tardif payant : mêmes options (12h / 13h / 14h) que les autres logements.
+    departTardif: caen.depart.departTardif,
   },
 
   quartier: {

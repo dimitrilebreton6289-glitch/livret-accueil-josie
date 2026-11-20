@@ -131,7 +131,8 @@ export const demolombe: Logement = {
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
       "Stationnement payant en journée (9h-12h30 et 14h-19h) rue Demolombe, rue aux Namps, rue des Croisiers et rue Pasteur.\nParkings souterrains payants : Mairie et Paul Doumer. Tarifs : indigoneo.fr",

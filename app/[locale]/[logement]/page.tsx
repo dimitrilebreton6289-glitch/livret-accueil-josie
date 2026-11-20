@@ -17,6 +17,7 @@ import DepartCarte from "@/components/home/DepartCarte";
 import IdeeDuJour from "@/components/home/IdeeDuJour";
 import Installer from "@/components/home/Installer";
 import { aDecouvrir, categoriesVM } from "@/lib/lieux-vm";
+import { motAccueilSansNom, titreLogement } from "@/lib/titre-logement";
 
 /**
  * Accueil du livret, en « tableau de bord » : grande photo, mot d'Agathe,
@@ -56,11 +57,11 @@ export default async function HomePage({
         {/* Grande photo + nom du logement (+ jour du séjour avec un lien de séjour) */}
         <section className="relative h-64 overflow-hidden rounded-[28px] shadow-[0_8px_28px_rgba(58,46,41,0.18)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={logement.cover} alt={logement.nom} className="absolute inset-0 h-full w-full object-cover" />
+          <img src={logement.cover} alt={titreLogement(logement, locale)} className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#2b1f1a]/85 via-[#2b1f1a]/25 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 p-5">
             <p className="text-sm font-semibold text-white/85">{tA("bienvenue")}</p>
-            <h1 className="font-display text-[30px] font-semibold leading-tight text-white">{logement.nom}</h1>
+            <h1 className="font-display text-[30px] font-semibold leading-tight text-white">{titreLogement(logement, locale)}</h1>
             <HeroSejour livret={logement.id} />
           </div>
         </section>
@@ -70,7 +71,7 @@ export default async function HomePage({
 
         {/* Mot d'Agathe */}
         <section className={`${carte} p-5`}>
-          <p className="text-[15px] italic leading-relaxed text-ink/85">« {pick(logement.motAccueil, locale)} »</p>
+          <p className="text-[15px] italic leading-relaxed text-ink/85">« {motAccueilSansNom(pick(logement.motAccueil, locale), logement)} »</p>
           <div className="mt-3 flex items-center gap-2">
             <JosieAvatar size={30} />
             <span className="text-sm font-bold text-terracotta-dark">Agathe</span>

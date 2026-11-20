@@ -121,7 +121,8 @@ export const maltot10: Logement = {
     ],
     arriveeAnticipee: {
       texte:
-        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable. Contactez-nous pour la demander.",
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
     },
     parking:
       "Stationnement gratuit rue de Maltot, venelle aux Loups, rue Caponière (à partir du bar-tabac), rue du Mesnil et rue de Bretteville.\nParkings souterrains payants dans le centre : Mairie, Château, Paul Doumer et place de la République. Tarifs : indigoneo.fr",

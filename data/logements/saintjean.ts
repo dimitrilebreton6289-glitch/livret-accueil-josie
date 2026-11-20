@@ -139,6 +139,11 @@ export const saintjean: Logement = {
           "Ouvrez la porte avec la clé : faites un à deux tours, puis un quart de tour pour déverrouiller. ⚠️ Ne laissez jamais les clés à l'intérieur : la porte se verrouille automatiquement dès qu'elle se referme (elle claque).",
       },
     ],
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Le logement se situe en plein centre-ville : il n'y a pas de place de parking privée.\nStationnement payant en voirie dans le secteur (horodateurs) et plusieurs parkings publics à proximité (Parking de la République, Parking du Théâtre, Parking de la gare). Pensez à l'appli de stationnement de la ville pour payer à distance.", // TODO: confirmer parkings recommandés
     bagages:

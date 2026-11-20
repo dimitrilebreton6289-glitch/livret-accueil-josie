@@ -35,6 +35,11 @@ export const boheme: Logement = {
       "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.",
     ],
     video: "https://youtube.com/shorts/s5HVlo7Qq3M",
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Stationnement gratuit dans la rue de l'appartement (rue Desmoueux) et les rues voisines : avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie. Selon l'heure d'arrivée, il n'est pas toujours évident de trouver une place.\nStationnement payant (9h–12h30 et 14h–19h, gratuit les dimanches et jours fériés) : rue des Fossés Saint-Julien, Place de la Mare.\nParking souterrain de la Mairie (payant), tout proche.",
     bagages:

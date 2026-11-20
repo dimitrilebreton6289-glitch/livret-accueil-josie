@@ -98,6 +98,11 @@ export const fleur: Logement = {
       "Une arrivée anticipée est possible, sous réserve de disponibilité et sur demande préalable.",
     ],
     video: "https://youtube.com/shorts/6nbLYcgaGWk",
+    arriveeAnticipee: {
+      texte:
+        "Vous souhaitez arriver avant 17h ? Une arrivée anticipée est possible sur demande (supplément), selon disponibilité. Réservez-la ci-dessous, puis indiquez-moi votre heure d'arrivée une fois le paiement effectué.",
+      url: "https://buy.stripe.com/8x2eVeef67fzgtB3qd7ss0i",
+    },
     parking:
       "Une place de parking gratuite vous est réservée, juste devant l'entrée de l'immeuble — place non sécurisée (ni barrière, ni portail, ni code).\nPour un second véhicule, stationnement gratuit dans les rues voisines : rue Desmoueux, avenue Bagatelle, rue du Docteur Leverrier, rue du XXᵉ Siècle, rue du Dr Reyer, rue de l'Académie.\nStationnement payant (9h–12h30 et 14h–19h) : Place de la Mare, Les Fossés Saint-Julien.\nParking souterrain de la Mairie (payant), tout proche.",
     bagages:

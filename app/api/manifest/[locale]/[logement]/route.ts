@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getLogement } from "@/data/logements";
+import { titreCourt } from "@/lib/titre-logement";
 
 /**
  * Manifeste « application » d'un livret : permet d'ajouter le livret de CE
@@ -14,8 +15,8 @@ export async function GET(
   if (!logement) return NextResponse.json({}, { status: 404 });
   return NextResponse.json(
     {
-      name: `${logement.nom} · Josie`,
-      short_name: logement.nom,
+      name: `${titreCourt(locale)} · Josie`,
+      short_name: titreCourt(locale),
       start_url: `/${locale}/${logement.id}`,
       scope: `/${locale}/${logement.id}`,
       display: "standalone",
