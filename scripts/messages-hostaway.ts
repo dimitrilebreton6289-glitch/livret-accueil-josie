@@ -15,8 +15,7 @@ function heure(h: string | undefined): string {
 
 /** Ligne supplémentaire propre à un logement (jacuzzi). */
 const LIGNE_JACUZZI =
-  "➡️ Votre logement donne accès à un jacuzzi privatif, partagé avec le logement voisin. Réservez votre créneau (matin, après-midi ou soir) au moins 24 h à l'avance ici :
-https://equipe.josie-conciergerie.fr/jacuzzi/{{hostaway_reservation_id}}?c={{channel_reservation_id}}";
+  "➡️ Votre logement donne accès à un jacuzzi privatif, partagé avec le logement voisin. Réservez votre créneau (matin, après-midi ou soir) au moins 24 h à l'avance ici :\nhttps://equipe.josie-conciergerie.fr/jacuzzi/{{hostaway_reservation_id}}?c={{channel_reservation_id}}";
 const JACUZZI: Record<string, string> = { cinema: LIGNE_JACUZZI, apto: LIGNE_JACUZZI };
 
 function message(l: (typeof logements)[number]): string {
