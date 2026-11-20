@@ -31,7 +31,9 @@ function message(l: (typeof logements)[number]): string {
     "Ce lien est personnel : gardez-le, il vous accompagne pendant tout le séjour.",
     "",
   ];
-  if (youtube) {
+  if (SANS_VIDEO.has(l.id)) {
+    lignes.push("➡️ Les étapes pour accéder au logement sont détaillées dans le livret.", "");
+  } else if (youtube) {
     lignes.push(
       `➡️ Une vidéo explicative pour accéder au logement est également disponible ici : ${v!.replace("youtube.com/watch?v=", "youtube.com/watch?v=")}`,
       "",
