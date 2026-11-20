@@ -44,6 +44,8 @@ function message(l: (typeof logements)[number]): string {
   lignes.push(
     `➡️ Le code d’accès vous sera communiqué le jour de votre arrivée (il s'affichera aussi directement dans le livret). L’entrée dans les lieux est possible à partir de ${heure(l.arrivee.horaire)}.`,
     "",
+    "➡️ Si vous souhaitez arriver plus tôt ou partir plus tard que l'horaire habituel, n'hésitez pas à nous le demander à l'avance, cela peut être possible selon les disponibilités.",
+    "",
     ...(JACUZZI[l.id] ? [JACUZZI[l.id], ""] : []),
     "➡️ Le jour de votre départ, une petite check-list est proposée dans le livret : appuyez sur « Je pars » pour prévenir directement notre équipe ménage.",
     "",
